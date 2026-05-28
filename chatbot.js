@@ -400,15 +400,31 @@
     }
 
     // ==================== 关键词搜索 ====================
+    // 停用词：问句中不参与搜索的常见词
+    var STOP_WORDS = ['今天','今日','昨天','昨日','最近','近','一周','一个月','帮我','找找','一下','有哪些','有什么','是什么',
+        '有没有','怎么样','如何','哪个','什么','多少','哪些','怎么','请','请问','告诉我','我想','知道','了解','看看','关于',
+        '的','吗','呢','呀','啊','吧','哦','哈','哪','在','了','是','有','我','你','这','那','和','与','及','或','中'];
+
+    function extractKeywords(query) {
+        // 移除日期相关的词和停用词，提取有意义的搜索关键词
+        var cleaned = query
+            .replace(/(\d{1,2})月(\d{1,2})日/g, '')
+            .replace(/[，。！？、；：""''（）【】《》\s,.!?;:'"()\[\]{}]+/g, ' ')
+            .trim();
+        var words = cleaned.split(/\s+/).filter(function(w) {
+            return w.length >= 2 && STOP_WORDS.indexOf(w) === -1;
+        });
+        return words;
+    }
+
     function keywordSearch(query, allData) {
         var results = [];
-        var lower = query.toLowerCase();
-
-        // 提取厂商名
+        var keywords = extractKeywords(query);
         var vendorNames = getVendorMatches(query);
-
-        // 日期过滤
         var dateFilter = parseDateFilter(query);
+
+        // 如果是泛问（没有具体关键词也没有指定厂商），但有日期过滤，返回当天全部新闻
+        var isBroadQuery = keywords.length === 0 && vendorNames.length === 0;
 
         for (var d = 0; d < allData.length; d++) {
             var date = allData[d].date;
@@ -422,7 +438,7 @@
                 vendors.forEach(function(v) {
                     if (vendorNames.length && vendorNames.indexOf(v.name) === -1) return;
                     (v.news || []).forEach(function(item) {
-                        if (matchItem(item, lower)) {
+                        if (isBroadQuery || matchKeywords(item, keywords)) {
                             results.push({ date: date, item: item, vendor: v.name, section: sk });
                         }
                     });
@@ -434,7 +450,7 @@
             cats.forEach(function(cat) {
                 (cat.cards || []).forEach(function(card) {
                     (card.news || []).forEach(function(item) {
-                        if (matchItem(item, lower)) {
+                        if (isBroadQuery || matchKeywords(item, keywords)) {
                             results.push({ date: date, item: item, vendor: card.title, section: 'other' });
                         }
                     });
@@ -445,6 +461,14 @@
         // 按日期倒序
         results.sort(function(a, b) { return b.date.localeCompare(a.date); });
         return results;
+    }
+
+    function matchKeywords(item, keywords) {
+        if (keywords.length === 0) return true;
+        var text = ((item.title || '') + ' ' + (item.summary || '') + ' ' + (item.tags || []).join(' ')).toLowerCase();
+        return keywords.some(function(kw) {
+            return text.indexOf(kw.toLowerCase()) !== -1;
+        });
     }
 
     function getVendorMatches(query) {
@@ -507,12 +531,6 @@
             result.push(y + '-' + String(m).padStart(2,'0') + '-' + String(day).padStart(2,'0'));
         }
         return result.length > 0 ? result : null;
-    }
-
-    function matchItem(item, lower) {
-        return (item.title && item.title.toLowerCase().indexOf(lower) !== -1) ||
-               (item.summary && item.summary.toLowerCase().indexOf(lower) !== -1) ||
-               (item.tags && item.tags.some(function(t) { return t.toLowerCase().indexOf(lower) !== -1; }));
     }
 
     // ==================== API 上下文构建 ====================
