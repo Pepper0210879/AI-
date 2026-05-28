@@ -32,8 +32,6 @@
         { text: '今天有哪些AI新闻？' },
         { text: 'OpenAI最近有什么动态？' },
         { text: '近一周海外厂商重大发布' },
-        { text: '国内大模型最近有什么进展？' },
-        { text: '帮我找找NVIDIA的消息' },
         { text: '最近AI行业有什么趋势？' }
     ];
 
@@ -132,14 +130,12 @@
     function expand() {
         isOpen = true;
         container.classList.add('open');
-        toggleBtn.classList.add('hidden');
         inputEl.focus();
     }
 
     function collapse() {
         isOpen = false;
         container.classList.remove('open');
-        toggleBtn.classList.remove('hidden');
     }
 
     // ==================== UI：消息渲染 ====================

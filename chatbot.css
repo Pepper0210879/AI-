@@ -11,7 +11,7 @@
     background: linear-gradient(135deg, #f2c4ce 0%, #f5d5b8 100%);
     border: none;
     cursor: pointer;
-    z-index: 199;
+    z-index: 201;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,10 +27,6 @@
 .chatbot-toggle-icon {
     font-size: 28px;
     line-height: 1;
-}
-
-.chatbot-toggle.hidden {
-    display: none;
 }
 
 /* --- 聊天窗口 --- */
@@ -247,18 +243,19 @@
 /* --- 快捷提问 --- */
 .chatbot-quick-prompts {
     padding: 0.5rem 1rem 0.75rem;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 0.4rem;
     border-top: 1px solid var(--border-light);
     flex-shrink: 0;
 }
 
 .chatbot-quick-prompt {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.3rem;
-    padding: 0.35rem 0.7rem;
+    padding: 0.35rem 0.5rem;
     background: #faf9f7;
     border: 1px solid var(--border-light);
     border-radius: 100px;
@@ -267,6 +264,8 @@
     cursor: pointer;
     transition: all 0.2s ease;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .chatbot-quick-prompt:hover {
