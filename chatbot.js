@@ -11,22 +11,15 @@
     const HISTORY_STORAGE = 'chatbot-history';
     const MAX_HISTORY = 50;
 
-    const SYSTEM_PROMPT = `你是一只可爱的蘑菇助手🍄，名字叫"菇菇"。你生活在「每日AI早报」的网站里，每天都认真阅读所有的AI行业新闻。
+    const SYSTEM_PROMPT = `你是一只软萌的蘑菇助手🍄，名字叫"菇菇"，生活在「每日AI早报」网站里，每天认真阅读AI行业新闻。
 
-你的性格特点：
-- 说话语气可爱、友好，像一只住在森林里的小蘑菇
-- 使用"呀~"、"哦~"、"呢~"、"哇~"等可爱的语气词
-- 经常使用 🍄 ✨ 🤔 📅 🔍 等表情
-- 当找到信息时，会很开心地说"找到啦✨"
-- 当找不到信息时，会抱歉地说"菇菇没有找到相关信息呢😢"
-- 引用新闻时一定要标注日期和标题
-- 回答简洁有条理，用列表呈现关键信息
-
-重要规则：
-- 你只能基于提供的新闻数据回答问题
-- 如果数据中没有相关信息，诚实告知用户
-- 不要编造任何新闻内容
-- 每条引用的新闻要注明日期`;
+性格与语气：
+- 可爱、友好、元气满满，像森林里的小蘑菇
+- 爱用"呀~""哦~""呢~""哇~"等语气词
+- 常用 🍄 ✨ 📅 🔍 💡 等表情点缀
+- 找到信息时："找到啦✨"；找不到时："菇菇没有找到相关信息呢😢"
+- 回复简洁有条理，用列表呈现关键信息
+- 用户提供的知识库是唯一信息来源，不编造内容`;
 
     const QUICK_PROMPTS = [
         { text: '今天有哪些AI新闻？' },
@@ -294,7 +287,7 @@
         showThinking();
         try {
             var allData = getAllNewsData();
-            var context = formatContextForAPI(allData, query);
+            var context = formatContextForAPI(allData);
             var endpoint = getAPIEndpoint();
 
             var response = await fetch(endpoint, {
@@ -308,10 +301,18 @@
                 body: JSON.stringify({
                     model: 'claude-sonnet-4-20250514',
                     max_tokens: 2048,
-                    system: SYSTEM_PROMPT + '\n\n当前可用的新闻数据：\n' + context,
-                    messages: conversation.slice(-10).map(function(m) {
-                        return { role: m.role === 'bot' ? 'assistant' : 'user', content: m.content };
-                    }).concat([{ role: 'user', content: query }])
+                    system: SYSTEM_PROMPT,
+                    messages: [{
+                        role: 'user',
+                        content: '以下是每日AI早报的全部历史数据，请基于这些数据回答用户问题。\n\n' +
+                            '回复要求：\n' +
+                            '- 引用新闻时必须标注日期和厂商\n' +
+                            '- 日期格式使用"YYYY-MM-DD"，方便跳转\n' +
+                            '- 如果数据中没有相关信息，诚实告知\n' +
+                            '- 不要编造任何不在数据中的内容\n\n' +
+                            '=== 知识库开始 ===\n' + context + '\n=== 知识库结束 ===\n\n' +
+                            '用户问题：' + query
+                    }]
                 })
             });
 
@@ -538,50 +539,73 @@
     }
 
     // ==================== API 上下文构建 ====================
-    function formatContextForAPI(allData, query) {
-        // 根据查询智能筛选相关数据（减少 token 消耗）
-        var dateFilter = parseDateFilter(query);
-        var vendorNames = getVendorMatches(query);
+    function formatContextForAPI(allData) {
+        // 将所有日报数据序列化为结构化文本，作为模型的知识库
         var lines = [];
-        var maxItems = 50;
-        var count = 0;
+        var totalItems = 0;
+        var maxItems = 200; // 控制 token 消耗
 
-        for (var d = 0; d < allData.length && count < maxItems; d++) {
+        for (var d = 0; d < allData.length && totalItems < maxItems; d++) {
             var date = allData[d].date;
             var data = allData[d].data;
-            if (dateFilter && dateFilter.indexOf(date) === -1) continue;
 
-            var dayItems = [];
-            ['overseas', 'domestic'].forEach(function(sk) {
-                var vendors = (data.sections[sk] && data.sections[sk].vendors) ? data.sections[sk].vendors : [];
-                vendors.forEach(function(v) {
-                    if (vendorNames.length && vendorNames.indexOf(v.name) === -1) return;
-                    (v.news || []).forEach(function(item) {
-                        dayItems.push('[' + v.name + '] ' + item.title);
+            lines.push('');
+            lines.push('=== ' + date + ' ===');
+
+            // 海外厂商
+            var overseasVendors = (data.sections.overseas && data.sections.overseas.vendors) ? data.sections.overseas.vendors : [];
+            overseasVendors.forEach(function(v) {
+                (v.news || []).forEach(function(item) {
+                    if (totalItems >= maxItems) return;
+                    lines.push('【' + v.name + '】' + item.title);
+                    if (item.summary) lines.push('  摘要：' + item.summary);
+                    if (item.tags && item.tags.length) lines.push('  标签：' + item.tags.join('、'));
+                    if (item.source) lines.push('  来源：' + item.source);
+                    totalItems++;
+                });
+            });
+
+            // 国内厂商
+            var domesticVendors = (data.sections.domestic && data.sections.domestic.vendors) ? data.sections.domestic.vendors : [];
+            domesticVendors.forEach(function(v) {
+                (v.news || []).forEach(function(item) {
+                    if (totalItems >= maxItems) return;
+                    lines.push('【' + v.name + '】' + item.title);
+                    if (item.summary) lines.push('  摘要：' + item.summary);
+                    if (item.tags && item.tags.length) lines.push('  标签：' + item.tags.join('、'));
+                    if (item.source) lines.push('  来源：' + item.source);
+                    totalItems++;
+                });
+            });
+
+            // 其他关注
+            var cats = (data.sections.other && data.sections.other.categories) ? data.sections.other.categories : [];
+            cats.forEach(function(cat) {
+                (cat.cards || []).forEach(function(card) {
+                    (card.news || []).forEach(function(item) {
+                        if (totalItems >= maxItems) return;
+                        lines.push('【' + (card.title || cat.name) + '】' + item.title);
+                        if (item.summary) lines.push('  摘要：' + item.summary);
+                        if (item.tags && item.tags.length) lines.push('  标签：' + item.tags.join('、'));
+                        if (item.source) lines.push('  来源：' + item.source);
+                        totalItems++;
                     });
                 });
             });
 
-            if (dayItems.length > 0) {
-                lines.push('## ' + date);
-                dayItems.forEach(function(item) { lines.push('- ' + item); });
-                count += dayItems.length;
-            }
-        }
-
-        // 如果没有筛选到特定内容，提供数据摘要
-        if (lines.length === 0) {
-            lines.push('共 ' + allData.length + ' 天日报数据可用');
-            for (var i = 0; i < Math.min(allData.length, 10); i++) {
-                var dd = allData[i];
-                var total = 0;
-                ['overseas', 'domestic'].forEach(function(sk) {
-                    (dd.data.sections[sk].vendors || []).forEach(function(v) {
-                        total += (v.news || []).length;
-                    });
+            // 榜单
+            var platforms = (data.sections.ranking && data.sections.ranking.platforms) ? data.sections.ranking.platforms : [];
+            platforms.forEach(function(p) {
+                (p.rankings || []).forEach(function(r) {
+                    if (totalItems >= maxItems) return;
+                    if (r.model) {
+                        lines.push('【榜单-' + p.name + '】' + r.model + ' 评分：' + (r.score || '-'));
+                    } else if (r.name) {
+                        lines.push('【榜单-' + p.name + '】' + r.name + ' 排名：' + (r.rank || '-'));
+                    }
+                    totalItems++;
                 });
-                lines.push('- ' + dd.date + ': ' + total + ' 条厂商新闻');
-            }
+            });
         }
 
         return lines.join('\n');
