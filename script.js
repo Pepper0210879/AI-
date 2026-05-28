@@ -1469,7 +1469,7 @@ function showKeyPrompt() {
     const modal = document.getElementById('key-modal');
     const input = document.getElementById('key-input');
     const error = document.getElementById('key-error');
-    modal.classList.add('show');
+    modal.classList.add('active');
     input.value = '';
     error.style.display = 'none';
     input.focus();
@@ -1483,7 +1483,7 @@ function setupKeyModal() {
     document.getElementById('key-submit').addEventListener('click', () => {
         if (input.value.trim() === DOWNLOAD_KEY) {
             localStorage.setItem('ai-news-download-key', 'approved');
-            modal.classList.remove('show');
+            modal.classList.remove('active');
             showToast('密钥验证成功，正在打开打印对话框...');
             setTimeout(() => window.print(), 500);
         } else {
@@ -1495,15 +1495,15 @@ function setupKeyModal() {
     });
 
     document.getElementById('key-cancel').addEventListener('click', () => {
-        modal.classList.remove('show');
+        modal.classList.remove('active');
     });
 
     document.getElementById('key-modal-close').addEventListener('click', () => {
-        modal.classList.remove('show');
+        modal.classList.remove('active');
     });
 
     modal.addEventListener('click', (e) => {
-        if (e.target === modal) modal.classList.remove('show');
+        if (e.target === modal) modal.classList.remove('active');
     });
 
     // 关于
