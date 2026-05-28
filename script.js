@@ -2,7 +2,6 @@
 const STORAGE_KEY = 'ai-news-data';
 const CONFIRMED_KEY = 'ai-news-confirmed';
 const LAST_UPDATE_KEY = 'ai-news-last-update';
-const DOWNLOAD_KEY = 'ai-news-2026';
 const NEWS_DATA = {
     date: "2026-05-27",
     sections: {
@@ -680,7 +679,7 @@ function initPage() {
     updateHeaderDate();
     renderContent();
     setupEventListeners();
-    setupKeyModal();
+
 }
 
 // ==================== 全局状态 ====================
@@ -1064,15 +1063,10 @@ function setupEventListeners() {
     // 日期选择
     setupDateSelector();
 
-    // 导出 PDF（需密钥）
+    // 导出 PDF
     document.querySelector('.export-btn').addEventListener('click', () => {
-        const key = localStorage.getItem('ai-news-download-key');
-        if (key === 'approved') {
-            showToast('正在打开打印对话框，选择「存储为PDF」即可...');
-            setTimeout(() => window.print(), 500);
-        } else {
-            showKeyPrompt();
-        }
+        showToast('正在打开打印对话框，选择「存储为PDF」即可...');
+        setTimeout(() => window.print(), 500);
     });
 
     // 回到顶部
@@ -1465,53 +1459,6 @@ function showToast(message) {
     setTimeout(() => toast.classList.remove('show'), 3000);
 }
 
-function showKeyPrompt() {
-    const modal = document.getElementById('key-modal');
-    const input = document.getElementById('key-input');
-    const error = document.getElementById('key-error');
-    modal.classList.add('active');
-    input.value = '';
-    error.style.display = 'none';
-    input.focus();
-}
-
-function setupKeyModal() {
-    const modal = document.getElementById('key-modal');
-    const input = document.getElementById('key-input');
-    const error = document.getElementById('key-error');
-
-    document.getElementById('key-submit').addEventListener('click', () => {
-        if (input.value.trim() === DOWNLOAD_KEY) {
-            localStorage.setItem('ai-news-download-key', 'approved');
-            modal.classList.remove('active');
-            showToast('密钥验证成功，正在打开打印对话框...');
-            setTimeout(() => window.print(), 500);
-        } else {
-            error.textContent = '密钥错误，请重试或联系订阅获取';
-            error.style.display = 'block';
-            input.value = '';
-            input.focus();
-        }
-    });
-
-    document.getElementById('key-cancel').addEventListener('click', () => {
-        modal.classList.remove('active');
-    });
-
-    document.getElementById('key-modal-close').addEventListener('click', () => {
-        modal.classList.remove('active');
-    });
-
-    modal.addEventListener('click', (e) => {
-        if (e.target === modal) modal.classList.remove('active');
-    });
-
-    // 关于
-    document.getElementById('footer-about').addEventListener('click', (e) => {
-        e.preventDefault();
-        showToast('「每日AI早报」聚合整理国内外AI行业动态，每天上午更新。内容来自36氪、爱范儿、极客公园等科技媒体。下载PDF请联系订阅获取密钥。');
-    });
-}
 
 // ==================== 控制台 ====================
 console.log('%c每日AI早报', 'color: #4a9eff; font-size: 20px; font-weight: bold;');

@@ -997,6 +997,47 @@ body.modal-open {
     color: #6a9aba;
 }
 
+/* ==================== 气泡提示 ==================== */
+.contact-tip {
+    position: relative;
+    cursor: default;
+}
+
+.contact-tip::after {
+    content: attr(data-tip);
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    font-size: 0.78rem;
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.contact-tip::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #333;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.contact-tip:hover::after,
+.contact-tip:hover::before {
+    opacity: 1;
+}
+
 /* ==================== Loading ==================== */
 .loading-overlay {
     position: fixed;
@@ -1314,17 +1355,6 @@ input:focus-visible {
         transition-duration: 0.01ms !important;
     }
     html { scroll-behavior: auto; }
-}
-
-/* ==================== 密钥弹窗 ==================== */
-.key-modal-container {
-    max-width: 380px;
-}
-
-#key-input:focus {
-    outline: none;
-    border-color: #4a9eff;
-    box-shadow: 0 0 0 3px rgba(74, 158, 255, 0.15);
 }
 
 /* ==================== Print ==================== */

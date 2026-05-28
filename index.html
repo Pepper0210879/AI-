@@ -87,14 +87,10 @@
             <div class="footer-content">
                 <p>每日AI早报 — 每天为你精选 AI 领域最新动态</p>
                 <div class="footer-links">
-                    <a href="#" class="footer-link" id="footer-about">
-                        <i class="fas fa-info-circle"></i>
-                        关于
-                    </a>
-                    <a href="mailto:Qinjieyao@outlook.com" class="footer-link">
+                    <span class="footer-link contact-tip" data-tip="Qinjieyao@outlook.com">
                         <i class="fas fa-envelope"></i>
-                        订阅
-                    </a>
+                        联系方式
+                    </span>
                 </div>
             </div>
         </footer>
@@ -133,26 +129,6 @@
                 <button class="modal-close" id="modal-close" aria-label="关闭弹窗">&times;</button>
             </div>
             <div class="modal-body" id="modal-body"></div>
-        </div>
-    </div>
-
-    <!-- 密钥弹窗 -->
-    <div class="modal-overlay" id="key-modal">
-        <div class="modal-container key-modal-container">
-            <div class="modal-header">
-                <h3 class="modal-vendor-name">导出 PDF</h3>
-                <button class="modal-close" id="key-modal-close">&times;</button>
-            </div>
-            <div class="modal-body">
-                <p style="margin-bottom:0.75rem;color:#666;">请输入下载密钥</p>
-                <input type="password" id="key-input" placeholder="请输入密钥" style="width:100%;padding:0.6rem 0.75rem;border:1px solid #ddd;border-radius:6px;font-size:0.95rem;">
-                <p id="key-error" style="color:#e74c3c;font-size:0.85rem;margin-top:0.5rem;display:none;"></p>
-                <div style="margin-top:1rem;display:flex;gap:0.5rem;">
-                    <button id="key-submit" style="flex:1;padding:0.6rem;background:#4a9eff;color:#fff;border:none;border-radius:6px;cursor:pointer;font-size:0.9rem;">确认</button>
-                    <button id="key-cancel" style="flex:1;padding:0.6rem;background:#f0f0f0;color:#333;border:none;border-radius:6px;cursor:pointer;font-size:0.9rem;">取消</button>
-                </div>
-                <p style="margin-top:0.75rem;font-size:0.8rem;color:#999;">没有密钥？<a href="mailto:Qinjieyao@outlook.com" style="color:#4a9eff;">联系订阅</a></p>
-            </div>
         </div>
     </div>
 
