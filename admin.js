@@ -859,6 +859,111 @@ function getVendor(vi, ni, cardIdx) {
     return null;
 }
 
+// ==================== 蘑菇助手 API 配置 ====================
+const API_PROVIDER_STORAGE = 'chatbot-api-provider';
+const API_KEY_STORAGE = 'chatbot-api-key';
+const API_ENDPOINT_STORAGE = 'chatbot-api-endpoint';
+const API_MODEL_STORAGE = 'chatbot-api-model';
+
+const PROVIDERS = {
+    openai:    { endpoint: 'https://api.openai.com/v1/chat/completions', model: 'gpt-4o', format: 'openai' },
+    deepseek:  { endpoint: 'https://api.deepseek.com/v1/chat/completions', model: 'deepseek-chat', format: 'openai' },
+    moonshot:  { endpoint: 'https://api.moonshot.cn/v1/chat/completions', model: 'moonshot-v1-8k', format: 'openai' },
+    zhipu:     { endpoint: 'https://open.bigmodel.cn/api/paas/v4/chat/completions', model: 'glm-4-flash', format: 'openai' },
+    qwen:      { endpoint: 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions', model: 'qwen-plus', format: 'openai' },
+    anthropic: { endpoint: 'https://api.anthropic.com/v1/messages', model: 'claude-sonnet-4-20250514', format: 'anthropic' },
+    custom:    { endpoint: '', model: '', format: 'openai' }
+};
+
+function loadAPIConfig() {
+    var provider = document.getElementById('admin-api-provider');
+    var endpoint = document.getElementById('admin-api-endpoint');
+    var model = document.getElementById('admin-api-model');
+    var key = document.getElementById('admin-api-key');
+
+    var savedProvider = localStorage.getItem(API_PROVIDER_STORAGE) || 'openai';
+    if (provider) provider.value = savedProvider;
+    if (endpoint) endpoint.value = localStorage.getItem(API_ENDPOINT_STORAGE) || '';
+    if (model) model.value = localStorage.getItem(API_MODEL_STORAGE) || '';
+    if (key) key.value = localStorage.getItem(API_KEY_STORAGE) || '';
+
+    // 自动填充
+    if (!endpoint.value || !model.value) {
+        fillProviderDefaults(savedProvider);
+    }
+    updateAPIStatus();
+}
+
+function fillProviderDefaults(provider) {
+    var cfg = PROVIDERS[provider];
+    if (!cfg) return;
+    var endpoint = document.getElementById('admin-api-endpoint');
+    var model = document.getElementById('admin-api-model');
+    if (endpoint && !endpoint.value) endpoint.value = cfg.endpoint;
+    if (model && !model.value) model.value = cfg.model;
+}
+
+function saveAPIConfig() {
+    var provider = document.getElementById('admin-api-provider').value;
+    var endpoint = document.getElementById('admin-api-endpoint').value.trim();
+    var model = document.getElementById('admin-api-model').value.trim();
+    var key = document.getElementById('admin-api-key').value.trim();
+
+    localStorage.setItem(API_PROVIDER_STORAGE, provider);
+    localStorage.setItem(API_ENDPOINT_STORAGE, endpoint);
+    localStorage.setItem(API_MODEL_STORAGE, model);
+    localStorage.setItem(API_KEY_STORAGE, key);
+
+    updateAPIStatus();
+    showToast('蘑菇助手 API 配置已保存 🍄');
+}
+
+function clearAPIConfig() {
+    localStorage.removeItem(API_PROVIDER_STORAGE);
+    localStorage.removeItem(API_ENDPOINT_STORAGE);
+    localStorage.removeItem(API_MODEL_STORAGE);
+    localStorage.removeItem(API_KEY_STORAGE);
+
+    document.getElementById('admin-api-key').value = '';
+    document.getElementById('admin-api-endpoint').value = '';
+    document.getElementById('admin-api-model').value = '';
+    document.getElementById('admin-api-provider').value = 'openai';
+
+    updateAPIStatus();
+    showToast('API 配置已清除，蘑菇助手将使用本地搜索');
+}
+
+function updateAPIStatus() {
+    var status = document.getElementById('admin-api-status');
+    if (!status) return;
+    var key = localStorage.getItem(API_KEY_STORAGE);
+    if (key) {
+        status.textContent = '✅ 已配置，蘑菇助手使用 AI 问答模式';
+        status.style.color = '#4a9a6a';
+    } else {
+        status.textContent = '⚠️ 未配置 API Key，使用本地搜索模式';
+        status.style.color = '#c09060';
+    }
+}
+
+// 在 DOMContentLoaded 中初始化 API 配置
+document.addEventListener('DOMContentLoaded', function() {
+    loadAPIConfig();
+
+    var providerEl = document.getElementById('admin-api-provider');
+    if (providerEl) {
+        providerEl.addEventListener('change', function() {
+            fillProviderDefaults(this.value);
+        });
+    }
+
+    var saveBtn = document.getElementById('admin-api-save-btn');
+    if (saveBtn) saveBtn.addEventListener('click', saveAPIConfig);
+
+    var clearBtn = document.getElementById('admin-api-clear-btn');
+    if (clearBtn) clearBtn.addEventListener('click', clearAPIConfig);
+});
+
 // ==================== 工具 ====================
 function esc(str) {
     if (!str) return '';

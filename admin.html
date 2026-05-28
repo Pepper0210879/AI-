@@ -67,6 +67,53 @@
             <div class="admin-editor" id="admin-editor"></div>
         </main>
 
+        <!-- 蘑菇助手 API 配置 -->
+        <div class="api-config-section" style="max-width:900px;margin:2rem auto;padding:0 2rem;">
+            <div class="content-section" style="margin-bottom:2rem;">
+                <div class="section-header" style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.25rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);cursor:pointer;" onclick="const body=this.nextElementSibling;body.style.display=body.style.display==='none'?'block':'none';this.classList.toggle('collapsed');">
+                    <span style="font-size:1.5rem;">🍄</span>
+                    <div>
+                        <h3 style="margin:0;font-size:1rem;">蘑菇助手 API 配置</h3>
+                        <p class="logo-subtitle" style="margin:0;">配置后将启用 AI 智能问答，所有访客均可使用</p>
+                    </div>
+                </div>
+                <div class="section-body" style="display:block;padding:1.25rem;background:var(--bg-card);border:1px solid var(--border);border-top:none;border-radius:0 0 var(--radius-lg) var(--radius-lg);">
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+                        <div>
+                            <label style="display:block;font-size:0.8rem;color:var(--text-secondary);margin-bottom:0.3rem;">API 服务商</label>
+                            <select id="admin-api-provider" style="width:100%;padding:0.45rem 0.6rem;border:1px solid var(--border);border-radius:6px;font-size:0.85rem;font-family:inherit;background:#fff;">
+                                <option value="openai">OpenAI</option>
+                                <option value="deepseek">DeepSeek</option>
+                                <option value="moonshot">Moonshot（月之暗面）</option>
+                                <option value="zhipu">智谱 GLM</option>
+                                <option value="qwen">通义千问</option>
+                                <option value="anthropic">Anthropic Claude</option>
+                                <option value="custom">自定义</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="display:block;font-size:0.8rem;color:var(--text-secondary);margin-bottom:0.3rem;">模型名称</label>
+                            <input type="text" id="admin-api-model" style="width:100%;padding:0.45rem 0.6rem;border:1px solid var(--border);border-radius:6px;font-size:0.85rem;font-family:inherit;box-sizing:border-box;" placeholder="模型名称">
+                        </div>
+                        <div>
+                            <label style="display:block;font-size:0.8rem;color:var(--text-secondary);margin-bottom:0.3rem;">API Endpoint</label>
+                            <input type="text" id="admin-api-endpoint" style="width:100%;padding:0.45rem 0.6rem;border:1px solid var(--border);border-radius:6px;font-size:0.85rem;font-family:inherit;box-sizing:border-box;" placeholder="API 地址">
+                        </div>
+                        <div>
+                            <label style="display:block;font-size:0.8rem;color:var(--text-secondary);margin-bottom:0.3rem;">API Key</label>
+                            <input type="password" id="admin-api-key" style="width:100%;padding:0.45rem 0.6rem;border:1px solid var(--border);border-radius:6px;font-size:0.85rem;font-family:inherit;box-sizing:border-box;" placeholder="输入 API Key">
+                        </div>
+                    </div>
+                    <div style="margin-top:1rem;display:flex;gap:0.75rem;align-items:center;">
+                        <button id="admin-api-save-btn" style="padding:0.5rem 1.5rem;background:var(--text-primary);color:#fff;border:none;border-radius:6px;font-size:0.85rem;cursor:pointer;">保存配置</button>
+                        <button id="admin-api-clear-btn" style="padding:0.5rem 1rem;background:transparent;color:var(--text-secondary);border:1px solid var(--border);border-radius:6px;font-size:0.85rem;cursor:pointer;">清除配置</button>
+                        <span id="admin-api-status" style="font-size:0.8rem;color:var(--text-secondary);"></span>
+                    </div>
+                    <p style="font-size:0.72rem;color:var(--text-muted);margin-top:0.75rem;">⚠️ API Key 保存在浏览器 localStorage 中，仅管理后台可配置。清除配置后蘑菇助手将退回本地搜索模式。</p>
+                </div>
+            </div>
+        </div>
+
         <footer class="footer">
             <div class="footer-content">
                 <p id="save-status">数据加载中...</p>

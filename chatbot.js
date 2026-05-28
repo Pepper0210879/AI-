@@ -85,15 +85,8 @@
     const quickPromptsEl = document.getElementById('chatbot-quick-prompts');
     const inputEl = document.getElementById('chatbot-input');
     const sendBtn = document.getElementById('chatbot-send-btn');
-    const settingsBtn = document.getElementById('chatbot-settings-btn');
-    const settingsEl = document.getElementById('chatbot-settings');
-    const settingsSaveBtn = document.getElementById('chatbot-settings-save-btn');
     const clearBtn = document.getElementById('chatbot-clear-btn');
     const closeBtn = document.getElementById('chatbot-close-btn');
-    const apiKeyInput = document.getElementById('chatbot-api-key');
-    const apiEndpointInput = document.getElementById('chatbot-api-endpoint');
-    const apiProviderSelect = document.getElementById('chatbot-api-provider');
-    const apiModelInput = document.getElementById('chatbot-api-model');
 
     let isOpen = false;
     let isThinking = false;
@@ -101,7 +94,6 @@
 
     // ==================== 初始化 ====================
     function init() {
-        loadSettings();
         loadHistory();
         if (conversation.length === 0) {
             showWelcome();
@@ -152,8 +144,6 @@
             }
         });
         inputEl.addEventListener('input', autoResizeInput);
-        settingsBtn.addEventListener('click', toggleSettings);
-        settingsSaveBtn.addEventListener('click', saveSettings);
         clearBtn.addEventListener('click', clearConversation);
         container.addEventListener('click', function(e) {
             if (e.target.classList.contains('chatbot-date-link')) {
@@ -264,59 +254,23 @@
         inputEl.style.height = Math.min(inputEl.scrollHeight, 80) + 'px';
     }
 
-    // ==================== UI：设置 ====================
-    function toggleSettings() {
-        var visible = settingsEl.style.display !== 'none';
-        settingsEl.style.display = visible ? 'none' : 'block';
-    }
-
-    function loadSettings() {
+    // ==================== API 配置（从 localStorage 读取，由管理后台写入） ====================
+    function getAPIConfig() {
         var provider = localStorage.getItem(API_PROVIDER_STORAGE) || 'openai';
         var key = localStorage.getItem(API_KEY_STORAGE) || '';
         var endpoint = localStorage.getItem(API_ENDPOINT_STORAGE) || '';
         var model = localStorage.getItem(API_MODEL_STORAGE) || '';
 
-        if (apiProviderSelect) apiProviderSelect.value = provider;
-        if (key) apiKeyInput.value = key;
-        if (endpoint) apiEndpointInput.value = endpoint;
-        if (model) apiModelInput.value = model;
-
-        // 如果没保存过，用预设填充
+        // 如果没配置过，使用预设
         if (!endpoint || !model) {
-            fillProviderDefaults(provider);
+            var cfg = PROVIDERS[provider];
+            if (cfg) {
+                endpoint = endpoint || cfg.endpoint;
+                model = model || cfg.model;
+            }
         }
-    }
 
-    function fillProviderDefaults(provider) {
-        var cfg = PROVIDERS[provider];
-        if (!cfg) return;
-        if (!apiEndpointInput.value) apiEndpointInput.value = cfg.endpoint;
-        if (!apiModelInput.value) apiModelInput.value = cfg.model;
-    }
-
-    // 切换服务商时自动填充
-    if (apiProviderSelect) {
-        apiProviderSelect.addEventListener('change', function() {
-            fillProviderDefaults(this.value);
-        });
-    }
-
-    function saveSettings() {
-        localStorage.setItem(API_PROVIDER_STORAGE, apiProviderSelect ? apiProviderSelect.value : 'openai');
-        localStorage.setItem(API_KEY_STORAGE, apiKeyInput.value.trim());
-        localStorage.setItem(API_ENDPOINT_STORAGE, apiEndpointInput.value.trim());
-        localStorage.setItem(API_MODEL_STORAGE, apiModelInput.value.trim());
-        settingsEl.style.display = 'none';
-        showToastMsg('设置已保存 🍄');
-    }
-
-    function getAPIConfig() {
-        return {
-            provider: localStorage.getItem(API_PROVIDER_STORAGE) || 'openai',
-            key: localStorage.getItem(API_KEY_STORAGE) || '',
-            endpoint: localStorage.getItem(API_ENDPOINT_STORAGE) || '',
-            model: localStorage.getItem(API_MODEL_STORAGE) || ''
-        };
+        return { provider: provider, key: key, endpoint: endpoint, model: model };
     }
 
     // ==================== 对话历史 ====================
@@ -729,16 +683,5 @@
 
     function sleep(ms) {
         return new Promise(function(resolve) { setTimeout(resolve, ms); });
-    }
-
-    // Toast 通知
-    function showToastMsg(msg) {
-        var toast = document.getElementById('toast');
-        var toastMsg = document.getElementById('toast-message');
-        if (toast && toastMsg) {
-            toastMsg.textContent = msg;
-            toast.classList.add('show');
-            setTimeout(function() { toast.classList.remove('show'); }, 3000);
-        }
     }
 })();
