@@ -997,6 +997,49 @@ body.modal-open {
     color: #6a9aba;
 }
 
+#contact-trigger {
+    cursor: pointer;
+}
+
+/* 联系方式点击气泡 */
+.contact-bubble {
+    position: fixed;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 0.85rem;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-50%);
+    transition: opacity 0.2s ease;
+    z-index: 9999;
+}
+
+.contact-bubble.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.contact-bubble a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-bubble a:hover {
+    text-decoration: underline;
+}
+
+.contact-bubble-arrow {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #333;
+}
+
 /* ==================== Loading ==================== */
 .loading-overlay {
     position: fixed;
