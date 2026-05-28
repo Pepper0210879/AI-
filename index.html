@@ -87,19 +87,14 @@
             <div class="footer-content">
                 <p>每日AI早报 — 每天为你精选 AI 领域最新动态</p>
                 <div class="footer-links">
-                    <span class="footer-link" id="contact-trigger" onclick="toggleContactBubble(event)">
+                    <span class="footer-link">
                         <i class="fas fa-envelope"></i>
-                        联系方式
+                        联系方式：<a href="mailto:Qinjieyao@outlook.com" style="color:#6a9aba;text-decoration:none;">Qinjieyao@outlook.com</a>
                     </span>
                 </div>
             </div>
         </footer>
 
-        <!-- 联系方式气泡 -->
-        <div class="contact-bubble" id="contact-bubble">
-            <a href="mailto:Qinjieyao@outlook.com">Qinjieyao@outlook.com</a>
-            <span class="contact-bubble-arrow"></span>
-        </div>
     </div>
 
     <!-- Loading Overlay -->
@@ -140,23 +135,5 @@
 
     <script src="data.js"></script>
     <script src="script.js"></script>
-    <script>
-    function toggleContactBubble(e) {
-        e.stopPropagation();
-        var b = document.getElementById('contact-bubble');
-        var t = document.getElementById('contact-trigger');
-        var r = t.getBoundingClientRect();
-        b.style.top = (r.top - 12) + 'px';
-        b.style.left = (r.left + r.width / 2) + 'px';
-        b.classList.toggle('show');
-    }
-    document.addEventListener('click', function(e) {
-        var b = document.getElementById('contact-bubble');
-        var t = document.getElementById('contact-trigger');
-        if (e.target !== t && !t.contains(e.target) && !b.contains(e.target)) {
-            b.classList.remove('show');
-        }
-    });
-    </script>
 </body>
 </html>
