@@ -327,36 +327,78 @@
 
     async function handleAPIQuery(query, config) {
         showThinking();
-        try {
-            var context = formatContextForAPI(getAllNewsData());
-            var userMsg = buildUserMessage(query, context);
-            var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
 
+        // 校验配置
+        if (!config.endpoint) {
+            hideThinking();
+            appendBubble('bot', '唔...菇菇的 API 还没配置好呢😢<br><br>Endpoint 地址为空，请去管理后台检查配置~');
+            return;
+        }
+
+        var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
+        var context = formatContextForAPI(getAllNewsData());
+        var userMsg = buildUserMessage(query, context);
+
+        // 尝试请求，网络错误时重试一次
+        var result = await tryAPIRequest(config, isAnthropic, userMsg);
+        if (result.success) {
+            hideThinking();
+            appendBubble('bot', formatBotReply(result.reply));
+            return;
+        }
+
+        // API 返回了 HTTP 错误（非网络问题），不重试直接降级
+        if (result.httpError) {
+            hideThinking();
+            console.error('API HTTP error:', result.error);
+            appendBubble('bot', '唔...API 返回了错误 😢<br><br>' + escapeHtml(result.error.slice(0, 200)) + '<br><br>菇菇先用本地搜索帮你找找看~');
+            await handleFallbackQuery(query);
+            return;
+        }
+
+        // 网络错误：等待 1 秒后重试一次
+        console.warn('First API attempt failed, retrying...', result.error);
+        await sleep(1000);
+        var retry = await tryAPIRequest(config, isAnthropic, userMsg);
+        if (retry.success) {
+            hideThinking();
+            appendBubble('bot', formatBotReply(retry.reply));
+            return;
+        }
+
+        // 重试也失败，降级到本地搜索
+        hideThinking();
+        console.error('API retry also failed:', retry.error);
+        appendBubble('bot', '唔...菇菇连不上 AI 服务器😢<br><br>可能网络不太稳定，菇菇先用本地搜索帮你找找看~');
+        await handleFallbackQuery(query);
+    }
+
+    async function tryAPIRequest(config, isAnthropic, userMsg) {
+        try {
             var headers = { 'Content-Type': 'application/json' };
-            var body;
 
             if (isAnthropic) {
                 headers['x-api-key'] = config.key;
                 headers['anthropic-version'] = '2023-06-01';
                 headers['anthropic-dangerous-direct-browser-access'] = 'true';
-                body = JSON.stringify({
-                    model: config.model,
-                    max_tokens: 2048,
-                    system: SYSTEM_PROMPT,
-                    messages: [{ role: 'user', content: userMsg }]
-                });
             } else {
                 headers['Authorization'] = 'Bearer ' + config.key;
-                body = JSON.stringify({
-                    model: config.model,
-                    max_tokens: 2048,
-                    temperature: 0.7,
-                    messages: [
-                        { role: 'system', content: SYSTEM_PROMPT },
-                        { role: 'user', content: userMsg }
-                    ]
-                });
             }
+
+            var body = isAnthropic ? JSON.stringify({
+                model: config.model,
+                max_tokens: 2048,
+                system: SYSTEM_PROMPT,
+                messages: [{ role: 'user', content: userMsg }]
+            }) : JSON.stringify({
+                model: config.model,
+                max_tokens: 2048,
+                temperature: 0.7,
+                messages: [
+                    { role: 'system', content: SYSTEM_PROMPT },
+                    { role: 'user', content: userMsg }
+                ]
+            });
 
             var response = await fetch(config.endpoint, {
                 method: 'POST',
@@ -366,25 +408,14 @@
 
             if (!response.ok) {
                 var errText = await response.text();
-                throw new Error('API error ' + response.status + ': ' + errText.slice(0, 200));
+                return { success: false, httpError: true, error: 'HTTP ' + response.status + ': ' + errText.slice(0, 200) };
             }
 
             var data = await response.json();
-            var reply;
-            if (isAnthropic) {
-                reply = data.content[0].text;
-            } else {
-                reply = data.choices[0].message.content;
-            }
-            hideThinking();
-            appendBubble('bot', formatBotReply(reply));
-
+            var reply = isAnthropic ? data.content[0].text : data.choices[0].message.content;
+            return { success: true, reply: reply };
         } catch (e) {
-            hideThinking();
-            console.error('API error:', e);
-            var errMsg = '' + e.message;
-            appendBubble('bot', '唔...菇菇的脑袋有点转不过来😢<br><br>错误信息：' + escapeHtml(errMsg.slice(0, 150)) + '<br><br>菇菇先用本地搜索帮你找找看~');
-            await handleFallbackQuery(query);
+            return { success: false, httpError: false, error: '' + e.message };
         }
     }
 
