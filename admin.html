@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>内容管理 — 每日AI早报</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="admin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 登录遮罩 -->
+    <div class="login-overlay" id="login-overlay">
+        <div class="login-box">
+            <div class="login-icon">
+                <i class="fas fa-lock"></i>
+            </div>
+            <h2>后台管理</h2>
+            <p class="login-hint">请输入密码以继续</p>
+            <input type="password" id="login-password" class="login-input" placeholder="输入密码" autofocus>
+            <p class="login-error" id="login-error"></p>
+            <button class="login-btn" id="login-btn">进入后台</button>
+        </div>
+    </div>
+
+    <div class="app-container">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <i class="fas fa-pen-to-square"></i>
+                    </div>
+                    <div class="logo-info">
+                        <h1 class="logo-text">内容管理</h1>
+                        <p class="logo-subtitle">每日AI早报后台</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="action-btn save-btn" id="save-btn">
+                        <i class="fas fa-check"></i>
+                        <span>保存</span>
+                    </button>
+                    <button class="action-btn confirm-btn" id="confirm-btn">
+                        <i class="fas fa-check-double"></i>
+                        <span>确认当日新闻</span>
+                    </button>
+                    <button class="action-btn unconfirm-btn" id="unconfirm-btn" style="display:none;">
+                        <i class="fas fa-rotate-left"></i>
+                        <span>取消确认内容</span>
+                    </button>
+                    <a href="index.html" class="action-btn">
+                        <i class="fas fa-arrow-left"></i>
+                        <span>返回首页</span>
+                    </a>
+                </div>
+            </div>
+            <div class="category-tabs" id="section-tabs">
+                <button class="tab-btn active" data-section="overseas">海外厂商</button>
+                <button class="tab-btn" data-section="domestic">国内厂商</button>
+                <button class="tab-btn" data-section="other">其他关注</button>
+                <button class="tab-btn" data-section="ranking">榜单情况</button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="admin-editor" id="admin-editor"></div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <p id="save-status">数据加载中...</p>
+            </div>
+        </footer>
+    </div>
+
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toast-message">操作成功</span>
+    </div>
+
+    <!-- 确认当日新闻弹窗 -->
+    <div class="modal-overlay" id="confirm-modal">
+        <div class="modal-container confirm-modal-box">
+            <div class="confirm-modal-icon">
+                <i class="fas fa-check-double"></i>
+            </div>
+            <h3>确认当日新闻</h3>
+            <p class="confirm-modal-text" id="confirm-modal-text">
+                确认后将今日新闻数据锁定为 <strong id="confirm-date-text"></strong> 的最终版本，<br>首页可选择查看已确认日期的内容。
+            </p>
+            <div class="confirm-modal-actions">
+                <button class="btn-cancel" id="confirm-cancel-btn">取消</button>
+                <button class="btn-confirm" id="confirm-ok-btn">确认发布</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 取消确认弹窗 -->
+    <div class="modal-overlay" id="unconfirm-modal">
+        <div class="modal-container confirm-modal-box">
+            <div class="confirm-modal-icon" style="background:#fef5f5;color:#c06060;">
+                <i class="fas fa-rotate-left"></i>
+            </div>
+            <h3>取消确认内容</h3>
+            <p class="confirm-modal-text">
+                取消今日确认后，你可以继续编辑新闻内容，<br>然后<strong>再次确认发布</strong>。<br><br>是否取消？
+            </p>
+            <div class="confirm-modal-actions">
+                <button class="btn-cancel" id="unconfirm-cancel-btn">返回</button>
+                <button class="btn-confirm" id="unconfirm-ok-btn" style="background:#c06060;border-color:#c06060;">取消确认</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>
