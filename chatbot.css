@@ -11,7 +11,7 @@
     background: linear-gradient(135deg, #f2c4ce 0%, #f5d5b8 100%);
     border: none;
     cursor: pointer;
-    z-index: 201;
+    z-index: 199;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,6 +27,10 @@
 .chatbot-toggle-icon {
     font-size: 28px;
     line-height: 1;
+}
+
+.chatbot-toggle.hidden {
+    display: none;
 }
 
 /* --- 聊天窗口 --- */
