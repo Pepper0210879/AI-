@@ -2,6 +2,7 @@
 const STORAGE_KEY = 'ai-news-data';
 const CONFIRMED_KEY = 'ai-news-confirmed';
 const LAST_UPDATE_KEY = 'ai-news-last-update';
+const DOWNLOAD_KEY = 'ai-news-2026';
 const NEWS_DATA = {
     date: "2026-05-27",
     sections: {
@@ -169,6 +170,22 @@ const NEWS_DATA = {
                     ]
                 },
                 {
+                    name: "小米",
+                    color: "#d4a882",
+                    softBg: "#faf5ee",
+                    initial: "米",
+                    news: [
+                        {
+                            title: "小米 MiMo-V2.5 系列 API 永久降价",
+                            summary: "小米宣布 MiMo-V2.5 系列 API 永久降价，推理成本远低于行业平均水平，基本可以维持收支平衡。",
+                            link: "#",
+                            tags: ["小米", "MiMo", "API降价"],
+                            source: "IT之家",
+                            time: "2小时前"
+                        }
+                    ]
+                },
+                {
                     name: "智谱 AI",
                     color: "#b4a0d4",
                     softBg: "#f5f0fa",
@@ -181,22 +198,6 @@ const NEWS_DATA = {
                             tags: ["GLM", "中文AI"],
                             source: "机器之心",
                             time: "6小时前"
-                        }
-                    ]
-                },
-                {
-                    name: "MiniMax",
-                    color: "#d4a0b4",
-                    softBg: "#faf0f4",
-                    initial: "M",
-                    news: [
-                        {
-                            title: "MiniMax 海螺 AI 视频生成能力升级：支持 60 秒长视频",
-                            summary: "MiniMax 旗下海螺 AI 升级视频生成能力，支持生成最长 60 秒的高质量视频，画面一致性大幅提升。",
-                            link: "#",
-                            tags: ["视频生成", "海螺AI"],
-                            source: "36氪",
-                            time: "8小时前"
                         }
                     ]
                 },
@@ -421,10 +422,10 @@ const VENDOR_DISPLAY = {
     "智谱 AI":      { color: "#b4a0d4", softBg: "#f5f0fa", initial: "智", logo: "logos/智谱.png" },
     "MiniMax":      { color: "#d4a0b4", softBg: "#faf0f4", initial: "M", logo: "logos/MiniMax.png" },
     "月之暗面":     { color: "#b4a0d4", softBg: "#f5f0fa", initial: "月", logo: "logos/月之暗面.png" },
-    "华为":         { color: "#d4a0a0", softBg: "#faf0f0", initial: "华", logo: "logos/华为.png" },
+    "华为":         { color: "#d4a0a0", softBg: "#faf0f0", initial: "华", logo: "logos/华为.jpg" },
     // 其他厂商可能出现的品牌（暂无 logo 的不设 logo 字段，回退到首字母）
     "三星":         { color: "#8aaed4", softBg: "#eef5fb", initial: "三" },
-    "小米":         { color: "#d4a882", softBg: "#faf5ee", initial: "米" },
+    "小米":         { color: "#d4a882", softBg: "#faf5ee", initial: "米", logo: "logos/小米.jpg" },
     "昆仑万维":     { color: "#a0b0d4", softBg: "#f2f4fa", initial: "昆" },
     "字节跳动":     { color: "#8ab4d4", softBg: "#eef5fb", initial: "字" },
     "Stability AI": { color: "#b4a0d4", softBg: "#f5f0fa", initial: "S" },
@@ -679,6 +680,7 @@ function initPage() {
     updateHeaderDate();
     renderContent();
     setupEventListeners();
+    setupKeyModal();
 }
 
 // ==================== 全局状态 ====================
@@ -1062,13 +1064,15 @@ function setupEventListeners() {
     // 日期选择
     setupDateSelector();
 
-    // 导出
+    // 导出 PDF（需密钥）
     document.querySelector('.export-btn').addEventListener('click', () => {
-        showToast('正在准备导出报告...');
-        setTimeout(() => {
-            downloadReport();
-            showToast('报告已导出');
-        }, 1000);
+        const key = localStorage.getItem('ai-news-download-key');
+        if (key === 'approved') {
+            showToast('正在打开打印对话框，选择「存储为PDF」即可...');
+            setTimeout(() => window.print(), 500);
+        } else {
+            showKeyPrompt();
+        }
     });
 
     // 回到顶部
@@ -1459,6 +1463,54 @@ function showToast(message) {
     document.getElementById('toast-message').textContent = message;
     toast.classList.add('show');
     setTimeout(() => toast.classList.remove('show'), 3000);
+}
+
+function showKeyPrompt() {
+    const modal = document.getElementById('key-modal');
+    const input = document.getElementById('key-input');
+    const error = document.getElementById('key-error');
+    modal.classList.add('show');
+    input.value = '';
+    error.style.display = 'none';
+    input.focus();
+}
+
+function setupKeyModal() {
+    const modal = document.getElementById('key-modal');
+    const input = document.getElementById('key-input');
+    const error = document.getElementById('key-error');
+
+    document.getElementById('key-submit').addEventListener('click', () => {
+        if (input.value.trim() === DOWNLOAD_KEY) {
+            localStorage.setItem('ai-news-download-key', 'approved');
+            modal.classList.remove('show');
+            showToast('密钥验证成功，正在打开打印对话框...');
+            setTimeout(() => window.print(), 500);
+        } else {
+            error.textContent = '密钥错误，请重试或联系订阅获取';
+            error.style.display = 'block';
+            input.value = '';
+            input.focus();
+        }
+    });
+
+    document.getElementById('key-cancel').addEventListener('click', () => {
+        modal.classList.remove('show');
+    });
+
+    document.getElementById('key-modal-close').addEventListener('click', () => {
+        modal.classList.remove('show');
+    });
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) modal.classList.remove('show');
+    });
+
+    // 关于
+    document.getElementById('footer-about').addEventListener('click', (e) => {
+        e.preventDefault();
+        showToast('「每日AI早报」聚合整理国内外AI行业动态，每天上午更新。内容来自36氪、爱范儿、极客公园等科技媒体。下载PDF请联系订阅获取密钥。');
+    });
 }
 
 // ==================== 控制台 ====================

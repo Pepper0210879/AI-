@@ -1316,6 +1316,17 @@ input:focus-visible {
     html { scroll-behavior: auto; }
 }
 
+/* ==================== 密钥弹窗 ==================== */
+.key-modal-container {
+    max-width: 380px;
+}
+
+#key-input:focus {
+    outline: none;
+    border-color: #4a9eff;
+    box-shadow: 0 0 0 3px rgba(74, 158, 255, 0.15);
+}
+
 /* ==================== Print ==================== */
 @media print {
     .header,
@@ -1324,7 +1335,8 @@ input:focus-visible {
     .loading-overlay,
     .toast,
     .category-tabs,
-    .header-actions { display: none !important; }
+    .header-actions,
+    .modal-overlay { display: none !important; }
 
     body { background: white; }
 
