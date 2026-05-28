@@ -132,14 +132,12 @@
     function expand() {
         isOpen = true;
         container.classList.add('open');
-        toggleBtn.classList.add('hidden');
         inputEl.focus();
     }
 
     function collapse() {
         isOpen = false;
         container.classList.remove('open');
-        toggleBtn.classList.remove('hidden');
     }
 
     // ==================== UI：消息渲染 ====================
