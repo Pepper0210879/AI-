@@ -10,6 +10,7 @@
     const API_ENDPOINT_STORAGE = 'chatbot-api-endpoint';
     const API_PROVIDER_STORAGE = 'chatbot-api-provider';
     const API_MODEL_STORAGE = 'chatbot-api-model';
+    const API_PROXY_STORAGE = 'chatbot-api-proxy';
     const HISTORY_STORAGE = 'chatbot-history';
     const MAX_HISTORY = 50;
 
@@ -260,6 +261,7 @@
         var key = localStorage.getItem(API_KEY_STORAGE) || '';
         var endpoint = localStorage.getItem(API_ENDPOINT_STORAGE) || '';
         var model = localStorage.getItem(API_MODEL_STORAGE) || '';
+        var proxy = localStorage.getItem(API_PROXY_STORAGE) || '';
 
         // 如果没配置过，使用预设
         if (!endpoint || !model) {
@@ -270,7 +272,7 @@
             }
         }
 
-        return { provider: provider, key: key, endpoint: endpoint, model: model };
+        return { provider: provider, key: key, endpoint: endpoint, model: model, proxy: proxy };
     }
 
     // ==================== 对话历史 ====================
@@ -400,7 +402,14 @@
                 ]
             });
 
-            var response = await fetch(config.endpoint, {
+            // 如果配置了 CORS 代理，通过代理转发
+            var fetchUrl = config.endpoint;
+            if (config.proxy) {
+                fetchUrl = config.proxy;
+                headers['X-Target-URL'] = config.endpoint;
+            }
+
+            var response = await fetch(fetchUrl, {
                 method: 'POST',
                 headers: headers,
                 body: body

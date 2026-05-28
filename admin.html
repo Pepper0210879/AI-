@@ -103,13 +103,30 @@
                             <label style="display:block;font-size:0.8rem;color:var(--text-secondary);margin-bottom:0.3rem;">API Key</label>
                             <input type="password" id="admin-api-key" style="width:100%;padding:0.45rem 0.6rem;border:1px solid var(--border);border-radius:6px;font-size:0.85rem;font-family:inherit;box-sizing:border-box;" placeholder="输入 API Key">
                         </div>
+                        <div style="grid-column: 1 / -1;">
+                            <label style="display:block;font-size:0.8rem;color:var(--text-secondary);margin-bottom:0.3rem;">CORS 代理地址 <span style="font-weight:400;color:var(--text-muted);">（解决浏览器跨域限制，必填）</span></label>
+                            <input type="text" id="admin-api-proxy" style="width:100%;padding:0.45rem 0.6rem;border:1px solid var(--border);border-radius:6px;font-size:0.85rem;font-family:inherit;box-sizing:border-box;" placeholder="如 https://mushroom-proxy.xxx.workers.dev">
+                        </div>
                     </div>
                     <div style="margin-top:1rem;display:flex;gap:0.75rem;align-items:center;">
                         <button id="admin-api-save-btn" style="padding:0.5rem 1.5rem;background:var(--text-primary);color:#fff;border:none;border-radius:6px;font-size:0.85rem;cursor:pointer;">保存配置</button>
                         <button id="admin-api-clear-btn" style="padding:0.5rem 1rem;background:transparent;color:var(--text-secondary);border:1px solid var(--border);border-radius:6px;font-size:0.85rem;cursor:pointer;">清除配置</button>
                         <span id="admin-api-status" style="font-size:0.8rem;color:var(--text-secondary);"></span>
                     </div>
-                    <p style="font-size:0.72rem;color:var(--text-muted);margin-top:0.75rem;">⚠️ API Key 保存在浏览器 localStorage 中，仅管理后台可配置。清除配置后蘑菇助手将退回本地搜索模式。</p>
+                    <details style="margin-top:0.75rem;font-size:0.72rem;color:var(--text-muted);">
+                        <summary style="cursor:pointer;color:var(--text-secondary);">📖 如何获取 CORS 代理地址？</summary>
+                        <div style="margin-top:0.5rem;line-height:1.6;">
+                            <p>浏览器直接调用第三方 API 会被跨域策略拦截，需要部署一个代理。推荐使用 Cloudflare Workers（免费）：</p>
+                            <ol style="padding-left:1.2rem;margin:0.5rem 0;">
+                                <li>打开 <a href="https://dash.cloudflare.com/" target="_blank" style="color:#4a7aaa;">dash.cloudflare.com</a> → Workers & Pages → 创建 Worker</li>
+                                <li>将项目中的 <code>cors-proxy-worker.js</code> 内容粘贴进去 → 部署</li>
+                                <li>复制 Worker URL（如 <code>https://mushroom-proxy.xxx.workers.dev</code>）</li>
+                                <li>粘贴到上方"代理地址"输入框</li>
+                            </ol>
+                            <p>每天 10 万次免费请求，完全够用。</p>
+                        </div>
+                    </details>
+                    <p style="font-size:0.72rem;color:var(--text-muted);margin-top:0.5rem;">⚠️ API Key 保存在浏览器 localStorage 中，仅管理后台可配置。</p>
                 </div>
             </div>
         </div>

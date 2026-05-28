@@ -864,6 +864,7 @@ const API_PROVIDER_STORAGE = 'chatbot-api-provider';
 const API_KEY_STORAGE = 'chatbot-api-key';
 const API_ENDPOINT_STORAGE = 'chatbot-api-endpoint';
 const API_MODEL_STORAGE = 'chatbot-api-model';
+const API_PROXY_STORAGE = 'chatbot-api-proxy';
 
 const PROVIDERS = {
     openai:    { endpoint: 'https://api.openai.com/v1/chat/completions', model: 'gpt-4o', format: 'openai' },
@@ -880,12 +881,14 @@ function loadAPIConfig() {
     var endpoint = document.getElementById('admin-api-endpoint');
     var model = document.getElementById('admin-api-model');
     var key = document.getElementById('admin-api-key');
+    var proxy = document.getElementById('admin-api-proxy');
 
     var savedProvider = localStorage.getItem(API_PROVIDER_STORAGE) || 'openai';
     if (provider) provider.value = savedProvider;
     if (endpoint) endpoint.value = localStorage.getItem(API_ENDPOINT_STORAGE) || '';
     if (model) model.value = localStorage.getItem(API_MODEL_STORAGE) || '';
     if (key) key.value = localStorage.getItem(API_KEY_STORAGE) || '';
+    if (proxy) proxy.value = localStorage.getItem(API_PROXY_STORAGE) || '';
 
     // 自动填充
     if (!endpoint.value || !model.value) {
@@ -908,11 +911,13 @@ function saveAPIConfig() {
     var endpoint = document.getElementById('admin-api-endpoint').value.trim();
     var model = document.getElementById('admin-api-model').value.trim();
     var key = document.getElementById('admin-api-key').value.trim();
+    var proxy = document.getElementById('admin-api-proxy').value.trim();
 
     localStorage.setItem(API_PROVIDER_STORAGE, provider);
     localStorage.setItem(API_ENDPOINT_STORAGE, endpoint);
     localStorage.setItem(API_MODEL_STORAGE, model);
     localStorage.setItem(API_KEY_STORAGE, key);
+    localStorage.setItem(API_PROXY_STORAGE, proxy);
 
     updateAPIStatus();
     showToast('蘑菇助手 API 配置已保存 🍄');
@@ -923,11 +928,13 @@ function clearAPIConfig() {
     localStorage.removeItem(API_ENDPOINT_STORAGE);
     localStorage.removeItem(API_MODEL_STORAGE);
     localStorage.removeItem(API_KEY_STORAGE);
+    localStorage.removeItem(API_PROXY_STORAGE);
 
     document.getElementById('admin-api-key').value = '';
     document.getElementById('admin-api-endpoint').value = '';
     document.getElementById('admin-api-model').value = '';
     document.getElementById('admin-api-provider').value = 'openai';
+    document.getElementById('admin-api-proxy').value = '';
 
     updateAPIStatus();
     showToast('API 配置已清除，蘑菇助手将使用本地搜索');
