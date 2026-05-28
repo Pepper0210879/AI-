@@ -60,12 +60,6 @@
     pointer-events: auto;
 }
 
-/* 页面左移 */
-body.chatbot-open .app-container {
-    margin-right: 372px;
-    transition: margin-right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /* --- 头部 --- */
 .chatbot-header {
     display: flex;
@@ -398,10 +392,6 @@ body.chatbot-open .app-container {
 
 /* --- 响应式 --- */
 @media (max-width: 768px) {
-    body.chatbot-open .app-container {
-        margin-right: 0;
-    }
-
     .chatbot-container {
         top: 0;
         right: 0;
@@ -423,8 +413,5 @@ body.chatbot-open .app-container {
     .chatbot-toggle,
     .chatbot-container {
         display: none !important;
-    }
-    body.chatbot-open .app-container {
-        margin-right: 0;
     }
 }

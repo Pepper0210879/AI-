@@ -133,7 +133,6 @@
         isOpen = true;
         container.classList.add('open');
         toggleBtn.classList.add('hidden');
-        document.body.classList.add('chatbot-open');
         inputEl.focus();
     }
 
@@ -141,7 +140,6 @@
         isOpen = false;
         container.classList.remove('open');
         toggleBtn.classList.remove('hidden');
-        document.body.classList.remove('chatbot-open');
     }
 
     // ==================== UI：消息渲染 ====================
