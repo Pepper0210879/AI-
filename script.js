@@ -679,7 +679,6 @@ function initPage() {
     updateHeaderDate();
     renderContent();
     setupEventListeners();
-    setupContactBubble();
 }
 
 // ==================== 全局状态 ====================
@@ -1459,26 +1458,6 @@ function showToast(message) {
     setTimeout(() => toast.classList.remove('show'), 3000);
 }
 
-
-// ==================== 联系方式气泡 ====================
-function setupContactBubble() {
-    const trigger = document.getElementById('contact-trigger');
-    const bubble = document.getElementById('contact-bubble');
-
-    trigger.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const rect = trigger.getBoundingClientRect();
-        bubble.style.top = (rect.top - 10) + 'px';
-        bubble.style.left = (rect.left + rect.width / 2) + 'px';
-        bubble.classList.toggle('show');
-    });
-
-    document.addEventListener('click', (e) => {
-        if (!bubble.contains(e.target) && e.target !== trigger) {
-            bubble.classList.remove('show');
-        }
-    });
-}
 
 // ==================== 控制台 ====================
 console.log('%c每日AI早报', 'color: #4a9eff; font-size: 20px; font-weight: bold;');
