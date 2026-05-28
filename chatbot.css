@@ -297,6 +297,7 @@
     line-height: 1.4;
     outline: none;
     max-height: 80px;
+    overflow: hidden;
     transition: border-color 0.2s ease;
 }
 
