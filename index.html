@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="chatbot.css">
 </head>
 <body>
     <div class="app-container">
@@ -133,7 +134,54 @@
         </div>
     </div>
 
+    <!-- 蘑菇助手 Chatbot -->
+    <button class="chatbot-toggle" id="chatbot-toggle" aria-label="打开蘑菇助手">
+        <span class="chatbot-toggle-icon">🍄</span>
+    </button>
+
+    <div class="chatbot-container" id="chatbot-container">
+        <div class="chatbot-header">
+            <div class="chatbot-header-left">
+                <span class="chatbot-header-icon">🍄</span>
+                <span class="chatbot-header-title">蘑菇新闻助手</span>
+            </div>
+            <div class="chatbot-header-actions">
+                <button class="chatbot-header-btn" id="chatbot-settings-btn" title="设置 API Key">
+                    <i class="fas fa-cog"></i>
+                </button>
+                <button class="chatbot-header-btn" id="chatbot-clear-btn" title="清空对话">
+                    <i class="fas fa-trash-can"></i>
+                </button>
+                <button class="chatbot-header-btn" id="chatbot-close-btn" title="收起">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="chatbot-messages" id="chatbot-messages"></div>
+
+        <div class="chatbot-settings" id="chatbot-settings" style="display:none;">
+            <label class="chatbot-settings-label">Claude API Key</label>
+            <input type="password" class="chatbot-settings-input" id="chatbot-api-key"
+                placeholder="sk-ant-...">
+            <label class="chatbot-settings-label">API Endpoint（可选）</label>
+            <input type="text" class="chatbot-settings-input" id="chatbot-api-endpoint"
+                placeholder="https://api.anthropic.com/v1/messages">
+            <button class="chatbot-settings-save" id="chatbot-settings-save-btn">保存设置</button>
+            <p class="chatbot-settings-hint">不配置 API Key 时使用本地搜索模式。Key 仅保存在你的浏览器中。</p>
+        </div>
+
+        <div class="chatbot-quick-prompts" id="chatbot-quick-prompts"></div>
+
+        <div class="chatbot-input-area">
+            <textarea class="chatbot-input" id="chatbot-input"
+                placeholder="问我关于AI日报的任何问题..." rows="1"></textarea>
+            <button class="chatbot-send-btn" id="chatbot-send-btn" aria-label="发送">🍄</button>
+        </div>
+    </div>
+
     <script src="data.js"></script>
     <script src="script.js"></script>
+    <script src="chatbot.js"></script>
 </body>
 </html>
