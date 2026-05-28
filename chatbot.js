@@ -8,8 +8,56 @@
     // ==================== 常量 ====================
     const API_KEY_STORAGE = 'chatbot-api-key';
     const API_ENDPOINT_STORAGE = 'chatbot-api-endpoint';
+    const API_PROVIDER_STORAGE = 'chatbot-api-provider';
+    const API_MODEL_STORAGE = 'chatbot-api-model';
     const HISTORY_STORAGE = 'chatbot-history';
     const MAX_HISTORY = 50;
+
+    // 预设 API 服务商配置
+    const PROVIDERS = {
+        openai: {
+            name: 'OpenAI',
+            endpoint: 'https://api.openai.com/v1/chat/completions',
+            model: 'gpt-4o',
+            format: 'openai'
+        },
+        deepseek: {
+            name: 'DeepSeek',
+            endpoint: 'https://api.deepseek.com/v1/chat/completions',
+            model: 'deepseek-chat',
+            format: 'openai'
+        },
+        moonshot: {
+            name: 'Moonshot',
+            endpoint: 'https://api.moonshot.cn/v1/chat/completions',
+            model: 'moonshot-v1-8k',
+            format: 'openai'
+        },
+        zhipu: {
+            name: '智谱GLM',
+            endpoint: 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
+            model: 'glm-4-flash',
+            format: 'openai'
+        },
+        qwen: {
+            name: '通义千问',
+            endpoint: 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions',
+            model: 'qwen-plus',
+            format: 'openai'
+        },
+        anthropic: {
+            name: 'Anthropic Claude',
+            endpoint: 'https://api.anthropic.com/v1/messages',
+            model: 'claude-sonnet-4-20250514',
+            format: 'anthropic'
+        },
+        custom: {
+            name: '自定义',
+            endpoint: '',
+            model: '',
+            format: 'openai'
+        }
+    };
 
     const SYSTEM_PROMPT = `你是一只软萌的蘑菇助手🍄，名字叫"菇菇"，生活在「每日AI早报」网站里，每天认真阅读AI行业新闻。
 
@@ -44,6 +92,8 @@
     const closeBtn = document.getElementById('chatbot-close-btn');
     const apiKeyInput = document.getElementById('chatbot-api-key');
     const apiEndpointInput = document.getElementById('chatbot-api-endpoint');
+    const apiProviderSelect = document.getElementById('chatbot-api-provider');
+    const apiModelInput = document.getElementById('chatbot-api-model');
 
     let isOpen = false;
     let isThinking = false;
@@ -221,25 +271,52 @@
     }
 
     function loadSettings() {
-        var key = localStorage.getItem(API_KEY_STORAGE);
-        var endpoint = localStorage.getItem(API_ENDPOINT_STORAGE);
+        var provider = localStorage.getItem(API_PROVIDER_STORAGE) || 'openai';
+        var key = localStorage.getItem(API_KEY_STORAGE) || '';
+        var endpoint = localStorage.getItem(API_ENDPOINT_STORAGE) || '';
+        var model = localStorage.getItem(API_MODEL_STORAGE) || '';
+
+        if (apiProviderSelect) apiProviderSelect.value = provider;
         if (key) apiKeyInput.value = key;
         if (endpoint) apiEndpointInput.value = endpoint;
+        if (model) apiModelInput.value = model;
+
+        // 如果没保存过，用预设填充
+        if (!endpoint || !model) {
+            fillProviderDefaults(provider);
+        }
+    }
+
+    function fillProviderDefaults(provider) {
+        var cfg = PROVIDERS[provider];
+        if (!cfg) return;
+        if (!apiEndpointInput.value) apiEndpointInput.value = cfg.endpoint;
+        if (!apiModelInput.value) apiModelInput.value = cfg.model;
+    }
+
+    // 切换服务商时自动填充
+    if (apiProviderSelect) {
+        apiProviderSelect.addEventListener('change', function() {
+            fillProviderDefaults(this.value);
+        });
     }
 
     function saveSettings() {
+        localStorage.setItem(API_PROVIDER_STORAGE, apiProviderSelect ? apiProviderSelect.value : 'openai');
         localStorage.setItem(API_KEY_STORAGE, apiKeyInput.value.trim());
         localStorage.setItem(API_ENDPOINT_STORAGE, apiEndpointInput.value.trim());
+        localStorage.setItem(API_MODEL_STORAGE, apiModelInput.value.trim());
         settingsEl.style.display = 'none';
         showToastMsg('设置已保存 🍄');
     }
 
-    function getAPIKey() {
-        return localStorage.getItem(API_KEY_STORAGE) || '';
-    }
-
-    function getAPIEndpoint() {
-        return localStorage.getItem(API_ENDPOINT_STORAGE) || 'https://api.anthropic.com/v1/messages';
+    function getAPIConfig() {
+        return {
+            provider: localStorage.getItem(API_PROVIDER_STORAGE) || 'openai',
+            key: localStorage.getItem(API_KEY_STORAGE) || '',
+            endpoint: localStorage.getItem(API_ENDPOINT_STORAGE) || '',
+            model: localStorage.getItem(API_MODEL_STORAGE) || ''
+        };
     }
 
     // ==================== 对话历史 ====================
@@ -274,62 +351,85 @@
 
         appendBubble('user', query);
 
-        var apiKey = getAPIKey();
-        if (apiKey) {
-            await handleAPIQuery(query, apiKey);
+        var config = getAPIConfig();
+        if (config.key) {
+            await handleAPIQuery(query, config);
         } else {
             await handleFallbackQuery(query);
         }
     }
 
-    // ==================== API 查询 ====================
-    async function handleAPIQuery(query, apiKey) {
+    // ==================== API 查询（支持 OpenAI / Anthropic 两种格式） ====================
+    function buildUserMessage(query, context) {
+        return '以下是每日AI早报的全部历史数据，请基于这些数据回答用户问题。\n\n' +
+            '回复要求：\n' +
+            '- 引用新闻时必须标注日期和厂商\n' +
+            '- 日期格式使用"YYYY-MM-DD"\n' +
+            '- 如果数据中没有相关信息，诚实告知\n' +
+            '- 不要编造任何不在数据中的内容\n\n' +
+            '=== 知识库开始 ===\n' + context + '\n=== 知识库结束 ===\n\n' +
+            '用户问题：' + query;
+    }
+
+    async function handleAPIQuery(query, config) {
         showThinking();
         try {
-            var allData = getAllNewsData();
-            var context = formatContextForAPI(allData);
-            var endpoint = getAPIEndpoint();
+            var context = formatContextForAPI(getAllNewsData());
+            var userMsg = buildUserMessage(query, context);
+            var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
 
-            var response = await fetch(endpoint, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'x-api-key': apiKey,
-                    'anthropic-version': '2023-06-01',
-                    'anthropic-dangerous-direct-browser-access': 'true'
-                },
-                body: JSON.stringify({
-                    model: 'claude-sonnet-4-20250514',
+            var headers = { 'Content-Type': 'application/json' };
+            var body;
+
+            if (isAnthropic) {
+                headers['x-api-key'] = config.key;
+                headers['anthropic-version'] = '2023-06-01';
+                headers['anthropic-dangerous-direct-browser-access'] = 'true';
+                body = JSON.stringify({
+                    model: config.model,
                     max_tokens: 2048,
                     system: SYSTEM_PROMPT,
-                    messages: [{
-                        role: 'user',
-                        content: '以下是每日AI早报的全部历史数据，请基于这些数据回答用户问题。\n\n' +
-                            '回复要求：\n' +
-                            '- 引用新闻时必须标注日期和厂商\n' +
-                            '- 日期格式使用"YYYY-MM-DD"，方便跳转\n' +
-                            '- 如果数据中没有相关信息，诚实告知\n' +
-                            '- 不要编造任何不在数据中的内容\n\n' +
-                            '=== 知识库开始 ===\n' + context + '\n=== 知识库结束 ===\n\n' +
-                            '用户问题：' + query
-                    }]
-                })
+                    messages: [{ role: 'user', content: userMsg }]
+                });
+            } else {
+                headers['Authorization'] = 'Bearer ' + config.key;
+                body = JSON.stringify({
+                    model: config.model,
+                    max_tokens: 2048,
+                    temperature: 0.7,
+                    messages: [
+                        { role: 'system', content: SYSTEM_PROMPT },
+                        { role: 'user', content: userMsg }
+                    ]
+                });
+            }
+
+            var response = await fetch(config.endpoint, {
+                method: 'POST',
+                headers: headers,
+                body: body
             });
 
             if (!response.ok) {
                 var errText = await response.text();
-                throw new Error('API 调用失败: ' + response.status + ' ' + errText.slice(0, 200));
+                throw new Error('API error ' + response.status + ': ' + errText.slice(0, 200));
             }
 
             var data = await response.json();
-            var reply = data.content[0].text;
+            var reply;
+            if (isAnthropic) {
+                reply = data.content[0].text;
+            } else {
+                reply = data.choices[0].message.content;
+            }
             hideThinking();
             appendBubble('bot', formatBotReply(reply));
 
         } catch (e) {
             hideThinking();
             console.error('API error:', e);
-            appendBubble('bot', '唔...菇菇的脑袋有点转不过来😢<br><br>可能的原因：API Key 不正确，或者网络连接有问题。<br>菇菇先用本地搜索帮你找找看~');
+            var errMsg = '' + e.message;
+            appendBubble('bot', '唔...菇菇的脑袋有点转不过来😢<br><br>错误信息：' + escapeHtml(errMsg.slice(0, 150)) + '<br><br>菇菇先用本地搜索帮你找找看~');
             await handleFallbackQuery(query);
         }
     }

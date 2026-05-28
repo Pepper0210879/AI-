@@ -161,12 +161,25 @@
         <div class="chatbot-messages" id="chatbot-messages"></div>
 
         <div class="chatbot-settings" id="chatbot-settings" style="display:none;">
-            <label class="chatbot-settings-label">Claude API Key</label>
+            <label class="chatbot-settings-label">API 服务商</label>
+            <select class="chatbot-settings-select" id="chatbot-api-provider">
+                <option value="openai">OpenAI</option>
+                <option value="deepseek">DeepSeek</option>
+                <option value="moonshot">Moonshot（月之暗面）</option>
+                <option value="zhipu">智谱 GLM</option>
+                <option value="qwen">通义千问</option>
+                <option value="anthropic">Anthropic Claude</option>
+                <option value="custom">自定义</option>
+            </select>
+            <label class="chatbot-settings-label">API Key</label>
             <input type="password" class="chatbot-settings-input" id="chatbot-api-key"
-                placeholder="sk-ant-...">
-            <label class="chatbot-settings-label">API Endpoint（可选）</label>
+                placeholder="输入你的 API Key...">
+            <label class="chatbot-settings-label">API Endpoint</label>
             <input type="text" class="chatbot-settings-input" id="chatbot-api-endpoint"
-                placeholder="https://api.anthropic.com/v1/messages">
+                placeholder="自动填写，也可手动修改">
+            <label class="chatbot-settings-label">模型名称</label>
+            <input type="text" class="chatbot-settings-input" id="chatbot-api-model"
+                placeholder="自动填写，也可手动修改">
             <button class="chatbot-settings-save" id="chatbot-settings-save-btn">保存设置</button>
             <p class="chatbot-settings-hint">不配置 API Key 时使用本地搜索模式。Key 仅保存在你的浏览器中。</p>
         </div>

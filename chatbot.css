@@ -366,6 +366,19 @@
     box-sizing: border-box;
 }
 
+.chatbot-settings-select {
+    width: 100%;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-xs);
+    font-size: 0.78rem;
+    font-family: inherit;
+    outline: none;
+    box-sizing: border-box;
+    background: #fff;
+    cursor: pointer;
+}
+
 .chatbot-settings-input:focus {
     border-color: var(--macaron-pink);
 }
