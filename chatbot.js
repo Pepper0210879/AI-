@@ -72,8 +72,13 @@
         autoResizeInput();
     }
 
+    function getNewsData() {
+        // newsData 是 script.js 中 let 声明的顶层变量，不在 window 上
+        return (typeof newsData !== 'undefined' && newsData) ? newsData : null;
+    }
+
     function waitForData() {
-        if (window.newsData) {
+        if (getNewsData()) {
             init();
         } else {
             setTimeout(waitForData, 100);
@@ -85,6 +90,14 @@
     } else {
         waitForData();
     }
+
+    // 日期跳转：通过触发日期选择器 change 事件实现
+    window.jumpToDate = function(dateStr) {
+        var dateInput = document.getElementById('custom-date-input');
+        if (!dateInput) return;
+        dateInput.value = dateStr;
+        dateInput.dispatchEvent(new Event('change'));
+    };
 
     // ==================== 事件绑定 ====================
     function bindEvents() {
@@ -370,8 +383,9 @@
         var all = [];
 
         // 当前数据
-        if (window.newsData && window.newsData.date) {
-            all.push({ date: window.newsData.date, data: window.newsData });
+        var currentData = getNewsData();
+        if (currentData && currentData.date) {
+            all.push({ date: currentData.date, data: currentData });
         }
 
         // 历史确认数据
