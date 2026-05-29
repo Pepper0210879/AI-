@@ -17,7 +17,7 @@ description: 每日AI早报新闻抓取与整理。当用户说"抓取今日新�
 OpenAI、Anthropic、Google、xAI、NVIDIA、Meta
 
 ### 国内主要厂商
-阿里云、火山引擎、DeepSeek、腾讯、智谱AI、MiniMax、月之暗面、华为
+阿里云、火山引擎、DeepSeek、腾讯、小米、智谱AI、月之暗面、华为
 
 ### 其他关注分类
 其他厂商、自动驾驶、具身智能、AI出海、投资资讯、行业趋势&观点
@@ -115,7 +115,7 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py articles \
 - 例如"新智具身融资，团队来自 Meta、华为"→ 主体是新智具身，归入「具身智能」或「投资资讯」
 - 例如"支付宝发布 AI 新品，与 MiniMax、阶跃星辰达成合作"→ 主体是支付宝（发布方/主导者），归入「其他厂商」的支付宝卡片；MiniMax 只是合作方，不应归入 MiniMax
 
-### 第四步：查找独立文章链接（关键步骤）
+### 第四步：查找独立文章链接（关键步骤，不可跳过）
 
 **日报文章本身的 URL 不能作为新闻链接使用。** 每条新闻必须找到独立的、只讲这一条新闻的权威文章链接。
 
@@ -124,12 +124,19 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py articles \
 2. 如果补充站点有对应文章，使用该文章的 URL
 3. 如果补充站点没有，使用搜索引擎搜索新闻标题，找到权威媒体的独立报道链接
 4. **质量要求**：链接指向的页面必须专门报道该条新闻，不能是日报整合页、列表页或分类页
+5. **完成后必须自检**：写入数据文件后，用以下命令确认没有漏网之鱼：
+
+```bash
+grep -c 'ifanr.com/1667419\|geekpark.net/news/365005' data.js script.js admin.js
+```
+
+> 三个文件的检查结果都应为 0。如果任一文件返回 > 0，说明有日报链接未替换，必须回到第四步补充搜索。
 
 > 如果实在无法找到独立链接，该条新闻应从日报文章中保留，使用能找到的最佳链接（优先补充站点，其次搜索引擎结果，最后才考虑日报链接）。
 
-### 第五步：从补充站点查询遗漏新闻（24 小时窗口严格过滤）
+### 第五步：从补充站点查询遗漏新闻（不可跳过）
 
-日报处理完毕后，从三个补充站点查漏补缺。**这一步必须严格按 24 小时窗口过滤。**
+日报处理完毕后，从四个补充站点查漏补缺。**这一步必须严格执行，绝不可跳过。** 历史教训：跳过此步骤曾导致腾讯 Hy-Memory 和 Miora 两条重要新闻被遗漏——日报源不可能 100% 覆盖所有厂商动态。
 
 补充站点：
 | 站点 | URL |
@@ -197,7 +204,7 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py rankings
 
 > 截图要求：LMArena 截取模型排名列表区域，ProductHunt 截取首页当日 Top 产品列表区域。PNG 或 JPG 均可。
 
-### 第八步：写入数据文件
+### 第八步：写入数据文件并同步
 
 1. 按输出格式拼装完整 JSON（合并 news + ranking）
 2. **日期使用前一天**：如今天 5月28日运行，date 写 "2026-05-27"
@@ -215,9 +222,24 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py rankings
    with open('data.js','w') as f: f.write(js)
    "
    ```
-6. 运行校验：
+6. **同步更新 script.js 的 NEWS_DATA 和 admin.js 的 DEFAULT_DATA**（三个文件中的链接和内容必须一致）：
+   - 提取 data.js 中的所有 `{title, link}` 映射
+   - 用 Python 正则将 script.js 和 admin.js 中对应标题的旧链接替换为新链接
+   - 确保 script.js 中有对应新 card 标题的 `VENDOR_DISPLAY` 条目
+7. 运行校验：
    ```bash
    python3 .claude/skills/ai-news-scraper/scripts/helper.py check
+   ```
+8. **必须执行第四步链接自检**：
+   ```bash
+   grep -c 'ifanr.com/1667419\|geekpark.net/news/365005' data.js script.js admin.js
+   ```
+   三个文件的结果必须都为 0。任一文件 > 0 则回到第四步。
+9. Git 提交并推送：
+   ```bash
+   git add data.json data.js script.js admin.js
+   git commit -m "更新早报至 YYYY-MM-DD"
+   git push origin main
    ```
 
 ---
@@ -250,7 +272,7 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py rankings
         {"name": "DeepSeek", "news": []},
         {"name": "腾讯", "news": []},
         {"name": "智谱AI", "news": []},
-        {"name": "MiniMax", "news": []},
+        {"name": "小米", "news": []},
         {"name": "月之暗面", "news": []},
         {"name": "华为", "news": []}
       ]
@@ -298,7 +320,8 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py rankings
 - **最高准则——日报优先**：三大日报最新文章中的 **AI 相关新闻**必须全部提炼收录，不受 24 小时窗口约束。非 AI 内容（纯消费电子、纯汽车、社会新闻等）仍然排除。这是不可动摇的第一原则。
 - **24 小时窗口约束补充站点**：从量子位、IT之家、机器之心补充查询时，必须严格按 24 小时窗口过滤，标记为"前天"或更早的一律剔除。补充完成后进行二次复核。
 - **日期使用前一天**：每天 9:30 抓取，data.json 的 `date` 使用前一天的日期
-- **来源链接严禁使用日报整合链接**。每条新闻的 `link` 优先使用独立文章 URL；实在找不到时，按"补充站点 > 搜索引擎 > 日报链接"的优先级降级使用，不因缺链接而舍弃日报新闻。
+- **来源链接严禁使用日报整合链接**。每条新闻的 `link` 优先使用独立文章 URL；实在找不到时，按"补充站点 > 搜索引擎 > 日报链接"的优先级降级使用，不因缺链接而舍弃日报新闻。**写入文件后必须用 grep 自检，确认 data.js、script.js、admin.js 三个文件中无 `ifanr.com/` 或 `geekpark.net/` 日报链接残留。**
+- **三步不可跳过**：第四步（独立链接查找）、第五步（补充站点遗漏查询）、第八步（三文件同步 + 链接自检），三步缺一不可，历史教训已证明跳过任何一步都会导致数据质量问题。
 - **摘要不加日期前缀**
 - **「其他关注」卡片标题禁止宽泛**：属于"其他厂商/自动驾驶/具身智能/投资资讯/行业趋势&观点"的新闻，标题必须用具体公司名、人物名+头衔、研究报告名等，严禁用"其他厂商""具身智能""行业趋势&观点"等分类名作为卡片标题。读者看标题应能立刻知道"这条新闻讲的是谁"
 - **行业趋势&观点**分类指南：收录 AI 领域重要人士的访谈/言论、行业研究报告（如 QuestMobile、IDC、Gartner 等）、行业趋势预判、政策/统计数据（如人形机器人出货量等）。卡片标题视内容而定——人物观点用人物名+头衔（如"Demis Hassabis (DeepMind CEO)"），研究报告用报告机构名（如"QuestMobile"），数据/政策用核心内容提炼
