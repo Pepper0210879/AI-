@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## 强制约束（最高优先级）
+
+> **更新日报时，必须严格执行 `.claude/skills/ai-news-scraper/SKILL.md` 中的 8 个步骤，按顺序逐步执行，每步结束后输出检查点摘要，不得跳过、合并或调换顺序。任何违反即视为执行失败。**
+
 ## 项目概述
 
 每日AI早报 — 纯静态前端网站，展示 AI 行业新闻。零依赖、无构建步骤，直接用浏览器打开 `index.html` 即可运行。
