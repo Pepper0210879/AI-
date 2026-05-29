@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 强制约束（最高优先级）
 
-> **更新日报时，必须严格执行 `.claude/skills/ai-news-scraper/SKILL.md` 中的 8 个步骤，按顺序逐步执行，每步结束后输出检查点摘要，不得跳过、合并或调换顺序。任何违反即视为执行失败。**
+> **更新日报时，必须逐字逐句严格执行 `.claude/skills/ai-news-scraper/SKILL.md` 中的全部 7 个步骤。按顺序逐步执行，每步结束后必须输出检查点摘要并确认通过后方可进入下一步。不得跳过、合并、调换顺序，不得省略任何子步骤，不得以"节省时间"为由简化流程。任何违反即视为执行失败。**
 
 ## 项目概述
 
