@@ -3,7 +3,7 @@ const STORAGE_KEY = 'ai-news-data';
 const CONFIRMED_KEY = 'ai-news-confirmed';
 const LAST_UPDATE_KEY = 'ai-news-last-update';
 const NEWS_DATA = {
-    date: "2026-05-27",
+    date: "2026-05-29",
     sections: {
         overseas: {
             title: "海外主要厂商",
@@ -17,12 +17,12 @@ const NEWS_DATA = {
                     initial: "O",
                     news: [
                         {
-                            title: "OpenAI 发布 GPT-5：多模态能力全面提升",
-                            summary: "OpenAI 今日正式发布 GPT-5，新版本在视觉理解、代码生成和多轮对话方面实现了显著提升，推理速度提升 3 倍。",
-                            link: "#",
-                            tags: ["大模型", "GPT-5"],
-                            source: "TechCrunch",
-                            time: "2小时前"
+                            title: "OpenAI 基金会设立 2.5 亿美元基金，研究 AI 对劳动力市场影响",
+                            summary: "OpenAI Foundation 投入首期 2.5 亿美元，用于应对 AI 带来的岗位与收入结构变化，研究劳动力市场影响，支持受冲击的劳动者和社区，探索 AI 经济收益的分配方式。",
+                            link: "https://www.geekpark.net/news/365005",
+                            tags: ["OpenAI", "AI基金", "劳动力"],
+                            source: "极客公园",
+                            time: "5小时前"
                         }
                     ]
                 },
@@ -33,12 +33,20 @@ const NEWS_DATA = {
                     initial: "A",
                     news: [
                         {
-                            title: "Anthropic 发布 Claude 4：长上下文推理能力大幅增强",
-                            summary: "AI 安全公司 Anthropic 发布 Claude 4，在长文本理解和复杂推理任务上表现优异，支持 200K token 上下文窗口。",
-                            link: "#",
-                            tags: ["Claude", "AI安全"],
-                            source: "Reuters",
-                            time: "8小时前"
+                            title: "Claude Opus 4.8 发布：编码能力与诚实度双升级，成本降至三分之一",
+                            summary: "Anthropic 发布旗舰模型 Opus 4.8，SWE-Bench Pro 得分 69.2%，多项 Agentic 测试超过 GPT-5.5。快速模式推理速度提升 2.5 倍、成本降至前代三分之一。新增投入控制与动态工作流功能，可在 Claude Code 中并行调度数百个子智能体。",
+                            link: "https://www.anthropic.com/news/claude-opus-4-8",
+                            tags: ["Claude", "Opus 4.8", "Agent"],
+                            source: "爱范儿",
+                            time: "3小时前"
+                        },
+                        {
+                            title: "Anthropic 完成 650 亿美元 H 轮融资，估值 9650 亿美元超越 OpenAI",
+                            summary: "Anthropic PBC 宣布完成 650 亿美元 H 轮融资，投后估值达 9650 亿美元，由 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投，估值首次超越 OpenAI。",
+                            link: "https://www.geekpark.net/news/365005",
+                            tags: ["Anthropic", "融资", "估值"],
+                            source: "极客公园",
+                            time: "5小时前"
                         }
                     ]
                 },
@@ -49,11 +57,11 @@ const NEWS_DATA = {
                     initial: "G",
                     news: [
                         {
-                            title: "Google DeepMind 推出 AlphaFold 4：蛋白质预测再突破",
-                            summary: "DeepMind 发布最新版 AlphaFold，在蛋白质结构预测领域取得突破性进展，准确率从上一代的 92% 提升至 98%。",
-                            link: "#",
-                            tags: ["生物AI", "DeepMind"],
-                            source: "Nature",
+                            title: "YouTube 将上线自动 AI 检测，拟真视频将被自动标注",
+                            summary: "YouTube 宣布从 2026 年 5 月起，主动对显著拟真的 AI 生成视频进行自动识别与标注，标签将固定在播放器下方或叠加在画面上，不影响推荐算法和广告收益。",
+                            link: "https://www.geekpark.net/news/365005",
+                            tags: ["YouTube", "AI检测", "内容标注"],
+                            source: "极客公园",
                             time: "5小时前"
                         }
                     ]
@@ -63,16 +71,7 @@ const NEWS_DATA = {
                     color: "#8ab4d4",
                     softBg: "#eef5fb",
                     initial: "X",
-                    news: [
-                        {
-                            title: "xAI Grok 3.5 发布：数学推理能力对标 GPT-5",
-                            summary: "马斯克旗下 xAI 发布 Grok 3.5，在数学和代码推理基准测试中表现接近 GPT-5 水平，集成 X 平台实时数据。",
-                            link: "#",
-                            tags: ["Grok", "xAI"],
-                            source: "The Verge",
-                            time: "3小时前"
-                        }
-                    ]
+                    news: []
                 },
                 {
                     name: "NVIDIA",
@@ -81,12 +80,20 @@ const NEWS_DATA = {
                     initial: "N",
                     news: [
                         {
-                            title: "NVIDIA 发布 B300 GPU：AI 训练性能提升 4 倍",
-                            summary: "NVIDIA 在 GTC 大会上发布新一代 B300 GPU，采用 Blackwell Ultra 架构，AI 训练性能较上代提升 4 倍。",
-                            link: "#",
-                            tags: ["GPU", "芯片"],
-                            source: "AnandTech",
+                            title: "英伟达推出开源 AI 框架 Polar，Codex 跑分暴涨 594%",
+                            summary: "英伟达研究团队发布开源框架 Polar，让 Codex、Claude Code 等智能体框架接入 GRPO 强化学习训练。基于 Qwen3.5-4B，Codex 在 SWE-Bench Verified 的 pass@1 从 3.8% 跃升至 26.4%。",
+                            link: "https://www.ithome.com/0/956/293.htm",
+                            tags: ["NVIDIA", "Polar", "GRPO"],
+                            source: "IT之家",
                             time: "6小时前"
+                        },
+                        {
+                            title: "黄仁勋加入清华大学经管学院顾问委员会",
+                            summary: "英伟达 CEO 黄仁勋将加入清华大学经济管理学院顾问委员会，与苹果 CEO 库克、特斯拉 CEO 马斯克、微软 CEO 纳德拉等同列。此举被视为英伟达深化与中国学术界联系的重要信号。",
+                            link: "https://www.ifanr.com/1667419",
+                            tags: ["黄仁勋", "清华大学", "NVIDIA"],
+                            source: "爱范儿",
+                            time: "1小时前"
                         }
                     ]
                 },
@@ -95,7 +102,16 @@ const NEWS_DATA = {
                     color: "#8a9ad4",
                     softBg: "#eff0fa",
                     initial: "M",
-                    news: []
+                    news: [
+                        {
+                            title: "扎克伯格称 Meta 考虑进军云计算市场",
+                            summary: "扎克伯格表示如果数据中心算力出现过剩，Meta 绝对在考虑进军云计算领域，将与亚马逊 AWS 和微软 Azure 展开竞争。",
+                            link: "https://www.geekpark.net/news/365005",
+                            tags: ["Meta", "云计算", "扎克伯格"],
+                            source: "极客公园",
+                            time: "5小时前"
+                        }
+                    ]
                 }
             ]
         },
@@ -108,15 +124,23 @@ const NEWS_DATA = {
                     name: "阿里云",
                     color: "#d4a06a",
                     softBg: "#faf5ee",
-                    initial: "阿",
+                    initial: "\u963f",
                     news: [
                         {
-                            title: "阿里云通义千问 Qwen3 发布：开源模型性能再创新高",
-                            summary: "阿里云发布通义千问 Qwen3 系列，开源版本在多项基准测试中超越同级别模型，支持 128K 上下文长度。",
-                            link: "#",
-                            tags: ["通义千问", "开源"],
-                            source: "36氪",
-                            time: "3小时前"
+                            title: "阿里达摩院发布 GPU 版 MindOpt 求解器，处理亿级变量线性规划",
+                            summary: "达摩院「敏迭」MindOpt 求解器发布 GPU 版本，利用并行加速处理亿级变量的线性规划问题，服务电力调度、航班编排、高端制造等场景。",
+                            link: "https://www.ifanr.com/1667419",
+                            tags: ["达摩院", "MindOpt", "GPU"],
+                            source: "爱范儿",
+                            time: "1小时前"
+                        },
+                        {
+                            title: "阿里 Qoder 推出 Cloud Agents，全托管 AI Agent 运行平台上线",
+                            summary: "阿里云 Qoder 上线全托管 AI Agent 运行平台 Cloud Agents，提供 Agent 底座、模型服务和运行环境，企业可通过 API 调用让 Agent 在云端执行任务，上线周期从约 1 个月缩短至 1 天。",
+                            link: "https://www.ifanr.com/1667419",
+                            tags: ["阿里云", "Agent", "Qoder"],
+                            source: "爱范儿",
+                            time: "1小时前"
                         }
                     ]
                 },
@@ -124,15 +148,23 @@ const NEWS_DATA = {
                     name: "火山引擎",
                     color: "#8aaed4",
                     softBg: "#eef5fb",
-                    initial: "火",
+                    initial: "\u706b",
                     news: [
                         {
-                            title: "火山引擎豆包大模型升级：推理成本降低 60%",
-                            summary: "字节跳动旗下火山引擎宣布豆包大模型全面升级，推理成本降低 60%，新增多模态理解与生成能力。",
-                            link: "#",
-                            tags: ["豆包", "大模型"],
-                            source: "机器之心",
+                            title: "字节跳动正开发定制 CPU 以支持 AI 需求",
+                            summary: "字节跳动自研 CPU 以满足 AI 基础设施需求，应对英特尔和 AMD 连续涨价（季度环比涨 10%-35%），计划部署于自有服务器和数据中心。",
+                            link: "https://www.geekpark.net/news/365005",
+                            tags: ["字节跳动", "自研CPU", "AI基础设施"],
+                            source: "极客公园",
                             time: "5小时前"
+                        },
+                        {
+                            title: "豆包接入抖音生活服务闭环，支持团购推荐与支付核销",
+                            summary: "字节跳动旗下 AI 助手豆包与抖音生活服务整合，用户可在豆包内获得团购推荐、查看商家页面、完成支付和线下核销流程。",
+                            link: "https://www.ifanr.com/1667419",
+                            tags: ["豆包", "抖音", "生活服务"],
+                            source: "爱范儿",
+                            time: "1小时前"
                         }
                     ]
                 },
@@ -143,12 +175,20 @@ const NEWS_DATA = {
                     initial: "D",
                     news: [
                         {
-                            title: "DeepSeek-V3 开源：MoE 架构训练成本仅 550 万美元",
-                            summary: "DeepSeek 发布 V3 版本，采用 MoE 架构，总训练成本仅 550 万美元，性能对标 GPT-4 级别模型。",
-                            link: "#",
-                            tags: ["开源", "MoE"],
-                            source: "量子位",
-                            time: "7小时前"
+                            title: "国家大基金领投 DeepSeek 首轮融资，投前估值 450 亿美元",
+                            summary: "DeepSeek 成立三年首次对外开放融资，由国家集成电路产业投资基金领投，投前估值达 450 亿美元，融资规模约 100 亿美元。这是国家大基金成立 12 年来首次跨界投资纯大模型公司。",
+                            link: "https://www.163.com/dy/article/KU17TE7D05198UNI.html",
+                            tags: ["DeepSeek", "融资", "国家大基金"],
+                            source: "极客公园",
+                            time: "5小时前"
+                        },
+                        {
+                            title: "DeepSeek 服务出现短暂中断，约 22 分钟后恢复",
+                            summary: "大量用户反馈 DeepSeek 服务异常，网页对话和 API 出现部分中断，持续约 22 分钟后恢复。DeepSeek 未披露故障具体原因。",
+                            link: "https://www.ifanr.com/1667419",
+                            tags: ["DeepSeek", "服务故障"],
+                            source: "爱范儿",
+                            time: "1小时前"
                         }
                     ]
                 },
@@ -156,15 +196,31 @@ const NEWS_DATA = {
                     name: "腾讯",
                     color: "#8ac4a0",
                     softBg: "#effaf3",
-                    initial: "腾",
+                    initial: "\u817e",
                     news: [
                         {
-                            title: "腾讯混元大模型接入微信生态：AI 助手全量上线",
-                            summary: "腾讯宣布混元大模型全面接入微信生态，AI 助手功能已面向全部用户上线，支持对话、搜索、内容生成。",
-                            link: "#",
-                            tags: ["混元", "微信"],
-                            source: "界面新闻",
-                            time: "4小时前"
+                            title: "腾讯混元发布 Hy-Memory 记忆插件，打造 Agent 的「第二大脑」",
+                            summary: "腾讯混元发布 Hy-Memory 记忆插件，采用 6 层记忆框架（L1 原始痕迹→L6 前瞻意图）、System1/System2 双系统与演化链机制设计。LongMemEval 评测得分 85.2，记忆数量降低 70%+，Token 消耗降低 35%，5 分钟即可完成部署，专为 Openclaw 等长期协作 Agent 解决记忆碎片化问题。",
+                            link: "https://www.chinaz.com/ainews/28443.shtml",
+                            tags: ["腾讯", "混元", "Hy-Memory", "Agent"],
+                            source: "站长之家",
+                            time: "昨天"
+                        },
+                        {
+                            title: "腾讯 Miora 国际版开启邀测：一句话生成多模态视觉方案的创意 AI 智能体",
+                            summary: "腾讯在香港 Cloud Day 上正式宣布 Miora 国际版开启邀测。Miora 是全场景创意智能体工作室，支持 AI 生成图片、视频、UI/UX、3D 四种模态内容，具备记忆审美偏好、自由画布编辑、Skills 开放平台等功能。由 CodeBuddy/WorkBuddy 团队打造，需邀请码体验，国内上线时间未定。",
+                            link: "https://36kr.com/newsflashes/3828499301651336",
+                            tags: ["腾讯", "Miora", "创意AI", "AIGC"],
+                            source: "36氪",
+                            time: "昨天"
+                        },
+                        {
+                            title: "腾讯发布 AIGC 创作平台「代号 Craft」，自然语言生成游戏素材",
+                            summary: "腾讯发布 AIGC 创作平台「代号 Craft」，内置完整 AIGC 工具链，用户通过自然语言可生成 2D/3D 游戏素材，自动生成场景、角色和基础玩法框架，适配 Unity 等引擎。",
+                            link: "https://www.geekpark.net/news/365005",
+                            tags: ["腾讯", "AIGC", "游戏"],
+                            source: "极客公园",
+                            time: "5小时前"
                         }
                     ]
                 },
@@ -172,65 +228,46 @@ const NEWS_DATA = {
                     name: "小米",
                     color: "#d4a882",
                     softBg: "#faf5ee",
-                    initial: "米",
+                    initial: "\u7c73",
                     news: [
                         {
-                            title: "小米 MiMo-V2.5 系列 API 永久降价",
-                            summary: "小米宣布 MiMo-V2.5 系列 API 永久降价，推理成本远低于行业平均水平，基本可以维持收支平衡。",
-                            link: "#",
+                            title: "小米 MiMo-V2.5 系列 API 永久降价，罗福莉称推理成本远低于行业",
+                            summary: "小米宣布 MiMo-V2.5 系列 API 永久降价，最高降幅达 99%。大模型负责人罗福莉表示，降价源于架构设计的推理效率压缩与工程优化，成本远低于行业平均水平，建议同行不要盲目降价。",
+                            link: "https://www.ifanr.com/1667419",
                             tags: ["小米", "MiMo", "API降价"],
-                            source: "IT之家",
-                            time: "2小时前"
+                            source: "爱范儿",
+                            time: "1小时前"
+                        },
+                        {
+                            title: "小米招聘 Agent 上线，依托 MiMo 大模型提供智能求职服务",
+                            summary: "小米招聘官网上线「小米招聘 Agent」，依托 MiMo 大模型为求职者提供政策解答、职位智能推荐、招聘进展查询等服务。",
+                            link: "https://www.ifanr.com/1667419",
+                            tags: ["小米", "Agent", "招聘"],
+                            source: "爱范儿",
+                            time: "1小时前"
                         }
                     ]
                 },
                 {
-                    name: "智谱 AI",
+                    name: "智谱AI",
                     color: "#b4a0d4",
                     softBg: "#f5f0fa",
-                    initial: "智",
-                    news: [
-                        {
-                            title: "智谱 GLM-5 发布：中文理解能力行业领先",
-                            summary: "智谱 AI 发布 GLM-5 模型，在中文理解、代码生成和数学推理等任务上表现优异，中文理解能力行业领先。",
-                            link: "#",
-                            tags: ["GLM", "中文AI"],
-                            source: "机器之心",
-                            time: "6小时前"
-                        }
-                    ]
+                    initial: "\u667a",
+                    news: []
                 },
                 {
                     name: "月之暗面",
                     color: "#b4a0d4",
                     softBg: "#f5f0fa",
-                    initial: "月",
-                    news: [
-                        {
-                            title: "Kimi 长上下文能力升级：支持 200 万 token 输入",
-                            summary: "月之暗面宣布 Kimi 智能助手长上下文窗口扩展至 200 万 token，可一次性处理数百页文档。",
-                            link: "#",
-                            tags: ["Kimi", "长上下文"],
-                            source: "量子位",
-                            time: "9小时前"
-                        }
-                    ]
+                    initial: "\u6708",
+                    news: []
                 },
                 {
                     name: "华为",
                     color: "#d4a0a0",
                     softBg: "#faf0f0",
-                    initial: "华",
-                    news: [
-                        {
-                            title: "华为盘古大模型 5.0 发布：赋能千行百业智能化",
-                            summary: "华为发布盘古大模型 5.0，在工业制造、气象预测、金融风控等领域实现深度赋能，新增多模态能力。",
-                            link: "#",
-                            tags: ["盘古", "行业AI"],
-                            source: "华为官网",
-                            time: "10小时前"
-                        }
-                    ]
+                    initial: "\u534e",
+                    news: []
                 }
             ]
         },
@@ -244,14 +281,58 @@ const NEWS_DATA = {
                     icon: "fas fa-building",
                     color: "#a0a8b0",
                     softBg: "#f2f4f5",
-                    news: [
+                    cards: [
                         {
-                            title: "Stability AI 发布 Stable Diffusion 4：图像质量再突破",
-                            summary: "Stability AI 发布 SD4 模型，图像生成质量和文字渲染能力大幅提升，支持 4K 分辨率输出。",
-                            link: "#",
-                            tags: ["图像生成", "SD4"],
-                            source: "VentureBeat",
-                            time: "4小时前"
+                            title: "MiniMax",
+                            news: [
+                                {
+                                    title: "MiniMax 年化收入两个月翻番，全球用户约 3 亿",
+                                    summary: "MiniMax 披露全球用户约 3 亿，企业客户超 100 万（半年增 5 倍），ARR 翻番周期压缩至约 60 天。M2 模型日均 token 消耗两月增长 6 倍。",
+                                    link: "https://www.ifanr.com/1667419",
+                                    tags: ["MiniMax", "营收", "增长"],
+                                    source: "爱范儿",
+                                    time: "1小时前"
+                                }
+                            ]
+                        },
+                        {
+                            title: "美团",
+                            news: [
+                                {
+                                    title: "美团发布即时零售商家 AI 方案「牵牛花 Claw」",
+                                    summary: "美团推出「牵牛花 Claw」AI 解决方案，覆盖经营分析、商品管理、营销活动和运营建议，将平台数据能力转化为商家可执行的运营动作。",
+                                    link: "https://www.ifanr.com/1667419",
+                                    tags: ["美团", "AI方案", "零售"],
+                                    source: "爱范儿",
+                                    time: "1小时前"
+                                }
+                            ]
+                        },
+                        {
+                            title: "苹果",
+                            news: [
+                                {
+                                    title: "iOS 27 AI Siri 界面曝光：灵动岛动画与独立 Siri App",
+                                    summary: "彭博社曝光 iOS 27 新版 Siri 界面，支持灵动岛动画、独立 Siri App（含对话记录与多模态附件）、相机整合 Siri 物体识别，相册新增 AI 构图与扩图功能。",
+                                    link: "https://www.ifanr.com/1667419",
+                                    tags: ["苹果", "Siri", "iOS 27"],
+                                    source: "爱范儿",
+                                    time: "1小时前"
+                                }
+                            ]
+                        },
+                        {
+                            title: "OpenRouter",
+                            news: [
+                                {
+                                    title: "OpenRouter 完成 1.13 亿美元 B 轮融资，周 token 处理量达 25 万亿",
+                                    summary: "AI 模型 API 平台 OpenRouter 获 CapitalG 领投的 1.13 亿美元 B 轮融资，a16z、Menlo Ventures 等参投。6 个月周 token 处理量从 5 万亿增至 25 万亿，服务 800 多万开发者、覆盖 400 多个模型。",
+                                    link: "https://www.ifanr.com/1667419",
+                                    tags: ["OpenRouter", "融资", "API平台"],
+                                    source: "爱范儿",
+                                    time: "1小时前"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -260,14 +341,19 @@ const NEWS_DATA = {
                     icon: "fas fa-car",
                     color: "#82c4d4",
                     softBg: "#eefafc",
-                    news: [
+                    cards: [
                         {
-                            title: "Waymo 在旧金山实现全无人驾驶商业化运营一周年",
-                            summary: "Waymo 宣布在旧金山全无人驾驶商业化运营满一周年，累计完成超 20 万次付费出行，零重大事故。",
-                            link: "#",
-                            tags: ["自动驾驶", "Waymo"],
-                            source: "TechCrunch",
-                            time: "6小时前"
+                            title: "小鹏汽车",
+                            news: [
+                                {
+                                    title: "小鹏 2026 Q1 营收 130 亿元，今年将推四款新车型",
+                                    summary: "小鹏汽车发布 2026 年一季度财报，营收 130 亿元，净亏损 17.8 亿元。何小鹏表示今年将推出四款新车型，并致力于实现自动驾驶出租车和人形机器人的量产。",
+                                    link: "https://www.geekpark.net/news/365005",
+                                    tags: ["小鹏", "财报", "自动驾驶"],
+                                    source: "极客公园",
+                                    time: "5小时前"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -276,14 +362,32 @@ const NEWS_DATA = {
                     icon: "fas fa-robot",
                     color: "#d4b482",
                     softBg: "#faf6ee",
-                    news: [
+                    cards: [
                         {
-                            title: "Figure 02 人形机器人进入 BMW 工厂试运行",
-                            summary: "Figure AI 的 Figure 02 人形机器人开始在 BMW 南卡工厂试运行，执行车身检测和零件搬运任务。",
-                            link: "#",
-                            tags: ["人形机器人", "具身智能"],
-                            source: "Reuters",
-                            time: "7小时前"
+                            title: "自变量机器人",
+                            news: [
+                                {
+                                    title: "自变量机器人开源 Wall-OSS-0.5 具身大模型，17 个零样本任务 4 个超 80%",
+                                    summary: "自变量机器人（X-Square Robot）发布并开源具身大模型 Wall-OSS-0.5，核心卖点是预训练一次随处部署，无需任务微调即可直接上机。在 17 个真机零样本任务中，4 个任务自主完成率超 80%。",
+                                    link: "https://www.ifanr.com/1667419",
+                                    tags: ["具身智能", "开源", "VLA"],
+                                    source: "爱范儿",
+                                    time: "1小时前"
+                                }
+                            ]
+                        },
+                        {
+                            title: "小鹏 IRON",
+                            news: [
+                                {
+                                    title: "小鹏人形机器人 IRON 预计三季度亮相，年底实现高阶量产",
+                                    summary: "何小鹏在财报电话会上表示，新一代小鹏 IRON 人形机器人即将进入 ET2 软硬件合围阶段，计划今年第三季度正式亮相，今年底实现高阶量产为目标。",
+                                    link: "https://www.ifanr.com/1667419",
+                                    tags: ["小鹏", "人形机器人", "IRON"],
+                                    source: "爱范儿",
+                                    time: "1小时前"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -292,30 +396,39 @@ const NEWS_DATA = {
                     icon: "fas fa-ship",
                     color: "#8ac4a0",
                     softBg: "#effaf3",
-                    news: [
-                        {
-                            title: "字节跳动 CapCut AI 功能全球用户突破 5 亿",
-                            summary: "字节跳动旗下 CapCut 的 AI 视频编辑功能全球月活用户突破 5 亿，东南亚和拉美市场增长迅猛。",
-                            link: "#",
-                            tags: ["AI出海", "CapCut"],
-                            source: "36氪出海",
-                            time: "8小时前"
-                        }
-                    ]
+                    cards: []
                 },
                 {
                     name: "投资资讯",
                     icon: "fas fa-chart-line",
                     color: "#d4c482",
                     softBg: "#faf9ee",
-                    news: [
+                    cards: [
                         {
-                            title: "AI 基础设施赛道持续火热：CoreWeave 估值突破 350 亿美元",
-                            summary: "GPU 云服务商 CoreWeave 完成新一轮融资，估值达 350 亿美元，AI 基础设施投资热度不减。",
-                            link: "#",
-                            tags: ["投资", "GPU云"],
-                            source: "Bloomberg",
-                            time: "5小时前"
+                            title: "Anthropic",
+                            news: [
+                                {
+                                    title: "Anthropic 完成 650 亿美元 H 轮融资，估值达 9650 亿美元",
+                                    summary: "Anthropic 宣布完成 650 亿美元 H 轮融资，投后估值 9650 亿美元，由 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投，估值首次超越 OpenAI。",
+                                    link: "https://www.geekpark.net/news/365005",
+                                    tags: ["Anthropic", "融资", "估值"],
+                                    source: "极客公园",
+                                    time: "5小时前"
+                                }
+                            ]
+                        },
+                        {
+                            title: "DeepSeek",
+                            news: [
+                                {
+                                    title: "国家大基金领投 DeepSeek 首轮融资，投前估值 450 亿美元",
+                                    summary: "DeepSeek 首轮融资由国家集成电路产业投资基金领投，投前估值 450 亿美元，融资规模约 100 亿美元，是 DeepSeek 成立三年首次对外开放融资。",
+                                    link: "https://www.163.com/dy/article/KU17TE7D05198UNI.html",
+                                    tags: ["DeepSeek", "融资", "国家大基金"],
+                                    source: "极客公园",
+                                    time: "5小时前"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -324,14 +437,32 @@ const NEWS_DATA = {
                     icon: "fas fa-lightbulb",
                     color: "#b4a0d4",
                     softBg: "#f5f0fa",
-                    news: [
+                    cards: [
                         {
-                            title: "Demis Hassabis：AI 将在十年内解决大多数科学难题",
-                            summary: "DeepMind CEO Demis Hassabis 在最新访谈中表示，AI 将在未来十年内帮助人类解决蛋白质折叠、材料设计等核心科学问题。",
-                            link: "#",
-                            tags: ["观点", "DeepMind", "AI4Science"],
-                            source: "The Verge",
-                            time: "12小时前"
+                            title: "黄仁勋（NVIDIA CEO）",
+                            news: [
+                                {
+                                    title: "黄仁勋：AI 时代学什么专业不重要，会不会用 AI 才重要",
+                                    summary: "英伟达 CEO 黄仁勋在公开场合表示，AI 时代孩子学什么专业没那么重要，真正要紧的是会不会用 AI。他同时批评部分 CEO 以 AI 为由裁员只是为了显得自己很聪明，强调 AI 应赋能而非替代员工。",
+                                    link: "https://www.ithome.com/0/956/177.htm",
+                                    tags: ["黄仁勋", "AI时代", "教育"],
+                                    source: "IT之家",
+                                    time: "1天前"
+                                }
+                            ]
+                        },
+                        {
+                            title: "罗福莉（小米大模型负责人）",
+                            news: [
+                                {
+                                    title: "罗福莉：MiMo API 降价源于推理效率优化，建议同行不要盲目降价",
+                                    summary: "小米大模型负责人罗福莉解释 MiMo-V2.5 API 降价源于架构设计的推理效率压缩与工程优化，原始推理成本远低于行业平均水平。她建议同行不要盲目降价，应首先提升模型效率。",
+                                    link: "https://www.ifanr.com/1667419",
+                                    tags: ["罗福莉", "MiMo", "API降价"],
+                                    source: "爱范儿",
+                                    time: "1小时前"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -349,16 +480,16 @@ const NEWS_DATA = {
                     initial: "L",
                     date: "2026-05-28",
                     rankings: [
-                        { model: "GPT-5", score: "1387" },
-                        { model: "Claude 4 Opus", score: "1375" },
-                        { model: "Gemini 2.5 Pro", score: "1362" },
-                        { model: "Grok 3.5", score: "1350" },
-                        { model: "DeepSeek-V3", score: "1345" },
-                        { model: "Qwen3-72B", score: "1340" },
-                        { model: "Claude 4 Sonnet", score: "1332" },
-                        { model: "Llama 4", score: "1321" },
-                        { model: "Mistral Large 3", score: "1315" },
-                        { model: "Gemma 3", score: "1308" }
+                        { model: "claude-opus-4-6-thinking", score: "1502" },
+                        { model: "claude-opus-4-7-thinking", score: "1500" },
+                        { model: "claude-opus-4-6", score: "1498" },
+                        { model: "claude-opus-4-7", score: "1492" },
+                        { model: "muse-spark", score: "1489" },
+                        { model: "gemini-3.1-pro-preview", score: "1488" },
+                        { model: "gemini-3-pro", score: "1486" },
+                        { model: "gpt-5.5-high", score: "1481" },
+                        { model: "gemini-3.5-flash", score: "1480" },
+                        { model: "gpt-5.4-high", score: "1480" }
                     ]
                 },
                 {
@@ -368,16 +499,16 @@ const NEWS_DATA = {
                     initial: "O",
                     date: "2026-05-28",
                     rankings: [
-                        { model: "Claude 4 Opus", score: "92.3%" },
-                        { model: "GPT-5", score: "91.8%" },
-                        { model: "Gemini 2.5 Pro", score: "90.1%" },
-                        { model: "Qwen3-72B", score: "88.5%" },
-                        { model: "DeepSeek-V3", score: "87.9%" },
-                        { model: "Grok 3.5", score: "86.2%" },
-                        { model: "Llama 4", score: "85.1%" },
-                        { model: "Mistral Large 3", score: "84.3%" },
-                        { model: "Claude 4 Sonnet", score: "83.7%" },
-                        { model: "Gemma 3", score: "82.9%" }
+                        { model: "DeepSeek V4 Flash", score: "3.65T tokens" },
+                        { model: "Hy3 preview (腾讯)", score: "3.05T tokens" },
+                        { model: "Claude Opus 4.7", score: "2.69T tokens" },
+                        { model: "Claude Sonnet 4.6", score: "2.07T tokens" },
+                        { model: "Owl Alpha", score: "1.25T tokens" },
+                        { model: "DeepSeek V4 Pro", score: "1.18T tokens" },
+                        { model: "Gemini 3 Flash Preview", score: "1.03T tokens" },
+                        { model: "DeepSeek V3.2", score: "924B tokens" },
+                        { model: "Nemotron 3 Super", score: "655B tokens" },
+                        { model: "MiMo-V2.5-Pro (小米)", score: "650B tokens" }
                     ]
                 },
                 {
@@ -387,16 +518,16 @@ const NEWS_DATA = {
                     initial: "P",
                     date: "2026-05-28",
                     rankings: [
-                        { name: "Cursor AI 2.0 — AI 编程助手重大升级", category: "Productivity", rank: 1 },
-                        { name: "NotebookLM Pro — Google AI 笔记工具", category: "AI", rank: 2 },
-                        { name: "Replit Agent — 全自动代码生成 Agent", category: "Developer Tools", rank: 3 },
-                        { name: "Gamma AI — AI 演示文稿生成", category: "Design", rank: 4 },
-                        { name: "Perplexity Enterprise — 企业级 AI 搜索", category: "Productivity", rank: 5 },
-                        { name: "Vercel AI SDK 5.0 — 全栈 AI 开发框架", category: "Developer Tools", rank: 6 },
-                        { name: "Midjourney V8 — AI 图像生成", category: "Design", rank: 7 },
-                        { name: "LangChain Studio — 可视化 AI 工作流", category: "Developer Tools", rank: 8 },
-                        { name: "Suno V5 — AI 音乐生成", category: "Music", rank: 9 },
-                        { name: "Claude Code Desktop — AI 编程桌面版", category: "Productivity", rank: 10 }
+                        { name: "Bluedot 2.1", category: "Productivity", rank: 1 },
+                        { name: "Powabase", category: "AI Developer Tools", rank: 2 },
+                        { name: "Oasis Browser for Mac", category: "Privacy & AI Browser", rank: 3 },
+                        { name: "zero.xyz", category: "AI Agent Tools Integration", rank: 4 },
+                        { name: "Coworker AI", category: "Context-Aware AI Routing", rank: 5 },
+                        { name: "Octolane", category: "AI CRM", rank: 6 },
+                        { name: "Mojito", category: "Emoji/GIF Search", rank: 7 },
+                        { name: "Layers", category: "Animated Code Snippet Videos", rank: 8 },
+                        { name: "Calling Skills for AI Agents", category: "AI Agent Voice/Video Calling", rank: 9 },
+                        { name: "Pawse.ai", category: "Pet Acoustic Regulation", rank: 10 }
                     ]
                 }
             ]
@@ -441,6 +572,16 @@ const VENDOR_DISPLAY = {
     "QuestMobile":  { color: "#b4a0d4", softBg: "#f5f0fa", initial: "Q" },
     "支付宝":       { color: "#4a90d9", softBg: "#eef5fb", initial: "支" },
     "SK 海力士":    { color: "#8a9ad4", softBg: "#eff0fa", initial: "S" },
+    "快手":         { color: "#d4a06a", softBg: "#faf5ee", initial: "快" },
+    "台积电":       { color: "#8ac4a0", softBg: "#effaf3", initial: "台" },
+    "蚂蚁集团":     { color: "#4a90d9", softBg: "#eef5fb", initial: "蚂" },
+    "蔚来":         { color: "#7ab8d6", softBg: "#edf5fa", initial: "蔚" },
+    "问界 M9":      { color: "#d4a0a0", softBg: "#faf0f0", initial: "问" },
+    "星尘智能":     { color: "#b4a0d4", softBg: "#f5f0fa", initial: "星" },
+    "Figure AI":    { color: "#8a9ad4", softBg: "#eff0fa", initial: "F" },
+    "长鑫科技":     { color: "#a8c47a", softBg: "#f4f9ee", initial: "长" },
+    "杉岩数据":     { color: "#7ab8d6", softBg: "#edf5fa", initial: "杉" },
+    "FuriosaAI":    { color: "#d4a882", softBg: "#faf5ee", initial: "F" },
     "百川智能":     { color: "#7ab8d6", softBg: "#edf5fa", initial: "百" },
     "面壁智能":     { color: "#b4a0d4", softBg: "#f5f0fa", initial: "面" },
     "擎朗智能":     { color: "#d4a882", softBg: "#faf5ee", initial: "擎" },
@@ -452,6 +593,14 @@ const VENDOR_DISPLAY = {
     "Demis Hassabis": { color: "#8a9ad4", softBg: "#eff0fa", initial: "H" },
     "SK海力士":     { color: "#8a9ad4", softBg: "#eff0fa", initial: "S" },
     "小米汽车":     { color: "#d4a882", softBg: "#faf5ee", initial: "车" },
+    "OpenRouter":   { color: "#7ab8d6", softBg: "#edf5fa", initial: "O" },
+    "MiniMax":      { color: "#d4a0b4", softBg: "#faf0f4", initial: "M" },
+    "小鹏汽车":     { color: "#8ac4a0", softBg: "#effaf3", initial: "鹏" },
+    "小鹏 IRON":    { color: "#8a9ad4", softBg: "#eff0fa", initial: "I" },
+    "苹果":         { color: "#a0a8b0", softBg: "#f2f4f5", initial: "苹" },
+    "自变量机器人": { color: "#b4a0d4", softBg: "#f5f0fa", initial: "自" },
+    "罗福莉（小米大模型负责人）": { color: "#d4a882", softBg: "#faf5ee", initial: "罗" },
+    "黄仁勋（NVIDIA CEO）": { color: "#a8c47a", softBg: "#f4f9ee", initial: "黄" },
     // 标签→厂商名映射（用于「其他关注」分类识别公司名）
     "_tag_map": {
         "三星": "三星", "小米": "小米", "MiMo": "小米", "小米汽车": "小米",
