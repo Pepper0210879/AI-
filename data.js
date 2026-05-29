@@ -9,7 +9,7 @@ window.__RAW_DATA = {
             {
               "title": "OpenAI 基金会设立 2.5 亿美元基金，研究 AI 对劳动力市场影响",
               "summary": "OpenAI Foundation 投入首期 2.5 亿美元，用于应对 AI 带来的岗位与收入结构变化，研究劳动力市场影响，支持受冲击的劳动者和社区，探索 AI 经济收益的分配方式。",
-              "link": "https://www.geekpark.net/news/365005",
+              "link": "https://www.c114.net.cn/ainews/85309.html",
               "tags": [
                 "OpenAI",
                 "AI基金",
@@ -38,7 +38,7 @@ window.__RAW_DATA = {
             {
               "title": "Anthropic 完成 650 亿美元 H 轮融资，估值 9650 亿美元超越 OpenAI",
               "summary": "Anthropic PBC 宣布完成 650 亿美元 H 轮融资，投后估值达 9650 亿美元，由 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投，估值首次超越 OpenAI。",
-              "link": "https://www.geekpark.net/news/365005",
+              "link": "https://finance.sina.com.cn/jjxw/2026-05-29/doc-inhzpfxw8096943.shtml",
               "tags": [
                 "Anthropic",
                 "融资",
@@ -55,7 +55,7 @@ window.__RAW_DATA = {
             {
               "title": "YouTube 将上线自动 AI 检测，拟真视频将被自动标注",
               "summary": "YouTube 宣布从 2026 年 5 月起，主动对显著拟真的 AI 生成视频进行自动识别与标注，标签将固定在播放器下方或叠加在画面上，不影响推荐算法和广告收益。",
-              "link": "https://www.geekpark.net/news/365005",
+              "link": "https://www.chinaz.com/ainews/28402.shtml",
               "tags": [
                 "YouTube",
                 "AI检测",
@@ -88,7 +88,7 @@ window.__RAW_DATA = {
             {
               "title": "黄仁勋加入清华大学经管学院顾问委员会",
               "summary": "英伟达 CEO 黄仁勋将加入清华大学经济管理学院顾问委员会，与苹果 CEO 库克、特斯拉 CEO 马斯克、微软 CEO 纳德拉等同列。此举被视为英伟达深化与中国学术界联系的重要信号。",
-              "link": "https://www.ifanr.com/1667419",
+              "link": "https://www.sohu.com/a/1028810366_115479",
               "tags": [
                 "黄仁勋",
                 "清华大学",
@@ -105,7 +105,7 @@ window.__RAW_DATA = {
             {
               "title": "扎克伯格称 Meta 考虑进军云计算市场",
               "summary": "扎克伯格表示如果数据中心算力出现过剩，Meta 绝对在考虑进军云计算领域，将与亚马逊 AWS 和微软 Azure 展开竞争。",
-              "link": "https://www.geekpark.net/news/365005",
+              "link": "https://www.c114.net.cn/cloudnews/85132.html",
               "tags": [
                 "Meta",
                 "云计算",
@@ -126,7 +126,7 @@ window.__RAW_DATA = {
             {
               "title": "阿里达摩院发布 GPU 版 MindOpt 求解器，处理亿级变量线性规划",
               "summary": "达摩院「敏迭」MindOpt 求解器发布 GPU 版本，利用并行加速处理亿级变量的线性规划问题，服务电力调度、航班编排、高端制造等场景。",
-              "link": "https://www.ifanr.com/1667419",
+              "link": "https://www.c114.net.cn/chipnews/85308.html",
               "tags": [
                 "达摩院",
                 "MindOpt",
@@ -138,7 +138,7 @@ window.__RAW_DATA = {
             {
               "title": "阿里 Qoder 推出 Cloud Agents，全托管 AI Agent 运行平台上线",
               "summary": "阿里云 Qoder 上线全托管 AI Agent 运行平台 Cloud Agents，提供 Agent 底座、模型服务和运行环境，企业可通过 API 调用让 Agent 在云端执行任务，上线周期从约 1 个月缩短至 1 天。",
-              "link": "https://www.ifanr.com/1667419",
+              "link": "https://tech.ifeng.com/c/8tUmH41u6pc",
               "tags": [
                 "阿里云",
                 "Agent",
@@ -155,7 +155,7 @@ window.__RAW_DATA = {
             {
               "title": "字节跳动正开发定制 CPU 以支持 AI 需求",
               "summary": "字节跳动自研 CPU 以满足 AI 基础设施需求，应对英特尔和 AMD 连续涨价（季度环比涨 10%-35%），计划部署于自有服务器和数据中心。",
-              "link": "https://www.geekpark.net/news/365005",
+              "link": "https://www.c114.net.cn/chipnews/85301.html",
               "tags": [
                 "字节跳动",
                 "自研CPU",
@@ -167,7 +167,7 @@ window.__RAW_DATA = {
             {
               "title": "豆包接入抖音生活服务闭环，支持团购推荐与支付核销",
               "summary": "字节跳动旗下 AI 助手豆包与抖音生活服务整合，用户可在豆包内获得团购推荐、查看商家页面、完成支付和线下核销流程。",
-              "link": "https://www.ifanr.com/1667419",
+              "link": "https://www.donews.com/news/detail/4/6492091.html",
               "tags": [
                 "豆包",
                 "抖音",
@@ -196,7 +196,7 @@ window.__RAW_DATA = {
             {
               "title": "DeepSeek 服务出现短暂中断，约 22 分钟后恢复",
               "summary": "大量用户反馈 DeepSeek 服务异常，网页对话和 API 出现部分中断，持续约 22 分钟后恢复。DeepSeek 未披露故障具体原因。",
-              "link": "https://www.ifanr.com/1667419",
+              "link": "https://news.ifeng.com/c/8tUWnm6KPZY",
               "tags": [
                 "DeepSeek",
                 "服务故障"
@@ -238,7 +238,7 @@ window.__RAW_DATA = {
             {
               "title": "腾讯发布 AIGC 创作平台「代号 Craft」，自然语言生成游戏素材",
               "summary": "腾讯发布 AIGC 创作平台「代号 Craft」，内置完整 AIGC 工具链，用户通过自然语言可生成 2D/3D 游戏素材，自动生成场景、角色和基础玩法框架，适配 Unity 等引擎。",
-              "link": "https://www.geekpark.net/news/365005",
+              "link": "https://www.chinaz.com/ainews/28395.html",
               "tags": [
                 "腾讯",
                 "AIGC",
@@ -255,7 +255,7 @@ window.__RAW_DATA = {
             {
               "title": "小米 MiMo-V2.5 系列 API 永久降价，罗福莉称推理成本远低于行业",
               "summary": "小米宣布 MiMo-V2.5 系列 API 永久降价，最高降幅达 99%。大模型负责人罗福莉表示，降价源于架构设计的推理效率压缩与工程优化，成本远低于行业平均水平，建议同行不要盲目降价。",
-              "link": "https://www.ifanr.com/1667419",
+              "link": "https://www.jiemian.com/article/14488381.html",
               "tags": [
                 "小米",
                 "MiMo",
@@ -267,7 +267,7 @@ window.__RAW_DATA = {
             {
               "title": "小米招聘 Agent 上线，依托 MiMo 大模型提供智能求职服务",
               "summary": "小米招聘官网上线「小米招聘 Agent」，依托 MiMo 大模型为求职者提供政策解答、职位智能推荐、招聘进展查询等服务。",
-              "link": "https://www.ifanr.com/1667419",
+              "link": "https://www.chinaz.com/ainews/28421.shtml",
               "tags": [
                 "小米",
                 "Agent",
@@ -303,7 +303,7 @@ window.__RAW_DATA = {
                 {
                   "title": "MiniMax 年化收入两个月翻番，全球用户约 3 亿",
                   "summary": "MiniMax 披露全球用户约 3 亿，企业客户超 100 万（半年增 5 倍），ARR 翻番周期压缩至约 60 天。M2 模型日均 token 消耗两月增长 6 倍。",
-                  "link": "https://www.ifanr.com/1667419",
+                  "link": "https://www.c114.net.cn/ainews/85314.html",
                   "tags": [
                     "MiniMax",
                     "营收",
@@ -320,7 +320,7 @@ window.__RAW_DATA = {
                 {
                   "title": "美团发布即时零售商家 AI 方案「牵牛花 Claw」",
                   "summary": "美团推出「牵牛花 Claw」AI 解决方案，覆盖经营分析、商品管理、营销活动和运营建议，将平台数据能力转化为商家可执行的运营动作。",
-                  "link": "https://www.ifanr.com/1667419",
+                  "link": "https://www.c114.net.cn/ainews/85281.html",
                   "tags": [
                     "美团",
                     "AI方案",
@@ -337,7 +337,7 @@ window.__RAW_DATA = {
                 {
                   "title": "iOS 27 AI Siri 界面曝光：灵动岛动画与独立 Siri App",
                   "summary": "彭博社曝光 iOS 27 新版 Siri 界面，支持灵动岛动画、独立 Siri App（含对话记录与多模态附件）、相机整合 Siri 物体识别，相册新增 AI 构图与扩图功能。",
-                  "link": "https://www.ifanr.com/1667419",
+                  "link": "https://news.qq.com/rain/a/20260529A033QF00",
                   "tags": [
                     "苹果",
                     "Siri",
@@ -354,7 +354,7 @@ window.__RAW_DATA = {
                 {
                   "title": "OpenRouter 完成 1.13 亿美元 B 轮融资，周 token 处理量达 25 万亿",
                   "summary": "AI 模型 API 平台 OpenRouter 获 CapitalG 领投的 1.13 亿美元 B 轮融资，a16z、Menlo Ventures 等参投。6 个月周 token 处理量从 5 万亿增至 25 万亿，服务 800 多万开发者、覆盖 400 多个模型。",
-                  "link": "https://www.ifanr.com/1667419",
+                  "link": "https://finance.eastmoney.com/a/202605273751059421.html",
                   "tags": [
                     "OpenRouter",
                     "融资",
@@ -376,7 +376,7 @@ window.__RAW_DATA = {
                 {
                   "title": "小鹏 2026 Q1 营收 130 亿元，今年将推四款新车型",
                   "summary": "小鹏汽车发布 2026 年一季度财报，营收 130 亿元，净亏损 17.8 亿元。何小鹏表示今年将推出四款新车型，并致力于实现自动驾驶出租车和人形机器人的量产。",
-                  "link": "https://www.geekpark.net/news/365005",
+                  "link": "https://auto.gasgoo.com/news/202605/28I70459651C109.shtml",
                   "tags": [
                     "小鹏",
                     "财报",
@@ -398,7 +398,7 @@ window.__RAW_DATA = {
                 {
                   "title": "自变量机器人开源 Wall-OSS-0.5 具身大模型，17 个零样本任务 4 个超 80%",
                   "summary": "自变量机器人（X-Square Robot）发布并开源具身大模型 Wall-OSS-0.5，核心卖点是预训练一次随处部署，无需任务微调即可直接上机。在 17 个真机零样本任务中，4 个任务自主完成率超 80%。",
-                  "link": "https://www.ifanr.com/1667419",
+                  "link": "https://www.chinaz.com/ainews/28418.shtml",
                   "tags": [
                     "具身智能",
                     "开源",
@@ -415,7 +415,7 @@ window.__RAW_DATA = {
                 {
                   "title": "小鹏人形机器人 IRON 预计三季度亮相，年底实现高阶量产",
                   "summary": "何小鹏在财报电话会上表示，新一代小鹏 IRON 人形机器人即将进入 ET2 软硬件合围阶段，计划今年第三季度正式亮相，今年底实现高阶量产为目标。",
-                  "link": "https://www.ifanr.com/1667419",
+                  "link": "https://finance.sina.com.cn/tech/digi/2026-05-28/doc-inhznenk0062315.shtml",
                   "tags": [
                     "小鹏",
                     "人形机器人",
@@ -441,7 +441,7 @@ window.__RAW_DATA = {
                 {
                   "title": "Anthropic 完成 650 亿美元 H 轮融资，估值达 9650 亿美元",
                   "summary": "Anthropic 宣布完成 650 亿美元 H 轮融资，投后估值 9650 亿美元，由 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投，估值首次超越 OpenAI。",
-                  "link": "https://www.geekpark.net/news/365005",
+                  "link": "https://finance.sina.com.cn/jjxw/2026-05-29/doc-inhzpfxw8096943.shtml",
                   "tags": [
                     "Anthropic",
                     "融资",
@@ -497,7 +497,7 @@ window.__RAW_DATA = {
                 {
                   "title": "罗福莉：MiMo API 降价源于推理效率优化，建议同行不要盲目降价",
                   "summary": "小米大模型负责人罗福莉解释 MiMo-V2.5 API 降价源于架构设计的推理效率压缩与工程优化，原始推理成本远低于行业平均水平。她建议同行不要盲目降价，应首先提升模型效率。",
-                  "link": "https://www.ifanr.com/1667419",
+                  "link": "https://news.qq.com/rain/a/20260528A03CTW00",
                   "tags": [
                     "罗福莉",
                     "MiMo",
@@ -665,5 +665,5 @@ window.__RAW_DATA = {
       ]
     }
   },
-  "_generated": "2026-05-29T10:14:35+08:00"
+  "_generated": "2026-05-29T12:00:00+08:00"
 };
