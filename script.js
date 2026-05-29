@@ -795,7 +795,29 @@ async function loadNewsDataFromJSON() {
     return loadNewsData();
 }
 
+function seedConfirmedData() {
+    // 一次性补充被跳过的历史日期（如 5/27→5/29 的更新导致 5/28 版本丢失）
+    try {
+        if (!window.__SEED_CONFIRMED) return;
+        const confirmed = JSON.parse(localStorage.getItem(CONFIRMED_KEY) || '{}');
+        let changed = false;
+        for (const [dateStr, data] of Object.entries(window.__SEED_CONFIRMED)) {
+            if (!confirmed[dateStr]) {
+                confirmed[dateStr] = data;
+                changed = true;
+                console.log('种子数据补充:', dateStr);
+            }
+        }
+        if (changed) {
+            localStorage.setItem(CONFIRMED_KEY, JSON.stringify(confirmed));
+        }
+    } catch (e) { /* ignore */ }
+}
+
 function autoConfirmBeforeRefresh() {
+    // 首先注入种子数据
+    seedConfirmedData();
+
     // 如果旧数据存在，且昨天未确认 → 用旧数据自动确认昨天
     try {
         const oldSaved = localStorage.getItem(STORAGE_KEY);
