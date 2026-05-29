@@ -797,17 +797,32 @@ async function loadNewsDataFromJSON() {
 
 function seedConfirmedData() {
     // 一次性补充被跳过的历史日期（如 5/27→5/29 的更新导致 5/28 版本丢失）
+    // 同时清理无效日期（已明确不应存在的日期）
     try {
-        if (!window.__SEED_CONFIRMED) return;
+        const INVALID_DATES = ['2026-05-26'];  // 无内容日期，强制清除
         const confirmed = JSON.parse(localStorage.getItem(CONFIRMED_KEY) || '{}');
         let changed = false;
-        for (const [dateStr, data] of Object.entries(window.__SEED_CONFIRMED)) {
-            if (!confirmed[dateStr]) {
-                confirmed[dateStr] = data;
+
+        // 清除无效日期
+        for (const d of INVALID_DATES) {
+            if (confirmed[d]) {
+                delete confirmed[d];
                 changed = true;
-                console.log('种子数据补充:', dateStr);
+                console.log('清除无效日期:', d);
             }
         }
+
+        // 注入种子数据
+        if (window.__SEED_CONFIRMED) {
+            for (const [dateStr, data] of Object.entries(window.__SEED_CONFIRMED)) {
+                if (!confirmed[dateStr]) {
+                    confirmed[dateStr] = data;
+                    changed = true;
+                    console.log('种子数据补充:', dateStr);
+                }
+            }
+        }
+
         if (changed) {
             localStorage.setItem(CONFIRMED_KEY, JSON.stringify(confirmed));
         }
