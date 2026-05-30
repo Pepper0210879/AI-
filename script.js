@@ -935,7 +935,19 @@ function renderVendorCards(key, section, rowSizes = []) {
                         <div class="vendor-card-news-title">${n.title}</div>
                     </div>
                 `).join('')
-                : '<div class="vendor-card-empty">本日无新闻</div>';
+                                : (() => {
+                    const recentNews = getRecentNewsForVendor(vendor.name, key);
+                    if (recentNews.length === 0) {
+                        return '<div class="vendor-card-empty">本日无新闻</div>';
+                    }
+                    const recentHtml = recentNews.map(n => {
+                        const d = new Date(n.date + 'T00:00:00');
+                        const dateLabel = `${d.getMonth() + 1}月${d.getDate()}日新闻`;
+                        const title = n.title.length > 25 ? n.title.slice(0, 25) + '...' : n.title;
+                        return `<div class="vendor-card-recent-item"><span class="vendor-card-recent-date">${dateLabel}</span><span class="vendor-card-recent-title"${n.link ? ` data-link="${n.link}"` : ''}>${title}</span></div>`;
+                    }).join('');
+                    return `<div class="vendor-card-empty"><div class="vendor-card-empty-label">本日无新闻，关注近期新闻</div><div class="vendor-card-recent">${recentHtml}</div></div>`;
+                })();
 
             return `
                 <div class="vendor-card" data-category="${key}" data-vendor-index="${actualIdx}" tabindex="0" role="button" aria-label="查看 ${vendor.name} 详情">
@@ -1217,6 +1229,15 @@ function setupEventListeners() {
     // 键盘导航
     setupKeyboardNav();
 
+    // 近期新闻标题点击（无新闻厂商卡片内的历史链接）
+    document.getElementById('content-grid').addEventListener('click', (e) => {
+        const title = e.target.closest('.vendor-card-recent-title[data-link]');
+        if (!title) return;
+        e.stopPropagation();
+        e.preventDefault();
+        window.open(title.dataset.link, '_blank', 'noopener');
+    });
+
     // 厂商卡片点击（事件委托）
     document.getElementById('content-grid').addEventListener('click', (e) => {
         const card = e.target.closest('.vendor-card');
@@ -1359,6 +1380,34 @@ function getConfirmedDates() {
 function loadConfirmedDate(dateStr) {
     const confirmed = getConfirmedDates();
     return confirmed[dateStr] || null;
+}
+
+function getRecentNewsForVendor(vendorName, sectionKey) {
+    // 从历史确认数据中查找该厂商最近 2-3 条新闻
+    const confirmed = getConfirmedDates();
+    const todayStr = getTodayStr();
+    const dates = Object.keys(confirmed)
+        .filter(d => d !== todayStr)
+        .sort()
+        .reverse();
+
+    const seen = new Set();
+    const result = [];
+    for (const dateStr of dates) {
+        if (result.length >= 3) break;
+        const data = confirmed[dateStr];
+        const vendors = data?.sections?.[sectionKey]?.vendors;
+        if (!vendors) continue;
+        const vendor = vendors.find(v => v.name === vendorName);
+        if (!vendor || !vendor.news) continue;
+        for (const item of vendor.news) {
+            if (result.length >= 3) break;
+            if (seen.has(item.title)) continue;
+            seen.add(item.title);
+            result.push({ title: item.title, date: data.date || dateStr, link: item.link || '' });
+        }
+    }
+    return result;
 }
 
 function loadTodayData() {

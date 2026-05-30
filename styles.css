@@ -538,13 +538,65 @@ body.modal-open {
 
 .vendor-card-empty {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
+    padding: 1.2rem 1rem;
     color: var(--text-muted);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     flex: 1;
     min-height: 60px;
+    gap: 0.6rem;
+}
+
+.vendor-card-empty-label {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    align-self: flex-start;
+}
+
+.vendor-card-recent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    width: 100%;
+}
+
+.vendor-card-recent-item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.4;
+}
+
+.vendor-card-recent-date {
+    flex-shrink: 0;
+    color: var(--text-muted);
+    opacity: 0.7;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.vendor-card-recent-title {
+    color: var(--text-muted);
+    opacity: 0.8;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: default;
+    font-size: 0.85rem;
+}
+
+.vendor-card-recent-title[data-link] {
+    cursor: pointer;
+}
+
+.vendor-card-recent-title[data-link]:hover {
+    color: var(--macaron-pink);
+    opacity: 1;
+    text-decoration: underline;
 }
 
 .vendor-card-hint {

@@ -191,13 +191,62 @@ class FeishuBitable:
         print(f"  写入 {success} 条")
         return True
 
+    def list_fields(self, table_id):
+        """列出表的所有字段"""
+        r = requests.get(
+            f"{self.BASE}/bitable/v1/apps/{self.app_token}/tables/{table_id}/fields",
+            headers=self._headers(), timeout=30)
+        data = r.json()
+        if data.get("code") != 0:
+            raise RuntimeError(f"列出字段失败: {data}")
+        return data["data"]["items"]
+
+    def create_field(self, table_id, field_name, field_type, property=None):
+        """添加字段到表"""
+        payload = {"field_name": field_name, "type": field_type}
+        if property:
+            payload["property"] = property
+        r = requests.post(
+            f"{self.BASE}/bitable/v1/apps/{self.app_token}/tables/{table_id}/fields",
+            headers=self._headers(), json=payload, timeout=30)
+        data = r.json()
+        if data.get("code") != 0:
+            print(f"  添加字段「{field_name}」失败: {data}")
+            return False
+        return True
+
+    def ensure_fields(self, table_id, required_fields):
+        """确保表中存在所有必要字段，缺失则自动添加"""
+        existing = {f["field_name"] for f in self.list_fields(table_id)}
+        for fdef in required_fields:
+            fn = fdef["field_name"]
+            if fn not in existing:
+                prop = fdef.get("property")
+                if self.create_field(table_id, fn, fdef["type"], prop):
+                    print(f"  补全缺失字段: {fn}")
+
+    def delete_table(self, table_id):
+        """删除表"""
+        r = requests.delete(
+            f"{self.BASE}/bitable/v1/apps/{self.app_token}/tables/{table_id}",
+            headers=self._headers(), timeout=30)
+        data = r.json()
+        if data.get("code") != 0:
+            print(f"  删除表失败: {data}")
+            return False
+        return True
+
     def get_or_create_table(self, name, fields):
-        """查找表，不存在则创建。返回 table_id。"""
+        """查找表，存在则删除重建，不存在则创建。返回 table_id。"""
         tables = self.list_tables()
         for t in tables:
             if t["name"] == name:
-                print(f"  表「{name}」已存在，追加数据")
-                return t["table_id"]
+                print(f"  表「{name}」已存在，删除重建...")
+                if self.delete_table(t["table_id"]):
+                    print(f"  已删除旧表")
+                tid = self.create_table(name, fields)
+                print(f"  重建成功: {tid}")
+                return tid
         print(f"  创建新表「{name}」...")
         tid = self.create_table(name, fields)
         print(f"  创建成功: {tid}")
@@ -359,6 +408,7 @@ def main():
     print(f"\n--- {table_name} ---")
     try:
         tid = client.get_or_create_table(table_name, TABLE_FIELDS)
+        client.ensure_fields(tid, TABLE_FIELDS)
         client.create_records(tid, records)
     except Exception as e:
         print(f"同步失败: {e}")

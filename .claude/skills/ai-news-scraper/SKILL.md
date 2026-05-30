@@ -11,7 +11,7 @@ description: 每日AI早报新闻抓取与整理。当用户说"抓取今日新�
 
 | # | 铁律 |
 |---|------|
-| 1 | 7 个步骤**按顺序逐步执行**，不得跳过、合并或调换顺序 |
+| 1 | 8 个步骤**按顺序逐步执行**，不得跳过、合并或调换顺序 |
 | 2 | 每步结束后**必须输出检查点摘要**，确认完成后方可进入下一步 |
 | 3 | 如果某步执行失败或数据缺失，**标注原因并询问用户**，不得静默跳过 |
 | 4 | 所有链接必须是独立文章 URL，**日报整合页 URL 不得作为新闻链接** |
@@ -19,7 +19,7 @@ description: 每日AI早报新闻抓取与整理。当用户说"抓取今日新�
 
 **今日日期**：开始前先确认当天日期。`date` 字段使用**当天日期**（日报发布日），例如 5/29 运行 → `"date": "2026-05-29"`。
 
-**预计总耗时**：~17 分钟（抓取 5 分钟 + 处理 12 分钟）
+**预计总耗时**：~18 分钟（抓取 5 分钟 + 处理 13 分钟）
 
 ---
 
@@ -40,7 +40,7 @@ description: 每日AI早报新闻抓取与整理。当用户说"抓取今日新�
 
 ---
 
-## Step 1/7：定位四大早报源（~3 分钟）
+## Step 1/8：定位四大早报源（~3 分钟）
 
 **任务**：找到 36氪「8点1氪」、爱范儿「早报」、极客公园「极客早知道」、IT之家「IT早报」当天最新文章 URL。
 
@@ -69,7 +69,7 @@ description: 每日AI早报新闻抓取与整理。当用户说"抓取今日新�
 
 ---
 
-## Step 2/7：抓取文章全文（~5 分钟）
+## Step 2/8：抓取文章全文（~5 分钟）
 
 **任务**：用 Playwright 抓取四篇文章全文。
 
@@ -90,7 +90,7 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py articles \
 
 ---
 
-## Step 3/7：处理四大早报文章 — 提取、归类、提炼（~5 分钟）
+## Step 3/8：处理四大早报文章 — 提取、归类、提炼（~5 分钟）
 
 **最高准则：日报中的 AI 新闻必须全部提炼收录，不受 24 小时窗口约束。**
 
@@ -166,7 +166,7 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py articles \
 
 ---
 
-## Step 4/7：补充站点查询遗漏（~2 分钟）⚠️ 绝不可跳过
+## Step 4/8：补充站点查询遗漏（~2 分钟）⚠️ 绝不可跳过
 
 **历史教训：跳过此步曾导致腾讯 Hy-Memory 和 Miora 两条新闻被遗漏。**
 
@@ -231,7 +231,7 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py supplementary
 
 ---
 
-## Step 5/7：合并去重（~1 分钟）
+## Step 5/8：合并去重（~1 分钟）
 
 1. 将 Step 3（日报）和 Step 4（补充站点）的新闻合并
 2. 标题相似或同一事件 → 保留日报来源（日报优先）
@@ -246,7 +246,7 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py supplementary
 
 ---
 
-## Step 6/7：榜单数据（~2 分钟）
+## Step 6/8：榜单数据（~2 分钟）
 
 每个榜单收集 **Top 20** 条数据。
 
@@ -311,7 +311,7 @@ Product Hunt 每个产品需要额外查找**官网链接**，存入 `link` 字�
 
 ---
 
-## Step 7/7：写入文件 + 自检 + 推送（~2 分钟）⚠️ 不可跳过
+## Step 7/8：写入文件 + 自检 + 推送（~2 分钟）⚠️ 不可跳过
 
 ### 7a. 写入 data.json
 
@@ -357,7 +357,12 @@ git push origin main
 python3 .claude/skills/ai-news-scraper/scripts/feishu_sync.py --date YYYY-MM-DD
 ```
 
-飞书同步会将当日新闻和榜单数据写入飞书多维表格，按日期创建独立子表（`AI日报MMDD`）。
+飞书同步规则：
+- 按日期创建独立子表（`AI日报MMDD`）
+- **仅同步有新闻的厂商**，`news: []` 的空厂商不写入飞书
+- 同步榜单数据（LMArena / OpenRouter / Product Hunt），含变化值
+- 若同名表已存在 → **删除旧表并重建**，确保字段和记录完全一致
+- 写入前自动检查字段，缺失则补全
 
 ### >> 检查点 7（最终确认）
 
@@ -370,6 +375,55 @@ python3 .claude/skills/ai-news-scraper/scripts/feishu_sync.py --date YYYY-MM-DD
 ✅ 飞书知识库已同步：X 条新闻 + Y 条榜单
 ✅ git push 成功
 🎉 工作流执行完毕
+```
+
+---
+
+## Step 8/8：无新闻厂商补充近期动态（~1 分钟）⚠️ 绝不可跳过
+
+**适用板块**：「海外厂商」和「国内厂商」两个板块。
+
+对于 `news: []` 的厂商，卡片不显示空白状态，而是展示**近期发生的 2-3 条新闻**，让读者知道该厂商最近动态。
+
+### 8a. 查找近期新闻
+
+从 `localStorage('ai-news-confirmed')` 中按日期倒序查找该厂商的历史新闻：
+
+1. 获取所有已确认的历史日期，按日期倒序排列
+2. 从最近日期开始，查找该厂商名称的 `news[]`
+3. 取 2-3 条不重复的新闻（按 `title` 去重）
+4. 记录每条新闻所属的日期（即 `confirmed[dateStr].date`）
+
+### 8b. 渲染规则
+
+```
+本日无新闻，关注近期新闻            ← 灰色文字，左对齐
+x月x日新闻  |  新闻标题            ← 灰色文字，字号与上行一致
+x月x日新闻  |  新闻标题
+```
+
+- 所有文字使用 `var(--text-muted)` 灰色
+- 日期格式：`M月D日新闻`（如 `5月28日新闻`）
+- 标题截断到 25 字以内
+- "本日无新闻，关注近期新闻" 左对齐（`align-self: flex-start`）
+- 近期新闻条目字号与"本日无新闻"一致（`0.85rem`）
+- 若近期新闻有原始链接，点击标题可在新标签页打开
+
+### 8c. 代码实现位置
+
+- `script.js`：`renderVendorCards()` 函数中 `vendor.news.length === 0` 分支
+- 辅助函数：`getRecentNewsForVendor(vendorName, sectionKey)` — 从 `CONFIRMED_KEY` 读取历史数据
+- `styles.css`：`.vendor-card-recent`、`.vendor-card-recent-item` 样式
+
+### >> 检查点 8
+
+```
+无新闻厂商近期动态补充：
+- OpenAI：找到 3 条近期新闻 ✅
+- NVIDIA：找到 2 条近期新闻 ✅
+- DeepSeek：找到 3 条近期新闻 ✅
+- ...
+共计：X 个无新闻厂商，已全部补充
 ```
 
 ---
@@ -407,7 +461,7 @@ python3 .claude/skills/ai-news-scraper/scripts/feishu_sync.py --date YYYY-MM-DD
       "platforms": [
         {"name": "LMArena", "date": "2026-05-28", "rankings": [{"model": "...", "score": "..."}]},
         {"name": "OpenRouter", "date": "2026-05-28", "rankings": [{"model": "...", "score": "..."}]},
-        {"name": "Product Hunt", "date": "2026-05-28", "rankings": [{"name": "...", "category": "...", "rank": 1}]}
+        {"name": "Product Hunt", "date": "2026-05-28", "rankings": [{"name": "...", "category": "...", "rank": 1, "link": "https://..."}]}
       ]
     }
   }
@@ -430,3 +484,5 @@ python3 .claude/skills/ai-news-scraper/scripts/feishu_sync.py --date YYYY-MM-DD
 | 宁缺毋滥 | 纯 PR 稿、无新信息、重复报道跳过 |
 | 三文件同步 | data.js / script.js / admin.js 链接和内容必须一致 |
 | 空数组 | 无新闻的厂商/分类，news/cards 保留 `[]` |
+| 无新闻卡片 | 海外/国内厂商无新闻时展示近期 2-3 条历史新闻，灰色文字 |
+| 飞书同步 | 仅同步有新闻厂商 + 榜单；同名表存在则删除重建；确保字段完整 |
