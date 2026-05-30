@@ -833,40 +833,28 @@ body.modal-open {
     box-shadow: var(--shadow-hover);
 }
 
-a.ranking-card-link {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    cursor: pointer;
-    position: relative;
-    z-index: 1;
-}
-
-a.ranking-card-link > * {
-    pointer-events: none;
-}
-
-a.ranking-card-link:hover {
-    background: white;
-    border-color: var(--border);
-    box-shadow: var(--shadow-hover);
-    transform: translateY(-3px);
-}
-
-a.ranking-card-link:active {
-    transform: translateY(-1px);
-}
-
-a.ranking-card-link:hover .ranking-link-icon {
-    opacity: 1;
-    transform: translate(0, 0);
-}
-
 .ranking-card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.875rem;
+    text-decoration: none;
+    color: inherit;
+    border-radius: var(--radius-sm);
+    padding: 0.25rem;
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+    transition: background var(--transition), transform var(--transition);
+}
+
+a.ranking-card-header:hover {
+    background: var(--bg-page);
+    transform: translateY(-1px);
+}
+
+a.ranking-card-header:hover .ranking-link-icon {
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 .ranking-link-icon {

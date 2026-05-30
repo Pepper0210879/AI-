@@ -1212,13 +1212,11 @@ function renderRankingSection(section) {
 
 function renderRankingCard(platform) {
     const isPH = platform.rankings.length > 0 && 'name' in platform.rankings[0];
-    const tag = platform.link ? 'a' : 'div';
     const linkAttr = platform.link ? `href="${platform.link}" target="_blank" rel="noopener" title="查看完整榜单"` : '';
-    const cardClass = 'ranking-card' + (platform.link ? ' ranking-card-link' : '');
 
     return `
-        <${tag} class="${cardClass}" ${linkAttr}>
-            <div class="ranking-card-header">
+        <div class="ranking-card">
+            <a class="ranking-card-header" ${linkAttr}>
                 <div class="ranking-platform">
                     <div class="ranking-platform-icon" style="background: ${platform.softBg}; color: ${platform.color}; border: 1px solid ${platform.color}30;">
                         ${platform.initial}
@@ -1227,7 +1225,7 @@ function renderRankingCard(platform) {
                     ${platform.link ? '<i class="fas fa-external-link-alt ranking-link-icon"></i>' : ''}
                 </div>
                 <span class="ranking-date">${platform.date}</span>
-            </div>
+            </a>
             <div class="ranking-list">
                 ${platform.rankings.map((r, i) => `
                     <div class="ranking-item">
@@ -1240,7 +1238,7 @@ function renderRankingCard(platform) {
                     </div>
                 `).join('')}
             </div>
-        </${tag}>
+        </div>
     `;
 }
 
