@@ -600,7 +600,7 @@ window.__RAW_DATA = {
       "platforms": [
         {
           "name": "LMArena",
-          "date": "2026-05-29",
+          "date": "2026-05-28",
           "rankings": [
             {
               "model": "claude-opus-4-6-thinking",
