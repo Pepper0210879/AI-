@@ -311,6 +311,14 @@ git commit -m "更新早报至 YYYY-MM-DD"
 git push origin main
 ```
 
+### 7f. 同步飞书知识库
+
+```bash
+python3 .claude/skills/ai-news-scraper/scripts/feishu_sync.py --date YYYY-MM-DD
+```
+
+飞书同步会将当日新闻和榜单数据写入飞书多维表格，按日期创建独立子表（`AI日报MMDD`）。
+
 ### >> 检查点 7（最终确认）
 
 ```
@@ -319,6 +327,7 @@ git push origin main
 ✅ script.js NEWS_DATA 已同步
 ✅ admin.js DEFAULT_DATA 已同步
 ✅ 链接自检：data.js=0 script.js=0 admin.js=0
+✅ 飞书知识库已同步：X 条新闻 + Y 条榜单
 ✅ git push 成功
 🎉 工作流执行完毕
 ```
