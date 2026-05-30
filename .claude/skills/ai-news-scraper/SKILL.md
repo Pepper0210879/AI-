@@ -248,25 +248,63 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py supplementary
 
 ## Step 6/7：榜单数据（~2 分钟）
 
+每个榜单收集 **Top 20** 条数据。
+
 ### 6a. OpenRouter（自动抓取）
 
 ```bash
 python3 .claude/skills/ai-news-scraper/scripts/fetcher.py rankings
 ```
 
-### 6b. LMArena + ProductHunt（截图 OCR）
+OpenRouter 数据包含每个模型的 token 使用量变化百分比，渲染时用箭头表示：
+- 上升 → `↑` 绿色（如 `↑ 23%`）
+- 下降 → `↓` 红色（如 `↓ 5%`）
+- 持平/新上榜 → 灰色 `—`
 
-检查 `榜单截图/lmarena.jpg` 和 `榜单截图/producthunt.jpg`：
-- 存在 → AI 识图提取榜单数据
-- 不存在 → 沿用上期 data.js 中的榜单数据
+### 6b. LMArena（截图 OCR）
+
+检查 `榜单截图/lmarena.rtf`：
+- 存在 → Read 读取 RTF 文件提取 Top 20 榜单数据
+- 不存在 → 沿用上期 data.js 中的 LMArena 数据
+
+LMArena 表格中的 `Rank Spread` 列（如 `5 → 19`）表示排名变化。比较前后排名计算升降：
+- 排名上升（如 19 → 5）→ `↑` 绿色，旁边标注上升位数（如 `↑ 14`）
+- 排名下降（如 5 → 19）→ `↓` 红色，旁边标注下降位数（如 `↓ 14`）
+- 排名不变或新上榜 → 灰色 `—`
+
+### 6c. Product Hunt（截图 OCR）
+
+检查 `榜单截图/producthunt.rtf`：
+- 存在 → Read 读取 RTF 文件提取 Top 20 榜单数据
+- 不存在 → 沿用上期 data.js 中的 Product Hunt 数据
+
+Product Hunt 每个产品需要额外查找**官网链接**，存入 `link` 字段，渲染时点击可跳转官网。
+
+**Product Hunt 链接查找规则**：
+- 直接从 RTF 中提取产品名称
+- 对每个产品搜索官网 URL（优先官网 > GitHub > Product Hunt 页面）
+- 无法找到官网的用 Product Hunt 页面链接代替
+
+### 6d. 榜单数据字段规范
+
+```json
+// LMArena: 模型榜单
+{ "model": "claude-opus-4-7", "score": "1503", "change": "+2" }
+
+// OpenRouter: 模型使用量榜单
+{ "model": "DeepSeek V4 Flash", "score": "3.28T tokens", "change": "↑23%" }
+
+// Product Hunt: 产品榜单（含官网链接）
+{ "name": "Ava 2.0", "category": "Sales", "rank": 1, "link": "https://artisan.co" }
+```
 
 ### >> 检查点 6
 
 ```
 榜单数据：
-- LMArena：Top 10 ✅ / ⚠️ 截图缺位，沿用上期
-- OpenRouter：Top 10 ✅
-- Product Hunt：Top 10 ✅ / ⚠️ 截图缺位，沿用上期
+- LMArena：Top 20 ✅ / ⚠️ 截图缺位，沿用上期
+- OpenRouter：Top 20 ✅
+- Product Hunt：Top 20 ✅ / ⚠️ 截图缺位，沿用上期
 ```
 
 ---
