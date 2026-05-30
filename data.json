@@ -704,56 +704,56 @@
         },
         {
           "name": "Product Hunt",
-          "date": "2026-05-28",
+          "date": "2026-05-29",
           "rankings": [
             {
-              "name": "Bluedot 2.1",
-              "category": "Productivity",
+              "name": "Ava 2.0",
+              "category": "Sales",
               "rank": 1
             },
             {
-              "name": "Powabase",
-              "category": "AI Developer Tools",
+              "name": "/monitor by Firecrawl",
+              "category": "Developer Tools",
               "rank": 2
             },
             {
-              "name": "Oasis Browser for Mac",
-              "category": "Privacy & AI Browser",
+              "name": "Ava Studio",
+              "category": "Marketing",
               "rank": 3
             },
             {
-              "name": "Hermes Agent v2.3",
-              "category": "AI Agent Framework",
+              "name": "Agent A by Ahrefs",
+              "category": "SEO",
               "rank": 4
             },
             {
-              "name": "Miroa",
-              "category": "Design Tool",
+              "name": "Firecoach AI",
+              "category": "Sales",
               "rank": 5
             },
             {
-              "name": "Rivet 2.0",
+              "name": "MCP Bridge by Appfactor",
               "category": "Developer Tools",
               "rank": 6
             },
             {
-              "name": "Notion Mail",
-              "category": "Email Productivity",
+              "name": "Integuru",
+              "category": "Developer Tools",
               "rank": 7
             },
             {
-              "name": "DeepCoder",
-              "category": "AI Code Assistant",
+              "name": "Linear Diffs",
+              "category": "Software Engineering",
               "rank": 8
             },
             {
-              "name": "Vivaldi AI Browser",
-              "category": "AI Browser",
+              "name": "Sinalytica",
+              "category": "Entertainment",
               "rank": 9
             },
             {
-              "name": "PhotoRoom Pro",
-              "category": "AI Photo Editor",
+              "name": "Screen Ruler",
+              "category": "Design Tools",
               "rank": 10
             }
           ],

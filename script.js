@@ -519,18 +519,18 @@ const NEWS_DATA = {
                     softBg: "#faf5ee",
                     initial: "P",
                     link: "https://www.producthunt.com/",
-                    date: "2026-05-28",
+                    date: "2026-05-29",
                     rankings: [
-                        { name: "Bluedot 2.1", category: "Productivity", rank: 1 },
-                        { name: "Powabase", category: "AI Developer Tools", rank: 2 },
-                        { name: "Oasis Browser for Mac", category: "Privacy & AI Browser", rank: 3 },
-                        { name: "zero.xyz", category: "AI Agent Tools Integration", rank: 4 },
-                        { name: "Coworker AI", category: "Context-Aware AI Routing", rank: 5 },
-                        { name: "Octolane", category: "AI CRM", rank: 6 },
-                        { name: "Mojito", category: "Emoji/GIF Search", rank: 7 },
-                        { name: "Layers", category: "Animated Code Snippet Videos", rank: 8 },
-                        { name: "Calling Skills for AI Agents", category: "AI Agent Voice/Video Calling", rank: 9 },
-                        { name: "Pawse.ai", category: "Pet Acoustic Regulation", rank: 10 }
+                        { name: "Ava 2.0", category: "Sales", rank: 1 },
+                        { name: "/monitor by Firecrawl", category: "Developer Tools", rank: 2 },
+                        { name: "Ava Studio", category: "Marketing", rank: 3 },
+                        { name: "Agent A by Ahrefs", category: "SEO", rank: 4 },
+                        { name: "Firecoach AI", category: "Sales", rank: 5 },
+                        { name: "MCP Bridge by Appfactor", category: "Developer Tools", rank: 6 },
+                        { name: "Integuru", category: "Developer Tools", rank: 7 },
+                        { name: "Linear Diffs", category: "Software Engineering", rank: 8 },
+                        { name: "Sinalytica", category: "Entertainment", rank: 9 },
+                        { name: "Screen Ruler", category: "Design Tools", rank: 10 }
                     ]
                 }
             ]
