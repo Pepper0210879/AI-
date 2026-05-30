@@ -838,6 +838,18 @@ a.ranking-card-link {
     color: inherit;
     display: block;
     cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+a.ranking-card-link > * {
+    pointer-events: none;
+}
+
+a.ranking-card-link:hover {
+    background: white;
+    border-color: var(--macaron-pink);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
 }
 
 a.ranking-card-link:hover .ranking-link-icon {
