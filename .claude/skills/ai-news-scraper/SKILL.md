@@ -280,6 +280,8 @@ LMArena 表格中的 `Rank Spread` 列（如 `5 → 19`）表示排名变化。�
 
 Product Hunt 每个产品需要额外查找**官网链接**，存入 `link` 字段，渲染时点击可跳转官网。
 
+**Product Hunt 分类标签**：RTF 中标签列格式为 `标签1 · 标签2 · 标签3`，取**第一个标签**作为分类。
+
 **Product Hunt 链接查找规则**：
 - 直接从 RTF 中提取产品名称
 - 对每个产品搜索官网 URL（优先官网 > GitHub > Product Hunt 页面）
