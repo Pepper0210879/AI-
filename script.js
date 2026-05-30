@@ -762,6 +762,7 @@ function seedConfirmedData() {
 
         // 注入种子数据
         if (window.__SEED_CONFIRMED) {
+            console.log('[种子数据] 检测到 window.__SEED_CONFIRMED, 日期:', Object.keys(window.__SEED_CONFIRMED).join(', '));
             for (const [dateStr, data] of Object.entries(window.__SEED_CONFIRMED)) {
                 if (!confirmed[dateStr]) {
                     confirmed[dateStr] = data;
@@ -1391,15 +1392,17 @@ function getRecentNewsForVendor(vendorName, sectionKey) {
         .sort()
         .reverse();
 
+    console.log(`[近期新闻] ${vendorName}(${sectionKey}): 历史日期=${dates.join(',') || '(无)'}, 今日=${todayStr}`);
+
     const seen = new Set();
     const result = [];
     for (const dateStr of dates) {
         if (result.length >= 3) break;
         const data = confirmed[dateStr];
         const vendors = data?.sections?.[sectionKey]?.vendors;
-        if (!vendors) continue;
+        if (!vendors) { console.log(`  ${dateStr}: sections.${sectionKey}.vendors 不存在`); continue; }
         const vendor = vendors.find(v => v.name === vendorName);
-        if (!vendor || !vendor.news) continue;
+        if (!vendor || !vendor.news) { console.log(`  ${dateStr}: 未找到厂商或 news 为空`); continue; }
         for (const item of vendor.news) {
             if (result.length >= 3) break;
             if (seen.has(item.title)) continue;
@@ -1407,6 +1410,7 @@ function getRecentNewsForVendor(vendorName, sectionKey) {
             result.push({ title: item.title, date: data.date || dateStr, link: item.link || '' });
         }
     }
+    console.log(`  => 找到 ${result.length} 条`);
     return result;
 }
 
