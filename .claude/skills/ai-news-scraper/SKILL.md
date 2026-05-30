@@ -364,6 +364,42 @@ python3 .claude/skills/ai-news-scraper/scripts/feishu_sync.py --date YYYY-MM-DD
 - 若同名表已存在 → **删除旧表并重建**，确保字段和记录完全一致
 - 写入前自动检查字段，缺失则补全
 
+### 7g. 更新种子数据
+
+将当日 data.json 合并到 `seed-data.js`，为 GitHub Pages 提供历史新闻数据（支撑 Step 8 无新闻厂商近期动态）。
+
+```bash
+python3 -c "
+import json
+from pathlib import Path
+
+# 读取当日数据
+with open('data.json') as f:
+    today = json.load(f)
+
+# 读取现有种子数据
+seed_file = Path('seed-data.js')
+if seed_file.exists():
+    content = seed_file.read_text()
+    start = content.index('{')
+    end = content.rindex('}') + 1
+    seed = json.loads(content[start:end])
+else:
+    seed = {}
+
+# 合并：当日数据覆盖同日期，保留最近 3 天
+seed[today['date']] = today
+dates = sorted(seed.keys(), reverse=True)
+for old_date in dates[3:]:
+    del seed[old_date]
+
+# 写入
+js = '// 种子数据：为 Step 8 无新闻厂商近期动态提供历史新闻\nwindow.__SEED_CONFIRMED = ' + json.dumps(seed, ensure_ascii=False, indent=2) + ';\n'
+seed_file.write_text(js)
+print(f'种子数据已更新：包含 {list(seed.keys())}，共 {len(js)} 字符')
+"
+```
+
 ### >> 检查点 7（最终确认）
 
 ```
@@ -372,6 +408,7 @@ python3 .claude/skills/ai-news-scraper/scripts/feishu_sync.py --date YYYY-MM-DD
 ✅ script.js NEWS_DATA 已同步
 ✅ admin.js DEFAULT_DATA 已同步
 ✅ 链接自检：data.js=0 script.js=0 admin.js=0
+✅ 种子数据已更新：包含最近 3 天
 ✅ 飞书知识库已同步：X 条新闻 + Y 条榜单
 ✅ git push 成功
 🎉 工作流执行完毕
