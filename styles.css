@@ -833,27 +833,23 @@ body.modal-open {
     box-shadow: var(--shadow-hover);
 }
 
+a.ranking-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+}
+
+a.ranking-card-link:hover .ranking-link-icon {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
 .ranking-card-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.875rem;
-    text-decoration: none;
-    color: inherit;
-    border-radius: var(--radius-sm);
-    padding: 0.25rem;
-    margin-left: -0.25rem;
-    margin-right: -0.25rem;
-    transition: background var(--transition);
-}
-
-a.ranking-card-header:hover {
-    background: var(--bg-page);
-}
-
-a.ranking-card-header:hover .ranking-link-icon {
-    opacity: 1;
-    transform: translate(0, 0);
 }
 
 .ranking-link-icon {
