@@ -478,6 +478,7 @@ const NEWS_DATA = {
                     color: "#7ab8d6",
                     softBg: "#edf5fa",
                     initial: "L",
+                    link: "https://arena.ai/leaderboard/text",
                     date: "2026-05-28",
                     rankings: [
                         { model: "claude-opus-4-6-thinking", score: "1502" },
@@ -497,6 +498,7 @@ const NEWS_DATA = {
                     color: "#b4a0d4",
                     softBg: "#f5f0fa",
                     initial: "O",
+                    link: "https://openrouter.ai/rankings",
                     date: "2026-05-28",
                     rankings: [
                         { model: "DeepSeek V4 Flash", score: "3.65T tokens" },
@@ -516,6 +518,7 @@ const NEWS_DATA = {
                     color: "#d4a882",
                     softBg: "#faf5ee",
                     initial: "P",
+                    link: "https://www.producthunt.com/",
                     date: "2026-05-28",
                     rankings: [
                         { name: "Bluedot 2.1", category: "Productivity", rank: 1 },
@@ -1209,18 +1212,20 @@ function renderRankingSection(section) {
 
 function renderRankingCard(platform) {
     const isPH = platform.rankings.length > 0 && 'name' in platform.rankings[0];
+    const linkAttr = platform.link ? `href="${platform.link}" target="_blank" rel="noopener" title="查看完整榜单"` : '';
 
     return `
         <div class="ranking-card">
-            <div class="ranking-card-header">
+            <a class="ranking-card-header" ${linkAttr}>
                 <div class="ranking-platform">
                     <div class="ranking-platform-icon" style="background: ${platform.softBg}; color: ${platform.color}; border: 1px solid ${platform.color}30;">
                         ${platform.initial}
                     </div>
                     <h4>${platform.name}</h4>
+                    ${platform.link ? '<i class="fas fa-external-link-alt ranking-link-icon"></i>' : ''}
                 </div>
                 <span class="ranking-date">${platform.date}</span>
-            </div>
+            </a>
             <div class="ranking-list">
                 ${platform.rankings.map((r, i) => `
                     <div class="ranking-item">

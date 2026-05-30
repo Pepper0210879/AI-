@@ -838,6 +838,30 @@ body.modal-open {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.875rem;
+    text-decoration: none;
+    color: inherit;
+    border-radius: var(--radius-sm);
+    padding: 0.25rem;
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+    transition: background var(--transition);
+}
+
+a.ranking-card-header:hover {
+    background: var(--bg-page);
+}
+
+a.ranking-card-header:hover .ranking-link-icon {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.ranking-link-icon {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    opacity: 0;
+    transform: translate(-4px, 0);
+    transition: all var(--transition);
 }
 
 .ranking-platform {

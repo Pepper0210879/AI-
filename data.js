@@ -642,7 +642,8 @@ window.__RAW_DATA = {
               "model": "qwen3.7-max",
               "score": "1479"
             }
-          ]
+          ],
+          "link": "https://arena.ai/leaderboard/text"
         },
         {
           "name": "OpenRouter",
@@ -698,7 +699,8 @@ window.__RAW_DATA = {
               "score": "755B tokens",
               "change": "623%"
             }
-          ]
+          ],
+          "link": "https://openrouter.ai/rankings"
         },
         {
           "name": "Product Hunt",
@@ -754,7 +756,8 @@ window.__RAW_DATA = {
               "category": "AI Photo Editor",
               "rank": 10
             }
-          ]
+          ],
+          "link": "https://www.producthunt.com/"
         }
       ]
     }
