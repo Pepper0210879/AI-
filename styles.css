@@ -953,6 +953,17 @@ a.ranking-card-header:hover .ranking-link-icon {
     color: var(--text-primary);
 }
 
+a.ranking-model-link {
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: color var(--transition);
+}
+
+a.ranking-model-link:hover {
+    color: var(--macaron-pink);
+    text-decoration: underline;
+}
+
 .ranking-score {
     font-size: 0.8rem;
     color: #6a9aba;

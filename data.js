@@ -769,92 +769,110 @@ window.__RAW_DATA = {
             {
               "name": "Ava 2.0",
               "category": "Productivity",
-              "rank": 1
+              "rank": 1,
+              "link": "https://artisan.co"
             },
             {
               "name": "/monitor by Firecrawl",
               "category": "Developer Tools",
-              "rank": 2
+              "rank": 2,
+              "link": "https://www.firecrawl.dev"
             },
             {
               "name": "Ava Studio",
               "category": "Marketing",
-              "rank": 3
+              "rank": 3,
+              "link": "https://www.avastudio.com"
             },
             {
               "name": "Agent A by Ahrefs",
               "category": "Marketing",
-              "rank": 4
+              "rank": 4,
+              "link": "https://ahrefs.com/agent-a"
             },
             {
               "name": "Firecoach AI",
               "category": "Sales",
-              "rank": 5
+              "rank": 5,
+              "link": "https://www.firecoach.ai"
             },
             {
               "name": "MCP Bridge by Appfactor",
               "category": "API",
-              "rank": 6
+              "rank": 6,
+              "link": "https://github.com/Appfactor/MCP-Bridge"
             },
             {
               "name": "Integuru",
               "category": "API",
-              "rank": 7
+              "rank": 7,
+              "link": "https://integuru.ai"
             },
             {
               "name": "Linear Diffs",
               "category": "Productivity",
-              "rank": 8
+              "rank": 8,
+              "link": "https://linear.app"
             },
             {
               "name": "Sinalytica",
               "category": "Retro Games",
-              "rank": 9
+              "rank": 9,
+              "link": "https://www.producthunt.com/products/sinalytica"
             },
             {
               "name": "Screen Ruler",
               "category": "Chrome Extensions",
-              "rank": 10
+              "rank": 10,
+              "link": "https://chromewebstore.google.com/detail/screenruler/dgakjgljnohljammncfknppdkinadklf"
             },
             {
               "name": "Basedash: Embedded Analytics",
               "category": "Artificial Intelligence",
-              "rank": 11
+              "rank": 11,
+              "link": "https://www.basedash.com"
             },
             {
               "name": "Hyper: Self-driving Company Brain",
               "category": "Productivity",
-              "rank": 12
+              "rank": 12,
+              "link": "https://www.producthunt.com/products/hyper-11"
             },
             {
               "name": "Coffee Piano",
               "category": "Music",
-              "rank": 13
+              "rank": 13,
+              "link": "https://www.producthunt.com/products/coffee-piano-harmony-lab"
             },
             {
               "name": "Notchy",
               "category": "Productivity",
-              "rank": 14
+              "rank": 14,
+              "link": "https://notchy.dev"
             },
             {
               "name": "MoDev",
               "category": "Developer Tools",
-              "rank": 15
+              "rank": 15,
+              "link": "https://modev.app"
             },
             {
               "name": "TrackNotch",
               "category": "Mac",
-              "rank": 16
+              "rank": 16,
+              "link": "https://www.producthunt.com/products/tracknotch"
             },
             {
               "name": "Clipline",
               "category": "Productivity",
-              "rank": 17
+              "rank": 17,
+              "link": "https://t.me/clipline_bot"
             },
             {
               "name": "Drafted",
               "category": "Design Tools",
-              "rank": 20
+              "rank": 20,
+              "link": "https://drafted.ai"
             }
           ],
           "link": "https://www.producthunt.com/"
