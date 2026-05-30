@@ -600,42 +600,47 @@
       "platforms": [
         {
           "name": "LMArena",
-          "date": "2026-05-28",
+          "date": "2026-05-29",
           "rankings": [
             {
               "model": "claude-opus-4-6-thinking",
               "score": "1502",
-              "change": "—"
+              "change": "+4"
             },
             {
               "model": "claude-opus-4-7-thinking",
               "score": "1500",
-              "change": "—"
+              "change": "+5"
             },
             {
               "model": "claude-opus-4-6",
               "score": "1498",
-              "change": "—"
+              "change": "+4"
             },
             {
-              "model": "claude-sonnet-4-7-thinking",
-              "score": "1495",
-              "change": "—"
+              "model": "claude-opus-4-7",
+              "score": "1494",
+              "change": "+5"
             },
             {
-              "model": "gemini-3.0-flash-thinking",
-              "score": "1493",
-              "change": "—"
+              "model": "muse-spark",
+              "score": "1489",
+              "change": "+6"
+            },
+            {
+              "model": "gemini-3.1-pro-preview",
+              "score": "1487",
+              "change": "+4"
+            },
+            {
+              "model": "gemini-3-pro",
+              "score": "1486",
+              "change": "+4"
             },
             {
               "model": "gpt-5.5-high",
               "score": "1482",
               "change": "+6"
-            },
-            {
-              "model": "gpt-5.4-high",
-              "score": "1480",
-              "change": "+5"
             },
             {
               "model": "gemini-3.5-flash",
@@ -696,11 +701,6 @@
               "model": "ernie-5.1",
               "score": "1470",
               "change": "+6"
-            },
-            {
-              "model": "claude-sonnet-4-6",
-              "score": "1470",
-              "change": "+5"
             }
           ],
           "link": "https://arena.ai/leaderboard/text"
