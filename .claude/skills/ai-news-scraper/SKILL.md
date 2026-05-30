@@ -261,10 +261,10 @@ OpenRouter 数据包含每个模型的 token 使用量变化百分比，渲染�
 - 下降 → `↓` 红色（如 `↓ 5%`）
 - 持平/新上榜 → 灰色 `—`
 
-### 6b. LMArena（截图 OCR）
+### 6b. LMArena（读取文本文件）
 
-检查 `榜单截图/lmarena.rtf`：
-- 存在 → Read 读取 RTF 文件提取 Top 20 榜单数据
+检查 `榜单截图/lmarena.rtf`（用户提供的文本文件，非图片 OCR）：
+- 存在 → 用 Read 工具读取 RTF 文件，提取 Top 20 榜单数据
 - 不存在 → 沿用上期 data.js 中的 LMArena 数据
 
 LMArena 表格中的 `Rank Spread` 列（如 `5 → 19`）表示排名变化。比较前后排名计算升降：
@@ -272,10 +272,10 @@ LMArena 表格中的 `Rank Spread` 列（如 `5 → 19`）表示排名变化。�
 - 排名下降（如 5 → 19）→ `↓` 红色，旁边标注下降位数（如 `↓ 14`）
 - 排名不变或新上榜 → 灰色 `—`
 
-### 6c. Product Hunt（截图 OCR）
+### 6c. Product Hunt（读取文本文件）
 
-检查 `榜单截图/producthunt.rtf`：
-- 存在 → Read 读取 RTF 文件提取 Top 20 榜单数据
+检查 `榜单截图/producthunt.rtf`（用户提供的文本文件，非图片 OCR）：
+- 存在 → 用 Read 工具读取 RTF 文件，提取 Top 20 榜单数据
 - 不存在 → 沿用上期 data.js 中的 Product Hunt 数据
 
 Product Hunt 每个产品需要额外查找**官网链接**，存入 `link` 字段，渲染时点击可跳转官网。
