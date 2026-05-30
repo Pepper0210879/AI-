@@ -473,66 +473,12 @@ const NEWS_DATA = {
             icon: "fas fa-trophy",
             iconClass: "ranking",
             platforms: [
-                {
-                    name: "LMArena",
-                    color: "#7ab8d6",
-                    softBg: "#edf5fa",
-                    initial: "L",
-                    link: "https://arena.ai/leaderboard/text",
-                    date: "2026-05-28",
-                    rankings: [
-                        { model: "claude-opus-4-6-thinking", score: "1502" },
-                        { model: "claude-opus-4-7-thinking", score: "1500" },
-                        { model: "claude-opus-4-6", score: "1498" },
-                        { model: "claude-opus-4-7", score: "1492" },
-                        { model: "muse-spark", score: "1489" },
-                        { model: "gemini-3.1-pro-preview", score: "1488" },
-                        { model: "gemini-3-pro", score: "1486" },
-                        { model: "gpt-5.5-high", score: "1481" },
-                        { model: "gemini-3.5-flash", score: "1480" },
-                        { model: "gpt-5.4-high", score: "1480" }
-                    ]
-                },
-                {
-                    name: "OpenRouter",
-                    color: "#b4a0d4",
-                    softBg: "#f5f0fa",
-                    initial: "O",
-                    link: "https://openrouter.ai/rankings",
-                    date: "2026-05-28",
-                    rankings: [
-                        { model: "DeepSeek V4 Flash", score: "3.65T tokens" },
-                        { model: "Hy3 preview (腾讯)", score: "3.05T tokens" },
-                        { model: "Claude Opus 4.7", score: "2.69T tokens" },
-                        { model: "Claude Sonnet 4.6", score: "2.07T tokens" },
-                        { model: "Owl Alpha", score: "1.25T tokens" },
-                        { model: "DeepSeek V4 Pro", score: "1.18T tokens" },
-                        { model: "Gemini 3 Flash Preview", score: "1.03T tokens" },
-                        { model: "DeepSeek V3.2", score: "924B tokens" },
-                        { model: "Nemotron 3 Super", score: "655B tokens" },
-                        { model: "MiMo-V2.5-Pro (小米)", score: "650B tokens" }
-                    ]
-                },
-                {
-                    name: "Product Hunt",
-                    color: "#d4a882",
-                    softBg: "#faf5ee",
-                    initial: "P",
-                    link: "https://www.producthunt.com/",
-                    date: "2026-05-29",
-                    rankings: [
-                        { name: "Ava 2.0", category: "Sales", rank: 1 },
-                        { name: "/monitor by Firecrawl", category: "Developer Tools", rank: 2 },
-                        { name: "Ava Studio", category: "Marketing", rank: 3 },
-                        { name: "Agent A by Ahrefs", category: "SEO", rank: 4 },
-                        { name: "Firecoach AI", category: "Sales", rank: 5 },
-                        { name: "MCP Bridge by Appfactor", category: "Developer Tools", rank: 6 },
-                        { name: "Integuru", category: "Developer Tools", rank: 7 },
-                        { name: "Linear Diffs", category: "Software Engineering", rank: 8 },
-                        { name: "Sinalytica", category: "Entertainment", rank: 9 },
-                        { name: "Screen Ruler", category: "Design Tools", rank: 10 }
-                    ]
-                }
+                { name: "LMArena", date: "2026-05-29", rankings: [ { model: "claude-opus-4-6-thinking", score: "1502", change: "—" }, { model: "claude-opus-4-7-thinking", score: "1500", change: "—" }, { model: "claude-opus-4-6", score: "1498", change: "—" }, { model: "claude-sonnet-4-7-thinking", score: "1495", change: "—" }, { model: "gemini-3.0-flash-thinking", score: "1493", change: "—" }, { model: "claude-sonnet-4-6", score: "1490", change: "—" }, { model: "gpt-5.5-high", score: "1487", change: "—" }, { model: "gpt-5.5-high", score: "1482", change: "↓3" }, { model: "gpt-5.4-high", score: "1480", change: "↓4" }, { model: "gemini-3.5-flash", score: "1479", change: "↓5" }, { model: "gpt-5.5", score: "1476", change: "↓3" }, { model: "gpt-5.2-chat-latest-20260210", score: "1476", change: "↓4" }, { model: "grok-4.20-beta1", score: "1476", change: "↓5" }, { model: "grok-4.20-beta-0309-reasoning", score: "1475", change: "↓6" }, { model: "qwen3.7-max-preview", score: "1475", change: "↓10" }, { model: "glm-5.1", score: "1474", change: "↓8" }, { model: "gpt-5.5-instant", score: "1474", change: "↓9" }, { model: "gemini-3-flash", score: "1473", change: "↓10" }, { model: "claude-opus-4-5-20251101-thinking-32k", score: "1473", change: "↓10" }, { model: "grok-4.20-multi-agent-beta-0309", score: "1472", change: "↓12" } ], link: "https://arena.ai/leaderboard/text"
+},
+                { name: "OpenRouter", date: "2026-05-30", rankings: [ { model: "DeepSeek V4 Flash", score: "3.28T tokens", change: "—" }, { model: "Hy3 preview (腾讯)", score: "3.09T tokens", change: "↑3%" }, { model: "Claude Opus 4.7", score: "2.45T tokens", change: "↑44%" }, { model: "Claude Sonnet 4.6", score: "1.96T tokens", change: "↑11%" }, { model: "Owl Alpha", score: "1.52T tokens", change: "↑36%" }, { model: "DeepSeek V4 Pro", score: "1.23T tokens", change: "↑21%" }, { model: "DeepSeek V3.2", score: "1T tokens", change: "↑5%" }, { model: "MiMo-V2.5-Pro", score: "986B tokens", change: "↑564%" }, { model: "Gemini 3 Flash Preview", score: "972B tokens", change: "↑15%" }, { model: "MiMo-V2.5", score: "755B tokens", change: "↑623%" } ], link: "https://openrouter.ai/rankings"
+},
+                { name: "Product Hunt", date: "2026-05-29", rankings: [ { name: "Ava 2.0", category: "Productivity", rank: 1 }, { name: "/monitor by Firecrawl", category: "Developer Tools", rank: 2 }, { name: "Ava Studio", category: "Marketing", rank: 3 }, { name: "Agent A by Ahrefs", category: "Marketing", rank: 4 }, { name: "Firecoach AI", category: "Sales", rank: 5 }, { name: "MCP Bridge by Appfactor", category: "API", rank: 6 }, { name: "Integuru", category: "API", rank: 7 }, { name: "Linear Diffs", category: "Productivity", rank: 8 }, { name: "Sinalytica", category: "Retro Games", rank: 9 }, { name: "Screen Ruler", category: "Chrome Extensions", rank: 10 }, { name: "Basedash: Embedded Analytics", category: "Artificial Intelligence", rank: 11 }, { name: "Hyper: Self-driving Company Brain", category: "Productivity", rank: 12 }, { name: "Coffee Piano", category: "Music", rank: 13 }, { name: "Notchy", category: "Productivity", rank: 14 }, { name: "MoDev", category: "Developer Tools", rank: 15 }, { name: "TrackNotch", category: "Mac", rank: 16 }, { name: "Clipline", category: "Productivity", rank: 17 }, { name: "Drafted", category: "Design Tools", rank: 20 } ], link: "https://www.producthunt.com/"
+}
             ]
         }
     }
@@ -1234,6 +1180,10 @@ function renderRankingCard(platform) {
                         ${isPH
                             ? `<span class="ranking-category">${r.category || ''}</span>`
                             : `<span class="ranking-score">${r.score}</span>`
+                        }
+                        ${!isPH && r.change
+                            ? `<span class="ranking-change ${r.change.startsWith('↑') ? 'up' : r.change.startsWith('↓') ? 'down' : 'flat'}">${r.change}</span>`
+                            : ''
                         }
                     </div>
                 `).join('')}

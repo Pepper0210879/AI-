@@ -970,17 +970,15 @@ a.ranking-card-header:hover .ranking-link-icon {
 
 .ranking-change {
     font-size: 0.7rem;
-    width: 20px;
-    height: 20px;
-    border-radius: 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-weight: 600;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    white-space: nowrap;
 }
 
 .ranking-change.up { color: #5a9a6a; background: var(--macaron-green-soft); }
 .ranking-change.down { color: #ba6a6a; background: var(--macaron-pink-soft); }
-.ranking-change.same { color: var(--text-muted); background: var(--bg-tag); }
+.ranking-change.flat { color: var(--text-muted); background: var(--bg-tag); }
 
 /* ==================== Footer ==================== */
 .footer {
