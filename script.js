@@ -745,14 +745,13 @@ async function loadNewsDataFromJSON() {
 
     if (window.__RAW_DATA) rawData = window.__RAW_DATA;
 
-    // 比较时间戳：谁最近被修改，谁优先
-    const rawGen = rawData?._generated ? new Date(rawData._generated).getTime() : 0;
-    const lsUpdate = localStorage.getItem(LAST_UPDATE_KEY)
-        ? new Date(parseInt(localStorage.getItem(LAST_UPDATE_KEY))).getTime()
-        : 0;
+    // 比较日期（字符串可直接比较，如 "2026-05-30" > "2026-05-29"）
+    // 只有 localStorage 日期严格大于 data.js 时，才认为用户手动编辑了更新日期
+    const rawDate = rawData?.date || '';
+    const lsDate = lsData?.date || '';
 
-    if (lsUpdate > rawGen) {
-        // localStorage 更新时间更近 → 用户手动编辑优先
+    if (lsDate > rawDate) {
+        // localStorage 日期更新 → 用户手动编辑优先
         if (lsData) {
             enrichData(lsData);
             console.log('已从 localStorage 加载新闻数据（用户编辑优先）');
@@ -760,14 +759,14 @@ async function loadNewsDataFromJSON() {
         }
     }
 
+    // data.js 日期 >= localStorage → 新抓取数据优先覆盖
     if (rawData) {
         enrichData(rawData);
-        // 删除 _generated 时间戳，避免写入 localStorage
         const cleanData = JSON.parse(JSON.stringify(rawData));
         delete cleanData._generated;
         localStorage.setItem(STORAGE_KEY, JSON.stringify(cleanData));
-        setLastUpdateTime();
-        console.log('已从 data.js 加载新闻数据（抓取更新）');
+        localStorage.setItem(LAST_UPDATE_KEY, rawDate);
+        console.log('已从 data.js 加载新闻数据（v' + rawDate + '）');
         return rawData;
     }
 
@@ -784,8 +783,8 @@ async function loadNewsDataFromJSON() {
             const data = await resp.json();
             enrichData(data);
             localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
-            setLastUpdateTime();
-            console.log('已从 data.json 加载新闻数据');
+            setLastUpdateTime(data.date);
+            console.log('已从 data.json 加载新闻数据（v' + data.date + '）');
             return data;
         }
     } catch (e) {
@@ -917,8 +916,8 @@ function getLastUpdateTime() {
     }
 }
 
-function setLastUpdateTime() {
-    localStorage.setItem(LAST_UPDATE_KEY, new Date().toISOString());
+function setLastUpdateTime(dateStr) {
+    localStorage.setItem(LAST_UPDATE_KEY, dateStr || new Date().toISOString().slice(0, 10));
 }
 
 // ==================== 渲染内容 ====================
