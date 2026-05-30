@@ -600,7 +600,7 @@ window.__RAW_DATA = {
       "platforms": [
         {
           "name": "LMArena",
-          "date": "2026-05-29",
+          "date": "2026-05-28",
           "rankings": [
             {
               "model": "claude-opus-4-6-thinking",
@@ -628,79 +628,79 @@ window.__RAW_DATA = {
               "change": "—"
             },
             {
-              "model": "claude-sonnet-4-6",
-              "score": "1490",
-              "change": "—"
-            },
-            {
-              "model": "gpt-5.5-high",
-              "score": "1487",
-              "change": "—"
-            },
-            {
               "model": "gpt-5.5-high",
               "score": "1482",
-              "change": "↓3"
+              "change": "+6"
             },
             {
               "model": "gpt-5.4-high",
               "score": "1480",
-              "change": "↓4"
+              "change": "+5"
             },
             {
               "model": "gemini-3.5-flash",
               "score": "1479",
-              "change": "↓5"
+              "change": "+7"
             },
             {
               "model": "gpt-5.5",
               "score": "1476",
-              "change": "↓3"
+              "change": "+6"
             },
             {
               "model": "gpt-5.2-chat-latest-20260210",
               "score": "1476",
-              "change": "↓4"
+              "change": "+4"
             },
             {
               "model": "grok-4.20-beta1",
               "score": "1476",
-              "change": "↓5"
+              "change": "+5"
             },
             {
               "model": "grok-4.20-beta-0309-reasoning",
               "score": "1475",
-              "change": "↓6"
+              "change": "+5"
             },
             {
               "model": "qwen3.7-max-preview",
               "score": "1475",
-              "change": "↓10"
+              "change": "+10"
             },
             {
               "model": "glm-5.1",
               "score": "1474",
-              "change": "↓8"
+              "change": "+6"
             },
             {
               "model": "gpt-5.5-instant",
               "score": "1474",
-              "change": "↓9"
+              "change": "+5"
             },
             {
               "model": "gemini-3-flash",
               "score": "1473",
-              "change": "↓10"
+              "change": "+4"
             },
             {
               "model": "claude-opus-4-5-20251101-thinking-32k",
               "score": "1473",
-              "change": "↓10"
+              "change": "+4"
             },
             {
               "model": "grok-4.20-multi-agent-beta-0309",
               "score": "1472",
-              "change": "↓12"
+              "change": "+5"
+            },
+            {
+              "model": "ernie-5.1",
+              "score": "1470",
+              "change": "+6"
+            },
+            {
+              "model": "claude-sonnet-4-6",
+              "score": "1470",
+              "change": "+5"
             }
           ],
           "link": "https://arena.ai/leaderboard/text"
