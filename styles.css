@@ -848,8 +848,13 @@ a.ranking-card-link > * {
 
 a.ranking-card-link:hover {
     background: white;
-    border-color: var(--macaron-pink);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    border-color: var(--border);
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-3px);
+}
+
+a.ranking-card-link:active {
+    transform: translateY(-1px);
 }
 
 a.ranking-card-link:hover .ranking-link-icon {
