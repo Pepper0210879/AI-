@@ -4,7 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 强制约束（最高优先级）
 
-> **更新日报时，必须逐字逐句严格执行 `.claude/skills/ai-news-scraper/SKILL.md` 中的全部 7 个步骤。按顺序逐步执行，每步结束后必须输出检查点摘要并确认通过后方可进入下一步。不得跳过、合并、调换顺序，不得省略任何子步骤，不得以"节省时间"为由简化流程。任何违反即视为执行失败。**
+> **更新日报时，必须逐字逐句严格执行 `.claude/skills/ai-news-scraper/SKILL.md` 中的全部 8 个步骤。按顺序逐步执行，每步结束后必须输出检查点摘要并确认通过后方可进入下一步。不得跳过、合并、调换顺序，不得省略任何子步骤，不得以"节省时间"为由简化流程。任何违反即视为执行失败。**
+
+### 早报源抓取铁律
+
+> **Step 1 定位四大早报源时，必须直接使用 Playwright 读取网页链接，不得使用 WebSearch 或 WebFetch 替代。** 原因：WebFetch 被企业安全策略阻止（36kr.com / ifanr.com / geekpark.net / ithome.com 均无法访问），WebSearch 搜索结果不完整、不稳定，曾多次导致遗漏新闻。Playwright 无头浏览器直接打开源站页面，可完整获取文章列表和全文内容。
 
 ## 项目概述
 

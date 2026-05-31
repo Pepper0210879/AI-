@@ -42,16 +42,38 @@ description: 每日AI早报新闻抓取与整理。当用户说"抓取今日新�
 
 ## Step 1/8：定位四大早报源（~3 分钟）
 
-**任务**：找到 36氪「8点1氪」、爱范儿「早报」、极客公园「极客早知道」、IT之家「IT早报」当天最新文章 URL。
+**任务**：用 Playwright 直接读取四大早报源页面，找到当天最新文章 URL。
 
-**时效检查**：每篇文章发布时间必须是当天。如果某篇不是当天发布 → 剔除该源。如果四篇全部不是当天发布 → 跳过 Step 2 和 Step 3，直接进入 Step 4（补充站点），最终日报仅包含补充站点和榜单数据。
+**强制要求**：必须使用 `fetcher.py news` 脚本（Playwright 无头浏览器）抓取，不得使用 WebSearch 或 WebFetch 替代。WebFetch 对企业安全策略下的中文站点不可用，WebSearch 搜索结果不稳定、经常遗漏。
 
-| 源 | 入口 |
-|----|------|
-| 36氪 8点1氪 | 搜索 `https://36kr.com/search/articles/8点1氪`，取标题含「8点1氪」的最新一篇 |
-| 爱范儿 早报 | `https://www.ifanr.com/category/ifanrnews`，取标题含「早报」的最新一篇 |
-| 极客公园 极客早知道 | `https://www.geekpark.net/column/74`，取最新一篇 |
-| IT之家 IT早报 | `https://mp.ithome.com/account/#/10233`，取标题含「IT早报」的最新一篇 |
+```bash
+cd "<项目根目录>"
+python3 .claude/skills/ai-news-scraper/scripts/fetcher.py news
+```
+
+脚本抓取内容保存到 `.claude/skills/ai-news-scraper/raw/news_raw.json`，从中提取四篇文章的标题、时间、URL。
+
+**时效检查**：每篇文章发布时间必须是当天。如果某篇不是当天发布 → 剔除该源。周末部分源停更属正常（36氪8点1氪、爱范儿早报周末通常不更新），直接剔除即可，无需反复尝试。
+
+| 源 | 入口 URL |
+|----|---------|
+| 36氪 8点1氪 | `https://36kr.com/user/5652071`（取标题含「8点1氪」的最新一篇）|
+| 爱范儿 早报 | `https://www.ifanr.com/category/ifanrnews`（取标题含「早报」的最新一篇）|
+| 极客公园 极客早知道 | `https://www.geekpark.net/column/74`（取最新一篇）|
+| IT之家 IT早报 | `https://www.ithome.com/`（从首页提取标题含「IT早报」的最新一篇）|
+
+如果某篇文章需要获取完整内容，用 Playwright 直接打开该文章 URL：
+```python
+from playwright.sync_api import sync_playwright
+with sync_playwright() as pw:
+    browser = pw.chromium.launch(headless=True)
+    page = browser.new_page()
+    page.goto("<文章URL>", wait_until="load", timeout=45000)
+    page.wait_for_timeout(5000)
+    text = page.inner_text("body")
+    print(text[:30000])
+    browser.close()
+```
 
 ### >> 检查点 1
 
