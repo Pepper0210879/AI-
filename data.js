@@ -514,23 +514,6 @@ window.__RAW_DATA = {
           "softBg": "#fde8e8",
           "cards": [
             {
-              "title": "DeepSeek",
-              "news": [
-                {
-                  "title": "DeepSeek 正洽谈 500-700 亿元融资，腾讯阿里在列，押注华为昇腾",
-                  "summary": "5月31日消息，DeepSeek 正在洽谈 500-700 亿元人民币新一轮融资，腾讯和阿里巴巴等互联网巨头在列，资金主要用于算力基础设施建设，深度适配华为昇腾芯片，以应对 V4-Flash 等模型快速增长的调用需求。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
-                  "tags": [
-                    "DeepSeek",
-                    "融资",
-                    "算力"
-                  ],
-                  "source": "IT之家",
-                  "time": "今天"
-                }
-              ]
-            },
-            {
               "title": "软银",
               "news": [
                 {
