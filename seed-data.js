@@ -1,5 +1,5 @@
 // 种子数据：为 Step 8 无新闻厂商近期动态提供历史新闻
-window.__SEED_VERSION = 3;
+window.__SEED_VERSION = 4;
 window.__SEED_CONFIRMED = {
   "2026-06-01": {
     "date": "2026-06-01",
@@ -2165,13 +2165,13 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "2026 高考临近，多家 AI 平台涉考功能限时上锁",
                     "summary": "5月29日消息，随着 2026 年高考临近，多家 AI 平台对涉考功能实施限时上锁，在考试时段对答题、拍题等功能进行限制。相关举措并非一刀切式禁用，而是对考试时段内的涉考功能进行精准管控，防止 AI 工具影响考试公平。",
-                    "link": "https://www.ithome.com/0/957/260.htm",
+                    "link": "https://news.sina.com.cn/o/2026-05-29/doc-inhzpwvp9538874.shtml",
                     "tags": [
                       "AI监管",
                       "高考"
                     ],
-                    "source": "IT之家",
-                    "time": "5月29日"
+                    "source": "新浪新闻",
+                    "time": "5月29日消息"
                   }
                 ]
               },
