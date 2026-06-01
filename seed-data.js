@@ -1,5 +1,5 @@
 // 种子数据：为 Step 8 无新闻厂商近期动态提供历史新闻
-window.__SEED_VERSION = 10;
+window.__SEED_VERSION = 11;
 window.__SEED_CONFIRMED = {
   "2026-06-01": {
     "date": "2026-06-01",
@@ -1663,7 +1663,7 @@ window.__SEED_CONFIRMED = {
             "news": [
               {
                 "title": "DeepMind CEO 称 AGI 或于三年内到来",
-                "summary": "当地时间5月29日，谷歌 DeepMind CEO 德米斯·哈萨比斯接受 Axios 采访时表示，AGI 研发速度远超预期，最快可能在 2029-2030 年前后出现。他指出当前 AI 智能体本质上是未来更强 AI 的预演，但警告各国政府和社会对 AGI 到来的准备严重不足。他提出爱因斯坦测试作为 AGI 衡量标准：给模型 1901 年的知识截止点，看其能否独立得出 1905 年相对论。",
+                "summary": "5月29日消息，谷歌 DeepMind CEO 德米斯·哈萨比斯接受 Axios 采访时表示，AGI 研发速度远超预期，最快可能在 2029-2030 年前后出现。他指出当前 AI 智能体本质上是未来更强 AI 的预演，但警告各国政府和社会对 AGI 到来的准备严重不足。他提出爱因斯坦测试作为 AGI 衡量标准：给模型 1901 年的知识截止点，看其能否独立得出 1905 年相对论。",
                 "link": "https://www.aibase.com/zh/news/28482",
                 "tags": [
                   "AGI",
