@@ -7,6 +7,7 @@
   python3 fetcher.py all      抓取全部
 """
 import json
+import re
 import sys
 import time
 from datetime import datetime, date
@@ -180,8 +181,10 @@ def fetch_rankings():
 
 def verify_links(data_json_path=None):
     """
-    链接内容复核：读取 data.json，用 Playwright 打开每条新闻的链接，
-    校验页面标题是否与新闻标题相关。输出不匹配的可疑链接列表。
+    链接内容复核：读取 data.json，分层验证每条新闻链接。
+    - 高风险源（IT之家/36氪，URL 可推算）：Playwright 无头浏览器
+    - 低风险源（新浪/财联社/澎湃等，URL 含随机哈希）：HTTP 请求 + 正则提取标题
+    输出不匹配的可疑链接列表。
 
     返回: {"passed": [...], "failed": [...], "skipped": [...]}
     """
@@ -212,52 +215,118 @@ def verify_links(data_json_path=None):
     walk(data)
     print(f"共找到 {len(items)} 条新闻链接待复核\n")
 
+    # 分层：高风险源用 Playwright，低风险源用 HTTP 请求
+    HIGH_RISK_DOMAINS = ["ithome.com", "36kr.com"]
+    high_risk = []
+    low_risk = []
+    for item in items:
+        link = item["link"]
+        if any(d in link for d in HIGH_RISK_DOMAINS):
+            high_risk.append(item)
+        else:
+            low_risk.append(item)
+
+    print(f"🔴 高风险源 (Playwright): {len(high_risk)} 条")
+    print(f"🟢 低风险源 (HTTP请求): {len(low_risk)} 条\n")
+
     passed = []
     failed = []
     skipped = []
 
-    with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=True)
+    # ===== 阶段一：低风险源 — 快速 HTTP 请求 =====
+    if low_risk:
+        print("--- 低风险源 (HTTP 请求) ---")
+        import urllib.request
+        import urllib.error
+        import ssl
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
 
-        for idx, item in enumerate(items, 1):
+        for idx, item in enumerate(low_risk, 1):
             title = item["title"]
             link = item["link"]
-            source = item["source"]
-            print(f"[{idx}/{len(items)}] {title[:40]}...")
+            print(f"[L{idx}/{len(low_risk)}] {title[:40]}...")
 
+            page_title = None
             try:
-                result = scrape_page(browser, link, wait_sec=3)
-                if result["status"] not in ("ok", "partial"):
-                    skipped.append({**item, "reason": f"页面无法访问: {result.get('error', 'unknown')}"})
-                    print(f"  ⚠️ 跳过: 页面无法访问")
-                    continue
-
-                page_title = result.get("title", "").strip()
-                if not page_title:
-                    skipped.append({**item, "reason": "页面标题为空"})
-                    print(f"  ⚠️ 跳过: 页面标题为空")
-                    continue
-
-                # 计算关键词重叠度
-                overlap_score = _calc_title_overlap(title, page_title)
-                item["page_title"] = page_title
-                item["overlap"] = overlap_score
-
-                if overlap_score >= 0.15:
-                    passed.append(item)
-                    print(f"  ✅ 匹配 (重叠度 {overlap_score:.0%}): {page_title[:60]}")
-                else:
-                    failed.append(item)
-                    print(f"  ❌ 不匹配 (重叠度 {overlap_score:.0%}): {page_title[:60]}")
-
+                req = urllib.request.Request(link, headers={
+                    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+                    "Accept-Language": "zh-CN,zh;q=0.9",
+                })
+                resp = urllib.request.urlopen(req, timeout=15, context=ctx)
+                html = resp.read().decode("utf-8", errors="ignore")[:50000]
+                m = re.search(r"<title[^>]*>(.*?)</title>", html, re.IGNORECASE | re.DOTALL)
+                if m:
+                    page_title = re.sub(r"\s+", " ", m.group(1)).strip()
             except Exception as e:
-                skipped.append({**item, "reason": str(e)})
-                print(f"  ⚠️ 跳过: {e}")
+                pass
 
-        browser.close()
+            if not page_title:
+                skipped.append({**item, "reason": f"HTTP 请求失败，无法提取标题"})
+                print(f"  ⚠️ 跳过: 无法提取标题")
+                continue
+
+            overlap_score = _calc_title_overlap(title, page_title)
+            item["page_title"] = page_title
+            item["overlap"] = overlap_score
+            item["method"] = "http"
+
+            if overlap_score >= 0.15:
+                passed.append(item)
+                print(f"  ✅ 匹配 ({overlap_score:.0%}): {page_title[:60]}")
+            else:
+                failed.append(item)
+                print(f"  ❌ 不匹配 ({overlap_score:.0%}): {page_title[:60]}")
+
+    # ===== 阶段二：高风险源 — Playwright =====
+    if high_risk:
+        print(f"\n--- 高风险源 (Playwright) ---")
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(headless=True)
+
+            for idx, item in enumerate(high_risk, 1):
+                title = item["title"]
+                link = item["link"]
+                print(f"[H{idx}/{len(high_risk)}] {title[:40]}...")
+
+                try:
+                    result = scrape_page(browser, link, wait_sec=3)
+                    if result["status"] not in ("ok", "partial"):
+                        skipped.append({**item, "reason": f"页面无法访问: {result.get('error', 'unknown')}"})
+                        print(f"  ⚠️ 跳过: 页面无法访问")
+                        continue
+
+                    page_title = result.get("title", "").strip()
+                    if not page_title:
+                        skipped.append({**item, "reason": "页面标题为空"})
+                        print(f"  ⚠️ 跳过: 页面标题为空")
+                        continue
+
+                    overlap_score = _calc_title_overlap(title, page_title)
+                    item["page_title"] = page_title
+                    item["overlap"] = overlap_score
+                    item["method"] = "playwright"
+
+                    if overlap_score >= 0.15:
+                        passed.append(item)
+                        print(f"  ✅ 匹配 ({overlap_score:.0%}): {page_title[:60]}")
+                    else:
+                        failed.append(item)
+                        print(f"  ❌ 不匹配 ({overlap_score:.0%}): {page_title[:60]}")
+
+                except Exception as e:
+                    skipped.append({**item, "reason": str(e)})
+                    print(f"  ⚠️ 跳过: {e}")
+
+            browser.close()
 
     print(f"\n{'='*50}")
+    total = len(items)
+    pw_count = len([x for x in passed + failed + skipped if x.get("method") == "playwright"])
+    http_count = len([x for x in passed + failed + skipped if x.get("method") == "http"])
     print(f"复核完成: ✅ {len(passed)} 通过 | ❌ {len(failed)} 可疑 | ⚠️ {len(skipped)} 跳过")
+    print(f"耗时: Playwright {pw_count} 条 + HTTP {http_count} 条 = {total} 条")
     if failed:
         print(f"\n⚠️ 以下 {len(failed)} 条链接内容与新闻标题不匹配，需重新搜索:")
         for item in failed:

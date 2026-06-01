@@ -4,11 +4,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 强制约束（最高优先级）
 
-> **更新日报时，必须逐字逐句严格执行 `.claude/skills/ai-news-scraper/SKILL.md` 中的全部 8 个步骤。按顺序逐步执行，每步结束后必须输出检查点摘要并确认通过后方可进入下一步。不得跳过、合并、调换顺序，不得省略任何子步骤，不得以"节省时间"为由简化流程。任何违反即视为执行失败。**
+> **更新日报时，必须逐字逐句严格执行 `.claude/skills/ai-news-scraper/SKILL.md` 中的全部 9 个步骤。按顺序逐步执行，每步结束后必须输出检查点摘要并确认通过后方可进入下一步。不得跳过、合并、调换顺序，不得省略任何子步骤，不得以"节省时间"为由简化流程。任何违反即视为执行失败。**
 
 ### 早报源抓取铁律
 
 > **Step 1 定位四大早报源时，必须直接使用 Playwright 读取网页链接，不得使用 WebSearch 或 WebFetch 替代。** 原因：WebFetch 被企业安全策略阻止（36kr.com / ifanr.com / geekpark.net / ithome.com 均无法访问），WebSearch 搜索结果不完整、不稳定，曾多次导致遗漏新闻。Playwright 无头浏览器直接打开源站页面，可完整获取文章列表和全文内容。
+
+### IT之家 链接铁律
+
+> **IT之家 URL 为 `ithome.com/0/{批次}/{ID}.htm`，ID 纯数字可推算。严禁自行构造 IT之家 URL，每个 IT之家 链接必须来自 WebSearch 搜索结果。2026-06-01 复核发现 5/30 日报中 14 条 `957/xxx` 系列链接全部为编造 ID，指向完全不相关的文章（vivo 耳机、摩托车比赛等），错误率 40%。**
+
+### 链接复核铁律
+
+> **Step 8 链接内容复核绝不可跳过。** 脚本自动分层验证：IT之家/36氪（URL 可推算）→ Playwright 逐条打开；其他来源（URL 含随机哈希无法编造）→ HTTP 快速请求。复核不通过（任何 ❌）必须回退到 Step 3b-2 重新搜索，直到 0 条可疑。
 
 ## 项目概述
 
