@@ -18,6 +18,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 > **Step 8 链接内容复核绝不可跳过。** 脚本自动分层验证：IT之家/36氪（URL 可推算）→ Playwright 逐条打开；其他来源（URL 含随机哈希无法编造）→ HTTP 快速请求。复核不通过（任何 ❌）必须回退到 Step 3b-2 重新搜索，直到 0 条可疑。
 
+### 日期格式铁律
+
+> **友商官方博客/官网链接（如 Anthropic Blog、OpenAI Blog 等），页面标注的发布日期即为当地时间。摘要必须写「当地时间 x 月 x 日」，不得写「x 月 x 日消息」。**
+
 ## 项目概述
 
 每日AI早报 — 纯静态前端网站，展示 AI 行业新闻。零依赖、无构建步骤，直接用浏览器打开 `index.html` 即可运行。
