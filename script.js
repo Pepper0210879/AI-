@@ -760,16 +760,23 @@ function seedConfirmedData() {
             }
         }
 
+        // 版本检查：种子数据更新后自动清除旧缓存
+        const seedVersion = window.__SEED_VERSION || 1;
+        const cachedVersion = localStorage.getItem('ai-news-seed-version');
+        if (String(seedVersion) !== cachedVersion) {
+            localStorage.removeItem(CONFIRMED_KEY);
+            localStorage.setItem('ai-news-seed-version', String(seedVersion));
+            console.log('种子数据版本更新，已清除历史缓存');
+        }
+
         // 注入种子数据（始终覆盖，确保服务端修复能同步到客户端）
         if (window.__SEED_CONFIRMED) {
             for (const [dateStr, data] of Object.entries(window.__SEED_CONFIRMED)) {
-                const oldJson = JSON.stringify(confirmed[dateStr] || {});
-                const newJson = JSON.stringify(data);
-                if (oldJson !== newJson) {
-                    confirmed[dateStr] = data;
-                    changed = true;
-                    console.log('种子数据更新:', dateStr);
-                }
+                confirmed[dateStr] = data;
+                changed = true;
+            }
+            if (Object.keys(window.__SEED_CONFIRMED).length > 0) {
+                console.log('种子数据已同步:', Object.keys(window.__SEED_CONFIRMED).join(', '));
             }
         }
 
