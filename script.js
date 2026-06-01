@@ -2,6 +2,7 @@
 const STORAGE_KEY = 'ai-news-data';
 const CONFIRMED_KEY = 'ai-news-confirmed';
 const LAST_UPDATE_KEY = 'ai-news-last-update';
+const LAST_VIEWED_DATE_KEY = 'ai-news-last-viewed-date';
 const NEWS_DATA = {
     date: "2026-05-29",
     sections: {
@@ -819,6 +820,24 @@ let dataReady = (async () => {
 })();
 
 function initPage() {
+    // 恢复上次浏览的日期，避免刷新后自动跳回今天
+    const savedDate = localStorage.getItem(LAST_VIEWED_DATE_KEY);
+    const todayStr = getTodayStr();
+    if (savedDate && savedDate !== todayStr) {
+        const confirmed = getConfirmedDates();
+        const snap = confirmed[savedDate];
+        if (snap) {
+            newsData = snap;
+            enrichData(newsData);
+            updateHeaderDate(savedDate);
+            renderContent();
+            setupEventListeners();
+            // 同步日期选择器的显示值
+            const dateInput = document.getElementById('custom-date-input');
+            if (dateInput) dateInput.value = savedDate;
+            return;
+        }
+    }
     updateHeaderDate();
     renderContent();
     setupEventListeners();
@@ -1353,6 +1372,7 @@ function setupDateSelector() {
         }
 
         lastValidDate = selected;
+        localStorage.setItem(LAST_VIEWED_DATE_KEY, selected);
         dateInput.classList.remove('visible');
         showLoading();
         setTimeout(() => {
