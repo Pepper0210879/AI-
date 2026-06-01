@@ -1,5 +1,5 @@
 // 种子数据：为 Step 8 无新闻厂商近期动态提供历史新闻
-window.__SEED_VERSION = 6;
+window.__SEED_VERSION = 8;
 window.__SEED_CONFIRMED = {
   "2026-06-01": {
     "date": "2026-06-01",
@@ -1647,14 +1647,14 @@ window.__SEED_CONFIRMED = {
               },
               {
                 "title": "Claude Code 上线动态工作流预览版",
-                "summary": "5月29日消息，Anthropic 宣布在 Claude Code 的 CLI、Desktop 和 VS Code 插件中上线动态工作流预览版，面向跨服务代码库的复杂 Bug 追踪、大规模重构和框架迁移等长程研发任务。系统支持主 Agent 编排数百个并行子 Agent，并引入两轮 Reviewer Agents 代码审查和增量自动存档。",
+                "summary": "当地时间5月28日，Anthropic 宣布在 Claude Code 的 CLI、Desktop 和 VS Code 插件中上线动态工作流预览版，面向跨服务代码库的复杂 Bug 追踪、大规模重构和框架迁移等长程研发任务。系统支持主 Agent 编排数百个并行子 Agent，并引入两轮 Reviewer Agents 代码审查和增量自动存档。",
                 "link": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
                 "tags": [
                   "开发工具",
                   "Agent"
                 ],
                 "source": "Anthropic Blog",
-                "time": "5月29日"
+                "time": "5月28日"
               }
             ]
           },
@@ -1663,7 +1663,7 @@ window.__SEED_CONFIRMED = {
             "news": [
               {
                 "title": "DeepMind CEO 称 AGI 或于三年内到来",
-                "summary": "5月29日消息，谷歌 DeepMind CEO 德米斯·哈萨比斯接受 Axios 采访时表示，AGI 研发速度远超预期，最快可能在 2029-2030 年前后出现。他指出当前 AI 智能体本质上是未来更强 AI 的预演，但警告各国政府和社会对 AGI 到来的准备严重不足。他提出爱因斯坦测试作为 AGI 衡量标准：给模型 1901 年的知识截止点，看其能否独立得出 1905 年相对论。",
+                "summary": "当地时间5月29日，谷歌 DeepMind CEO 德米斯·哈萨比斯接受 Axios 采访时表示，AGI 研发速度远超预期，最快可能在 2029-2030 年前后出现。他指出当前 AI 智能体本质上是未来更强 AI 的预演，但警告各国政府和社会对 AGI 到来的准备严重不足。他提出爱因斯坦测试作为 AGI 衡量标准：给模型 1901 年的知识截止点，看其能否独立得出 1905 年相对论。",
                 "link": "https://www.aibase.com/zh/news/28482",
                 "tags": [
                   "AGI",
@@ -1888,7 +1888,7 @@ window.__SEED_CONFIRMED = {
                 "news": [
                   {
                     "title": "Liquid AI 开源端侧 MoE 模型 LFM2.5",
-                    "summary": "5月29日消息，Liquid AI 发布并开源 LFM2.5-8B-A1B 端侧混合专家模型。总参数 8B、每次仅激活 1B，支持手机和个人电脑本地微调与离线运行。上下文从 32K 扩大至 128K，词表扩至 128K。通过靶向强化学习，模型在超出知识边界时更倾向于承认不知道，无幻觉率从 7.46% 提升至 63.47%。",
+                    "summary": "当地时间5月29日，Liquid AI 发布并开源 LFM2.5-8B-A1B 端侧混合专家模型。总参数 8B、每次仅激活 1B，支持手机和个人电脑本地微调与离线运行。上下文从 32K 扩大至 128K，词表扩至 128K。通过靶向强化学习，模型在超出知识边界时更倾向于承认不知道，无幻觉率从 7.46% 提升至 63.47%。",
                     "link": "https://www.aibase.com/zh/news/28474",
                     "tags": [
                       "开源模型",
@@ -1904,7 +1904,7 @@ window.__SEED_CONFIRMED = {
                 "news": [
                   {
                     "title": "IBM 计划 5 年投资超 100 亿美元于量子计算",
-                    "summary": "5月28日，IBM 宣布计划未来五年投资超 100 亿美元用于量子计算，目标在 2029 年前建成首台大规模量子计算机。特朗普政府计划向量子计算企业投资 20 亿美元，IBM 将获其中半数资金用于建设美国首个量子芯片制造基地。IBM 目前已部署超 90 个量子计算系统。",
+                    "summary": "当地时间5月28日，IBM 宣布计划未来五年投资超 100 亿美元用于量子计算，目标在 2029 年前建成首台大规模量子计算机。特朗普政府计划向量子计算企业投资 20 亿美元，IBM 将获其中半数资金用于建设美国首个量子芯片制造基地。IBM 目前已部署超 90 个量子计算系统。",
                     "link": "https://finance.sina.com.cn/roll/2026-05-30/doc-inhzreqx9130270.shtml",
                     "tags": [
                       "量子计算",
@@ -2084,7 +2084,7 @@ window.__SEED_CONFIRMED = {
                 "news": [
                   {
                     "title": "戴尔 AI 服务器收入暴增 757%，总营收创新高",
-                    "summary": "5月28日，戴尔公布 2027 财年第一财季业绩，单季总营收 438 亿美元同比增长 88% 创历史新高。AI 优化服务器确认收入高达 161 亿美元同比暴增 757%，AI 服务器订单规模达 244 亿美元。公司预计全年 AI 服务器收入约 600 亿美元同比增长 144%，并将全年营收预期上调至 1650-1690 亿美元。",
+                    "summary": "当地时间5月28日，戴尔公布 2027 财年第一财季业绩，单季总营收 438 亿美元同比增长 88% 创历史新高。AI 优化服务器确认收入高达 161 亿美元同比暴增 757%，AI 服务器订单规模达 244 亿美元。公司预计全年 AI 服务器收入约 600 亿美元同比增长 144%，并将全年营收预期上调至 1650-1690 亿美元。",
                     "link": "https://finance.eastmoney.com/a/202605293754596031.html",
                     "tags": [
                       "AI服务器",
