@@ -760,13 +760,15 @@ function seedConfirmedData() {
             }
         }
 
-        // 注入种子数据
+        // 注入种子数据（始终覆盖，确保服务端修复能同步到客户端）
         if (window.__SEED_CONFIRMED) {
             for (const [dateStr, data] of Object.entries(window.__SEED_CONFIRMED)) {
-                if (!confirmed[dateStr]) {
+                const oldJson = JSON.stringify(confirmed[dateStr] || {});
+                const newJson = JSON.stringify(data);
+                if (oldJson !== newJson) {
                     confirmed[dateStr] = data;
                     changed = true;
-                    console.log('种子数据补充:', dateStr);
+                    console.log('种子数据更新:', dateStr);
                 }
             }
         }
