@@ -19,7 +19,7 @@ description: 每日AI早报新闻抓取与整理。当用户说"抓取今日新�
 
 **今日日期**：开始前先确认当天日期。`date` 字段使用**当天日期**（日报发布日），例如 5/29 运行 → `"date": "2026-05-29"`。
 
-**预计总耗时**：~19 分钟（抓取 5 分钟 + 处理 13 分钟 + 复核 ~1 分钟）
+**预计总耗时**：~20 分钟（抓取 5 分钟 + 处理 13 分钟 + 复核推送 2 分钟）
 
 ---
 
@@ -371,7 +371,9 @@ Product Hunt 每个产品需要额外查找**官网链接**，存入 `link` 字�
 
 ---
 
-## Step 7/9：写入文件 + 自检 + 推送（~2 分钟）⚠️ 不可跳过
+## Step 7/9：写入文件 + 日报链接自检（~2 分钟）⚠️ 不可跳过
+
+> **注意：Step 7 仅写入文件，不推送。推送在 Step 8 复核通过后执行，确保脏数据不上线。**
 
 ### 7a. 写入 data.json
 
@@ -394,7 +396,7 @@ with open('data.js','w') as f: f.write(js)
 
 将 data.js 中的链接变更同步到 `script.js` 的 `NEWS_DATA` 和 `admin.js` 的 `DEFAULT_DATA`（三个文件的链接必须一致）。
 
-### 7d. 链接自检（必须执行）
+### 7d. 日报链接自检（必须执行）
 
 **自检逻辑**：从 Step 1 获取的四篇早报文章 URL 视为"日报整合页"，data.json/data.js/script.js/admin.js 中**任何新闻的 link 字段不得等于这四个 URL**。
 
@@ -438,16 +440,7 @@ else:
 
 **三个文件结果必须全部为 0**。任一 > 0 → 回到 Step 3b-2 补搜独立链接。
 
-### 7e. 校验 + 推送
-
-```bash
-python3 .claude/skills/ai-news-scraper/scripts/helper.py check
-git add data.json data.js script.js admin.js
-git commit -m "更新早报至 YYYY-MM-DD"
-git push origin main
-```
-
-### 7f. 同步飞书知识库
+### 7e. 同步飞书知识库
 
 ```bash
 python3 .claude/skills/ai-news-scraper/scripts/feishu_sync.py --date YYYY-MM-DD
@@ -460,9 +453,9 @@ python3 .claude/skills/ai-news-scraper/scripts/feishu_sync.py --date YYYY-MM-DD
 - 若同名表已存在 → **删除旧表并重建**，确保字段和记录完全一致
 - 写入前自动检查字段，缺失则补全
 
-### 7g. 更新种子数据
+### 7f. 更新种子数据
 
-将当日 data.json 合并到 `seed-data.js`，为 GitHub Pages 提供历史新闻数据（支撑 Step 8 无新闻厂商近期动态）。
+将当日 data.json 合并到 `seed-data.js`，为 GitHub Pages 提供历史新闻数据（支撑 Step 9 无新闻厂商近期动态）。
 
 ```bash
 python3 -c "
@@ -490,7 +483,7 @@ for old_date in dates[3:]:
     del seed[old_date]
 
 # 写入
-js = '// 种子数据：为 Step 8 无新闻厂商近期动态提供历史新闻\nwindow.__SEED_CONFIRMED = ' + json.dumps(seed, ensure_ascii=False, indent=2) + ';\n'
+js = '// 种子数据：为 Step 9 无新闻厂商近期动态提供历史新闻\nwindow.__SEED_CONFIRMED = ' + json.dumps(seed, ensure_ascii=False, indent=2) + ';\n'
 seed_file.write_text(js)
 print(f'种子数据已更新：包含 {list(seed.keys())}，共 {len(js)} 字符')
 "
@@ -503,20 +496,19 @@ print(f'种子数据已更新：包含 {list(seed.keys())}，共 {len(js)} 字�
 ✅ data.js 已同步
 ✅ script.js NEWS_DATA 已同步
 ✅ admin.js DEFAULT_DATA 已同步
-✅ 链接自检：data.json 全部为独立文章，零日报链接残留
+✅ 日报链接自检：零日报链接残留
 ✅ 种子数据已更新：包含最近 3 天
 ✅ 飞书知识库已同步：X 条新闻 + Y 条榜单
-✅ git push 成功
-✅ 以上检查全部通过 → 进入 Step 8
+⚠️ 尚未推送，进入 Step 8 复核通过后再推送
 ```
 
 ---
 
-## Step 8/9：链接内容复核（~1 分钟）⚠️ 绝不可跳过
+## Step 8/9：逐条复核 + 推送（~2 分钟）⚠️ 绝不可跳过
 
-**历史教训：跳过此步曾导致亚马逊 Kirorank、何小鹏机器人、高考 AI 限制等多条新闻链接指向不相关文章。2026-06-01 复核发现 5/30 日报 14 条 IT之家 957 系列链接全部为编造 ID，错误率 40%。**
+**历史教训：跳过此步曾导致亚马逊 Kirorank、何小鹏机器人、高考 AI 限制等多条新闻链接指向不相关文章。2026-06-01 复核发现 5/30 日报 14 条 IT之家 957 系列链接全部为编造 ID、错误率 40%，另有 7 条日期格式错误。**
 
-当前 Step 7d 的自检只保证"链接不是日报整合页"，不保证"链接内容与新闻标题匹配"。IT之家同一批次文章 URL 格式相似（如 `957/290` vs `957/310`），仅靠 URL 无法区分。
+**逐条检查每条新闻的链接和日期，全部通过后方可推送。**
 
 ### 8a. 分层复核策略
 
@@ -532,12 +524,10 @@ cd "<项目根目录>"
 python3 .claude/skills/ai-news-scraper/scripts/fetcher.py verify
 ```
 
-脚本行为：
-1. 读取 `data.json` 中所有新闻的 `link` 字段
-2. 按域名自动分类：IT之家/36氪 → Playwright 无头浏览器；其余 → HTTP GET + 正则提取 `<title>`
-3. 提取新闻标题的 2-4 字 n-gram 关键词，计算与页面标题的重叠度
-4. 重叠度 ≥ 15% → ✅ 通过；< 15% → ❌ 可疑；页面无法访问 → ⚠️ 跳过
-5. **日期校验**：提取摘要中的日期声明，与链接 URL 中的发布日期对比：
+脚本逐条检查：
+1. **链接正确性**：打开链接，获取页面标题，与新闻标题计算关键词重叠度
+   - 重叠度 ≥ 15% → ✅ 通过；< 15% → ❌ 可疑；页面无法访问 → ⚠️ 跳过
+2. **日期正确性**：提取摘要中的日期声明，与链接正文/URL 发布日期对比
    - 「x月x日**消息**」格式 → 日期必须等于链接发布日期，不一致视为**硬错误**
    - 「x月x日」格式 → 事件发生日，与链接日期可不同，仅提示供人工确认
 
@@ -550,22 +540,32 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py verify
 | ⚠️ 跳过 | 页面无法访问 | 查看报告中的 reason，判断是否需要重试 |
 | 📅 日期错误 | 「消息」格式日期与链接发布日期不一致 | **修正摘要开头和 time 字段**，改为链接实际发布日期 |
 
-**复核通过标准**：0 条 ❌ 可疑。任何 ❌ 都必须回退重新搜索，直到全部 ✅ 或 ⚠️（页面确实无法访问且有合理原因）。
+**复核通过标准**：❌ 可疑 = 0 且 📅 日期错误 = 0。任一 > 0 必须修正后重新复核，直到全部通过。
 
-### 8c. 复核报告
+### 8c. 推送
+
+```bash
+python3 .claude/skills/ai-news-scraper/scripts/helper.py check
+git add data.json data.js script.js admin.js seed-data.js
+git commit -m "更新早报至 YYYY-MM-DD"
+git push origin main
+```
+
+### 8d. 复核报告
 
 报告保存在 `.claude/skills/ai-news-scraper/raw/link_verify_report.json`，包含每条新闻的校验结果和所用方法（`playwright` / `http`）。
 
 ### >> 检查点 8
 
 ```
-链接内容复核：
+逐条复核结果：
 - 共 X 条新闻链接（🔴高风险 Y 条 + 🟢低风险 Z 条）
-- ✅ 通过：A 条
-- ❌ 可疑：0 条（必须为 0）
+- ✅ 链接正确：A 条
+- ❌ 链接可疑：0 条（必须为 0）
 - ⚠️ 跳过：B 条（注明原因）
 - 📅 日期错误：0 条（必须为 0）
-复核通过 ✅ → 进入 Step 9
+✅ git push 成功
+🎉 复核通过，进入 Step 9
 ```
 
 ---
