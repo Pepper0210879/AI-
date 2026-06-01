@@ -1675,12 +1675,12 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "苹果被曝用 Gemini 训练端侧 AI 模型",
                 "summary": "5月29日消息，据 The Information 报道，苹果正利用谷歌 Gemini 大语言模型通过蒸馏技术训练可本地运行的轻量化模型，为 WWDC 端侧 AI 能力做准备。苹果已批准在谷歌云环境中使用英伟达机密计算技术处理云端 AI 请求，部分 Siri 请求将转向谷歌云。苹果同时在寻求收购边缘 AI 初创公司。",
-                "link": "https://www.ithome.com/0/956/900.htm",
+                "link": "https://www.yicai.com/news/102789167.html",
                 "tags": [
                   "模型蒸馏",
                   "端侧AI"
                 ],
-                "source": "爱范儿",
+                "source": "第一财经",
                 "time": "5月29日"
               }
             ]
@@ -1782,12 +1782,12 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "小米开源视频音效模型 ControlFoley",
                 "summary": "5月29日消息，小米发布并开源多模态可控视频音效生成框架 ControlFoley，面向视频自动配音场景。支持同时输入视频、文本指令和参考音频进行多条件控制，可优先响应用户文本意图并保留参考音色。实验结果显示在语义对齐、时间同步和声音质量方面均优于开源基线。",
-                "link": "https://www.ithome.com/0/957/380.htm",
+                "link": "https://tech.ifeng.com/c/8tWc016EJQj",
                 "tags": [
                   "开源模型",
                   "音视频"
                 ],
-                "source": "爱范儿",
+                "source": "凤凰科技",
                 "time": "5月29日"
               }
             ]
@@ -1818,12 +1818,12 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "华为韬定律持续发酵：黄仁勋评价、徐直军回应",
                 "summary": "5月25日，华为董事何庭波在 IEEE 研讨会上发布韬定律，通过逻辑折叠技术在不依赖极紫外光刻机的情况下将晶体管密度等效推进至1.4nm水平。5月28日黄仁勋评价其对华为是突破但对台积电非威胁。5月29日华为轮值董事长徐直军回应称韬定律需要整个产业界参与，但不打算说服谁，并坦承逻辑折叠目前最大瓶颈仍在 EDA 工具。搭载韬定律的启境 GT7 已开启预售。",
-                "link": "https://www.techweb.com.cn/it/2026-05-29/2976102.shtml",
+                "link": "https://news.mydrivers.com/1/1126/1126152.htm",
                 "tags": [
                   "半导体",
                   "芯片设计"
                 ],
-                "source": "TechWeb",
+                "source": "快科技",
                 "time": "5月25-29日"
               }
             ]
@@ -1889,12 +1889,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "Liquid AI 开源端侧 MoE 模型 LFM2.5",
                     "summary": "5月29日消息，Liquid AI 发布并开源 LFM2.5-8B-A1B 端侧混合专家模型。总参数 8B、每次仅激活 1B，支持手机和个人电脑本地微调与离线运行。上下文从 32K 扩大至 128K，词表扩至 128K。通过靶向强化学习，模型在超出知识边界时更倾向于承认不知道，无幻觉率从 7.46% 提升至 63.47%。",
-                    "link": "https://www.ithome.com/0/957/390.htm",
+                    "link": "https://www.aibase.com/zh/news/28474",
                     "tags": [
                       "开源模型",
                       "端侧AI"
                     ],
-                    "source": "爱范儿",
+                    "source": "AIbase",
                     "time": "5月29日"
                   }
                 ]
@@ -1905,12 +1905,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "IBM 计划 5 年投资超 100 亿美元于量子计算",
                     "summary": "5月28日，IBM 宣布计划未来五年投资超 100 亿美元用于量子计算，目标在 2029 年前建成首台大规模量子计算机。特朗普政府计划向量子计算企业投资 20 亿美元，IBM 将获其中半数资金用于建设美国首个量子芯片制造基地。IBM 目前已部署超 90 个量子计算系统。",
-                    "link": "https://www.ithome.com/0/957/360.htm",
+                    "link": "https://finance.sina.com.cn/roll/2026-05-30/doc-inhzreqx9130270.shtml",
                     "tags": [
                       "量子计算",
                       "投资"
                     ],
-                    "source": "极客公园",
+                    "source": "新浪财经",
                     "time": "5月28日"
                   }
                 ]
@@ -1958,12 +1958,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "赛力斯回应特斯拉 FSD 入华：孰优孰劣由市场评判",
                     "summary": "5月29日，在第四届未来汽车先行者大会上，赛力斯董事长张正萍就华为乾崑智驾与特斯拉 FSD 的对比发表看法，表示孰优孰劣应交由市场客观评判。他指出全新问界 M9 搭载 6 颗激光雷达不输 FSD，华为乾崑智驾能达到不只是人眼可以看到的状态，而 FSD 模拟的是人类视觉驾驶逻辑。",
-                    "link": "https://www.ithome.com/0/957/300.htm",
+                    "link": "https://finance.sina.com.cn/tech/digi/2026-05-29/doc-inhzpspv7749205.shtml",
                     "tags": [
                       "智驾对比",
                       "FSD"
                     ],
-                    "source": "IT之家",
+                    "source": "新浪财经",
                     "time": "5月29日"
                   }
                 ]
@@ -1974,12 +1974,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "千里科技将整合吉利辅助驾驶团队",
                     "summary": "5月29日消息，据 36氪汽车援引产业人士称，吉利中央研究院辅助驾驶团队将在近期被整合入千里科技，该团队规模为数百人，已有人收到转移合同通知。此举被解读为吉利系在智驾领域打造第二个华为的战略部署。",
-                    "link": "https://www.ithome.com/0/957/350.htm",
+                    "link": "https://news.qq.com/rain/a/20260530A00GLJ00",
                     "tags": [
                       "智驾整合",
                       "组织调整"
                     ],
-                    "source": "IT之家",
+                    "source": "腾讯新闻",
                     "time": "5月29日"
                   }
                 ]
@@ -2064,12 +2064,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "AI 算力驱动国产光通信产品出海热销",
                     "summary": "5月29日消息，据经济参考报报道，国产光通信产品订单火爆，走俏国际市场，多家企业出口订单已排到 2028 年。截至 5月28日，万得光模块概念指数和光纤概念指数年内涨幅均超 100%。AI 算力需求爆发成为核心驱动力。",
-                    "link": "https://www.ithome.com/0/957/330.htm",
+                    "link": "http://news.china.com.cn/2026-05/29/content_118521068.shtml",
                     "tags": [
                       "光通信",
                       "出海"
                     ],
-                    "source": "IT之家",
+                    "source": "经济参考报",
                     "time": "5月29日"
                   }
                 ]
@@ -2085,13 +2085,46 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "戴尔 AI 服务器收入暴增 757%，总营收创新高",
                     "summary": "5月28日，戴尔公布 2027 财年第一财季业绩，单季总营收 438 亿美元同比增长 88% 创历史新高。AI 优化服务器确认收入高达 161 亿美元同比暴增 757%，AI 服务器订单规模达 244 亿美元。公司预计全年 AI 服务器收入约 600 亿美元同比增长 144%，并将全年营收预期上调至 1650-1690 亿美元。",
-                    "link": "https://www.ithome.com/0/957/320.htm",
+                    "link": "https://finance.eastmoney.com/a/202605293754596031.html",
                     "tags": [
                       "AI服务器",
                       "财报"
                     ],
-                    "source": "极客公园",
+                    "source": "东方财富",
                     "time": "5月28日"
+                  }
+                ]
+              },
+              {
+                "title": "Corgi（AI保险）",
+                "news": [
+                  {
+                    "title": "AI 保险平台 Corgi 融资 1.06 亿美元，估值 26 亿美元",
+                    "summary": "5月29日消息，AI 保险平台 Corgi 宣布完成由 TCV 领投的 1.06 亿美元融资，估值达 26 亿美元。CEO Nico Laqua 表示公司上月已实现盈利，资金将用于拓展货运、小型企业和体育行业。Corgi 成立于 2024 年，由 00 后斯坦福辍学生 Emily Yuan 联合创立，年化收入约 1 亿美元，客户超 4 万家。",
+                    "link": "https://36kr.com/p/3830314181896064",
+                    "tags": [
+                      "AI保险",
+                      "融资"
+                    ],
+                    "source": "36氪",
+                    "time": "5月29日"
+                  }
+                ]
+              },
+              {
+                "title": "易启未来（按摩机器人）",
+                "news": [
+                  {
+                    "title": "按摩机器人「易启未来」完成数千万元 A 轮融资",
+                    "summary": "5月29日消息，网易伏羲孵化的按摩机器人公司易启未来完成数千万元 A 轮融资，由同创伟业、优山资本、杭州资本润苗基金联合投资，天使股东网易继续加持。公司自研 3 秒穴位识别算法与六轴机械臂运控算法，2026 年 Q1 订单近 4000 万元，资金将用于技术迭代与规模化量产。",
+                    "link": "https://36kr.com/newsflashes/3830281161860998",
+                    "tags": [
+                      "具身智能",
+                      "融资",
+                      "机器人"
+                    ],
+                    "source": "36氪",
+                    "time": "5月29日"
                   }
                 ]
               }
@@ -2106,12 +2139,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "ChatGPT 消费级 AI 流量份额降至 60%，三足鼎立格局初现",
                     "summary": "5月29日消息，SimilarWeb 最新数据显示消费级 AI 市场正从 ChatGPT 一家领先转向三足鼎立。过去半年 ChatGPT 份额从约 80% 降至约 60%，Gemini 相对流量从约 20% 升至约 50%，Claude 从约 3% 升至约 20%。Claude 季度增速最快达 255%，周活约 1.5-2 亿。",
-                    "link": "https://www.ithome.com/0/957/310.htm",
+                    "link": "https://news.marsbit.co/flash/20260529143226787619.html",
                     "tags": [
                       "市场份额",
                       "竞争格局"
                     ],
-                    "source": "爱范儿",
+                    "source": "火星财经",
                     "time": "5月29日"
                   }
                 ]
@@ -2122,12 +2155,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "企业 AI 账单失控，单月烧掉 5 亿美元",
                     "summary": "5月29日消息，据 Axios 报道，企业界正对持续攀升的 AI 支出产生质疑。一名 AI 顾问透露有企业因未对 Claude 许可证设置使用上限，单月烧掉 5 亿美元。微软近期取消大部分 Claude Code 许可证，Uber COO 公开表示 AI 支出越来越难以合理化。消费者对 AI 态度也在转冷。",
-                    "link": "https://www.theblockbeats.info/flash/348344",
+                    "link": "https://finance.sina.com.cn/wm/2026-05-30/doc-inhzswyf9913218.shtml",
                     "tags": [
                       "成本控制",
                       "ROI"
                     ],
-                    "source": "爱范儿",
+                    "source": "新浪财经",
                     "time": "5月29日"
                   },
                   {
@@ -2149,12 +2182,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "莫言：AI 创作是二手货，取代不了作家",
                     "summary": "5月29日消息，莫言接受新华社采访时表示 AI 无法取代作家的原创能力。他认为 AI 是在海量作品基础上重新组合，本质上仍是二手货。但他承认 AI 作为辅助工具已成趋势，尤其在翻译、文学策划和影视制作中会越来越重要，工具会让聪明人更聪明，也可能让缺少判断的人进一步依赖现成输出。",
-                    "link": "https://www.ithome.com/0/957/280.htm",
+                    "link": "https://m.thepaper.cn/newsDetail_forward_33261426",
                     "tags": [
                       "AI与创作",
                       "行业观点"
                     ],
-                    "source": "爱范儿",
+                    "source": "澎湃新闻",
                     "time": "5月29日"
                   }
                 ]
@@ -2181,12 +2214,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "苹果 Siri 迎近十五年最大改版",
                     "summary": "5月29日消息，苹果 Siri 重大升级将成为 iOS 27 核心亮点。据知情人士透露，苹果计划在 6月8日 WWDC 上公布重新设计的 Siri 界面、全新聊天机器人应用及更多 AI 功能。与此同时苹果正利用谷歌 Gemini 训练端侧模型，并在谷歌云环境使用英伟达机密计算技术保障云端 AI 安全。",
-                    "link": "https://www.ithome.com/0/957/270.htm",
+                    "link": "https://36kr.com/p/3829879244040073",
                     "tags": [
                       "语音助手",
                       "WWDC"
                     ],
-                    "source": "爱范儿",
+                    "source": "36氪",
                     "time": "5月29日"
                   }
                 ]
@@ -2197,12 +2230,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "美初创 Shift 免费打扫换 AI 训练数据",
                     "summary": "5月29日消息，美国初创公司 Shift 面向纽约市提供免费公寓清洁服务，代价是录下完整清洁过程用于训练 AI 和家用机器人。清洁人员佩戴设备拍摄第一视角画面，画面经匿名化处理后制成数据集授权用于机器人训练。公司称未来将扩展至全球更多免费上门服务项目。",
-                    "link": "https://www.ithome.com/0/957/370.htm",
+                    "link": "https://www.sohu.com/a/1029461024_114760",
                     "tags": [
                       "训练数据",
                       "机器人"
                     ],
-                    "source": "极客公园",
+                    "source": "搜狐",
                     "time": "5月29日"
                   }
                 ]
