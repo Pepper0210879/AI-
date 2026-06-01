@@ -1,5 +1,5 @@
 // 种子数据：为 Step 8 无新闻厂商近期动态提供历史新闻
-window.__SEED_VERSION = 4;
+window.__SEED_VERSION = 5;
 window.__SEED_CONFIRMED = {
   "2026-06-01": {
     "date": "2026-06-01",
@@ -2043,13 +2043,13 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "何小鹏回应机器人无脸设计：必须与人保持差距",
                     "summary": "5月29日消息，小鹏集团董事长何小鹏在访谈中回应机器人为何没有脸，表示机器人可以有衣服和头发但不能有自己的脸，部分原因是恐怖谷效应，也有法律和社会学的考量。他表示蔚小理在机器人领域各自都会给出不同的理解和看法。",
-                    "link": "https://www.ithome.com/0/957/340.htm",
+                    "link": "https://www.sina.cn/news/detail/5303888405071509.html",
                     "tags": [
                       "机器人设计",
                       "行业观点"
                     ],
-                    "source": "IT之家",
-                    "time": "5月29日"
+                    "source": "新浪",
+                    "time": "5月29日消息"
                   }
                 ]
               }
