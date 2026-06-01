@@ -26,12 +26,12 @@ window.__RAW_DATA = {
             {
               "title": "三星与 OpenAI 定制 AI 芯片项目停滞",
               "summary": "5 月 31 日消息，据韩媒 Greened 报道，三星与 OpenAI 的定制 AI 芯片研发项目因战略分歧陷入停滞。该项目原计划基于 ARM 架构为 OpenAI 研发一款推理型 NPU，前期研发已有进展。项目停滞后，三星近期投资 Anthropic 被外界解读为转向另一条 AI 客户路线。双方在 AI 数据中心和存储芯片等合作仍在继续。",
-              "link": "https://www.ithome.com/0/957/916.htm",
+              "link": "https://news.mydrivers.com/1/1126/1126188.htm",
               "tags": [
                 "AI芯片",
                 "NPU"
               ],
-              "source": "IT之家",
+              "source": "快科技",
               "time": "5月31日"
             },
             {
@@ -259,13 +259,13 @@ window.__RAW_DATA = {
                 {
                   "title": "三星超越美光跃居全球车载存储市场第一",
                   "summary": "5 月 31 日消息，据 S&P Global Mobility 数据，三星电子 2025 年以 40% 市场份额首次超越美光（36%）登顶全球车载存储芯片市场。增长主要来自中国车企客户出货量大增。自 2020 年以来三星车载存储业务年均销售额增幅超 40%，主要客户包括高通、博世、特斯拉等。全球车用半导体市场预计从 2025 年约 900 亿美元增至 2031 年 1390 亿美元。",
-                  "link": "https://www.ithome.com/0/957/916.htm",
+                  "link": "https://cn.yna.co.kr/view/MYH20260531008800881",
                   "tags": [
                     "车载存储",
                     "市场份额",
                     "自动驾驶"
                   ],
-                  "source": "IT之家",
+                  "source": "韩联社",
                   "time": "5月31日"
                 }
               ]
@@ -296,6 +296,23 @@ window.__RAW_DATA = {
                   ],
                   "source": "腾讯新闻",
                   "time": "6月1日"
+                }
+              ]
+            },
+            {
+              "title": "微星",
+              "news": [
+                {
+                  "title": "微星推出全球首款自带 Agentic AI 伴侣的游戏台式机",
+                  "summary": "5 月 31 日消息，微星发布 MEG Vision X2 AI+ 台式整机，内置自研 Agentic AI 助手「LuckyClaw」，用户可通过自然语言语音指令切换性能模式、调整显示器设置、控制 RGB 灯效等。正面搭载 AI Holostage 全息显示器，可将数字助理和 AI 虚拟形象以 3D 形式呈现。该机出厂预装 AI 助手，官方将持续更新 Skill 扩展能力，标志着 Agentic AI 从软件层面向消费硬件深度整合的趋势。",
+                  "link": "https://finance.sina.com.cn/tech/roll/2026-06-01/doc-inhzwckv5318168.shtml",
+                  "tags": [
+                    "Agentic AI",
+                    "AI 硬件",
+                    "AI PC"
+                  ],
+                  "source": "极客公园",
+                  "time": "5月31日"
                 }
               ]
             }
@@ -378,15 +395,15 @@ window.__RAW_DATA = {
               "news": [
                 {
                   "title": "纽约联储主席：AI 不会造成长期结构性失业",
-                  "summary": "5 月 30 日，纽约联储主席威廉姆斯在冰岛经济学年会上对 AI 冲击就业给出乐观判断。他表示“历史告诉我们生产率可持续提高而不会造成结构性失业”，当前应届毕业生已普遍将 AI 工具融入日常工作，劳动力调整主路径是再培训与技能升级。但圣路易斯联储主席穆萨莱姆警告 AI 投资本身正在推高通胀，美联储内部存在显著分歧。",
-                  "link": "https://finance.sina.com.cn/stock/usstock/summary/2026-05-30/doc-inhzswyi6700798.shtml",
+                  "summary": "5 月 30 日消息，纽约联储主席威廉姆斯在冰岛经济学年会上对 AI 冲击就业给出乐观判断。他表示“历史告诉我们生产率可持续提高而不会造成结构性失业”，当前应届毕业生已普遍将 AI 工具融入日常工作，劳动力调整主路径是再培训与技能升级。但圣路易斯联储主席穆萨莱姆警告 AI 投资本身正在推高通胀，美联储内部存在显著分歧。",
+                  "link": "https://finance.sina.com.cn/wm/2026-05-29/doc-inhzpnft9611951.shtml",
                   "tags": [
                     "AI就业",
                     "美联储",
                     "生产率"
                   ],
-                  "source": "新浪财经",
-                  "time": "5月30日"
+                  "source": "第一财经",
+                  "time": "5月30日消息"
                 }
               ]
             },
@@ -404,6 +421,23 @@ window.__RAW_DATA = {
                   ],
                   "source": "内蒙古日报",
                   "time": "5月30日"
+                }
+              ]
+            },
+            {
+              "title": "Vibe Coding",
+              "news": [
+                {
+                  "title": "胡彦斌从零学 Vibe Coding，亲手打造粉丝 App「彦火」",
+                  "summary": "5 月 31 日，歌手胡彦斌在微博宣布其粉丝社区应用「彦火」正式上线，从零开始学习 vibe coding 独立完成开发，历时约一个月。App 涵盖每日打卡、积分等级、专属信件及巡演足迹等功能，iOS 版已在 App Store 上架。胡彦斌将开发过程比作「游戏通关」，出差途中用 Claude Code 修 bug，展示了 AI 编程工具让零基础用户也能独立完成软件开发的大趋势。",
+                  "link": "https://news.qq.com/rain/a/20260601A02ESQ00",
+                  "tags": [
+                    "Vibe Coding",
+                    "AI编程",
+                    "低门槛开发"
+                  ],
+                  "source": "爱范儿",
+                  "time": "5月31日"
                 }
               ]
             },

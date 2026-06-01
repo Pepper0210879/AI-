@@ -30,7 +30,7 @@ description: 每日AI早报新闻抓取与整理。当用户说"抓取今日新�
 | OpenAI | 阿里云 | 其他厂商 |
 | Anthropic | 火山引擎 | 自动驾驶 |
 | Google | DeepSeek | 具身智能 |
-| xAI | 腾讯 | AI出海 |
+| xAI（含 SpaceX） | 腾讯 | AI出海 |
 | NVIDIA | 小米 | 投资资讯 |
 | Meta | 智谱AI | 行业趋势&观点 |
 | | 月之暗面 | |
@@ -122,8 +122,10 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py articles \
 - 涉及目标厂商列表的新闻 → 收录
 - 涉及大模型、AI 芯片、具身智能、自动驾驶、AI 应用、AI 政策 → 收录
 - 自动驾驶新闻：涉及特斯拉、小马智行、文远知行、Waymo 的 → 一律收录
+- 产品带有自研 AI 助手、Agentic AI 等实质性 AI 功能 → 收录（**不被品类名称误导**，如"游戏台式机"但内置 Agentic AI 助手 → 收录）
+- 非技术人员使用 AI 编程工具（vibe coding / Claude Code / Cursor 等）独立开发应用 → 收录，归入"行业趋势&观点"
 - 纯消费电子（手机/耳机/笔记本，无明确 AI 卖点）→ 排除
-- 纯汽车（新车上市/财报，不涉及自动驾驶/AI）→ 排除
+- 纯汽车（新车上市/财报/配件，不涉及自动驾驶/AI）→ 排除（**特斯拉的非智驾新闻同样排除**，如遮阳帘、降价、门店等）
 
 ### 3b. 归类、找链接、提炼摘要
 
@@ -131,13 +133,22 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py articles \
 
 **3b-1. 归类**：判断该新闻属于哪个厂商/分类。
 
-**3b-2. 查找独立链接**：在互联网上搜索该新闻的独立报道。优先搜索腾讯新闻、IT之家、36氪、极客公园、财联社等权威媒体。找到的链接必须是专门报道该事件的独立文章，不能是日报整合页。
+**3b-2. 查找独立链接**：在互联网上搜索该新闻的独立报道。链接优先级：第一财经 > 华尔街见闻 > 证券时报 > 财联社 > 36氪 > 新浪财经 > 腾讯新闻 > IT之家 > 其他。
+
+**搜索策略（必须执行多轮，直到找到高质量独立链接）**：
+
+1. **首轮**：用「新闻核心关键词 + 来源媒体名」搜索，如「腾讯 Ardot 设计智能体 公测」
+2. **次轮**：若首轮未找到权威来源，追加「百度百家号」关键词（华尔街见闻、第一财经等媒体常在百家号分发内容，链接权威且容易搜到）
+3. **三轮**：若仍无满意结果，拆解关键词尝试不同组合，如「Ardot 腾讯 公测」「设计智能体 腾讯」
+4. **底线**：不得将日报整合页 URL 作为最终链接；宁可多搜索几轮也要找到独立文章
+
+找到的链接必须是专门报道该事件的独立文章，不能是日报整合页。
 
 **3b-3. 提取事件时间**：先阅读日报中该新闻的叙述，再阅读独立链接的完整内容，提取准确的事件时间，规则如下：
 
 - 事件有明确的 x 月 x 日发生时间 → 摘要开头写「x 月 x 日」
 - 事件发生在国外 → 判断文章中的时间是北京时间还是当地时间；若是当地时间 → 摘要开头写「当地时间 x 月 x 日」
-- 事件没有具体发生时间 → 摘要开头写「x 月 x 日消息」，日期用独立链接的发布时间
+- **链接中无法确认事件确切发生日期 → 一律写「x 月 x 日消息」**（日期用链接文章的发布日期），不得自行推断为「x 月 x 日」
 
 **3b-4. 撰写摘要**：综合四大早报和独立链接的内容，撰写约 100 字的新闻摘要。格式为「日期，谁在哪里干了什么，有什么影响」。要求：
 - 准确性与事实性为第一要义
@@ -151,6 +162,11 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py articles \
 **3b-7. tags**：1-3 个标签。标签不要用厂商名字，用其他能概括新闻主题的关键词。
 
 ### 3c. 「其他关注」卡片标题规则
+
+**分类归属判断（优先级最高）**：
+
+- 具体厂商的 AI 产品发布/业务动态 → 归入「其他厂商」（卡片标题用厂商名，如 `微星`、`三星`）
+- 宏观趋势、分析报告、行业现象、非厂商主体的 AI 案例 → 归入「行业趋势&观点」
 
 卡片标题**必须从新闻中提取具体名称**，严禁用分类名（如"其他厂商"）作为标题。按优先级：
 
@@ -358,11 +374,47 @@ with open('data.js','w') as f: f.write(js)
 
 ### 7d. 链接自检（必须执行）
 
+**自检逻辑**：从 Step 1 获取的四篇早报文章 URL 视为"日报整合页"，data.json/data.js/script.js/admin.js 中**任何新闻的 link 字段不得等于这四个 URL**。
+
 ```bash
-grep -c 'ifanr.com/1667419\|geekpark.net/news/365005' data.js script.js admin.js
+python3 -c "
+import json
+
+# Step 1 拿到的四个早报源 URL（填入实际值）
+daily_urls = {
+    'https://36kr.com/p/XXXXX',        # 36氪 8点1氪
+    'https://www.ifanr.com/XXXXX',     # 爱范儿早报
+    'https://www.geekpark.net/news/XXXXX',  # 极客公园
+    'https://www.ithome.com/0/XXX/XXX.htm',  # IT之家 IT早报
+}
+
+# 检查 data.json 中所有 link
+with open('data.json', 'r') as f:
+    data = json.load(f)
+
+def check_links(obj, path=''):
+    violations = []
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if k == 'link' and isinstance(v, str) and v in daily_urls:
+                violations.append(f'{path}: {v}')
+            check_links(v, f'{path}.{k}')
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            check_links(v, f'{path}[{i}]')
+    return violations
+
+violations = check_links(data)
+if violations:
+    print(f'❌ 发现 {len(violations)} 个日报链接残留，回到 Step 3b-2 补搜独立链接:')
+    for v in violations:
+        print(f'  {v}')
+else:
+    print('✅ 零日报链接残留，全部为独立文章')
+"
 ```
 
-三个文件结果**必须全部为 0**。任一 > 0 → 回到 Step 4 补搜独立链接。
+**三个文件结果必须全部为 0**。任一 > 0 → 回到 Step 3b-2 补搜独立链接。
 
 ### 7e. 校验 + 推送
 
@@ -429,7 +481,7 @@ print(f'种子数据已更新：包含 {list(seed.keys())}，共 {len(js)} 字�
 ✅ data.js 已同步
 ✅ script.js NEWS_DATA 已同步
 ✅ admin.js DEFAULT_DATA 已同步
-✅ 链接自检：data.js=0 script.js=0 admin.js=0
+✅ 链接自检：data.json 全部为独立文章，零日报链接残留
 ✅ 种子数据已更新：包含最近 3 天
 ✅ 飞书知识库已同步：X 条新闻 + Y 条榜单
 ✅ git push 成功
@@ -535,7 +587,12 @@ x月x日新闻  |  新闻标题
 |------|------|
 | 日报优先 | 四大早报中 AI 新闻必须全部收录，不受 24 小时限制 |
 | 链接强制 | 日报整合 URL 不得作为新闻链接；写入后必须 grep 自检 |
+| 链接优先级 | 第一财经 > 证券时报 > 财联社 > 36氪 > 新浪财经 > 腾讯新闻 > IT之家 |
 | 日期当天 | `date` 使用当天日期（日报发布日），不往前一天 |
+| 时间兜底 | 链接无法确认事件确切日期 → 一律写「x月x日消息」，不做自行推断 |
+| 不被品类误导 | 产品带 Agentic AI / 自研 AI 助手等实质 AI 功能 → 收录，不看品类名 |
+| Vibe Coding | 非技术人员用 AI 编程工具独立开发应用 → 收录，归入行业趋势&观点 |
+| 其他厂商 vs 趋势 | 具体厂商 AI 产品 → 其他厂商；宏观趋势/行业现象 → 行业趋势&观点 |
 | 补充站点 | Step 4 绝不可跳过；24 小时窗口过滤 + 二次复核 |
 | 卡片标题 | 其他关注分类标题必须具体，严禁用分类名 |
 | 判断主体 | 区分新闻主角 vs 被提及方，关键词匹配 ≠ 正确归类 |
