@@ -597,127 +597,37 @@
         },
         {
           "name": "Product Hunt",
-          "date": "2026-05-29",
+          "date": "2026-06-01",
           "rankings": [
             {
-              "name": "Ava 2.0",
+              "name": "Wandesk",
               "category": "Productivity",
               "rank": 1,
-              "link": "https://www.producthunt.com/products/ava-2-0"
+              "link": "https://www.producthunt.com/products/wandesk"
             },
             {
-              "name": "/monitor by Firecrawl",
-              "category": "Developer Tools",
+              "name": "Wingbits AI",
+              "category": "API",
               "rank": 2,
-              "link": "https://www.producthunt.com/products/monitor-by-firecrawl"
+              "link": "https://www.producthunt.com/products/wingbits-ai"
             },
             {
-              "name": "Ava Studio",
-              "category": "Marketing",
+              "name": "Exstats",
+              "category": "Browser Extensions",
               "rank": 3,
-              "link": "https://www.producthunt.com/products/ava-studio"
+              "link": "https://www.producthunt.com/products/exstats"
             },
             {
-              "name": "Agent A by Ahrefs",
-              "category": "Marketing",
+              "name": "Openstatus MCP Health Checker",
+              "category": "Open Source",
               "rank": 4,
-              "link": "https://www.producthunt.com/products/agent-a-by-ahrefs"
+              "link": "https://www.openstatus.dev/play/mcp-health"
             },
             {
-              "name": "Firecoach AI",
-              "category": "Sales",
+              "name": "Step 3.7 Flash",
+              "category": "Open Source",
               "rank": 5,
-              "link": "https://www.producthunt.com/products/firecoach-ai"
-            },
-            {
-              "name": "MCP Bridge by Appfactor",
-              "category": "API",
-              "rank": 6,
-              "link": "https://www.producthunt.com/products/mcp-bridge-by-appfactor"
-            },
-            {
-              "name": "Integuru",
-              "category": "API",
-              "rank": 7,
-              "link": "https://www.producthunt.com/products/integuru"
-            },
-            {
-              "name": "Linear Diffs",
-              "category": "Productivity",
-              "rank": 8,
-              "link": "https://www.producthunt.com/products/linear-diffs"
-            },
-            {
-              "name": "Sinalytica",
-              "category": "Retro Games",
-              "rank": 9,
-              "link": "https://www.producthunt.com/products/sinalytica"
-            },
-            {
-              "name": "Screen Ruler",
-              "category": "Chrome Extensions",
-              "rank": 10,
-              "link": "https://www.producthunt.com/products/screen-ruler"
-            },
-            {
-              "name": "Basedash",
-              "category": "Artificial Intelligence",
-              "rank": 11,
-              "link": "https://www.producthunt.com/products/basedash-embedded-analytics"
-            },
-            {
-              "name": "Hyper",
-              "category": "Productivity",
-              "rank": 12,
-              "link": "https://www.producthunt.com/products/hyper-self-driving-company-brain"
-            },
-            {
-              "name": "Coffee Piano",
-              "category": "Music",
-              "rank": 13,
-              "link": "https://www.producthunt.com/products/coffee-piano"
-            },
-            {
-              "name": "Notchy",
-              "category": "Productivity",
-              "rank": 14,
-              "link": "https://www.producthunt.com/products/notchy"
-            },
-            {
-              "name": "MoDev",
-              "category": "Developer Tools",
-              "rank": 15,
-              "link": "https://www.producthunt.com/products/modev"
-            },
-            {
-              "name": "TrackNotch",
-              "category": "Mac",
-              "rank": 16,
-              "link": "https://www.producthunt.com/products/tracknotch"
-            },
-            {
-              "name": "Clipline",
-              "category": "Productivity",
-              "rank": 17,
-              "link": "https://www.producthunt.com/products/clipline"
-            },
-            {
-              "name": "Mantle",
-              "category": "Fintech",
-              "rank": 18,
-              "link": "https://www.producthunt.com/products/mantle"
-            },
-            {
-              "name": "Tines",
-              "category": "Developer Tools",
-              "rank": 19,
-              "link": "https://www.producthunt.com/products/tines"
-            },
-            {
-              "name": "Drafted",
-              "category": "Design Tools",
-              "rank": 20,
-              "link": "https://www.producthunt.com/products/drafted"
+              "link": "https://www.producthunt.com/p/step-3-5-flash/step-3-7-flash"
             }
           ]
         }
