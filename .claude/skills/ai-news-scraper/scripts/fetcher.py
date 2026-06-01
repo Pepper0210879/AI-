@@ -336,13 +336,121 @@ def verify_links(data_json_path=None):
             print(f"  来源: {item.get('source', '')}")
             print()
 
+    # ===== 日期校验 =====
+    date_issues = _check_dates(data)
+    if date_issues:
+        print(f"\n⚠️ 日期校验：发现 {len(date_issues)} 条日期不一致:")
+        for di in date_issues:
+            print(f"  新闻: {di['title'][:50]}")
+            print(f"  摘要声明: {di['summary_date']}  |  链接日期: {di['link_date']}")
+            print(f"  链接: {di['link'][:80]}")
+            print(f"  说明: {di['reason']}")
+            print()
+    else:
+        print(f"\n✅ 日期校验：全部一致")
+
     # 保存复核报告
     report_path = RAW_DIR / "link_verify_report.json"
-    report = {"date": date.today().isoformat(), "passed": passed, "failed": failed, "skipped": skipped}
+    report = {
+        "date": date.today().isoformat(),
+        "passed": passed, "failed": failed, "skipped": skipped,
+        "date_issues": date_issues,
+    }
     report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"复核报告已保存: {report_path}")
 
     return report
+
+
+def _check_dates(data):
+    """
+    校验每条新闻摘要中的日期声明是否与链接发布日期一致。
+    规则（来自 SKILL.md Step 3b-3）：
+    - 「x月x日消息」→ 日期必须等于链接文章发布日期
+    - 「x月x日」→ 事件发生日，与链接日期可以不同，仅标注供人工复核
+    - 「当地时间x月x日」→ 事件当地日期，与链接日期可以不同
+    """
+    items = []
+
+    def walk(obj):
+        if isinstance(obj, dict):
+            if 'title' in obj and 'summary' in obj and 'link' in obj:
+                items.append({
+                    'title': obj['title'],
+                    'summary': obj['summary'],
+                    'link': obj['link'],
+                    'time': obj.get('time', ''),
+                })
+            for v in obj.values():
+                walk(v)
+        elif isinstance(obj, list):
+            for v in obj:
+                walk(v)
+
+    walk(data)
+
+    issues = []
+    for item in items:
+        summary = item['summary']
+        link = item['link']
+
+        # 提取摘要日期声明
+        sm = re.match(r'(当地时间\s*)?(\d+)月(\d+)日(消息)?', summary)
+        if not sm:
+            continue
+
+        is_local_time = bool(sm.group(1))
+        summary_month = int(sm.group(2))
+        summary_day = int(sm.group(3))
+        is_news_format = bool(sm.group(4))  # "消息" 结尾 → 必须匹配链接日期
+
+        # 提取链接发布日期
+        link_date = _extract_link_date(link)
+        if not link_date:
+            continue  # 无法识别链接日期，跳过
+
+        link_month, link_day = link_date
+
+        if summary_month != link_month or summary_day != link_day:
+            if is_news_format:
+                # 「x月x日消息」必须等于链接日期 → 硬错误
+                issues.append({
+                    'title': item['title'],
+                    'summary_date': f"{summary_month}月{summary_day}日消息",
+                    'link_date': f"{link_month}月{link_day}日",
+                    'link': link,
+                    'severity': 'error',
+                    'reason': '「消息」格式的日期必须等于链接发布日期，请修正摘要开头和 time 字段',
+                })
+            elif not is_local_time:
+                # 「x月x日」事件发生日，仅提示
+                issues.append({
+                    'title': item['title'],
+                    'summary_date': f"{summary_month}月{summary_day}日",
+                    'link_date': f"{link_month}月{link_day}日",
+                    'link': link,
+                    'severity': 'warning',
+                    'reason': '事件发生日与链接发布日期不同，如确认无误可忽略',
+                })
+
+    return issues
+
+
+def _extract_link_date(link):
+    """从链接 URL 中提取文章发布日期。返回 (month, day) 或 None。"""
+    # 新浪/东方财富等：/2026-05-29/ 或 /20260529/
+    m = re.search(r'/(20\d{2})[-/](\d{2})[-/](\d{2})[/.]', link)
+    if m:
+        return (int(m.group(2)), int(m.group(3)))
+
+    # 火星财经/BlockBeats：/20260529 或 flash/2026052912345
+    m = re.search(r'/(20\d{2})(\d{2})(\d{2})\d{4,}', link)
+    if m:
+        return (int(m.group(2)), int(m.group(3)))
+
+    # IT之家 archiver：/archiver/0/956/833.htm — 无法从 URL 推断精确日期
+    # 36氪：/p/3830314181896064 — 无法从 URL 推断
+    return None
 
 
 def _calc_title_overlap(news_title, page_title):
