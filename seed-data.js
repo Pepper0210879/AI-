@@ -1,5 +1,5 @@
 // 种子数据：为 Step 8 无新闻厂商近期动态提供历史新闻
-window.__SEED_VERSION = 2;
+window.__SEED_VERSION = 3;
 window.__SEED_CONFIRMED = {
   "2026-06-01": {
     "date": "2026-06-01",
@@ -1687,7 +1687,20 @@ window.__SEED_CONFIRMED = {
           },
           {
             "name": "xAI",
-            "news": []
+            "news": [
+              {
+                "title": "SpaceX IPO 估值目标降至 1.8 万亿美元",
+                "summary": "5月29日消息，据彭博社报道，SpaceX 正寻求在 IPO 中获得至少 1.8 万亿美元估值，较此前 2 万亿美元目标有所下调。最早 6 月 4 日启动路演，计划募资 750 亿美元，将成为史上最大规模 IPO。马斯克随后在 X 平台否认估值下调说法。",
+                "link": "https://www.ithome.com/0/956/928.htm",
+                "tags": [
+                  "IPO",
+                  "估值",
+                  "SpaceX"
+                ],
+                "source": "IT之家",
+                "time": "5月29日消息"
+              }
+            ]
           },
           {
             "name": "NVIDIA",
