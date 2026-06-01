@@ -1,5 +1,5 @@
 // 种子数据：为 Step 8 无新闻厂商近期动态提供历史新闻
-window.__SEED_VERSION = 12;
+window.__SEED_VERSION = 13;
 window.__SEED_CONFIRMED = {
   "2026-06-01": {
     "date": "2026-06-01",
@@ -1914,6 +1914,22 @@ window.__SEED_CONFIRMED = {
                     "time": "5月29日"
                   }
                 ]
+              },
+              {
+                "title": "苹果",
+                "news": [
+                  {
+                    "title": "苹果 Siri 迎近十五年最大改版",
+                    "summary": "5月29日消息，苹果 Siri 重大升级将成为 iOS 27 核心亮点。据知情人士透露，苹果计划在 6月8日 WWDC 上公布重新设计的 Siri 界面、全新聊天机器人应用及更多 AI 功能。与此同时苹果正利用谷歌 Gemini 训练端侧模型，并在谷歌云环境使用英伟达机密计算技术保障云端 AI 安全。",
+                    "link": "https://36kr.com/p/3829879244040073",
+                    "tags": [
+                      "语音助手",
+                      "WWDC"
+                    ],
+                    "source": "36氪",
+                    "time": "5月29日"
+                  }
+                ]
               }
             ]
           },
@@ -2221,22 +2237,6 @@ window.__SEED_CONFIRMED = {
                     ],
                     "source": "新浪新闻",
                     "time": "5月29日消息"
-                  }
-                ]
-              },
-              {
-                "title": "苹果 Siri 大改版",
-                "news": [
-                  {
-                    "title": "苹果 Siri 迎近十五年最大改版",
-                    "summary": "5月29日消息，苹果 Siri 重大升级将成为 iOS 27 核心亮点。据知情人士透露，苹果计划在 6月8日 WWDC 上公布重新设计的 Siri 界面、全新聊天机器人应用及更多 AI 功能。与此同时苹果正利用谷歌 Gemini 训练端侧模型，并在谷歌云环境使用英伟达机密计算技术保障云端 AI 安全。",
-                    "link": "https://36kr.com/p/3829879244040073",
-                    "tags": [
-                      "语音助手",
-                      "WWDC"
-                    ],
-                    "source": "36氪",
-                    "time": "5月29日"
                   }
                 ]
               }
