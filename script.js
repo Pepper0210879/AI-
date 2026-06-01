@@ -761,13 +761,14 @@ function seedConfirmedData() {
             }
         }
 
-        // 版本检查：种子数据更新后自动清除旧缓存
+        // 版本检查：种子数据更新后自动清除全部缓存，无需用户手动操作
         const seedVersion = window.__SEED_VERSION || 1;
         const cachedVersion = localStorage.getItem('ai-news-seed-version');
         if (String(seedVersion) !== cachedVersion) {
             localStorage.removeItem(CONFIRMED_KEY);
+            localStorage.removeItem(STORAGE_KEY);
             localStorage.setItem('ai-news-seed-version', String(seedVersion));
-            console.log('种子数据版本更新，已清除历史缓存');
+            console.log('种子数据版本更新，已自动清除全部缓存，刷新后即见最新数据');
         }
 
         // 注入种子数据（始终覆盖，确保服务端修复能同步到客户端）
