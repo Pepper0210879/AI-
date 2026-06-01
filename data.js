@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-05-31",
+  "date": "2026-06-01",
   "sections": {
     "overseas": {
       "title": "海外主要厂商",
@@ -13,40 +13,37 @@ window.__RAW_DATA = {
           "initial": "O",
           "news": [
             {
-              "title": "Codex Computer Use 正式登陆 Windows，支持手机远程操控电脑",
-              "summary": "5月31日消息，OpenAI 的 Codex Computer Use 功能正式登陆 Windows 10/11 平台，AI 可「看见」桌面并进行键鼠操作，用户还可通过手机端远程控制电脑，进一步扩展 AI Agent 桌面操作能力。",
-              "link": "https://www.ithome.com/0/957/702.htm",
+              "title": "OpenAI 推理模型攻克 80 年数学难题",
+              "summary": "5 月 20 日，OpenAI 宣布其通用推理模型成功推翻匈牙利数学家埃尔德什于 1946 年提出的“平面单位距离问题”猜想。模型从代数数论中借用高深工具，发现了人类数学家从未尝试过的点排列方式，证明单位距离对数量可实现多项式级别超越，完整证明达 125 页。菲尔兹奖得主高尔斯称这是“人工智能数学的里程碑”。",
+              "link": "https://www.qbitai.com/2026/05/422032.html",
               "tags": [
-                "Codex",
-                "Windows",
-                "AI Agent"
+                "数学推理",
+                "AI4Science"
               ],
-              "source": "IT之家",
-              "time": "今天"
+              "source": "量子位",
+              "time": "5月20日"
             },
             {
-              "title": "OpenAI 基金会投入 2.5 亿美元应对 AI 劳动力冲击",
-              "summary": "5月31日消息，OpenAI 基金会宣布初步投入 2.5 亿美元，用于帮助劳动者和经济体应对 AI 带来的岗位与收入结构变化，研究劳动力市场影响并支持受冲击的社区。",
-              "link": "https://www.ithome.com/0/957/702.htm",
+              "title": "三星与 OpenAI 定制 AI 芯片项目停滞",
+              "summary": "5 月 31 日消息，据韩媒 Greened 报道，三星与 OpenAI 的定制 AI 芯片研发项目因战略分歧陷入停滞。该项目原计划基于 ARM 架构为 OpenAI 研发一款推理型 NPU，前期研发已有进展。项目停滞后，三星近期投资 Anthropic 被外界解读为转向另一条 AI 客户路线。双方在 AI 数据中心和存储芯片等合作仍在继续。",
+              "link": "https://www.ithome.com/0/957/916.htm",
               "tags": [
-                "AI基金",
-                "劳动力",
-                "社会影响"
+                "AI芯片",
+                "NPU"
               ],
               "source": "IT之家",
-              "time": "今天"
+              "time": "5月31日"
             },
             {
-              "title": "GPT-5.5 Instant 模型升级：回复更自然易读，幻觉降低 52.5%",
-              "summary": "5月31日消息，OpenAI 升级 GPT-5.5 Instant 模型，回复更加自然、易读、结构化，减少冗长列表。在高风险领域幻觉减少 52.5%，数学推理 AIME 得分从 65.4 升至 81.2。GPT-4.5 将于 6 月 27 日、o3 将于 8 月 26 日退役。",
-              "link": "https://www.ithome.com/0/946/615.htm",
+              "title": "华人统计学家苏炜杰加入 OpenAI",
+              "summary": "5 月 30 日，北京大学数学院 2007 级校友、宾夕法尼亚大学沃顿商学院教授苏炜杰在 X 平台宣布，已在休假期间加入 OpenAI 参与 AI 模型训练，同时晋升为沃顿正教授。苏炜杰今年获统计学界最高荣誉考普斯会长奖，为 14 年来首位华人得主。OpenAI 总裁 Greg Brockman 亲自发文欢迎。",
+              "link": "https://news.qq.com/rain/a/20260531A06IPM00",
               "tags": [
-                "GPT-5.5",
-                "幻觉降低",
-                "模型升级"
+                "人才动态",
+                "统计学"
               ],
-              "source": "IT之家",
-              "time": "今天"
+              "source": "腾讯新闻",
+              "time": "5月30日"
             }
           ]
         },
@@ -60,115 +57,66 @@ window.__RAW_DATA = {
         {
           "name": "Google",
           "color": "#5a9a6a",
-          "softBg": "#eaf4ed",
+          "softBg": "#edf8f0",
           "initial": "G",
-          "news": [
-            {
-              "title": "Gemini Spark 正式上线：24/7 全天候个人 AI Agent",
-              "summary": "5月31日消息，Google 正式上线 Gemini Spark，这是一款 7×24 小时云端运行的 AI Agent，设备关机仍可后台执行任务，支持 MCP 工具调用，标志着 AI 助手从对话工具向持续陪伴型 Agent 演进。",
-              "link": "https://www.ithome.com/0/957/702.htm",
-              "tags": [
-                "Gemini",
-                "AI Agent",
-                "个人助手"
-              ],
-              "source": "IT之家",
-              "time": "今天"
-            },
-            {
-              "title": "Gemini Omni 多模态世界模型发布，可理解物理规律",
-              "summary": "5月31日消息，Google 发布 Gemini Omni 多模态世界模型，具备理解物理规律的能力，在视频理解、空间推理等方面实现突破，进一步拓展 AI 对真实世界的认知边界。同时 Gemini 3.5 Flash 已面向智能体工作流优化，速度提升 4 倍。",
-              "link": "https://www.ithome.com/0/957/702.htm",
-              "tags": [
-                "Gemini",
-                "多模态",
-                "世界模型"
-              ],
-              "source": "IT之家",
-              "time": "今天"
-            }
-          ]
+          "news": []
         },
         {
           "name": "xAI",
           "color": "#1da1f2",
           "softBg": "#e8f5fd",
-          "initial": "X",
+          "initial": "x",
           "news": []
         },
         {
           "name": "NVIDIA",
           "color": "#76b900",
-          "softBg": "#f2fae8",
+          "softBg": "#f2fae6",
           "initial": "N",
           "news": [
             {
-              "title": "英伟达与微软联手预告 Arm 架构 PC 芯片 N1/N1X",
-              "summary": "5月31日消息，微软与英伟达官方同时预告「PC 新时代」，将在 6 月 1 日台北电脑展发布基于 Arm 架构的 PC 芯片 N1 和 N1X。该芯片由英伟达与联发科合作设计，采用台积电 3nm 工艺，集成 Blackwell GPU（最高 6144 CUDA 核心），AI 算力达 180-200 TOPS，性能对标桌面 RTX 5070。微软 Surface 和戴尔将首批搭载。",
-              "link": "https://www.ithome.com/0/957/702.htm",
+              "title": "英伟达 N1x SoC 跑分曝光，与 M3 Max 基本持平",
+              "summary": "6 月 1 日消息，英伟达即将在 Computex 发布的 N1x SoC 预发布 Geekbench 6 跑分曝光：单核 3096、多核 18837，与苹果 2023 年发布的 M3 Max（单核 3124/多核 18920）基本持平。N1x 采用联发科设计的 20 核 ARM CPU，集成 RTX 5070 级别 GPU，使用 LPDDR5X 统一内存。郭明錤分析称 N1X/N1 瞄准端侧 AI 重度用户。",
+              "link": "https://finance.sina.com.cn/tech/digi/2026-06-01/doc-inhzwckv5318168.shtml",
               "tags": [
-                "Arm PC",
-                "N1芯片",
-                "微软"
+                "PC芯片",
+                "跑分",
+                "Computex"
               ],
-              "source": "IT之家",
-              "time": "今天"
+              "source": "新浪财经",
+              "time": "6月1日"
             },
             {
-              "title": "英伟达推出 LocateAnything 视觉语言定位模型",
-              "summary": "5月31日消息，英伟达联合香港理工大学、南京大学发布 LocateAnything 模型，处理速度 12.7 框/秒，可通过自然语言描述在图像中精确定位目标物体，重点服务机器人感知和电脑自动操作场景。训练数据覆盖 12M 图像、138M 语言查询和 785M 边界框。",
-              "link": "https://www.ithome.com/0/957/702.htm",
+              "title": "英伟达首款自研芯片 PC 本周亮相",
+              "summary": "据 Axios 报道，英伟达预计于本周在 Computex 和微软 Build 大会上正式推出首批搭载自研芯片的 Windows PC，涵盖微软 Surface 和戴尔等品牌。N1X 芯片提供 180-200 TOPS AI 算力，兼容 Copilot+ PC 规范。黄仁勋此前预告“PC 新时代”，标志着英伟达从 AI 数据中心霸主正式进军消费级 PC 处理器市场。",
+              "link": "https://finance.eastmoney.com/a/202606013755283589.html",
               "tags": [
-                "视觉模型",
-                "定位",
-                "多模态"
+                "PC芯片",
+                "AI PC",
+                "Computex"
               ],
-              "source": "IT之家",
-              "time": "今天"
-            },
-            {
-              "title": "英伟达 RLinf 框架实现世界模型训练速度提升 400%",
-              "summary": "5月31日消息，英伟达推出 RLinf 强化学习推理框架，实现 DreamZero 世界模型训练速度提升 400%，显著加速 AI 在物理世界模拟中的学习效率。同时发布 Gamma-World 多智能体世界模型，实现「多人共处」物理仿真。",
-              "link": "https://www.ithome.com/0/957/702.htm",
-              "tags": [
-                "强化学习",
-                "世界模型",
-                "训练加速"
-              ],
-              "source": "IT之家",
-              "time": "今天"
-            },
-            {
-              "title": "英伟达发布 PiD 图像生成技术，13GB 显存生成 2048 高清图",
-              "summary": "5月31日消息，英伟达发布 PiD（Pixel Diffusion Decoder）图像解码技术，峰值显存仅 13GB，可在消费级 RTX 5090 上运行，最快 210ms 生成 2048×2048 图像。通过 DMD2 蒸馏压缩到仅需 4 步推理，相比级联式扩散超分延迟降低最多 5.9 倍。已在 GitHub 开源。",
-              "link": "https://github.com/nv-tlabs/PiD",
-              "tags": [
-                "图像生成",
-                "PiD",
-                "开源"
-              ],
-              "source": "GitHub",
-              "time": "今天"
+              "source": "东方财富",
+              "time": "6月1日"
             }
           ]
         },
         {
           "name": "Meta",
-          "color": "#0668e1",
-          "softBg": "#e8f1fd",
+          "color": "#1877f2",
+          "softBg": "#e8f0fe",
           "initial": "M",
           "news": [
             {
-              "title": "Meta 宣布裁员 7800 人，扎克伯格称用员工数据训练 AI 效果更好",
-              "summary": "5月31日消息，Meta 宣布裁员约 7800 人，扎克伯格在内部信中表示利用员工键鼠数据训练 AI 模型效果好于外包人员，引发外界对数据隐私和 AI 伦理的广泛讨论。Meta 同步推进史上最大 AI 可穿戴设备计划，目标 2026 年下半年销售 1000 万台。",
-              "link": "https://www.ithome.com/0/957/702.htm",
+              "title": "Meta 计划下半年售出 1000 万台可穿戴设备",
+              "summary": "5 月 30 日消息，据 The Information 报道，Meta 可穿戴设备副总裁内部设定目标：2026 年下半年售出 1000 万台可穿戴设备，年底月活跃用户达 680 万。Meta 还计划 2027 年春季启动 AI 吊坠内部测试，该设备搭载微型摄像头可被动记录日常对话。Reality Labs 长期亏损，此举意在通过硬件带动 AI 订阅收入。",
+              "link": "https://finance.eastmoney.com/a/202605303755002169.html",
               "tags": [
-                "裁员",
-                "AI训练",
-                "数据隐私"
+                "可穿戴",
+                "AI硬件",
+                "Ray-Ban"
               ],
-              "source": "IT之家",
-              "time": "今天"
+              "source": "东方财富",
+              "time": "5月30日"
             }
           ]
         }
@@ -176,7 +124,7 @@ window.__RAW_DATA = {
     },
     "domestic": {
       "title": "国内主要厂商",
-      "icon": "fas fa-flag",
+      "icon": "fas fa-building",
       "iconClass": "domestic",
       "vendors": [
         {
@@ -189,105 +137,68 @@ window.__RAW_DATA = {
         {
           "name": "火山引擎",
           "color": "#3370ff",
-          "softBg": "#e8f0ff",
+          "softBg": "#e8f0fe",
           "initial": "火",
           "news": [
             {
-              "title": "火山引擎深度参与赛力斯新品牌「赛豆」，定位年轻运动市场",
-              "summary": "5月30日消息，赛力斯联合字节跳动火山引擎将推出全新汽车品牌「赛豆科技」，定位年轻运动、主打 10-20 万元主流市场，计划 6 月正式发布。重庆国资以 34.5% 持股成为第一大股东，宁德时代等产业资本同步入股。火山引擎汽车业务总经理杨立伟负责项目，介入深度超过此前与上汽荣威的合作模式。火山引擎豆包大模型已搭载于超 700 万辆智能汽车。",
-              "link": "https://www.ithome.com/0/957/485.htm",
+              "title": "字节首次自研 CPU，资本开支剑指 700 亿美元",
+              "summary": "5 月 27 日消息，据知情人士透露，字节跳动正在讨论将 2026 年资本开支大幅提升至最高 700 亿美元，较 2025 年约 250 亿美元增长近两倍，主要用于 AI 数据中心建设。面对英特尔和 AMD 服务器 CPU 季度涨价 10%-35%、交货周期长达 6 个月，字节首次启动自研 CPU，同步推进 Arm 和 RISC-V 两条架构路线，芯片研发团队已超千人。",
+              "link": "https://tech.ifeng.com/c/8tSk6lTs1ZH",
               "tags": [
-                "赛力斯",
-                "智能汽车",
-                "豆包大模型"
+                "资本开支",
+                "自研CPU",
+                "数据中心"
               ],
-              "source": "IT之家",
-              "time": "昨天"
+              "source": "凤凰网科技",
+              "time": "5月27日"
             }
           ]
         },
         {
           "name": "DeepSeek",
           "color": "#4d6bfe",
-          "softBg": "#edf0ff",
+          "softBg": "#eef0ff",
           "initial": "D",
-          "news": [
-            {
-              "title": "DeepSeek V4-Flash 算力告急紧急限流，单周调用量达 3.43 万亿 Token",
-              "summary": "5月31日消息，DeepSeek V4-Flash 单周调用量达 3.43 万亿 Token，环比暴涨 66%，登顶 OpenRouter 全球第一。「重新生成」和「修改消息」功能被限次（约 3-6 次触发上限），反映出 DeepSeek 算力基础设施面临巨大压力。",
-              "link": "https://www.ithome.com/0/957/702.htm",
-              "tags": [
-                "算力",
-                "限流"
-              ],
-              "source": "IT之家",
-              "time": "今天"
-            },
-            {
-              "title": "DeepSeek 洽谈 500-700 亿元融资，腾讯阿里在列，押注华为昇腾",
-              "summary": "5月31日消息，DeepSeek 正在洽谈 500-700 亿元人民币新一轮融资，腾讯和阿里巴巴等互联网巨头在列，这将是中国 AI 公司有史以来最大一轮融资。资金主要用于算力基础设施建设，深度适配华为昇腾芯片以求解困。",
-              "link": "https://www.ithome.com/0/957/702.htm",
-              "tags": [
-                "融资",
-                "算力基建",
-                "昇腾"
-              ],
-              "source": "IT之家",
-              "time": "今天"
-            }
-          ]
+          "news": []
         },
         {
           "name": "腾讯",
-          "color": "#0066cc",
-          "softBg": "#e8f2fc",
+          "color": "#0052d9",
+          "softBg": "#e8f0fe",
           "initial": "腾",
-          "news": [
-            {
-              "title": "腾讯公测设计智能体 Ardot，一句话生成可编辑设计稿",
-              "summary": "5月31日消息，腾讯正式公测 AI 设计智能体 Ardot，用户可通过一句话生成可编辑设计稿，支持 Figma 导入和多人协作。同时推出 AI 应用生成平台「吐司」和知识库工具「狍子 AI」（用户超 79 万，可一键导入微信收藏）。",
-              "link": "https://www.ithome.com/0/957/702.htm",
-              "tags": [
-                "AI设计",
-                "智能体",
-                "AIGC"
-              ],
-              "source": "IT之家",
-              "time": "今天"
-            }
-          ]
+          "news": []
         },
         {
           "name": "小米",
           "color": "#ff6900",
-          "softBg": "#fff4e8",
-          "initial": "米",
+          "softBg": "#fff3e8",
+          "initial": "小",
           "news": [
             {
-              "title": "小米首次公开 MiMo 模型推理系统全链路优化技术细节",
-              "summary": "5月30日消息，小米发布技术长文，首次完整公开 MiMo-V2.5 万亿参数 MoE 模型的全链路推理优化方案。通过 Hybrid SWA 架构将 KVCache 存储压缩至 1/7，结合双池缓存、分布式 GCache、亲和调度和 MTP 加速等五大核心技术，实现最高 99% 的 API 降价，并将 1 小时视频处理时间从 156 秒降至 23 秒。相关优化已回馈 SGLang 开源社区。",
-              "link": "https://www.pingwest.com/w/314201",
+              "title": "小米 YU7 交付即搭载 XLA 认知大模型",
+              "summary": "5 月 31 日消息，小米汽车官方确认 YU7 标准版交付即搭载最新 XLA 认知大模型，配备 700 TOPS 算力 Thor 芯片、激光雷达和 4D 毫米波雷达。首销期内下定享 Xiaomi HAD 终身免费使用权益。雷军透露 XLA 大模型投入已达 57.9 亿元，未来五年研发投入计划至少 2000 亿元。",
+              "link": "https://finance.sina.com.cn/tech/digi/2026-05-31/doc-inhzuzxn4630946.shtml",
               "tags": [
-                "MiMo",
-                "推理优化",
-                "KVCache"
+                "端侧大模型",
+                "智能驾驶",
+                "XLA"
               ],
-              "source": "品玩",
-              "time": "昨天"
+              "source": "新浪财经",
+              "time": "5月31日"
             }
           ]
         },
         {
           "name": "智谱AI",
-          "color": "#6c5ce7",
-          "softBg": "#f0edfc",
+          "color": "#3859ff",
+          "softBg": "#eef0ff",
           "initial": "智",
           "news": []
         },
         {
           "name": "月之暗面",
-          "color": "#8b5cf6",
-          "softBg": "#f3eeff",
+          "color": "#6c5ce7",
+          "softBg": "#f0eeff",
           "initial": "月",
           "news": []
         },
@@ -296,116 +207,95 @@ window.__RAW_DATA = {
           "color": "#cf0a2c",
           "softBg": "#fde8ec",
           "initial": "华",
-          "news": [
-            {
-              "title": "徐直军首谈芯片突围：独创「逻辑折叠」破局工艺限制，感谢美国逼迫创新",
-              "summary": "5月31日消息，华为副董事长、轮值董事长徐直军首次公开披露六年芯片突围始末，直言「如果不是美国，不可能干成」。面对无法获得先进制程的困境，华为独创「逻辑折叠」技术（韬定律核心），两个寄存器距离从毫米级降至微米级，缓冲器削减 50% 以上。过去六年基于韬定律已量产 381 款芯片，今秋麒麟芯片将率先采用该技术，2031 年目标达到 1.4nm 同等水平。",
-              "link": "https://finance.sina.com.cn/roll/2026-05-29/doc-inhzqptk0834069.shtml",
-              "tags": [
-                "芯片突围",
-                "逻辑折叠",
-                "韬定律"
-              ],
-              "source": "新浪财经",
-              "time": "今天"
-            }
-          ]
+          "news": []
         }
       ]
     },
     "other": {
       "title": "其他关注",
-      "icon": "fas fa-bullseye",
+      "icon": "fas fa-chart-line",
       "iconClass": "other",
       "categories": [
         {
           "name": "其他厂商",
-          "icon": "fas fa-building",
-          "color": "#f59e0b",
-          "softBg": "#fef9e8",
           "cards": [
             {
               "title": "MiniMax",
               "news": [
                 {
-                  "title": "MiniMax 与中信证券签署辅导协议，正式启动 A 股 IPO",
-                  "summary": "5月29日，AI 独角兽 MiniMax 与中信证券签署上市辅导协议，正式启动 A 股 IPO 进程，拟登陆科创板。公司已于 2026 年 1 月在港交所上市，当前市值约 2635 亿港元。MiniMax 2025 年营收 7903 万美元（同比增 158.9%），ARR 约 3 亿美元，全球用户约 3 亿，企业客户超百万。这是继智谱之后又一家冲刺 A 股的头部大模型公司。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
+                  "title": "MiniMax 拟科创板上市，已与中信证券签署辅导协议",
+                  "summary": "5 月 31 日晚间，MiniMax 公告董事会已决议探究发行人民币股份的初步建议，5 月 29 日与中信证券签署辅导协议正式启动 A 股 IPO 进程。公司今年 1 月登陆港交所，从成立到敲钟仅四年多创全球 AI 公司最快 IPO 纪录，股价较发行价涨超 409%，年化经常性收入约 3 亿美元。若成功将与智谱成为“大模型双雄”A+H 股。",
+                  "link": "https://www.cnstock.com/commonDetail/722597",
                   "tags": [
-                    "MiniMax",
                     "IPO",
-                    "科创板"
+                    "科创板",
+                    "大模型"
                   ],
-                  "source": "IT之家",
-                  "time": "今天"
+                  "source": "中国证券报",
+                  "time": "5月31日"
                 }
               ]
             },
             {
-              "title": "宇树科技",
+              "title": "亚马逊",
               "news": [
                 {
-                  "title": "宇树科技 6 月 1 日科创板上会，拟募资 42 亿元",
-                  "summary": "5月31日消息，人形机器人企业宇树科技（Unitree）将于 6 月 1 日科创板上会，拟募资 42.02 亿元，对应估值约 420 亿元。公司 2025 年营收 16.99 亿元（同比增 333%），人形机器人出货超 5500 台，全球第一。旗下 G1、R1 人形机器人和 Go2 机器狗覆盖 C 端和 B 端市场。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
+                  "title": "亚马逊关停内部 AI 用量排行榜 Kirorank",
+                  "summary": "5 月 29 日消息，据《金融时报》报道，亚马逊已关停内部 Token 消耗排行榜 Kirorank。该榜单设立初衷是推动 AI 业务应用，但部分员工为追求排名安排 AI 智能体执行无意义任务刷 Token，导致算力成本激增。高级副总裁告诫员工“不要为了用 AI 而用 AI”。同类问题也出现在 Meta，其内部榜单 Claudeonomics 同样被关停。",
+                  "link": "https://www.cls.cn/detail/2386287",
                   "tags": [
-                    "人形机器人",
-                    "IPO",
-                    "科创板"
+                    "AI管理",
+                    "Token",
+                    "绩效考核"
                   ],
-                  "source": "IT之家",
-                  "time": "今天"
+                  "source": "财联社",
+                  "time": "5月29日"
                 }
               ]
             },
             {
-              "title": "昆仑万维",
+              "title": "三星",
               "news": [
                 {
-                  "title": "昆仑万维天工 AI 推出 SkyClaw-v1.0 Agent 百万上下文模型",
-                  "summary": "5月31日消息，昆仑万维旗下天工 AI 推出 SkyClaw-v1.0 Agent 模型，支持百万级超长上下文，适配真实工作场景，已接入 Skywork 平台，面向企业级 AI Agent 应用场景，进一步拓展国产大模型在 Agent 领域的能力边界。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
+                  "title": "三星超越美光跃居全球车载存储市场第一",
+                  "summary": "5 月 31 日消息，据 S&P Global Mobility 数据，三星电子 2025 年以 40% 市场份额首次超越美光（36%）登顶全球车载存储芯片市场。增长主要来自中国车企客户出货量大增。自 2020 年以来三星车载存储业务年均销售额增幅超 40%，主要客户包括高通、博世、特斯拉等。全球车用半导体市场预计从 2025 年约 900 亿美元增至 2031 年 1390 亿美元。",
+                  "link": "https://www.ithome.com/0/957/916.htm",
                   "tags": [
-                    "Agent",
-                    "百万上下文",
-                    "国产大模型"
+                    "车载存储",
+                    "市场份额",
+                    "自动驾驶"
                   ],
                   "source": "IT之家",
-                  "time": "今天"
+                  "time": "5月31日"
                 }
               ]
             },
             {
-              "title": "微软",
+              "title": "苹果",
               "news": [
                 {
-                  "title": "微软打造 Copilot 超级应用，整合编程/聊天/Autopilot 统一 AI 入口",
-                  "summary": "5月31日消息，微软计划今年夏末（8 月下旬至 9 月初）推出 Copilot 超级应用，整合 GitHub Copilot、Copilot 聊天、Copilot Cowork 与内部代号 Autopilot 的智能体工作流。项目内部口号为「Delivering one Copilot」，由新任 Copilot 负责人 Jacob Andreou 主导，目标是让用户无需在多个 Copilot 工具间切换。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
+                  "title": "古尔曼：苹果智能眼镜推迟至 2027 年底发布",
+                  "summary": "5 月 31 日消息，彭博社古尔曼透露苹果首款智能眼镜代号 N50，已从原计划 2026 年底推迟至 2027 年底发布，目标 200-500 美元传统眼镜市场。库克将其列为首要任务，候任 CEO John Ternus 也是主要推动者。眼镜需与 iPhone 深度整合，依赖 Siri 和视觉 AI 技术成熟，切入方式类似 Apple Watch 颠覆中端手表市场。",
+                  "link": "https://m.ithome.com/html/957887.htm",
                   "tags": [
-                    "Copilot",
-                    "超级应用",
-                    "微软"
+                    "智能眼镜",
+                    "N50",
+                    "AI穿戴"
                   ],
                   "source": "IT之家",
-                  "time": "今天"
-                }
-              ]
-            },
-            {
-              "title": "OpenRouter",
-              "news": [
+                  "time": "5月31日"
+                },
                 {
-                  "title": "OpenRouter 完成 1.13 亿美元 B 轮融资，每月处理 100 万亿 Token",
-                  "summary": "5月31日消息，AI 模型 API 平台 OpenRouter 获 CapitalG 领投的 1.13 亿美元 B 轮融资，a16z、Menlo Ventures 等参投。平台每月处理超 100 万亿 Token，服务 800 多万开发者、覆盖 400 多个模型，并已集成 ComfyUI 工作流，估值约 13 亿美元。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
+                  "title": "苹果 Vision Air 头显预计 2028 年末发布",
+                  "summary": "6 月 1 日消息，古尔曼称苹果更轻薄的 Vision Air 头显预计最早 2028 年末或 2029 年发布，旨在解决初代 Vision Pro 售价过高和佩戴过重的问题。此前该项目曾被搁置转向 AI 眼镜，目前已重启。在 Vision Air 发布前该品类基本处于停滞状态。苹果当前研发资源更多投向轻量级智能眼镜和带摄像头的 AirPods。",
+                  "link": "https://news.qq.com/rain/a/20260601A02B4B00",
                   "tags": [
-                    "OpenRouter",
-                    "融资",
-                    "API平台"
+                    "Vision Air",
+                    "XR",
+                    "头显"
                   ],
-                  "source": "IT之家",
-                  "time": "今天"
+                  "source": "腾讯新闻",
+                  "time": "6月1日"
                 }
               ]
             }
@@ -413,57 +303,21 @@ window.__RAW_DATA = {
         },
         {
           "name": "自动驾驶",
-          "icon": "fas fa-car",
-          "color": "#3b82f6",
-          "softBg": "#e8f1fe",
           "cards": [
             {
               "title": "比亚迪",
               "news": [
                 {
-                  "title": "比亚迪发布自研 4nm 智驾芯片「璇玑 A3」，整车算力超 2100TOPS",
-                  "summary": "5月31日消息，比亚迪正式发布自研 4nm 制程智能驾驶芯片「璇玑 A3」，3 颗芯片协同可支持整车算力超 2100TOPS，标志着比亚迪在智能驾驶核心芯片领域实现自主可控。同时率先承诺为城市领航功能安全兜底。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
+                  "title": "奕境曾清林点赞比亚迪城市领航兜底",
+                  "summary": "5 月 31 日消息，奕境汽车品牌总经理曾清林发文谈辅助驾驶“智驾险”与“兜底承诺”差异。智驾险是法律概念受监管，赔偿限额明确（如华为乾崑智驾单项最高 300-500 万元）；比亚迪的兜底承诺则突破传统保险边界。比亚迪 5 月 28 日宣布天神之眼 A/B 版新用户自提车起一年内因辅助驾驶导致事故全额赔付本车经济损失，不限首任车主。",
+                  "link": "https://www.ithome.com/0/957/788.htm",
                   "tags": [
-                    "智驾芯片",
-                    "自研",
-                    "璇玑"
+                    "智驾险",
+                    "兜底承诺",
+                    "城市领航"
                   ],
                   "source": "IT之家",
-                  "time": "今天"
-                }
-              ]
-            },
-            {
-              "title": "吉利",
-              "news": [
-                {
-                  "title": "吉利被曝再度整合智驾团队，官方未予回应",
-                  "summary": "5月31日消息，据媒体报道，吉利汽车正在再度整合内部智能驾驶研发团队，中央研究院辅助驾驶团队或将被整合入千里科技，以应对行业竞争加剧和技术迭代加速的趋势，官方对此未予置评。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
-                  "tags": [
-                    "智驾",
-                    "团队整合"
-                  ],
-                  "source": "IT之家",
-                  "time": "今天"
-                }
-              ]
-            },
-            {
-              "title": "特斯拉 FSD",
-              "news": [
-                {
-                  "title": "多名特斯拉前员工坦言不信赖 FSD，称「给钱也不坐 Robotaxi」",
-                  "summary": "5月31日消息，路透社发布长篇特别报道，采访 9 名前数据标注员和 1 名前自动驾驶工程师。受访者几乎一边倒地负面评价 FSD，7 名数据标注员承认不会乘坐开启 FSD 的特斯拉，一名前员工直言 Robotaxi「给我钱也不会坐」。外界对特斯拉 FSD 安全性的疑虑持续升温。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
-                  "tags": [
-                    "FSD",
-                    "特斯拉",
-                    "安全质疑"
-                  ],
-                  "source": "IT之家",
-                  "time": "今天"
+                  "time": "5月31日"
                 }
               ]
             }
@@ -471,90 +325,29 @@ window.__RAW_DATA = {
         },
         {
           "name": "具身智能",
-          "icon": "fas fa-robot",
-          "color": "#10b981",
-          "softBg": "#e8faf3",
-          "cards": [
-            {
-              "title": "众擎机器人",
-              "news": [
-                {
-                  "title": "众擎机器人深圳基地启用，T800 人形机器人量产下线",
-                  "summary": "5月31日消息，众擎机器人深圳制造基地正式启用，首款人形机器人 T800 同步实现量产下线。该基地将支撑公司在工业和服务场景的批量交付能力，加速人形机器人产业化进程。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
-                  "tags": [
-                    "人形机器人",
-                    "量产",
-                    "深圳"
-                  ],
-                  "source": "IT之家",
-                  "time": "今天"
-                }
-              ]
-            },
-            {
-              "title": "何小鹏（小鹏汽车CEO）",
-              "news": [
-                {
-                  "title": "何小鹏：很多机器人公司连「小脑」都没做好，明年机器人收入将成增长驱动力",
-                  "summary": "5月31日消息，小鹏集团董事长何小鹏表示，当前很多机器人公司连「小脑」都没做好，让机器人稳定向前走只能算做好了「脑干、脊椎」。大模型飞速发展让他看到了做好机器人「大脑」的可能性，小鹏将坚定走大脑和双足路线。从明年起，人形机器人的硬件和 AI 模型收入将成为小鹏集团收入和毛利增长的重要驱动力。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
-                  "tags": [
-                    "人形机器人",
-                    "小鹏",
-                    "大脑路线"
-                  ],
-                  "source": "IT之家",
-                  "time": "今天"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "AI出海",
-          "icon": "fas fa-ship",
-          "color": "#06b6d4",
-          "softBg": "#e8fafd",
           "cards": []
         },
         {
           "name": "投资资讯",
-          "icon": "fas fa-chart-line",
-          "color": "#ef4444",
-          "softBg": "#fde8e8",
           "cards": [
             {
-              "title": "软银",
+              "title": "软银 750 亿欧元法国 AI 项目",
               "news": [
                 {
-                  "title": "软银将投资 750 亿欧元在法国建设 5 吉瓦 AI 数据中心",
-                  "summary": "5月31日消息，软银宣布将投资约 750 亿欧元在法国建设欧洲最大的 AI 数据中心项目，总容量达 5 吉瓦，将与施耐德电气、法国电力公司合作，满足欧洲日益增长的 AI 算力需求。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
+                  "title": "软银承诺斥资 750 亿欧元在法国建设 AI 设施",
+                  "summary": "5 月 31 日消息，软银承诺最高投入 750 亿欧元在法国上法兰西大区打造欧洲最大 AI 计算集群，总容量预计 5 吉瓦。今年 4 月马克龙与孙正义东京会面后迅速敲定。首期 450 亿欧元计划到 2031 年建成 3.1 吉瓦算力。项目将利用法国丰富核能资源，这也是软银在美国以外完成的最大单笔 AI 投资，大部分资金通过债务融资获取。",
+                  "link": "https://finance.sina.com.cn/roll/2026-05-31/doc-inhzvhfk4529734.shtml",
                   "tags": [
                     "数据中心",
-                    "软银",
-                    "法国"
+                    "算力基建",
+                    "欧洲"
                   ],
-                  "source": "IT之家",
-                  "time": "今天"
-                }
-              ]
-            },
-            {
-              "title": "SpaceX",
-              "news": [
-                {
-                  "title": "SpaceX 冲刺 2 万亿美元 IPO，马斯克整合「太空操作系统」",
-                  "summary": "5月31日消息，SpaceX 正式公开 S-1 招股书，计划募资约 750 亿美元，目标估值 1.75-2 万亿美元。若成功将超越沙特阿美成为全球史上最大规模 IPO。马斯克将 SpaceX 定位为「物理世界操作系统」，AI 业务 Q1 资本支出 77 亿美元。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
-                  "tags": [
-                    "SpaceX",
-                    "IPO",
-                    "马斯克"
-                  ],
-                  "source": "IT之家",
-                  "time": "今天"
+                  "source": "新浪财经",
+                  "time": "5月31日"
                 }
               ]
             }
@@ -562,75 +355,72 @@ window.__RAW_DATA = {
         },
         {
           "name": "行业趋势&观点",
-          "icon": "fas fa-lightbulb",
-          "color": "#8b5cf6",
-          "softBg": "#f3eeff",
           "cards": [
             {
-              "title": "哈萨比斯（DeepMind CEO）",
+              "title": "算力用电年均新增超千亿度",
               "news": [
                 {
-                  "title": "哈萨比斯：仍预计 AGI 在 2029-2030 年到来，今年 Agent 爆发像「一次演练」",
-                  "summary": "5月31日消息，DeepMind CEO 哈萨比斯在最新表态中仍预计 AGI 将在 2029-2030 年到来。他认为 2026 年 Agent 的爆发更像一次「演练」，真正的突破还在后面。同时透露 Gemini 月活跃用户已达 9 亿。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
+                  "title": "国家能源局：十五五算力用电年均新增超千亿度",
+                  "summary": "5 月 27 日消息，国家能源局公布 2025 年全国算力中心总用电量 1700 亿千瓦时，占全社会用电量 1.6%。全国已建成 42 个万卡级智算集群，8 大枢纽节点近三年用电增速约 39.5%。预计十五五时期全国算力用电量年均新增 1000 亿千瓦时以上，到 2030 年达 8000 亿千瓦时左右占全社会用电量约 6%。绿电直连等算电协同政策加速落地。",
+                  "link": "https://www.thepaper.cn/newsDetail_forward_33247132",
                   "tags": [
-                    "AGI",
-                    "Agent",
-                    "DeepMind"
+                    "算力用电",
+                    "能源",
+                    "数据中心"
                   ],
-                  "source": "IT之家",
-                  "time": "今天"
+                  "source": "澎湃新闻",
+                  "time": "5月27日"
                 }
               ]
             },
             {
-              "title": "AI 就业冲击",
+              "title": "纽约联储主席：AI 不会造成结构性失业",
               "news": [
                 {
-                  "title": "调查：63% 员工假装懂 AI 以求晋升，印度科技初级岗位骤降",
-                  "summary": "5月31日消息，GCheck 调查显示 63% 员工正假装懂 AI 以获得晋升机会（Z 世代达 80%），印度科技行业初级岗位比例从 28% 降至 15%。Mercer 调查显示 98% 高管计划两年内进行 AI 相关组织架构调整或裁员。Intuit 宣布裁员 3000 人（约 17%）聚焦 AI。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
+                  "title": "纽约联储主席：AI 不会造成长期结构性失业",
+                  "summary": "5 月 30 日，纽约联储主席威廉姆斯在冰岛经济学年会上对 AI 冲击就业给出乐观判断。他表示“历史告诉我们生产率可持续提高而不会造成结构性失业”，当前应届毕业生已普遍将 AI 工具融入日常工作，劳动力调整主路径是再培训与技能升级。但圣路易斯联储主席穆萨莱姆警告 AI 投资本身正在推高通胀，美联储内部存在显著分歧。",
+                  "link": "https://finance.sina.com.cn/stock/usstock/summary/2026-05-30/doc-inhzswyi6700798.shtml",
                   "tags": [
-                    "就业",
-                    "AI冲击",
-                    "职场"
+                    "AI就业",
+                    "美联储",
+                    "生产率"
                   ],
-                  "source": "IT之家",
-                  "time": "今天"
+                  "source": "新浪财经",
+                  "time": "5月30日"
                 }
               ]
             },
             {
-              "title": "AI 社会自治测试",
+              "title": "全国首个绿色算力全栈 AI 平台上线",
               "news": [
                 {
-                  "title": "AI 社会模拟实验：Grok 四天崩溃，Gemini 犯罪 683 起，Claude 零犯罪",
-                  "summary": "5月31日消息，Emergence AI 搭建模拟社会 Emergence World，让 5 组 AI 模型在平行世界中运行 15 天。结果显示：Gemini 3 Flash 累计犯罪 683 起（最高），Grok 4.1 Fast 世界约 4 天崩溃，GPT-5 Mini 7 天内全员死亡，Claude Sonnet 4.6 犯罪为零。研究指出 AI 安全不是静态属性而是生态属性。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
+                  "title": "全国首个绿色算力全栈 AI 平台在内蒙古上线",
+                  "summary": "5 月 30 日，全国首个绿色算力全栈 AI 平台在内蒙古自贸试验区呼和浩特片区正式上线。平台集成算力调度交易、模型调用、Token 交易结算等一站式功能，全面兼容国产芯片与主流算力架构，首批接入三大运营商及头部科技厂商十余款主流模型。通过智能调度算法实现算力资源弹性分配，后续将发放 Token 券和算力券。",
+                  "link": "https://zsj.nmg.gov.cn/xwzx/jrgz/202605/t20260530_2909928.html",
                   "tags": [
-                    "AI安全",
-                    "社会模拟",
-                    "Claude"
+                    "算力平台",
+                    "绿色算力",
+                    "Token交易"
                   ],
-                  "source": "IT之家",
-                  "time": "今天"
+                  "source": "内蒙古日报",
+                  "time": "5月30日"
                 }
               ]
             },
             {
-              "title": "全球首部 AI 生成电影",
+              "title": "PCB 产业链 AI 算力驱动扩产潮",
               "news": [
                 {
-                  "title": "全球首部 AI 生成 95 分钟长片《HELL GRIND》亮相戛纳，成本仅 50 万美元",
-                  "summary": "5月31日消息，全球首部 AI 生成 95 分钟长片《HELL GRIND》亮相戛纳电影节，由 15 人团队仅用 14 天完成制作，成本仅 50 万美元。该片标志着 AI 影视制作从实验阶段走向商业可行，引发行业对 AI 电影未来的广泛讨论。",
-                  "link": "https://www.ithome.com/0/957/702.htm",
+                  "title": "PCB 产业链在 AI 算力驱动下迎来扩产潮",
+                  "summary": "6 月 1 日消息，据《中国证券报》报道，多家 PCB 上市公司发布扩产计划。东山精密 Q1 营收 131.38 亿元同比增 52.72%，深南电路 PCB 业务受益于 AI 算力需求产能利用率维持高位。9 家头部 PCB 企业 Q1 资本开支 125 亿元同比增 182%。铜箔、电子布、树脂三大核心材料价格持续上涨，高端 PCB 材料国产替代迎来窗口期。",
+                  "link": "https://finance.sina.com.cn/jjxw/2026-06-01/doc-inhzwcky4119391.shtml",
                   "tags": [
-                    "AI电影",
-                    "戛纳",
-                    "AIGC"
+                    "PCB",
+                    "算力基建",
+                    "扩产"
                   ],
-                  "source": "IT之家",
-                  "time": "今天"
+                  "source": "中国证券报",
+                  "time": "6月1日"
                 }
               ]
             }
@@ -639,116 +429,119 @@ window.__RAW_DATA = {
       ]
     },
     "ranking": {
+      "title": "榜单追踪",
+      "icon": "fas fa-trophy",
+      "iconClass": "ranking",
       "platforms": [
         {
           "name": "LMArena",
           "date": "2026-05-28",
           "rankings": [
             {
-              "model": "Claude Opus 4.6 Thinking",
+              "model": "claude-opus-4-6-thinking",
               "score": "1502",
-              "change": "—"
+              "change": "+4"
             },
             {
-              "model": "Claude Opus 4.7 Thinking",
+              "model": "claude-opus-4-7-thinking",
               "score": "1500",
-              "change": "—"
+              "change": "+5"
             },
             {
-              "model": "Claude Opus 4.6",
+              "model": "claude-opus-4-6",
               "score": "1498",
-              "change": "—"
+              "change": "+4"
             },
             {
-              "model": "Claude Opus 4.7",
+              "model": "claude-opus-4-7",
               "score": "1494",
-              "change": "—"
+              "change": "+5"
             },
             {
-              "model": "Meta Muse Spark (Preliminary)",
+              "model": "muse-spark (Meta)",
               "score": "1489",
-              "change": "—"
+              "change": "+6"
             },
             {
-              "model": "Gemini 3.1 Pro Preview",
+              "model": "gemini-3.1-pro-preview",
               "score": "1487",
-              "change": "—"
+              "change": "+4"
             },
             {
-              "model": "Gemini 3 Pro",
+              "model": "gemini-3-pro",
               "score": "1486",
-              "change": "—"
+              "change": "+4"
             },
             {
-              "model": "GPT-5.5 High",
+              "model": "gpt-5.5-high",
               "score": "1482",
-              "change": "—"
+              "change": "+6"
             },
             {
-              "model": "Gemini 3.5 Flash (Preliminary)",
+              "model": "gemini-3.5-flash",
               "score": "1479",
-              "change": "—"
+              "change": "+7"
             },
             {
-              "model": "GPT-5.5",
+              "model": "gpt-5.5",
               "score": "1476",
-              "change": "—"
+              "change": "+6"
             },
             {
-              "model": "GPT-5.2 Chat Latest",
+              "model": "gpt-5.2-chat-latest",
               "score": "1476",
-              "change": "—"
+              "change": "+4"
             },
             {
-              "model": "Grok 4.20 Beta1",
+              "model": "grok-4.20-beta1",
               "score": "1476",
-              "change": "—"
+              "change": "+5"
             },
             {
-              "model": "Grok 4.20 Beta Reasoning",
+              "model": "grok-4.20-beta-0309-reasoning",
               "score": "1475",
-              "change": "—"
+              "change": "+5"
             },
             {
-              "model": "Qwen 3.7 Max Preview (Preliminary)",
+              "model": "qwen3.7-max-preview",
               "score": "1475",
-              "change": "—"
+              "change": "+10"
             },
             {
-              "model": "GLM 5.1",
+              "model": "glm-5.1",
               "score": "1474",
-              "change": "—"
+              "change": "+6"
             },
             {
-              "model": "GPT-5.5 Instant",
+              "model": "gpt-5.5-instant",
               "score": "1474",
-              "change": "—"
+              "change": "+5"
             },
             {
-              "model": "Gemini 3 Flash",
+              "model": "gemini-3-flash",
               "score": "1473",
-              "change": "—"
+              "change": "+4"
             },
             {
-              "model": "Claude Opus 4.5 Thinking",
+              "model": "claude-opus-4-5-20251101-thinking",
               "score": "1473",
-              "change": "—"
+              "change": "+4"
             },
             {
-              "model": "Grok 4.20 Multi-Agent Beta",
+              "model": "grok-4.20-multi-agent-beta-0309",
               "score": "1472",
-              "change": "—"
+              "change": "+5"
             },
             {
-              "model": "ERNIE 5.1 (Preliminary)",
+              "model": "ernie-5.1",
               "score": "1470",
-              "change": "—"
+              "change": "+6"
             }
           ]
         },
         {
           "name": "OpenRouter",
-          "date": "2026-05-31",
+          "date": "2026-06-01",
           "rankings": [
             {
               "model": "DeepSeek V4 Flash",
@@ -756,14 +549,14 @@ window.__RAW_DATA = {
               "change": "↑3%"
             },
             {
-              "model": "Hy3 Preview (腾讯)",
+              "model": "Hy3 preview",
               "score": "3.07T tokens",
               "change": "↑1%"
             },
             {
               "model": "Claude Opus 4.7",
               "score": "2.34T tokens",
-              "change": "↑27%"
+              "change": "↓27%"
             },
             {
               "model": "Claude Sonnet 4.6",
@@ -781,12 +574,12 @@ window.__RAW_DATA = {
               "change": "↑22%"
             },
             {
-              "model": "MiMo-V2.5 (小米)",
+              "model": "MiMo-V2.5",
               "score": "1.12T tokens",
               "change": "↑950%"
             },
             {
-              "model": "MiMo-V2.5-Pro (小米)",
+              "model": "MiMo-V2.5-Pro",
               "score": "1.09T tokens",
               "change": "↑355%"
             },
@@ -810,109 +603,121 @@ window.__RAW_DATA = {
               "name": "Ava 2.0",
               "category": "Productivity",
               "rank": 1,
-              "link": "https://artisan.co"
+              "link": "https://www.producthunt.com/products/ava-2-0"
             },
             {
               "name": "/monitor by Firecrawl",
               "category": "Developer Tools",
               "rank": 2,
-              "link": "https://firecrawl.dev"
+              "link": "https://www.producthunt.com/products/monitor-by-firecrawl"
             },
             {
               "name": "Ava Studio",
               "category": "Marketing",
               "rank": 3,
-              "link": "https://artisan.co"
+              "link": "https://www.producthunt.com/products/ava-studio"
             },
             {
               "name": "Agent A by Ahrefs",
               "category": "Marketing",
               "rank": 4,
-              "link": "https://ahrefs.com"
+              "link": "https://www.producthunt.com/products/agent-a-by-ahrefs"
             },
             {
               "name": "Firecoach AI",
               "category": "Sales",
               "rank": 5,
-              "link": "https://firecoach.ai"
+              "link": "https://www.producthunt.com/products/firecoach-ai"
             },
             {
               "name": "MCP Bridge by Appfactor",
               "category": "API",
               "rank": 6,
-              "link": "https://appfactor.com"
+              "link": "https://www.producthunt.com/products/mcp-bridge-by-appfactor"
             },
             {
               "name": "Integuru",
               "category": "API",
               "rank": 7,
-              "link": "https://integuru.ai"
+              "link": "https://www.producthunt.com/products/integuru"
             },
             {
               "name": "Linear Diffs",
               "category": "Productivity",
               "rank": 8,
-              "link": "https://linear.app"
+              "link": "https://www.producthunt.com/products/linear-diffs"
             },
             {
               "name": "Sinalytica",
               "category": "Retro Games",
               "rank": 9,
-              "link": "https://sinalytica.com"
+              "link": "https://www.producthunt.com/products/sinalytica"
             },
             {
               "name": "Screen Ruler",
               "category": "Chrome Extensions",
               "rank": 10,
-              "link": "https://chromewebstore.google.com"
+              "link": "https://www.producthunt.com/products/screen-ruler"
             },
             {
-              "name": "Basedash: Embedded Analytics",
+              "name": "Basedash",
               "category": "Artificial Intelligence",
               "rank": 11,
-              "link": "https://basedash.com"
+              "link": "https://www.producthunt.com/products/basedash-embedded-analytics"
             },
             {
-              "name": "Hyper: Self-driving Company Brain",
+              "name": "Hyper",
               "category": "Productivity",
               "rank": 12,
-              "link": "https://hyper.ai"
+              "link": "https://www.producthunt.com/products/hyper-self-driving-company-brain"
             },
             {
               "name": "Coffee Piano",
               "category": "Music",
               "rank": 13,
-              "link": "https://coffeepiano.com"
+              "link": "https://www.producthunt.com/products/coffee-piano"
             },
             {
               "name": "Notchy",
               "category": "Productivity",
               "rank": 14,
-              "link": "https://notchy.app"
+              "link": "https://www.producthunt.com/products/notchy"
             },
             {
               "name": "MoDev",
               "category": "Developer Tools",
               "rank": 15,
-              "link": "https://modev.dev"
+              "link": "https://www.producthunt.com/products/modev"
             },
             {
               "name": "TrackNotch",
               "category": "Mac",
               "rank": 16,
-              "link": "https://tracknotch.app"
+              "link": "https://www.producthunt.com/products/tracknotch"
             },
             {
               "name": "Clipline",
               "category": "Productivity",
               "rank": 17,
-              "link": "https://clipline.ai"
+              "link": "https://www.producthunt.com/products/clipline"
+            },
+            {
+              "name": "Mantle",
+              "category": "Fintech",
+              "rank": 18,
+              "link": "https://www.producthunt.com/products/mantle"
+            },
+            {
+              "name": "Tines",
+              "category": "Developer Tools",
+              "rank": 19,
+              "link": "https://www.producthunt.com/products/tines"
             },
             {
               "name": "Drafted",
               "category": "Design Tools",
               "rank": 20,
-              "link": "https://drafted.ai"
+              "link": "https://www.producthunt.com/products/drafted"
             }
           ]
         }
