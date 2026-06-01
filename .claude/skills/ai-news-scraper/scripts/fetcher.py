@@ -178,6 +178,139 @@ def fetch_rankings():
     return results
 
 
+def verify_links(data_json_path=None):
+    """
+    链接内容复核：读取 data.json，用 Playwright 打开每条新闻的链接，
+    校验页面标题是否与新闻标题相关。输出不匹配的可疑链接列表。
+
+    返回: {"passed": [...], "failed": [...], "skipped": [...]}
+    """
+    if data_json_path is None:
+        data_json_path = PROJECT_ROOT / "data.json"
+
+    with open(data_json_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # 收集所有 (title, link, source, section_path) 元组
+    items = []
+
+    def walk(obj, path=""):
+        if isinstance(obj, dict):
+            if "link" in obj and "title" in obj and isinstance(obj["link"], str) and obj["link"].startswith("http"):
+                items.append({
+                    "title": obj["title"],
+                    "link": obj["link"],
+                    "source": obj.get("source", ""),
+                    "path": path,
+                })
+            for k, v in obj.items():
+                walk(v, f"{path}.{k}")
+        elif isinstance(obj, list):
+            for i, v in enumerate(obj):
+                walk(v, f"{path}[{i}]")
+
+    walk(data)
+    print(f"共找到 {len(items)} 条新闻链接待复核\n")
+
+    passed = []
+    failed = []
+    skipped = []
+
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(headless=True)
+
+        for idx, item in enumerate(items, 1):
+            title = item["title"]
+            link = item["link"]
+            source = item["source"]
+            print(f"[{idx}/{len(items)}] {title[:40]}...")
+
+            try:
+                result = scrape_page(browser, link, wait_sec=3)
+                if result["status"] not in ("ok", "partial"):
+                    skipped.append({**item, "reason": f"页面无法访问: {result.get('error', 'unknown')}"})
+                    print(f"  ⚠️ 跳过: 页面无法访问")
+                    continue
+
+                page_title = result.get("title", "").strip()
+                if not page_title:
+                    skipped.append({**item, "reason": "页面标题为空"})
+                    print(f"  ⚠️ 跳过: 页面标题为空")
+                    continue
+
+                # 计算关键词重叠度
+                overlap_score = _calc_title_overlap(title, page_title)
+                item["page_title"] = page_title
+                item["overlap"] = overlap_score
+
+                if overlap_score >= 0.15:
+                    passed.append(item)
+                    print(f"  ✅ 匹配 (重叠度 {overlap_score:.0%}): {page_title[:60]}")
+                else:
+                    failed.append(item)
+                    print(f"  ❌ 不匹配 (重叠度 {overlap_score:.0%}): {page_title[:60]}")
+
+            except Exception as e:
+                skipped.append({**item, "reason": str(e)})
+                print(f"  ⚠️ 跳过: {e}")
+
+        browser.close()
+
+    print(f"\n{'='*50}")
+    print(f"复核完成: ✅ {len(passed)} 通过 | ❌ {len(failed)} 可疑 | ⚠️ {len(skipped)} 跳过")
+    if failed:
+        print(f"\n⚠️ 以下 {len(failed)} 条链接内容与新闻标题不匹配，需重新搜索:")
+        for item in failed:
+            print(f"  新闻: {item['title'][:50]}")
+            print(f"  链接: {item['link']}")
+            print(f"  页面: {item.get('page_title', '')[:60]}")
+            print(f"  来源: {item.get('source', '')}")
+            print()
+
+    # 保存复核报告
+    report_path = RAW_DIR / "link_verify_report.json"
+    report = {"date": date.today().isoformat(), "passed": passed, "failed": failed, "skipped": skipped}
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"复核报告已保存: {report_path}")
+
+    return report
+
+
+def _calc_title_overlap(news_title, page_title):
+    """
+    计算新闻标题与页面标题的关键词重叠度。
+    对中文标题：提取 2-3 字片段，计算在页面标题中的命中率。
+    """
+    import re
+
+    # 清理标题：去标点、去空格
+    def clean(s):
+        return re.sub(r"[，,。\.！!？?：:、\s\-—·《》\"\"''（）()\[\]【】]", "", s)
+
+    nt = clean(news_title)
+    pt = clean(page_title)
+
+    if not nt or not pt:
+        return 0.0
+
+    # 提取新闻标题的 2-4 字 n-gram 作为关键词候选
+    ngrams = set()
+    for length in (2, 3, 4):
+        for i in range(len(nt) - length + 1):
+            ngram = nt[i:i + length]
+            ngrams.add(ngram)
+
+    # 排除纯数字/英文干扰（如日期、版本号）
+    ngrams = {ng for ng in ngrams if not re.match(r"^[\d\.\-\+:]+$", ng)}
+
+    if not ngrams:
+        return 0.0
+
+    # 计算命中率
+    hits = sum(1 for ng in ngrams if ng in pt)
+    return hits / len(ngrams)
+
+
 # ==================== CLI ====================
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "help"
@@ -190,11 +323,15 @@ if __name__ == "__main__":
         fetch_news()
         print("\n" + "=" * 50 + "\n")
         fetch_rankings()
+    elif cmd == "verify":
+        path = sys.argv[2] if len(sys.argv) > 2 else None
+        verify_links(path)
     elif cmd == "help":
         print("用法: python3 fetcher.py <command>")
         print("  news     — 抓取所有新闻源")
         print("  rankings — 抓取所有榜单")
         print("  all      — 抓取全部")
+        print("  verify   — 链接内容复核（读取 data.json，校验每条链接是否匹配新闻标题）")
     else:
         print(f"未知命令: {cmd}")
         sys.exit(1)

@@ -2133,7 +2133,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "亚马逊关停内部 AI 使用量排行榜",
                     "summary": "5月29日消息，亚马逊近日关闭了内部 AI 使用量排行榜 Kirorank。原因是员工为冲排名刻意刷高 AI 调用量，导致算力成本激增。该工具原本用于给开发者平台 Kiro 用户打分，分数完全基于 AI 活动量。部分员工滥用 AI 智能体执行大量无意义操作以冲榜。",
-                    "link": "https://www.ithome.com/0/957/290.htm",
+                    "link": "https://it.ithome.com/archiver/0/956/833.htm",
                     "tags": [
                       "成本控制",
                       "内部管理"
