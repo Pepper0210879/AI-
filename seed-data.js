@@ -1636,14 +1636,14 @@ window.__SEED_CONFIRMED = {
               },
               {
                 "title": "Anthropic 招聘价值观面试曝光",
-                "summary": "5月29日消息，据彭博商业周刊报道，Anthropic 快速扩张后仍将候选人是否认同公司使命放在面试核心位置。公司会追问职业伦理困境及应对方式，多名候选人形容该轮面试比普通公司文化面更深入。总裁 Daniela Amodei 称会考察候选人在不舒服处境里捍卫自身判断的方式。",
+                "summary": "5月28日消息，据彭博商业周刊报道，Anthropic 快速扩张后仍将候选人是否认同公司使命放在面试核心位置。公司会追问职业伦理困境及应对方式，多名候选人形容该轮面试比普通公司文化面更深入。总裁 Daniela Amodei 称会考察候选人在不舒服处境里捍卫自身判断的方式。",
                 "link": "https://news.marsbit.co/flash/20260528175245319060.html",
                 "tags": [
                   "企业文化",
                   "招聘"
                 ],
                 "source": "爱范儿",
-                "time": "5月29日"
+                "time": "5月28日"
               },
               {
                 "title": "Claude Code 上线动态工作流预览版",
@@ -2026,14 +2026,14 @@ window.__SEED_CONFIRMED = {
                 "news": [
                   {
                     "title": "宝马将在莱比锡工厂使用人形机器人",
-                    "summary": "5月29日消息，据 BBC 报道，宝马计划今年夏天在欧洲汽车生产中首次使用人形机器人。两台由 Hexagon Robotics 制造的 Aeon 机器人正在莱比锡工厂测试，身高 1.65 米、重 60 公斤，可搬运 15 公斤重物，配备 21 个传感器。宝马流程管理负责人表示人形机器人将是汽车生产的未来。",
+                    "summary": "5月30日消息，据 BBC 报道，宝马计划今年夏天在欧洲汽车生产中首次使用人形机器人。两台由 Hexagon Robotics 制造的 Aeon 机器人正在莱比锡工厂测试，身高 1.65 米、重 60 公斤，可搬运 15 公斤重物，配备 21 个传感器。宝马流程管理负责人表示人形机器人将是汽车生产的未来。",
                     "link": "https://finance.sina.com.cn/roll/2026-05-30/doc-inhzrvns7381906.shtml",
                     "tags": [
                       "人形机器人",
                       "汽车制造"
                     ],
                     "source": "爱范儿",
-                    "time": "5月29日"
+                    "time": "5月30日"
                   }
                 ]
               },
@@ -2154,14 +2154,14 @@ window.__SEED_CONFIRMED = {
                 "news": [
                   {
                     "title": "企业 AI 账单失控，单月烧掉 5 亿美元",
-                    "summary": "5月29日消息，据 Axios 报道，企业界正对持续攀升的 AI 支出产生质疑。一名 AI 顾问透露有企业因未对 Claude 许可证设置使用上限，单月烧掉 5 亿美元。微软近期取消大部分 Claude Code 许可证，Uber COO 公开表示 AI 支出越来越难以合理化。消费者对 AI 态度也在转冷。",
+                    "summary": "5月30日消息，据 Axios 报道，企业界正对持续攀升的 AI 支出产生质疑。一名 AI 顾问透露有企业因未对 Claude 许可证设置使用上限，单月烧掉 5 亿美元。微软近期取消大部分 Claude Code 许可证，Uber COO 公开表示 AI 支出越来越难以合理化。消费者对 AI 态度也在转冷。",
                     "link": "https://finance.sina.com.cn/wm/2026-05-30/doc-inhzswyf9913218.shtml",
                     "tags": [
                       "成本控制",
                       "ROI"
                     ],
                     "source": "新浪财经",
-                    "time": "5月29日"
+                    "time": "5月30日"
                   },
                   {
                     "title": "亚马逊关停内部 AI 使用量排行榜",
