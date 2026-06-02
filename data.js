@@ -92,32 +92,32 @@ window.__RAW_DATA = {
           "initial": "N",
           "news": [
             {
-              "title": "英伟达RTX Spark发布：首款PC超级芯片，AI算力达1 petaFLOP",
-              "summary": "6月1日，英伟达CEO黄仁勋在COMPUTEX 2026上正式发布RTX Spark PC处理器，由联发科定制20核Grace CPU搭配Blackwell架构RTX GPU，台积电3nm制程，AI算力达1 petaFLOP，可本地运行千亿参数大模型。微软同步推出Surface Laptop Ultra，戴尔、联想等品牌今秋开售搭载产品。",
-              "link": "https://news.qq.com/rain/a/20260601A06TE900",
+              "title": "NVIDIA GTC 2026：英伟达发布RTX Spark PC超级芯片，AI算力达1 petaFLOP",
+              "summary": "6月1日，英伟达在GTC 2026台北大会上正式发布RTX Spark PC处理器，由联发科定制20核Grace CPU搭配Blackwell架构RTX GPU，台积电3nm制程，AI算力达1 petaFLOP，可本地运行千亿参数大模型。微软同步推出Surface Laptop Ultra，戴尔、联想等品牌今秋开售搭载产品。",
+              "link": "https://www.stheadline.com/zh-hans/realtime-finance/3578341/Nvidia%E6%96%B0%E6%99%B6%E7%89%87%E6%94%BBPC%E5%B8%82%E5%9C%BA%E6%92%BC%E8%8B%B1%E7%89%B9%E5%B0%94-%E5%BA%94%E7%94%A8Dell%E5%92%8C%E8%81%94%E6%83%B3%E7%AD%89%E7%94%B5%E8%84%91-%E9%BB%84%E4%BB%81%E5%8B%8B%E6%BC%94%E8%AE%B28%E5%A4%A7%E9%87%8D%E7%82%B9%E6%87%92%E4%BA%BA%E5%8C%85GTC%E5%A4%A7%E4%BC%9A",
               "tags": [
                 "PC芯片",
                 "AI PC",
-                "COMPUTEX"
+                "GTC"
               ],
-              "source": "腾讯新闻",
+              "source": "星岛头条",
               "time": "6月1日"
             },
             {
-              "title": "英伟达Vera Rubin全面量产，面向Agentic AI工厂",
-              "summary": "6月1日，英伟达CEO黄仁勋在GTC Taipei宣布Vera Rubin平台进入全面量产阶段，包含Vera CPU、Rubin GPU等7颗新芯片，Agent吞吐量较Blackwell提升10倍，推理成本降至十分之一。同时推出DSX平台为AI工厂建设提供行动指南，OpenAI、Anthropic、xAI等为首批用户。",
-              "link": "https://www.eet-china.com/news/202606015058.html",
+              "title": "NVIDIA GTC 2026：英伟达Vera Rubin全面量产，面向Agentic AI工厂",
+              "summary": "6月1日，英伟达在GTC 2026台北大会上宣布Vera Rubin平台进入全面量产阶段，包含Vera CPU、Rubin GPU等7颗新芯片，Agent吞吐量较前代提升10倍，推理成本降至十分之一。英伟达同步推出DSX平台为AI工厂提供建设运营方案，OpenAI、Anthropic、SpaceX等为首批客户。",
+              "link": "https://news.qq.com/rain/a/20260601A06AEZ00",
               "tags": [
                 "AI芯片",
                 "Agentic AI",
                 "AI工厂"
               ],
-              "source": "电子工程专辑",
+              "source": "腾讯新闻",
               "time": "6月1日"
             },
             {
-              "title": "英伟达联手宇树推出人形机器人参考设计H2+",
-              "summary": "6月1日，英伟达CEO黄仁勋宣布与宇树科技合作推出新一代人形机器人参考设计H2+（Isaac GR00T系统）。该机器人身高约1.8米、重约68公斤，本体31个自由度，每只机械手25个自由度，旨在加速全球人形机器人行业创新。",
+              "title": "NVIDIA GTC 2026：英伟达联手宇树推出人形机器人参考设计H2+",
+              "summary": "6月1日，英伟达在GTC 2026台北大会上宣布与宇树科技合作，推出新一代人形机器人参考设计H2+（Isaac GR00T系统）。该机器人身高约1.8米、重约68公斤，本体31个自由度，每只机械手25个自由度，英伟达提供AI算力大脑，宇树提供机器人本体。",
               "link": "https://www.thepaper.cn/newsdetail_forward_33282086",
               "tags": [
                 "人形机器人",
