@@ -102,25 +102,156 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('save-btn').addEventListener('click', saveData);
     setupConfirmToday();
     updateSaveStatus();
+    // 初始化审计日志面板
+    const panelBody = document.getElementById('audit-panel-body');
+    if (panelBody) panelBody.innerHTML = renderAuditLog();
 });
+
+let originalData = null;
 
 function loadData() {
     try {
         const saved = localStorage.getItem(STORAGE_KEY);
         if (saved) {
             editingData = JSON.parse(saved);
+            originalData = JSON.parse(saved);
             return;
         }
     } catch (e) {}
     editingData = JSON.parse(JSON.stringify(DEFAULT_DATA));
+    originalData = JSON.parse(JSON.stringify(DEFAULT_DATA));
     localStorage.setItem(STORAGE_KEY, JSON.stringify(editingData));
 }
 
-function saveData() {
+async function saveData() {
+    // 计算变更
+    const changes = diffData(originalData, editingData);
+
+    // 获取 IP
+    let ip = '未知';
+    try {
+        const resp = await fetch('https://api.ipify.org?format=json');
+        const data = await resp.json();
+        ip = data.ip;
+    } catch (e) {}
+
+    // 记录审计日志
+    const entry = {
+        time: new Date().toISOString(),
+        ip: ip,
+        changes: changes.length > 0 ? changes : ['无实质性变更']
+    };
+    const log = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
+    log.unshift(entry);
+    if (log.length > 50) log.length = 50; // 最多保留50条
+    localStorage.setItem('ai-news-audit-log', JSON.stringify(log));
+
+    // 保存
     localStorage.setItem(STORAGE_KEY, JSON.stringify(editingData));
     localStorage.setItem('ai-news-last-update', new Date().toISOString());
+    originalData = JSON.parse(JSON.stringify(editingData));
     updateSaveStatus();
-    showToast('数据已保存');
+    showToast(`已保存，共 ${changes.length} 处变更`);
+    refreshAuditPanel();
+}
+
+function diffData(oldData, newData) {
+    const changes = [];
+    if (!oldData || !newData) return changes;
+
+    function compareSection(sectionKey, oldSec, newSec) {
+        const oldVendors = oldSec?.vendors || [];
+        const newVendors = newSec?.vendors || [];
+        const maxLen = Math.max(oldVendors.length, newVendors.length);
+        for (let vi = 0; vi < maxLen; vi++) {
+            const ov = oldVendors[vi] || { news: [] };
+            const nv = newVendors[vi] || { news: [] };
+            const name = nv.name || ov.name;
+            const oldCount = ov.news?.length || 0;
+            const newCount = nv.news?.length || 0;
+            if (oldCount !== newCount) {
+                if (newCount > oldCount) {
+                    // 找出新增的
+                    const oldTitles = new Set((ov.news || []).map(n => n.title));
+                    const added = (nv.news || []).filter(n => !oldTitles.has(n.title));
+                    added.forEach(n => changes.push(`[${name}] 新增：${n.title}`));
+                } else {
+                    const newTitles = new Set((nv.news || []).map(n => n.title));
+                    const removed = (ov.news || []).filter(n => !newTitles.has(n.title));
+                    removed.forEach(n => changes.push(`[${name}] 删除：${n.title}`));
+                }
+            }
+            // 检查标题相同但内容变化的
+            const oldMap = {};
+            (ov.news || []).forEach(n => { oldMap[n.title] = n; });
+            (nv.news || []).forEach(n => {
+                const old = oldMap[n.title];
+                if (old) {
+                    const diffs = [];
+                    if (old.summary !== n.summary) diffs.push('摘要');
+                    if (old.link !== n.link) diffs.push('链接');
+                    if (old.time !== n.time) diffs.push('时间');
+                    if (JSON.stringify(old.tags) !== JSON.stringify(n.tags)) diffs.push('标签');
+                    if (diffs.length > 0) changes.push(`[${name}] 修改：${n.title}（${diffs.join('、')}）`);
+                }
+            });
+        }
+    }
+
+    compareSection('overseas', oldData.sections?.overseas, newData.sections?.overseas);
+    compareSection('domestic', oldData.sections?.domestic, newData.sections?.domestic);
+
+    // Other categories
+    const oldCats = oldData.sections?.other?.categories || [];
+    const newCats = newData.sections?.other?.categories || [];
+    for (let ci = 0; ci < Math.max(oldCats.length, newCats.length); ci++) {
+        const oc = oldCats[ci] || { cards: [] };
+        const nc = newCats[ci] || { cards: [] };
+        const oldCards = oc.cards || [];
+        const newCards = nc.cards || [];
+        for (let cj = 0; cj < Math.max(oldCards.length, newCards.length); cj++) {
+            const ocard = oldCards[cj] || { news: [] };
+            const ncard = newCards[cj] || { news: [] };
+            const cardTitle = ncard.title || ocard.title;
+            const oldCount = ocard.news?.length || 0;
+            const newCount = ncard.news?.length || 0;
+            if (oldCount !== newCount) {
+                const diff = newCount - oldCount;
+                changes.push(`[${cardTitle}] 新闻 ${diff > 0 ? '+' + diff : diff} 条`);
+            }
+        }
+    }
+
+    return changes;
+}
+
+function refreshAuditPanel() {
+    const panel = document.getElementById('audit-panel-body');
+    if (!panel) return;
+    panel.innerHTML = renderAuditLog();
+}
+
+function renderAuditLog() {
+    const log = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
+    if (log.length === 0) return '<p style="color:var(--text-muted);text-align:center;padding:2rem;">暂无记录</p>';
+    return log.map((entry, i) => {
+        const d = new Date(entry.time);
+        const timeStr = d.toLocaleString('zh-CN');
+        return `<div class="audit-entry">
+            <div class="audit-entry-header">
+                <span class="audit-entry-time">${timeStr}</span>
+                <span class="audit-entry-ip">IP: ${entry.ip}</span>
+            </div>
+            <ul class="audit-entry-changes">
+                ${entry.changes.map(c => `<li>${c}</li>`).join('')}
+            </ul>
+        </div>`;
+    }).join('');
+}
+
+function toggleAuditPanel() {
+    const panel = document.getElementById('audit-panel');
+    if (panel) panel.classList.toggle('open');
 }
 
 function updateSaveStatus() {
