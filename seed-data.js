@@ -1,3 +1,4 @@
+window.__SEED_VERSION = 2;
 // 种子数据：为 Step 9 无新闻厂商近期动态提供历史新闻
 window.__SEED_CONFIRMED = {
   "2026-06-01": {

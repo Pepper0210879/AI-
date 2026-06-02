@@ -250,11 +250,24 @@ window.__RAW_DATA = {
           ]
         },
         {
-          "name": "月之暗面",
+          "name": "MiniMax",
           "color": "#6C5CE7",
           "softBg": "#F0EDFD",
-          "initial": "月",
-          "news": []
+          "initial": "M",
+          "news": [
+            {
+              "title": "MiniMax M3发布：百万上下文、原生多模态，编程对标GPT-5.5",
+              "summary": "6月1日，MiniMax发布新一代模型MiniMax M3，同时具备前沿编程、100万token超长上下文和原生多模态三项能力。M3采用自研稀疏注意力架构MSA，在100万上下文下单token计算量约为上代二十分之一。编程方面在SWE-Bench Pro上超过GPT-5.5和Gemini 3.1 Pro，模型将开源。",
+              "link": "https://www.stcn.com/article/detail/3936406.html",
+              "tags": [
+                "开源模型",
+                "长上下文",
+                "多模态"
+              ],
+              "source": "证券时报",
+              "time": "6月1日"
+            }
+          ]
         },
         {
           "name": "华为",
@@ -274,21 +287,8 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "MiniMax",
-              "news": [
-                {
-                  "title": "MiniMax M3发布：百万上下文、原生多模态，编程对标GPT-5.5",
-                  "summary": "6月1日，MiniMax发布新一代模型MiniMax M3，同时具备前沿编程、100万token超长上下文和原生多模态三项能力。M3采用自研稀疏注意力架构MSA，在100万上下文下单token计算量约为上代二十分之一。编程方面在SWE-Bench Pro上超过GPT-5.5和Gemini 3.1 Pro，模型将开源。",
-                  "link": "https://www.stcn.com/article/detail/3936406.html",
-                  "tags": [
-                    "开源模型",
-                    "长上下文",
-                    "多模态"
-                  ],
-                  "source": "证券时报",
-                  "time": "6月1日"
-                }
-              ]
+              "title": "月之暗面",
+              "news": []
             },
             {
               "title": "英特尔",
