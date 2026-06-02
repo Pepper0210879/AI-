@@ -1265,6 +1265,42 @@ a.ranking-model-link:hover {
     flex: 1;
 }
 
+/* 信源说明弹窗 */
+.source-modal-container {
+    max-width: 640px;
+}
+
+.source-modal-body {
+    padding: 0.5rem 1.75rem 2rem;
+}
+
+.source-section {
+    margin-bottom: 1.25rem;
+}
+
+.source-section h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.35rem;
+}
+
+.source-section p {
+    font-size: 0.88rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0;
+}
+
+.source-btn {
+    color: var(--text-secondary) !important;
+}
+
+.source-btn:hover {
+    color: var(--accent-blue) !important;
+    background: rgba(59, 130, 246, 0.08);
+}
+
 .modal-news-block--divider {
     margin-top: 1.5rem;
     padding-top: 1.5rem;

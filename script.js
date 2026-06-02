@@ -1325,7 +1325,20 @@ function setupEventListeners() {
 
     // ESC 关闭弹窗
     document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') closeVendorModal();
+        if (e.key === 'Escape') {
+            if (document.getElementById('vendor-modal').classList.contains('active')) {
+                closeVendorModal();
+            } else if (document.getElementById('source-modal').classList.contains('active')) {
+                closeSourceModal();
+            }
+        }
+    });
+
+    // 信源说明弹窗
+    document.getElementById('source-info-btn').addEventListener('click', openSourceModal);
+    document.getElementById('source-modal-close').addEventListener('click', closeSourceModal);
+    document.getElementById('source-modal').addEventListener('click', (e) => {
+        if (e.target === e.currentTarget) closeSourceModal();
     });
 
     // 板块折叠
@@ -1526,6 +1539,16 @@ function openVendorModal(category, vendorIndex) {
 
 function closeVendorModal() {
     document.getElementById('vendor-modal').classList.remove('active');
+    document.body.classList.remove('modal-open');
+}
+
+function openSourceModal() {
+    document.getElementById('source-modal').classList.add('active');
+    document.body.classList.add('modal-open');
+}
+
+function closeSourceModal() {
+    document.getElementById('source-modal').classList.remove('active');
     document.body.classList.remove('modal-open');
 }
 

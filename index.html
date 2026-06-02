@@ -36,6 +36,10 @@
                     </div>
 
                     <div class="action-buttons">
+                        <button class="action-btn source-btn" id="source-info-btn" title="信源说明">
+                            <i class="fas fa-info-circle"></i>
+                            <span>信源</span>
+                        </button>
                         <a href="admin.html" class="action-btn admin-btn" title="内容管理">
                             <i class="fas fa-cog"></i>
                             <span>管理</span>
@@ -131,6 +135,38 @@
                 <button class="modal-close" id="modal-close" aria-label="关闭弹窗">&times;</button>
             </div>
             <div class="modal-body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- 信源说明弹窗 -->
+    <div class="modal-overlay" id="source-modal">
+        <div class="modal-container source-modal-container">
+            <div class="modal-header">
+                <h3>📰 信源说明</h3>
+                <button class="modal-close" id="source-modal-close" aria-label="关闭">&times;</button>
+            </div>
+            <div class="modal-body source-modal-body">
+                <div class="source-section">
+                    <h4>📡 四大早报源（Step 1）</h4>
+                    <p>Playwright 无头浏览器每日自动抓取：<b>36氪 8点1氪</b>、<b>爱范儿早报</b>、<b>极客公园 极客早知道</b>、<b>IT之家 IT早报</b>。从中提取全部 AI 相关新闻，不受 24 小时窗口限制。</p>
+                </div>
+                <div class="source-section">
+                    <h4>🔍 补充站点（Step 4）</h4>
+                    <p>机器之心、量子位、腾讯新闻科技、千问/豆包/Kimi/智谱官方 Blog，查漏补缺，24 小时时效过滤。</p>
+                </div>
+                <div class="source-section">
+                    <h4>🔗 独立链接（Step 3b-2）</h4>
+                    <p>每条新闻在互联网上搜索独立报道链接。优先级：第一财经 &gt; 华尔街见闻 &gt; 证券时报 &gt; 财联社 &gt; 36氪 &gt; 新浪财经 &gt; 腾讯新闻 &gt; IT之家。</p>
+                </div>
+                <div class="source-section">
+                    <h4>✅ 逐条复核（Step 8）</h4>
+                    <p>IT之家/36氪等可推算 ID 的链接用 Playwright 逐条打开验证；其他来源用 HTTP 请求验证。标题关键词匹配 + 日期一致性校验，确保每条链接指向正确文章。</p>
+                </div>
+                <div class="source-section">
+                    <h4>🏷️ 分类规则</h4>
+                    <p>先赛道后厂商：具身智能 → 自动驾驶 → AI 出海 → 投资资讯 → 其他厂商 → 行业趋势。被跟踪的海外/国内友商新闻优先归入各自卡片。</p>
+                </div>
+            </div>
         </div>
     </div>
 
