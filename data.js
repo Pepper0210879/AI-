@@ -287,10 +287,6 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "月之暗面",
-              "news": []
-            },
-            {
               "title": "英特尔",
               "news": [
                 {
