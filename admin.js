@@ -126,6 +126,7 @@ function loadData() {
 async function saveData() {
     // 先保存数据（核心操作，不能因 IP 查询失败而阻塞）
     const changes = diffData(originalData, editingData);
+    console.log('[审计] diff结果:', changes.length, '条变动', changes);
 
     // 标记为手动编辑，让首页优先读取 localStorage 而非 data.js
     editingData._manualEdit = new Date().toISOString();
@@ -758,8 +759,13 @@ function bindTagInputs(el) {
 }
 
 function bindFieldChanges(el) {
-    // 使用事件委托监听所有输入变化
+    // 使用事件委托监听所有输入变化（change 保证失焦时一定触发，input 保证实时同步）
     el.addEventListener('change', (e) => {
+        const target = e.target;
+        if (!target.dataset.field) return;
+        applyFieldChange(target);
+    });
+    el.addEventListener('input', (e) => {
         const target = e.target;
         if (!target.dataset.field) return;
         applyFieldChange(target);
