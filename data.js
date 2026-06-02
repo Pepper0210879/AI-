@@ -67,7 +67,7 @@ window.__RAW_DATA = {
           ]
         },
         {
-          "name": "xAI（含 SpaceX）",
+          "name": "xAI",
           "color": "#1DA1F2",
           "softBg": "#E8F5FD",
           "initial": "X",

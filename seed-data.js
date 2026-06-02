@@ -768,7 +768,20 @@ window.__SEED_CONFIRMED = {
             "color": "#1da1f2",
             "softBg": "#e8f5fd",
             "initial": "X",
-            "news": []
+            "news": [
+              {
+                "title": "SpaceX 冲刺 2 万亿美元 IPO，马斯克整合「太空操作系统」",
+                "summary": "5月31日消息，SpaceX 正式公开 S-1 招股书，计划募资约 750 亿美元，目标估值 1.75-2 万亿美元。若成功将超越沙特阿美成为全球史上最大规模 IPO。马斯克将 SpaceX 定位为「物理世界操作系统」，AI 业务 Q1 资本支出 77 亿美元。",
+                "link": "https://www.ithome.com/0/957/702.htm",
+                "tags": [
+                  "SpaceX",
+                  "IPO",
+                  "马斯克"
+                ],
+                "source": "IT之家",
+                "time": "今天"
+              }
+            ]
           },
           {
             "name": "NVIDIA",
@@ -1223,20 +1236,7 @@ window.__SEED_CONFIRMED = {
               },
               {
                 "title": "SpaceX",
-                "news": [
-                  {
-                    "title": "SpaceX 冲刺 2 万亿美元 IPO，马斯克整合「太空操作系统」",
-                    "summary": "5月31日消息，SpaceX 正式公开 S-1 招股书，计划募资约 750 亿美元，目标估值 1.75-2 万亿美元。若成功将超越沙特阿美成为全球史上最大规模 IPO。马斯克将 SpaceX 定位为「物理世界操作系统」，AI 业务 Q1 资本支出 77 亿美元。",
-                    "link": "https://www.ithome.com/0/957/702.htm",
-                    "tags": [
-                      "SpaceX",
-                      "IPO",
-                      "马斯克"
-                    ],
-                    "source": "IT之家",
-                    "time": "今天"
-                  }
-                ]
+                "news": []
               }
             ]
           },
@@ -1669,7 +1669,7 @@ window.__SEED_CONFIRMED = {
             ]
           },
           {
-            "name": "xAI（含 SpaceX）",
+            "name": "xAI",
             "color": "#1DA1F2",
             "softBg": "#E8F5FD",
             "initial": "X",
