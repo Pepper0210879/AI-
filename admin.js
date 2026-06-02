@@ -137,7 +137,7 @@ async function saveData() {
     updateSaveStatus();
 
     // 异步获取 IP 并记录日志（不阻塞保存）
-    let ip = '获取中...';
+    let ip = '查询中...';
     const entry = {
         time: new Date().toISOString(),
         ip: ip,
@@ -151,10 +151,10 @@ async function saveData() {
     showToast(`已保存，共 ${changes.length} 处变更`);
     refreshAuditPanel();
 
-    // 后台静默获取真实 IP，拿到后更新日志
+    // 异步获取真实 IP，拿到后更新日志
     try {
         const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 5000);
+        const timeout = setTimeout(() => controller.abort(), 3000);
         const resp = await fetch('https://api.ipify.org?format=json', { signal: controller.signal });
         clearTimeout(timeout);
         const data = await resp.json();
@@ -167,7 +167,13 @@ async function saveData() {
             refreshAuditPanel();
         }
     } catch (e) {
-        // IP 获取失败，保留 '获取中...'
+        entry.ip = '无法获取（网络限制）';
+        const updatedLog = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
+        if (updatedLog.length > 0 && updatedLog[0].time === entry.time) {
+            updatedLog[0].ip = '无法获取（网络限制）';
+            localStorage.setItem('ai-news-audit-log', JSON.stringify(updatedLog));
+            refreshAuditPanel();
+        }
     }
 }
 
