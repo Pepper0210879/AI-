@@ -124,18 +124,16 @@ function loadData() {
 }
 
 async function saveData() {
-    // 计算变更
+    // 先保存数据（核心操作，不能因 IP 查询失败而阻塞）
     const changes = diffData(originalData, editingData);
 
-    // 获取 IP
-    let ip = '未知';
-    try {
-        const resp = await fetch('https://api.ipify.org?format=json');
-        const data = await resp.json();
-        ip = data.ip;
-    } catch (e) {}
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(editingData));
+    localStorage.setItem('ai-news-last-update', new Date().toISOString());
+    originalData = JSON.parse(JSON.stringify(editingData));
+    updateSaveStatus();
 
-    // 记录审计日志
+    // 异步获取 IP 并记录日志（不阻塞保存）
+    let ip = '获取中...';
     const entry = {
         time: new Date().toISOString(),
         ip: ip,
@@ -143,16 +141,30 @@ async function saveData() {
     };
     const log = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
     log.unshift(entry);
-    if (log.length > 50) log.length = 50; // 最多保留50条
+    if (log.length > 50) log.length = 50;
     localStorage.setItem('ai-news-audit-log', JSON.stringify(log));
 
-    // 保存
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(editingData));
-    localStorage.setItem('ai-news-last-update', new Date().toISOString());
-    originalData = JSON.parse(JSON.stringify(editingData));
-    updateSaveStatus();
     showToast(`已保存，共 ${changes.length} 处变更`);
     refreshAuditPanel();
+
+    // 后台静默获取真实 IP，拿到后更新日志
+    try {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 5000);
+        const resp = await fetch('https://api.ipify.org?format=json', { signal: controller.signal });
+        clearTimeout(timeout);
+        const data = await resp.json();
+        entry.ip = data.ip;
+        // 更新日志中的 IP
+        const updatedLog = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
+        if (updatedLog.length > 0 && updatedLog[0].time === entry.time) {
+            updatedLog[0].ip = data.ip;
+            localStorage.setItem('ai-news-audit-log', JSON.stringify(updatedLog));
+            refreshAuditPanel();
+        }
+    } catch (e) {
+        // IP 获取失败，保留 '获取中...'
+    }
 }
 
 function diffData(oldData, newData) {
