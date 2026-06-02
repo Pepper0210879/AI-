@@ -544,7 +544,7 @@ const VENDOR_DISPLAY = {
     "SK海力士":     { color: "#8a9ad4", softBg: "#eff0fa", initial: "S" },
     "小米汽车":     { color: "#d4a882", softBg: "#faf5ee", initial: "车" },
     "OpenRouter":   { color: "#7ab8d6", softBg: "#edf5fa", initial: "O" },
-    "MiniMax":      { color: "#d4a0b4", softBg: "#faf0f4", initial: "M" },
+    "MiniMax":      { color: "#d4a0b4", softBg: "#faf0f4", initial: "M", logo: "logos/MiniMax.png" },
     "小鹏汽车":     { color: "#8ac4a0", softBg: "#effaf3", initial: "鹏" },
     "小鹏 IRON":    { color: "#8a9ad4", softBg: "#eff0fa", initial: "I" },
     "苹果":         { color: "#a0a8b0", softBg: "#f2f4f5", initial: "苹" },
