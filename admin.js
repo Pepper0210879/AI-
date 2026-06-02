@@ -56,7 +56,7 @@ const DEFAULT_DATA = {
 };
 
 // ==================== 登录（白名单制） ====================
-const OPERATOR_WHITELIST = ['秦洁瑶', '巩玉', '刘峰毅', '徐梓茗', '蒋雪', '王笛'];
+const OPERATOR_WHITELIST = ['秦洁瑶', '巩玉', '刘峰毅', '徐梓茗', '蒋雪', '王笛', '李婧文'];
 
 function checkLogin() {
     const overlay = document.getElementById('login-overlay');
