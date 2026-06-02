@@ -23,6 +23,18 @@ window.__RAW_DATA = {
               ],
               "source": "搜狐新闻",
               "time": "当地时间6月1日"
+            },
+            {
+              "title": "OpenAI官宣进军机器人领域，短期聚焦协助型机器人",
+              "summary": "当地时间6月1日，OpenAI CEO山姆·奥特曼宣布成立OpenAI Robotics团队，正在招聘全栈硬件、运营及机器学习工程师。该项目由世界模拟研究演变而来，短期内专注研发协助技术工人的机器人，长期愿景是让每个人都拥有个人机器人。",
+              "link": "https://finance.sina.com.cn/wm/2026-06-01/doc-inhzxewn3857979.shtml",
+              "tags": [
+                "机器人",
+                "世界模拟",
+                "具身智能"
+              ],
+              "source": "新浪财经",
+              "time": "当地时间6月1日"
             }
           ]
         },
@@ -101,6 +113,18 @@ window.__RAW_DATA = {
                 "AI工厂"
               ],
               "source": "电子工程专辑",
+              "time": "6月1日"
+            },
+            {
+              "title": "英伟达联手宇树推出人形机器人参考设计H2+",
+              "summary": "6月1日，英伟达CEO黄仁勋宣布与宇树科技合作推出新一代人形机器人参考设计H2+（Isaac GR00T系统）。该机器人身高约1.8米、重约68公斤，本体31个自由度，每只机械手25个自由度，旨在加速全球人形机器人行业创新。",
+              "link": "https://www.thepaper.cn/newsdetail_forward_33282086",
+              "tags": [
+                "人形机器人",
+                "英伟达",
+                "参考设计"
+              ],
+              "source": "澎湃新闻",
               "time": "6月1日"
             }
           ]
@@ -378,35 +402,6 @@ window.__RAW_DATA = {
                   ],
                   "source": "新浪财经",
                   "time": "6月1日"
-                },
-                {
-                  "title": "英伟达联手宇树推出人形机器人参考设计H2+",
-                  "summary": "6月1日，英伟达CEO黄仁勋宣布与宇树科技合作推出新一代人形机器人参考设计H2+（Isaac GR00T系统）。该机器人身高约1.8米、重约68公斤，本体31个自由度，每只机械手25个自由度，旨在加速全球人形机器人行业创新。",
-                  "link": "https://www.thepaper.cn/newsdetail_forward_33282086",
-                  "tags": [
-                    "人形机器人",
-                    "英伟达",
-                    "参考设计"
-                  ],
-                  "source": "澎湃新闻",
-                  "time": "6月1日"
-                }
-              ]
-            },
-            {
-              "title": "OpenAI Robotics",
-              "news": [
-                {
-                  "title": "OpenAI官宣进军机器人领域，短期聚焦协助型机器人",
-                  "summary": "当地时间6月1日，OpenAI CEO山姆·奥特曼宣布成立OpenAI Robotics团队，正在招聘全栈硬件、运营及机器学习工程师。该项目由世界模拟研究演变而来，短期内专注研发协助技术工人的机器人，长期愿景是让每个人都拥有个人机器人。",
-                  "link": "https://finance.sina.com.cn/wm/2026-06-01/doc-inhzxewn3857979.shtml",
-                  "tags": [
-                    "机器人",
-                    "世界模拟",
-                    "具身智能"
-                  ],
-                  "source": "新浪财经",
-                  "time": "当地时间6月1日"
                 }
               ]
             },
