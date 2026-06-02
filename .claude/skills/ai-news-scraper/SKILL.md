@@ -16,6 +16,8 @@ description: 每日AI早报新闻抓取与整理。当用户说"抓取今日新�
 | 3 | 如果某步执行失败或数据缺失，**标注原因并询问用户**，不得静默跳过 |
 | 4 | 所有链接必须是独立文章 URL，**日报整合页 URL 不得作为新闻链接** |
 | 5 | 写入文件后**必须用 grep 自检**，确认零日报链接残留 |
+| 6 | **海外/国内友商新闻优先归入各自卡片**，不被赛道分类抢走（详见 3b-1） |
+| 7 | **NVIDIA GTC 大会发布的技术，标题必须标注大会名称**（详见 GTC 标题规范） |
 
 **今日日期**：开始前先确认当天日期。`date` 字段使用**当天日期**（日报发布日），例如 5/29 运行 → `"date": "2026-05-29"`。
 
@@ -30,7 +32,7 @@ description: 每日AI早报新闻抓取与整理。当用户说"抓取今日新�
 | OpenAI | 阿里云 | 其他厂商 |
 | Anthropic | 火山引擎 | 自动驾驶 |
 | Google | DeepSeek | 具身智能 |
-| xAI（含 SpaceX） | 腾讯 | AI出海 |
+| xAI | 腾讯 | AI出海 |
 | NVIDIA | 小米 | 投资资讯 |
 | Meta | 智谱AI | 行业趋势&观点 |
 | | 月之暗面 | |
@@ -105,6 +107,8 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py articles \
 ```
 
 **产出**：`.claude/skills/ai-news-scraper/raw/daily_reports.json`
+
+> **注意**：如果 `fetcher.py articles` 命令未实现，直接用 Playwright Python 脚本逐篇打开四篇文章 URL，提取 `page.inner_text('body')` 保存为 JSON。
 
 ### >> 检查点 2
 
@@ -191,6 +195,8 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py articles \
 
 > **「其他厂商」= 不在重点跟踪列表里的独立厂商，不是"小公司"。** 苹果、三星、亚马逊等大公司同样归入，判断标准是新闻是否属于独立厂商的 AI 产品发布/业务更新，跟公司大小无关。
 
+> **「其他关注」空卡片规则：cards 数组中 news 为空的卡片不应保留。** 只保留有新闻的卡片，避免月之暗面等空卡片占据版面。
+
 卡片标题**必须从新闻中提取具体名称**，严禁用分类名（如"其他厂商"）作为标题。按优先级：
 
 1. 有厂商名 → 用厂商名（如 `三星`、`小米`）
@@ -201,7 +207,13 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py articles \
 
 同一厂商多条新闻 → 合并为一张卡片，卡片标题用厂商名。
 
-### 3d. 判断新闻主体
+### 3d. NVIDIA GTC 标题规范
+
+> **NVIDIA GTC 大会上发布的技术，标题前缀必须标注大会名称。** 格式：`NVIDIA GTC 2026：英伟达发布XXX`。不要写「黄仁勋发布」，发布主体是英伟达公司。不要将 GTC 与 COMPUTEX 混淆——英伟达的主要发布在 GTC，COMPUTEX 是同期的行业展会。
+
+**链接来源必须准确反映发布会场**：若新闻链接声称产品在 COMPUTEX 发布但实际是在 GTC 发布，该链接不可用，必须换到正确标注 GTC 的报道。
+
+### 3e. 判断新闻主体
 
 判断"谁是这个新闻的主角"，不是关键词匹配：
 - 团队背景提到某公司 ≠ 该公司新闻
@@ -252,7 +264,7 @@ python3 .claude/skills/ai-news-scraper/scripts/fetcher.py supplementary
 
 ### 4b. 重点查漏方向
 
-- **海外厂商**：OpenAI、Anthropic、Google、xAI、NVIDIA、Meta 等遗漏动态
+- **海外厂商**：OpenAI、Anthropic、Google、xAI（含 SpaceX）、NVIDIA、Meta 等遗漏动态
 - **国内厂商**：阿里云、火山引擎、DeepSeek、腾讯、小米、智谱 AI、月之暗面、华为等遗漏动态
 - **其他友商**：面壁智能、MiniMax、百川智能、零一万物、阶跃星辰等未在日报中出现但值得关注的新闻
 
@@ -350,7 +362,14 @@ Product Hunt 每个产品需要额外查找**官网链接**，存入 `link` 字�
 
 ### 6d. 榜单数据字段规范
 
+> **每个 platform 对象必须包含 `link` 字段**（LMArena、OpenRouter、Product Hunt 各自官网 URL），否则首页榜单标题无法点击跳转。
+
 ```json
+// platform 级别必须有 link
+{ "name": "LMArena", "date": "2026-05-28", "link": "https://lmarena.ai/leaderboard/text", "rankings": [...] }
+{ "name": "OpenRouter", "date": "2026-06-02", "link": "https://openrouter.ai/rankings", "rankings": [...] }
+{ "name": "Product Hunt", "date": "2026-06-01", "link": "https://www.producthunt.com/", "rankings": [...] }
+
 // LMArena: 模型榜单
 { "model": "claude-opus-4-7", "score": "1503", "change": "+2" }
 
@@ -668,15 +687,18 @@ x月x日新闻  |  新闻标题
 | 规则 | 说明 |
 |------|------|
 | 日报优先 | 四大早报中 AI 新闻必须全部收录，不受 24 小时限制 |
+| 友商优先归卡 | 被跟踪友商新闻优先归入各自卡片，赛道分类仅用于「其他关注」内部 |
 | 链接强制 | 日报整合 URL 不得作为新闻链接；写入后必须 grep 自检 |
 | 链接优先级 | 第一财经 > 证券时报 > 财联社 > 36氪 > 新浪财经 > 腾讯新闻 > IT之家 |
 | 日期当天 | `date` 使用当天日期（日报发布日），不往前一天 |
 | 时间兜底 | 链接无法确认事件确切日期 → 一律写「x月x日消息」，不做自行推断 |
+| NVIDIA GTC 标题 | GTC 发布的技术标题前缀「NVIDIA GTC 2026：」，发布主体是英伟达非黄仁勋 |
 | 不被品类误导 | 产品带 Agentic AI / 自研 AI 助手等实质 AI 功能 → 收录，不看品类名 |
 | Vibe Coding | 非技术人员用 AI 编程工具独立开发应用 → 收录，归入行业趋势&观点 |
 | 其他厂商 vs 趋势 | 具体厂商 AI 产品 → 其他厂商；宏观趋势/行业现象 → 行业趋势&观点 |
 | 补充站点 | Step 4 绝不可跳过；24 小时窗口过滤 + 二次复核 |
 | 卡片标题 | 其他关注分类标题必须具体，严禁用分类名 |
+| 其他关注空卡片 | news 为空的卡片不保留 |
 | 判断主体 | 区分新闻主角 vs 被提及方，关键词匹配 ≠ 正确归类 |
 | 摘要规范 | 70-100 字，不加日期前缀，客观陈述 |
 | 宁缺毋滥 | 纯 PR 稿、无新信息、重复报道跳过 |
@@ -684,3 +706,5 @@ x月x日新闻  |  新闻标题
 | 空数组 | 无新闻的厂商/分类，news/cards 保留 `[]` |
 | 无新闻卡片 | 海外/国内厂商无新闻时展示近期 2-3 条历史新闻，灰色文字 |
 | 飞书同步 | 仅同步有新闻厂商 + 榜单；同名表存在则删除重建；确保字段完整 |
+| 榜单 link | 三个榜单 platform 对象必须含 `link` 字段指向官网 |
+| xAI 显示名 | 数据中写 "xAI"，不显示 "（含 SpaceX）"，内部规则记录在 CLAUDE.md |
