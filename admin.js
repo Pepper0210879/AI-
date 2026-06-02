@@ -82,6 +82,8 @@ function checkLogin() {
 }
 
 // ==================== 操作人身份 ====================
+const OPERATOR_WHITELIST = ['秦洁瑶', '巩玉', '刘峰毅', '徐梓茗', '蒋雪', '王笛'];
+
 function getFingerprint() {
     return navigator.userAgent + '|' + screen.width + 'x' + screen.height + '|' + navigator.language + '|' + Intl.DateTimeFormat().resolvedOptions().timeZone;
 }
@@ -92,8 +94,13 @@ function initOperator() {
     if (saved) {
         try {
             const op = JSON.parse(saved);
-            // 指纹变了（换了设备/浏览器），重新问
             if (op.fingerprint !== fp) {
+                askOperatorName(fp);
+                return;
+            }
+            // 即使已有记录也校验白名单
+            if (!OPERATOR_WHITELIST.includes(op.name)) {
+                localStorage.removeItem('ai-news-operator');
                 askOperatorName(fp);
                 return;
             }
@@ -106,20 +113,25 @@ function initOperator() {
 }
 
 function askOperatorName(fp) {
-    const name = prompt('二次确认您的大名儿，已开放后台白名单：');
-    if (name && name.trim()) {
-        const op = { name: name.trim(), fingerprint: fp, since: new Date().toISOString() };
-        localStorage.setItem('ai-news-operator', JSON.stringify(op));
-        window._operator = op;
-        updateOperatorBadge();
-    } else {
-        // 不填就用设备指纹前8位
-        const shortFp = fp.replace(/[^a-zA-Z0-9]/g, '').slice(0, 8);
-        const op = { name: '设备-' + shortFp, fingerprint: fp, since: new Date().toISOString() };
-        localStorage.setItem('ai-news-operator', JSON.stringify(op));
-        window._operator = op;
-        updateOperatorBadge();
+    // 循环直到输入白名单内的名字
+    let name = '';
+    while (!name) {
+        const input = prompt('请输入您的大名儿：');
+        if (!input || !input.trim()) {
+            alert('请填写名字后再进入后台。');
+            continue;
+        }
+        const trimmed = input.trim();
+        if (!OPERATOR_WHITELIST.includes(trimmed)) {
+            alert('您不在后台白名单中，请联系管理员。');
+            continue;
+        }
+        name = trimmed;
     }
+    const op = { name: name, fingerprint: fp, since: new Date().toISOString() };
+    localStorage.setItem('ai-news-operator', JSON.stringify(op));
+    window._operator = op;
+    updateOperatorBadge();
 }
 
 function updateOperatorBadge() {
@@ -173,8 +185,7 @@ function loadData() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(editingData));
 }
 
-async function saveData() {
-    // 先保存数据（核心操作，不能因 IP 查询失败而阻塞）
+function saveData() {
     const changes = diffData(originalData, editingData);
     console.log('[审计] diff结果:', changes.length, '条变动', changes);
 
@@ -186,13 +197,11 @@ async function saveData() {
     originalData = JSON.parse(JSON.stringify(editingData));
     updateSaveStatus();
 
-    // 异步获取 IP 并记录日志（不阻塞保存）
+    // 审计日志
     const op = window._operator || {};
-    let ip = '查询中...';
     const entry = {
         time: new Date().toISOString(),
         operator: op.name || '未知',
-        ip: ip,
         changes: changes.length > 0 ? changes : ['无实质性变更']
     };
     const log = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
@@ -202,31 +211,6 @@ async function saveData() {
 
     showToast(`已保存，共 ${changes.length} 处变更`);
     refreshAuditPanel();
-
-    // 异步获取真实 IP，拿到后更新日志
-    try {
-        const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 3000);
-        const resp = await fetch('https://api.ipify.org?format=json', { signal: controller.signal });
-        clearTimeout(timeout);
-        const data = await resp.json();
-        entry.ip = data.ip;
-        // 更新日志中的 IP
-        const updatedLog = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
-        if (updatedLog.length > 0 && updatedLog[0].time === entry.time) {
-            updatedLog[0].ip = data.ip;
-            localStorage.setItem('ai-news-audit-log', JSON.stringify(updatedLog));
-            refreshAuditPanel();
-        }
-    } catch (e) {
-        entry.ip = '无法获取（网络限制）';
-        const updatedLog = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
-        if (updatedLog.length > 0 && updatedLog[0].time === entry.time) {
-            updatedLog[0].ip = '无法获取（网络限制）';
-            localStorage.setItem('ai-news-audit-log', JSON.stringify(updatedLog));
-            refreshAuditPanel();
-        }
-    }
 }
 
 function diffData(oldData, newData) {
@@ -321,7 +305,6 @@ function renderAuditLog() {
             <div class="audit-entry-header">
                 <span class="audit-entry-time">${timeStr}</span>
                 <span class="audit-entry-operator">${operator}</span>
-                <span class="audit-entry-ip">${entry.ip || '—'}</span>
             </div>
             <ul class="audit-entry-changes">
                 ${entry.changes.map(c => `<li>${c}</li>`).join('')}
