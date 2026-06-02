@@ -561,4 +561,18 @@
 
 .audit-btn { color: var(--text-secondary) !important; }
 .audit-btn:hover { color: var(--text-primary) !important; background: rgba(0,0,0,0.05); }
+
+.operator-badge {
+    font-size: 0.8rem; font-weight: 500;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+    background: var(--accent-blue, #3b82f6);
+    color: #fff;
+    margin-right: 0.5rem;
+}
+.audit-entry-operator {
+    font-size: 0.82rem; font-weight: 600;
+    color: var(--accent-blue, #3b82f6);
+    margin-right: auto;
+}
 }

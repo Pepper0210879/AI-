@@ -67,6 +67,7 @@ function checkLogin() {
     function attemptLogin() {
         if (input.value === ADMIN_PASSWORD) {
             overlay.style.display = 'none';
+            initOperator();
         } else {
             error.textContent = '密码错误，请重试';
             input.value = '';
@@ -78,6 +79,55 @@ function checkLogin() {
     input.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') attemptLogin();
     });
+}
+
+// ==================== 操作人身份 ====================
+function getFingerprint() {
+    return navigator.userAgent + '|' + screen.width + 'x' + screen.height + '|' + navigator.language + '|' + Intl.DateTimeFormat().resolvedOptions().timeZone;
+}
+
+function initOperator() {
+    const saved = localStorage.getItem('ai-news-operator');
+    const fp = getFingerprint();
+    if (saved) {
+        try {
+            const op = JSON.parse(saved);
+            // 指纹变了（换了设备/浏览器），重新问
+            if (op.fingerprint !== fp) {
+                askOperatorName(fp);
+                return;
+            }
+            window._operator = op;
+            updateOperatorBadge();
+            return;
+        } catch (e) {}
+    }
+    askOperatorName(fp);
+}
+
+function askOperatorName(fp) {
+    const name = prompt('请填写你的名字（用于操作记录留痕）：');
+    if (name && name.trim()) {
+        const op = { name: name.trim(), fingerprint: fp, since: new Date().toISOString() };
+        localStorage.setItem('ai-news-operator', JSON.stringify(op));
+        window._operator = op;
+        updateOperatorBadge();
+    } else {
+        // 不填就用设备指纹前8位
+        const shortFp = fp.replace(/[^a-zA-Z0-9]/g, '').slice(0, 8);
+        const op = { name: '设备-' + shortFp, fingerprint: fp, since: new Date().toISOString() };
+        localStorage.setItem('ai-news-operator', JSON.stringify(op));
+        window._operator = op;
+        updateOperatorBadge();
+    }
+}
+
+function updateOperatorBadge() {
+    const badge = document.getElementById('operator-badge');
+    if (badge && window._operator) {
+        badge.textContent = window._operator.name;
+        badge.style.display = 'inline';
+    }
 }
 
 // ==================== 状态 ====================
@@ -137,9 +187,11 @@ async function saveData() {
     updateSaveStatus();
 
     // 异步获取 IP 并记录日志（不阻塞保存）
+    const op = window._operator || {};
     let ip = '查询中...';
     const entry = {
         time: new Date().toISOString(),
+        operator: op.name || '未知',
         ip: ip,
         changes: changes.length > 0 ? changes : ['无实质性变更']
     };
@@ -264,10 +316,12 @@ function renderAuditLog() {
     return log.map((entry, i) => {
         const d = new Date(entry.time);
         const timeStr = d.toLocaleString('zh-CN');
+        const operator = entry.operator || '未知';
         return `<div class="audit-entry">
             <div class="audit-entry-header">
                 <span class="audit-entry-time">${timeStr}</span>
-                <span class="audit-entry-ip">IP: ${entry.ip}</span>
+                <span class="audit-entry-operator">${operator}</span>
+                <span class="audit-entry-ip">${entry.ip || '—'}</span>
             </div>
             <ul class="audit-entry-changes">
                 ${entry.changes.map(c => `<li>${c}</li>`).join('')}
