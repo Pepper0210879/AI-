@@ -432,7 +432,7 @@ window.__RAW_DATA = {
           "name": "投资资讯",
           "cards": [
             {
-              "title": "博登智能 A+轮及A++轮",
+              "title": "博登智能",
               "news": [
                 {
                   "title": "博登智能完成数亿元融资，布局Physical AI基础设施",
