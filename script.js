@@ -707,10 +707,12 @@ async function loadNewsDataFromJSON() {
     // 只有 localStorage 日期严格大于 data.js 时，才认为用户手动编辑了更新日期
     const rawDate = rawData?.date || '';
     const lsDate = lsData?.date || '';
+    const isManualEdit = lsData?._manualEdit && lsDate === rawDate;
 
-    if (lsDate > rawDate) {
+    if (lsDate > rawDate || isManualEdit) {
         // localStorage 日期更新 → 用户手动编辑优先
         if (lsData) {
+            delete lsData._manualEdit; // 清理内部标记
             enrichData(lsData);
             console.log('已从 localStorage 加载新闻数据（用户编辑优先）');
             return lsData;

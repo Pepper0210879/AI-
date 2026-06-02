@@ -127,6 +127,9 @@ async function saveData() {
     // 先保存数据（核心操作，不能因 IP 查询失败而阻塞）
     const changes = diffData(originalData, editingData);
 
+    // 标记为手动编辑，让首页优先读取 localStorage 而非 data.js
+    editingData._manualEdit = new Date().toISOString();
+
     localStorage.setItem(STORAGE_KEY, JSON.stringify(editingData));
     localStorage.setItem('ai-news-last-update', new Date().toISOString());
     originalData = JSON.parse(JSON.stringify(editingData));
@@ -193,20 +196,25 @@ function diffData(oldData, newData) {
                     removed.forEach(n => changes.push(`[${name}] 删除：${n.title}`));
                 }
             }
-            // 检查标题相同但内容变化的
-            const oldMap = {};
-            (ov.news || []).forEach(n => { oldMap[n.title] = n; });
-            (nv.news || []).forEach(n => {
-                const old = oldMap[n.title];
-                if (old) {
+            // 按位置比对每条新闻（处理标题也可能被修改的情况）
+            const maxNews = Math.max(oldCount, newCount);
+            for (let ni = 0; ni < maxNews; ni++) {
+                const on = (ov.news || [])[ni];
+                const nn = (nv.news || [])[ni];
+                if (!on && nn) {
+                    changes.push(`[${name}] 新增：${nn.title}`);
+                } else if (on && !nn) {
+                    changes.push(`[${name}] 删除：${on.title}`);
+                } else if (on && nn) {
                     const diffs = [];
-                    if (old.summary !== n.summary) diffs.push('摘要');
-                    if (old.link !== n.link) diffs.push('链接');
-                    if (old.time !== n.time) diffs.push('时间');
-                    if (JSON.stringify(old.tags) !== JSON.stringify(n.tags)) diffs.push('标签');
-                    if (diffs.length > 0) changes.push(`[${name}] 修改：${n.title}（${diffs.join('、')}）`);
+                    if (on.title !== nn.title) diffs.push(`标题「${on.title}」→「${nn.title}」`);
+                    if (on.summary !== nn.summary) diffs.push('摘要');
+                    if (on.link !== nn.link) diffs.push('链接');
+                    if (on.time !== nn.time) diffs.push('时间');
+                    if (JSON.stringify(on.tags) !== JSON.stringify(nn.tags)) diffs.push('标签');
+                    if (diffs.length > 0) changes.push(`[${name}] 修改：${diffs.join('、')}`);
                 }
-            });
+            }
         }
     }
 
