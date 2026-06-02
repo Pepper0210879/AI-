@@ -749,37 +749,43 @@ window.__RAW_DATA = {
         },
         {
           "name": "Product Hunt",
-          "date": "2026-06-01",
+          "date": "2026-05-31",
           "rankings": [
             {
-              "name": "Wandesk",
-              "category": "Productivity",
+              "name": "Clipto",
+              "category": "Mac",
               "rank": 1,
-              "link": "https://wandesk.ai"
+              "link": "https://www.clipto.com/"
             },
             {
-              "name": "Wingbits AI",
-              "category": "API",
+              "name": "Oura Ring 5",
+              "category": "Health & Fitness",
               "rank": 2,
-              "link": "https://www.wingbits.ai/"
+              "link": "https://ouraring.com/"
             },
             {
-              "name": "Exstats",
-              "category": "Browser Extensions",
+              "name": "Second Brain for AI",
+              "category": "Open Source",
               "rank": 3,
-              "link": "https://www.producthunt.com/products/exstats"
+              "link": "https://www.thesecondbrain.dev/"
             },
             {
-              "name": "Openstatus MCP Health Checker",
-              "category": "Open Source",
+              "name": "TabTasker",
+              "category": "Productivity",
               "rank": 4,
-              "link": "https://www.openstatus.dev/play/mcp-health"
+              "link": "https://www.producthunt.com/products/tabtasker"
             },
             {
-              "name": "Step 3.7 Flash",
-              "category": "Open Source",
+              "name": "Marqly 5.0",
+              "category": "Productivity",
               "rank": 5,
-              "link": "https://github.com/stepfun-ai/Step-3.7-Flash"
+              "link": "https://marqly.com/"
+            },
+            {
+              "name": "Web Clipper for NotebookLM",
+              "category": "Chrome Extensions",
+              "rank": 6,
+              "link": "https://web-clipper-for-notebooklm.com/"
             }
           ]
         }
