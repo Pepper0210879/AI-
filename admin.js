@@ -55,83 +55,52 @@ const DEFAULT_DATA = {
     }
 };
 
-// ==================== 登录 ====================
-const ADMIN_PASSWORD = 'admin123'; // 在这里修改密码
+// ==================== 登录（白名单制） ====================
+const OPERATOR_WHITELIST = ['秦洁瑶', '巩玉', '刘峰毅', '徐梓茗', '蒋雪', '王笛'];
 
 function checkLogin() {
     const overlay = document.getElementById('login-overlay');
-    const input = document.getElementById('login-password');
+    const input = document.getElementById('login-name');
     const error = document.getElementById('login-error');
     const btn = document.getElementById('login-btn');
 
+    // 已有有效身份 → 直接进
+    const saved = localStorage.getItem('ai-news-operator');
+    if (saved) {
+        try {
+            const op = JSON.parse(saved);
+            if (OPERATOR_WHITELIST.includes(op.name)) {
+                window._operator = op;
+                overlay.style.display = 'none';
+                updateOperatorBadge();
+                return;
+            }
+        } catch (e) {}
+    }
+
     function attemptLogin() {
-        if (input.value === ADMIN_PASSWORD) {
-            overlay.style.display = 'none';
-            initOperator();
-        } else {
-            error.textContent = '密码错误，请重试';
+        const name = input.value.trim();
+        if (!name) {
+            error.textContent = '请输入您的大名儿';
+            return;
+        }
+        if (!OPERATOR_WHITELIST.includes(name)) {
+            error.textContent = '您不在后台白名单中，请联系管理员';
             input.value = '';
             input.focus();
+            return;
         }
+        const op = { name: name, since: new Date().toISOString() };
+        localStorage.setItem('ai-news-operator', JSON.stringify(op));
+        window._operator = op;
+        overlay.style.display = 'none';
+        updateOperatorBadge();
     }
 
     btn.addEventListener('click', attemptLogin);
     input.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') attemptLogin();
     });
-}
-
-// ==================== 操作人身份 ====================
-const OPERATOR_WHITELIST = ['秦洁瑶', '巩玉', '刘峰毅', '徐梓茗', '蒋雪', '王笛'];
-
-function getFingerprint() {
-    return navigator.userAgent + '|' + screen.width + 'x' + screen.height + '|' + navigator.language + '|' + Intl.DateTimeFormat().resolvedOptions().timeZone;
-}
-
-function initOperator() {
-    const saved = localStorage.getItem('ai-news-operator');
-    const fp = getFingerprint();
-    if (saved) {
-        try {
-            const op = JSON.parse(saved);
-            if (op.fingerprint !== fp) {
-                askOperatorName(fp);
-                return;
-            }
-            // 即使已有记录也校验白名单
-            if (!OPERATOR_WHITELIST.includes(op.name)) {
-                localStorage.removeItem('ai-news-operator');
-                askOperatorName(fp);
-                return;
-            }
-            window._operator = op;
-            updateOperatorBadge();
-            return;
-        } catch (e) {}
-    }
-    askOperatorName(fp);
-}
-
-function askOperatorName(fp) {
-    // 循环直到输入白名单内的名字
-    let name = '';
-    while (!name) {
-        const input = prompt('请输入您的大名儿：');
-        if (!input || !input.trim()) {
-            alert('请填写名字后再进入后台。');
-            continue;
-        }
-        const trimmed = input.trim();
-        if (!OPERATOR_WHITELIST.includes(trimmed)) {
-            alert('您不在后台白名单中，请联系管理员。');
-            continue;
-        }
-        name = trimmed;
-    }
-    const op = { name: name, fingerprint: fp, since: new Date().toISOString() };
-    localStorage.setItem('ai-news-operator', JSON.stringify(op));
-    window._operator = op;
-    updateOperatorBadge();
 }
 
 function updateOperatorBadge() {
