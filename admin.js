@@ -106,7 +106,7 @@ function initOperator() {
 }
 
 function askOperatorName(fp) {
-    const name = prompt('请填写你的名字（用于操作记录留痕）：');
+    const name = prompt('二次确认您的大名儿，已开放后台白名单：');
     if (name && name.trim()) {
         const op = { name: name.trim(), fingerprint: fp, since: new Date().toISOString() };
         localStorage.setItem('ai-news-operator', JSON.stringify(op));
