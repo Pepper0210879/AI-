@@ -166,18 +166,7 @@ function saveData() {
     originalData = JSON.parse(JSON.stringify(editingData));
     updateSaveStatus();
 
-    // 审计日志
-    const op = window._operator || {};
-    const entry = {
-        time: new Date().toISOString(),
-        operator: op.name || '未知',
-        changes: changes.length > 0 ? changes : ['无实质性变更']
-    };
-    const log = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
-    log.unshift(entry);
-    if (log.length > 50) log.length = 50;
-    localStorage.setItem('ai-news-audit-log', JSON.stringify(log));
-
+    addAuditEntry(changes.length > 0 ? changes : ['无实质性变更']);
     showToast(`已保存，共 ${changes.length} 处变更`);
     refreshAuditPanel();
 }
@@ -390,12 +379,28 @@ function confirmTodayNews() {
     const confirmed = getConfirmedData();
     confirmed[todayStr] = JSON.parse(JSON.stringify(editingData));
     localStorage.setItem(CONFIRMED_KEY, JSON.stringify(confirmed));
+    addAuditEntry(['确认当日新闻']);
 }
 
 function unconfirmTodayNews() {
     const confirmed = getConfirmedData();
     delete confirmed[getTodayStr()];
     localStorage.setItem(CONFIRMED_KEY, JSON.stringify(confirmed));
+    addAuditEntry(['取消确认当日新闻']);
+}
+
+function addAuditEntry(changes) {
+    const op = window._operator || {};
+    const entry = {
+        time: new Date().toISOString(),
+        operator: op.name || '未知',
+        changes: changes
+    };
+    const log = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
+    log.unshift(entry);
+    if (log.length > 50) log.length = 50;
+    localStorage.setItem('ai-news-audit-log', JSON.stringify(log));
+    refreshAuditPanel();
 }
 
 function autoConfirmMissedDays() {
