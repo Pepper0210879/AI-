@@ -146,11 +146,23 @@ window.__RAW_DATA = {
           ]
         },
         {
-          "name": "Meta",
-          "color": "#1877F2",
-          "softBg": "#E8F0FE",
-          "initial": "M",
-          "news": []
+          "name": "微软",
+          "color": "#00A4EF",
+          "softBg": "#E6F5FD",
+          "initial": "微",
+          "news": [
+            {
+              "title": "微软Build 2026：自研MAI模型家族亮相，发布Surface RTX Spark开发机",
+              "summary": "当地时间6月2日，微软在Build 2026开发者大会上集中发布7款自研MAI模型，涵盖推理、代码、图像、语音和转录方向，全面布局Agent优先时代。其中MAI-Thinking-1推理模型采用稀疏MoE架构活跃参数35B，代码模型MAI Code 1 Flash在SWE Bench Pro得分51.2%超越Claude Haiku 4.5。硬件方面发布Surface RTX Spark Dev Box，提供1 petaflop AI算力和128GB统一内存，同步展示基于Android的Project Solara智能体操作系统。",
+              "link": "https://news.qq.com/rain/a/20260603A01OUL00",
+              "tags": [
+                "MAI模型",
+                "Agent优先"
+              ],
+              "source": "腾讯新闻",
+              "time": "当地时间6月2日"
+            }
+          ]
         }
       ]
     },
@@ -248,10 +260,10 @@ window.__RAW_DATA = {
           "news": []
         },
         {
-          "name": "月之暗面",
-          "color": "#8B5CF6",
-          "softBg": "#F3EEFF",
-          "initial": "月",
+          "name": "MiniMax",
+          "color": "#6C5CE7",
+          "softBg": "#F0EEFD",
+          "initial": "M",
           "news": []
         },
         {
@@ -271,22 +283,6 @@ window.__RAW_DATA = {
         {
           "name": "其他厂商",
           "cards": [
-            {
-              "title": "微软",
-              "news": [
-                {
-                  "title": "微软Build 2026：自研MAI模型家族亮相，发布Surface RTX Spark开发机",
-                  "summary": "当地时间6月2日，微软在Build 2026开发者大会上集中发布7款自研MAI模型，涵盖推理、代码、图像、语音和转录方向，全面布局Agent优先时代。其中MAI-Thinking-1推理模型采用稀疏MoE架构活跃参数35B，代码模型MAI Code 1 Flash在SWE Bench Pro得分51.2%超越Claude Haiku 4.5。硬件方面发布Surface RTX Spark Dev Box，提供1 petaflop AI算力和128GB统一内存，同步展示基于Android的Project Solara智能体操作系统。",
-                  "link": "https://news.qq.com/rain/a/20260603A01OUL00",
-                  "tags": [
-                    "MAI模型",
-                    "Agent优先"
-                  ],
-                  "source": "腾讯新闻",
-                  "time": "当地时间6月2日"
-                }
-              ]
-            },
             {
               "title": "AMD",
               "news": [
