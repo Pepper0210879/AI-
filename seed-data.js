@@ -1,4 +1,4 @@
-// 种子数据：为 Step 9 无新闻厂商近期动态提供历史新闻
+// 种子数据
 window.__SEED_CONFIRMED = {
   "2026-06-01": {
     "date": "2026-06-01",
@@ -2115,44 +2115,110 @@ window.__SEED_CONFIRMED = {
           },
           {
             "name": "Product Hunt",
-            "date": "2026-05-31",
+            "date": "2026-06-01",
             "link": "https://www.producthunt.com/",
             "rankings": [
               {
                 "rank": 1,
-                "name": "Clipto",
-                "category": "Mac",
-                "link": "https://www.producthunt.com/products/clipto"
+                "name": "Mina Meeting Assistant",
+                "category": "Productivity",
+                "link": "https://www.producthunt.com/products/mina-meeting-assistant"
               },
               {
                 "rank": 2,
-                "name": "Oura Ring 5",
-                "category": "Health & Fitness",
-                "link": "https://www.producthunt.com/products/oura-ring-5"
+                "name": "SocialEcho 2.0",
+                "category": "Social Media",
+                "link": "https://www.socialecho.net/"
               },
               {
                 "rank": 3,
-                "name": "Second Brain for AI",
-                "category": "Open Source",
-                "link": "https://www.producthunt.com/products/second-brain-for-ai"
+                "name": "Databox MCP",
+                "category": "Productivity",
+                "link": "https://databox.com/mcp"
               },
               {
                 "rank": 4,
-                "name": "TabTasker",
+                "name": "Dune Keypad",
                 "category": "Productivity",
-                "link": "https://www.producthunt.com/products/tabtasker"
+                "link": "https://www.projectmirage.ai"
               },
               {
                 "rank": 5,
-                "name": "Marqly 5.0",
+                "name": "folk",
                 "category": "Productivity",
-                "link": "https://www.producthunt.com/products/marqly"
+                "link": "https://www.folk.com"
               },
               {
                 "rank": 6,
-                "name": "Web Clipper for NotebookLM",
-                "category": "Chrome Extensions",
-                "link": "https://www.producthunt.com/products/web-clipper-for-notebooklm"
+                "name": "Typeahead",
+                "category": "Productivity",
+                "link": "https://typeahead.ai"
+              },
+              {
+                "rank": 7,
+                "name": "Presentify",
+                "category": "Mac",
+                "link": "https://www.producthunt.com/products/presentify"
+              },
+              {
+                "rank": 8,
+                "name": "Tabstack Web Research",
+                "category": "API",
+                "link": "https://www.producthunt.com/products/tabstack-web-research"
+              },
+              {
+                "rank": 9,
+                "name": "Trippple Club",
+                "category": "Marketing",
+                "link": "https://www.producthunt.com/products/trippple-club"
+              },
+              {
+                "rank": 10,
+                "name": "Open Caffeine",
+                "category": "Open Source",
+                "link": "https://www.producthunt.com/products/open-caffeine"
+              },
+              {
+                "rank": 11,
+                "name": "Mistral Vibe",
+                "category": "Productivity",
+                "link": "https://mistral.ai/news/mistral-vibe"
+              },
+              {
+                "rank": 12,
+                "name": "Tokenwise",
+                "category": "Analytics",
+                "link": "https://www.producthunt.com/products/tokenwise"
+              },
+              {
+                "rank": 13,
+                "name": "Skylive",
+                "category": "Streaming Services",
+                "link": "https://www.producthunt.com/products/skylive"
+              },
+              {
+                "rank": 14,
+                "name": "Stella",
+                "category": "Mac",
+                "link": "https://www.producthunt.com/products/stella-local-search"
+              },
+              {
+                "rank": 15,
+                "name": "ROY OMNI 1.0",
+                "category": "Fintech",
+                "link": "https://www.producthunt.com/products/roy-omni"
+              },
+              {
+                "rank": 16,
+                "name": "Sentinel",
+                "category": "Virtual Reality",
+                "link": "https://www.producthunt.com/products/sentinel-robots"
+              },
+              {
+                "rank": 17,
+                "name": "Paint By JSON | Figma API Client",
+                "category": "Design Tools",
+                "link": "https://www.producthunt.com/products/paint-by-json"
               }
             ]
           }
@@ -2161,4 +2227,4 @@ window.__SEED_CONFIRMED = {
     }
   }
 };
-window.__SEED_VERSION = 1780448063;
+window.__SEED_VERSION = 1780448387;
