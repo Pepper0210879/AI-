@@ -981,7 +981,7 @@ function renderVendorCards(key, section, rowSizes = []) {
                     }
                     const recentHtml = recentNews.map(n => {
                         const d = new Date(n.date + 'T00:00:00');
-                        const dateLabel = `${d.getMonth() + 1}月${d.getDate()}日新闻`;
+                        const dateLabel = `${d.getMonth() + 1}月${d.getDate()}日早报`;
                         const title = n.title.length > 25 ? n.title.slice(0, 25) + '...' : n.title;
                         return `<div class="vendor-card-recent-item"><span class="vendor-card-recent-date">${dateLabel}</span><span class="vendor-card-recent-title"${n.link ? ` data-link="${n.link}"` : ''}>${title}</span></div>`;
                     }).join('');
