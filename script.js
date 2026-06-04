@@ -1436,11 +1436,14 @@ function loadConfirmedDate(dateStr) {
 }
 
 function getRecentNewsForVendor(vendorName, sectionKey) {
-    // 从历史确认数据中查找该厂商最近 2-3 条新闻
+    // 从历史确认数据中查找该厂商最近 2-3 条新闻（7 天内窗口）
     const confirmed = getConfirmedDates();
     const todayStr = getTodayStr();
+    const cutoffDate = new Date(todayStr);
+    cutoffDate.setDate(cutoffDate.getDate() - 7);
+    const cutoffStr = cutoffDate.toISOString().slice(0, 10);
     const dates = Object.keys(confirmed)
-        .filter(d => d !== todayStr)
+        .filter(d => d !== todayStr && d >= cutoffStr)
         .sort()
         .reverse();
 
