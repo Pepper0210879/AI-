@@ -1844,7 +1844,7 @@ window.__SEED_CONFIRMED = {
                 ]
               },
               {
-                "title": "快手（可灵AI）",
+                "title": "快手",
                 "news": [
                   {
                     "title": "可灵 AI 启动 Pre-IPO 轮融资，投前估值 180 亿美元",
