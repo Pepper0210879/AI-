@@ -16,18 +16,6 @@ window.__RAW_DATA = {
               ],
               "source": "财联社",
               "time": "6月3日消息"
-            },
-            {
-              "title": "OpenAI 宣布 Codex 与 ChatGPT 合并，打造超级应用",
-              "summary": "当地时间6月2日，OpenAI 在「Intelligence at Work」发布会上宣布将在未来数周内将 Codex 功能整合到 ChatGPT 全平台应用中，同步发布六款企业插件覆盖数据分析、创意制作、投行等六大领域。Codex 周活用户已突破 500 万，较 2 月增长 6 倍。此举被外界视为 OpenAI 加速商业化、应对 Anthropic 竞争和筹备 IPO 的关键一步。",
-              "link": "https://www.ithome.com/0/959/254.htm",
-              "tags": [
-                "产品整合",
-                "Codex",
-                "商业化"
-              ],
-              "source": "IT之家",
-              "time": "当地时间6月2日"
             }
           ]
         },
@@ -285,22 +273,6 @@ window.__RAW_DATA = {
         {
           "name": "其他厂商",
           "cards": [
-            {
-              "title": "微软",
-              "news": [
-                {
-                  "title": "微软发布 Project Solara：面向 AI Agent 优先设备的「芯片到云」平台",
-                  "summary": "当地时间6月3日，微软在 Build 2026 大会上发布 Project Solara 平台，这是基于 Android 定制的 AI 智能体优先操作系统，采用「芯片到云」架构，支持设备端同时运行多个 AI Agent。微软展示了智能胸牌和桌面终端两款概念设备，分别搭载高通可穿戴芯片和联发科 IoT 芯片，由百思买、CVS 等合作伙伴试点，微软不直接生产硬件。",
-                  "link": "https://www.ithome.com/0/959/016.htm",
-                  "tags": [
-                    "Agent OS",
-                    "Build 2026"
-                  ],
-                  "source": "IT之家",
-                  "time": "当地时间6月3日"
-                }
-              ]
-            },
             {
               "title": "苹果",
               "news": [
