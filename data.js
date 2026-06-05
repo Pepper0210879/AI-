@@ -183,20 +183,7 @@ window.__RAW_DATA = {
       "vendors": [
         {
           "name": "阿里云",
-          "news": [
-            {
-              "title": "千问App向第三方Agent和Skill全面开放，肯德基瑞幸首批接入",
-              "summary": "6月3日，阿里旗下千问App宣布向第三方Agent和Skill全面开放，企业可在千问上运营自有品牌Agent、自定义人设与服务，Agent具备记忆和主动规划能力。首批接入企业包括肯德基、瑞幸咖啡、蜜雪冰城和东方航空。用户可对千问说「帮我在最近肯德基门店点一份套餐到店取」，千问可完成选店、下单、支付全流程，覆盖全国超13000家肯德基门店。",
-              "link": "https://finance.sina.com.cn/roll/2026-06-03/doc-iniacnup0861313.shtml",
-              "tags": [
-                "Agent开放",
-                "Skill",
-                "O2O"
-              ],
-              "source": "新浪财经",
-              "time": "6月3日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "火山引擎",
