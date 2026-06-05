@@ -537,12 +537,12 @@ window.__RAW_DATA = {
       "platforms": [
         {
           "name": "LMArena",
-          "date": "2026-05-28",
+          "date": "2026-06-04",
           "link": "https://lmarena.ai/leaderboard/text",
           "rankings": [
             {
               "model": "claude-opus-4-6-thinking",
-              "score": "1502",
+              "score": "1503",
               "change": "+4"
             },
             {
@@ -557,7 +557,7 @@ window.__RAW_DATA = {
             },
             {
               "model": "claude-opus-4-7",
-              "score": "1494",
+              "score": "1493",
               "change": "+5"
             },
             {
@@ -567,7 +567,7 @@ window.__RAW_DATA = {
             },
             {
               "model": "gemini-3.1-pro-preview",
-              "score": "1487",
+              "score": "1488",
               "change": "+4"
             },
             {
@@ -578,17 +578,17 @@ window.__RAW_DATA = {
             {
               "model": "gpt-5.5-high",
               "score": "1482",
-              "change": "+6"
+              "change": "+5"
+            },
+            {
+              "model": "gpt-5.4-high",
+              "score": "1479",
+              "change": "+5"
             },
             {
               "model": "gemini-3.5-flash",
-              "score": "1479",
+              "score": "1477",
               "change": "+7"
-            },
-            {
-              "model": "gpt-5.5",
-              "score": "1476",
-              "change": "+6"
             },
             {
               "model": "gpt-5.2-chat-latest",
@@ -596,32 +596,32 @@ window.__RAW_DATA = {
               "change": "+4"
             },
             {
-              "model": "grok-4.20-beta1",
-              "score": "1476",
+              "model": "glm-5.1",
+              "score": "1475",
+              "change": "+6"
+            },
+            {
+              "model": "gpt-5.5",
+              "score": "1474",
               "change": "+5"
             },
             {
-              "model": "grok-4.20-beta-reasoning",
-              "score": "1475",
+              "model": "grok-4.20-beta1",
+              "score": "1474",
               "change": "+5"
             },
             {
               "model": "qwen3.7-max-preview",
-              "score": "1475",
+              "score": "1474",
               "change": "+10"
             },
             {
-              "model": "glm-5.1",
-              "score": "1474",
-              "change": "+6"
-            },
-            {
-              "model": "gpt-5.5-instant",
-              "score": "1474",
-              "change": "+5"
-            },
-            {
               "model": "gemini-3-flash",
+              "score": "1473",
+              "change": "+4"
+            },
+            {
+              "model": "grok-4.20-beta-reasoning",
               "score": "1473",
               "change": "+4"
             },
@@ -633,12 +633,12 @@ window.__RAW_DATA = {
             {
               "model": "grok-4.20-multi-agent",
               "score": "1472",
-              "change": "+5"
+              "change": "+4"
             },
             {
-              "model": "ernie-5.1",
-              "score": "1470",
-              "change": "+6"
+              "model": "gpt-5.5-instant",
+              "score": "1471",
+              "change": "+5"
             }
           ]
         },
@@ -701,128 +701,128 @@ window.__RAW_DATA = {
         },
         {
           "name": "Product Hunt",
-          "date": "2026-06-02",
+          "date": "2026-06-03",
           "link": "https://www.producthunt.com/",
           "rankings": [
             {
-              "name": "Fundraisly",
-              "category": "Venture Capital",
-              "rank": 1,
-              "link": "https://www.producthunt.com/products/fundraisly"
-            },
-            {
-              "name": "Vokal",
-              "category": "Productivity",
-              "rank": 2,
-              "link": "https://www.producthunt.com/products/vokal"
-            },
-            {
-              "name": "Gigacatalyst",
+              "name": "Elentaria",
               "category": "Sales",
-              "rank": 3,
-              "link": "https://www.producthunt.com/products/gigacatalyst"
+              "rank": 1,
+              "link": "https://www.producthunt.com/products/elentaria"
             },
             {
-              "name": "Co-Invest",
-              "category": "Fintech",
-              "rank": 4,
-              "link": "https://www.producthunt.com/products/co-invest"
-            },
-            {
-              "name": "Brief",
-              "category": "Developer Tools",
-              "rank": 5,
-              "link": "https://www.producthunt.com/products/brief"
-            },
-            {
-              "name": "Paste MCP & AI Tools",
-              "category": "Mac",
-              "rank": 6,
-              "link": "https://www.producthunt.com/products/paste-mcp-ai-tools"
-            },
-            {
-              "name": "PawPause",
+              "name": "InsForge Backend Branching",
               "category": "Open Source",
+              "rank": 2,
+              "link": "https://www.producthunt.com/products/insforge-backend-branching"
+            },
+            {
+              "name": "superlog",
+              "category": "Open Source",
+              "rank": 3,
+              "link": "https://www.producthunt.com/products/superlog"
+            },
+            {
+              "name": "Franz 6",
+              "category": "Email",
+              "rank": 4,
+              "link": "https://www.producthunt.com/products/franz-6"
+            },
+            {
+              "name": "Replicas",
+              "category": "Software Engineering",
+              "rank": 5,
+              "link": "https://www.producthunt.com/products/replicas"
+            },
+            {
+              "name": "Hermes Desktop",
+              "category": "Open Source",
+              "rank": 6,
+              "link": "https://www.producthunt.com/products/hermes-desktop"
+            },
+            {
+              "name": "Spectron",
+              "category": "Developer Tools",
               "rank": 7,
-              "link": "https://www.producthunt.com/products/pawpause"
+              "link": "https://www.producthunt.com/products/spectron"
             },
             {
-              "name": "Enshittifier",
-              "category": "Chrome Extensions",
+              "name": "Walkable",
+              "category": "Travel",
               "rank": 8,
-              "link": "https://www.producthunt.com/products/enshittifier"
+              "link": "https://www.producthunt.com/products/walkable"
             },
             {
-              "name": "Rodeo by TwelveLabs",
+              "name": "Uselink",
               "category": "Productivity",
               "rank": 9,
-              "link": "https://www.producthunt.com/products/rodeo-by-twelvelabs"
+              "link": "https://www.producthunt.com/products/uselink"
             },
             {
-              "name": "choclift",
-              "category": "iOS",
+              "name": "Town",
+              "category": "Email",
               "rank": 10,
-              "link": "https://www.producthunt.com/products/choclift"
+              "link": "https://www.producthunt.com/products/town"
             },
             {
-              "name": "Branda",
-              "category": "Design Tools",
+              "name": "Composer",
+              "category": "Productivity",
               "rank": 11,
-              "link": "https://www.producthunt.com/products/branda"
+              "link": "https://www.producthunt.com/products/composer"
             },
             {
-              "name": "GlowPulse",
-              "category": "Health & Fitness",
+              "name": "Brand Context API",
+              "category": "API",
               "rank": 12,
-              "link": "https://www.producthunt.com/products/glowpulse"
+              "link": "https://www.producthunt.com/products/brand-context-api"
             },
             {
-              "name": "Knock agent for Slack",
-              "category": "Customer Communication",
+              "name": "Devin Desktop",
+              "category": "Software Engineering",
               "rank": 13,
-              "link": "https://www.producthunt.com/products/knock-agent-for-slack"
+              "link": "https://www.producthunt.com/products/devin-desktop"
             },
             {
-              "name": "Trovvelo",
-              "category": "iOS",
+              "name": "Forward",
+              "category": "API",
               "rank": 14,
-              "link": "https://www.producthunt.com/products/trovvelo"
+              "link": "https://www.producthunt.com/products/forward"
             },
             {
-              "name": "Kompassify 2.0",
-              "category": "User Experience",
+              "name": "FolderPlus",
+              "category": "Mac",
               "rank": 15,
-              "link": "https://www.producthunt.com/products/kompassify-2-0"
+              "link": "https://www.producthunt.com/products/folderplus"
             },
             {
-              "name": "Moxie Docs",
-              "category": "Developer Tools",
+              "name": "Dropstone 1.5",
+              "category": "Productivity",
               "rank": 16,
-              "link": "https://www.producthunt.com/products/moxie-docs"
+              "link": "https://www.producthunt.com/products/dropstone-1-5"
             },
             {
-              "name": "ConnectWizard",
-              "category": "Analytics",
+              "name": "Carbone Skill for AI",
+              "category": "Productivity",
               "rank": 17,
-              "link": "https://www.producthunt.com/products/connectwizard"
+              "link": "https://www.producthunt.com/products/carbone-skill-for-ai"
             },
             {
-              "name": "Mirowl",
+              "name": "RadianceKit",
               "category": "Mac",
               "rank": 18,
-              "link": "https://www.producthunt.com/products/mirowl"
+              "link": "https://www.producthunt.com/products/radiancekit"
             },
             {
-              "name": "Galleroo",
-              "category": "SaaS",
+              "name": "Handler",
+              "category": "Software Engineering",
               "rank": 19,
-              "link": "https://www.producthunt.com/products/galleroo"
+              "link": "https://www.producthunt.com/products/handler"
             },
             {
-              "name": "Overline",
-              "category": "Chrome Extensions",
+              "name": "TaskGPT",
+              "category": "Artificial Intelligence",
               "rank": 20,
-              "link": "https://www.producthunt.com/products/overline"
+              "link": "https://www.producthunt.com/products/taskgpt"
             }
           ]
         }
