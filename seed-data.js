@@ -2305,5 +2305,837 @@ window.__SEED_CONFIRMED = {
         ]
       }
     }
+  },
+  "2026-06-05": {
+    "date": "2026-06-05",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "news": [
+              {
+                "title": "OpenAI CFO确认首款AI硬件设备将于年底前正式发布",
+                "summary": "当地时间6月4日，OpenAI首席财务官Sarah Friar在接受采访时透露，已亲自体验过公司正在开发的AI硬件设备，称使用体验「很难用语言描述」，产品计划在今年年底前正式发布。该设备由苹果前首席设计官Jony Ive及其团队主导设计，OpenAI于2025年以约65亿美元收购了Ive创办的AI硬件公司IO。Friar同时披露OpenAI年化收入已超200亿美元，较去年的60亿美元大幅增长。",
+                "link": "https://www.cls.cn/detail/2390718",
+                "tags": [
+                  "AI硬件",
+                  "Jony Ive",
+                  "产品发布"
+                ],
+                "source": "财联社",
+                "time": "当地时间6月4日"
+              },
+              {
+                "title": "奥特曼预测「主动式AI」将成为聊天机器人和智能体之后的下一阶段",
+                "summary": "当地时间6月4日，OpenAI CEO奥特曼在企业活动上提出AI产品开发三阶段理论：第一阶段为ChatGPT为代表的聊天机器人，第二阶段为Codex等AI智能体，第三阶段将是「主动式AI（Proactive AI）」，即能够在后台持续运行并主动为用户提供帮助的AI系统。奥特曼表示这是未来一年最看好的方向，OpenAI正致力于打造整合聊天、智能体与主动式AI的统一平台。",
+                "link": "https://www.ithome.com/0/960/168.htm",
+                "tags": [
+                  "主动式AI",
+                  "产品战略",
+                  "行业预测"
+                ],
+                "source": "IT之家",
+                "time": "当地时间6月4日"
+              },
+              {
+                "title": "ChatGPT记忆系统重大升级：Dreaming V3架构上线，准确率翻倍",
+                "summary": "当地时间6月4日，OpenAI正式推出ChatGPT记忆系统升级版Dreaming V3，引入后台持续运行的自动化流程，系统可跨多轮对话综合提炼用户信息并随时间自动更新记忆状态。新版事实记忆准确率从41.5%提升至82.8%，偏好遵循率从31.4%提升至71.3%，时效性准确率从9.4%提升至75.1%，计算成本降至原来的五分之一。Anthropic曾于5月发布同名Dreaming功能。",
+                "link": "https://openai.com/index/chatgpt-memory-dreaming/",
+                "tags": [
+                  "记忆系统",
+                  "产品升级",
+                  "Dreaming"
+                ],
+                "source": "OpenAI Blog",
+                "time": "当地时间6月4日"
+              }
+            ]
+          },
+          {
+            "name": "Anthropic",
+            "news": [
+              {
+                "title": "Anthropic选定摩根士丹利和高盛牵头IPO，最快10月上市",
+                "summary": "当地时间6月4日消息，Anthropic已选定摩根士丹利和高盛担任其IPO主承销商，摩根大通也将参与交易。知情人士透露，公司正考虑最快于今年10月上市，并已向美国证券交易委员会秘密提交IPO注册声明。Anthropic在近期H轮融资中估值达9650亿美元，已超过OpenAI，若顺利上市有望成为AI行业首个万亿美元级别上市公司。",
+                "link": "https://finance.sina.com.cn/jjxw/2026-06-04/doc-iniaeyvz2855874.shtml",
+                "tags": [
+                  "IPO",
+                  "上市",
+                  "投行"
+                ],
+                "source": "新浪财经",
+                "time": "6月4日消息"
+              }
+            ]
+          },
+          {
+            "name": "Google",
+            "news": [
+              {
+                "title": "英国CMA勒令谷歌AI搜索整改：允许网站退出AI概览",
+                "summary": "6月3日，英国竞争与市场管理局（CMA）发布具有法律强制力的行为准则，勒令谷歌整改其AI搜索服务，必须在Search Console中提供开关允许英国出版商自由退出AI概览（AI Overviews）、AI模式和Discover中的AI摘要功能，退出不得影响传统搜索排名。CMA称此举为世界首例，具有全球示范效应。",
+                "link": "https://news.qq.com/rain/a/20260603A096D800",
+                "tags": [
+                  "AI搜索",
+                  "监管",
+                  "CMA"
+                ],
+                "source": "腾讯新闻",
+                "time": "6月3日"
+              },
+              {
+                "title": "谷歌发布Gemma 4 12B：16GB笔记本即可运行的多模态开源模型",
+                "summary": "当地时间6月3日，谷歌正式发布Gemma 4 12B开源多模态模型，采用无编码器统一架构，原生支持文本、图像和音频输入，仅需16GB显存即可在消费级笔记本上全离线运行，性能接近26B MoE模型但内存占用仅一半。模型采用Apache 2.0开源许可，Gemma 4系列累计下载量已突破1.5亿次，被视为消费级本地AI部署的关键一步。",
+                "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+                "tags": [
+                  "开源模型",
+                  "多模态",
+                  "端侧部署"
+                ],
+                "source": "Google Blog",
+                "time": "当地时间6月3日"
+              },
+              {
+                "title": "谷歌与Voltus合作建虚拟电厂，为数据中心释放100兆瓦电力容量",
+                "summary": "当地时间6月3日，谷歌与虚拟电厂平台Voltus签署为期三年的协议，将在美国最大电网PJM区域内建设虚拟电厂，聚合电池储能、智能恒温器和电动汽车等分布式设备，为数据中心提供调峰能力。项目预计释放100兆瓦额外电力容量，谷歌承担建设成本，参与用户可获得报酬。这是大型科技公司首次通过资助第三方虚拟电厂满足数据中心用电需求。",
+                "link": "https://cn.investing.com/news/stock-market-news/article-93CH-3398156",
+                "tags": [
+                  "数据中心",
+                  "虚拟电厂",
+                  "能源"
+                ],
+                "source": "英为财情",
+                "time": "当地时间6月3日"
+              }
+            ]
+          },
+          {
+            "name": "xAI",
+            "news": [
+              {
+                "title": "SpaceX启动IPO路演：发行价135美元，估值1.77万亿美元",
+                "summary": "6月4日，SpaceX正式启动IPO路演，确定发行价为每股135美元，拟发行约5.556亿股A类普通股，募资约750亿美元，对应估值约1.77万亿美元，超越沙特阿美成为史上最大IPO。马斯克通过B类股持有超82%投票权，所持股权价值约8665亿美元，距万亿美元富豪仅一步之遥。股票代码SPCX，预计6月12日在纳斯达克挂牌。高盛预计到2030年SpaceX年收入可达4740亿美元。",
+                "link": "https://finance.sina.com.cn/roll/2026-06-04/doc-iniafmmv2677089.shtml",
+                "tags": [
+                  "IPO",
+                  "SpaceX",
+                  "马斯克"
+                ],
+                "source": "新浪财经",
+                "time": "6月4日"
+              }
+            ]
+          },
+          {
+            "name": "NVIDIA",
+            "news": [
+              {
+                "title": "英伟达斥资至少4亿美元收购企业级AI模型公司Kumo AI",
+                "summary": "6月4日消息，英伟达已收购成立四年的AI初创公司Kumo AI，交易金额至少4亿美元。Kumo AI专注于企业级预测性AI模型，其核心产品可处理高达5000亿行数据，每秒支持2000万次查询。三位联合创始人——前Airbnb CTO Vanja Josifovski、前LinkedIn AI负责人Hema Raghavan和斯坦福教授Jure Leskovec已于5月加入英伟达。",
+                "link": "https://finance.sina.com.cn/jjxw/2026-06-04/doc-iniaeuqe9760365.shtml",
+                "tags": [
+                  "收购",
+                  "企业AI",
+                  "预测模型"
+                ],
+                "source": "新浪财经",
+                "time": "6月4日消息"
+              },
+              {
+                "title": "现代汽车与英伟达商讨在韩国新万金设立AI研发中心",
+                "summary": "6月4日消息，现代汽车联合韩国政府正与英伟达就落地韩国AI技术中心进入最终磋商阶段，全罗北道新万金为选址首选。该研发中心将是英伟达全球顶级AI研发基地，目前此类高规格基地仅布局在新加坡和中国台湾等少数地区。英伟达去年10月已与现代汽车签署谅解备忘录，约定供应GPU芯片并共建AI研发中心。",
+                "link": "https://news.qq.com/rain/a/20260604A02YOF00",
+                "tags": [
+                  "AI研发中心",
+                  "现代汽车",
+                  "韩国"
+                ],
+                "source": "腾讯新闻",
+                "time": "6月4日消息"
+              },
+              {
+                "title": "黄仁勋COMPUTEX称Marvell将成下一家万亿公司，后者市值暴涨624亿美元",
+                "summary": "当地时间6月2日，在COMPUTEX 2026上，英伟达CEO黄仁勋与Marvell CEO马特·墨菲同台对谈时盛赞Marvell在AI基建供应链中的价值，称其注定将成为下一家万亿美元公司。受此影响，Marvell当日股价大涨32.52%，市值一日暴增624亿美元，创公司2000年以来最大单日涨幅。黄仁勋指出AI计算瓶颈正从算力转向连接能力，Marvell的光电互联技术不可或缺。",
+                "link": "https://www.sohu.com/a/1031733235_260616",
+                "tags": [
+                  "COMPUTEX",
+                  "Marvell",
+                  "光通信"
+                ],
+                "source": "搜狐新闻",
+                "time": "当地时间6月2日"
+              }
+            ]
+          },
+          {
+            "name": "Meta",
+            "news": [
+              {
+                "title": "Meta AI智能体Hatch曝光：最高月费199.99美元对标GPT Pro",
+                "summary": "当地时间6月4日消息，据The Information报道，Meta正考虑为其AI智能体产品Hatch设置最高每月199.99美元的订阅价格，与OpenAI ChatGPT Pro和Anthropic Claude Max持平。Hatch是开源工具OpenClaw的消费者版本，支持通过自然语言完成编程、管理日历、代发邮件等任务，将在Instagram内运行覆盖超20亿日活用户，计划于7月完成品牌命名并扩大发布。",
+                "link": "https://www.guandian.cn/article/20260604/564979.html",
+                "tags": [
+                  "AI Agent",
+                  "订阅定价",
+                  "Hatch"
+                ],
+                "source": "观点网",
+                "time": "6月4日消息"
+              }
+            ]
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "news": [
+              {
+                "title": "千问App向第三方Agent和Skill全面开放，肯德基瑞幸首批接入",
+                "summary": "6月3日，阿里旗下千问App宣布向第三方Agent和Skill全面开放，企业可在千问上运营自有品牌Agent、自定义人设与服务，Agent具备记忆和主动规划能力。首批接入企业包括肯德基、瑞幸咖啡、蜜雪冰城和东方航空。用户可对千问说「帮我在最近肯德基门店点一份套餐到店取」，千问可完成选店、下单、支付全流程，覆盖全国超13000家肯德基门店。",
+                "link": "https://finance.sina.com.cn/roll/2026-06-03/doc-iniacnup0861313.shtml",
+                "tags": [
+                  "Agent开放",
+                  "Skill",
+                  "O2O"
+                ],
+                "source": "新浪财经",
+                "time": "6月3日"
+              }
+            ]
+          },
+          {
+            "name": "火山引擎",
+            "news": [
+              {
+                "title": "2026年字节AI四大关键命题：世界模型、Coding、豆包商业化",
+                "summary": "6月4日，36氪独家报道称2026年字节AI有四个关键命题：加大对世界模型训练投入，年底前性能对标Google Genie 3全球SOTA水平；视频模型Seedance保持领先并探索动态生成新方向；打好Coding地基、通过Dogfooding数据回流提升Agent能力；豆包强化商业化，6月下旬上线付费内容，PPT生成是核心切入点，海外版Dola目标3000万DAU。",
+                "link": "https://36kr.com/p/3838454229027072",
+                "tags": [
+                  "世界模型",
+                  "Coding",
+                  "商业化"
+                ],
+                "source": "36氪",
+                "time": "6月4日"
+              }
+            ]
+          },
+          {
+            "name": "DeepSeek",
+            "news": []
+          },
+          {
+            "name": "腾讯",
+            "news": [
+              {
+                "title": "微信与华为小米等手机厂商合作推出A2A智能体助手能力",
+                "summary": "6月4日，腾讯客服确认微信正与华为、荣耀、小米、OPPO、vivo等手机厂商合作推出A2A（Agent-to-Agent）助手能力，用户可通过手机系统AI助手发起微信音视频通话或向好友发送消息。目前荣耀部分机型已率先支持，通过唤醒YOYO智能体即可语音下达微信指令。该功能基于A2A协作机制，数据安全与隐私通过双重授权机制保障，标志着微信首次以合作形式向手机厂商开放Agent调用能力。",
+                "link": "https://www.thepaper.cn/newsDetail_forward_33306024",
+                "tags": [
+                  "A2A",
+                  "微信",
+                  "智能体"
+                ],
+                "source": "澎湃新闻",
+                "time": "6月4日"
+              }
+            ]
+          },
+          {
+            "name": "小米",
+            "news": []
+          },
+          {
+            "name": "智谱AI",
+            "news": []
+          },
+          {
+            "name": "月之暗面",
+            "news": []
+          },
+          {
+            "name": "华为",
+            "news": []
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "其他厂商",
+            "cards": [
+              {
+                "title": "苹果",
+                "news": [
+                  {
+                    "title": "郭明錤称苹果已移除Vision Pro产品线，资源全面转向AI眼镜",
+                    "summary": "6月4日，知名苹果分析师郭明錤发布供应链调查称，苹果已正式从XR头显与智能眼镜路线图中移除Vision Pro系列后续产品，该决定由下一任CEO约翰·特努斯批准。Vision Pro全球累计销量仅约60万台。新路线图仅剩两款产品：无显示屏AI眼镜（类似Ray-Ban Meta）按计划于2027年出货，配备光学波导的AR智能眼镜推迟至2029年。",
+                    "link": "https://www.jiemian.com/article/14535218.html",
+                    "tags": [
+                      "Vision Pro",
+                      "AI眼镜",
+                      "战略调整"
+                    ],
+                    "source": "界面新闻",
+                    "time": "6月4日"
+                  },
+                  {
+                    "title": "苹果批准首个iMessage第三方AI智能体Poke",
+                    "summary": "当地时间6月4日，苹果批准Poke成为首个接入Apple Messages for Business平台的第三方AI智能体。用户可在iMessage中让Poke回复邮件、安排聚餐、创建提醒、控制智能家居等，支持Oura智能戒指、Gmail、GitHub等第三方服务。Poke由加州初创公司打造，已通过SMS和WhatsApp传递约1亿条消息，苹果按用户数量向其收费。",
+                    "link": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+                    "tags": [
+                      "iMessage",
+                      "AI Agent",
+                      "开放生态"
+                    ],
+                    "source": "TechCrunch",
+                    "time": "当地时间6月4日"
+                  }
+                ]
+              },
+              {
+                "title": "Ideogram",
+                "news": [
+                  {
+                    "title": "Ideogram发布4.0开源图像模型：9.3B参数，文字渲染全球领先",
+                    "summary": "6月3日，Ideogram发布首个开源权重图像基础模型Ideogram 4.0，参数规模9.3B，采用单流DiT架构。模型文字渲染能力突出，英文OCR准确率达0.97，设计偏好ELO盲测在开源模型中排名第一。支持结构化JSON提示词精确控制布局和色值，nf4量化版可在单张24GB显卡运行。权重采用非商业许可，商业使用需获取授权。",
+                    "link": "https://www.ithome.com/0/959/805.htm",
+                    "tags": [
+                      "开源模型",
+                      "图像生成",
+                      "文字渲染"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月3日"
+                  }
+                ]
+              },
+              {
+                "title": "富士康",
+                "news": [
+                  {
+                    "title": "富士康与英特尔达成战略合作，共同开发下一代AI基础设施",
+                    "summary": "6月4日消息，在COMPUTEX 2026期间，富士康宣布与英特尔达成战略合作，共同开发机架级AI系统，面向AI数据中心和边缘场景。英特尔提供至强处理器和AI加速芯片，富士康负责系统集成与制造。双方还计划面向工厂、智慧城市和机器人等场景打造AI系统，并探索定制芯片合作。英特尔CEO陈立武在主题演讲中宣布了该合作。",
+                    "link": "https://stock.10jqka.com.cn/20260604/c677213493.shtml",
+                    "tags": [
+                      "AI基础设施",
+                      "COMPUTEX",
+                      "战略合作"
+                    ],
+                    "source": "同花顺",
+                    "time": "6月4日消息"
+                  }
+                ]
+              },
+              {
+                "title": "Nous Research",
+                "news": [
+                  {
+                    "title": "Nous Research发布Hermes Desktop桌面版AI智能体",
+                    "summary": "6月3日，Nous Research以公开预览版形式发布Hermes Desktop桌面版，支持Windows、macOS和Linux平台。Hermes Agent是开源自进化AI智能体，具备跨会话持久记忆，可从经验中构建可复用技能，内置40余种工具包括网页搜索、浏览器自动化和视觉功能，支持定时自动化和子智能体调度。",
+                    "link": "https://www.ithome.com/0/959/729.htm",
+                    "tags": [
+                      "AI Agent",
+                      "桌面端",
+                      "开源"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月3日"
+                  }
+                ]
+              },
+              {
+                "title": "Miso Labs",
+                "news": [
+                  {
+                    "title": "Miso Labs开源80亿参数语音模型MisoTTS",
+                    "summary": "6月4日，Miso Labs发布并开源文本到对话语音生成模型MisoTTS（Miso One），参数规模80亿，面向情感表达更自然、响应延迟更低的语音代理场景。模型采用残差矢量量化架构，每个音频token表示为32个codebook索引，可基于前序音频或对话历史生成更贴合语气的回复，支持提示式声音生成。",
+                    "link": "https://www.theblockbeats.info/flash/349419",
+                    "tags": [
+                      "开源模型",
+                      "语音合成",
+                      "TTS"
+                    ],
+                    "source": "The Block Beats",
+                    "time": "6月4日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "自动驾驶",
+            "cards": [
+              {
+                "title": "特斯拉",
+                "news": [
+                  {
+                    "title": "特斯拉被曝修改FSD购买协议：新增人工监督条款并限制查阅原始合同",
+                    "summary": "6月4日消息，据Electrek报道，特斯拉被曝对FSD购买协议进行追溯修改，在2016年至2024年初售出的FSD套件协议中新增了当时不存在的「需人工监督」条款，并限制部分车主查阅原始合同文档。特斯拉正面临总额最高达145亿美元的集体诉讼，涉及FSD虚假宣传和Autopilot事故追责，加州行政听证办公室已裁定特斯拉在FSD宣传上构成虚假广告。",
+                    "link": "https://tech.ifeng.com/c/8tg0wgt6xBD",
+                    "tags": [
+                      "FSD",
+                      "合同修改",
+                      "诉讼"
+                    ],
+                    "source": "凤凰科技",
+                    "time": "6月4日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "具身智能",
+            "cards": [
+              {
+                "title": "宇树科技",
+                "news": [
+                  {
+                    "title": "中国小伙携8台宇树机器人登上《美国达人秀》同台共舞",
+                    "summary": "当地时间6月2日，在《美国达人秀》节目中，26岁四川小伙吴宇飞带着8台宇树机器人登台表演，与机器人同台共舞，惊艳评委和观众。此次亮相为宇树机器人带来国际曝光，展示了中国具身智能机器人在娱乐场景的应用潜力。此前宇树科技已于6月初科创板IPO过会，计划募资42亿元。",
+                    "link": "https://news.qq.com/rain/a/20260604A01QL400",
+                    "tags": [
+                      "宇树",
+                      "达人秀",
+                      "国际曝光"
+                    ],
+                    "source": "腾讯新闻",
+                    "time": "当地时间6月2日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "投资资讯",
+            "cards": [
+              {
+                "title": "Suno D 轮",
+                "news": [
+                  {
+                    "title": "AI音乐公司Suno完成4亿美元D轮融资，估值54亿美元",
+                    "summary": "当地时间6月3日，AI音乐生成公司Suno宣布完成超4亿美元D轮融资，投后估值达54亿美元，由「互联网女皇」玛丽·米克尔旗下Bond Capital领投。距上一轮融资仅约7个月估值翻倍。Suno用户日均生成AI歌曲超700万首，付费用户超200万，年化经常性收入约3亿美元。公司仍在应对环球音乐、索尼音乐等版权方诉讼，华纳音乐此前已达成和解。",
+                    "link": "https://finance.sina.com.cn/roll/2026-06-03/doc-iniacxkh2228121.shtml",
+                    "tags": [
+                      "融资",
+                      "AI音乐",
+                      "D轮"
+                    ],
+                    "source": "新浪财经",
+                    "time": "当地时间6月3日"
+                  }
+                ]
+              },
+              {
+                "title": "星灿智能 天使+ 轮",
+                "news": [
+                  {
+                    "title": "家庭具身智能企业星灿智能获力合科创千万级天使+轮投资",
+                    "summary": "6月4日消息，家庭具身智能企业星灿智能（XCANBOT）完成千万级天使+轮战略融资，由A股科创平台力合科创投资。至此公司已集齐山东亚华电子、浙江亚特、力合科创三大上市产业资本。核心团队来自头部自动驾驶企业，自研XcanBrain具身大模型与5D全域空间感知系统，户外割草机器人和康养陪护轮椅机器人双赛道产品已获在手订单破亿元，即将规模化量产。",
+                    "link": "https://36kr.com/newsflashes/3838671893449224",
+                    "tags": [
+                      "融资",
+                      "具身智能",
+                      "家庭机器人"
+                    ],
+                    "source": "36氪",
+                    "time": "6月4日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "行业趋势&观点",
+            "cards": [
+              {
+                "title": "联合国大学",
+                "news": [
+                  {
+                    "title": "联合国大学报告：2030年AI数据中心耗水量够13亿人用一年",
+                    "summary": "6月3日，联合国大学发布报告量化AI基础设施的环境成本。报告预测到2030年全球数据中心用电需求将达945太瓦时，相关用水量达9.3万亿升，相当于撒哈拉以南非洲13亿人一年的基本生活用水。推理环节占AI总能耗的80%至90%，生成一张AI图像能耗约为文本分类任务的1450倍。超过90%的AI云计算资源集中在美国和中国，仅32个国家拥有专门AI数据中心。",
+                    "link": "https://news.un.org/zh/story/2026/06/1142260",
+                    "tags": [
+                      "能耗",
+                      "水资源",
+                      "环境成本"
+                    ],
+                    "source": "联合国新闻",
+                    "time": "当地时间6月3日"
+                  }
+                ]
+              },
+              {
+                "title": "中文在线",
+                "news": [
+                  {
+                    "title": "中文在线：AI短剧已成第一大Token消耗场景，占比高达55%",
+                    "summary": "6月3日，中文在线在机构交流中披露，AI短剧与视频生成在国内Token消耗份额中占比高达55%，位居首位，是软件开发领域（15%）的两倍以上。中文在线周均Token调用规模环比增速超20%，旗下短剧平台FlareFlow累计注册用户超3700万，已上线5000多部作品，其中10%为AI短剧。国内单日新增AI短剧约1500部，月度上新超4万部。",
+                    "link": "https://news.qq.com/rain/a/20260604A08E9T00",
+                    "tags": [
+                      "AI短剧",
+                      "Token消耗",
+                      "中文在线"
+                    ],
+                    "source": "腾讯新闻",
+                    "time": "6月3日"
+                  }
+                ]
+              },
+              {
+                "title": "中国信通院",
+                "news": [
+                  {
+                    "title": "中国信通院将启动高质量Token服务能力攀登计划",
+                    "summary": "6月4日消息，中国信通院人工智能研究所宣布将于6月16日在北京召开高质量Token服务研讨会，将成立「高质量Token服务特别研究组」并启动「高质量Token服务能力攀登计划」。当前我国日均Token调用量已攀升至140万亿次以上，较2024年初实现千倍跃升。中国移动和中国电信已分别推出Token套餐，最低5元/月。",
+                    "link": "https://www.ithome.com/0/959/666.htm",
+                    "tags": [
+                      "Token服务",
+                      "信通院",
+                      "行业标准"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月4日消息"
+                  }
+                ]
+              },
+              {
+                "title": "台积电",
+                "news": [
+                  {
+                    "title": "台积电CEO魏哲家：AI芯片供应缺口将持续数年",
+                    "summary": "当地时间6月4日，台积电CEO魏哲家在年度股东大会上表示，全球芯片供应未来数年都无法满足AI带动的需求增长，即使美国新产能陆续投产也无法完全满足美国客户需求。他重申2026年全年营收增长将超30%，员工奖金平均增长30%以上。魏哲家指出AI应用正从生成式AI查询模式演进至Agentic AI与指令行动模式，持续推升芯片需求。",
+                    "link": "https://www.cls.cn/detail/2390444",
+                    "tags": [
+                      "芯片供应",
+                      "AI需求",
+                      "台积电"
+                    ],
+                    "source": "财联社",
+                    "time": "当地时间6月4日"
+                  }
+                ]
+              },
+              {
+                "title": "AI模型迁移趋势",
+                "news": [
+                  {
+                    "title": "美国AI初创公司Lindy将100%流量从Claude切至DeepSeek V4，年省数百万美元",
+                    "summary": "当地时间6月4日，美国AI Agent初创公司Lindy CEO Flo Crivello宣布已将100%用户流量从Anthropic Claude切换至DeepSeek V4，年省数百万美元且在多个核心场景中性能不降反升。Lindy此前最大成本是模型推理，DeepSeek V4 Pro输出价格仅为Claude Opus 4.7的约1/18。Crivello仍看好Anthropic企业客户关系，但认为中国模型正在快速追赶。",
+                    "link": "https://finance.sina.com.cn/wm/2026-06-04/doc-iniahhrm2369811.shtml",
+                    "tags": [
+                      "模型切换",
+                      "DeepSeek",
+                      "成本"
+                    ],
+                    "source": "新浪财经",
+                    "time": "当地时间6月4日"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "LMArena",
+            "date": "2026-05-28",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "claude-opus-4-6-thinking",
+                "score": "1502",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-7-thinking",
+                "score": "1500",
+                "change": "+5"
+              },
+              {
+                "model": "claude-opus-4-6",
+                "score": "1498",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-7",
+                "score": "1494",
+                "change": "+5"
+              },
+              {
+                "model": "muse-spark（Meta）",
+                "score": "1489",
+                "change": "+6"
+              },
+              {
+                "model": "gemini-3.1-pro-preview",
+                "score": "1487",
+                "change": "+4"
+              },
+              {
+                "model": "gemini-3-pro",
+                "score": "1486",
+                "change": "+4"
+              },
+              {
+                "model": "gpt-5.5-high",
+                "score": "1482",
+                "change": "+6"
+              },
+              {
+                "model": "gemini-3.5-flash",
+                "score": "1479",
+                "change": "+7"
+              },
+              {
+                "model": "gpt-5.5",
+                "score": "1476",
+                "change": "+6"
+              },
+              {
+                "model": "gpt-5.2-chat-latest",
+                "score": "1476",
+                "change": "+4"
+              },
+              {
+                "model": "grok-4.20-beta1",
+                "score": "1476",
+                "change": "+5"
+              },
+              {
+                "model": "grok-4.20-beta-reasoning",
+                "score": "1475",
+                "change": "+5"
+              },
+              {
+                "model": "qwen3.7-max-preview",
+                "score": "1475",
+                "change": "+10"
+              },
+              {
+                "model": "glm-5.1",
+                "score": "1474",
+                "change": "+6"
+              },
+              {
+                "model": "gpt-5.5-instant",
+                "score": "1474",
+                "change": "+5"
+              },
+              {
+                "model": "gemini-3-flash",
+                "score": "1473",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-5-thinking",
+                "score": "1473",
+                "change": "+4"
+              },
+              {
+                "model": "grok-4.20-multi-agent",
+                "score": "1472",
+                "change": "+5"
+              },
+              {
+                "model": "ernie-5.1",
+                "score": "1470",
+                "change": "+6"
+              }
+            ]
+          },
+          {
+            "name": "OpenRouter",
+            "date": "2026-06-05",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": [
+              {
+                "model": "DeepSeek V4 Flash",
+                "score": "2.9T tokens",
+                "change": "↑18%"
+              },
+              {
+                "model": "Hy3 preview（腾讯）",
+                "score": "2.7T tokens",
+                "change": "↑13%"
+              },
+              {
+                "model": "MiMo-V2.5（小米）",
+                "score": "2.31T tokens",
+                "change": "↑450%"
+              },
+              {
+                "model": "Owl Alpha",
+                "score": "1.99T tokens",
+                "change": "↑44%"
+              },
+              {
+                "model": "Claude Sonnet 4.6",
+                "score": "1.77T tokens",
+                "change": "↑14%"
+              },
+              {
+                "model": "Claude Opus 4.7",
+                "score": "1.41T tokens",
+                "change": "↑47%"
+              },
+              {
+                "model": "DeepSeek V4 Pro",
+                "score": "1.34T tokens",
+                "change": "↑11%"
+              },
+              {
+                "model": "MiniMax M3",
+                "score": "1.22T tokens",
+                "change": "—"
+              },
+              {
+                "model": "MiMo-V2.5-Pro（小米）",
+                "score": "1.12T tokens",
+                "change": "↑37%"
+              },
+              {
+                "model": "DeepSeek V3.2",
+                "score": "1.11T tokens",
+                "change": "↑15%"
+              }
+            ]
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-06-02",
+            "link": "https://www.producthunt.com/",
+            "rankings": [
+              {
+                "name": "Fundraisly",
+                "category": "Venture Capital",
+                "rank": 1,
+                "link": "https://www.producthunt.com/products/fundraisly"
+              },
+              {
+                "name": "Vokal",
+                "category": "Productivity",
+                "rank": 2,
+                "link": "https://www.producthunt.com/products/vokal"
+              },
+              {
+                "name": "Gigacatalyst",
+                "category": "Sales",
+                "rank": 3,
+                "link": "https://www.producthunt.com/products/gigacatalyst"
+              },
+              {
+                "name": "Co-Invest",
+                "category": "Fintech",
+                "rank": 4,
+                "link": "https://www.producthunt.com/products/co-invest"
+              },
+              {
+                "name": "Brief",
+                "category": "Developer Tools",
+                "rank": 5,
+                "link": "https://www.producthunt.com/products/brief"
+              },
+              {
+                "name": "Paste MCP & AI Tools",
+                "category": "Mac",
+                "rank": 6,
+                "link": "https://www.producthunt.com/products/paste-mcp-ai-tools"
+              },
+              {
+                "name": "PawPause",
+                "category": "Open Source",
+                "rank": 7,
+                "link": "https://www.producthunt.com/products/pawpause"
+              },
+              {
+                "name": "Enshittifier",
+                "category": "Chrome Extensions",
+                "rank": 8,
+                "link": "https://www.producthunt.com/products/enshittifier"
+              },
+              {
+                "name": "Rodeo by TwelveLabs",
+                "category": "Productivity",
+                "rank": 9,
+                "link": "https://www.producthunt.com/products/rodeo-by-twelvelabs"
+              },
+              {
+                "name": "choclift",
+                "category": "iOS",
+                "rank": 10,
+                "link": "https://www.producthunt.com/products/choclift"
+              },
+              {
+                "name": "Branda",
+                "category": "Design Tools",
+                "rank": 11,
+                "link": "https://www.producthunt.com/products/branda"
+              },
+              {
+                "name": "GlowPulse",
+                "category": "Health & Fitness",
+                "rank": 12,
+                "link": "https://www.producthunt.com/products/glowpulse"
+              },
+              {
+                "name": "Knock agent for Slack",
+                "category": "Customer Communication",
+                "rank": 13,
+                "link": "https://www.producthunt.com/products/knock-agent-for-slack"
+              },
+              {
+                "name": "Trovvelo",
+                "category": "iOS",
+                "rank": 14,
+                "link": "https://www.producthunt.com/products/trovvelo"
+              },
+              {
+                "name": "Kompassify 2.0",
+                "category": "User Experience",
+                "rank": 15,
+                "link": "https://www.producthunt.com/products/kompassify-2-0"
+              },
+              {
+                "name": "Moxie Docs",
+                "category": "Developer Tools",
+                "rank": 16,
+                "link": "https://www.producthunt.com/products/moxie-docs"
+              },
+              {
+                "name": "ConnectWizard",
+                "category": "Analytics",
+                "rank": 17,
+                "link": "https://www.producthunt.com/products/connectwizard"
+              },
+              {
+                "name": "Mirowl",
+                "category": "Mac",
+                "rank": 18,
+                "link": "https://www.producthunt.com/products/mirowl"
+              },
+              {
+                "name": "Galleroo",
+                "category": "SaaS",
+                "rank": 19,
+                "link": "https://www.producthunt.com/products/galleroo"
+              },
+              {
+                "name": "Overline",
+                "category": "Chrome Extensions",
+                "rank": 20,
+                "link": "https://www.producthunt.com/products/overline"
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 };
