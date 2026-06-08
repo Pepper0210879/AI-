@@ -1078,24 +1078,18 @@ let dataReady = (async () => {
 })();
 
 function initPage() {
-    // 恢复上次浏览的日期，避免刷新后自动跳回今天
-    const savedDate = localStorage.getItem(LAST_VIEWED_DATE_KEY);
+    // 始终展示最新可用日期的新闻
+    // loadNewsDataFromJSON 已自动选择最新数据源（data.js vs localStorage）
     const todayStr = getTodayStr();
-    if (savedDate && savedDate !== todayStr) {
-        const confirmed = getConfirmedDates();
-        const snap = confirmed[savedDate];
-        if (snap) {
-            newsData = snap;
-            enrichData(newsData);
-            updateHeaderDate(savedDate);
-            renderContent();
-            setupEventListeners();
-            // 同步日期选择器的显示值
-            const dateInput = document.getElementById('custom-date-input');
-            if (dateInput) dateInput.value = savedDate;
-            return;
-        }
+    const currentDate = newsData?.date || todayStr;
+    const savedDate = localStorage.getItem(LAST_VIEWED_DATE_KEY);
+
+    // 如果数据已更新到更新日期，自动同步并清除旧的历史浏览记录
+    if (savedDate && currentDate > savedDate) {
+        localStorage.setItem(LAST_VIEWED_DATE_KEY, currentDate);
+        console.log(`网页已更新：从 ${savedDate} 自动刷新到最新日期 ${currentDate}`);
     }
+
     updateHeaderDate();
     renderContent();
     setupEventListeners();
@@ -1619,7 +1613,10 @@ function setupDateSelector() {
     dateInput.min = minDate;
     dateInput.max = todayStr;
 
-    let lastValidDate = todayStr;
+    // 初始值设为当前展示的日期
+    const displayDate = newsData?.date || todayStr;
+    dateInput.value = displayDate;
+    let lastValidDate = displayDate;
 
     // 点击按钮展开日期选择器
     dateBtn.addEventListener('click', () => {
