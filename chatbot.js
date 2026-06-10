@@ -362,42 +362,51 @@
     async function handleAPIQuery(query, config) {
         showThinking();
 
-        // 1. 本地搜索 + 格式化（代码做，不靠 AI）
-        var allData = getAllNewsData();
-        allData = filterDataByTimeRange(allData, query);
-        var results = keywordSearch(query, allData);
-
-        if (results.length === 0) {
-            hideThinking();
-            appendBubble('bot', '菇菇翻遍了所有日报，没有找到相关信息呢😢<br><br>换个关键词试试看吧~');
-            return;
-        }
-
-        var formattedReply = formatResultsLocally(query, results, allData);
-
-        // 2. 校验配置
+        // 校验配置
         if (!config.endpoint) {
             hideThinking();
-            appendBubble('bot', formattedReply);
+            appendBubble('bot', '唔...菇菇的 API 还没配置好呢😢<br><br>Endpoint 地址为空，请去管理后台检查配置~');
             return;
         }
 
-        // 3. 只让 AI 加个开场白 + 润色语气，不许动内容
-        var polishMsg = '以下是一份整理好的AI行业新闻回复，请你在开头加一句软萌的开场白（带🍄），\n' +
-            '然后原封不动地输出我给你的内容。一个字都不许改、不许加、不许删、不许编。\n\n' +
-            '=== 内容开始 ===\n' + formattedReply + '\n=== 内容结束 ===';
-
         var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
-        var result = await tryAPIRequest(config, isAnthropic, polishMsg);
+        var allData = getAllNewsData();
+        allData = filterDataByTimeRange(allData, query);
+        var context = formatContextForAPI(allData);
+        var userMsg = buildUserMessage(query, context);
+
+        // 尝试请求，网络错误时重试一次
+        var result = await tryAPIRequest(config, isAnthropic, userMsg);
         if (result.success) {
             hideThinking();
             appendBubble('bot', formatBotReply(result.reply));
             return;
         }
 
-        // API 失败就用本地格式化结果
+        // API 返回了 HTTP 错误（非网络问题），不重试直接降级
+        if (result.httpError) {
+            hideThinking();
+            console.error('API HTTP error:', result.error);
+            appendBubble('bot', '唔...API 返回了错误 😢<br><br>' + escapeHtml(result.error.slice(0, 200)) + '<br><br>菇菇先用本地搜索帮你找找看~');
+            await handleFallbackQuery(query);
+            return;
+        }
+
+        // 网络错误：等待 1 秒后重试一次
+        console.warn('First API attempt failed, retrying...', result.error);
+        await sleep(1000);
+        var retry = await tryAPIRequest(config, isAnthropic, userMsg);
+        if (retry.success) {
+            hideThinking();
+            appendBubble('bot', formatBotReply(retry.reply));
+            return;
+        }
+
+        // 重试也失败，降级到本地搜索
         hideThinking();
-        appendBubble('bot', formattedReply);
+        console.error('API retry also failed:', retry.error);
+        appendBubble('bot', '唔...菇菇连不上 AI 服务器😢<br><br>可能网络不太稳定，菇菇先用本地搜索帮你找找看~');
+        await handleFallbackQuery(query);
     }
 
     async function tryAPIRequest(config, isAnthropic, userMsg) {
@@ -495,129 +504,6 @@
         }
 
         appendBubble('bot', reply);
-    }
-
-    // ==================== 本地格式化（代码拼结构，不靠 AI） ====================
-    function formatResultsLocally(query, results, allData) {
-        // 判断意图：模型发布 or 厂商动态
-        var isModelQuery = /模型|发布|迭代|升级|降价|定价|价格|技术/.test(query);
-
-        // 按厂商分组
-        var vendorGroups = {};
-        results.forEach(function(r) {
-            var item = r.item;
-            var vendor = r.vendor || (item._vendor || '其他');
-            if (isModelQuery) {
-                // 模型发布：只留首发/迭代/升级/降价，去掉CEO回应/转发
-                var title = (item.title || '').toLowerCase();
-                if (/回应|发文|转发|表示|称/.test(title) && !/发布|推出|上线|开源|降价|升级|迭代/.test(title)) return;
-            }
-            if (!vendorGroups[vendor]) vendorGroups[vendor] = { release: [], upgrade: [], price: [] };
-            // 分类
-            var t = (item.title || '') + (item.summary || '');
-            if (/降价|价格|定价|免费|付费|Token.*价格|月费|API.*[元价]/.test(t)) {
-                vendorGroups[vendor].price.push(item);
-            } else if (/升级|迭代|更新|增强|优化|提速|新增|上新/.test(t)) {
-                vendorGroups[vendor].upgrade.push(item);
-            } else {
-                vendorGroups[vendor].release.push(item);
-            }
-        });
-
-        // 获取数据范围
-        var sortedDates = allData.map(function(d) { return d.date; }).sort();
-        var dateRange = sortedDates[0] + ' ~ ' + sortedDates[sortedDates.length - 1];
-
-        // 构建回复
-        var lines = [];
-        lines.push('📅 本次回复覆盖日期：' + dateRange);
-        lines.push('');
-
-        var vendorNames = Object.keys(vendorGroups);
-        if (vendorNames.length === 0) {
-            return lines.join('\n') + '\n菇菇没有找到相关信息呢😢';
-        }
-
-        lines.push('找到啦✨ 菇菇帮你整理了 ' + vendorNames.length + ' 家厂商的相关信息：');
-        lines.push('');
-
-        vendorNames.forEach(function(vendor) {
-            var g = vendorGroups[vendor];
-            lines.push('🔷 ' + vendor);
-            lines.push('');
-
-            addSection(lines, '🚀 模型发布', g.release);
-            addSection(lines, '⬆️ 模型升级', g.upgrade);
-            addSection(lines, '💰 模型定价调整', g.price);
-
-            // 榜单
-            var rankingSummary = getRankingForVendor(vendor, allData);
-            if (rankingSummary) {
-                lines.push('📊 榜单情况');
-                lines.push(rankingSummary);
-            }
-            lines.push('');
-        });
-
-        return lines.join('\n');
-    }
-
-    function addSection(lines, title, items) {
-        if (items.length === 0) return;
-        lines.push(title);
-        items.forEach(function(item) {
-            lines.push('【发布内容】' + item.title);
-            lines.push('【日期】' + (item.time || ''));
-            lines.push('【主要总结】' + (item.summary || '').substring(0, 100));
-            lines.push('【原文链接】' + (item.link || ''));
-            lines.push('');
-        });
-    }
-
-    function getRankingForVendor(vendor, allData) {
-        // 从知识库榜单中搜该厂商模型
-        var keywords = {
-            'OpenAI': ['gpt', 'openai'],
-            'Anthropic': ['claude', 'anthropic'],
-            'Google': ['gemini', 'google'],
-            'xAI': ['grok', 'xai'],
-            'NVIDIA': ['nvidia'],
-            'Meta': ['llama', 'meta', 'muse'],
-            '小米': ['mimo', 'xiaomi'],
-            '阿里云': ['qwen', 'alibaba'],
-            'DeepSeek': ['deepseek'],
-            '腾讯': ['tencent', 'hy'],
-            '智谱AI': ['glm', 'zhipu'],
-            '月之暗面': ['kimi', 'moonshot'],
-            '火山引擎': ['bytedance', 'volc'],
-            '华为': ['huawei', 'pangu']
-        };
-        var terms = keywords[vendor] || [vendor.toLowerCase()];
-
-        var summaries = [];
-        // 从最新一天的数据中找榜单
-        for (var d = allData.length - 1; d >= 0; d--) {
-            var data = allData[d].data;
-            var platforms = (data.sections && data.sections.ranking && data.sections.ranking.platforms) ? data.sections.ranking.platforms : [];
-            platforms.forEach(function(p) {
-                (p.rankings || []).forEach(function(r, ri) {
-                    var searchStr = (r.model || r.name || '').toLowerCase();
-                    var matched = false;
-                    for (var t = 0; t < terms.length; t++) {
-                        if (searchStr.indexOf(terms[t].toLowerCase()) !== -1) { matched = true; break; }
-                    }
-                    if (matched) {
-                        var info = (r.model || r.name) + '：' + p.name + ' 第' + (ri+1) + '名';
-                        if (r.score) info += ' / ' + r.score;
-                        if (summaries.indexOf(info) === -1) summaries.push(info);
-                    }
-                });
-            });
-            if (summaries.length > 0) break; // 用最新一天的榜单
-        }
-
-        if (summaries.length === 0) return '';
-        return '近期榜单表现：' + summaries.join('；') + '。';
     }
 
     // ==================== 数据读取 ====================
