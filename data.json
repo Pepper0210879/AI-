@@ -167,15 +167,15 @@
           "initial": "米",
           "news": [
             {
-              "title": "小米 MiMo 推理速度突破 1000 tokens/s",
-              "summary": "6月8日晚，小米 MiMo 技术团队正式上线 V2.5-Pro-UltraSpeed 模式。通过对模型推理系统的全链路工程能力优化，在不降低模型能力的前提下，首次将推理速度提升至 1000 tokens/s，且仅使用通用 GPU 即可达成。这是业内首次在万亿参数模型上突破千 token 每秒的输出速度。",
+              "title": "雷军：小米 MiMo 业内首次在万亿参数模型突破 1000 tokens/s",
+              "summary": "6月9日，小米创办人、董事长兼 CEO 雷军发文介绍，MiMo 前一晚（6月8日）发布 V2.5-Pro-UltraSpeed 模式，这是业内首次在 1 万亿参数模型上突破 1,000 tokens/秒的输出速度。该成果通过全链路工程优化实现，无需定制芯片，仅使用通用 GPU 即可达成。",
               "link": "https://www.ithome.com/0/961/953.htm",
               "tags": [
                 "推理加速",
                 "大模型优化"
               ],
               "source": "IT之家",
-              "time": "6月8日"
+              "time": "6月9日"
             }
           ]
         },
