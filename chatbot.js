@@ -341,9 +341,13 @@
         allData = filterDataByTimeRange(allData, query);
         var results = keywordSearch(query, allData);
 
-        if (results.length === 0) {
+        if (results.length === 0 || results.length > 50) {
             hideThinking();
-            appendBubble('bot', '菇菇翻遍了所有日报，没有找到相关信息呢😢<br><br>换个关键词试试看吧~');
+            if (results.length > 50) {
+                appendBubble('bot', '菇菇找到太多相关新闻啦😵 可以缩小一下范围吗？比如指定厂商名或者具体日期~');
+            } else {
+                appendBubble('bot', '菇菇翻遍了所有日报，没有找到相关信息呢😢<br><br>换个关键词试试看吧~');
+            }
             return;
         }
 
