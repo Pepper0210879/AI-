@@ -963,7 +963,6 @@ async function refreshAuditPanel() {
         panel.innerHTML = '<p style="color:#CF0A2C;text-align:center;padding:1rem;">⚠️ 未配置 GitHub Token<br><small>请在下方 GitHub 同步配置面板中粘贴 Token 并保存</small></p>';
         return;
     }
-    }
 
     panel.innerHTML = renderAuditLog();
 }
