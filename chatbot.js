@@ -323,6 +323,19 @@
     async function handleAPIQuery(query, config) {
         showThinking();
 
+        // 0. 闲聊类问题直接让 AI 答，不走新闻搜索
+        if (/^你(是谁|叫什么|干嘛|有什么(功能|用))|你好|哈喽|嗨|hello|hi|介绍.*自己|你是谁/.test(query)) {
+            if (config.endpoint) {
+                var chatMsg = '你是菇菇🍄，一只住在「每日AI早报」网站里的蘑菇新闻助手。请用软萌可爱的语气介绍自己。';
+                var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
+                var result = await tryAPIRequest(config, isAnthropic, chatMsg);
+                if (result.success) { hideThinking(); appendBubble('bot', formatBotReply(result.reply)); return; }
+            }
+            hideThinking();
+            appendBubble('bot', '你好呀🍄！我是菇菇，一只住在「每日AI早报」里的蘑菇新闻助手~<br><br>你可以问我AI行业新闻相关的问题，比如：<br>🔍 近期OpenAI有哪些模型发布？<br>🔍 小米最近有什么动态？<br>🔍 近期AI行业有什么趋势？');
+            return;
+        }
+
         // 1. 本地代码：收集指定厂商或关键词的新闻（不做分类）
         var allData = getAllNewsData();
         allData = filterDataByTimeRange(allData, query);
