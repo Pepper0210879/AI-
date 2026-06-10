@@ -8,7 +8,19 @@
           "color": "#10A37F",
           "softBg": "#E6F7F2",
           "initial": "O",
-          "news": []
+          "news": [
+            {
+              "title": "OpenAI 已提交 S-1 草案，释放 IPO 信号",
+              "summary": "6月9日消息，据IT之家报道，OpenAI 已向美国证券交易委员会提交 S-1 草案文件，释放出潜在 IPO 上市信号。若启动上市进程，OpenAI 将成为继 Anthropic 提交招股书后又一家冲击资本市场的头部 AI 公司。",
+              "link": "https://www.ithome.com/0/961/714.htm",
+              "tags": [
+                "IPO",
+                "资本市场"
+              ],
+              "source": "IT之家",
+              "time": "6月9日消息"
+            }
+          ]
         },
         {
           "name": "Anthropic",
@@ -45,6 +57,17 @@
               ],
               "source": "IT之家",
               "time": "6月9日"
+            },
+            {
+              "title": "谷歌 AI Plus 订阅计划降价至 5 美元",
+              "summary": "6月9日消息，谷歌宣布 AI Plus 订阅计划月费从 8 美元降至 5 美元，存储空间从 200GB 提升至 400GB。该计划覆盖 Gmail、Docs 等应用的 AI 功能，降价后性价比进一步提升，或将对微软 Copilot 等竞品形成价格压力。",
+              "link": "https://www.ithome.com/0/961/965.htm",
+              "tags": [
+                "AI订阅",
+                "降价"
+              ],
+              "source": "IT之家",
+              "time": "6月9日消息"
             }
           ]
         },
@@ -72,14 +95,38 @@
           "color": "#76B900",
           "softBg": "#F3F9E8",
           "initial": "N",
-          "news": []
+          "news": [
+            {
+              "title": "Cadence 携手 NVIDIA 发布全自主芯片设计 AI 虚拟工程师",
+              "summary": "6月9日消息，Cadence 与 NVIDIA 联合发布业界首位全自主芯片设计 AI 虚拟工程师。该 AI 可端到端完成芯片设计全流程工作，标志着 AI 在半导体 EDA 领域从辅助工具向自主设计迈出关键一步。",
+              "link": "https://www.ithome.com/0/961/795.htm",
+              "tags": [
+                "芯片设计",
+                "EDA"
+              ],
+              "source": "IT之家",
+              "time": "6月9日消息"
+            }
+          ]
         },
         {
           "name": "Meta",
           "color": "#0668E1",
           "softBg": "#E6F0FD",
           "initial": "M",
-          "news": []
+          "news": [
+            {
+              "title": "Meta 智能眼镜被曝暗藏人脸识别代码",
+              "summary": "6月9日消息，Meta 智能眼镜最新固件中被发现暗藏人脸识别功能代码，可通过摄像头实时识别路人身份。代码曝光仅一天后被 Meta 紧急移除。外界猜测 Meta 正在测试该功能，但面临隐私合规风险。",
+              "link": "https://www.ithome.com/0/961/724.htm",
+              "tags": [
+                "智能眼镜",
+                "人脸识别"
+              ],
+              "source": "IT之家",
+              "time": "6月9日消息"
+            }
+          ]
         }
       ]
     },
@@ -144,7 +191,19 @@
           "color": "#8B5CF6",
           "softBg": "#F3EEFE",
           "initial": "月",
-          "news": []
+          "news": [
+            {
+              "title": "Kimi 官宣将用 AI 预测 104 场世界杯赛事",
+              "summary": "6月9日消息，月之暗面旗下 Kimi 宣布将公开预测 2026 年美加墨世界杯全部 104 场比赛结果。Kimi 将利用大模型分析球队历史数据、球员状态等多维度信息进行预测，德国队被模型预测为潜在爆冷夺冠热门。",
+              "link": "https://www.ithome.com/0/961/634.htm",
+              "tags": [
+                "AI预测",
+                "世界杯"
+              ],
+              "source": "IT之家",
+              "time": "6月9日消息"
+            }
+          ]
         },
         {
           "name": "华为",
@@ -207,6 +266,70 @@
                   "time": "6月10日消息"
                 }
               ]
+            },
+            {
+              "title": "科大讯飞",
+              "news": [
+                {
+                  "title": "科大讯飞将发布智能空间 Agentic 架构 SpaceMind",
+                  "summary": "6月9日消息，科大讯飞宣布将于 6 月 10 日发布智能空间 Agentic 架构 SpaceMind。该架构旨在为智能家居、办公空间等场景提供具备主动感知、推理和执行能力的 AI 智能体系统。",
+                  "link": "https://www.ithome.com/0/962/083.htm",
+                  "tags": [
+                    "AI智能体",
+                    "空间智能"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月9日消息"
+                }
+              ]
+            },
+            {
+              "title": "Perplexity",
+              "news": [
+                {
+                  "title": "Perplexity 计划 2028 年 IPO，不受竞对上市影响",
+                  "summary": "6月9日消息，AI 搜索公司 Perplexity CEO 斯里尼瓦斯表示，无论 Anthropic 和 OpenAI 的 IPO 表现如何，公司都计划在 2028 年启动上市。Perplexity 原定上市时间表保持不变，未受竞争对手上市进展影响。",
+                  "link": "https://www.ithome.com/0/962/068.htm",
+                  "tags": [
+                    "IPO",
+                    "AI搜索"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月9日消息"
+                }
+              ]
+            },
+            {
+              "title": "亚马逊",
+              "news": [
+                {
+                  "title": "亚马逊推出 AI 定制商品功能",
+                  "summary": "6月9日消息，亚马逊推出 AI 定制商品功能，消费者可通过 AI 生成个性化设计图案，定制水杯、T 恤等商品。该功能将生成式 AI 与电商制造流程打通，降低了个性化定制门槛。",
+                  "link": "https://www.ithome.com/0/961/964.htm",
+                  "tags": [
+                    "AI电商",
+                    "个性化定制"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月9日消息"
+                }
+              ]
+            },
+            {
+              "title": "曹操出行",
+              "news": [
+                {
+                  "title": "曹操出行计划组建独立 AI 事业部，拟全面转型 AI 原生公司",
+                  "summary": "6月9日消息，据消息人士透露，曹操出行计划组建独立 AI 事业部，拟全面转型为 AI 原生公司。该公司将在出行服务中深度整合 AI 技术，涵盖智能调度、自动驾驶和用户交互等环节。",
+                  "link": "https://www.ithome.com/0/961/755.htm",
+                  "tags": [
+                    "AI转型",
+                    "出行"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月9日消息"
+                }
+              ]
             }
           ]
         },
@@ -216,7 +339,56 @@
         },
         {
           "name": "具身智能",
-          "cards": []
+          "cards": [
+            {
+              "title": "优必选",
+              "news": [
+                {
+                  "title": "优必选全尺寸超仿生人形机器人小订突破 3000 台",
+                  "summary": "6月9日消息，优必选宣布其全球首款全尺寸超仿生人形机器人小订突破 3000 台，仅限成年人购买使用。该机器人具备高度仿真的外观和 AI 交互能力，标志着人形机器人从实验室走向消费市场的实质性一步。",
+                  "link": "https://www.ithome.com/0/962/144.htm",
+                  "tags": [
+                    "人形机器人",
+                    "商业化"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月9日消息"
+                }
+              ]
+            },
+            {
+              "title": "天工机器人",
+              "news": [
+                {
+                  "title": "人形机器人天工 3.0 将于下半年开启规模化量产",
+                  "summary": "6月9日消息，人形机器人天工 3.0 宣布将于 2026 年下半年开启规模化量产，搭载地瓜机器人旭日 S600 芯片。该机器人定位工业和服务场景，规模化量产将推动人形机器人成本下降和行业渗透率提升。",
+                  "link": "https://www.ithome.com/0/961/640.htm",
+                  "tags": [
+                    "人形机器人",
+                    "量产"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月9日消息"
+                }
+              ]
+            },
+            {
+              "title": "英飞凌 × VinRobotics",
+              "news": [
+                {
+                  "title": "英飞凌与 VinRobotics 合作开发人形机器人",
+                  "summary": "6月9日消息，德国半导体巨头英飞凌与越南机器人企业 VinRobotics 签署合作备忘录，双方将共同开发人形机器人。英飞凌将提供芯片和传感器技术支持，VinRobotics 负责机器人整机设计和制造。",
+                  "link": "https://www.ithome.com/0/961/976.htm",
+                  "tags": [
+                    "人形机器人",
+                    "芯片合作"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月9日消息"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "AI出海",
@@ -239,6 +411,54 @@
                   "tags": [
                     "AI就业",
                     "行业观点"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月9日消息"
+                }
+              ]
+            },
+            {
+              "title": "CNCERT 安全提醒",
+              "news": [
+                {
+                  "title": "CNCERT 提醒智能体 Skills 存在越狱和挖矿风险",
+                  "summary": "6月9日，国家互联网应急中心发布公告，提醒部分智能体技能包以「大模型越狱」「挖矿赚钱」等名义公开传播，诱导用户突破大模型安全限制或占用设备资源进行非法挖矿。此类恶意 Skills 可能导致模型生成违法信息、用户账号被封禁，甚至使用户被动卷入洗钱等违法犯罪活动。",
+                  "link": "https://www.ithome.com/0/962/082.htm",
+                  "tags": [
+                    "AI安全",
+                    "恶意Skills"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月9日"
+                }
+              ]
+            },
+            {
+              "title": "我国智能算力",
+              "news": [
+                {
+                  "title": "截至 2025 年底我国智能算力规模达 159 万 PFLOPS",
+                  "summary": "6月9日消息，据最新数据，截至 2025 年底我国智能算力规模达 159 万 PFLOPS，位居全球第二。智能算力主要服务于大模型训练和推理需求，算力规模的快速增长反映了国内 AI 产业的蓬勃发展态势。",
+                  "link": "https://www.ithome.com/0/961/955.htm",
+                  "tags": [
+                    "算力",
+                    "行业数据"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月9日消息"
+                }
+              ]
+            },
+            {
+              "title": "塔塔咨询服务",
+              "news": [
+                {
+                  "title": "塔塔咨询：AI 智能体替代部分人工，放缓招聘",
+                  "summary": "6月9日消息，印度软件外包巨头塔塔咨询服务宣布，由于 AI 智能体已可替代部分初级人工岗位，公司将放缓传统招聘速度，但承诺不进行裁员。这是全球 IT 服务行业明确将 AI 替代效应反映在人力资源策略上的标志性案例。",
+                  "link": "https://www.ithome.com/0/962/038.htm",
+                  "tags": [
+                    "AI就业",
+                    "外包行业"
                   ],
                   "source": "IT之家",
                   "time": "6月9日消息"
