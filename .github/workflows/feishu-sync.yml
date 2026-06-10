@@ -1,0 +1,29 @@
+name: 飞书数据同步
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data.js'
+      - 'data.json'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Sync to Feishu
+        run: |
+          cd .claude/skills/ai-news-scraper/scripts
+          python3 feishu_sync.py
