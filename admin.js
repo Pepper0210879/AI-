@@ -951,7 +951,18 @@ async function refreshAuditPanel() {
                 if (merged.length > 100) merged.length = 100;
                 localStorage.setItem('ai-news-audit-log', JSON.stringify(merged));
             }
-        } catch(e) { /* 网络不通则用本地缓存 */ }
+        } catch(e) {
+            // GitHub 拉取失败（可能未配 Token），清除本地乱码日志避免混淆
+            var localLog = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
+            var hasGarbled = localLog.some(function(entry) {
+                return entry.operator && /[À-ÿ]{3,}/.test(entry.operator);
+            });
+            if (hasGarbled && !config.token) {
+                // 无 Token 无法拉取远程正确数据，清空本地乱码
+                localStorage.setItem('ai-news-audit-log', '[]');
+                console.log('[审计] 未配置Token，已清除本地乱码日志。配置Token后可查看完整日志。');
+            }
+        }
     }
 
     panel.innerHTML = renderAuditLog();
