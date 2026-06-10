@@ -914,7 +914,11 @@ function diffData(oldData, newData) {
                 } else if (on && nn) {
                     const diffs = [];
                     if (on.title !== nn.title) diffs.push(`标题「${on.title}」→「${nn.title}」`);
-                    if (on.summary !== nn.summary) diffs.push('摘要');
+                    if (on.summary !== nn.summary) {
+                        var oldSnip = on.summary.substring(0, 20);
+                        var newSnip = nn.summary.substring(0, 20);
+                        diffs.push('摘要' + (oldSnip !== newSnip ? '「' + oldSnip + '...」→「' + newSnip + '...」' : ''));
+                    }
                     if (on.link !== nn.link) diffs.push('链接');
                     if (on.time !== nn.time) diffs.push('时间');
                     if (JSON.stringify(on.tags) !== JSON.stringify(nn.tags)) diffs.push('标签');
@@ -944,6 +948,29 @@ function diffData(oldData, newData) {
             if (oldCount !== newCount) {
                 const diff = newCount - oldCount;
                 changes.push(`[${cardTitle}] 新闻 ${diff > 0 ? '+' + diff : diff} 条`);
+            }
+            // 逐条比对内容修改（与海外/国内板块一致）
+            const maxNews = Math.max(oldCount, newCount);
+            for (let ni = 0; ni < maxNews; ni++) {
+                const on = (ocard.news || [])[ni];
+                const nn = (ncard.news || [])[ni];
+                if (!on && nn) {
+                    changes.push(`[${cardTitle}] 新增：${nn.title}`);
+                } else if (on && !nn) {
+                    changes.push(`[${cardTitle}] 删除：${on.title}`);
+                } else if (on && nn) {
+                    const diffs = [];
+                    if (on.title !== nn.title) diffs.push(`标题「${on.title}」→「${nn.title}」`);
+                    if (on.summary !== nn.summary) {
+                        var oldSnip = on.summary.substring(0, 20);
+                        var newSnip = nn.summary.substring(0, 20);
+                        diffs.push('摘要' + (oldSnip !== newSnip ? '「' + oldSnip + '...」→「' + newSnip + '...」' : ''));
+                    }
+                    if (on.link !== nn.link) diffs.push('链接');
+                    if (on.time !== nn.time) diffs.push('时间');
+                    if (JSON.stringify(on.tags) !== JSON.stringify(nn.tags)) diffs.push('标签');
+                    if (diffs.length > 0) changes.push(`[${cardTitle}] 修改：${diffs.join('、')}`);
+                }
             }
         }
     }
