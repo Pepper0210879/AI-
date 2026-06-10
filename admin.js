@@ -880,51 +880,61 @@ function diffData(oldData, newData) {
     const changes = [];
     if (!oldData || !newData) return changes;
 
+    // 通用：比较单条新闻的所有字段
+    function diffNews(on, nn, label) {
+        const diffs = [];
+        if (on.title !== nn.title) diffs.push('标题「' + on.title + '」→「' + nn.title + '」');
+        if (on.summary !== nn.summary) {
+            var oldSnip = on.summary.substring(0, 20);
+            var newSnip = nn.summary.substring(0, 20);
+            diffs.push('摘要' + (oldSnip !== newSnip ? '「' + oldSnip + '...」→「' + newSnip + '...」' : ''));
+        }
+        if (on.link !== nn.link) diffs.push('链接');
+        if (on.source !== nn.source) diffs.push('来源「' + (on.source || '无') + '」→「' + (nn.source || '无') + '」');
+        if (on.time !== nn.time) diffs.push('时间「' + (on.time || '无') + '」→「' + (nn.time || '无') + '」');
+        if (JSON.stringify(on.tags) !== JSON.stringify(nn.tags)) diffs.push('标签');
+        if (diffs.length > 0) changes.push('[' + label + '] 修改：' + diffs.join('、'));
+    }
+
+    // 通用：比较一组新闻列表
+    function diffNewsList(oldNews, newNews, label) {
+        var oldCount = (oldNews || []).length;
+        var newCount = (newNews || []).length;
+        var maxNews = Math.max(oldCount, newCount);
+        for (var ni = 0; ni < maxNews; ni++) {
+            var on = (oldNews || [])[ni];
+            var nn = (newNews || [])[ni];
+            if (!on && nn) {
+                changes.push('[' + label + '] 新增：' + nn.title);
+            } else if (on && !nn) {
+                changes.push('[' + label + '] 删除：' + on.title);
+            } else if (on && nn) {
+                diffNews(on, nn, label);
+            }
+        }
+    }
+
     function compareSection(sectionKey, oldSec, newSec) {
-        const oldVendors = oldSec?.vendors || [];
-        const newVendors = newSec?.vendors || [];
-        const maxLen = Math.max(oldVendors.length, newVendors.length);
-        for (let vi = 0; vi < maxLen; vi++) {
-            const ov = oldVendors[vi] || { news: [] };
-            const nv = newVendors[vi] || { news: [] };
-            const name = nv.name || ov.name;
-            const oldCount = ov.news?.length || 0;
-            const newCount = nv.news?.length || 0;
-            if (oldCount !== newCount) {
-                if (newCount > oldCount) {
-                    // 找出新增的
-                    const oldTitles = new Set((ov.news || []).map(n => n.title));
-                    const added = (nv.news || []).filter(n => !oldTitles.has(n.title));
-                    added.forEach(n => changes.push(`[${name}] 新增：${n.title}`));
-                } else {
-                    const newTitles = new Set((nv.news || []).map(n => n.title));
-                    const removed = (ov.news || []).filter(n => !newTitles.has(n.title));
-                    removed.forEach(n => changes.push(`[${name}] 删除：${n.title}`));
-                }
+        var oldVendors = oldSec?.vendors || [];
+        var newVendors = newSec?.vendors || [];
+        // 检测厂商数量变化
+        for (var vi = 0; vi < Math.max(oldVendors.length, newVendors.length); vi++) {
+            var ov = oldVendors[vi];
+            var nv = newVendors[vi];
+            if (!ov && nv) {
+                changes.push('[结构] ' + sectionKey + ' 新增厂商：' + nv.name);
+                continue;
             }
-            // 按位置比对每条新闻（处理标题也可能被修改的情况）
-            const maxNews = Math.max(oldCount, newCount);
-            for (let ni = 0; ni < maxNews; ni++) {
-                const on = (ov.news || [])[ni];
-                const nn = (nv.news || [])[ni];
-                if (!on && nn) {
-                    changes.push(`[${name}] 新增：${nn.title}`);
-                } else if (on && !nn) {
-                    changes.push(`[${name}] 删除：${on.title}`);
-                } else if (on && nn) {
-                    const diffs = [];
-                    if (on.title !== nn.title) diffs.push(`标题「${on.title}」→「${nn.title}」`);
-                    if (on.summary !== nn.summary) {
-                        var oldSnip = on.summary.substring(0, 20);
-                        var newSnip = nn.summary.substring(0, 20);
-                        diffs.push('摘要' + (oldSnip !== newSnip ? '「' + oldSnip + '...」→「' + newSnip + '...」' : ''));
-                    }
-                    if (on.link !== nn.link) diffs.push('链接');
-                    if (on.time !== nn.time) diffs.push('时间');
-                    if (JSON.stringify(on.tags) !== JSON.stringify(nn.tags)) diffs.push('标签');
-                    if (diffs.length > 0) changes.push(`[${name}] 修改：${diffs.join('、')}`);
-                }
+            if (ov && !nv) {
+                changes.push('[结构] ' + sectionKey + ' 删除厂商：' + ov.name);
+                continue;
             }
+            // 检测厂商名称变化
+            if (ov.name !== nv.name) {
+                changes.push('[结构] ' + sectionKey + ' 厂商改名：「' + ov.name + '」→「' + nv.name + '」');
+            }
+            var name = nv.name || ov.name;
+            diffNewsList(ov.news, nv.news, name);
         }
     }
 
@@ -932,45 +942,74 @@ function diffData(oldData, newData) {
     compareSection('domestic', oldData.sections?.domestic, newData.sections?.domestic);
 
     // Other categories
-    const oldCats = oldData.sections?.other?.categories || [];
-    const newCats = newData.sections?.other?.categories || [];
-    for (let ci = 0; ci < Math.max(oldCats.length, newCats.length); ci++) {
-        const oc = oldCats[ci] || { cards: [] };
-        const nc = newCats[ci] || { cards: [] };
-        const oldCards = oc.cards || [];
-        const newCards = nc.cards || [];
-        for (let cj = 0; cj < Math.max(oldCards.length, newCards.length); cj++) {
-            const ocard = oldCards[cj] || { news: [] };
-            const ncard = newCards[cj] || { news: [] };
-            const cardTitle = ncard.title || ocard.title;
-            const oldCount = ocard.news?.length || 0;
-            const newCount = ncard.news?.length || 0;
-            if (oldCount !== newCount) {
-                const diff = newCount - oldCount;
-                changes.push(`[${cardTitle}] 新闻 ${diff > 0 ? '+' + diff : diff} 条`);
+    var oldCats = oldData.sections?.other?.categories || [];
+    var newCats = newData.sections?.other?.categories || [];
+    for (var ci = 0; ci < Math.max(oldCats.length, newCats.length); ci++) {
+        var oc = oldCats[ci];
+        var nc = newCats[ci];
+        if (!oc && nc) {
+            changes.push('[结构] 其他关注 新增分类：' + nc.name);
+            continue;
+        }
+        if (oc && !nc) {
+            changes.push('[结构] 其他关注 删除分类：' + oc.name);
+            continue;
+        }
+        // 检测分类名称变化
+        if (oc.name !== nc.name) {
+            changes.push('[结构] 其他关注 分类改名：「' + oc.name + '」→「' + nc.name + '」');
+        }
+        var catName = nc.name || oc.name;
+        var oldCards = oc.cards || [];
+        var newCards = nc.cards || [];
+        for (var cj = 0; cj < Math.max(oldCards.length, newCards.length); cj++) {
+            var ocard = oldCards[cj];
+            var ncard = newCards[cj];
+            if (!ocard && ncard) {
+                changes.push('[结构] ' + catName + ' 新增卡片：' + ncard.title);
+                continue;
             }
-            // 逐条比对内容修改（与海外/国内板块一致）
-            const maxNews = Math.max(oldCount, newCount);
-            for (let ni = 0; ni < maxNews; ni++) {
-                const on = (ocard.news || [])[ni];
-                const nn = (ncard.news || [])[ni];
-                if (!on && nn) {
-                    changes.push(`[${cardTitle}] 新增：${nn.title}`);
-                } else if (on && !nn) {
-                    changes.push(`[${cardTitle}] 删除：${on.title}`);
-                } else if (on && nn) {
-                    const diffs = [];
-                    if (on.title !== nn.title) diffs.push(`标题「${on.title}」→「${nn.title}」`);
-                    if (on.summary !== nn.summary) {
-                        var oldSnip = on.summary.substring(0, 20);
-                        var newSnip = nn.summary.substring(0, 20);
-                        diffs.push('摘要' + (oldSnip !== newSnip ? '「' + oldSnip + '...」→「' + newSnip + '...」' : ''));
-                    }
-                    if (on.link !== nn.link) diffs.push('链接');
-                    if (on.time !== nn.time) diffs.push('时间');
-                    if (JSON.stringify(on.tags) !== JSON.stringify(nn.tags)) diffs.push('标签');
-                    if (diffs.length > 0) changes.push(`[${cardTitle}] 修改：${diffs.join('、')}`);
-                }
+            if (ocard && !ncard) {
+                changes.push('[结构] ' + catName + ' 删除卡片：' + ocard.title);
+                continue;
+            }
+            // 检测卡片标题变化
+            if (ocard.title !== ncard.title) {
+                changes.push('[结构] ' + catName + ' 卡片改名：「' + ocard.title + '」→「' + ncard.title + '」');
+            }
+            var cardTitle = ncard.title || ocard.title;
+            diffNewsList(ocard.news, ncard.news, cardTitle);
+        }
+    }
+
+    // 榜单变化
+    var oldRankings = oldData.sections?.ranking?.platforms || [];
+    var newRankings = newData.sections?.ranking?.platforms || [];
+    for (var ri = 0; ri < Math.max(oldRankings.length, newRankings.length); ri++) {
+        var orp = oldRankings[ri];
+        var nrp = newRankings[ri];
+        if (!orp && nrp) {
+            changes.push('[榜单] 新增：' + nrp.name);
+            continue;
+        }
+        if (orp && !nrp) {
+            changes.push('[榜单] 删除：' + orp.name);
+            continue;
+        }
+        var pName = nrp.name || orp.name;
+        var orc = (orp.rankings || []).length;
+        var nrc = (nrp.rankings || []).length;
+        if (orc !== nrc) {
+            changes.push('[榜单] ' + pName + ' 条目 ' + orc + ' → ' + nrc);
+        }
+        // 对每条榜单记录做浅比较（只比前3条详情）
+        var maxR = Math.min(Math.max(orc, nrc), 3);
+        for (var rj = 0; rj < maxR; rj++) {
+            var orr = (orp.rankings || [])[rj];
+            var nrr = (nrp.rankings || [])[rj];
+            if (!orr || !nrr) continue;
+            if (JSON.stringify(orr) !== JSON.stringify(nrr)) {
+                changes.push('[榜单] ' + pName + ' #' + (rj + 1) + ' 变更');
             }
         }
     }
