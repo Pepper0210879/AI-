@@ -201,14 +201,6 @@ window.__RAW_DATA = {
               ],
               "source": "IT之家",
               "time": "6月9日"
-            },
-            {
-              "title": "为首款 NAS 铺路：小米智能存储 App 上架，新品外观示意图曝光",
-              "summary": "6 月 9 日消息，据 IT 之家小伙伴反馈，小米在苹果 App Store 上架了一款小米智能存储 App，有望为小米首款 NAS 产品铺路。根据小米官方介绍，这是一款为家庭用户打造的智能存储客户端，方便用户管理家中的照片、视频和文件。用户通过手机即可访问、备份和分享。支持多端同步与远程访问，让数据随取随用；AI 相册与影视墙功能，让家庭回忆与娱乐内容井井有条。用户可以在小米智能存储 App 中添加「Xiaomi 智能存储」设备，而这款设备的示意图也出现在 App 中。",
-              "link": "https://www.ithome.com/0/961/854.htm",
-              "tags": [],
-              "source": "IT 之家",
-              "time": "6月9日"
             }
           ],
           "logo": "logos/小米.jpg"
@@ -248,23 +240,6 @@ window.__RAW_DATA = {
           "initial": "华",
           "news": [],
           "logo": "logos/华为.jpg"
-        },
-        {
-          "name": "美团",
-          "color": "#f5ec00",
-          "softBg": "#eef5fb",
-          "initial": "美",
-          "news": [
-            {
-              "title": "你好，我是Tabbit，一款能自动干活的免费AI浏览器",
-              "summary": "1.美团正式上线AI浏览器Tabbit 1.0标准版，经100天测试后转正，将AI融入\"搜索-筛选-执行-交付\"全过程，核心功能永久免费开放；2.Tabbit内置DeepSeek、LongCat等国内头部大模型，可按任务切换，新模型API上线当天即接入；3.实际案例覆盖专业推荐方案生成、网课视频转学习资料、儿童编程小游戏开发、信息辟谣核查、外语原著划词阅读及视障用户独立制作PPT等场景，同步开启妙招大赛激励创作者。",
-              "link": "https://mp.weixin.qq.com/s/bOos9qIB-HvpLk3Wgu2dMA",
-              "tags": [],
-              "source": "美团Meituan",
-              "time": "6月9日"
-            }
-          ],
-          "logo": "logos/Meituan.jpg"
         }
       ],
       "title": "国内主要厂商",
@@ -915,5 +890,5 @@ window.__RAW_DATA = {
       "iconClass": "ranking"
     }
   },
-  "_manualEdit": "2026-06-10T03:06:14.938Z"
+  "_manualEdit": "2026-06-10T03:11:40.342Z"
 };
