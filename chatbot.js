@@ -69,7 +69,8 @@
 - 用户提供的知识库是唯一信息来源，不编造内容
 
 回复格式要求（极其重要，严格遵守）：
-- 每次回复开头第一句必须标注：「📅 菇菇的数据覆盖范围：X月X日 ~ X月X日」。若用户问的时间超出此范围，额外提醒"只能查到从X月X日起的信息哦~"
+- 用户问"近期"默认指近一个月；用户指定具体月份则只查该月
+- 每次回复开头必须标注：「📅 本次回复覆盖日期：X月X日 ~ X月X日」。数据不够一个月就如实标注实际范围
 - "模型发布"不含CEO回应/转发/二次传播；"厂商动态"可含所有信息
 - 先按厂商分组（用🔷标注），再在每个厂商下按三板块归类：
 
@@ -350,7 +351,7 @@
     // ==================== API 查询（支持 OpenAI / Anthropic 两种格式） ====================
     function buildUserMessage(query, context) {
         return '以下是每日AI早报的历史数据（知识库覆盖近期数据），请基于这些数据回答用户问题。\n\n' +
-            '回复结构：第一行必须写📅数据范围（从知识库开头读取）。然后按厂商分组，每家下分🚀模型发布/⬆️模型升级/💰定价调整/📊榜单\n' +
+            '回复结构：第一行必须写📅本次回复覆盖的具体日期范围。近期=一个月。用户指定月份则只查该月。然后按厂商分组：🚀模型发布/⬆️模型升级/💰定价调整/📊榜单\n' +
             '条目格式：【发布内容】【日期】【主要总结】【原文链接】各一行\n' +
             '意图："模型发布"含首发/迭代/升级/降价，不含CEO回应/转发\n' +
             '绝不编造\n\n' +
@@ -369,7 +370,9 @@
         }
 
         var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
-        var context = formatContextForAPI(getAllNewsData());
+        var allData = getAllNewsData();
+        allData = filterDataByTimeRange(allData, query);
+        var context = formatContextForAPI(allData);
         var userMsg = buildUserMessage(query, context);
 
         // 尝试请求，网络错误时重试一次
@@ -504,6 +507,64 @@
     }
 
     // ==================== 数据读取 ====================
+    function filterDataByTimeRange(allData, query) {
+        // 从用户问题中提取时间范围，如"四月""4月""上个月""5月到6月"等
+        var monthMap = {
+            '一月': 1, '1月': 1, '二月': 2, '2月': 2, '三月': 3, '3月': 3,
+            '四月': 4, '4月': 4, '五月': 5, '5月': 5, '六月': 6, '6月': 6,
+            '七月': 7, '7月': 7, '八月': 8, '8月': 8, '九月': 9, '9月': 9,
+            '十月': 10, '10月': 10, '十一月': 11, '11月': 11, '十二月': 12, '12月': 12
+        };
+
+        var q = query.toLowerCase();
+        var now = new Date();
+        var currentYear = now.getFullYear();
+        var currentMonth = now.getMonth() + 1;
+
+        // 查找"X月"或"XX月"模式
+        var targetMonth = null, targetYear = null;
+        for (var key in monthMap) {
+            if (q.indexOf(key) !== -1) {
+                targetMonth = monthMap[key];
+                targetYear = currentYear;
+                // 如果指定的月份大于当前月，可能是去年
+                if (targetMonth > currentMonth) targetYear = currentYear - 1;
+                break;
+            }
+        }
+
+        // 处理"上个月""上月"
+        if (!targetMonth && (q.indexOf('上个月') !== -1 || q.indexOf('上月') !== -1)) {
+            targetMonth = currentMonth - 1;
+            if (targetMonth < 1) { targetMonth = 12; targetYear = currentYear - 1; }
+            else targetYear = currentYear;
+        }
+
+        // 处理"上上个月"
+        if (!targetMonth && q.indexOf('上上个月') !== -1) {
+            targetMonth = currentMonth - 2;
+            if (targetMonth < 1) { targetMonth += 12; targetYear = currentYear - 1; }
+            else targetYear = currentYear;
+        }
+
+        // 没有具体日期范围 → 返回全部
+        if (!targetMonth) return allData;
+
+        // 筛选指定月份的数据
+        var filtered = [];
+        for (var i = 0; i < allData.length; i++) {
+            var d = allData[i].date; // 格式：2026-06-10
+            var parts = d.split('-');
+            if (parts.length === 3 && parseInt(parts[1]) === targetMonth) {
+                if (targetYear && parseInt(parts[0]) !== targetYear) continue;
+                filtered.push(allData[i]);
+            }
+        }
+
+        if (filtered.length > 0) return filtered;
+        return allData; // 没筛到就返回全部，让菇菇告知数据范围
+    }
+
     function getAllNewsData() {
         var all = [];
 
@@ -671,7 +732,7 @@
         // 将所有日报数据序列化为结构化文本，作为模型的知识库
         var lines = [];
         var totalItems = 0;
-        var maxItems = 800; // 覆盖近三个月数据（目标~90天×25条≈2250条，摘要截断控token）
+        var maxItems = 800; // 近一个月≈30天×25条=750条，800留有裕量
 
         // 计算数据覆盖范围
         if (allData.length > 0) {
