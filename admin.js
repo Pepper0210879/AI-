@@ -843,6 +843,10 @@ function saveData() {
     addAuditEntry(changes.length > 0 ? changes : ['无实质性变更']);
     showToast(`已保存，共 ${changes.length} 处变更`);
     refreshAuditPanel();
+
+    // 自动同步到 GitHub
+    var config = getGithubConfig();
+    if (config.token) syncToGitHub();
 }
 
 function diffData(oldData, newData) {
@@ -1813,7 +1817,129 @@ document.addEventListener('DOMContentLoaded', function() {
 
     var clearBtn = document.getElementById('admin-api-clear-btn');
     if (clearBtn) clearBtn.addEventListener('click', clearAPIConfig);
+
+    // GitHub 同步配置初始化
+    var ghConfig = getGithubConfig();
+    var ghTokenEl = document.getElementById('github-token');
+    var ghOwnerEl = document.getElementById('github-owner');
+    var ghRepoEl = document.getElementById('github-repo');
+    if (ghTokenEl) ghTokenEl.value = ghConfig.token;
+    if (ghOwnerEl) ghOwnerEl.value = ghConfig.owner;
+    if (ghRepoEl) ghRepoEl.value = ghConfig.repo;
+
+    var ghSaveBtn = document.getElementById('github-save-btn');
+    if (ghSaveBtn) ghSaveBtn.addEventListener('click', saveGithubConfig);
+
+    var ghTestBtn = document.getElementById('github-test-btn');
+    if (ghTestBtn) ghTestBtn.addEventListener('click', async function() {
+        var statusEl = document.getElementById('github-status');
+        var config = getGithubConfig();
+        if (!config.token) {
+            if (statusEl) { statusEl.textContent = '请先输入 Token'; statusEl.style.color = '#CF0A2C'; }
+            return;
+        }
+        if (statusEl) { statusEl.textContent = '测试中...'; statusEl.style.color = ''; }
+        try {
+            var resp = await fetch('https://api.github.com/repos/' + config.owner + '/' + config.repo, {
+                headers: { 'Authorization': 'Bearer ' + config.token, 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' }
+            });
+            if (resp.ok) {
+                if (statusEl) { statusEl.textContent = '连接成功 ✅'; statusEl.style.color = '#10A37F'; }
+            } else {
+                var e = await resp.json();
+                if (statusEl) { statusEl.textContent = '连接失败: ' + e.message; statusEl.style.color = '#CF0A2C'; }
+            }
+        } catch(e) {
+            if (statusEl) { statusEl.textContent = '网络错误: ' + e.message; statusEl.style.color = '#CF0A2C'; }
+        }
+    });
 });
+
+// ==================== GitHub 同步 ====================
+const GITHUB_TOKEN_KEY = 'ai-news-github-token';
+const GITHUB_OWNER_KEY = 'ai-news-github-owner';
+const GITHUB_REPO_KEY = 'ai-news-github-repo';
+
+function getGithubConfig() {
+    return {
+        token: localStorage.getItem(GITHUB_TOKEN_KEY) || '',
+        owner: localStorage.getItem(GITHUB_OWNER_KEY) || 'Pepper0210879',
+        repo: localStorage.getItem(GITHUB_REPO_KEY) || 'AI-'
+    };
+}
+
+function saveGithubConfig() {
+    var tokenInput = document.getElementById('github-token');
+    var ownerInput = document.getElementById('github-owner');
+    var repoInput = document.getElementById('github-repo');
+    var token = tokenInput ? tokenInput.value.trim() : '';
+    if (token) localStorage.setItem(GITHUB_TOKEN_KEY, token);
+    if (ownerInput) localStorage.setItem(GITHUB_OWNER_KEY, ownerInput.value.trim());
+    if (repoInput) localStorage.setItem(GITHUB_REPO_KEY, repoInput.value.trim());
+    var status = document.getElementById('github-status');
+    if (status) { status.textContent = 'Token 已保存 ✅'; status.style.color = '#10A37F'; }
+}
+
+function toggleGithubToken() {
+    var input = document.getElementById('github-token');
+    if (input) input.type = input.type === 'password' ? 'text' : 'password';
+}
+
+async function syncToGitHub() {
+    var config = getGithubConfig();
+    if (!config.token) { console.log('[GitHub] 未配置 Token，跳过同步'); return false; }
+
+    var status = document.getElementById('github-status');
+    if (status) { status.textContent = '同步中...'; status.style.color = ''; }
+
+    try {
+        // 将 data.json 转为 data.js 格式
+        var dataJsContent = 'window.__RAW_DATA = ' + JSON.stringify(editingData, null, 2) + ';';
+        var contentBase64 = btoa(unescape(encodeURIComponent(dataJsContent)));
+
+        var apiUrl = 'https://api.github.com/repos/' + config.owner + '/' + config.repo + '/contents/data.js';
+        var headers = {
+            'Authorization': 'Bearer ' + config.token,
+            'Accept': 'application/vnd.github+json',
+            'X-GitHub-Api-Version': '2022-11-28'
+        };
+
+        // 1. 获取当前 data.js 的 SHA
+        var getResp = await fetch(apiUrl, { headers: headers });
+        var sha = null;
+        if (getResp.ok) {
+            var fileInfo = await getResp.json();
+            sha = fileInfo.sha;
+        }
+
+        // 2. 更新 data.js
+        var body = {
+            message: 'admin: 后台手动更新数据至 ' + editingData.date,
+            content: contentBase64,
+            branch: 'main'
+        };
+        if (sha) body.sha = sha;
+
+        var putResp = await fetch(apiUrl, {
+            method: 'PUT',
+            headers: Object.assign({ 'Content-Type': 'application/json' }, headers),
+            body: JSON.stringify(body)
+        });
+
+        if (putResp.ok) {
+            if (status) { status.textContent = '已同步到云端 ✅（1-2 分钟后生效）'; status.style.color = '#10A37F'; }
+            console.log('[GitHub] 同步成功');
+            return true;
+        } else {
+            var err = await putResp.json();
+            throw new Error(err.message || '未知错误');
+        }
+    } catch (e) {
+        console.error('[GitHub] 同步失败:', e);
+        if (status) { status.textContent = '同步失败 ⚠️ ' + e.message; status.style.color = '#CF0A2C'; }
+        return false;
+    }
+}
 
 // ==================== 工具 ====================
 function esc(str) {

@@ -136,6 +136,44 @@
             </div>
         </div>
 
+        <!-- GitHub 同步配置 -->
+        <div class="api-config-section" style="max-width:900px;margin:2rem auto;padding:0 2rem;">
+            <div class="content-section" style="margin-bottom:2rem;">
+                <div class="section-header" style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.25rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);cursor:pointer;" onclick="const body=this.nextElementSibling;body.style.display=body.style.display==='none'?'block':'none';this.classList.toggle('collapsed');">
+                    <span style="font-size:1.5rem;">🔄</span>
+                    <div>
+                        <h3 style="margin:0;font-size:1rem;">GitHub 同步配置（多人协作）</h3>
+                        <p class="logo-subtitle" style="margin:0;">配置后，保存数据将自动同步到 GitHub Pages，所有访客可见</p>
+                    </div>
+                </div>
+                <div class="section-body" style="display:block;padding:1.25rem;background:var(--bg-card);border:1px solid var(--border);border-top:none;border-radius:0 0 var(--radius-lg) var(--radius-lg);">
+                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+                        <div style="grid-column: 1 / -1;">
+                            <label style="display:block;font-size:0.8rem;color:var(--text-secondary);margin-bottom:0.3rem;">GitHub Personal Access Token</label>
+                            <div style="display:flex;gap:0.5rem;">
+                                <input type="password" id="github-token" style="flex:1;padding:0.45rem 0.6rem;border:1px solid var(--border);border-radius:6px;font-size:0.85rem;font-family:inherit;" placeholder="github_pat_...">
+                                <button onclick="toggleGithubToken()" style="padding:0.45rem 0.8rem;background:transparent;border:1px solid var(--border);border-radius:6px;cursor:pointer;font-size:0.8rem;">👁️</button>
+                            </div>
+                        </div>
+                        <div>
+                            <label style="display:block;font-size:0.8rem;color:var(--text-secondary);margin-bottom:0.3rem;">仓库 Owner</label>
+                            <input type="text" id="github-owner" style="width:100%;padding:0.45rem 0.6rem;border:1px solid var(--border);border-radius:6px;font-size:0.85rem;font-family:inherit;box-sizing:border-box;" value="Pepper0210879" placeholder="GitHub 用户名">
+                        </div>
+                        <div>
+                            <label style="display:block;font-size:0.8rem;color:var(--text-secondary);margin-bottom:0.3rem;">仓库名称</label>
+                            <input type="text" id="github-repo" style="width:100%;padding:0.45rem 0.6rem;border:1px solid var(--border);border-radius:6px;font-size:0.85rem;font-family:inherit;box-sizing:border-box;" value="AI-" placeholder="如 AI-">
+                        </div>
+                    </div>
+                    <div style="margin-top:1rem;display:flex;gap:0.75rem;align-items:center;">
+                        <button id="github-save-btn" style="padding:0.5rem 1.5rem;background:var(--text-primary);color:#fff;border:none;border-radius:6px;font-size:0.85rem;cursor:pointer;">保存 Token</button>
+                        <button id="github-test-btn" style="padding:0.5rem 1rem;background:transparent;color:var(--text-secondary);border:1px solid var(--border);border-radius:6px;font-size:0.85rem;cursor:pointer;">测试连接</button>
+                        <span id="github-status" style="font-size:0.8rem;color:var(--text-secondary);"></span>
+                    </div>
+                    <p style="font-size:0.72rem;color:var(--text-muted);margin-top:0.5rem;">⚠️ Token 仅保存在浏览器 localStorage，不会提交到代码仓库。需拥有仓库 Contents 读写权限。</p>
+                </div>
+            </div>
+        </div>
+
         <footer class="footer">
             <div class="footer-content">
                 <p id="save-status">数据加载中...</p>
