@@ -95,19 +95,7 @@
           "color": "#76B900",
           "softBg": "#F3F9E8",
           "initial": "N",
-          "news": [
-            {
-              "title": "Cadence 携手 NVIDIA 发布全自主芯片设计 AI 虚拟工程师",
-              "summary": "6月9日消息，Cadence 与 NVIDIA 联合发布业界首位全自主芯片设计 AI 虚拟工程师。该 AI 可端到端完成芯片设计全流程工作，标志着 AI 在半导体 EDA 领域从辅助工具向自主设计迈出关键一步。",
-              "link": "https://www.ithome.com/0/961/795.htm",
-              "tags": [
-                "芯片设计",
-                "EDA"
-              ],
-              "source": "IT之家",
-              "time": "6月9日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Meta",
