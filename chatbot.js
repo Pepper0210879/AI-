@@ -362,7 +362,7 @@
     async function handleAPIQuery(query, config) {
         showThinking();
 
-        // 1. 本地搜索：用关键词+厂商名收集候选新闻
+        // 1. 本地搜索 + 本地格式化（代码精准执行，不给AI编造空间）
         var allData = getAllNewsData();
         allData = filterDataByTimeRange(allData, query);
         var results = keywordSearch(query, allData);
@@ -373,13 +373,18 @@
             return;
         }
 
-        // 2. 将候选数据 + 格式指令发给 DeepSeek，让它筛选和整理
-        var dateRange = allData.map(function(d){return d.date;}).sort();
-        var context = formatSearchResults(results, allData, dateRange[0], dateRange[dateRange.length-1]);
+        var localReply = formatResultsLocally(query, results, allData);
+        if (!localReply) {
+            hideThinking();
+            appendBubble('bot', '菇菇翻遍了所有日报，没有找到相关信息呢😢');
+            return;
+        }
 
+        // 2. AI 只加开场白，不碰内容
         if (config.endpoint) {
+            var polishMsg = '在以下内容开头加一句软萌的开场白（含🍄和✨），然后原封不动输出，一个字都不能改：\n\n' + localReply;
             var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
-            var result = await tryAPIRequest(config, isAnthropic, context);
+            var result = await tryAPIRequest(config, isAnthropic, polishMsg);
             if (result.success) {
                 hideThinking();
                 appendBubble('bot', formatBotReply(result.reply));
@@ -387,10 +392,9 @@
             }
         }
 
-        // 3. API 失败 → 本地兜底格式化
+        // 3. API挂了直接用本地结果
         hideThinking();
-        var fallback = formatResultsLocally(query, results, allData);
-        appendBubble('bot', fallback ? fallback.replace(/\n/g, '<br>') : '菇菇翻遍了所有日报，没有找到相关信息呢😢');
+        appendBubble('bot', localReply.replace(/\n/g, '<br>'));
     }
 
     async function tryAPIRequest(config, isAnthropic, userMsg) {
@@ -490,73 +494,7 @@
         appendBubble('bot', reply);
     }
 
-    // ==================== 格式化搜索结果发给 AI ====================
-    function formatSearchResults(results, allData, earliest, latest) {
-        // 去重（同标题只保留最早出现的）
-        var seen = {};
-        var unique = [];
-        results.forEach(function(r) {
-            var key = (r.item.title || '') + '|' + r.vendor;
-            if (!seen[key]) { seen[key] = true; unique.push(r); }
-        });
-
-        var lines = [];
-        lines.push('📅 数据范围：' + earliest + ' ~ ' + latest);
-        lines.push('');
-        lines.push('以下是从知识库中搜索到的候选新闻，请筛选并按格式整理回复：');
-        lines.push('');
-
-        unique.forEach(function(r, i) {
-            lines.push('---');
-            lines.push('序号：' + (i+1));
-            lines.push('厂商：' + r.vendor);
-            lines.push('日期：' + (r.date || ''));
-            lines.push('标题：' + (r.item.title || ''));
-            lines.push('摘要：' + (r.item.summary || '').substring(0, 100));
-            lines.push('链接：' + (r.item.link || ''));
-            lines.push('时间标注：' + (r.item.time || ''));
-            if (r.item.tags && r.item.tags.length) lines.push('标签：' + r.item.tags.join('、'));
-        });
-
-        // 附榜单数据
-        lines.push('');
-        lines.push('=== 榜单数据 ===');
-        if (allData.length > 0) {
-            var ld = allData[allData.length - 1].data;
-            var plats = (ld.sections && ld.sections.ranking && ld.sections.ranking.platforms) ? ld.sections.ranking.platforms : [];
-            plats.forEach(function(p) {
-                (p.rankings || []).forEach(function(r, ri) {
-                    lines.push('【' + p.name + '】' + (r.model || r.name) + ' | 第' + (ri+1) + '名 | ' + (r.score || ''));
-                });
-            });
-        }
-
-        lines.push('');
-        lines.push('=== 回复要求 ===');
-        lines.push('请筛选并整理以上数据，严格按此格式输出：');
-        lines.push('');
-        lines.push('📅 本次回复覆盖日期：' + earliest + ' ~ ' + latest);
-        lines.push('');
-        lines.push('找到啦✨ 菇菇帮你整理了相关信息：');
-        lines.push('');
-        lines.push('先按厂商分组（🔷 厂商名），每家下分三板块：');
-        lines.push('🚀 模型发布（全新模型首发）、⬆️ 模型升级（迭代/增强）、💰 模型定价调整（降价/价格变动）');
-        lines.push('');
-        lines.push('每板块内每条的格式（标签加粗，各占一行）：');
-        lines.push('【发布内容】标题');
-        lines.push('【日期】原文时间标注');
-        lines.push('【主要总结】一句话概括');
-        lines.push('【原文链接】完整URL');
-        lines.push('');
-        lines.push('最后 📊 榜单情况：用一段话总结这些厂商模型在榜单中的表现');
-        lines.push('');
-        lines.push('筛选规则："模型发布"只含首发/迭代/升级/降价，CEO回应/转发/表示不单独列；"厂商动态"包含所有信息。');
-        lines.push('绝不出现星号*、井号#，不编造。');
-
-        return lines.join('\n');
-    }
-
-    // ==================== 本地兜底格式化 ====================
+    // ==================== 本地格式化 ====================
     function formatResultsLocally(query, results, allData) {
         var isModelQuery = /模型|发布|迭代|升级|降价|定价|价格|技术/.test(query);
         var isDynamic = /动态|有什么|新闻|进展/.test(query);
