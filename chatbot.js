@@ -362,7 +362,7 @@
     async function handleAPIQuery(query, config) {
         showThinking();
 
-        // 1. 本地搜索 + 本地格式化（代码精准执行，不给AI编造空间）
+        // 1. 本地代码：收集指定厂商或关键词的新闻（不做分类）
         var allData = getAllNewsData();
         allData = filterDataByTimeRange(allData, query);
         var results = keywordSearch(query, allData);
@@ -373,18 +373,12 @@
             return;
         }
 
-        var localReply = formatResultsLocally(query, results, allData);
-        if (!localReply) {
-            hideThinking();
-            appendBubble('bot', '菇菇翻遍了所有日报，没有找到相关信息呢😢');
-            return;
-        }
-
-        // 2. AI 只加开场白，不碰内容
+        // 2. 发给 DeepSeek：让它从候选数据中挑选、分类、格式化
         if (config.endpoint) {
-            var polishMsg = '在以下内容开头加一句软萌的开场白（含🍄和✨），然后原封不动输出，一个字都不能改：\n\n' + localReply;
+            var dateRange = allData.map(function(d){return d.date;}).sort();
+            var prompt = buildClassifyPrompt(query, results, allData, dateRange[0], dateRange[dateRange.length-1]);
             var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
-            var result = await tryAPIRequest(config, isAnthropic, polishMsg);
+            var result = await tryAPIRequest(config, isAnthropic, prompt);
             if (result.success) {
                 hideThinking();
                 appendBubble('bot', formatBotReply(result.reply));
@@ -392,9 +386,10 @@
             }
         }
 
-        // 3. API挂了直接用本地结果
+        // 3. API挂了 → 本地兜底
         hideThinking();
-        appendBubble('bot', localReply.replace(/\n/g, '<br>'));
+        var fallback = formatResultsLocally(query, results, allData);
+        appendBubble('bot', fallback ? fallback.replace(/\n/g, '<br>') : '菇菇暂时无法回复呢😢');
     }
 
     async function tryAPIRequest(config, isAnthropic, userMsg) {
@@ -494,7 +489,71 @@
         appendBubble('bot', reply);
     }
 
-    // ==================== 本地格式化 ====================
+    // ==================== 构建分类 prompt 发给 AI ====================
+    function buildClassifyPrompt(query, results, allData, earliest, latest) {
+        // 去重
+        var seen = {};
+        var unique = [];
+        results.forEach(function(r) {
+            var key = (r.item.title || '') + '|' + r.vendor;
+            if (!seen[key]) { seen[key] = true; unique.push(r); }
+        });
+
+        var lines = [];
+        lines.push('你是菇菇🍄，一个软萌的AI新闻助手。');
+        lines.push('');
+        lines.push('下面是从知识库中收集到的候选新闻（每个条目都有厂商、日期、标题、摘要、链接，数据真实可靠）。');
+        lines.push('请完成以下任务：');
+        lines.push('1. 从中挑出属于"模型发布""模型升级""模型定价调整"的新闻');
+        lines.push('2. 以下类型的新闻不要：机器人、手机、眼镜、汽车、耳机、手表等硬件产品；CEO回应/转发/表示等二次传播；招聘、地图、外卖等应用层');
+        lines.push('3. 按厂商分组，每家下分🚀模型发布/⬆️模型升级/💰模型定价调整三个板块');
+        lines.push('4. 每个条目格式：');
+        lines.push('   【发布内容】标题');
+        lines.push('   【日期】原文时间标注（照抄，不要改）');
+        lines.push('   【主要总结】一句话概括');
+        lines.push('   【原文链接】完整URL（照抄，不要改）');
+        lines.push('5. 最后📊榜单情况：总结这些模型在榜单中的表现');
+        lines.push('6. 如果某厂商没有任何符合条件的新闻，跳过该厂商');
+        lines.push('');
+        lines.push('📅 数据范围：' + earliest + ' ~ ' + latest);
+        lines.push('');
+        lines.push('=== 候选新闻列表 ===');
+
+        unique.forEach(function(r, i) {
+            lines.push('');
+            lines.push('[' + (i+1) + ']');
+            lines.push('厂商：' + r.vendor);
+            lines.push('日期：' + r.date);
+            lines.push('标题：' + (r.item.title || ''));
+            lines.push('摘要：' + (r.item.summary || '').substring(0, 120));
+            lines.push('链接：' + (r.item.link || ''));
+            lines.push('时间标注：' + (r.item.time || ''));
+        });
+
+        // 榜单
+        if (allData.length > 0) {
+            lines.push('');
+            lines.push('=== 榜单参考 ===');
+            var ld = allData[allData.length - 1].data;
+            var plats = (ld.sections && ld.sections.ranking && ld.sections.ranking.platforms) ? ld.sections.ranking.platforms : [];
+            plats.forEach(function(p) {
+                (p.rankings || []).forEach(function(r, ri) {
+                    lines.push((r.model || r.name) + ' | ' + p.name + ' 第' + (ri+1) + '名 | ' + (r.score || ''));
+                });
+            });
+        }
+
+        lines.push('');
+        lines.push('=== 格式要求 ===');
+        lines.push('回复第一行：📅 本次回复覆盖日期：' + earliest + ' ~ ' + latest);
+        lines.push('开头说一句：找到啦✨ 菇菇帮你整理了相关信息：');
+        lines.push('所有数据来自上面的候选列表，绝不编造标题/摘要/链接/日期。');
+        lines.push('不出现星号*和井号#。');
+
+        return lines.join('\n');
+    }
+
+    // ==================== 本地兜底格式化 ====================
     function formatResultsLocally(query, results, allData) {
         var isModelQuery = /模型|发布|迭代|升级|降价|定价|价格|技术/.test(query);
         var isDynamic = /动态|有什么|新闻|进展/.test(query);
