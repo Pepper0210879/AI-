@@ -1763,8 +1763,8 @@ function loadAPIConfig() {
     if (key) key.value = localStorage.getItem(API_KEY_STORAGE) || '';
     if (proxy) proxy.value = localStorage.getItem(API_PROXY_STORAGE) || '';
 
-    // 自动填充
-    if (!endpoint.value || !model.value) {
+    // 自动填充（元素已删除则跳过）
+    if (endpoint && model && (!endpoint.value || !model.value)) {
         fillProviderDefaults(savedProvider);
     }
     updateAPIStatus();
