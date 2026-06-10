@@ -917,7 +917,6 @@ function diffData(oldData, newData) {
     function compareSection(sectionKey, oldSec, newSec) {
         var oldVendors = oldSec?.vendors || [];
         var newVendors = newSec?.vendors || [];
-        // 检测厂商数量变化
         for (var vi = 0; vi < Math.max(oldVendors.length, newVendors.length); vi++) {
             var ov = oldVendors[vi];
             var nv = newVendors[vi];
@@ -929,10 +928,11 @@ function diffData(oldData, newData) {
                 changes.push('[结构] ' + sectionKey + ' 删除厂商：' + ov.name);
                 continue;
             }
-            // 检测厂商名称变化
-            if (ov.name !== nv.name) {
-                changes.push('[结构] ' + sectionKey + ' 厂商改名：「' + ov.name + '」→「' + nv.name + '」');
-            }
+            // 检测厂商属性变化
+            if (ov.name !== nv.name) changes.push('[结构] ' + sectionKey + ' 厂商改名：「' + ov.name + '」→「' + nv.name + '」');
+            if (ov.initial !== nv.initial) changes.push('[' + nv.name + '] 首字母变更：「' + ov.initial + '」→「' + nv.initial + '」');
+            if (ov.color !== nv.color) changes.push('[' + nv.name + '] 颜色变更');
+            if (ov.logo !== nv.logo) changes.push('[' + nv.name + '] Logo变更');
             var name = nv.name || ov.name;
             diffNewsList(ov.news, nv.news, name);
         }
@@ -955,10 +955,10 @@ function diffData(oldData, newData) {
             changes.push('[结构] 其他关注 删除分类：' + oc.name);
             continue;
         }
-        // 检测分类名称变化
-        if (oc.name !== nc.name) {
-            changes.push('[结构] 其他关注 分类改名：「' + oc.name + '」→「' + nc.name + '」');
-        }
+        // 检测分类属性变化
+        if (oc.name !== nc.name) changes.push('[结构] 其他关注 分类改名：「' + oc.name + '」→「' + nc.name + '」');
+        if (oc.color !== nc.color) changes.push('[结构] 分类「' + (nc.name || oc.name) + '」颜色变更');
+        if (oc.icon !== nc.icon) changes.push('[结构] 分类「' + (nc.name || oc.name) + '」图标变更');
         var catName = nc.name || oc.name;
         var oldCards = oc.cards || [];
         var newCards = nc.cards || [];
@@ -989,28 +989,37 @@ function diffData(oldData, newData) {
         var orp = oldRankings[ri];
         var nrp = newRankings[ri];
         if (!orp && nrp) {
-            changes.push('[榜单] 新增：' + nrp.name);
+            changes.push('[榜单] 新增平台：' + nrp.name);
             continue;
         }
         if (orp && !nrp) {
-            changes.push('[榜单] 删除：' + orp.name);
+            changes.push('[榜单] 删除平台：' + orp.name);
             continue;
         }
+        // 平台属性变化
         var pName = nrp.name || orp.name;
+        if (orp.name !== nrp.name) changes.push('[榜单] 平台改名：「' + orp.name + '」→「' + nrp.name + '」');
+        if (orp.date !== nrp.date) changes.push('[榜单] ' + pName + ' 日期变更：「' + orp.date + '」→「' + nrp.date + '」');
+        if (orp.link !== nrp.link) changes.push('[榜单] ' + pName + ' 链接变更');
+        // 条目数量变化
         var orc = (orp.rankings || []).length;
         var nrc = (nrp.rankings || []).length;
-        if (orc !== nrc) {
-            changes.push('[榜单] ' + pName + ' 条目 ' + orc + ' → ' + nrc);
-        }
-        // 对每条榜单记录做浅比较（只比前3条详情）
-        var maxR = Math.min(Math.max(orc, nrc), 3);
+        if (orc !== nrc) changes.push('[榜单] ' + pName + ' 条目数 ' + orc + ' → ' + nrc);
+        // 逐条比对（全部条目）
+        var maxR = Math.max(orc, nrc);
         for (var rj = 0; rj < maxR; rj++) {
             var orr = (orp.rankings || [])[rj];
             var nrr = (nrp.rankings || [])[rj];
-            if (!orr || !nrr) continue;
-            if (JSON.stringify(orr) !== JSON.stringify(nrr)) {
-                changes.push('[榜单] ' + pName + ' #' + (rj + 1) + ' 变更');
-            }
+            if (!orr && nrr) { changes.push('[榜单] ' + pName + ' 新增 #' + (rj + 1) + ': ' + (nrr.model || nrr.name)); continue; }
+            if (orr && !nrr) { changes.push('[榜单] ' + pName + ' 删除 #' + (rj + 1) + ': ' + (orr.model || orr.name)); continue; }
+            // Product Hunt: name, category, link, upvotes
+            if (orr.name !== nrr.name) changes.push('[榜单] ' + pName + ' #' + (rj+1) + ' 名称：「' + orr.name + '」→「' + nrr.name + '」');
+            if (orr.category !== nrr.category) changes.push('[榜单] ' + pName + ' #' + (rj+1) + ' 分类变更');
+            if (orr.link !== nrr.link) changes.push('[榜单] ' + pName + ' #' + (rj+1) + ' 链接变更');
+            // LMArena/OpenRouter: model, score, change
+            if (orr.model !== nrr.model) changes.push('[榜单] ' + pName + ' #' + (rj+1) + ' 模型：「' + (orr.model||'') + '」→「' + (nrr.model||'') + '」');
+            if (orr.score !== nrr.score) changes.push('[榜单] ' + pName + ' #' + (rj+1) + ' 分数变更');
+            if (orr.change !== nrr.change) changes.push('[榜单] ' + pName + ' #' + (rj+1) + ' 变化值变更');
         }
     }
 
