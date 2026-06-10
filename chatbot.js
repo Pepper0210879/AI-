@@ -514,21 +514,34 @@
             if (!seen[key]) { seen[key] = true; unique.push(r); }
         });
 
+        // 判断意图：模型发布 or 厂商动态
+        var isDynamicQuery = /干嘛|什么动态|怎么样了|最近.*做|有什么.*新|进展|情况/.test(query);
+        var isModelQuery = /模型|发布|升级|降价|技术|定价/.test(query);
+
         var lines = [];
         lines.push('你是菇菇🍄，一个软萌的AI新闻助手。');
         lines.push('');
-        lines.push('下面是从知识库中收集到的候选新闻（每个条目都有厂商、日期、标题、摘要、链接，数据真实可靠）。');
-        lines.push('请完成以下任务：');
-        lines.push('1. 从中挑出属于"模型发布""模型升级""模型定价调整"的新闻');
-        lines.push('2. 以下类型的新闻不要：机器人、手机、眼镜、汽车、耳机、手表等硬件产品；CEO回应/转发/表示等二次传播；招聘、地图、外卖等应用层');
-        lines.push('3. 按厂商分组，每家下分🚀模型发布/⬆️模型升级/💰模型定价调整三个板块');
-        lines.push('4. 每个条目格式：');
+
+        if (isDynamicQuery && !isModelQuery) {
+            lines.push('用户问的是某厂商最近有什么动态，请把该厂商的新闻按重要程度排列展示（产品/技术发布优先）。');
+            lines.push('CEO的发言/宣布/回应可以包含，但同一事件只列一条。');
+            lines.push('');
+            lines.push('按厂商分组，不硬分板块，按时间倒序排列即可。');
+        } else {
+            lines.push('请从候选新闻中挑出属于"模型发布""模型升级""模型定价调整"的新闻。');
+            lines.push('以下类型的新闻不要：机器人、手机、眼镜、汽车、耳机等硬件；CEO回应/转发/表示等二次传播；招聘、地图、外卖等应用层。');
+            lines.push('');
+            lines.push('按厂商分组，每家下分🚀模型发布/⬆️模型升级/💰模型定价调整三个板块。');
+        }
+
+        lines.push('');
+        lines.push('条目格式：');
         lines.push('   【发布内容】标题');
         lines.push('   【日期】原文时间标注（照抄，不要改）');
         lines.push('   【主要总结】一句话概括');
         lines.push('   【原文链接】完整URL（照抄，不要改）');
-        lines.push('5. 最后📊榜单情况：总结这些模型在榜单中的表现');
-        lines.push('6. 如果某厂商没有任何符合条件的新闻，跳过该厂商');
+        lines.push('最后📊榜单情况：总结这些模型在榜单中的表现');
+        lines.push('如果某厂商没有任何符合条件的新闻，跳过该厂商');
         lines.push('');
         lines.push('📅 数据范围：' + earliest + ' ~ ' + latest);
         lines.push('');
