@@ -397,7 +397,10 @@ window.__RAW_DATA = {
                   "title": "美团发布Tabbit，一款能自动干活的免费AI浏览器",
                   "summary": "1.美团正式上线AI浏览器Tabbit 1.0标准版，经100天测试后转正，将AI融入\"搜索-筛选-执行-交付\"全过程，核心功能永久免费开放；2.Tabbit内置DeepSeek、LongCat等国内头部大模型，可按任务切换，新模型API上线当天即接入；3.实际案例覆盖专业推荐方案生成、网课视频转学习资料、儿童编程小游戏开发、信息辟谣核查、外语原著划词阅读及视障用户独立制作PPT等场景，同步开启妙招大赛激励创作者。",
                   "link": "https://mp.weixin.qq.com/s/bOos9qIB-HvpLk3Wgu2dMA",
-                  "tags": [],
+                  "tags": [
+                    "Ai浏览器",
+                    "Ai产品"
+                  ],
                   "source": "美团Meituan",
                   "time": "6月9日"
                 }
@@ -903,5 +906,5 @@ window.__RAW_DATA = {
       "iconClass": "ranking"
     }
   },
-  "_manualEdit": "2026-06-10T06:19:16.548Z"
+  "_manualEdit": "2026-06-10T06:46:56.170Z"
 };
