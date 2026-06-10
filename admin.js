@@ -846,7 +846,7 @@ function saveData() {
 
     // 自动同步到 GitHub
     var config = getGithubConfig();
-    if (config.token) syncToGitHub();
+    if (config.token) syncToGitHub(changes);
 }
 
 function diffData(oldData, newData) {
@@ -924,28 +924,53 @@ function diffData(oldData, newData) {
     return changes;
 }
 
-function refreshAuditPanel() {
+async function refreshAuditPanel() {
     const panel = document.getElementById('audit-panel-body');
     if (!panel) return;
+    panel.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:2rem;">加载中...</p>';
+
+    // 尝试从 GitHub 拉取远程审计日志合并
+    var config = getGithubConfig();
+    if (config.token) {
+        try {
+            var url = 'https://api.github.com/repos/' + config.owner + '/' + config.repo + '/contents/audit-log.json';
+            var resp = await fetch(url, {
+                headers: { 'Authorization': 'Bearer ' + config.token, 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' }
+            });
+            if (resp.ok) {
+                var remoteLog = JSON.parse(atob((await resp.json()).content));
+                // 合并到本地
+                var localLog = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
+                var existingTimes = new Set(localLog.map(function(e) { return e.time; }));
+                remoteLog.forEach(function(e) {
+                    if (!existingTimes.has(e.time)) localLog.push(e);
+                });
+                localLog.sort(function(a, b) { return new Date(b.time) - new Date(a.time); });
+                if (localLog.length > 100) localLog.length = 100;
+                localStorage.setItem('ai-news-audit-log', JSON.stringify(localLog));
+            }
+        } catch(e) { /* 网络不通则用本地缓存 */ }
+    }
+
     panel.innerHTML = renderAuditLog();
 }
 
 function renderAuditLog() {
-    const log = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
+    var log = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
     if (log.length === 0) return '<p style="color:var(--text-muted);text-align:center;padding:2rem;">暂无记录</p>';
-    return log.map((entry, i) => {
-        const d = new Date(entry.time);
-        const timeStr = d.toLocaleString('zh-CN');
-        const operator = entry.operator || '未知';
-        return `<div class="audit-entry">
-            <div class="audit-entry-header">
-                <span class="audit-entry-time">${timeStr}</span>
-                <span class="audit-entry-operator">${operator}</span>
-            </div>
-            <ul class="audit-entry-changes">
-                ${entry.changes.map(c => `<li>${c}</li>`).join('')}
-            </ul>
-        </div>`;
+    return log.map(function(entry) {
+        var d = new Date(entry.time);
+        var timeStr = d.toLocaleString('zh-CN');
+        var operator = entry.operator || '未知';
+        return '<div class="audit-entry">' +
+            '<div class="audit-entry-header">' +
+                '<span class="audit-entry-time">' + timeStr + '</span>' +
+                '<span class="audit-entry-operator">' + operator + '</span>' +
+            '</div>' +
+            '<ul class="audit-entry-changes">' +
+                entry.changes.map(function(c) { return '<li>' + c + '</li>'; }).join('') +
+            '</ul>' +
+        '</div>';
     }).join('');
 }
 
@@ -1885,7 +1910,7 @@ function toggleGithubToken() {
     if (input) input.type = input.type === 'password' ? 'text' : 'password';
 }
 
-async function syncToGitHub() {
+async function syncToGitHub(changes) {
     var config = getGithubConfig();
     if (!config.token) { console.log('[GitHub] 未配置 Token，跳过同步'); return false; }
 
@@ -1912,9 +1937,15 @@ async function syncToGitHub() {
             sha = fileInfo.sha;
         }
 
-        // 2. 更新 data.js
+        // 2. 构建 commit message（含操作人和变更摘要）
+        var op = window._operator || {};
+        var opName = op.name || '未知';
+        var changeSummary = (changes && changes.length > 0) ? changes.slice(0, 5).join('; ') : '无实质性变更';
+        if (changes && changes.length > 5) changeSummary += ' 等' + changes.length + '处';
+        var commitMsg = 'admin: ' + opName + ' 编辑 (' + editingData.date + ')\n\n' + changeSummary;
+
         var body = {
-            message: 'admin: 后台手动更新数据至 ' + editingData.date,
+            message: commitMsg,
             content: contentBase64,
             branch: 'main'
         };
@@ -1926,14 +1957,49 @@ async function syncToGitHub() {
             body: JSON.stringify(body)
         });
 
-        if (putResp.ok) {
-            if (status) { status.textContent = '已同步到云端 ✅（1-2 分钟后生效）'; status.style.color = '#10A37F'; }
-            console.log('[GitHub] 同步成功');
-            return true;
-        } else {
+        if (!putResp.ok) {
             var err = await putResp.json();
             throw new Error(err.message || '未知错误');
         }
+
+        // 3. 同步审计日志到 audit-log.json
+        var auditLog = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
+        // 从服务端拉取合并远程日志
+        try {
+            var auditUrl = 'https://api.github.com/repos/' + config.owner + '/' + config.repo + '/contents/audit-log.json';
+            var auditGetResp = await fetch(auditUrl, { headers: headers });
+            if (auditGetResp.ok) {
+                var remoteAudit = JSON.parse(atob((await auditGetResp.json()).content));
+                var remoteSha = (await auditGetResp.json()).sha;
+                // 合并去重
+                var existingTimes = new Set(remoteAudit.map(function(e) { return e.time; }));
+                auditLog.forEach(function(e) {
+                    if (!existingTimes.has(e.time)) remoteAudit.unshift(e);
+                });
+                auditLog = remoteAudit.slice(0, 100);
+                var auditContent = btoa(unescape(encodeURIComponent(JSON.stringify(auditLog, null, 2))));
+                await fetch(auditUrl, {
+                    method: 'PUT',
+                    headers: Object.assign({ 'Content-Type': 'application/json' }, headers),
+                    body: JSON.stringify({ message: 'audit: ' + opName + ' 操作记录', content: auditContent, branch: 'main', sha: remoteSha })
+                });
+            } else {
+                // 首次创建
+                var auditContent = btoa(unescape(encodeURIComponent(JSON.stringify(auditLog, null, 2))));
+                await fetch(auditUrl, {
+                    method: 'PUT',
+                    headers: Object.assign({ 'Content-Type': 'application/json' }, headers),
+                    body: JSON.stringify({ message: 'audit: 初始化审计日志', content: auditContent, branch: 'main' })
+                });
+            }
+            localStorage.setItem('ai-news-audit-log', JSON.stringify(auditLog));
+        } catch (auditErr) {
+            console.warn('[GitHub] 审计日志同步失败（数据已同步）:', auditErr.message);
+        }
+
+        if (status) { status.textContent = '已同步到云端 ✅（1-2 分钟后生效）'; status.style.color = '#10A37F'; }
+        console.log('[GitHub] 同步成功（数据 + 审计日志）');
+        return true;
     } catch (e) {
         console.error('[GitHub] 同步失败:', e);
         if (status) { status.textContent = '同步失败 ⚠️ ' + e.message; status.style.color = '#CF0A2C'; }
