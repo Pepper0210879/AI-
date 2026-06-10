@@ -342,7 +342,8 @@
             var result = await tryAPIRequest(config, isAnthropic, prompt);
             if (result.success) {
                 hideThinking();
-                appendBubble('bot', formatBotReply(result.reply));
+                var cleaned = verifyReply(result.reply, results);
+                appendBubble('bot', formatBotReply(cleaned));
                 return;
             }
         }
@@ -450,6 +451,39 @@
         appendBubble('bot', reply);
     }
 
+    // ==================== 校验 AI 回复 ====================
+    function verifyReply(reply, results) {
+        // 构建候选链接白名单
+        var validLinks = {};
+        results.forEach(function(r, i) {
+            validLinks[r.item.link] = { index: i+1, item: r.item };
+        });
+
+        // 提取 [编号:X] 标记，校验链接是否在白名单里
+        var cleaned = reply.replace(/【原文链接】(\S+)\s*\[编号:(\d+)\]/g, function(match, url, num) {
+            if (validLinks[url]) {
+                return '【原文链接】' + url;
+            }
+            // 链接不在白名单 → 删除整条条目（回溯删到上一个空行）
+            return '【原文链接】' + url + ' ⚠️已移除（不在知识库中）';
+        });
+
+        // 删除包含 ⚠️ 标记的行
+        cleaned = cleaned.split('\n').filter(function(line) {
+            return line.indexOf('⚠️已移除') === -1;
+        }).join('\n');
+
+        // 兜底：扫描所有 http 链接，不在白名单的替换警告
+        cleaned = cleaned.replace(/https?:\/\/\S+/g, function(url) {
+            if (!validLinks[url] && url.indexOf('workers.dev') === -1) {
+                return url + ' ⚠️';
+            }
+            return url;
+        });
+
+        return cleaned;
+    }
+
     // ==================== 构建分类 prompt 发给 AI ====================
     function buildClassifyPrompt(query, results, allData, earliest, latest) {
         // 去重
@@ -505,14 +539,17 @@
         }
 
         lines.push('');
-        lines.push('=== 严格规则（违反即错误） ===');
-        lines.push('1. 只使用候选列表中已有的条目，不得创建新条目');
-        lines.push('2. 链接和日期必须照抄候选列表中的原文，绝不自编');
-        lines.push('3. 候选列表中同一条新闻（同一链接）只能出现一次');
-        lines.push('4. 同一事件有多个来源时，只保留知识库中有的那个');
-        lines.push('5. 回复第一行：📅 本次回复覆盖日期：' + earliest + ' ~ ' + latest);
-        lines.push('6. 不出现星号*和井号#');
-        lines.push('7. 找不到符合条件的条目就说没有，不硬凑');
+        lines.push('=== 铁律：只能用列表中的编号引用内容 ===');
+        lines.push('每个条目的【原文链接】后面必须注明候选编号，格式：【原文链接】URL [编号:X]');
+        lines.push('示例：【原文链接】https://www.ithome.com/0/955/636.htm [编号:1]');
+        lines.push('');
+        lines.push('严格规则：');
+        lines.push('- 只能从上方候选列表中选条目，不得自创');
+        lines.push('- 链接和日期必须与候选列表中完全一致');
+        lines.push('- 同一链接只能出现一次');
+        lines.push('- 回复第一行：📅 本次回复覆盖日期：' + earliest + ' ~ ' + latest);
+        lines.push('- 不出现星号*和井号#');
+        lines.push('- 找不到就说没有，不硬凑');
 
         return lines.join('\n');
     }
