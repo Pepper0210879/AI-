@@ -815,15 +815,43 @@ let originalData = null;
 
 function loadData() {
     try {
-        const saved = localStorage.getItem(STORAGE_KEY);
+        var saved = localStorage.getItem(STORAGE_KEY);
+        var rawData = window.__RAW_DATA;
+
+        // 如果 localStorage 和 data.js 都存在，比较 _manualEdit 时间戳
+        if (saved && rawData) {
+            var lsData = JSON.parse(saved);
+            var lsEditTime = lsData._manualEdit ? new Date(lsData._manualEdit).getTime() : 0;
+            var rawEditTime = rawData._manualEdit ? new Date(rawData._manualEdit).getTime() : 0;
+            // data.js 更新 → 别人刚改过，用 data.js
+            if (rawEditTime > lsEditTime) {
+                editingData = JSON.parse(JSON.stringify(rawData));
+                originalData = JSON.parse(JSON.stringify(rawData));
+                console.log('[admin] data.js 更新，加载远程数据');
+                return;
+            }
+            // localStorage 更新或相等 → 用本地
+            editingData = lsData;
+            originalData = JSON.parse(JSON.stringify(lsData));
+            console.log('[admin] 加载本地编辑数据');
+            return;
+        }
+
         if (saved) {
             editingData = JSON.parse(saved);
             originalData = JSON.parse(saved);
             return;
         }
-    } catch (e) {}
-    editingData = JSON.parse(JSON.stringify(DEFAULT_DATA));
-    originalData = JSON.parse(JSON.stringify(DEFAULT_DATA));
+    } catch (e) { console.warn('[admin] 加载数据失败:', e); }
+
+    // 兜底：使用 data.js 或默认数据
+    if (window.__RAW_DATA) {
+        editingData = JSON.parse(JSON.stringify(window.__RAW_DATA));
+        originalData = JSON.parse(JSON.stringify(window.__RAW_DATA));
+    } else {
+        editingData = JSON.parse(JSON.stringify(DEFAULT_DATA));
+        originalData = JSON.parse(JSON.stringify(DEFAULT_DATA));
+    }
     localStorage.setItem(STORAGE_KEY, JSON.stringify(editingData));
 }
 
