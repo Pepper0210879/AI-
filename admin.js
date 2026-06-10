@@ -937,7 +937,9 @@ async function refreshAuditPanel() {
                 headers: { 'Authorization': 'Bearer ' + config.token, 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' }
             });
             if (resp.ok) {
-                var remoteLog = JSON.parse(atob((await resp.json()).content));
+                var auditFileInfo = await resp.json();
+                var remoteLog = JSON.parse(base64ToUtf8(auditFileInfo.content));
+                var remoteSha = auditFileInfo.sha;
                 // 远程为权威数据源：用远程条目覆盖本地同时间戳的条目（修复乱码），
                 // 保留本地独有的条目（尚未同步到远程的新操作）
                 var localLog = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
@@ -1917,6 +1919,21 @@ const GITHUB_TOKEN_KEY = 'ai-news-github-token';
 const GITHUB_OWNER_KEY = 'ai-news-github-owner';
 const GITHUB_REPO_KEY = 'ai-news-github-repo';
 
+// UTF-8 编解码：GitHub API 的 base64 content 是 UTF-8 字节，不能直接用 atob/btoa
+function utf8ToBase64(str) {
+    var bytes = new TextEncoder().encode(str);
+    var binary = '';
+    for (var i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
+    return btoa(binary);
+}
+
+function base64ToUtf8(b64) {
+    var binary = atob(b64);
+    var bytes = new Uint8Array(binary.length);
+    for (var i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+    return new TextDecoder('utf-8').decode(bytes);
+}
+
 function getGithubConfig() {
     return {
         token: localStorage.getItem(GITHUB_TOKEN_KEY) || '',
@@ -1953,7 +1970,7 @@ async function syncToGitHub(changes) {
     try {
         // 将 data.json 转为 data.js 格式
         var dataJsContent = 'window.__RAW_DATA = ' + JSON.stringify(editingData, null, 2) + ';';
-        var contentBase64 = btoa(unescape(encodeURIComponent(dataJsContent)));
+        var contentBase64 = utf8ToBase64(dataJsContent);
 
         var apiUrl = 'https://api.github.com/repos/' + config.owner + '/' + config.repo + '/contents/data.js';
         var headers = {
@@ -2003,7 +2020,7 @@ async function syncToGitHub(changes) {
             var auditGetResp = await fetch(auditUrl, { headers: headers });
             if (auditGetResp.ok) {
                 var auditFileInfo = await auditGetResp.json();
-                var remoteAudit = JSON.parse(atob(auditFileInfo.content));
+                var remoteAudit = JSON.parse(base64ToUtf8(auditFileInfo.content));
                 var remoteSha = auditFileInfo.sha;
                 // 合并去重
                 var existingTimes = new Set(remoteAudit.map(function(e) { return e.time; }));
@@ -2011,7 +2028,7 @@ async function syncToGitHub(changes) {
                     if (!existingTimes.has(e.time)) remoteAudit.unshift(e);
                 });
                 auditLog = remoteAudit.slice(0, 100);
-                var auditContent = btoa(unescape(encodeURIComponent(JSON.stringify(auditLog, null, 2))));
+                var auditContent = utf8ToBase64(JSON.stringify(auditLog, null, 2));
                 await fetch(auditUrl, {
                     method: 'PUT',
                     headers: Object.assign({ 'Content-Type': 'application/json' }, headers),
@@ -2019,7 +2036,7 @@ async function syncToGitHub(changes) {
                 });
             } else {
                 // 首次创建
-                var auditContent = btoa(unescape(encodeURIComponent(JSON.stringify(auditLog, null, 2))));
+                var auditContent = utf8ToBase64(JSON.stringify(auditLog, null, 2));
                 await fetch(auditUrl, {
                     method: 'PUT',
                     headers: Object.assign({ 'Content-Type': 'application/json' }, headers),
