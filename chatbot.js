@@ -69,7 +69,7 @@
 - 用户提供的知识库是唯一信息来源，不编造内容
 
 回复格式要求（极其重要，严格遵守）：
-- 用户问"近期"默认指近三个月
+- 用户问"近期"默认指近三个月。若用户指定的时间范围超出知识库数据范围（知识库开头标注了起止日期），要主动告知"菇菇目前的数据从X月X日开始哦，只能帮你查到从那天起的信息~"
 - "模型发布"不含CEO回应/转发/二次传播；"厂商动态"可含所有信息
 - 先按厂商分组（用🔷标注），再在每个厂商下按三板块归类：
 
@@ -673,6 +673,15 @@
         var lines = [];
         var totalItems = 0;
         var maxItems = 200; // 控制 token 消耗
+
+        // 计算数据覆盖范围
+        if (allData.length > 0) {
+            var sortedDates = allData.map(function(d) { return d.date; }).sort();
+            var earliest = sortedDates[0];
+            var latest = sortedDates[sortedDates.length - 1];
+            lines.push('⚠️ 知识库数据范围：' + earliest + ' 至 ' + latest + '。若用户询问超出此范围的日期，请告知数据起始日期。');
+            lines.push('');
+        }
 
         for (var d = 0; d < allData.length && totalItems < maxItems; d++) {
             var date = allData[d].date;
