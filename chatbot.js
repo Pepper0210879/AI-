@@ -323,8 +323,11 @@
     async function handleAPIQuery(query, config) {
         showThinking();
 
-        // 0. 闲聊类问题直接让 AI 答，不走新闻搜索
-        if (/^你(是谁|叫什么|干嘛|有什么(功能|用))|你好|哈喽|嗨|hello|hi|介绍.*自己|你是谁/.test(query)) {
+        // 0. 闲聊/非新闻类问题检测
+        var isChatQuery = /^你(是谁|叫什么|干嘛|有什么(功能|用))|你好|哈喽|嗨|hello|hi|介绍.*自己|你是谁|天气|写诗| joke|笑话|今天.*怎么样/.test(query);
+        var hasNewsIntent = /模型|发布|升级|降价|新闻|动态|趋势|厂商|AI|大模型|芯片|融资|上市|版|更新|开源|收购|合作|投资|自动驾驶|机器人/.test(query);
+        var vendorNames = getVendorMatches(query);
+        if (isChatQuery || (!hasNewsIntent && vendorNames.length === 0)) {
             if (config.endpoint) {
                 var chatMsg = '你是菇菇🍄，一只住在「每日AI早报」网站里的蘑菇新闻助手。请用软萌可爱的语气介绍自己。';
                 var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
