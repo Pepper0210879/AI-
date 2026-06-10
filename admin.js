@@ -1848,12 +1848,20 @@ document.addEventListener('DOMContentLoaded', function() {
     var ghTokenEl = document.getElementById('github-token');
     var ghOwnerEl = document.getElementById('github-owner');
     var ghRepoEl = document.getElementById('github-repo');
-    if (ghTokenEl) ghTokenEl.value = ghConfig.token;
+    var ghStatus = document.getElementById('github-status');
+    if (ghTokenEl) {
+        if (ghConfig.token) {
+            ghTokenEl.placeholder = '已配置（不显示已保存的 Token）';
+            ghTokenEl.style.borderColor = '#10A37F';
+            if (ghStatus) { ghStatus.textContent = '✅ 已配置，保存数据时将自动同步到云端'; ghStatus.style.color = '#10A37F'; }
+        } else {
+            ghTokenEl.placeholder = '请输入 github_pat_...';
+            ghTokenEl.style.borderColor = '#CF0A2C';
+            if (ghStatus) { ghStatus.textContent = '⚠️ 未配置，请粘贴 Token 后点击「保存 Token」'; ghStatus.style.color = '#CF0A2C'; }
+        }
+    }
     if (ghOwnerEl) ghOwnerEl.value = ghConfig.owner;
     if (ghRepoEl) ghRepoEl.value = ghConfig.repo;
-    // 显示当前配置状态
-    var ghStatus = document.getElementById('github-status');
-    if (ghStatus && ghConfig.token) { ghStatus.textContent = '已配置 ✅'; ghStatus.style.color = '#10A37F'; }
 
     var ghSaveBtn = document.getElementById('github-save-btn');
     if (ghSaveBtn) ghSaveBtn.addEventListener('click', saveGithubConfig);
@@ -1905,7 +1913,8 @@ function saveGithubConfig() {
     if (ownerInput) localStorage.setItem(GITHUB_OWNER_KEY, ownerInput.value.trim());
     if (repoInput) localStorage.setItem(GITHUB_REPO_KEY, repoInput.value.trim());
     var status = document.getElementById('github-status');
-    if (status) { status.textContent = 'Token 已保存 ✅'; status.style.color = '#10A37F'; }
+    if (tokenInput) { tokenInput.style.borderColor = '#10A37F'; tokenInput.placeholder = '已配置（不显示已保存的 Token）'; }
+    if (status) { status.textContent = '✅ Token 已保存，同步已就绪'; status.style.color = '#10A37F'; }
 }
 
 function toggleGithubToken() {
