@@ -954,7 +954,11 @@ async function loadNewsDataFromJSON() {
     // 只有 localStorage 日期严格大于 data.js 时，才认为用户手动编辑了更新日期
     const rawDate = rawData?.date || '';
     const lsDate = lsData?.date || '';
-    const isManualEdit = lsData?._manualEdit && lsDate === rawDate;
+    // 仅当 localStorage 标记了手动编辑，且其编辑时间比 data.js 更新时，才保留本地数据
+    // 如果 data.js 的编辑时间更新（别人刚改过），则 data.js 优先
+    const lsEditTime = lsData?._manualEdit ? new Date(lsData._manualEdit).getTime() : 0;
+    const rawEditTime = rawData?._manualEdit ? new Date(rawData._manualEdit).getTime() : 0;
+    const isManualEdit = lsData?._manualEdit && lsDate === rawDate && lsEditTime >= rawEditTime;
 
     if (lsDate > rawDate || isManualEdit) {
         // localStorage 日期更新 → 用户手动编辑优先
