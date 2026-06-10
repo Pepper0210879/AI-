@@ -144,7 +144,19 @@ window.__RAW_DATA = {
           "color": "#3370FF",
           "softBg": "#EBF0FF",
           "initial": "火",
-          "news": []
+          "news": [
+            {
+              "title": "TRAE Solo 升级为 TRAE Work，企业版上线火山引擎",
+              "summary": "6月9日，TRAE Solo 品牌正式升级为 TRAE Work，企业版同步上线火山引擎。TRAE Work 面向企业全员提供 Work 和 Code 两种模式：Work 模式面向产品、运营、市场等非技术岗位，支持多格式混合输入、语音讨论、自动化任务和多端同步；Code 模式面向开发者，支持自然语言生成轻量应用。企业版提供管理后台、沙箱安全机制和操作审计等功能。",
+              "link": "https://mp.weixin.qq.com/s/f7QzLzwHPHHv3tWT1Wrnkw",
+              "tags": [
+                "AI办公",
+                "企业版"
+              ],
+              "source": "火山引擎官方",
+              "time": "6月9日"
+            }
+          ]
         },
         {
           "name": "DeepSeek",
