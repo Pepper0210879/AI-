@@ -504,13 +504,20 @@
         results.forEach(function(r) {
             var vendor = r.vendor || '其他';
             var item = r.item;
-            // CEO 回应/转发类在"模型发布"模式下跳过
+            var title = (item.title || '');
+            var txt = title + (item.summary || '');
+
+            // 模型发布模式：严格筛掉非模型内容
             if (isModelQuery && !isDynamic) {
-                var t = (item.title || '');
-                if (/回应|发文|转发|表示|称|宣布/.test(t) && !/发布|推出|上线|开源|降价|升级|迭代|突破/.test(t)) return;
+                // CEO回应等二次传播
+                if (/回应|发文|转发|表示$|称$|宣布$/.test(title) && !/发布|推出|上线|降价|升级|迭代|突破/.test(title)) return;
+                // 非模型内容：机器人、手机、眼镜、汽车等硬件
+                if (/机器|手机|眼镜|耳机|汽车|平板|手表|头显|Vision|NAS|音箱|笔记本|芯片厂|代工|工厂|制造|量产/.test(txt) && !/模型|大模型|LLM|API|参数|tokens|推理速度|智能体/.test(txt)) return;
+                // 应用层（非模型技术本身）：招聘、语音助手、地图、浏览器（除非明确是模型驱动）
+                if (/招聘|地图|导航|语音助手|下单|点单|出行|外卖/.test(txt) && !/模型|大模型|LLM|API/.test(txt)) return;
             }
+
             if (!groups[vendor]) groups[vendor] = { release: [], upgrade: [], price: [] };
-            var txt = (item.title || '') + (item.summary || '');
             if (/降价|价格|定价|免费|付费|月费/.test(txt)) {
                 groups[vendor].price.push(item);
             } else if (/升级|迭代|更新|增强|优化|提速|新增/.test(txt)) {
@@ -727,12 +734,15 @@
                 });
             });
 
-            // 搜索其他关注
+            // 搜索其他关注（有指定厂商时只收该厂商的卡片）
             var cats = (data.sections.other && data.sections.other.categories) ? data.sections.other.categories : [];
             cats.forEach(function(cat) {
                 (cat.cards || []).forEach(function(card) {
+                    var isCardVendorMatch = vendorNames.length && vendorNames.indexOf(card.title) !== -1;
+                    // 指定了厂商：只收匹配的卡片；未指定厂商：按关键词搜
+                    if (vendorNames.length && !isCardVendorMatch) return;
                     (card.news || []).forEach(function(item) {
-                        if (isBroadQuery || matchKeywords(item, keywords)) {
+                        if (isCardVendorMatch || isBroadQuery || matchKeywords(item, keywords)) {
                             results.push({ date: date, item: item, vendor: card.title, section: 'other' });
                         }
                     });
