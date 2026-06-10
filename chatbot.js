@@ -81,7 +81,7 @@
   【主要总结】一句话概括核心内容
   【原文链接】完整URL
 
-  【榜单信息】该模型近期在LMArena/OpenRouter上的排名总结（如"LMArena第X名/XXX分"），只总结本条提到的模型；若知识库无该模型榜单数据则写"暂无榜单数据"
+  【榜单信息】注意：知识库末尾有榜单数据（LMArena/OpenRouter），请根据模型名称（如MiMo、Claude、Gemini、DeepSeek等关键词）在榜单中搜索匹配，总结该模型的排名和分数。若确实无匹配则写"暂无榜单数据"
 
   （下一条同上格式，每条之间空一行）
 
@@ -719,15 +719,18 @@
                 });
             });
 
-            // 榜单
+            // 榜单（附模型-厂商映射）
             var platforms = (data.sections.ranking && data.sections.ranking.platforms) ? data.sections.ranking.platforms : [];
             platforms.forEach(function(p) {
-                (p.rankings || []).forEach(function(r) {
+                (p.rankings || []).forEach(function(r, ri) {
                     if (totalItems >= maxItems) return;
                     if (r.model) {
-                        lines.push('【榜单-' + p.name + '】' + r.model + ' 评分：' + (r.score || '-'));
+                        var rankInfo = p.name + ' 第' + (ri+1) + '名';
+                        if (r.score) rankInfo += ' / ' + r.score;
+                        if (r.change) rankInfo += ' / 变化' + r.change;
+                        lines.push('【榜单】模型：' + r.model + ' | ' + rankInfo + ' | 日期：' + p.date);
                     } else if (r.name) {
-                        lines.push('【榜单-' + p.name + '】' + r.name + ' 排名：' + (r.rank || '-'));
+                        lines.push('【榜单】产品：' + r.name + ' | ' + p.name + ' 第' + (ri+1) + '名 | 日期：' + p.date);
                     }
                     totalItems++;
                 });
