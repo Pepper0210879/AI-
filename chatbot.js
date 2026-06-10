@@ -445,7 +445,9 @@
 
     function formatBotReply(text) {
         return text
-            .replace(/\*\*(.*?)\*\*/g, '$1')  // 去掉加粗标记
+            .replace(/\*\*(.*?)\*\*/g, '$1')   // 去掉加粗标记
+            .replace(/\*(.*?)\*/g, '$1')        // 去掉斜体标记
+            .replace(/【([^】]+)】/g, '<b>【$1】</b>')  // 【标签】加粗
             .replace(/\n\n/g, '<br><br>')
             .replace(/\n/g, '<br>')
             .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
