@@ -807,9 +807,8 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('save-btn').addEventListener('click', saveData);
     setupConfirmToday();
     updateSaveStatus();
-    // 初始化审计日志面板
-    const panelBody = document.getElementById('audit-panel-body');
-    if (panelBody) panelBody.innerHTML = renderAuditLog();
+    // 初始化审计日志面板（自动从 GitHub 拉取合并远程记录）
+    refreshAuditPanel();
 });
 
 let originalData = null;
