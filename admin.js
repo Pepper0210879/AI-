@@ -1980,8 +1980,9 @@ async function syncToGitHub(changes) {
             var auditUrl = 'https://api.github.com/repos/' + config.owner + '/' + config.repo + '/contents/audit-log.json';
             var auditGetResp = await fetch(auditUrl, { headers: headers });
             if (auditGetResp.ok) {
-                var remoteAudit = JSON.parse(atob((await auditGetResp.json()).content));
-                var remoteSha = (await auditGetResp.json()).sha;
+                var auditFileInfo = await auditGetResp.json();
+                var remoteAudit = JSON.parse(atob(auditFileInfo.content));
+                var remoteSha = auditFileInfo.sha;
                 // 合并去重
                 var existingTimes = new Set(remoteAudit.map(function(e) { return e.time; }));
                 auditLog.forEach(function(e) {
