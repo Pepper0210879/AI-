@@ -257,8 +257,9 @@
 
     // ==================== API 配置（从 localStorage 读取，由管理后台写入） ====================
     function getAPIConfig() {
-        var provider = localStorage.getItem(API_PROVIDER_STORAGE) || 'openai';
-        var key = localStorage.getItem(API_KEY_STORAGE) || '';
+        var HARDCODED_KEY = 'sk-2f3114c2c1554f629982a858df5567de';
+        var provider = localStorage.getItem(API_PROVIDER_STORAGE) || 'deepseek';
+        var key = localStorage.getItem(API_KEY_STORAGE) || HARDCODED_KEY;
         var endpoint = localStorage.getItem(API_ENDPOINT_STORAGE) || '';
         var model = localStorage.getItem(API_MODEL_STORAGE) || '';
         var proxy = localStorage.getItem(API_PROXY_STORAGE) || '';
