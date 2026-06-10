@@ -1851,6 +1851,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (ghTokenEl) ghTokenEl.value = ghConfig.token;
     if (ghOwnerEl) ghOwnerEl.value = ghConfig.owner;
     if (ghRepoEl) ghRepoEl.value = ghConfig.repo;
+    // 显示当前配置状态
+    var ghStatus = document.getElementById('github-status');
+    if (ghStatus && ghConfig.token) { ghStatus.textContent = '已配置 ✅'; ghStatus.style.color = '#10A37F'; }
 
     var ghSaveBtn = document.getElementById('github-save-btn');
     if (ghSaveBtn) ghSaveBtn.addEventListener('click', saveGithubConfig);
