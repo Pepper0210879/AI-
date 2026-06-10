@@ -702,7 +702,12 @@
 
         // 剩余不足2字视为泛问
         if (cleaned.length < 2) return [];
-        return [cleaned];
+        // 拆成独立关键词：每2字一组 + 完整串兜底
+        var parts = [cleaned];
+        for (var i = 0; i + 1 < cleaned.length; i += 2) {
+            parts.push(cleaned.substring(i, Math.min(i + 2, cleaned.length)));
+        }
+        return parts;
     }
 
     function keywordSearch(query, allData) {
@@ -724,9 +729,11 @@
             ['overseas', 'domestic'].forEach(function(sk) {
                 var vendors = (data.sections[sk] && data.sections[sk].vendors) ? data.sections[sk].vendors : [];
                 vendors.forEach(function(v) {
-                    if (vendorNames.length && vendorNames.indexOf(v.name) === -1) return;
+                    var isVendorMatch = vendorNames.length && vendorNames.indexOf(v.name) !== -1;
+                    // 未指定厂商时按关键词搜；指定了厂商则收录该厂商全部新闻
+                    if (vendorNames.length && !isVendorMatch) return;
                     (v.news || []).forEach(function(item) {
-                        if (isBroadQuery || matchKeywords(item, keywords)) {
+                        if (isVendorMatch || isBroadQuery || matchKeywords(item, keywords)) {
                             results.push({ date: date, item: item, vendor: v.name, section: sk });
                         }
                     });
