@@ -1,97 +1,83 @@
 window.__RAW_DATA = {
-  "date": "2026-06-09",
+  "date": "2026-06-10",
   "sections": {
     "overseas": {
       "vendors": [
         {
           "name": "OpenAI",
-          "color": "#10a37f",
-          "softBg": "#e6f7f2",
+          "color": "#10A37F",
+          "softBg": "#E6F7F2",
           "initial": "O",
+          "news": []
+        },
+        {
+          "name": "Anthropic",
+          "color": "#D4A574",
+          "softBg": "#FBF5EF",
+          "initial": "A",
           "news": [
             {
-              "title": "OpenAI秘密提交IPO申请，冲刺万亿美元估值",
-              "summary": "当地时间6月8日，OpenAI发表声明确认已秘密向美国证监会提交S-1文件，正式启动IPO进程。公司未披露发行规模和条款，但据此前报道其目标估值高达1万亿美元，最早可能于9月上市。OpenAI表示IPO具体时间尚未确定，但提交文件让公司在时机成熟时可选择更快上市。这是继Anthropic 6月1日提交IPO申请后，又一家AI巨头冲刺资本市场。",
-              "link": "http://finance.sina.com.cn/wm/2026-06-09/doc-iniaukny3313137.shtml",
+              "title": "Anthropic 发布最强模型 Claude Fable 5",
+              "summary": "当地时间6月9日，Anthropic 发布博文，宣布推出 Claude Fable 5 与 Claude Mythos 5 两款 AI 模型。Fable 5 面向普通用户，是 Anthropic 目前公开可用能力最强的 Claude 模型，在软件工程、知识工作、视觉和科学研究等领域展现出卓越性能。Mythos 5 则通过 Project Glasswing 项目先向少数网络安全防御方和基础设施提供商开放。",
+              "link": "https://www.ithome.com/0/962/152.htm",
               "tags": [
-                "IPO",
-                "上市"
+                "大模型发布",
+                "旗舰模型"
               ],
-              "source": "新浪财经",
-              "time": "当地时间6月8日"
-            },
-            {
-              "title": "Sam Altman宣布OpenAI进入「第三阶段」",
-              "summary": "当地时间6月8日，OpenAI CEO Sam Altman与首席科学家雅各布·帕霍茨基联合发文，宣布公司正式进入第三发展阶段。第一、二阶段分别聚焦AGI研发和全球产品推广，第三阶段核心是让先进AI变得供给充足、成本亲民、安全实用。OpenAI提出三大目标：打造自动化AI研究员、推动经济提速发展、为全球每人配备专属AGI。文章同时强调AI须坚守安全底线并始终处于人类管控之下。",
-              "link": "https://tech.huanqiu.com/article/4Rr63mYTd9U",
-              "tags": [
-                "战略规划",
-                "AGI",
-                "AI安全"
-              ],
-              "source": "环球网",
-              "time": "当地时间6月8日"
+              "source": "IT之家",
+              "time": "当地时间6月9日"
             }
           ]
         },
         {
-          "name": "Anthropic",
-          "color": "#d4a574",
-          "softBg": "#faf5f0",
-          "initial": "A",
-          "news": []
-        },
-        {
           "name": "Google",
-          "color": "#4285f4",
-          "softBg": "#e8f0fe",
+          "color": "#4285F4",
+          "softBg": "#ECF1FC",
           "initial": "G",
           "news": [
             {
-              "title": "曝谷歌向英特尔下单超300万颗TPU芯片",
-              "summary": "6月8日消息，据The Information报道，谷歌已向英特尔下达订单，计划2028年前生产超300万颗自研TPU芯片。知情人士透露，经数月技术测试后谷歌决定将部分TPU制造交由英特尔代工。此外英伟达也在测试英特尔制造技术，马斯克此前表示xAI计划使用英特尔14A制程生产芯片。此举标志着英特尔正切入AI芯片代工市场，有望挑战台积电在AI芯片制造领域的主导地位。",
-              "link": "https://m.hexun.com/tech/2026-06-08/224290847.html",
+              "title": "谷歌发布 Gemini 3.5 Live Translate 实时翻译模型",
+              "summary": "6月9日，谷歌宣布推出 Gemini 3.5 Live Translate 实时语音互译音频模型。该模型可自动检测 70 多种语言，生成流畅自然的翻译语音，并保留说话者的语调、语速和音高。与传统的轮流式翻译系统不同，该模型可在等待上下文和即时翻译之间取得平衡，始终保持比说话者慢几秒的节奏。即日起在谷歌各产品中逐步推出。",
+              "link": "https://www.ithome.com/0/962/143.htm",
               "tags": [
-                "TPU",
-                "芯片代工",
-                "自研芯片"
+                "语音翻译",
+                "实时互译"
               ],
-              "source": "和讯科技",
-              "time": "6月8日消息"
+              "source": "IT之家",
+              "time": "6月9日"
             }
           ]
         },
         {
           "name": "xAI",
-          "color": "#1da1f2",
-          "softBg": "#e8f5fd",
-          "initial": "x",
-          "news": []
-        },
-        {
-          "name": "NVIDIA",
-          "color": "#76b900",
-          "softBg": "#f2f7e6",
-          "initial": "N",
+          "color": "#1DA1F2",
+          "softBg": "#E8F6FE",
+          "initial": "X",
           "news": [
             {
-              "title": "英伟达与LG集团共建AI工厂，覆盖机器人及自动驾驶",
-              "summary": "6月8日，英伟达与LG集团宣布合作建设AI工厂，为LG旗下机器人、自动驾驶、数据中心及GPU云服务等核心业务提供加速计算基础设施。LG电子将整合英伟达Isaac Sim、GR00T等框架训练家用机器人CLoiD，并建立物理AI数据工厂向外供应机器人训练数据；LG CNS将英伟达机器人技术引入工业平台；LG AI研究院基于Blackwell GPU持续开发EXAONE模型。自动驾驶方面，LG电子将对齐英伟达DRIVE Hyperion架构推进ADAS产品线。",
-              "link": "https://tech.huanqiu.com/article/4Rtaspw0SKk",
+              "title": "马斯克展示 SpaceX AI 数据中心卫星计划",
+              "summary": "当地时间6月8日，马斯克在 SpaceX 社交媒体分享的一段视频中，首次详细展示了 AI 数据中心卫星 AI1 的渲染图及规格。AI1 卫星配备翼展 70 米的巨型光伏面板，可支持 120 千瓦平均计算载荷，峰值可达 150 千瓦。SpaceX 计划组建约 100 万颗 AI 卫星网络，在地球轨道上执行复杂的人工智能计算任务。",
+              "link": "https://news.sina.com.cn/w/2026-06-09/doc-iniaukny3331086.shtml",
               "tags": [
-                "AI工厂",
-                "机器人",
-                "自动驾驶"
+                "AI卫星",
+                "太空计算"
               ],
-              "source": "环球网",
-              "time": "6月8日"
+              "source": "科创板日报",
+              "time": "当地时间6月8日"
             }
           ]
         },
         {
+          "name": "NVIDIA",
+          "color": "#76B900",
+          "softBg": "#F3F9E8",
+          "initial": "N",
+          "news": []
+        },
+        {
           "name": "Meta",
-          "color": "#0082fb",
-          "softBg": "#e6f0fd",
+          "color": "#0668E1",
+          "softBg": "#E6F0FD",
           "initial": "M",
           "news": []
         }
@@ -101,146 +87,69 @@ window.__RAW_DATA = {
       "vendors": [
         {
           "name": "阿里云",
-          "color": "#ff6a00",
-          "softBg": "#fff3e6",
+          "color": "#FF6A00",
+          "softBg": "#FFF0E6",
           "initial": "阿",
-          "news": [
-            {
-              "title": "阿里成立Token Foundry事业部，吴泳铭亲自挂帅",
-              "summary": "6月8日，阿里巴巴宣布合并通义大模型事业部和未来生活实验室，成立Token Foundry事业部，由集团CEO吴泳铭直接负责。周靖人将担任阿里巴巴首席科学家，牵头成立AI未来研究院专注前沿技术探索。郑波带领Happy Horse、Happy Oyster等加入新事业部。阿里Q4财报首次披露AI业务已迈入商业化回报周期，最新Qwen-3.7模型Coding能力全球前三、国内第一。",
-              "link": "https://36kr.com/newsflashes/3844339389254145",
-              "tags": [
-                "组织架构",
-                "大模型",
-                "商业化"
-              ],
-              "source": "36氪",
-              "time": "6月8日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "火山引擎",
-          "color": "#3370ff",
-          "softBg": "#e8eeff",
+          "color": "#3370FF",
+          "softBg": "#EBF0FF",
           "initial": "火",
-          "news": [
-            {
-              "title": "赛力斯发布AIVA品牌，全系标配豆包大模型座舱",
-              "summary": "6月9日消息，赛力斯旗下赛豆科技全新汽车品牌AIVA正式官宣，品牌发布会定档6月9日晚间举行。根据官方信息，AIVA全系车型将标配豆包大模型智能座舱，车标样式已曝光。这是继小米、华为之后又一家将大模型深度融入汽车智能座舱的案例，标志着字节豆包大模型在汽车领域的进一步落地。",
-              "link": "https://www.ithome.com/0/961/726.htm",
-              "tags": [
-                "智能座舱",
-                "豆包大模型",
-                "智能汽车"
-              ],
-              "source": "IT之家",
-              "time": "6月9日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "DeepSeek",
-          "color": "#4b6bf9",
-          "softBg": "#edf0ff",
+          "color": "#4D6BFE",
+          "softBg": "#EDEFFF",
           "initial": "D",
           "news": []
         },
         {
           "name": "腾讯",
-          "color": "#0052d9",
-          "softBg": "#e6eeff",
+          "color": "#0052D9",
+          "softBg": "#E6EEFB",
           "initial": "腾",
-          "news": [
-            {
-              "title": "微信AI官宣内测，开发者可接入微信AI生态",
-              "summary": "6月8日，微信开发者官方发布指引，确认微信AI已进入内测阶段。开放平台为开发者提供自动模式和开发模式两种接入方式：自动模式下平台读取小程序源码让微信AI直接操作页面；开发模式下开发者可自主开发，通过评测审核后被微信AI调用。微信强调是否接入由开发者自主决定，不影响现有小程序服务。微信AI可能并非最终名称，服务条款注明以实际名称为准。",
-              "link": "http://news.10jqka.com.cn/20260608/c677292086.shtml",
-              "tags": [
-                "AI Agent",
-                "小程序",
-                "开发者生态"
-              ],
-              "source": "同花顺",
-              "time": "6月8日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "小米",
-          "color": "#ff6900",
-          "softBg": "#fff3e6",
-          "initial": "小",
+          "color": "#FF6900",
+          "softBg": "#FFF0E6",
+          "initial": "米",
           "news": [
             {
-              "title": "小米机器人亮相发布会，仿生手演示操控手机",
-              "summary": "6月8日，在小米17T系列新品发布会上，小米机器人CyberOne惊喜亮相，用仿生手拿起小米17T Pro进行拍照演示。今年3月小米宣布CyberOne在汽车工厂自攻螺母上件工站已实现3小时持续作业、双侧安装成功率90.2%。此前小米对仿生手进行了体积压缩60%、自由度增加64%、触觉传感器面积增至8200平方毫米等改进，实现15万次以上抓握循环寿命。",
-              "link": "https://finance.sina.com.cn/wm/2026-06-08/doc-iniatxxf5391326.shtml",
-              "tags": [
-                "人形机器人",
-                "仿生手",
-                "精细操控"
-              ],
-              "source": "新浪财经",
-              "time": "6月8日"
-            },
-            {
-              "title": "小米MiMo推出UltraSpeed模式：3倍价格10倍速度",
-              "summary": "6月8日，小米MiMo与TileRT联合发布MiMo-V2.5-Pro的UltraSpeed模式，通过模型与系统的极致联合优化，在通用GPU上将万亿参数模型的生成速度首次突破1000 tokens/s。API定价为MiMo-V2.5-Pro的3倍，提供约10倍输出速度提升，限时体验时间为6月9日至23日。由于高速推理资源供给有限，该模式采取申请制限时开放。",
-              "link": "https://g.pconline.com.cn/x/2168/21688204.html",
+              "title": "小米 MiMo 推理速度突破 1000 tokens/s",
+              "summary": "6月8日晚，小米 MiMo 技术团队正式上线 V2.5-Pro-UltraSpeed 模式。通过对模型推理系统的全链路工程能力优化，在不降低模型能力的前提下，首次将推理速度提升至 1000 tokens/s，且仅使用通用 GPU 即可达成。这是业内首次在万亿参数模型上突破千 token 每秒的输出速度。",
+              "link": "https://www.ithome.com/0/961/953.htm",
               "tags": [
                 "推理加速",
-                "API",
-                "大模型"
+                "大模型优化"
               ],
-              "source": "太平洋科技",
+              "source": "IT之家",
               "time": "6月8日"
             }
           ]
         },
         {
           "name": "智谱AI",
-          "color": "#6b3fd4",
-          "softBg": "#f2edff",
+          "color": "#6C5CE7",
+          "softBg": "#F0EEFD",
           "initial": "智",
           "news": []
         },
         {
           "name": "月之暗面",
-          "color": "#8b5cf6",
-          "softBg": "#f3eeff",
+          "color": "#8B5CF6",
+          "softBg": "#F3EEFE",
           "initial": "月",
-          "news": [
-            {
-              "title": "月之暗面Kimi寻求20亿美元融资，估值300亿美元",
-              "summary": "6月8日消息，据彭博社报道，大模型独角兽月之暗面正在寻求新一轮约20亿美元融资，投后估值达300亿美元。这将是该公司六个月内第三轮融资，估值较去年12月暴涨7倍。月之暗面已与潜在投资者展开初步洽谈，计划筹集超10亿美元。此前5月月之暗面刚完成由美团龙珠领投的约20亿美元融资。目前其估值已超越MiniMax（约200亿美元），但低于智谱（约750亿美元）。",
-              "link": "https://t.cj.sina.com.cn/articles/view/7537330838/1c1428a9600101ah5a",
-              "tags": [
-                "融资",
-                "估值",
-                "大模型"
-              ],
-              "source": "新浪财经",
-              "time": "6月8日消息"
-            },
-            {
-              "title": "Kimi官宣用AI Agent集群预测104场世界杯赛事",
-              "summary": "6月8日，月之暗面Kimi宣布将在2026年美加墨世界杯期间，通过Agent集群同时调度300个子Agent，从战术、球员、伤病、赛程、历史、舆情、天气、心理、赔率变动、专家观点等维度，并行研究104场世界杯赛事，并在每轮赛前公开预测与赛后复盘。此举被视为大模型在体育赛事预测领域的大规模应用尝试。",
-              "link": "https://t.cj.sina.com.cn/articles/view/5213469505/136bf3b41020015zbe",
-              "tags": [
-                "AI Agent",
-                "世界杯",
-                "预测"
-              ],
-              "source": "新浪财经",
-              "time": "6月8日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "华为",
-          "color": "#cf0a2c",
-          "softBg": "#fde8ec",
+          "color": "#CF0A2C",
+          "softBg": "#FDE8EC",
           "initial": "华",
           "news": []
         }
@@ -255,13 +164,12 @@ window.__RAW_DATA = {
               "title": "苹果",
               "news": [
                 {
-                  "title": "苹果WWDC发布全新Siri AI，国行版暂不可用",
-                  "summary": "当地时间6月8日，苹果在WWDC 2026上发布全新Siri AI和新一代Apple Intelligence。Siri AI以独立App形态存在，深度融入iPhone、iPad、Mac等设备，可理解屏幕内容和用户个人情境，实现跨App操作。苹果与谷歌合作引入Gemini大模型作为云端底座，简单任务在端侧完成，复杂任务送往私有云计算。苹果强调用户数据不会交给谷歌。国行版Siri AI相关功能暂不提供，需配合监管要求推进，阿里通义千问被认为是最可能的国行合作方。此外iOS 27带来App启动提速30%等性能优化。",
-                  "link": "https://www.ithome.com/0/961/722.htm",
+                  "title": "苹果 Siri AI 因 DMA 监管分歧无缘欧盟 iOS 27",
+                  "summary": "苹果公司当地时间6月8日宣布，全新 Siri AI 将随 iOS 27 及 iPadOS 27 发布，但受欧盟《数字市场法》影响，欧盟用户届时无法在 iPhone 及 iPad 上使用该功能。苹果软件工程高级副总裁费德里吉表示，过去数月向欧盟监管机构提交了多项解决方案均遭拒绝。苹果认为欧盟要求赋予第三方 AI 系统近乎无限的设备访问权限将对用户隐私和安全构成重大风险。",
+                  "link": "https://www.ithome.com/0/962/081.htm",
                   "tags": [
-                    "Siri AI",
-                    "WWDC",
-                    "系统级AI"
+                    "AI监管",
+                    "数字市场法"
                   ],
                   "source": "IT之家",
                   "time": "当地时间6月8日"
@@ -269,36 +177,34 @@ window.__RAW_DATA = {
               ]
             },
             {
-              "title": "高德地图",
+              "title": "三星",
               "news": [
                 {
-                  "title": "高德发布3D原生城市世界模型ABot-Earth 0.5",
-                  "summary": "6月8日消息，高德发布ABot-Earth 0.5，这是全球首个3D原生城市世界模型，单图10分钟即可重建3D城市。该模型已建成覆盖190多个国家的全球最广3D地图，输出素材可直接导入主流游戏引擎，制图成本仅为传统方法的1%，效率提升约千倍。该模型有望为具身智能、低空经济及应急救援提供基础支撑，已正式开放内测。",
-                  "link": "https://ai-bot.cn/abot-earth0-5/",
+                  "title": "三星计划在光州建先进半导体封装工厂",
+                  "summary": "6月10日消息，据韩国经济日报援引业内消息人士报道，三星电子计划在韩国光州建设一座先进半导体封装工厂，进一步强化 AI 芯片产业链布局。该投资计划有望于 6 月 29 日总统会谈期间公布。当前三星正持续扩大在 HBM 市场的投入，客户涵盖英伟达、AMD 及谷歌等主要 AI 企业。",
+                  "link": "https://www.ithome.com/0/962/153.htm",
                   "tags": [
-                    "3D世界模型",
-                    "具身智能",
-                    "地图"
+                    "芯片封装",
+                    "HBM"
                   ],
-                  "source": "AI Bot",
-                  "time": "6月8日消息"
+                  "source": "IT之家",
+                  "time": "6月10日消息"
                 }
               ]
             },
             {
-              "title": "蚂蚁集团",
+              "title": "赛豆",
               "news": [
                 {
-                  "title": "蚂蚁集团推出海外AI支付解决方案",
-                  "summary": "6月8日消息，蚂蚁集团推出海外AI支付解决方案，商户可实现全球智能体运营，协助用户与商家判断智能体可信赖程度。此举标志着蚂蚁将AI能力向海外支付场景延伸，是中国AI企业出海的又一案例。",
-                  "link": "http://k.sina.com.cn/article_5115326071_130e5ae7702002wb7q.html",
+                  "title": "赛豆 AIVA Origin Concept 概念车亮相",
+                  "summary": "赛豆首款概念车 AIVA Origin Concept 正式亮相，定位「物理 AI 汽车生命体」。新车以大模型为起点，号称要让 AI 从数字世界中走出来，成为看得见、能感知、会回应的具身 AI 生命体。量产首车 AIVA ME7 将于年内发布。",
+                  "link": "https://www.ithome.com/0/962/087.htm",
                   "tags": [
-                    "AI支付",
-                    "出海",
-                    "智能体"
+                    "AI汽车",
+                    "具身智能"
                   ],
-                  "source": "新浪",
-                  "time": "6月8日消息"
+                  "source": "IT之家",
+                  "time": "6月10日消息"
                 }
               ]
             }
@@ -306,47 +212,11 @@ window.__RAW_DATA = {
         },
         {
           "name": "自动驾驶",
-          "cards": [
-            {
-              "title": "文远知行",
-              "news": [
-                {
-                  "title": "文远知行WRD 3.0智驾方案亮相高通峰会",
-                  "summary": "6月8日消息，文远知行携L2++一段式端到端方案WRD 3.0亮相高通峰会，广汽埃安N60搭载该方案在高通智驾大赛中获亚军。WRD 3.0是文远知行面向乘用车市场的最新一代智能驾驶方案，采用一段式端到端架构，标志着文远知行从L4级Robotaxi向乘用车ADAS市场的进一步拓展。",
-                  "link": "https://www.qbitai.com/2026/06/432055.html",
-                  "tags": [
-                    "端到端智驾",
-                    "L2++",
-                    "高通"
-                  ],
-                  "source": "量子位",
-                  "time": "6月8日消息"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "具身智能",
-          "cards": [
-            {
-              "title": "人形机器人政策",
-              "news": [
-                {
-                  "title": "两部门：2026年底前完成人形机器人应用验证和常态部署",
-                  "summary": "6月9日消息，国家相关部门联合发布意见，提出到2026年底前，人形机器人等重点产品在一批代表性场景中率先完成应用验证和常态部署。政策旨在加速人形机器人从实验室走向实际应用，推动产业化落地，为具身智能行业提供明确时间表和场景指引。",
-                  "link": "https://finance.sina.com.cn/tech/digi/2026-06-09/doc-iniauknw6551703.shtml",
-                  "tags": [
-                    "人形机器人",
-                    "产业政策",
-                    "应用落地"
-                  ],
-                  "source": "新浪财经",
-                  "time": "6月9日消息"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "AI出海",
@@ -354,59 +224,23 @@ window.__RAW_DATA = {
         },
         {
           "name": "投资资讯",
-          "cards": [
-            {
-              "title": "安纳智芯",
-              "news": [
-                {
-                  "title": "模拟计算芯片公司安纳智芯完成数亿元融资",
-                  "summary": "近日，高精度现代模拟计算芯片公司安纳智芯宣布完成新一轮数亿元融资，由经纬创投领投，峰瑞资本、阿尔法公社跟投，老股东讯飞创投、中赢创投持续加码。安纳智芯专注于模拟计算芯片，以模拟电路方式实现高效AI推理，被视为AI算力芯片的差异化技术路线之一。",
-                  "link": "https://www.chinaventure.com.cn/news/114-20260608-391753.html",
-                  "tags": [
-                    "模拟计算",
-                    "芯片",
-                    "融资"
-                  ],
-                  "source": "投中网",
-                  "time": "近日"
-                }
-              ]
-            },
-            {
-              "title": "华超神控（AI脑机）",
-              "news": [
-                {
-                  "title": "AI超声脑机公司华超神控完成亿元级天使轮融资",
-                  "summary": "近日，AI超声脑机接口公司华超神控（BCI-Sonics）完成亿元级天使轮系列融资。天使轮由经纬创投领投，天使+轮由德联资本、道远资本联合领投。募集资金将用于推动超声脑机接口技术的验证与产业化落地。脑机接口作为AI与生物医学交叉的前沿领域，近年来关注度持续升温。",
-                  "link": "https://www.donews.com/news/detail/4/6586908.html",
-                  "tags": [
-                    "脑机接口",
-                    "融资",
-                    "AI医疗"
-                  ],
-                  "source": "DoNews",
-                  "time": "近日"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "OpenRouter数据：中国AI调用量连续六周超美国",
+              "title": "穆斯塔法·苏莱曼（微软 AI CEO）",
               "news": [
                 {
-                  "title": "中国AI大模型周调用量连续六周超越美国",
-                  "summary": "6月9日消息，OpenRouter最新数据显示，全球AI大模型总调用量连续七周上涨。中国模型周调用量环比增长27.49%达14.19万亿Token，连续六周超越美国。DeepSeek-V4-Flash蝉联榜首，MiniMax新模型M3首周即冲入前三，前四名均为国产模型。这一数据反映出中国AI大模型在全球市场的采用率持续提升。",
-                  "link": "https://ai.xueqiu.com/5819606767/393293252",
+                  "title": "微软 AI CEO 改口：AI 不会取代白领工作",
+                  "summary": "6月9日消息，微软 AI 部门 CEO 穆斯塔法·苏莱曼在一档播客节目中淡化其此前「AI 将在 18 个月内取代大部分白领工作」的言论。他解释称，AI 将帮助白领完成发邮件、做 PPT 等任务，提高工作效率，而不是直接取代职业。今年 2 月他曾对《金融时报》表示，律师、会计师等白领岗位大部分任务将在 12-18 个月内被 AI 自动化。",
+                  "link": "https://www.ithome.com/0/962/142.htm",
                   "tags": [
-                    "调用量",
-                    "OpenRouter",
-                    "国产模型"
+                    "AI就业",
+                    "行业观点"
                   ],
-                  "source": "雪球",
+                  "source": "IT之家",
                   "time": "6月9日消息"
                 }
               ]
@@ -443,7 +277,7 @@ window.__RAW_DATA = {
               "change": "+5"
             },
             {
-              "model": "muse-spark (Meta)",
+              "model": "muse-spark",
               "score": "1489",
               "change": "+6"
             },
@@ -483,12 +317,12 @@ window.__RAW_DATA = {
               "change": "+7"
             },
             {
-              "model": "gpt-5.2-chat-latest",
+              "model": "gpt-5.2-chat-latest-20260210",
               "score": "1476",
               "change": "+4"
             },
             {
-              "model": "glm-5.1 (智谱)",
+              "model": "glm-5.1",
               "score": "1475",
               "change": "+6"
             },
@@ -513,12 +347,12 @@ window.__RAW_DATA = {
               "change": "+4"
             },
             {
-              "model": "grok-4.20-reasoning",
+              "model": "grok-4.20-beta-0309-reasoning",
               "score": "1473",
               "change": "+4"
             },
             {
-              "model": "claude-opus-4-5-thinking",
+              "model": "claude-opus-4-5-20251101-thinking-32k",
               "score": "1473",
               "change": "+4"
             }
@@ -526,95 +360,185 @@ window.__RAW_DATA = {
         },
         {
           "name": "OpenRouter",
-          "date": "2026-06-09",
+          "date": "2026-06-10",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "DeepSeek V4 Flash",
-              "score": "4.07T tokens",
-              "change": "↑41%"
+              "score": "4.23T tokens",
+              "change": "↑ 55%"
             },
             {
-              "model": "Hy3 preview (腾讯)",
-              "score": "3.30T tokens",
-              "change": "↑12%"
+              "model": "Hy3 preview",
+              "score": "3.53T tokens",
+              "change": "↑ 25%"
             },
             {
               "model": "MiniMax M3",
-              "score": "2.89T tokens",
-              "change": "↑>999%"
+              "score": "3.22T tokens",
+              "change": "↑ >999%"
             },
             {
-              "model": "MiMo-V2.5 (小米)",
-              "score": "2.44T tokens",
-              "change": "↑43%"
-            },
-            {
-              "model": "Owl Alpha",
-              "score": "1.98T tokens",
-              "change": "↑13%"
+              "model": "MiMo-V2.5",
+              "score": "2.73T tokens",
+              "change": "↑ 40%"
             },
             {
               "model": "DeepSeek V4 Pro",
-              "score": "1.86T tokens",
-              "change": "↑48%"
+              "score": "2.03T tokens",
+              "change": "↑ 59%"
+            },
+            {
+              "model": "Owl Alpha",
+              "score": "2.01T tokens",
+              "change": "↑ 9%"
             },
             {
               "model": "Claude Sonnet 4.6",
-              "score": "1.85T tokens",
-              "change": "↑4%"
+              "score": "1.96T tokens",
+              "change": "↑ 5%"
             },
             {
               "model": "Claude Opus 4.7",
-              "score": "1.50T tokens",
-              "change": "↑32%"
+              "score": "1.61T tokens",
+              "change": "↑ 4%"
             },
             {
               "model": "Claude Opus 4.8",
-              "score": "1.26T tokens",
-              "change": "↑199%"
+              "score": "1.33T tokens",
+              "change": "↑ 140%"
             },
             {
               "model": "DeepSeek V3.2",
               "score": "1.18T tokens",
-              "change": "↑8%"
+              "change": "↑ 7%"
             }
           ]
         },
         {
           "name": "Product Hunt",
-          "date": "2026-06-07",
+          "date": "2026-06-10",
           "link": "https://www.producthunt.com/",
           "rankings": [
             {
-              "name": "Dreambeans",
-              "category": "Android",
+              "name": "VC Boom",
+              "category": "Venture Capital",
               "rank": 1,
-              "link": "https://www.producthunt.com/products/dreambeans"
+              "link": "https://www.producthunt.com/products/vc-boom"
             },
             {
-              "name": "Wave",
-              "category": "Productivity",
+              "name": "ZeroGPU",
+              "category": "API",
               "rank": 2,
-              "link": "https://www.producthunt.com/products/wave-voice"
+              "link": "https://www.producthunt.com/products/zerogpu"
             },
             {
-              "name": "CabinLink",
-              "category": "Weather",
+              "name": "prostir zvuku",
+              "category": "Health & Fitness",
               "rank": 3,
-              "link": "https://www.producthunt.com/products/cabinlink"
+              "link": "https://www.producthunt.com/products/prostir-zvuku"
             },
             {
-              "name": "Job Postings API",
+              "name": "Krisp Voice Translation API",
               "category": "API",
               "rank": 4,
-              "link": "https://www.producthunt.com/products/job-postings-api"
+              "link": "https://www.producthunt.com/products/krisp-voice-translation-api"
             },
             {
-              "name": "Smmall Cloud",
-              "category": "Design Tools",
+              "name": "agmsg",
+              "category": "Open Source",
               "rank": 5,
-              "link": "https://www.producthunt.com/products/smmall-cloud"
+              "link": "https://www.producthunt.com/products/agmsg"
+            },
+            {
+              "name": "Uiverse Design",
+              "category": "Design Tools",
+              "rank": 6,
+              "link": "https://www.producthunt.com/products/uiverse-design"
+            },
+            {
+              "name": "Kimi Work",
+              "category": "Productivity",
+              "rank": 7,
+              "link": "https://www.producthunt.com/products/kimi-work"
+            },
+            {
+              "name": "BooBar",
+              "category": "Task Management",
+              "rank": 8,
+              "link": "https://www.producthunt.com/products/boobar"
+            },
+            {
+              "name": "Fluido",
+              "category": "Design Tools",
+              "rank": 9,
+              "link": "https://www.producthunt.com/products/fluido"
+            },
+            {
+              "name": "hora Calendar",
+              "category": "Mac",
+              "rank": 10,
+              "link": "https://www.producthunt.com/products/hora-calendar"
+            },
+            {
+              "name": "Whistle",
+              "category": "Health & Fitness",
+              "rank": 11,
+              "link": "https://www.producthunt.com/products/whistle"
+            },
+            {
+              "name": "Reve 2.0",
+              "category": "Design Tools",
+              "rank": 12,
+              "link": "https://www.producthunt.com/products/reve-2-0"
+            },
+            {
+              "name": "TravelMind",
+              "category": "SaaS",
+              "rank": 13,
+              "link": "https://www.producthunt.com/products/travelmind"
+            },
+            {
+              "name": "agentcad",
+              "category": "3D Printer",
+              "rank": 14,
+              "link": "https://www.producthunt.com/products/agentcad"
+            },
+            {
+              "name": "Mic Drop 3.0",
+              "category": "Meetings",
+              "rank": 15,
+              "link": "https://www.producthunt.com/products/mic-drop-3-0"
+            },
+            {
+              "name": "Solarch",
+              "category": "Developer Tools",
+              "rank": 16,
+              "link": "https://www.producthunt.com/products/solarch"
+            },
+            {
+              "name": "Limelight",
+              "category": "Mac",
+              "rank": 17,
+              "link": "https://www.producthunt.com/products/limelight"
+            },
+            {
+              "name": "AgentOS",
+              "category": "Productivity",
+              "rank": 18,
+              "link": "https://www.producthunt.com/products/agentos"
+            },
+            {
+              "name": "Signal Recorder SR-7",
+              "category": "Mac",
+              "rank": 19,
+              "link": "https://www.producthunt.com/products/signal-recorder-sr-7"
+            },
+            {
+              "name": "NudgeFile",
+              "category": "Productivity",
+              "rank": 20,
+              "link": "https://www.producthunt.com/products/nudgefile"
             }
           ]
         }
