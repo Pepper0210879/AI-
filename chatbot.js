@@ -671,7 +671,7 @@
         // 将所有日报数据序列化为结构化文本，作为模型的知识库
         var lines = [];
         var totalItems = 0;
-        var maxItems = 500; // 覆盖全部历史数据（当前约333条）
+        var maxItems = 800; // 覆盖近三个月数据（目标~90天×25条≈2250条，摘要截断控token）
 
         // 计算数据覆盖范围
         if (allData.length > 0) {
@@ -696,7 +696,7 @@
                     if (totalItems >= maxItems) return;
                     var timeStr = item.time || date;
                     lines.push('【' + v.name + '】【' + item.title + '】【' + timeStr + '】');
-                    if (item.summary) lines.push('  摘要：' + item.summary);
+                    if (item.summary) lines.push('  摘要：' + item.summary.substring(0, 80));
                     if (item.link) lines.push('  链接：' + item.link);
                     if (item.tags && item.tags.length) lines.push('  标签：' + item.tags.join('、'));
                     totalItems++;
@@ -710,7 +710,7 @@
                     if (totalItems >= maxItems) return;
                     var timeStr = item.time || date;
                     lines.push('【' + v.name + '】【' + item.title + '】【' + timeStr + '】');
-                    if (item.summary) lines.push('  摘要：' + item.summary);
+                    if (item.summary) lines.push('  摘要：' + item.summary.substring(0, 80));
                     if (item.link) lines.push('  链接：' + item.link);
                     if (item.tags && item.tags.length) lines.push('  标签：' + item.tags.join('、'));
                     totalItems++;
@@ -725,7 +725,7 @@
                         if (totalItems >= maxItems) return;
                         var timeStr = item.time || date;
                         lines.push('【' + (card.title || cat.name) + '】【' + item.title + '】【' + timeStr + '】');
-                        if (item.summary) lines.push('  摘要：' + item.summary);
+                        if (item.summary) lines.push('  摘要：' + item.summary.substring(0, 80));
                     if (item.link) lines.push('  链接：' + item.link);
                         if (item.tags && item.tags.length) lines.push('  标签：' + item.tags.join('、'));
                         totalItems++;
