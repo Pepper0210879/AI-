@@ -671,7 +671,7 @@
         // 将所有日报数据序列化为结构化文本，作为模型的知识库
         var lines = [];
         var totalItems = 0;
-        var maxItems = 200; // 控制 token 消耗
+        var maxItems = 500; // 覆盖全部历史数据（当前约333条）
 
         // 计算数据覆盖范围
         if (allData.length > 0) {
