@@ -66,9 +66,14 @@
 - 可爱、友好、元气满满，像森林里的小蘑菇
 - 爱用"呀~""哦~""呢~""哇~"等语气词
 - 常用 🍄 ✨ 📅 🔍 💡 等表情点缀
-- 找到信息时："找到啦✨"；找不到时："菇菇没有找到相关信息呢😢"
-- 回复简洁有条理，用列表呈现关键信息
-- 用户提供的知识库是唯一信息来源，不编造内容`;
+- 用户提供的知识库是唯一信息来源，不编造内容
+
+回复格式要求（重要）：
+- 找到多条新闻时，每条必须按以下格式展示，不要用加粗（**）：
+  【厂商名称】【模型名称】【发布时间】主要信息摘要（如果知识库有榜单数据，加【榜单】排名/分数）
+- 开头用"找到啦✨ 菇菇帮你整理了N条相关信息："，然后逐条列出
+- 每条之间空一行，方便阅读
+- 找不到时："菇菇没有找到相关信息呢😢，换个关键词试试看吧~"`;
 
     const QUICK_PROMPTS = [
         { text: '今天有哪些AI新闻？' },
@@ -321,10 +326,12 @@
     function buildUserMessage(query, context) {
         return '以下是每日AI早报的全部历史数据，请基于这些数据回答用户问题。\n\n' +
             '回复要求：\n' +
-            '- 引用新闻时必须标注日期和厂商\n' +
-            '- 日期格式使用"YYYY-MM-DD"\n' +
-            '- 如果数据中没有相关信息，诚实告知\n' +
-            '- 不要编造任何不在数据中的内容\n\n' +
+            '- 每条新闻严格按此格式展示：\n' +
+            '  【厂商名称】【模型/产品名称】【发布时间（YYYY-MM-DD）】\n' +
+            '  主要信息：一句话概括核心内容\n' +
+            '  （若知识库有榜单排名/分数，追加：榜单：第X名 / 分数XXX）\n' +
+            '- 每条之间空一行，不用编号，不用加粗（**）\n' +
+            '- 如果数据中没有相关信息，诚实告知，不编造\n\n' +
             '=== 知识库开始 ===\n' + context + '\n=== 知识库结束 ===\n\n' +
             '用户问题：' + query;
     }
@@ -432,6 +439,7 @@
 
     function formatBotReply(text) {
         return text
+            .replace(/\*\*(.*?)\*\*/g, '$1')  // 去掉加粗标记
             .replace(/\n\n/g, '<br><br>')
             .replace(/\n/g, '<br>')
             .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
@@ -653,10 +661,10 @@
             overseasVendors.forEach(function(v) {
                 (v.news || []).forEach(function(item) {
                     if (totalItems >= maxItems) return;
-                    lines.push('【' + v.name + '】' + item.title);
+                    var timeStr = item.time || date;
+                    lines.push('【' + v.name + '】【' + item.title + '】【' + timeStr + '】');
                     if (item.summary) lines.push('  摘要：' + item.summary);
                     if (item.tags && item.tags.length) lines.push('  标签：' + item.tags.join('、'));
-                    if (item.source) lines.push('  来源：' + item.source);
                     totalItems++;
                 });
             });
@@ -666,10 +674,10 @@
             domesticVendors.forEach(function(v) {
                 (v.news || []).forEach(function(item) {
                     if (totalItems >= maxItems) return;
-                    lines.push('【' + v.name + '】' + item.title);
+                    var timeStr = item.time || date;
+                    lines.push('【' + v.name + '】【' + item.title + '】【' + timeStr + '】');
                     if (item.summary) lines.push('  摘要：' + item.summary);
                     if (item.tags && item.tags.length) lines.push('  标签：' + item.tags.join('、'));
-                    if (item.source) lines.push('  来源：' + item.source);
                     totalItems++;
                 });
             });
@@ -680,10 +688,10 @@
                 (cat.cards || []).forEach(function(card) {
                     (card.news || []).forEach(function(item) {
                         if (totalItems >= maxItems) return;
-                        lines.push('【' + (card.title || cat.name) + '】' + item.title);
+                        var timeStr = item.time || date;
+                        lines.push('【' + (card.title || cat.name) + '】【' + item.title + '】【' + timeStr + '】');
                         if (item.summary) lines.push('  摘要：' + item.summary);
                         if (item.tags && item.tags.length) lines.push('  标签：' + item.tags.join('、'));
-                        if (item.source) lines.push('  来源：' + item.source);
                         totalItems++;
                     });
                 });
