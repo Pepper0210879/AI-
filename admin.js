@@ -1862,6 +1862,14 @@ document.addEventListener('DOMContentLoaded', function() {
     if (ghOwnerEl) ghOwnerEl.value = ghConfig.owner;
     if (ghRepoEl) ghRepoEl.value = ghConfig.repo;
 
+    var clearCacheBtn = document.getElementById('clear-cache-btn');
+    if (clearCacheBtn) clearCacheBtn.addEventListener('click', function() {
+        localStorage.removeItem('ai-news-data');
+        localStorage.removeItem('ai-news-last-update');
+        showToast('本地缓存已清除，即将刷新加载最新云端数据');
+        setTimeout(function() { location.reload(); }, 500);
+    });
+
     var ghSaveBtn = document.getElementById('github-save-btn');
     if (ghSaveBtn) ghSaveBtn.addEventListener('click', saveGithubConfig);
 
