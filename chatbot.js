@@ -362,51 +362,52 @@
     async function handleAPIQuery(query, config) {
         showThinking();
 
-        // 校验配置
-        if (!config.endpoint) {
-            hideThinking();
-            appendBubble('bot', '唔...菇菇的 API 还没配置好呢😢<br><br>Endpoint 地址为空，请去管理后台检查配置~');
-            return;
-        }
-
-        var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
+        // 1. 本地搜索 + 格式化（代码精准执行，不靠 AI）
         var allData = getAllNewsData();
         allData = filterDataByTimeRange(allData, query);
-        var context = formatContextForAPI(allData);
-        var userMsg = buildUserMessage(query, context);
+        var results = keywordSearch(query, allData);
+        var localReply = '';
 
-        // 尝试请求，网络错误时重试一次
-        var result = await tryAPIRequest(config, isAnthropic, userMsg);
-        if (result.success) {
+        if (results.length > 0) {
+            localReply = formatResultsLocally(query, results, allData);
+        }
+
+        // 2. 有本地结果 → 只让 AI 加开场白，不许动内容
+        if (localReply && config.endpoint) {
+            var polishMsg = '在以下内容开头加一句软萌的开场白（含🍄和✨），然后原封不动输出。一个字不改不增不删：\n\n' + localReply;
+            var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
+            var result = await tryAPIRequest(config, isAnthropic, polishMsg);
+            if (result.success) {
+                hideThinking();
+                appendBubble('bot', formatBotReply(result.reply));
+                return;
+            }
+            // API 失败，直接用本地结果
             hideThinking();
-            appendBubble('bot', formatBotReply(result.reply));
+            appendBubble('bot', localReply.replace(/\n/g, '<br>'));
             return;
         }
 
-        // API 返回了 HTTP 错误（非网络问题），不重试直接降级
-        if (result.httpError) {
-            hideThinking();
-            console.error('API HTTP error:', result.error);
-            appendBubble('bot', '唔...API 返回了错误 😢<br><br>' + escapeHtml(result.error.slice(0, 200)) + '<br><br>菇菇先用本地搜索帮你找找看~');
-            await handleFallbackQuery(query);
-            return;
+        // 3. 本地没搜到 → 降级到 AI 全量搜索兜底
+        if (!localReply && config.endpoint) {
+            var context = formatContextForAPI(allData);
+            var userMsg = buildUserMessage(query, context);
+            var isAnthropic = PROVIDERS[config.provider] && PROVIDERS[config.provider].format === 'anthropic';
+            var result = await tryAPIRequest(config, isAnthropic, userMsg);
+            if (result.success) {
+                hideThinking();
+                appendBubble('bot', formatBotReply(result.reply));
+                return;
+            }
         }
 
-        // 网络错误：等待 1 秒后重试一次
-        console.warn('First API attempt failed, retrying...', result.error);
-        await sleep(1000);
-        var retry = await tryAPIRequest(config, isAnthropic, userMsg);
-        if (retry.success) {
-            hideThinking();
-            appendBubble('bot', formatBotReply(retry.reply));
-            return;
-        }
-
-        // 重试也失败，降级到本地搜索
+        // 4. 全挂了
         hideThinking();
-        console.error('API retry also failed:', retry.error);
-        appendBubble('bot', '唔...菇菇连不上 AI 服务器😢<br><br>可能网络不太稳定，菇菇先用本地搜索帮你找找看~');
-        await handleFallbackQuery(query);
+        if (localReply) {
+            appendBubble('bot', localReply.replace(/\n/g, '<br>'));
+        } else {
+            appendBubble('bot', '菇菇翻遍了所有日报，没有找到相关信息呢😢<br><br>换个关键词试试看吧~');
+        }
     }
 
     async function tryAPIRequest(config, isAnthropic, userMsg) {
@@ -504,6 +505,97 @@
         }
 
         appendBubble('bot', reply);
+    }
+
+    // ==================== 本地格式化 ====================
+    function formatResultsLocally(query, results, allData) {
+        var isModelQuery = /模型|发布|迭代|升级|降价|定价|价格|技术/.test(query);
+        var isDynamic = /动态|有什么|新闻|进展/.test(query);
+
+        // 按厂商分组，分三类
+        var groups = {};
+        results.forEach(function(r) {
+            var vendor = r.vendor || '其他';
+            var item = r.item;
+            // CEO 回应/转发类在"模型发布"模式下跳过
+            if (isModelQuery && !isDynamic) {
+                var t = (item.title || '');
+                if (/回应|发文|转发|表示|称|宣布/.test(t) && !/发布|推出|上线|开源|降价|升级|迭代|突破/.test(t)) return;
+            }
+            if (!groups[vendor]) groups[vendor] = { release: [], upgrade: [], price: [] };
+            var txt = (item.title || '') + (item.summary || '');
+            if (/降价|价格|定价|免费|付费|月费/.test(txt)) {
+                groups[vendor].price.push(item);
+            } else if (/升级|迭代|更新|增强|优化|提速|新增/.test(txt)) {
+                groups[vendor].upgrade.push(item);
+            } else {
+                groups[vendor].release.push(item);
+            }
+        });
+
+        // 日期范围
+        var sorted = allData.map(function(d) { return d.date; }).sort();
+        var range = sorted[0] + ' ~ ' + sorted[sorted.length - 1];
+        var lines = ['📅 本次回复覆盖日期：' + range, ''];
+
+        var names = Object.keys(groups);
+        if (names.length === 0) return '';
+
+        lines.push('找到啦✨ 菇菇帮你整理了 ' + names.length + ' 家厂商的相关信息：');
+        lines.push('');
+
+        names.forEach(function(v) {
+            var g = groups[v];
+            lines.push('🔷 ' + v);
+            lines.push('');
+            addBlock(lines, '🚀 模型发布', g.release);
+            addBlock(lines, '⬆️ 模型升级', g.upgrade);
+            addBlock(lines, '💰 模型定价调整', g.price);
+            // 榜单
+            var rank = getRanking(v, allData);
+            if (rank) { lines.push('📊 榜单情况'); lines.push(rank); lines.push(''); }
+        });
+
+        return lines.join('\n');
+    }
+
+    function addBlock(lines, title, items) {
+        if (!items.length) return;
+        lines.push(title);
+        items.forEach(function(item) {
+            lines.push('【发布内容】' + item.title);
+            lines.push('【日期】' + (item.time || ''));
+            lines.push('【主要总结】' + (item.summary || '').substring(0, 100));
+            lines.push('【原文链接】' + (item.link || ''));
+            lines.push('');
+        });
+    }
+
+    function getRanking(vendor, allData) {
+        var map = { 'OpenAI': ['gpt','openai'], 'Anthropic': ['claude'], 'Google': ['gemini'],
+            'xAI': ['grok'], 'NVIDIA': ['nvidia'], 'Meta': ['llama','meta','muse'],
+            '小米': ['mimo','xiaomi'], '阿里云': ['qwen','alibaba'], 'DeepSeek': ['deepseek'],
+            '腾讯': ['tencent','hy'], '智谱AI': ['glm','zhipu'], '月之暗面': ['kimi'],
+            '火山引擎': ['bytedance'], '华为': ['huawei','pangu'] };
+        var terms = map[vendor] || [vendor.toLowerCase()];
+        var found = [];
+        for (var d = allData.length - 1; d >= 0; d--) {
+            var plats = (allData[d].data.sections && allData[d].data.sections.ranking && allData[d].data.sections.ranking.platforms) ? allData[d].data.sections.ranking.platforms : [];
+            plats.forEach(function(p) {
+                (p.rankings || []).forEach(function(r, ri) {
+                    var s = (r.model || r.name || '').toLowerCase();
+                    var ok = false;
+                    for (var t = 0; t < terms.length; t++) { if (s.indexOf(terms[t]) !== -1) { ok = true; break; } }
+                    if (ok) {
+                        var info = (r.model || r.name) + '：' + p.name + ' 第' + (ri+1) + '名';
+                        if (r.score) info += ' / ' + r.score;
+                        if (found.indexOf(info) === -1) found.push(info);
+                    }
+                });
+            });
+            if (found.length) break;
+        }
+        return found.length ? '近期榜单：' + found.join('；') : '';
     }
 
     // ==================== 数据读取 ====================
