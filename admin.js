@@ -940,6 +940,7 @@ async function refreshAuditPanel() {
                 var auditFileInfo = await resp.json();
                 var remoteLog = JSON.parse(base64ToUtf8(auditFileInfo.content));
                 var remoteSha = auditFileInfo.sha;
+                console.log('[审计] GitHub 拉取成功，' + remoteLog.length + ' 条远程记录');
                 // 远程为权威数据源：用远程条目覆盖本地同时间戳的条目（修复乱码），
                 // 保留本地独有的条目（尚未同步到远程的新操作）
                 var localLog = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
@@ -954,17 +955,14 @@ async function refreshAuditPanel() {
                 localStorage.setItem('ai-news-audit-log', JSON.stringify(merged));
             }
         } catch(e) {
-            // GitHub 拉取失败（可能未配 Token），清除本地乱码日志避免混淆
-            var localLog = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
-            var hasGarbled = localLog.some(function(entry) {
-                return entry.operator && /[À-ÿ]{3,}/.test(entry.operator);
-            });
-            if (hasGarbled && !config.token) {
-                // 无 Token 无法拉取远程正确数据，清空本地乱码
-                localStorage.setItem('ai-news-audit-log', '[]');
-                console.log('[审计] 未配置Token，已清除本地乱码日志。配置Token后可查看完整日志。');
-            }
+            console.error('[审计] GitHub 拉取失败:', e.message);
+            panel.innerHTML = '<p style="color:#CF0A2C;text-align:center;padding:1rem;">⚠️ 无法连接 GitHub：' + e.message + '<br><small>请检查 Token 是否正确、网络是否通畅</small></p>';
+            return;
         }
+    } else {
+        panel.innerHTML = '<p style="color:#CF0A2C;text-align:center;padding:1rem;">⚠️ 未配置 GitHub Token<br><small>请在下方 GitHub 同步配置面板中粘贴 Token 并保存</small></p>';
+        return;
+    }
     }
 
     panel.innerHTML = renderAuditLog();
