@@ -938,15 +938,18 @@ async function refreshAuditPanel() {
             });
             if (resp.ok) {
                 var remoteLog = JSON.parse(atob((await resp.json()).content));
-                // 合并到本地
+                // 远程为权威数据源：用远程条目覆盖本地同时间戳的条目（修复乱码），
+                // 保留本地独有的条目（尚未同步到远程的新操作）
                 var localLog = JSON.parse(localStorage.getItem('ai-news-audit-log') || '[]');
-                var existingTimes = new Set(localLog.map(function(e) { return e.time; }));
-                remoteLog.forEach(function(e) {
-                    if (!existingTimes.has(e.time)) localLog.push(e);
+                var remoteTimes = new Set(remoteLog.map(function(e) { return e.time; }));
+                var merged = remoteLog.slice(); // 远程条目全部保留
+                // 本地独有的条目追加到后面
+                localLog.forEach(function(e) {
+                    if (!remoteTimes.has(e.time)) merged.push(e);
                 });
-                localLog.sort(function(a, b) { return new Date(b.time) - new Date(a.time); });
-                if (localLog.length > 100) localLog.length = 100;
-                localStorage.setItem('ai-news-audit-log', JSON.stringify(localLog));
+                merged.sort(function(a, b) { return new Date(b.time) - new Date(a.time); });
+                if (merged.length > 100) merged.length = 100;
+                localStorage.setItem('ai-news-audit-log', JSON.stringify(merged));
             }
         } catch(e) { /* 网络不通则用本地缓存 */ }
     }
