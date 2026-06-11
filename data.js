@@ -449,9 +449,14 @@ window.__RAW_DATA = {
       "platforms": [
         {
           "name": "LMArena",
-          "date": "2026-06-05",
+          "date": "2026-06-11",
           "link": "https://lmarena.ai/leaderboard/text",
           "rankings": [
+            {
+              "model": "claude-fable-5",
+              "score": "1510",
+              "change": "新上榜"
+            },
             {
               "model": "claude-opus-4-6-thinking",
               "score": "1504",
@@ -459,8 +464,8 @@ window.__RAW_DATA = {
             },
             {
               "model": "claude-opus-4-7-thinking",
-              "score": "1501",
-              "change": "—"
+              "score": "1502",
+              "change": "+1"
             },
             {
               "model": "claude-opus-4-6",
@@ -469,18 +474,18 @@ window.__RAW_DATA = {
             },
             {
               "model": "claude-opus-4-7",
-              "score": "1493",
-              "change": "—"
+              "score": "1492",
+              "change": "-1"
             },
             {
               "model": "muse-spark (Meta)",
-              "score": "1489",
-              "change": "—"
+              "score": "1487",
+              "change": "-2"
             },
             {
               "model": "gemini-3.1-pro-preview",
-              "score": "1488",
-              "change": "—"
+              "score": "1487",
+              "change": "-1"
             },
             {
               "model": "gemini-3-pro",
@@ -489,13 +494,13 @@ window.__RAW_DATA = {
             },
             {
               "model": "claude-opus-4-8-thinking",
-              "score": "1482",
-              "change": "—"
+              "score": "1486",
+              "change": "+4"
             },
             {
               "model": "gpt-5.5-high",
-              "score": "1482",
-              "change": "—"
+              "score": "1481",
+              "change": "-1"
             },
             {
               "model": "gpt-5.4-high",
@@ -504,8 +509,8 @@ window.__RAW_DATA = {
             },
             {
               "model": "claude-opus-4-8",
-              "score": "1479",
-              "change": "—"
+              "score": "1477",
+              "change": "-2"
             },
             {
               "model": "gemini-3.5-flash",
@@ -514,12 +519,17 @@ window.__RAW_DATA = {
             },
             {
               "model": "gpt-5.2-chat-latest",
-              "score": "1476",
-              "change": "—"
+              "score": "1475",
+              "change": "-1"
             },
             {
               "model": "glm-5.1 (智谱AI)",
               "score": "1475",
+              "change": "—"
+            },
+            {
+              "model": "qwen3.7-max-preview",
+              "score": "1474",
               "change": "—"
             },
             {
@@ -533,22 +543,12 @@ window.__RAW_DATA = {
               "change": "—"
             },
             {
-              "model": "qwen3.7-max-preview",
+              "model": "grok-4.20-beta-0309-reasoning",
               "score": "1474",
-              "change": "—"
+              "change": "+1"
             },
             {
               "model": "gemini-3-flash",
-              "score": "1473",
-              "change": "—"
-            },
-            {
-              "model": "grok-4.20-beta-0309-reasoning",
-              "score": "1473",
-              "change": "—"
-            },
-            {
-              "model": "claude-opus-4-5-thinking-32k",
               "score": "1473",
               "change": "—"
             }
@@ -663,56 +663,128 @@ window.__RAW_DATA = {
         },
         {
           "name": "Product Hunt",
-          "date": "2026-06-08",
+          "date": "2026-06-09",
           "link": "https://www.producthunt.com/",
           "rankings": [
             {
-              "name": "Honen",
-              "category": "Productivity",
+              "name": "VC Boom",
+              "category": "Venture Capital",
               "rank": 1,
-              "link": "https://www.producthunt.com/products/honen"
+              "link": "https://www.producthunt.com/products/vc-boom"
             },
             {
-              "name": "Browse.sh",
+              "name": "ZeroGPU",
               "category": "API",
               "rank": 2,
-              "link": "https://www.producthunt.com/products/browse-sh"
+              "link": "https://www.producthunt.com/products/zerogpu"
             },
             {
-              "name": "Vaani",
-              "category": "Productivity",
+              "name": "prostor zvuku",
+              "category": "Health & Fitness",
               "rank": 3,
-              "link": "https://www.producthunt.com/products/vaani"
+              "link": "https://www.producthunt.com/products/prostor-zvuku"
             },
             {
-              "name": "Supaste",
-              "category": "Mac",
+              "name": "Krisp Voice Translation API",
+              "category": "API",
               "rank": 4,
-              "link": "https://www.producthunt.com/products/supaste"
+              "link": "https://www.producthunt.com/products/krisp-voice-translation-api"
             },
             {
-              "name": "The Virtual OS Museum",
+              "name": "agmsg",
               "category": "Open Source",
               "rank": 5,
-              "link": "https://www.producthunt.com/products/the-virtual-os-museum"
+              "link": "https://www.producthunt.com/products/agmsg"
             },
             {
-              "name": "Tamadoggo",
-              "category": "iOS",
-              "rank": 6,
-              "link": "https://www.producthunt.com/products/tamadoggo"
-            },
-            {
-              "name": "NTSC-RS",
-              "category": "Open Source",
-              "rank": 7,
-              "link": "https://www.producthunt.com/products/ntsc-rs"
-            },
-            {
-              "name": "Sigma File Manager",
+              "name": "Kimi Work",
               "category": "Productivity",
+              "rank": 6,
+              "link": "https://www.producthunt.com/products/kimi-work"
+            },
+            {
+              "name": "Uiverse Design",
+              "category": "Design Tools",
+              "rank": 7,
+              "link": "https://www.producthunt.com/products/uiverse-design"
+            },
+            {
+              "name": "BooBar",
+              "category": "Task Management",
               "rank": 8,
-              "link": "https://www.producthunt.com/products/sigma-file-manager"
+              "link": "https://www.producthunt.com/products/boobar"
+            },
+            {
+              "name": "Fluido",
+              "category": "Design Tools",
+              "rank": 9,
+              "link": "https://www.producthunt.com/products/fluido"
+            },
+            {
+              "name": "hora Calendar",
+              "category": "Mac",
+              "rank": 10,
+              "link": "https://www.producthunt.com/products/hora-calendar"
+            },
+            {
+              "name": "TravelMind",
+              "category": "SaaS",
+              "rank": 11,
+              "link": "https://www.producthunt.com/products/travelmind"
+            },
+            {
+              "name": "Reve 2.0",
+              "category": "Design Tools",
+              "rank": 12,
+              "link": "https://www.producthunt.com/products/reve-2-0"
+            },
+            {
+              "name": "Limelight",
+              "category": "Mac",
+              "rank": 13,
+              "link": "https://www.producthunt.com/products/limelight"
+            },
+            {
+              "name": "Whistle",
+              "category": "Health & Fitness",
+              "rank": 14,
+              "link": "https://www.producthunt.com/products/whistle"
+            },
+            {
+              "name": "agentcad",
+              "category": "3D Printer",
+              "rank": 15,
+              "link": "https://www.producthunt.com/products/agentcad"
+            },
+            {
+              "name": "Mic Drop 3.0",
+              "category": "Meetings",
+              "rank": 16,
+              "link": "https://www.producthunt.com/products/mic-drop-3-0"
+            },
+            {
+              "name": "Signal Recorder SR-7",
+              "category": "Mac",
+              "rank": 17,
+              "link": "https://www.producthunt.com/products/signal-recorder-sr-7"
+            },
+            {
+              "name": "Solarch",
+              "category": "Developer Tools",
+              "rank": 18,
+              "link": "https://www.producthunt.com/products/solarch"
+            },
+            {
+              "name": "AgentOS",
+              "category": "Productivity",
+              "rank": 19,
+              "link": "https://www.producthunt.com/products/agentos"
+            },
+            {
+              "name": "NudgeFile",
+              "category": "Productivity",
+              "rank": 20,
+              "link": "https://www.producthunt.com/products/nudgefile"
             }
           ]
         }
