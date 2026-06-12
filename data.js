@@ -210,19 +210,7 @@ window.__RAW_DATA = {
           "color": "#ff6900",
           "softBg": "#fff0e6",
           "initial": "米",
-          "news": [
-            {
-              "title": "小米MiMo万亿参数模型实测：吞吐量突破1000 tokens/s，Vibe Coding七秒交付",
-              "summary": "6月11日消息，小米此前发布的MiMo-V2.5-Pro-UltraSpeed模型经量子位实测，万亿参数模型在单台8卡GPU节点上实现每秒1000+ tokens输出速度，峰值可达3300+ TPS。Vibe Coding场景下生成500+行HTML应用仅需7秒，对比Claude Haiku仍需40秒以上。该模型依托FP4量化、DFlash投机解码和TileRT推理系统三大技术突破。",
-              "link": "https://www.qbitai.com/2026/06/434225.html",
-              "tags": [
-                "推理速度",
-                "万亿参数"
-              ],
-              "source": "量子位",
-              "time": "6月11日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "智谱AI",
@@ -673,128 +661,128 @@ window.__RAW_DATA = {
         },
         {
           "name": "Product Hunt",
-          "date": "2026-06-10",
+          "date": "2026-06-11",
           "link": "https://www.producthunt.com/",
           "rankings": [
             {
-              "name": "Publora",
-              "category": "API",
-              "rank": 1,
-              "link": "https://www.producthunt.com/products/publora"
-            },
-            {
-              "name": "TypingMind",
+              "name": "Bond",
               "category": "Productivity",
-              "rank": 2,
-              "link": "https://www.producthunt.com/products/typingmind"
+              "rank": 1,
+              "link": "https://www.producthunt.com/products/bond"
             },
             {
-              "name": "Spotlight by Backplanes",
+              "name": "Respan Gateway",
               "category": "Developer Tools",
+              "rank": 2,
+              "link": "https://www.producthunt.com/products/respan-gateway"
+            },
+            {
+              "name": "Asmi AI",
+              "category": "Productivity",
               "rank": 3,
-              "link": "https://www.producthunt.com/products/spotlight-by-backplanes"
+              "link": "https://www.producthunt.com/products/asmi-ai"
             },
             {
-              "name": "Screen Charm",
-              "category": "Mac",
+              "name": "Terminal Mode by Even Realities",
+              "category": "Productivity",
               "rank": 4,
-              "link": "https://www.producthunt.com/products/screen-charm"
+              "link": "https://www.producthunt.com/products/terminal-mode-by-even-realities"
             },
             {
-              "name": "Gemini 3.5 Live Translate",
-              "category": "Android",
+              "name": "Journey Now",
+              "category": "iOS",
               "rank": 5,
-              "link": "https://www.producthunt.com/products/gemini-35-live-translate"
+              "link": "https://www.producthunt.com/products/journey-now"
             },
             {
-              "name": "iArt.ai",
+              "name": "Slashspace AI",
               "category": "Productivity",
               "rank": 6,
-              "link": "https://www.producthunt.com/products/iart-ai"
+              "link": "https://www.producthunt.com/products/slashspace-ai"
             },
             {
-              "name": "Incorruptible by Eric Ries",
-              "category": "Startup Books",
+              "name": "CrustRecruiter",
+              "category": "Hiring",
               "rank": 7,
-              "link": "https://www.producthunt.com/products/incorruptible"
+              "link": "https://www.producthunt.com/products/crustrecruiter"
             },
             {
-              "name": "Napkin Math",
-              "category": "Health & Fitness",
+              "name": "Tabstack Structured Extraction",
+              "category": "API",
               "rank": 8,
-              "link": "https://www.producthunt.com/products/napkin-math"
+              "link": "https://www.producthunt.com/products/tabstack-structured-extraction"
             },
             {
-              "name": "Monako Glass",
-              "category": "Virtual Reality",
+              "name": "Nodey",
+              "category": "Productivity",
               "rank": 9,
-              "link": "https://www.producthunt.com/products/monako-glass"
+              "link": "https://www.producthunt.com/products/nodey"
             },
             {
-              "name": "BlenderHunt",
-              "category": "Design Tools",
+              "name": "Juno",
+              "category": "Health & Fitness",
               "rank": 10,
-              "link": "https://www.producthunt.com/products/blenderhunt"
+              "link": "https://www.producthunt.com/products/juno"
             },
             {
-              "name": "Axol",
-              "category": "Robots",
+              "name": "SlimSnap",
+              "category": "Design Tools",
               "rank": 11,
-              "link": "https://www.producthunt.com/products/axol"
+              "link": "https://www.producthunt.com/products/slimsnap"
             },
             {
-              "name": "SeaTicket",
-              "category": "Productivity",
+              "name": "PixelForge",
+              "category": "Design Tools",
               "rank": 12,
-              "link": "https://www.producthunt.com/products/seaticket"
+              "link": "https://www.producthunt.com/products/pixelforge"
             },
             {
-              "name": "veridive",
-              "category": "Productivity",
+              "name": "Lium AI",
+              "category": "Artificial Intelligence",
               "rank": 13,
-              "link": "https://www.producthunt.com/products/veridive"
+              "link": "https://www.producthunt.com/products/lium-ai"
             },
             {
-              "name": "Hero Studio Photos",
-              "category": "Android",
+              "name": "Onpilot",
+              "category": "Customer Communication",
               "rank": 14,
-              "link": "https://www.producthunt.com/products/hero-studio-photos"
+              "link": "https://www.producthunt.com/products/onpilot"
             },
             {
-              "name": "OLO Robotics",
-              "category": "Robots",
+              "name": "Cloudskill",
+              "category": "Productivity",
               "rank": 15,
-              "link": "https://www.producthunt.com/products/olo-robotics"
+              "link": "https://www.producthunt.com/products/cloudskill"
             },
             {
-              "name": "AGNT.Hub",
+              "name": "Airbrush Studio",
               "category": "Productivity",
               "rank": 16,
-              "link": "https://www.producthunt.com/products/agnt-hub"
+              "link": "https://www.producthunt.com/products/airbrush-studio"
             },
             {
-              "name": "LayerProof Vellum",
-              "category": "Design Tools",
+              "name": "OwnClip",
+              "category": "Productivity",
               "rank": 17,
-              "link": "https://www.producthunt.com/products/layerproof-vellum"
+              "link": "https://www.producthunt.com/products/ownclip"
             },
             {
-              "name": "Zingle",
-              "category": "Languages",
-              "rank": 18,
-              "link": "https://www.producthunt.com/products/zingle"
-            },
-            {
-              "name": "fort",
+              "name": "Proxee",
               "category": "Mac",
-              "rank": 19,
-              "link": "https://www.producthunt.com/products/fort"
+              "rank": 18,
+              "link": "https://www.producthunt.com/products/proxee"
             },
             {
-              "name": "FluidDocs Deck Builder",
-              "category": "Design Tools",
+              "name": "INVO Ride",
+              "category": "Transportation",
+              "rank": 19,
+              "link": "https://www.producthunt.com/products/invo-ride"
+            },
+            {
+              "name": "Riven",
+              "category": "Health & Fitness",
               "rank": 20,
-              "link": "https://www.producthunt.com/products/fluidocs-deck-builder"
+              "link": "https://www.producthunt.com/products/riven"
             }
           ]
         }

@@ -4454,12 +4454,12 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "SpaceX IPO募资750亿美元创史上最大，今日纳斯达克挂牌交易",
                 "summary": "6月12日，SpaceX正式在纳斯达克挂牌交易，股票代码SPCX。公司IPO发行5.556亿股，发行价每股135美元，募资总额达750亿美元，是沙特阿美2019年294亿美元IPO纪录的逾两倍。此次IPO获超四倍超额认购，散户认购超1000亿美元。按发行价计算SpaceX市值约1.77万亿美元，马斯克身价突破1万亿美元。",
-                "link": "https://stcn.com/article/detail/3952885.html",
+                "link": "https://www.sohu.com/a/1035408715_122014422",
                 "tags": [
                   "IPO",
                   "纳斯达克"
                 ],
-                "source": "证券时报",
+                "source": "搜狐",
                 "time": "6月12日"
               }
             ]
@@ -4562,19 +4562,7 @@ window.__SEED_CONFIRMED = {
             "color": "#ff6900",
             "softBg": "#fff0e6",
             "initial": "米",
-            "news": [
-              {
-                "title": "小米MiMo万亿参数模型实测：吞吐量突破1000 tokens/s，Vibe Coding七秒交付",
-                "summary": "6月11日消息，小米此前发布的MiMo-V2.5-Pro-UltraSpeed模型经量子位实测，万亿参数模型在单台8卡GPU节点上实现每秒1000+ tokens输出速度，峰值可达3300+ TPS。Vibe Coding场景下生成500+行HTML应用仅需7秒，对比Claude Haiku仍需40秒以上。该模型依托FP4量化、DFlash投机解码和TileRT推理系统三大技术突破。",
-                "link": "https://www.qbitai.com/2026/06/434225.html",
-                "tags": [
-                  "推理速度",
-                  "万亿参数"
-                ],
-                "source": "量子位",
-                "time": "6月11日消息"
-              }
-            ]
+            "news": []
           },
           {
             "name": "智谱AI",
@@ -4740,12 +4728,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "德国机器人公司Neura Robotics完成14亿美元C轮融资，英伟达亚马逊参投",
                     "summary": "当地时间6月10日，德国机器人公司Neura Robotics宣布完成C轮融资，总规模最高可达14亿美元，估值约70亿美元。投资方包括英伟达、亚马逊、高通、Tether、博世、舍弗勒及欧洲投资银行等。公司核心产品为人形机器人4NE1和认知机器人共享平台Neuraverse，订单储备已超10亿美元，目标到2030年生产数百万台机器人。",
-                    "link": "https://36kr.com/p/3848299837854983",
+                    "link": "https://finance.eastmoney.com/news/1354,202606113767120461.html",
                     "tags": [
                       "机器人",
                       "C轮"
                     ],
-                    "source": "36氪",
+                    "source": "东方财富",
                     "time": "当地时间6月10日"
                   }
                 ]
@@ -4793,7 +4781,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "理想汽车就AI批量生成不实内容正式报案，涉事机构公开道歉",
                     "summary": "6月11日，理想汽车法务部发文称，就江西某文化传媒公司利用AI工具批量生成涉理想汽车不实内容一事正式向公安机关报案。执法部门已依法调查处置，涉事机构公开道歉并承诺清除全部不实内容。理想汽车强调将客观批评与恶意造谣严格区分，当违法者借助AI批量传播虚假信息时将坚定使用法律武器。",
-                    "link": "https://news.qq.com/rain/a/20260611A08VDB00",
+                    "link": "https://news.qq.com/rain/a/20260611A063GP00",
                     "tags": [
                       "AI造假",
                       "法律维权"
@@ -5025,128 +5013,128 @@ window.__SEED_CONFIRMED = {
           },
           {
             "name": "Product Hunt",
-            "date": "2026-06-10",
+            "date": "2026-06-11",
             "link": "https://www.producthunt.com/",
             "rankings": [
               {
-                "name": "Publora",
-                "category": "API",
-                "rank": 1,
-                "link": "https://www.producthunt.com/products/publora"
-              },
-              {
-                "name": "TypingMind",
+                "name": "Bond",
                 "category": "Productivity",
-                "rank": 2,
-                "link": "https://www.producthunt.com/products/typingmind"
+                "rank": 1,
+                "link": "https://www.producthunt.com/products/bond"
               },
               {
-                "name": "Spotlight by Backplanes",
+                "name": "Respan Gateway",
                 "category": "Developer Tools",
+                "rank": 2,
+                "link": "https://www.producthunt.com/products/respan-gateway"
+              },
+              {
+                "name": "Asmi AI",
+                "category": "Productivity",
                 "rank": 3,
-                "link": "https://www.producthunt.com/products/spotlight-by-backplanes"
+                "link": "https://www.producthunt.com/products/asmi-ai"
               },
               {
-                "name": "Screen Charm",
-                "category": "Mac",
+                "name": "Terminal Mode by Even Realities",
+                "category": "Productivity",
                 "rank": 4,
-                "link": "https://www.producthunt.com/products/screen-charm"
+                "link": "https://www.producthunt.com/products/terminal-mode-by-even-realities"
               },
               {
-                "name": "Gemini 3.5 Live Translate",
-                "category": "Android",
+                "name": "Journey Now",
+                "category": "iOS",
                 "rank": 5,
-                "link": "https://www.producthunt.com/products/gemini-35-live-translate"
+                "link": "https://www.producthunt.com/products/journey-now"
               },
               {
-                "name": "iArt.ai",
+                "name": "Slashspace AI",
                 "category": "Productivity",
                 "rank": 6,
-                "link": "https://www.producthunt.com/products/iart-ai"
+                "link": "https://www.producthunt.com/products/slashspace-ai"
               },
               {
-                "name": "Incorruptible by Eric Ries",
-                "category": "Startup Books",
+                "name": "CrustRecruiter",
+                "category": "Hiring",
                 "rank": 7,
-                "link": "https://www.producthunt.com/products/incorruptible"
+                "link": "https://www.producthunt.com/products/crustrecruiter"
               },
               {
-                "name": "Napkin Math",
-                "category": "Health & Fitness",
+                "name": "Tabstack Structured Extraction",
+                "category": "API",
                 "rank": 8,
-                "link": "https://www.producthunt.com/products/napkin-math"
+                "link": "https://www.producthunt.com/products/tabstack-structured-extraction"
               },
               {
-                "name": "Monako Glass",
-                "category": "Virtual Reality",
+                "name": "Nodey",
+                "category": "Productivity",
                 "rank": 9,
-                "link": "https://www.producthunt.com/products/monako-glass"
+                "link": "https://www.producthunt.com/products/nodey"
               },
               {
-                "name": "BlenderHunt",
-                "category": "Design Tools",
+                "name": "Juno",
+                "category": "Health & Fitness",
                 "rank": 10,
-                "link": "https://www.producthunt.com/products/blenderhunt"
+                "link": "https://www.producthunt.com/products/juno"
               },
               {
-                "name": "Axol",
-                "category": "Robots",
+                "name": "SlimSnap",
+                "category": "Design Tools",
                 "rank": 11,
-                "link": "https://www.producthunt.com/products/axol"
+                "link": "https://www.producthunt.com/products/slimsnap"
               },
               {
-                "name": "SeaTicket",
-                "category": "Productivity",
+                "name": "PixelForge",
+                "category": "Design Tools",
                 "rank": 12,
-                "link": "https://www.producthunt.com/products/seaticket"
+                "link": "https://www.producthunt.com/products/pixelforge"
               },
               {
-                "name": "veridive",
-                "category": "Productivity",
+                "name": "Lium AI",
+                "category": "Artificial Intelligence",
                 "rank": 13,
-                "link": "https://www.producthunt.com/products/veridive"
+                "link": "https://www.producthunt.com/products/lium-ai"
               },
               {
-                "name": "Hero Studio Photos",
-                "category": "Android",
+                "name": "Onpilot",
+                "category": "Customer Communication",
                 "rank": 14,
-                "link": "https://www.producthunt.com/products/hero-studio-photos"
+                "link": "https://www.producthunt.com/products/onpilot"
               },
               {
-                "name": "OLO Robotics",
-                "category": "Robots",
+                "name": "Cloudskill",
+                "category": "Productivity",
                 "rank": 15,
-                "link": "https://www.producthunt.com/products/olo-robotics"
+                "link": "https://www.producthunt.com/products/cloudskill"
               },
               {
-                "name": "AGNT.Hub",
+                "name": "Airbrush Studio",
                 "category": "Productivity",
                 "rank": 16,
-                "link": "https://www.producthunt.com/products/agnt-hub"
+                "link": "https://www.producthunt.com/products/airbrush-studio"
               },
               {
-                "name": "LayerProof Vellum",
-                "category": "Design Tools",
+                "name": "OwnClip",
+                "category": "Productivity",
                 "rank": 17,
-                "link": "https://www.producthunt.com/products/layerproof-vellum"
+                "link": "https://www.producthunt.com/products/ownclip"
               },
               {
-                "name": "Zingle",
-                "category": "Languages",
-                "rank": 18,
-                "link": "https://www.producthunt.com/products/zingle"
-              },
-              {
-                "name": "fort",
+                "name": "Proxee",
                 "category": "Mac",
-                "rank": 19,
-                "link": "https://www.producthunt.com/products/fort"
+                "rank": 18,
+                "link": "https://www.producthunt.com/products/proxee"
               },
               {
-                "name": "FluidDocs Deck Builder",
-                "category": "Design Tools",
+                "name": "INVO Ride",
+                "category": "Transportation",
+                "rank": 19,
+                "link": "https://www.producthunt.com/products/invo-ride"
+              },
+              {
+                "name": "Riven",
+                "category": "Health & Fitness",
                 "rank": 20,
-                "link": "https://www.producthunt.com/products/fluidocs-deck-builder"
+                "link": "https://www.producthunt.com/products/riven"
               }
             ]
           }
@@ -5155,4 +5143,4 @@ window.__SEED_CONFIRMED = {
     }
   }
 };
-window.__SEED_VERSION = "8cd93029";
+window.__SEED_VERSION = "c29ba7fb";
