@@ -5,7 +5,7 @@ window.__RAW_DATA = {
       "vendors": [
         {
           "name": "OpenAI",
-          "color": "#10a37f",
+          "color": "#7ab8d6",
           "initial": "O",
           "news": [
             {
@@ -41,11 +41,13 @@ window.__RAW_DATA = {
               "source": "凤凰科技",
               "time": "当地时间6月9日"
             }
-          ]
+          ],
+          "softBg": "#edf5fa",
+          "logo": "logos/OpenAI.png"
         },
         {
           "name": "Anthropic",
-          "color": "#d4a574",
+          "color": "#c4a882",
           "initial": "A",
           "news": [
             {
@@ -70,11 +72,13 @@ window.__RAW_DATA = {
               "source": "东方财富",
               "time": "6月9日消息"
             }
-          ]
+          ],
+          "softBg": "#faf5ee",
+          "logo": "logos/Anthropic.png"
         },
         {
           "name": "Google",
-          "color": "#4285f4",
+          "color": "#8ac4a0",
           "initial": "G",
           "news": [
             {
@@ -88,11 +92,13 @@ window.__RAW_DATA = {
               "source": "IT之家",
               "time": "6月10日消息"
             }
-          ]
+          ],
+          "softBg": "#effaf3",
+          "logo": "logos/Google.png"
         },
         {
           "name": "xAI",
-          "color": "#000000",
+          "color": "#8ab4d4",
           "initial": "X",
           "news": [
             {
@@ -117,17 +123,21 @@ window.__RAW_DATA = {
               "source": "IT之家",
               "time": "6月10日消息"
             }
-          ]
+          ],
+          "softBg": "#eef5fb",
+          "logo": "logos/xAI.png"
         },
         {
           "name": "NVIDIA",
-          "color": "#76b900",
+          "color": "#a8c47a",
           "initial": "N",
-          "news": []
+          "news": [],
+          "softBg": "#f4f9ee",
+          "logo": "logos/NVDIA.png"
         },
         {
           "name": "Meta",
-          "color": "#0082fb",
+          "color": "#8a9ad4",
           "initial": "M",
           "news": [
             {
@@ -152,15 +162,20 @@ window.__RAW_DATA = {
               "source": "IT之家",
               "time": "6月10日消息"
             }
-          ]
+          ],
+          "softBg": "#eff0fa",
+          "logo": "logos/Meta.png"
         }
-      ]
+      ],
+      "title": "海外主要厂商",
+      "icon": "fas fa-globe-americas",
+      "iconClass": "overseas"
     },
     "domestic": {
       "vendors": [
         {
           "name": "阿里云",
-          "color": "#ff6a00",
+          "color": "#d4a06a",
           "initial": "阿",
           "news": [
             {
@@ -185,11 +200,13 @@ window.__RAW_DATA = {
               "source": "央广网",
               "time": "6月10日消息"
             }
-          ]
+          ],
+          "softBg": "#faf5ee",
+          "logo": "logos/阿里云.png"
         },
         {
           "name": "火山引擎",
-          "color": "#3370ff",
+          "color": "#8aaed4",
           "initial": "火",
           "news": [
             {
@@ -214,24 +231,30 @@ window.__RAW_DATA = {
               "source": "太平洋科技",
               "time": "6月10日消息"
             }
-          ]
+          ],
+          "softBg": "#eef5fb",
+          "logo": "logos/火山引擎.png"
         },
         {
           "name": "DeepSeek",
-          "color": "#4d6bfe",
+          "color": "#7ab8d6",
           "initial": "D",
-          "news": []
+          "news": [],
+          "softBg": "#edf5fa",
+          "logo": "logos/DeepSeek.png"
         },
         {
           "name": "腾讯",
-          "color": "#0052d9",
+          "color": "#8ac4a0",
           "initial": "腾",
-          "news": []
+          "news": [],
+          "softBg": "#effaf3",
+          "logo": "logos/腾讯.png"
         },
         {
           "name": "小米",
-          "color": "#ff6900",
-          "initial": "小",
+          "color": "#d4a882",
+          "initial": "米",
           "news": [
             {
               "title": "小米开源MiMo Code终端AI编程助手，采用MIT协议",
@@ -255,27 +278,38 @@ window.__RAW_DATA = {
               "source": "IT之家",
               "time": "6月10日消息"
             }
-          ]
+          ],
+          "softBg": "#faf5ee",
+          "logo": "logos/小米.jpg"
         },
         {
           "name": "智谱AI",
-          "color": "#6c5ce7",
+          "color": "#b4a0d4",
           "initial": "智",
-          "news": []
+          "news": [],
+          "softBg": "#f5f0fa",
+          "logo": "logos/智谱.png"
         },
         {
           "name": "月之暗面",
-          "color": "#7c3aed",
+          "color": "#b4a0d4",
           "initial": "月",
-          "news": []
+          "news": [],
+          "softBg": "#f5f0fa",
+          "logo": "logos/月之暗面.png"
         },
         {
           "name": "华为",
-          "color": "#cf0a2c",
+          "color": "#d4a0a0",
           "initial": "华",
-          "news": []
+          "news": [],
+          "softBg": "#faf0f0",
+          "logo": "logos/华为.jpg"
         }
-      ]
+      ],
+      "title": "国内主要厂商",
+      "icon": "fas fa-flag",
+      "iconClass": "domestic"
     },
     "other": {
       "categories": [
@@ -298,7 +332,10 @@ window.__RAW_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "icon": "fas fa-robot",
+          "color": "#d4b482",
+          "softBg": "#faf6ee"
         },
         {
           "name": "自动驾驶",
@@ -335,7 +372,10 @@ window.__RAW_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "icon": "fas fa-car",
+          "color": "#82c4d4",
+          "softBg": "#eefafc"
         },
         {
           "name": "其他厂商",
@@ -388,7 +428,10 @@ window.__RAW_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "icon": "fas fa-building",
+          "color": "#a0a8b0",
+          "softBg": "#f2f4f5"
         },
         {
           "name": "行业趋势&观点",
@@ -441,9 +484,15 @@ window.__RAW_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "icon": "fas fa-lightbulb",
+          "color": "#b4a0d4",
+          "softBg": "#f5f0fa"
         }
-      ]
+      ],
+      "title": "其他关注",
+      "icon": "fas fa-layer-group",
+      "iconClass": "other"
     },
     "ranking": {
       "platforms": [
@@ -552,7 +601,10 @@ window.__RAW_DATA = {
               "score": "1473",
               "change": "—"
             }
-          ]
+          ],
+          "color": "#7ab8d6",
+          "softBg": "#edf5fa",
+          "initial": "L"
         },
         {
           "name": "OpenRouter",
@@ -659,7 +711,10 @@ window.__RAW_DATA = {
               "score": "0.47T tokens",
               "change": "↑8%"
             }
-          ]
+          ],
+          "color": "#b4a0d4",
+          "softBg": "#f5f0fa",
+          "initial": "O"
         },
         {
           "name": "Product Hunt",
@@ -786,9 +841,16 @@ window.__RAW_DATA = {
               "rank": 20,
               "link": "https://www.producthunt.com/products/nudgefile"
             }
-          ]
+          ],
+          "color": "#d4a882",
+          "softBg": "#faf5ee",
+          "initial": "P"
         }
-      ]
+      ],
+      "title": "榜单情况",
+      "icon": "fas fa-trophy",
+      "iconClass": "ranking"
     }
-  }
+  },
+  "_manualEdit": "2026-06-12T00:47:10.990Z"
 };
