@@ -249,13 +249,11 @@
 
     // ==================== API 配置（从 localStorage 读取，由管理后台写入） ====================
     function getAPIConfig() {
-        var HARDCODED_KEY = 'sk-2f3114c2c1554f629982a858df5567de';
-        var HARDCODED_PROXY = 'https://mushroom-proxy.qinjieyao112233.workers.dev';
         var provider = localStorage.getItem(API_PROVIDER_STORAGE) || 'deepseek';
-        var key = localStorage.getItem(API_KEY_STORAGE) || HARDCODED_KEY;
+        var key = localStorage.getItem(API_KEY_STORAGE) || '';
         var endpoint = localStorage.getItem(API_ENDPOINT_STORAGE) || '';
         var model = localStorage.getItem(API_MODEL_STORAGE) || '';
-        var proxy = localStorage.getItem(API_PROXY_STORAGE) || HARDCODED_PROXY;
+        var proxy = localStorage.getItem(API_PROXY_STORAGE) || '';
 
         // 如果没配置过，使用预设
         if (!endpoint || !model) {
