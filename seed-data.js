@@ -4429,7 +4429,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "扎克伯格：推动 AI 进步不需要千人规模，十几人团队就够了",
                 "summary": "6月12日，Meta CEO 扎克伯格在公开表态中称，AI 领域真正的突破不一定需要庞大研究团队。「要推动 AI 进步，并不需要几百名甚至几千名 AI 研究人员。一个由十几人或二十几人组成的强大团队，就真的可以取得进展。」此番言论正值各大科技公司竞相扩充 AI 团队之际。",
-                "link": "https://m.ithome.com/html/963725.htm",
+                "link": "https://www.ithome.com/0/963/723.htm",
                 "tags": [
                   "AI团队",
                   "研发模式"
@@ -4560,25 +4560,25 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "余承东：要带盘古大模型从中国第一走向世界第一，openPangu 2.0 发布",
                 "summary": "6月12日，在华为开发者大会 HDC 2026 上，余承东宣布重新挂帅大模型团队，目标从中国第一走向世界第一。华为发布开源盘古 openPangu 2.0，Pro 版 505B 参数（激活 18B），Flash 版 92B 参数（激活 6B），支持 512K 上下文，深度适配昇腾算力。6 月 30 日起分批开源 7 大核心组件。余承东还预告今秋将推出 30B 端侧盘古大模型。",
-                "link": "https://www.cnstock.com/commonDetail/729103",
+                "link": "https://news.qq.com/rain/a/20260612A06Q2X00",
                 "tags": [
                   "大模型",
                   "开源",
                   "HDC2026"
                 ],
-                "source": "上海证券报",
+                "source": "腾讯新闻",
                 "time": "6月12日"
               },
               {
                 "title": "华为 AI 眼镜 × 小艺看世界官宣 8 月上线，辅助视障用户",
                 "summary": "6月12日，在 HDC 2026 上，华为终端 BG CEO 何刚宣布华为 AI 眼镜与小艺看世界深度联动，可辅助视障用户探索世界，将于 8 月正式上线。同时鸿蒙智能体框架升级至 2.0，小艺智慧大脑升级为 Agentic 自演进架构，系统能力全面 Skill 化，小艺日活用户达 1.8 亿。",
-                "link": "https://m.ithome.com/html/963725.htm",
+                "link": "https://tech.ifeng.com/c/8ttkkNcgiWi",
                 "tags": [
                   "AI眼镜",
                   "无障碍",
                   "HDC2026"
                 ],
-                "source": "IT之家",
+                "source": "凤凰网科技",
                 "time": "6月12日"
               }
             ]
@@ -4694,7 +4694,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "西班牙 AI 机器人企业 Theker 获 8500 万美元融资，LVMH 和三星参投",
                     "summary": "6月11日，巴塞罗那 AI 机器人企业 Theker 完成 8500 万美元 A 轮融资，由 CRV 领投，三星、LVMH 旗下 Aglaé Ventures、Inditex 等参投，为欧洲机器人领域史上最大 A 轮融资。Theker 研发模块化可重构工业机器人，可灵活更换手臂和结构适配分拣、打包、仓储等场景，无需专项训练。公司计划向重工业制造领域拓展。",
-                    "link": "https://ai.zhiding.cn/2026/0612/3190479.shtml",
+                    "link": "https://www.sohu.com/a/1035381237_122014422",
                     "tags": [
                       "融资",
                       "机器人"
@@ -4731,12 +4731,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "中央网信办开设「涉 AI 应用乱象举报专区」，受理 14 类问题",
                     "summary": "6月12日，中央网信办举报中心宣布自 2026 年 6 月起开设「涉 AI 应用乱象举报专区」，专项受理公众举报。受理范围涵盖生成合成内容标识落实不到位、制作发布虚假不实信息、传播暴力低俗内容等 14 类问题，标志着中国 AI 内容治理从行业自律向公众监督迈出重要一步。",
-                    "link": "https://m.ithome.com/html/963725.htm",
+                    "link": "http://www.xinhuanet.com.cn/politics/20260612/f16e045f2a5040e7aae1ba0ad593214f/c.html",
                     "tags": [
                       "AI治理",
                       "内容安全"
                     ],
-                    "source": "IT之家",
+                    "source": "新华网",
                     "time": "6月12日"
                   }
                 ]
@@ -4747,7 +4747,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "我国成功研制三维多层片上电容，可直接用于 AI/GPU 芯片",
                     "summary": "6月12日，湖北江城实验室宣布成功研制三维多层片上电容，电容密度突破每平方毫米 1000 纳法。该技术将传统平面电容改造为立体多孔结构，可直接集成在芯片内部或邻近硅基板，为 AI 芯片提供纳秒级大电流瞬态响应，有效抑制电压波动。目前技术正开展工艺流片及小批量试产，将在先进封装领域实现规模化应用。",
-                    "link": "https://www.stcn.com/article/detail/3959539.html",
+                    "link": "https://tech.ifeng.com/c/8ttzYdaLXYW",
                     "tags": [
                       "芯片技术",
                       "半导体"
@@ -4929,128 +4929,110 @@ window.__SEED_CONFIRMED = {
           },
           {
             "name": "Product Hunt",
-            "date": "2026-06-11",
+            "date": "2026-06-12",
             "link": "https://www.producthunt.com/",
             "rankings": [
               {
-                "name": "Bond",
-                "category": "Productivity",
-                "rank": 1,
-                "link": "https://www.bondapp.io/"
-              },
-              {
-                "name": "Respan Gateway",
-                "category": "Developer Tools",
-                "rank": 2,
-                "link": "https://www.producthunt.com/products/respan-gateway"
-              },
-              {
-                "name": "Asmi AI",
-                "category": "Productivity",
-                "rank": 3,
-                "link": "https://www.producthunt.com/products/asmi-ai"
-              },
-              {
-                "name": "Terminal Mode by Even Realities",
-                "category": "Productivity",
-                "rank": 4,
-                "link": "https://www.producthunt.com/products/terminal-mode"
-              },
-              {
-                "name": "Journey Now",
-                "category": "iOS",
-                "rank": 5,
-                "link": "https://www.producthunt.com/products/journey-now"
-              },
-              {
-                "name": "Slashspace AI",
-                "category": "Productivity",
-                "rank": 6,
-                "link": "https://www.producthunt.com/products/slashspace-ai"
-              },
-              {
-                "name": "CrustRecruiter",
-                "category": "Hiring",
-                "rank": 7,
-                "link": "https://www.producthunt.com/products/crustrecruiter"
-              },
-              {
-                "name": "Tabstack Structured Extraction",
+                "name": "Firma.dev",
                 "category": "API",
+                "rank": 1,
+                "link": "https://firma.dev"
+              },
+              {
+                "name": "Qursor",
+                "category": "Productivity",
+                "rank": 2,
+                "link": "https://www.producthunt.com/products/qursor"
+              },
+              {
+                "name": "Pond",
+                "category": "Marketing",
+                "rank": 3,
+                "link": "https://www.producthunt.com/products/pond"
+              },
+              {
+                "name": "KOSH Money",
+                "category": "Android",
+                "rank": 4,
+                "link": "https://www.producthunt.com/products/kosh-money"
+              },
+              {
+                "name": "HyperSleep",
+                "category": "Android",
+                "rank": 5,
+                "link": "https://www.producthunt.com/products/hypersleep"
+              },
+              {
+                "name": "Bob's CLI",
+                "category": "Developer Tools",
+                "rank": 6,
+                "link": "https://www.producthunt.com/products/bobs-cli"
+              },
+              {
+                "name": "Meet Warren 3.0",
+                "category": "Fintech",
+                "rank": 7,
+                "link": "https://www.producthunt.com/products/meet-warren"
+              },
+              {
+                "name": "ShellMate",
+                "category": "Productivity",
                 "rank": 8,
-                "link": "https://www.producthunt.com/products/tabstack"
+                "link": "https://www.producthunt.com/products/shellmate"
               },
               {
-                "name": "Nodey",
-                "category": "Productivity",
+                "name": "Insta360 Luna Ultra",
+                "category": "Hardware",
                 "rank": 9,
-                "link": "https://www.producthunt.com/products/nodey"
+                "link": "https://www.producthunt.com/products/insta360-luna-ultra"
               },
               {
-                "name": "Juno",
-                "category": "Health & Fitness",
-                "rank": 10,
-                "link": "https://www.producthunt.com/products/juno-ai-health"
-              },
-              {
-                "name": "SlimSnap",
-                "category": "Design Tools",
-                "rank": 11,
-                "link": "https://www.producthunt.com/products/slimsnap"
-              },
-              {
-                "name": "PixelForge",
-                "category": "Design Tools",
-                "rank": 12,
-                "link": "https://www.producthunt.com/products/pixelforge"
-              },
-              {
-                "name": "Lium AI",
+                "name": "Slack Data Agent",
                 "category": "Artificial Intelligence",
+                "rank": 10,
+                "link": "https://www.producthunt.com/products/slack-data-agent"
+              },
+              {
+                "name": "Tide",
+                "category": "Music",
+                "rank": 11,
+                "link": "https://www.producthunt.com/products/tide-voice"
+              },
+              {
+                "name": "CueBuddy",
+                "category": "iOS",
+                "rank": 12,
+                "link": "https://www.producthunt.com/products/cuebuddy"
+              },
+              {
+                "name": "Medicyn",
+                "category": "iOS",
                 "rank": 13,
-                "link": "https://www.producthunt.com/products/lium-ai"
+                "link": "https://www.producthunt.com/products/medicyn"
               },
               {
-                "name": "Onpilot",
-                "category": "Customer Communication",
+                "name": "NODUS PH Radar for Product Hunt",
+                "category": "Browser Extensions",
                 "rank": 14,
-                "link": "https://www.producthunt.com/products/onpilot"
+                "link": "https://www.producthunt.com/products/nodus-ph-radar"
               },
               {
-                "name": "Cloudskill",
-                "category": "Productivity",
+                "name": "LocIn AI",
+                "category": "SaaS",
                 "rank": 15,
-                "link": "https://www.producthunt.com/products/cloudskill"
+                "link": "https://www.producthunt.com/products/locin-ai"
               },
               {
-                "name": "Airbrush Studio",
-                "category": "Productivity",
+                "name": "Clutch Alarm",
+                "category": "iOS",
                 "rank": 16,
-                "link": "https://www.producthunt.com/products/airbrush-studio"
+                "link": "https://www.producthunt.com/products/clutch-alarm"
               },
               {
-                "name": "OwnClip",
-                "category": "Productivity",
+                "name": "pleNx — Plex client for Nintendo Switch",
+                "category": "Nintendo",
                 "rank": 17,
-                "link": "https://www.producthunt.com/products/ownclip"
-              },
-              {
-                "name": "Proxee",
-                "category": "Mac",
-                "rank": 18,
-                "link": "https://www.producthunt.com/products/proxee"
-              },
-              {
-                "name": "INVO Ride",
-                "category": "Transportation",
-                "rank": 19,
-                "link": "https://www.producthunt.com/products/invo-ride"
-              },
-              {
-                "name": "Riven",
-                "category": "Health & Fitness",
-                "rank": 20,
-                "link": "https://www.producthunt.com/products/riven"
+                "link": "https://www.producthunt.com/products/plenx"
               }
             ]
           }

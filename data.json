@@ -617,128 +617,110 @@
         },
         {
           "name": "Product Hunt",
-          "date": "2026-06-11",
+          "date": "2026-06-12",
           "link": "https://www.producthunt.com/",
           "rankings": [
             {
-              "name": "Bond",
-              "category": "Productivity",
-              "rank": 1,
-              "link": "https://www.bondapp.io/"
-            },
-            {
-              "name": "Respan Gateway",
-              "category": "Developer Tools",
-              "rank": 2,
-              "link": "https://www.producthunt.com/products/respan-gateway"
-            },
-            {
-              "name": "Asmi AI",
-              "category": "Productivity",
-              "rank": 3,
-              "link": "https://www.producthunt.com/products/asmi-ai"
-            },
-            {
-              "name": "Terminal Mode by Even Realities",
-              "category": "Productivity",
-              "rank": 4,
-              "link": "https://www.producthunt.com/products/terminal-mode"
-            },
-            {
-              "name": "Journey Now",
-              "category": "iOS",
-              "rank": 5,
-              "link": "https://www.producthunt.com/products/journey-now"
-            },
-            {
-              "name": "Slashspace AI",
-              "category": "Productivity",
-              "rank": 6,
-              "link": "https://www.producthunt.com/products/slashspace-ai"
-            },
-            {
-              "name": "CrustRecruiter",
-              "category": "Hiring",
-              "rank": 7,
-              "link": "https://www.producthunt.com/products/crustrecruiter"
-            },
-            {
-              "name": "Tabstack Structured Extraction",
+              "name": "Firma.dev",
               "category": "API",
+              "rank": 1,
+              "link": "https://firma.dev"
+            },
+            {
+              "name": "Qursor",
+              "category": "Productivity",
+              "rank": 2,
+              "link": "https://www.producthunt.com/products/qursor"
+            },
+            {
+              "name": "Pond",
+              "category": "Marketing",
+              "rank": 3,
+              "link": "https://www.producthunt.com/products/pond"
+            },
+            {
+              "name": "KOSH Money",
+              "category": "Android",
+              "rank": 4,
+              "link": "https://www.producthunt.com/products/kosh-money"
+            },
+            {
+              "name": "HyperSleep",
+              "category": "Android",
+              "rank": 5,
+              "link": "https://www.producthunt.com/products/hypersleep"
+            },
+            {
+              "name": "Bob's CLI",
+              "category": "Developer Tools",
+              "rank": 6,
+              "link": "https://www.producthunt.com/products/bobs-cli"
+            },
+            {
+              "name": "Meet Warren 3.0",
+              "category": "Fintech",
+              "rank": 7,
+              "link": "https://www.producthunt.com/products/meet-warren"
+            },
+            {
+              "name": "ShellMate",
+              "category": "Productivity",
               "rank": 8,
-              "link": "https://www.producthunt.com/products/tabstack"
+              "link": "https://www.producthunt.com/products/shellmate"
             },
             {
-              "name": "Nodey",
-              "category": "Productivity",
+              "name": "Insta360 Luna Ultra",
+              "category": "Hardware",
               "rank": 9,
-              "link": "https://www.producthunt.com/products/nodey"
+              "link": "https://www.producthunt.com/products/insta360-luna-ultra"
             },
             {
-              "name": "Juno",
-              "category": "Health & Fitness",
-              "rank": 10,
-              "link": "https://www.producthunt.com/products/juno-ai-health"
-            },
-            {
-              "name": "SlimSnap",
-              "category": "Design Tools",
-              "rank": 11,
-              "link": "https://www.producthunt.com/products/slimsnap"
-            },
-            {
-              "name": "PixelForge",
-              "category": "Design Tools",
-              "rank": 12,
-              "link": "https://www.producthunt.com/products/pixelforge"
-            },
-            {
-              "name": "Lium AI",
+              "name": "Slack Data Agent",
               "category": "Artificial Intelligence",
+              "rank": 10,
+              "link": "https://www.producthunt.com/products/slack-data-agent"
+            },
+            {
+              "name": "Tide",
+              "category": "Music",
+              "rank": 11,
+              "link": "https://www.producthunt.com/products/tide-voice"
+            },
+            {
+              "name": "CueBuddy",
+              "category": "iOS",
+              "rank": 12,
+              "link": "https://www.producthunt.com/products/cuebuddy"
+            },
+            {
+              "name": "Medicyn",
+              "category": "iOS",
               "rank": 13,
-              "link": "https://www.producthunt.com/products/lium-ai"
+              "link": "https://www.producthunt.com/products/medicyn"
             },
             {
-              "name": "Onpilot",
-              "category": "Customer Communication",
+              "name": "NODUS PH Radar for Product Hunt",
+              "category": "Browser Extensions",
               "rank": 14,
-              "link": "https://www.producthunt.com/products/onpilot"
+              "link": "https://www.producthunt.com/products/nodus-ph-radar"
             },
             {
-              "name": "Cloudskill",
-              "category": "Productivity",
+              "name": "LocIn AI",
+              "category": "SaaS",
               "rank": 15,
-              "link": "https://www.producthunt.com/products/cloudskill"
+              "link": "https://www.producthunt.com/products/locin-ai"
             },
             {
-              "name": "Airbrush Studio",
-              "category": "Productivity",
+              "name": "Clutch Alarm",
+              "category": "iOS",
               "rank": 16,
-              "link": "https://www.producthunt.com/products/airbrush-studio"
+              "link": "https://www.producthunt.com/products/clutch-alarm"
             },
             {
-              "name": "OwnClip",
-              "category": "Productivity",
+              "name": "pleNx — Plex client for Nintendo Switch",
+              "category": "Nintendo",
               "rank": 17,
-              "link": "https://www.producthunt.com/products/ownclip"
-            },
-            {
-              "name": "Proxee",
-              "category": "Mac",
-              "rank": 18,
-              "link": "https://www.producthunt.com/products/proxee"
-            },
-            {
-              "name": "INVO Ride",
-              "category": "Transportation",
-              "rank": 19,
-              "link": "https://www.producthunt.com/products/invo-ride"
-            },
-            {
-              "name": "Riven",
-              "category": "Health & Fitness",
-              "rank": 20,
-              "link": "https://www.producthunt.com/products/riven"
+              "link": "https://www.producthunt.com/products/plenx"
             }
           ]
         }
