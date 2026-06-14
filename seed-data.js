@@ -2204,526 +2204,6 @@ window.__SEED_CONFIRMED = {
       }
     }
   },
-  "2026-06-07": {
-    "date": "2026-06-07",
-    "sections": {
-      "overseas": {
-        "vendors": [
-          {
-            "name": "OpenAI",
-            "color": "",
-            "softBg": "",
-            "initial": "O",
-            "logo": "",
-            "news": []
-          },
-          {
-            "name": "Anthropic",
-            "color": "",
-            "softBg": "",
-            "initial": "A",
-            "logo": "",
-            "news": [
-              {
-                "title": "微软发现Claude Code漏洞可致GitHub凭证泄露",
-                "summary": "6月7日消息，微软研究人员发现Anthropic旗下Claude Code的GitHub自动化流程存在提示词注入漏洞，攻击者仅需提交一条GitHub工单即可诱骗AI读取API密钥等敏感凭证。微软于4月29日上报，Anthropic已于5月5日发布Claude Code 2.1.128版本完成修复，通过限制对/proc/目录下敏感文件的访问防止信息泄露。",
-                "link": "https://www.ithome.com/0/960/994.htm",
-                "tags": [
-                  "安全漏洞",
-                  "提示词注入",
-                  "AI编程"
-                ],
-                "source": "IT之家",
-                "time": "6月7日消息"
-              }
-            ]
-          },
-          {
-            "name": "Google",
-            "color": "",
-            "softBg": "",
-            "initial": "G",
-            "logo": "",
-            "news": [
-              {
-                "title": "Google在Chrome测试AI默认搜索后紧急撤回",
-                "summary": "6月7日消息，Google近日在Chrome Canary预览版中短暂测试将地址栏搜索直接重定向至AI模式页面，引发用户强烈不满。Google搜索副总裁Robby Stein和搜索工程副总裁Rajan Patel先后出面澄清，称该设置出现在Canary版本中是一个错误，公司并无计划让AI模式成为Chrome默认搜索，但外界对失误说的真实性仍持怀疑态度。",
-                "link": "https://www.163.com/dy/article/KUPPIH010511BLFD.html",
-                "tags": [
-                  "AI搜索",
-                  "Chrome",
-                  "用户争议"
-                ],
-                "source": "网易/cnBeta",
-                "time": "6月7日消息"
-              }
-            ]
-          },
-          {
-            "name": "xAI",
-            "color": "",
-            "softBg": "",
-            "initial": "x",
-            "logo": "",
-            "news": [
-              {
-                "title": "马斯克将出席ASML闭门研讨会，讨论TeraFab芯片项目",
-                "summary": "6月6日消息，据彭博社报道，马斯克将以虚拟形式出席ASML举办的闭门技术会议，讨论其TeraFab半导体项目。该项目由SpaceX、特斯拉和英特尔合资推进，计划在美建设2纳米芯片工厂，投资至少550亿美元，目标支撑每年1太瓦算力需求。ASML将TeraFab视为一次认真的尝试，但台积电董事长魏哲家表示实现需要相当长时间。",
-                "link": "https://m.techweb.com.cn/article/2026-06-07/2976345.shtml",
-                "tags": [
-                  "芯片制造",
-                  "半导体",
-                  "TeraFab"
-                ],
-                "source": "TechWeb",
-                "time": "6月6日消息"
-              }
-            ]
-          },
-          {
-            "name": "NVIDIA",
-            "color": "",
-            "softBg": "",
-            "initial": "N",
-            "logo": "",
-            "news": []
-          },
-          {
-            "name": "Meta",
-            "color": "",
-            "softBg": "",
-            "initial": "M",
-            "logo": "",
-            "news": []
-          }
-        ]
-      },
-      "domestic": {
-        "vendors": [
-          {
-            "name": "阿里云",
-            "color": "",
-            "softBg": "",
-            "initial": "阿",
-            "logo": "",
-            "news": []
-          },
-          {
-            "name": "火山引擎",
-            "color": "",
-            "softBg": "",
-            "initial": "火",
-            "logo": "",
-            "news": []
-          },
-          {
-            "name": "DeepSeek",
-            "color": "",
-            "softBg": "",
-            "initial": "D",
-            "logo": "",
-            "news": [
-              {
-                "title": "DeepSeek首次登顶美国企业软件支出趋势榜",
-                "summary": "6月5日消息，美国企业支出管理平台Ramp发布报告显示，DeepSeek首次登上其热门软件供应商趋势榜第一位，成为该平台增长最快的软件供应商。美国企业正经历AI成本飙升困境，某企业单月Claude支出达5亿美元。DeepSeek凭借5月宣布的API永久降价75%策略，以性价比优势吸引美国B2B客户，但Ramp首席经济学家也提示了数据安全与合规风险。",
-                "link": "https://www.ithome.com/0/960/905.htm",
-                "tags": [
-                  "B2B市场",
-                  "API降价",
-                  "成本优势"
-                ],
-                "source": "IT之家",
-                "time": "6月5日消息"
-              }
-            ]
-          },
-          {
-            "name": "腾讯",
-            "color": "",
-            "softBg": "",
-            "initial": "腾",
-            "logo": "",
-            "news": []
-          },
-          {
-            "name": "小米",
-            "color": "",
-            "softBg": "",
-            "initial": "小",
-            "logo": "",
-            "news": []
-          },
-          {
-            "name": "智谱AI",
-            "color": "",
-            "softBg": "",
-            "initial": "智",
-            "logo": "",
-            "news": []
-          },
-          {
-            "name": "月之暗面",
-            "color": "",
-            "softBg": "",
-            "initial": "月",
-            "logo": "",
-            "news": []
-          },
-          {
-            "name": "华为",
-            "color": "",
-            "softBg": "",
-            "initial": "华",
-            "logo": "",
-            "news": []
-          }
-        ]
-      },
-      "other": {
-        "categories": [
-          {
-            "name": "其他厂商",
-            "cards": [
-              {
-                "title": "苹果",
-                "news": [
-                  {
-                    "title": "iOS 27 Siri将支持AI感知屏幕与跨App操作",
-                    "summary": "当地时间6月5日，彭博社记者Mark Gurman发布Power On通讯，详细披露iOS 27中Siri的三大AI核心能力：用户画像可访问邮件信息等本地数据、屏幕感知可理解当前屏幕内容并执行操作、跨App操作可串联多个应用完成复杂任务。iOS 27将首次为Siri推出独立App，支持多轮对话和内容生成，预计6月8日WWDC 2026预览。",
-                    "link": "https://www.ithome.com/0/960/782.htm",
-                    "tags": [
-                      "Siri",
-                      "AI助手",
-                      "WWDC"
-                    ],
-                    "source": "IT之家",
-                    "time": "当地时间6月5日"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "自动驾驶",
-            "cards": [
-              {
-                "title": "东风OpenVAN",
-                "news": [
-                  {
-                    "title": "东风发布无人物流车品牌OpenVAN，签约超4000台",
-                    "summary": "6月6日，东风汽车在湖北襄阳发布无人物流车品牌东风OpenVAN，推出四款车型覆盖2至60立方米载货空间、最大载重13.6吨。车辆搭载与九识智能联合自研的L4级端到端大模型智驾系统，算力超500TOPS，累计验证1.3亿公里。现场与顺丰、京东物流等签约超4000台，预计8月交付，卡位7月1日L4级自动驾驶交规正式实施节点。",
-                    "link": "https://www.ithome.com/0/960/965.htm",
-                    "tags": [
-                      "无人物流",
-                      "L4自动驾驶",
-                      "商业化"
-                    ],
-                    "source": "IT之家",
-                    "time": "6月6日"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "具身智能",
-            "cards": [
-              {
-                "title": "比亚迪",
-                "news": [
-                  {
-                    "title": "比亚迪否认人形机器人传闻但确认在研",
-                    "summary": "6月6日消息，针对网络流传的比亚迪人形机器人代号尧舜禹、第七代原型机在工厂测试、年内部署2万台等传闻，比亚迪官方明确否认称均不属实。但集团执行副总裁李柯此前已确认比亚迪正在开发人形机器人，具身智能研究团队成立于2022年。李柯认为汽车AI能力与机器人具有同源性，未来机器人可能首先在中国实现商业化。",
-                    "link": "https://www.163.com/dy/article/KUO153QF05198CJN.html",
-                    "tags": [
-                      "人形机器人",
-                      "辟谣",
-                      "具身智能"
-                    ],
-                    "source": "网易/每日经济新闻",
-                    "time": "6月6日消息"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "行业趋势&观点",
-            "cards": [
-              {
-                "title": "联合国大学报告",
-                "news": [
-                  {
-                    "title": "联合国大学报告：减少礼貌用语可让AI能耗降低25%",
-                    "summary": "联合国大学水、环境与健康研究所近日发布报告指出，删除AI指令中请、谢谢等礼貌用语可让ChatGPT能耗降低约25%，每年可节约87至98吉瓦时电能，相当于撒哈拉以南非洲76万人全年生活用电。报告还警示当前AI占全球数据中心用电约20%，预计2030年AI年耗电量将达378太瓦时，建议用户精简指令、优先选用轻量化小模型。",
-                    "link": "https://www.ithome.com/0/960/974.htm",
-                    "tags": [
-                      "AI能耗",
-                      "环保",
-                      "研究报告"
-                    ],
-                    "source": "IT之家",
-                    "time": "6月6日消息"
-                  }
-                ]
-              },
-              {
-                "title": "美国AI芯片股",
-                "news": [
-                  {
-                    "title": "美国AI芯片股单日蒸发1.3万亿美元市值",
-                    "summary": "当地时间6月5日，美国芯片股遭遇集体暴跌，费城半导体指数单日跌10%创2020年3月以来最大跌幅，市值蒸发约1.3万亿美元。英伟达跌超6%，美光跌超13%，AMD跌近11%。导火索包括博通AI芯片业务不及预期、5月非农就业超预期削弱降息预期，以及SpaceX巨型IPO资金虹吸效应。市场开始关注AI芯片需求增速是否见顶。",
-                    "link": "https://finance.eastmoney.com/a/202606063762543975.html",
-                    "tags": [
-                      "芯片股",
-                      "市场波动",
-                      "AI泡沫"
-                    ],
-                    "source": "东方财富",
-                    "time": "当地时间6月5日"
-                  }
-                ]
-              },
-              {
-                "title": "算电协同",
-                "news": [
-                  {
-                    "title": "1度绿电变Token价值翻20倍，算电协同成国家战略",
-                    "summary": "6月6日，央视财经《对话》节目聚焦算电协同主题。中环新能源董事长透露，在安徽淮南，1度新能源电原本卖0.5元，通过算力中心转化为Token后可卖到10元。2026年算电协同首次写入政府工作报告，国家数据局将Token中文名定为词元，日均调用量突破140万亿次。专家指出中国绿电成本已降至2至3美分每度，为AI发展提供坚实能源基础。",
-                    "link": "https://www.ithome.com/0/960/909.htm",
-                    "tags": [
-                      "算电协同",
-                      "绿电",
-                      "AI基础设施"
-                    ],
-                    "source": "IT之家",
-                    "time": "6月6日"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "ranking": {
-        "platforms": [
-          {
-            "name": "LMArena",
-            "date": "2026-06-04",
-            "link": "https://lmarena.ai/leaderboard/text",
-            "rankings": [
-              {
-                "model": "claude-opus-4-6-thinking",
-                "score": "1503",
-                "change": "+4"
-              },
-              {
-                "model": "claude-opus-4-7-thinking",
-                "score": "1500",
-                "change": "+5"
-              },
-              {
-                "model": "claude-opus-4-6",
-                "score": "1498",
-                "change": "+4"
-              },
-              {
-                "model": "claude-opus-4-7",
-                "score": "1493",
-                "change": "+5"
-              },
-              {
-                "model": "muse-spark（Meta）",
-                "score": "1489",
-                "change": "+6"
-              },
-              {
-                "model": "gemini-3.1-pro-preview",
-                "score": "1488",
-                "change": "+4"
-              },
-              {
-                "model": "gemini-3-pro",
-                "score": "1486",
-                "change": "+4"
-              },
-              {
-                "model": "gpt-5.5-high",
-                "score": "1482",
-                "change": "+5"
-              },
-              {
-                "model": "gpt-5.4-high",
-                "score": "1479",
-                "change": "+5"
-              },
-              {
-                "model": "gemini-3.5-flash",
-                "score": "1477",
-                "change": "+7"
-              },
-              {
-                "model": "gpt-5.2-chat-latest",
-                "score": "1476",
-                "change": "+4"
-              },
-              {
-                "model": "glm-5.1",
-                "score": "1475",
-                "change": "+6"
-              },
-              {
-                "model": "gpt-5.5",
-                "score": "1474",
-                "change": "+5"
-              },
-              {
-                "model": "grok-4.20-beta1",
-                "score": "1474",
-                "change": "+5"
-              },
-              {
-                "model": "qwen3.7-max-preview",
-                "score": "1474",
-                "change": "+10"
-              },
-              {
-                "model": "gemini-3-flash",
-                "score": "1473",
-                "change": "+4"
-              },
-              {
-                "model": "grok-4.20-beta-reasoning",
-                "score": "1473",
-                "change": "+4"
-              },
-              {
-                "model": "claude-opus-4-5-thinking",
-                "score": "1473",
-                "change": "+4"
-              },
-              {
-                "model": "grok-4.20-multi-agent",
-                "score": "1472",
-                "change": "+4"
-              },
-              {
-                "model": "gpt-5.5-instant",
-                "score": "1471",
-                "change": "+5"
-              }
-            ]
-          },
-          {
-            "name": "OpenRouter",
-            "date": "2026-06-07",
-            "link": "https://openrouter.ai/rankings",
-            "rankings": [
-              {
-                "model": "DeepSeek V4 Flash",
-                "score": "3.35T tokens",
-                "change": "↑1%"
-              },
-              {
-                "model": "Hy3 preview（腾讯）",
-                "score": "2.82T tokens",
-                "change": "↑8%"
-              },
-              {
-                "model": "MiMo-V2.5（小米）",
-                "score": "2.22T tokens",
-                "change": "↑99%"
-              },
-              {
-                "model": "MiniMax M3",
-                "score": "2.04T tokens",
-                "change": "新上榜"
-              },
-              {
-                "model": "Owl Alpha（OpenRouter）",
-                "score": "1.91T tokens",
-                "change": "↑21%"
-              },
-              {
-                "model": "Claude Sonnet 4.6",
-                "score": "1.74T tokens",
-                "change": "↑10%"
-              },
-              {
-                "model": "DeepSeek V4 Pro",
-                "score": "1.55T tokens",
-                "change": "↑24%"
-              },
-              {
-                "model": "Claude Opus 4.7",
-                "score": "1.41T tokens",
-                "change": "↑40%"
-              },
-              {
-                "model": "DeepSeek V3.2",
-                "score": "1.16T tokens",
-                "change": "↑17%"
-              },
-              {
-                "model": "Claude Opus 4.8",
-                "score": "1.06T tokens",
-                "change": "↑477%"
-              }
-            ]
-          },
-          {
-            "name": "Product Hunt",
-            "date": "2026-06-06",
-            "link": "https://www.producthunt.com/",
-            "rankings": [
-              {
-                "name": "Google Search Profiles",
-                "category": "News",
-                "rank": 1,
-                "link": "https://profile.google.com"
-              },
-              {
-                "name": "Manus Shopify Connector",
-                "category": "User Experience",
-                "rank": 2,
-                "link": "https://manus.im/integrations/shopify-manus"
-              },
-              {
-                "name": "MAI-Image-2-5",
-                "category": "Design Tools",
-                "rank": 3,
-                "link": "https://microsoft.ai/models/mai-image-2-5/"
-              },
-              {
-                "name": "QWERTYS",
-                "category": "Custom Keyboards",
-                "rank": 4,
-                "link": "https://www.producthunt.com/products/qwertys"
-              },
-              {
-                "name": "Gaming services by IFTTT",
-                "category": "Android",
-                "rank": 5,
-                "link": "https://ifttt.com"
-              },
-              {
-                "name": "Navi+ Menu Builder",
-                "category": "Menu Bar Apps",
-                "rank": 6,
-                "link": "https://naviplus.io"
-              },
-              {
-                "name": "Fox Issue Tracker 4",
-                "category": "Productivity",
-                "rank": 7,
-                "link": "https://contagious.dev/fox/"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  },
   "2026-06-11": {
     "date": "2026-06-11",
     "sections": {
@@ -4754,6 +4234,612 @@ window.__SEED_CONFIRMED = {
                     ],
                     "source": "证券时报",
                     "time": "6月12日"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "LMArena",
+            "date": "2026-06-11",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "claude-fable-5",
+                "score": "1510",
+                "change": "+1"
+              },
+              {
+                "model": "claude-opus-4-6-thinking",
+                "score": "1504",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-7-thinking",
+                "score": "1502",
+                "change": "+5"
+              },
+              {
+                "model": "claude-opus-4-6",
+                "score": "1498",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-7",
+                "score": "1492",
+                "change": "+5"
+              },
+              {
+                "model": "muse-spark",
+                "score": "1487",
+                "change": "+6"
+              },
+              {
+                "model": "gemini-3.1-pro-preview",
+                "score": "1487",
+                "change": "+4"
+              },
+              {
+                "model": "gemini-3-pro",
+                "score": "1486",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-8-thinking",
+                "score": "1486",
+                "change": "+7"
+              },
+              {
+                "model": "gpt-5.5-high",
+                "score": "1481",
+                "change": "+5"
+              },
+              {
+                "model": "gpt-5.4-high",
+                "score": "1479",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-8",
+                "score": "1477",
+                "change": "+7"
+              },
+              {
+                "model": "gemini-3.5-flash",
+                "score": "1477",
+                "change": "+7"
+              },
+              {
+                "model": "gpt-5.2-chat-latest-20260210",
+                "score": "1475",
+                "change": "+4"
+              },
+              {
+                "model": "glm-5.1",
+                "score": "1475",
+                "change": "+6"
+              },
+              {
+                "model": "qwen3.7-max-preview",
+                "score": "1474",
+                "change": "+10"
+              },
+              {
+                "model": "grok-4.20-beta1",
+                "score": "1474",
+                "change": "+5"
+              },
+              {
+                "model": "gpt-5.5",
+                "score": "1474",
+                "change": "+5"
+              },
+              {
+                "model": "grok-4.20-beta0309-reasoning",
+                "score": "1474",
+                "change": "+4"
+              },
+              {
+                "model": "gemini-3-flash",
+                "score": "1473",
+                "change": "+4"
+              }
+            ]
+          },
+          {
+            "name": "OpenRouter",
+            "date": "2026-06-13",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": [
+              {
+                "model": "DeepSeek V4 Flash",
+                "score": "4.53T tokens",
+                "change": "↑46%"
+              },
+              {
+                "model": "Hy3 preview",
+                "score": "4.27T tokens",
+                "change": "↑57%"
+              },
+              {
+                "model": "MiniMax M3",
+                "score": "3.88T tokens",
+                "change": "↑133%"
+              },
+              {
+                "model": "MiMo-V2.5",
+                "score": "3.23T tokens",
+                "change": "↑41%"
+              },
+              {
+                "model": "Owl Alpha",
+                "score": "2.33T tokens",
+                "change": "↑22%"
+              },
+              {
+                "model": "Claude Sonnet 4.6",
+                "score": "2.2T tokens",
+                "change": "↑25%"
+              },
+              {
+                "model": "Claude Opus 4.7",
+                "score": "2.05T tokens",
+                "change": "↑56%"
+              },
+              {
+                "model": "DeepSeek V4 Pro",
+                "score": "2.02T tokens",
+                "change": "↑38%"
+              },
+              {
+                "model": "Claude Opus 4.8",
+                "score": "1.33T tokens",
+                "change": "↑31%"
+              },
+              {
+                "model": "DeepSeek V3.2",
+                "score": "1.17T tokens",
+                "change": "↑5%"
+              }
+            ]
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-06-12",
+            "link": "https://www.producthunt.com/",
+            "rankings": [
+              {
+                "name": "Firma.dev",
+                "category": "API",
+                "rank": 1,
+                "link": "https://firma.dev"
+              },
+              {
+                "name": "Qursor",
+                "category": "Productivity",
+                "rank": 2,
+                "link": "https://www.producthunt.com/products/qursor"
+              },
+              {
+                "name": "Pond",
+                "category": "Marketing",
+                "rank": 3,
+                "link": "https://www.producthunt.com/products/pond"
+              },
+              {
+                "name": "KOSH Money",
+                "category": "Android",
+                "rank": 4,
+                "link": "https://www.producthunt.com/products/kosh-money"
+              },
+              {
+                "name": "HyperSleep",
+                "category": "Android",
+                "rank": 5,
+                "link": "https://www.producthunt.com/products/hypersleep"
+              },
+              {
+                "name": "Bob's CLI",
+                "category": "Developer Tools",
+                "rank": 6,
+                "link": "https://www.producthunt.com/products/bobs-cli"
+              },
+              {
+                "name": "Meet Warren 3.0",
+                "category": "Fintech",
+                "rank": 7,
+                "link": "https://www.producthunt.com/products/meet-warren"
+              },
+              {
+                "name": "ShellMate",
+                "category": "Productivity",
+                "rank": 8,
+                "link": "https://www.producthunt.com/products/shellmate"
+              },
+              {
+                "name": "Insta360 Luna Ultra",
+                "category": "Hardware",
+                "rank": 9,
+                "link": "https://www.producthunt.com/products/insta360-luna-ultra"
+              },
+              {
+                "name": "Slack Data Agent",
+                "category": "Artificial Intelligence",
+                "rank": 10,
+                "link": "https://www.producthunt.com/products/slack-data-agent"
+              },
+              {
+                "name": "Tide",
+                "category": "Music",
+                "rank": 11,
+                "link": "https://www.producthunt.com/products/tide-voice"
+              },
+              {
+                "name": "CueBuddy",
+                "category": "iOS",
+                "rank": 12,
+                "link": "https://www.producthunt.com/products/cuebuddy"
+              },
+              {
+                "name": "Medicyn",
+                "category": "iOS",
+                "rank": 13,
+                "link": "https://www.producthunt.com/products/medicyn"
+              },
+              {
+                "name": "NODUS PH Radar for Product Hunt",
+                "category": "Browser Extensions",
+                "rank": 14,
+                "link": "https://www.producthunt.com/products/nodus-ph-radar"
+              },
+              {
+                "name": "LocIn AI",
+                "category": "SaaS",
+                "rank": 15,
+                "link": "https://www.producthunt.com/products/locin-ai"
+              },
+              {
+                "name": "Clutch Alarm",
+                "category": "iOS",
+                "rank": 16,
+                "link": "https://www.producthunt.com/products/clutch-alarm"
+              },
+              {
+                "name": "pleNx — Plex client for Nintendo Switch",
+                "category": "Nintendo",
+                "rank": 17,
+                "link": "https://www.producthunt.com/products/plenx"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-06-14": {
+    "date": "2026-06-14",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "color": "#10A37F",
+            "softBg": "#E6F7F2",
+            "initial": "O",
+            "news": [
+              {
+                "title": "OpenAI 遭美国多州总检察长联合调查，IPO 前再收传票",
+                "summary": "6月12日，美国多个州总检察长组成联盟对 OpenAI 展开联合调查，纽约州总检察长 James 签发传票，要求提供广告业务、用户数据、未成年人保护、模型谄媚行为及深度学习模型等核心文件。此前佛州已因 ChatGPT 安全问题起诉 OpenAI。此次调查正值 OpenAI 秘密提交 IPO 申请的关键节点。",
+                "link": "https://news.sina.com.cn/w/2026-06-13/doc-inicfkwv2974458.shtml",
+                "tags": [
+                  "监管调查",
+                  "IPO"
+                ],
+                "source": "新浪新闻",
+                "time": "6月12日"
+              }
+            ]
+          },
+          {
+            "name": "Anthropic",
+            "color": "#D4A574",
+            "softBg": "#FBF5EF",
+            "initial": "A",
+            "news": [
+              {
+                "title": "Anthropic 遵守美国政府指令，暂停 Fable 5 和 Mythos 5 全球访问",
+                "summary": "当地时间6月12日，美国商务部以国家安全为由向 Anthropic 发出出口管制令，要求禁止所有非美国公民访问 Claude Fable 5 和 Mythos 5 模型。Anthropic 全面关停两款模型，CEO 阿莫迪拒绝政府修复漏洞或下架的要求。报道称亚马逊 CEO 贾西向美财政部长反映 Fable 5 可获取网络攻击信息，成为禁令导火索。Anthropic 称此举将实质叫停所有前沿模型部署。",
+                "link": "https://www.anthropic.com/news/fable-mythos-access",
+                "tags": [
+                  "出口管制",
+                  "AI安全"
+                ],
+                "source": "Anthropic Blog",
+                "time": "当地时间6月12日"
+              }
+            ]
+          },
+          {
+            "name": "Google",
+            "color": "#4285F4",
+            "softBg": "#EDF2FD",
+            "initial": "G",
+            "news": [
+              {
+                "title": "谷歌发布 Gemini-SQL2，Text-to-SQL 准确率 80.04% 登顶",
+                "summary": "6月12日，Google Research 发布 Gemini-SQL2 模型，基于 Gemini 3.1 Pro 打造，具备 Text-to-SQL 能力，在 Spider 基准测试中准确率达 80.04%，为当前最强文本转 SQL 模型。",
+                "link": "https://www.ithome.com/0/963/855.htm",
+                "tags": [
+                  "模型发布",
+                  "数据库"
+                ],
+                "source": "IT之家",
+                "time": "6月13日消息"
+              }
+            ]
+          },
+          {
+            "name": "xAI",
+            "color": "#1DA1F2",
+            "softBg": "#E8F5FD",
+            "initial": "x",
+            "news": []
+          },
+          {
+            "name": "NVIDIA",
+            "color": "#76B900",
+            "softBg": "#F2F9E6",
+            "initial": "N",
+            "news": [
+              {
+                "title": "SpaceX IPO 后马斯克称将深化与英伟达合作，AI 卫星细节曝光",
+                "summary": "SpaceX 上市后，马斯克回应英伟达祝贺时称将把双方合作提升到新水平。SpaceX 首款 AI 计算卫星 AI1 设计细节公布：峰值计算载荷 150kW，配备液冷散热和可展开太阳能阵列，将在得州 Gigasat 工厂生产。SpaceX 还与谷歌签下每月 9.2 亿美元云服务协议。",
+                "link": "https://tech.ifeng.com/c/8tvSozt6bEu",
+                "tags": [
+                  "AI卫星",
+                  "合作"
+                ],
+                "source": "凤凰网科技",
+                "time": "6月14日"
+              }
+            ]
+          },
+          {
+            "name": "Meta",
+            "color": "#0668E1",
+            "softBg": "#E6F0FD",
+            "initial": "M",
+            "news": [
+              {
+                "title": "Meta 发布 AI 使用「限制令」：Token 支出过快将触发警报",
+                "summary": "6月13日，据 The Information 报道，Meta 向约 6000 名员工发出内部备忘录，宣布通过 AI Gateway 平台统一监控 AI 使用量，Token 支出异常增长将自动报警。此前员工出现 tokenmaxxing 现象，30 天内消耗 73.7 万亿 Token。扎克伯格承认公司 AI 转型存在组织问题。",
+                "link": "https://news.qq.com/rain/a/20260613A07XYI00",
+                "tags": [
+                  "成本控制",
+                  "AI治理"
+                ],
+                "source": "腾讯新闻",
+                "time": "6月13日"
+              }
+            ]
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "color": "#FF6A00",
+            "softBg": "#FFF0E6",
+            "initial": "阿",
+            "news": [
+              {
+                "title": "网传阿里合伙人周靖人拟离职，刚出任首席科学家仅 6 天",
+                "summary": "6月13日消息，在阿里宣布通义大模型关键人物周靖人出任首席科学家、牵头成立 AI 未来研究院仅 6 天后，网络传出其拟离职的消息。周靖人是阿里通义大模型团队核心负责人，去年刚成为合伙人。目前阿里未予置评。",
+                "link": "https://www.ithome.com/0/963/855.htm",
+                "tags": [
+                  "人事变动",
+                  "高管"
+                ],
+                "source": "IT之家",
+                "time": "6月13日"
+              }
+            ]
+          },
+          {
+            "name": "火山引擎",
+            "color": "#3370FF",
+            "softBg": "#EBF0FF",
+            "initial": "火",
+            "news": []
+          },
+          {
+            "name": "DeepSeek",
+            "color": "#4D6BFE",
+            "softBg": "#EDEFFF",
+            "initial": "D",
+            "news": []
+          },
+          {
+            "name": "腾讯",
+            "color": "#0052D9",
+            "softBg": "#E6EEFB",
+            "initial": "腾",
+            "news": []
+          },
+          {
+            "name": "小米",
+            "color": "#FF6900",
+            "softBg": "#FFF0E6",
+            "initial": "小",
+            "news": []
+          },
+          {
+            "name": "智谱AI",
+            "color": "#6C5CE7",
+            "softBg": "#F0EEFD",
+            "initial": "智",
+            "news": [
+              {
+                "title": "智谱 GLM-5.2 全量开放，下周正式开源",
+                "summary": "6月13日，智谱宣布迄今能力最强的开源模型 GLM-5.2 面向 GLM Coding Plan 全量用户开放，支持真正可用的 1M 上下文窗口，长程 Coding 任务能力领先。模型将于下周正式开源，采用 MIT 协议。此前 Anthropic Fable 5 被美国管制，智谱强调前沿智能不应只属于少数人。",
+                "link": "https://tech.ifeng.com/c/8tvKNgg4g7A",
+                "tags": [
+                  "开源",
+                  "大模型"
+                ],
+                "source": "凤凰网科技",
+                "time": "6月13日"
+              }
+            ]
+          },
+          {
+            "name": "月之暗面",
+            "color": "#8B5CF6",
+            "softBg": "#F3EEFD",
+            "initial": "月",
+            "news": []
+          },
+          {
+            "name": "华为",
+            "color": "#CF0A2C",
+            "softBg": "#FDE8EC",
+            "initial": "华",
+            "news": [
+              {
+                "title": "华为云与 MiniMax M3 实现开源首发适配，基于昇腾算力",
+                "summary": "6月13日，华为云宣布其 CloudMatrix 智算云服务已完成对原生多模态旗舰模型 MiniMax M3 的开源首发适配，基于昇腾算力底座提供 Tokens 支持。M3 在编程、智能体及多模态任务上表现卓越，在多个评测中超越 GPT-5.5、Gemini 3.1 Pro。",
+                "link": "https://www.ithome.com/0/963/855.htm",
+                "tags": [
+                  "昇腾",
+                  "模型适配"
+                ],
+                "source": "IT之家",
+                "time": "6月13日"
+              }
+            ]
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "其他厂商",
+            "cards": [
+              {
+                "title": "苹果",
+                "news": [
+                  {
+                    "title": "苹果高管介绍 iOS 27 照片 3 大 AI 功能",
+                    "summary": "6月13日消息，苹果两位高管在最新采访中介绍 iOS 27 版照片应用引入的 3 项 AI 功能：智能修图、对象消除、AI 场景识别，让普通用户也能享受专业级修图体验。此前苹果已在 WWDC 2026 发布新一代 Siri AI。",
+                    "link": "https://www.ithome.com/0/963/773.htm",
+                    "tags": [
+                      "AI修图",
+                      "iOS"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月13日"
+                  }
+                ]
+              },
+              {
+                "title": "科大讯飞",
+                "news": [
+                  {
+                    "title": "科大讯飞发布星火多模态大模型 X2-VL，基于全国产算力训练",
+                    "summary": "6月13日，科大讯飞副总裁孙东平介绍，星火多模态大模型 X2-VL 是当前唯一基于全国产算力训练的主流大模型，采用专属 MoE 架构，在视觉语言任务上表现突出。",
+                    "link": "https://www.ithome.com/0/963/855.htm",
+                    "tags": [
+                      "多模态",
+                      "国产算力"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月13日"
+                  }
+                ]
+              },
+              {
+                "title": "摩尔线程",
+                "news": [
+                  {
+                    "title": "摩尔线程 MTT S5000 完成 MiniMax M3 Day-0 适配",
+                    "summary": "6月13日，摩尔线程宣布其旗舰 AI 训推一体 GPU MTT S5000 完成对 MiniMax M3 模型的 Day-0 适配，凭借 1000 TFLOPS 算力、80GB 大显存及原生 FP8 加速，为 M3 超长上下文与 Agentic 能力提供硬件支撑。",
+                    "link": "https://www.ithome.com/0/963/855.htm",
+                    "tags": [
+                      "国产GPU",
+                      "模型适配"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月13日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "自动驾驶",
+            "cards": []
+          },
+          {
+            "name": "具身智能",
+            "cards": []
+          },
+          {
+            "name": "AI出海",
+            "cards": []
+          },
+          {
+            "name": "投资资讯",
+            "cards": [
+              {
+                "title": "Mistral AI",
+                "news": [
+                  {
+                    "title": "Mistral AI 洽谈以 200 亿欧元估值进行 D 轮融资",
+                    "summary": "6月13日消息，据外媒报道，法国 AI 独角兽 Mistral AI 正洽谈以 200 亿欧元估值进行 D 轮融资。该公司在 2025 年 9 月 C 轮中以 100 亿欧元投前估值筹集 17 亿欧元，估值在不到一年内翻倍，反映欧洲 AI 赛道持续升温。",
+                    "link": "https://www.ithome.com/0/963/855.htm",
+                    "tags": [
+                      "融资",
+                      "欧洲AI"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月13日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "行业趋势&观点",
+            "cards": [
+              {
+                "title": "AI监管与安全",
+                "news": [
+                  {
+                    "title": "国家安全部发布「AI 中转站」风险提示",
+                    "summary": "6月13日，国家安全部发布专项风险提示，警示用户警惕「AI 中转站」泄露个人数据风险。用户通过第三方代理服务使用境外 AI 工具时，输入的文本、图片、文件可能被中转服务器记录存储，存在严重隐私安全隐患。",
+                    "link": "https://www.ithome.com/0/963/855.htm",
+                    "tags": [
+                      "数据安全",
+                      "隐私"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月13日"
+                  },
+                  {
+                    "title": "毕马威 AI 行业报告被指「AI 写的」：充斥幻觉",
+                    "summary": "6月13日消息，知名会计师事务所毕马威发布的一份 AI 行业报告被调查指称由 AI 生成。报告共 45 条引文中仅 5 条准确对应真实来源，28 条存在改写或虚构内容，引发对 AI 生成内容进入专业研究领域的担忧。",
+                    "link": "https://www.ithome.com/0/963/855.htm",
+                    "tags": [
+                      "AI幻觉",
+                      "内容质量"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月13日"
                   }
                 ]
               }

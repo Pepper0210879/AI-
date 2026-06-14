@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-06-13",
+  "date": "2026-06-14",
   "sections": {
     "overseas": {
       "vendors": [
@@ -10,36 +10,14 @@ window.__RAW_DATA = {
           "initial": "O",
           "news": [
             {
-              "title": "OpenAI 收购云端平台 Ona，强化 Codex 企业级能力",
-              "summary": "6月12日，OpenAI 宣布收购德国云环境初创公司 Ona（前身为 Gitpod），交易金额未披露。Ona 提供安全的预配置云端运行环境，其「客户自控执行」技术可让 AI 代理在客户自有云环境中安全运行。收购完成后 Ona 全员并入 Codex 团队，旨在让 Codex 支持数小时甚至数天的长时任务，满足企业安全与合规需求。Codex 周活跃用户已超 500 万，年内增长 400%。",
-              "link": "https://www.thepaper.cn/newsDetail_forward_33365217",
+              "title": "OpenAI 遭美国多州总检察长联合调查，IPO 前再收传票",
+              "summary": "6月12日，美国多个州总检察长组成联盟对 OpenAI 展开联合调查，纽约州总检察长 James 签发传票，要求提供广告业务、用户数据、未成年人保护、模型谄媚行为及深度学习模型等核心文件。此前佛州已因 ChatGPT 安全问题起诉 OpenAI。此次调查正值 OpenAI 秘密提交 IPO 申请的关键节点。",
+              "link": "https://news.sina.com.cn/w/2026-06-13/doc-inicfkwv2974458.shtml",
               "tags": [
-                "收购",
-                "AI编程"
+                "监管调查",
+                "IPO"
               ],
-              "source": "澎湃新闻",
-              "time": "6月12日"
-            },
-            {
-              "title": "OpenAI 遭起诉：ChatGPT 设计缺陷被指致用户自杀",
-              "summary": "6月11日，一名加拿大女子在美国加州对 OpenAI 及其 CEO 奥尔特曼提起诉讼，称 ChatGPT 的设计问题导致其 24 岁女儿爱丽丝自杀身亡。起诉书称，爱丽丝在约一年半内向 ChatGPT 十余次表露自杀想法，但安全系统从未启动或通知家人。OpenAI 回应称事件令人心碎，正加强敏感情况应对能力。据悉 OpenAI 正面临 18 起类似诉讼。",
-              "link": "https://news.cnr.cn/sq/20260612/t20260612_527658239.shtml",
-              "tags": [
-                "AI安全",
-                "诉讼"
-              ],
-              "source": "央视新闻",
-              "time": "6月11日"
-            },
-            {
-              "title": "OpenAI Codex 上线存备重置功能，用户可自主决定额度刷新时机",
-              "summary": "6月12日，OpenAI 为 Codex 上线「存备重置」功能，付费用户可将速率限制的重置机会像优惠券一样存入账户，在需要时手动触发，有效期 30 天。此前 Codex 按固定周期自动重置额度，用户无法干预时机。此次更新面向 Go、Plus、Pro 及 Business 用户，每人赠送一次免费重置机会。",
-              "link": "https://m.163.com/exclusive/article/KV89L8A000097U7T.html",
-              "tags": [
-                "产品更新",
-                "开发者工具"
-              ],
-              "source": "网易科技",
+              "source": "新浪新闻",
               "time": "6月12日"
             }
           ]
@@ -51,15 +29,15 @@ window.__RAW_DATA = {
           "initial": "A",
           "news": [
             {
-              "title": "Anthropic 签署超 1GW 数据中心租约，寻求谷歌财务担保",
-              "summary": "6月12日消息，据外媒报道，Anthropic 已签署十余份美国数据中心初步租约，总容量超 1GW，长期目标锁定至少 10GW 自有算力。谷歌母公司 Alphabet 同意为租约提供财务担保，协助 Anthropic 获得约 350 亿美元融资。博通参与联合设计芯片，阿波罗和黑石集团提供融资。此举显示 AI 企业正加速从租用云服务转向自建算力基础设施。",
-              "link": "https://www.163.com/dy/article/KV76A88P0511B8LM.html",
+              "title": "Anthropic 遵守美国政府指令，暂停 Fable 5 和 Mythos 5 全球访问",
+              "summary": "当地时间6月12日，美国商务部以国家安全为由向 Anthropic 发出出口管制令，要求禁止所有非美国公民访问 Claude Fable 5 和 Mythos 5 模型。Anthropic 全面关停两款模型，CEO 阿莫迪拒绝政府修复漏洞或下架的要求。报道称亚马逊 CEO 贾西向美财政部长反映 Fable 5 可获取网络攻击信息，成为禁令导火索。Anthropic 称此举将实质叫停所有前沿模型部署。",
+              "link": "https://www.anthropic.com/news/fable-mythos-access",
               "tags": [
-                "数据中心",
-                "基础设施"
+                "出口管制",
+                "AI安全"
               ],
-              "source": "网易科技",
-              "time": "6月12日消息"
+              "source": "Anthropic Blog",
+              "time": "当地时间6月12日"
             }
           ]
         },
@@ -70,15 +48,15 @@ window.__RAW_DATA = {
           "initial": "G",
           "news": [
             {
-              "title": "谷歌追加 5000 万美元培训美国技工，应对 AI 基建用工荒",
-              "summary": "当地时间6月11日，Alphabet CEO 皮查伊宣布谷歌将追加投资 5000 万美元，帮助美国 20 多个州的 30 多万美国人接受技术行业培训，覆盖水电、暖通、电气安装、焊接等工种。自 2022 年以来，谷歌已在全球投入超 10 亿美元用于 AI 和数字技能培训，帮助超 1 亿人。此前 Meta 也公布了 1.15 亿美元劳动力发展计划。",
-              "link": "https://www.guandian.cn/article/20260612/566817.html",
+              "title": "谷歌发布 Gemini-SQL2，Text-to-SQL 准确率 80.04% 登顶",
+              "summary": "6月12日，Google Research 发布 Gemini-SQL2 模型，基于 Gemini 3.1 Pro 打造，具备 Text-to-SQL 能力，在 Spider 基准测试中准确率达 80.04%，为当前最强文本转 SQL 模型。",
+              "link": "https://www.ithome.com/0/963/820.htm",
               "tags": [
-                "AI基础设施",
-                "人才培养"
+                "模型发布",
+                "数据库"
               ],
-              "source": "观点网",
-              "time": "当地时间6月11日"
+              "source": "IT之家",
+              "time": "6月13日消息"
             }
           ]
         },
@@ -96,15 +74,15 @@ window.__RAW_DATA = {
           "initial": "N",
           "news": [
             {
-              "title": "英伟达向中国客户推销 Vera CPU，最快 8 月上市",
-              "summary": "6月12日，据路透社报道，英伟达已开始向中国客户推介下一代数据中心处理器 Vera。Vera 是英伟达首款专为智能体 AI 设计的独立 CPU，基于 Arm 架构，运行速度可达竞品 1.8 倍，不受美国 GPU 出口禁令限制。消息人士称阿里巴巴和字节跳动等云厂商正与其合作部署，最快 8 月上市，客户现已可下单。黄仁勋预计 Vera 将成为下一个数十亿美元业务。",
-              "link": "https://www.zaobao.com/news/china/story20260612-9196922",
+              "title": "SpaceX IPO 后马斯克称将深化与英伟达合作，AI 卫星细节曝光",
+              "summary": "SpaceX 上市后，马斯克回应英伟达祝贺时称将把双方合作提升到新水平。SpaceX 首款 AI 计算卫星 AI1 设计细节公布：峰值计算载荷 150kW，配备液冷散热和可展开太阳能阵列，将在得州 Gigasat 工厂生产。SpaceX 还与谷歌签下每月 9.2 亿美元云服务协议。",
+              "link": "https://tech.ifeng.com/c/8tvSozt6bEu",
               "tags": [
-                "数据中心",
-                "CPU"
+                "AI卫星",
+                "合作"
               ],
-              "source": "联合早报",
-              "time": "6月12日"
+              "source": "凤凰网科技",
+              "time": "6月14日"
             }
           ]
         },
@@ -115,15 +93,15 @@ window.__RAW_DATA = {
           "initial": "M",
           "news": [
             {
-              "title": "扎克伯格：推动 AI 进步不需要千人规模，十几人团队就够了",
-              "summary": "6月12日，Meta CEO 扎克伯格在公开表态中称，AI 领域真正的突破不一定需要庞大研究团队。「要推动 AI 进步，并不需要几百名甚至几千名 AI 研究人员。一个由十几人或二十几人组成的强大团队，就真的可以取得进展。」此番言论正值各大科技公司竞相扩充 AI 团队之际。",
-              "link": "https://www.ithome.com/0/963/723.htm",
+              "title": "Meta 发布 AI 使用「限制令」：Token 支出过快将触发警报",
+              "summary": "6月13日，据 The Information 报道，Meta 向约 6000 名员工发出内部备忘录，宣布通过 AI Gateway 平台统一监控 AI 使用量，Token 支出异常增长将自动报警。此前员工出现 tokenmaxxing 现象，30 天内消耗 73.7 万亿 Token。扎克伯格承认公司 AI 转型存在组织问题。",
+              "link": "https://news.qq.com/rain/a/20260613A07XYI00",
               "tags": [
-                "AI团队",
-                "研发模式"
+                "成本控制",
+                "AI治理"
               ],
-              "source": "IT之家",
-              "time": "6月12日"
+              "source": "腾讯新闻",
+              "time": "6月13日"
             }
           ]
         }
@@ -136,26 +114,26 @@ window.__RAW_DATA = {
           "color": "#FF6A00",
           "softBg": "#FFF0E6",
           "initial": "阿",
-          "news": []
+          "news": [
+            {
+              "title": "网传阿里合伙人周靖人拟离职，刚出任首席科学家仅 6 天",
+              "summary": "6月13日消息，在阿里宣布通义大模型关键人物周靖人出任首席科学家、牵头成立 AI 未来研究院仅 6 天后，网络传出其拟离职的消息。周靖人是阿里通义大模型团队核心负责人，去年刚成为合伙人。目前阿里未予置评。",
+              "link": "https://m.ithome.com/html/963771.htm",
+              "tags": [
+                "人事变动",
+                "高管"
+              ],
+              "source": "IT之家",
+              "time": "6月13日"
+            }
+          ]
         },
         {
           "name": "火山引擎",
           "color": "#3370FF",
           "softBg": "#EBF0FF",
           "initial": "火",
-          "news": [
-            {
-              "title": "豆包上线「任务模式」，支持定时执行与代码运行",
-              "summary": "6月12日，字节豆包正式上线「任务模式」，定位为智能体（Agent）能力，可自主完成从任务拆解、步骤规划、工具调用到结果交付的全链路执行，支持一键生成 PPT、数据可视化分析、定时任务、代码运行等功能。同时原「思考模式」升级为「专家模式」，调用豆包大模型 2.0 Pro，侧重深度推理。App 界面切换为「快速/专家/任务」三种模式。",
-              "link": "https://news.qq.com/rain/a/20260613A0183V00",
-              "tags": [
-                "Agent",
-                "产品更新"
-              ],
-              "source": "腾讯新闻",
-              "time": "6月12日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "DeepSeek",
@@ -169,75 +147,40 @@ window.__RAW_DATA = {
           "color": "#0052D9",
           "softBg": "#E6EEFB",
           "initial": "腾",
-          "news": [
-            {
-              "title": "腾讯云下调 MiniMax-M3 与 Hy-MT2-Pro 模型价格",
-              "summary": "6月12日，腾讯云公告大模型服务平台 TokenHub 将下调两款模型价格。Hy-MT2-Pro 模型即日起输入价格降 66.67%、输出价格降 55.56%；MiniMax-M3 模型自 6 月 15 日起输入、输出及缓存命中费用均降 50%。TokenHub 日 Token 消耗量已突破 5 万亿，上线 3 个月保持每月翻倍增长。",
-              "link": "https://www.cls.cn/detail/2398417",
-              "tags": [
-                "模型价格",
-                "云服务"
-              ],
-              "source": "财联社",
-              "time": "6月12日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "小米",
           "color": "#FF6900",
           "softBg": "#FFF0E6",
           "initial": "小",
-          "news": [
-            {
-              "title": "罗福莉：MiMo Code 由 5 人用 14 天 vibe-coding 完成",
-              "summary": "6月12日，小米 MiMo 大模型团队负责人罗福莉在智源大会上披露，日前开源的小米 AI 编程工具 MiMo Code 由 5 人耗时 14 天以 vibe-coding 方式完成开发。MiMo Code 基于 OpenCode 二次开发，支持持久记忆、无限上下文和语音交互，内置限时免费的 MiMo-V2.5 多模态模型。开源后已获超 5.1k stars，但也积累超 200 条 Issues。",
-              "link": "https://36kr.com/p/3849833227572226",
-              "tags": [
-                "AI编程",
-                "开源"
-              ],
-              "source": "36氪",
-              "time": "6月12日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "智谱AI",
           "color": "#6C5CE7",
           "softBg": "#F0EEFD",
           "initial": "智",
-          "news": []
+          "news": [
+            {
+              "title": "智谱 GLM-5.2 全量开放，下周正式开源",
+              "summary": "6月13日，智谱宣布迄今能力最强的开源模型 GLM-5.2 面向 GLM Coding Plan 全量用户开放，支持真正可用的 1M 上下文窗口，长程 Coding 任务能力领先。模型将于下周正式开源，采用 MIT 协议。此前 Anthropic Fable 5 被美国管制，智谱强调前沿智能不应只属于少数人。",
+              "link": "https://tech.ifeng.com/c/8tvKNgg4g7A",
+              "tags": [
+                "开源",
+                "大模型"
+              ],
+              "source": "凤凰网科技",
+              "time": "6月13日"
+            }
+          ]
         },
         {
           "name": "月之暗面",
           "color": "#8B5CF6",
           "softBg": "#F3EEFD",
           "initial": "月",
-          "news": [
-            {
-              "title": "Kimi 发布并开源 K2.7 Code 编程模型，token 消耗减少 30%",
-              "summary": "6月12日，月之暗面 Kimi 发布并开源 K2.7 Code 编程模型。相比 K2.6，新模型在长上下文编程场景的指令遵循能力显著提升，长程编程任务中平均 token 消耗减少 30%，过度思考倾向大幅改善。在 Kimi Code Bench v2 提升 21.8%，MLS Bench Lite 提升 31.5%。标准版定价与 K2.6 一致，6 月 15 日将推出 5-6 倍速高速版。",
-              "link": "https://tech.ifeng.com/c/8ttw74x5N2S",
-              "tags": [
-                "编程模型",
-                "开源"
-              ],
-              "source": "凤凰网科技",
-              "time": "6月12日"
-            },
-            {
-              "title": "Kimi 推出全球首张 AI 原生信用卡，消费积分可兑换算力",
-              "summary": "6月12日，Kimi 宣布与一家大型国有银行及国际卡组织合作，推出全球首张 AI 原生信用卡「Kimi 信用卡」并开放预约。持卡人每笔消费可转化为 AI 算力额度，直接兑换 Agent 使用额度和高级功能权限，也可优先内测最新模型。该卡将于 7 月正式发行，探索 Token 与信用卡积分相互流通的全新金融范式。",
-              "link": "https://finance.eastmoney.com/a/202606123770011716.html",
-              "tags": [
-                "商业化",
-                "金融创新"
-              ],
-              "source": "东方财富",
-              "time": "6月12日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "华为",
@@ -246,28 +189,15 @@ window.__RAW_DATA = {
           "initial": "华",
           "news": [
             {
-              "title": "余承东：要带盘古大模型从中国第一走向世界第一，openPangu 2.0 发布",
-              "summary": "6月12日，在华为开发者大会 HDC 2026 上，余承东宣布重新挂帅大模型团队，目标从中国第一走向世界第一。华为发布开源盘古 openPangu 2.0，Pro 版 505B 参数（激活 18B），Flash 版 92B 参数（激活 6B），支持 512K 上下文，深度适配昇腾算力。6 月 30 日起分批开源 7 大核心组件。余承东还预告今秋将推出 30B 端侧盘古大模型。",
-              "link": "https://news.qq.com/rain/a/20260612A06Q2X00",
+              "title": "华为云与 MiniMax M3 实现开源首发适配，基于昇腾算力",
+              "summary": "6月13日，华为云宣布其 CloudMatrix 智算云服务已完成对原生多模态旗舰模型 MiniMax M3 的开源首发适配，基于昇腾算力底座提供 Tokens 支持。M3 在编程、智能体及多模态任务上表现卓越，在多个评测中超越 GPT-5.5、Gemini 3.1 Pro。",
+              "link": "https://m.ithome.com/html/963855.htm",
               "tags": [
-                "大模型",
-                "开源",
-                "HDC2026"
+                "昇腾",
+                "模型适配"
               ],
-              "source": "腾讯新闻",
-              "time": "6月12日"
-            },
-            {
-              "title": "华为 AI 眼镜 × 小艺看世界官宣 8 月上线，辅助视障用户",
-              "summary": "6月12日，在 HDC 2026 上，华为终端 BG CEO 何刚宣布华为 AI 眼镜与小艺看世界深度联动，可辅助视障用户探索世界，将于 8 月正式上线。同时鸿蒙智能体框架升级至 2.0，小艺智慧大脑升级为 Agentic 自演进架构，系统能力全面 Skill 化，小艺日活用户达 1.8 亿。",
-              "link": "https://tech.ifeng.com/c/8ttkkNcgiWi",
-              "tags": [
-                "AI眼镜",
-                "无障碍",
-                "HDC2026"
-              ],
-              "source": "凤凰网科技",
-              "time": "6月12日"
+              "source": "IT之家",
+              "time": "6月13日"
             }
           ]
         }
@@ -282,47 +212,47 @@ window.__RAW_DATA = {
               "title": "苹果",
               "news": [
                 {
-                  "title": "苹果高管明确 Siri AI 定位：实用工具，拒绝情感伴侣路线",
-                  "summary": "6月12日，苹果软件工程高级副总裁 Federighi 与营销主管 Joswiak 在 WWDC 2026 采访中明确 Siri AI 定位。Federighi 表示 Siri 是实用工具而非情感伴侣，批评市面上部分 AI 产品通过迎合用户建立情感黏性，强调苹果「隐私先行」原则——用户数据保留在本地，苹果无法获取。Joswiak 称苹果不追求「为了 AI 而做 AI」，而是让技术无感融入产品。",
-                  "link": "https://cn.technode.com/post/2026-06-12/apple-the-new-siri-is-100-uninterested-in-dating-you/",
+                  "title": "苹果高管介绍 iOS 27 照片 3 大 AI 功能",
+                  "summary": "6月13日消息，苹果两位高管在最新采访中介绍 iOS 27 版照片应用引入的 3 项 AI 功能：智能修图、对象消除、AI 场景识别，让普通用户也能享受专业级修图体验。此前苹果已在 WWDC 2026 发布新一代 Siri AI。",
+                  "link": "https://www.ithome.com/0/963/773.htm",
                   "tags": [
-                    "AI伦理",
-                    "产品哲学"
+                    "AI修图",
+                    "iOS"
                   ],
-                  "source": "动点科技",
-                  "time": "6月12日"
+                  "source": "IT之家",
+                  "time": "6月13日"
                 }
               ]
             },
             {
-              "title": "SK海力士",
+              "title": "科大讯飞",
               "news": [
                 {
-                  "title": "SK 海力士 CEO：正评估引入 ChatGPT 等外部 AI 服务",
-                  "summary": "6月11日，SK 海力士 CEO 郭鲁正在内部会议上表示，公司正评估引入 Microsoft 365 Copilot 和 ChatGPT 等外部 AI 服务，计划先在非核心技术领域试点，逐步扩大应用范围。郭鲁正强调需在保护工业技术与扩大 AI 应用间取得平衡，称「体验 AI、改变工作方式将成为 SK 海力士新的竞争力」。此举紧随三星电子全面引入外部 AI。",
-                  "link": "https://fund.eastmoney.com/a/202606123768979971.html",
+                  "title": "科大讯飞发布星火多模态大模型 X2-VL，基于全国产算力训练",
+                  "summary": "6月13日，科大讯飞副总裁孙东平介绍，星火多模态大模型 X2-VL 是当前唯一基于全国产算力训练的主流大模型，采用专属 MoE 架构，在视觉语言任务上表现突出。",
+                  "link": "https://m.ithome.com/html/963855.htm",
                   "tags": [
-                    "企业AI",
-                    "数字化转型"
+                    "多模态",
+                    "国产算力"
                   ],
-                  "source": "东方财富",
-                  "time": "6月11日"
+                  "source": "IT之家",
+                  "time": "6月13日"
                 }
               ]
             },
             {
-              "title": "钉钉",
+              "title": "摩尔线程",
               "news": [
                 {
-                  "title": "钉钉发布 DingTalk A1 豆蔻医生版，售价 999 元",
-                  "summary": "6月12日，钉钉正式发布 DingTalk A1 豆蔻医生版，售价 999 元，6 月 15 日开售。该产品深度融合豆蔻医疗大模型（122B/32B 参数）及豆蔻医生超级助理，内置 4000 万篇权威医学文献，覆盖门诊问诊、住院查房、多学科会诊等场景，提供语音记录、临床决策辅助、医学文献检索等功能。豆蔻大模型已在超 1000 家医疗机构应用。",
-                  "link": "https://w.geekpark.net/news/365848",
+                  "title": "摩尔线程 MTT S5000 完成 MiniMax M3 Day-0 适配",
+                  "summary": "6月13日，摩尔线程宣布其旗舰 AI 训推一体 GPU MTT S5000 完成对 MiniMax M3 模型的 Day-0 适配，凭借 1000 TFLOPS 算力、80GB 大显存及原生 FP8 加速，为 M3 超长上下文与 Agentic 能力提供硬件支撑。",
+                  "link": "https://m.ithome.com/html/963855.htm",
                   "tags": [
-                    "AI硬件",
-                    "医疗"
+                    "国产GPU",
+                    "模型适配"
                   ],
-                  "source": "极客公园",
-                  "time": "6月12日"
+                  "source": "IT之家",
+                  "time": "6月13日"
                 }
               ]
             }
@@ -334,24 +264,7 @@ window.__RAW_DATA = {
         },
         {
           "name": "具身智能",
-          "cards": [
-            {
-              "title": "晶核能源",
-              "news": [
-                {
-                  "title": "晶核能源发布全球首款机器人专用固态电池，能量密度超 450Wh/kg",
-                  "summary": "6月12日消息，在上海 FINE 2026 未来产业新材料博览会上，追觅科技生态企业晶核能源发布全球首款专为机器人场景定制的高性能固态电池「星空晶核」，能量密度突破 450Wh/kg，单体容量约 60Ah，采用硫化物固态电解质技术路线。该产品获「2026 固态电池领军金球奖」，计划 2026 年小批量交付，2027 年规模化量产。",
-                  "link": "https://www.c114.net.cn/chipnews/89958.html",
-                  "tags": [
-                    "固态电池",
-                    "机器人"
-                  ],
-                  "source": "C114通信网",
-                  "time": "6月12日消息"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "AI出海",
@@ -361,50 +274,18 @@ window.__RAW_DATA = {
           "name": "投资资讯",
           "cards": [
             {
-              "title": "Genspark",
+              "title": "Mistral AI",
               "news": [
                 {
-                  "title": "Genspark 获 1 亿美元 B 轮追加融资，估值达 26 亿美元",
-                  "summary": "6月12日，AI 智能体办公初创公司 Genspark 宣布完成 1 亿美元 B 轮追加融资，投后估值 26 亿美元，较三个月前飙升 63%。本轮由既有投资方 Sozo Ventures、UpHonest Capital 和韩国未来资产参投，累计融资超 6.45 亿美元。Genspark 由前百度小度 CEO 景鲲等创立，基于多智能体协作架构打造 AI 原生搜索引擎与自动化工作流。",
-                  "link": "https://news.qq.com/rain/a/20260612A03YBR00",
+                  "title": "Mistral AI 洽谈以 200 亿欧元估值进行 D 轮融资",
+                  "summary": "6月13日消息，据外媒报道，法国 AI 独角兽 Mistral AI 正洽谈以 200 亿欧元估值进行 D 轮融资。该公司在 2025 年 9 月 C 轮中以 100 亿欧元投前估值筹集 17 亿欧元，估值在不到一年内翻倍，反映欧洲 AI 赛道持续升温。",
+                  "link": "https://m.ithome.com/html/963855.htm",
                   "tags": [
                     "融资",
-                    "AI办公"
+                    "欧洲AI"
                   ],
-                  "source": "腾讯新闻",
-                  "time": "6月12日"
-                }
-              ]
-            },
-            {
-              "title": "Theker",
-              "news": [
-                {
-                  "title": "西班牙 AI 机器人企业 Theker 获 8500 万美元融资，LVMH 和三星参投",
-                  "summary": "6月11日，巴塞罗那 AI 机器人企业 Theker 完成 8500 万美元 A 轮融资，由 CRV 领投，三星、LVMH 旗下 Aglaé Ventures、Inditex 等参投，为欧洲机器人领域史上最大 A 轮融资。Theker 研发模块化可重构工业机器人，可灵活更换手臂和结构适配分拣、打包、仓储等场景，无需专项训练。公司计划向重工业制造领域拓展。",
-                  "link": "https://www.sohu.com/a/1035381237_122014422",
-                  "tags": [
-                    "融资",
-                    "机器人"
-                  ],
-                  "source": "至顶网",
-                  "time": "6月11日"
-                }
-              ]
-            },
-            {
-              "title": "众擎机器人",
-              "news": [
-                {
-                  "title": "人形机器人公司众擎机器人秘密提交香港 IPO 申请",
-                  "summary": "6月12日消息，据彭博社报道，深圳人形机器人初创公司众擎机器人（EngineAI）已以保密方式提交香港 IPO 申请，由中金公司和中信证券联席保荐，估值超 100 亿元人民币。众擎成立于 2023 年，旗舰产品 T800 人形机器人售价 18 万元起，2025 年全球人形机器人出货量排名第六。此前公司于 4 月完成约 2 亿美元 B 轮融资。",
-                  "link": "https://finance.sina.cn/2026-06-12/detail-iniccnfq5066620.d.html",
-                  "tags": [
-                    "IPO",
-                    "人形机器人"
-                  ],
-                  "source": "新浪财经",
-                  "time": "6月12日消息"
+                  "source": "IT之家",
+                  "time": "6月13日"
                 }
               ]
             }
@@ -414,34 +295,29 @@ window.__RAW_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "网信办",
+              "title": "AI监管与安全",
               "news": [
                 {
-                  "title": "中央网信办开设「涉 AI 应用乱象举报专区」，受理 14 类问题",
-                  "summary": "6月12日，中央网信办举报中心宣布自 2026 年 6 月起开设「涉 AI 应用乱象举报专区」，专项受理公众举报。受理范围涵盖生成合成内容标识落实不到位、制作发布虚假不实信息、传播暴力低俗内容等 14 类问题，标志着中国 AI 内容治理从行业自律向公众监督迈出重要一步。",
-                  "link": "http://www.xinhuanet.com.cn/politics/20260612/f16e045f2a5040e7aae1ba0ad593214f/c.html",
+                  "title": "国家安全部发布「AI 中转站」风险提示",
+                  "summary": "6月13日，国家安全部发布专项风险提示，警示用户警惕「AI 中转站」泄露个人数据风险。用户通过第三方代理服务使用境外 AI 工具时，输入的文本、图片、文件可能被中转服务器记录存储，存在严重隐私安全隐患。",
+                  "link": "https://m.ithome.com/html/963800.htm",
                   "tags": [
-                    "AI治理",
-                    "内容安全"
+                    "数据安全",
+                    "隐私"
                   ],
-                  "source": "新华网",
-                  "time": "6月12日"
-                }
-              ]
-            },
-            {
-              "title": "芯片电容突破",
-              "news": [
+                  "source": "IT之家",
+                  "time": "6月13日"
+                },
                 {
-                  "title": "我国成功研制三维多层片上电容，可直接用于 AI/GPU 芯片",
-                  "summary": "6月12日，湖北江城实验室宣布成功研制三维多层片上电容，电容密度突破每平方毫米 1000 纳法。该技术将传统平面电容改造为立体多孔结构，可直接集成在芯片内部或邻近硅基板，为 AI 芯片提供纳秒级大电流瞬态响应，有效抑制电压波动。目前技术正开展工艺流片及小批量试产，将在先进封装领域实现规模化应用。",
-                  "link": "https://tech.ifeng.com/c/8ttzYdaLXYW",
+                  "title": "毕马威 AI 行业报告被指「AI 写的」：充斥幻觉",
+                  "summary": "6月13日消息，知名会计师事务所毕马威发布的一份 AI 行业报告被调查指称由 AI 生成。报告共 45 条引文中仅 5 条准确对应真实来源，28 条存在改写或虚构内容，引发对 AI 生成内容进入专业研究领域的担忧。",
+                  "link": "https://m.ithome.com/html/963855.htm",
                   "tags": [
-                    "芯片技术",
-                    "半导体"
+                    "AI幻觉",
+                    "内容质量"
                   ],
-                  "source": "证券时报",
-                  "time": "6月12日"
+                  "source": "IT之家",
+                  "time": "6月13日"
                 }
               ]
             }
