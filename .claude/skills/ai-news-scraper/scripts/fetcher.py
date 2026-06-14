@@ -87,6 +87,64 @@ def scrape_page(browser, url, wait_sec=3):
         context.close()
 
 
+def _parse_geekpark_articles(browser, page_url):
+    """
+    极客公园专用解析：用 JS selector 直接提取文章标题、URL 和日期。
+    解决 inner_text 中日期行与文章标题分离导致漏读当天文章的问题。
+    滚动页面触发懒加载，确保获取最新文章。
+    返回: [{"title": "...", "url": "...", "date": "2026/06/14"}, ...]
+    """
+    page = browser.new_page()
+    try:
+        page.goto(page_url, wait_until="load", timeout=45000)
+        page.wait_for_timeout(3000)
+        # 持续滚动到底部，触发全部懒加载
+        prev_count = 0
+        for _ in range(10):
+            page.evaluate("window.scrollBy(0, 1200)")
+            page.wait_for_timeout(800)
+            cur = page.evaluate("() => document.querySelectorAll('a[href*=\"/news/\"]').length")
+            if cur == prev_count:
+                break  # 没有新内容加载了
+            prev_count = cur
+        page.wait_for_timeout(2000)
+        articles = page.evaluate("""() => {
+            const results = [];
+            document.querySelectorAll('a[href*="/news/"]').forEach(a => {
+                const text = (a.innerText || '').trim();
+                // 匹配「极客早知道」文章（标题通常 >30 字）
+                if (text.includes('极客早知道') && text.length > 30) {
+                    const href = a.href;
+                    // 在父级及相邻 DOM 中查找日期
+                    let el = a;
+                    let date = '';
+                    for (let i = 0; i < 6; i++) {
+                        if (el) {
+                            const m = el.textContent.match(/20\\d{2}[\\/]\\d{2}[\\/]\\d{2}/);
+                            if (m) { date = m[0]; break; }
+                            el = el.parentElement;
+                        }
+                    }
+                    results.push({title: text.slice(0, 200), url: href, date: date});
+                }
+            });
+            // 去重 + 按日期倒序
+            const seen = new Set();
+            return results.filter(r => {
+                const key = r.url;
+                if (seen.has(key)) return false;
+                seen.add(key);
+                return true;
+            }).sort((a,b) => b.date.localeCompare(a.date)).slice(0, 5);
+        }""")
+        return articles
+    except Exception as e:
+        print(f"    极客公园解析失败: {e}")
+        return []
+    finally:
+        page.close()
+
+
 def fetch_news():
     """抓取所有新闻源"""
     results = {"date": date.today().isoformat(), "fetched_at": datetime.now().isoformat(), "sources": {}}
@@ -99,7 +157,7 @@ def fetch_news():
             print(f"[新闻·早报] {src['name']} ({src['url']})...")
             data = scrape_page(browser, src["url"], wait_sec=5)
             if data["status"] in ("ok", "partial"):
-                results["sources"][src["id"]] = {
+                source_entry = {
                     "name": src["name"],
                     "url": src["url"],
                     "type": "daily_report",
@@ -108,7 +166,16 @@ def fetch_news():
                     "links": data.get("links", [])[:60],
                     "status": data["status"],
                 }
-                print(f"  -> {len(data.get('text',''))} 字, {len(data.get('links',[]))} 个链接")
+                # 极客公园专用：提取文章列表（含日期），解决全文日期行漏读问题
+                if src["id"] == "geekpark":
+                    articles = _parse_geekpark_articles(browser, src["url"])
+                    source_entry["geekpark_articles"] = articles
+                    if articles:
+                        latest = articles[0]
+                        print(f"  -> {len(data.get('text',''))} 字, 最新: {latest['date']} {latest['title'][:50]}...")
+                else:
+                    print(f"  -> {len(data.get('text',''))} 字, {len(data.get('links',[]))} 个链接")
+                results["sources"][src["id"]] = source_entry
             else:
                 results["sources"][src["id"]] = {"name": src["name"], "status": "error", "error": data.get("error", "")}
                 print(f"  -> 失败: {data.get('error','')}")
@@ -142,36 +209,85 @@ def fetch_news():
     return results
 
 
+def _check_ranking_rtf_files():
+    """
+    检查榜单文件目录中的 RTF 文件，提取日期和条目数。
+    返回: {"lmarena": {"date": "Jun 11, 2026", "entries": 22}, "producthunt": {"date": "June 13, 2026", "entries": 20}}
+    """
+    ranking_dir = PROJECT_ROOT / "榜单文件"
+    if not ranking_dir.exists():
+        return {}
+
+    rtf_info = {}
+    for rtf_file in ranking_dir.glob("*.rtf"):
+        name_lower = rtf_file.name.lower()
+        try:
+            content = rtf_file.read_text(encoding="utf-8", errors="ignore")
+            # 提取日期
+            date_matches = re.findall(r'(?:Jun|June|Jan|Feb|Mar|Apr|May|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},?\s+2026', content)
+            rtf_date = date_matches[0] if date_matches else "unknown"
+
+            # 估算条目数
+            entry_count = len(re.findall(r'\|\s*\d+\s+\|\s*\*\*', content))  # Product Hunt
+            if entry_count == 0:
+                entry_count = len(re.findall(r'\|\s*\d+\s+\|.*\\薖', content))  # LMArena
+
+            if "lmarena" in name_lower:
+                rtf_info["lmarena"] = {"date": rtf_date, "entries": entry_count, "file": str(rtf_file)}
+            elif "product" in name_lower:
+                rtf_info["producthunt"] = {"date": rtf_date, "entries": entry_count, "file": str(rtf_file)}
+        except Exception as e:
+            print(f"    读取 {rtf_file.name} 失败: {e}")
+
+    return rtf_info
+
+
 def fetch_rankings():
-    """抓取榜单数据"""
+    """抓取榜单数据。优先读取本地 RTF 文件（LMArena/Product Hunt），OpenRouter 网页抓取。"""
     results = {"date": date.today().isoformat(), "platforms": []}
 
-    with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=True)
+    # Step 1: 检查 RTF 文件
+    rtf_info = _check_ranking_rtf_files()
+    if rtf_info:
+        print("[榜单·RTF] 本地榜单文件检查:")
+        for key, info in rtf_info.items():
+            print(f"  {key}: {info['date']}, ~{info['entries']} 条目")
 
-        for src in RANKING_SOURCES:
-            print(f"[榜单] {src['name']} ({src['url']})...")
-            data = scrape_page(browser, src["url"], wait_sec=5)
-            if data["status"] in ("ok", "partial"):
-                results["platforms"].append({
-                    "id": src["id"],
-                    "name": src["name"],
-                    "url": src["url"],
-                    "title": data.get("title", ""),
-                    "text": data.get("text", "")[:15000],
-                    "links": data.get("links", [])[:30],
-                    "status": data["status"],
-                })
-                print(f"  -> {len(data.get('text',''))} 字, {len(data.get('links',[]))} 个链接")
-            else:
-                results["platforms"].append({
-                    "id": src["id"], "name": src["name"],
-                    "status": "error", "error": data.get("error", ""),
-                })
-                print(f"  -> 失败: {data.get('error','')}")
-            time.sleep(1)
+    # Step 2: 只对没有 RTF 的榜单做网页抓取
+    web_sources = [s for s in RANKING_SOURCES if s["id"] not in rtf_info]
+    if web_sources:
+        print(f"\n[榜单·网页] 抓取 {len(web_sources)} 个源...")
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(headless=True)
 
-        browser.close()
+            for src in web_sources:
+                print(f"  {src['name']} ({src['url']})...")
+                data = scrape_page(browser, src["url"], wait_sec=5)
+                if data["status"] in ("ok", "partial"):
+                    results["platforms"].append({
+                        "id": src["id"],
+                        "name": src["name"],
+                        "url": src["url"],
+                        "title": data.get("title", ""),
+                        "text": data.get("text", "")[:15000],
+                        "links": data.get("links", [])[:30],
+                        "status": data["status"],
+                    })
+                    print(f"    -> {len(data.get('text',''))} 字")
+                else:
+                    results["platforms"].append({
+                        "id": src["id"], "name": src["name"],
+                        "status": "error", "error": data.get("error", ""),
+                    })
+                    print(f"    -> 失败: {data.get('error','')}")
+                time.sleep(1)
+
+            browser.close()
+    else:
+        print("[榜单·网页] 全部榜单已有 RTF 文件，跳过网页抓取")
+
+    # Step 3: 将 RTF 信息写入结果（供 Claude 参考）
+    results["rtf_files"] = rtf_info
 
     output_path = RAW_DIR / "rankings_raw.json"
     output_path.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
