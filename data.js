@@ -493,110 +493,44 @@ window.__RAW_DATA = {
         },
         {
           "name": "Product Hunt",
-          "date": "2026-06-12",
+          "date": "2026-06-13",
           "link": "https://www.producthunt.com/",
           "rankings": [
             {
-              "name": "Firma.dev",
-              "category": "API",
+              "name": "Vercel Drop",
+              "category": "Productivity",
               "rank": 1,
-              "link": "https://firma.dev"
+              "link": "https://vercel.com/drop"
             },
             {
-              "name": "Qursor",
-              "category": "Productivity",
+              "name": "Kimi K2.7 Code",
+              "category": "Open Source",
               "rank": 2,
-              "link": "https://www.producthunt.com/products/qursor"
+              "link": "https://www.kimi.com/blog/"
             },
             {
-              "name": "Pond",
-              "category": "Marketing",
-              "rank": 3,
-              "link": "https://www.producthunt.com/products/pond"
-            },
-            {
-              "name": "KOSH Money",
-              "category": "Android",
-              "rank": 4,
-              "link": "https://www.producthunt.com/products/kosh-money"
-            },
-            {
-              "name": "HyperSleep",
-              "category": "Android",
-              "rank": 5,
-              "link": "https://www.producthunt.com/products/hypersleep"
-            },
-            {
-              "name": "Bob's CLI",
+              "name": "Prometheus by Firecrawl",
               "category": "Developer Tools",
+              "rank": 3,
+              "link": "https://www.firecrawl.dev/prometheus"
+            },
+            {
+              "name": "CakewordAI",
+              "category": "Kids",
+              "rank": 4,
+              "link": "https://www.producthunt.com/products/cakewordai"
+            },
+            {
+              "name": "NomNak",
+              "category": "Social Media",
+              "rank": 5,
+              "link": "https://www.producthunt.com/products/nomnak"
+            },
+            {
+              "name": "Avatars in ElevenCreative",
+              "category": "Audio",
               "rank": 6,
-              "link": "https://www.producthunt.com/products/bobs-cli"
-            },
-            {
-              "name": "Meet Warren 3.0",
-              "category": "Fintech",
-              "rank": 7,
-              "link": "https://www.producthunt.com/products/meet-warren"
-            },
-            {
-              "name": "ShellMate",
-              "category": "Productivity",
-              "rank": 8,
-              "link": "https://www.producthunt.com/products/shellmate"
-            },
-            {
-              "name": "Insta360 Luna Ultra",
-              "category": "Hardware",
-              "rank": 9,
-              "link": "https://www.producthunt.com/products/insta360-luna-ultra"
-            },
-            {
-              "name": "Slack Data Agent",
-              "category": "Artificial Intelligence",
-              "rank": 10,
-              "link": "https://www.producthunt.com/products/slack-data-agent"
-            },
-            {
-              "name": "Tide",
-              "category": "Music",
-              "rank": 11,
-              "link": "https://www.producthunt.com/products/tide-voice"
-            },
-            {
-              "name": "CueBuddy",
-              "category": "iOS",
-              "rank": 12,
-              "link": "https://www.producthunt.com/products/cuebuddy"
-            },
-            {
-              "name": "Medicyn",
-              "category": "iOS",
-              "rank": 13,
-              "link": "https://www.producthunt.com/products/medicyn"
-            },
-            {
-              "name": "NODUS PH Radar for Product Hunt",
-              "category": "Browser Extensions",
-              "rank": 14,
-              "link": "https://www.producthunt.com/products/nodus-ph-radar"
-            },
-            {
-              "name": "LocIn AI",
-              "category": "SaaS",
-              "rank": 15,
-              "link": "https://www.producthunt.com/products/locin-ai"
-            },
-            {
-              "name": "Clutch Alarm",
-              "category": "iOS",
-              "rank": 16,
-              "link": "https://www.producthunt.com/products/clutch-alarm"
-            },
-            {
-              "name": "pleNx — Plex client for Nintendo Switch",
-              "category": "Nintendo",
-              "rank": 17,
-              "link": "https://www.producthunt.com/products/plenx"
+              "link": "https://elevenlabs.io/elevencreative"
             }
           ]
         }

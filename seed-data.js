@@ -1,4 +1,3 @@
-// 种子数据：为 Step 9 无新闻厂商近期动态提供历史新闻
 window.__SEED_CONFIRMED = {
   "2026-06-10": {
     "date": "2026-06-10",
@@ -4572,7 +4571,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "谷歌发布 Gemini-SQL2，Text-to-SQL 准确率 80.04% 登顶",
                 "summary": "6月12日，Google Research 发布 Gemini-SQL2 模型，基于 Gemini 3.1 Pro 打造，具备 Text-to-SQL 能力，在 Spider 基准测试中准确率达 80.04%，为当前最强文本转 SQL 模型。",
-                "link": "https://www.ithome.com/0/963/855.htm",
+                "link": "https://www.ithome.com/0/963/820.htm",
                 "tags": [
                   "模型发布",
                   "数据库"
@@ -4640,7 +4639,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "网传阿里合伙人周靖人拟离职，刚出任首席科学家仅 6 天",
                 "summary": "6月13日消息，在阿里宣布通义大模型关键人物周靖人出任首席科学家、牵头成立 AI 未来研究院仅 6 天后，网络传出其拟离职的消息。周靖人是阿里通义大模型团队核心负责人，去年刚成为合伙人。目前阿里未予置评。",
-                "link": "https://www.ithome.com/0/963/855.htm",
+                "link": "https://m.ithome.com/html/963771.htm",
                 "tags": [
                   "人事变动",
                   "高管"
@@ -4713,7 +4712,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "华为云与 MiniMax M3 实现开源首发适配，基于昇腾算力",
                 "summary": "6月13日，华为云宣布其 CloudMatrix 智算云服务已完成对原生多模态旗舰模型 MiniMax M3 的开源首发适配，基于昇腾算力底座提供 Tokens 支持。M3 在编程、智能体及多模态任务上表现卓越，在多个评测中超越 GPT-5.5、Gemini 3.1 Pro。",
-                "link": "https://www.ithome.com/0/963/855.htm",
+                "link": "https://m.ithome.com/html/963855.htm",
                 "tags": [
                   "昇腾",
                   "模型适配"
@@ -4752,7 +4751,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "科大讯飞发布星火多模态大模型 X2-VL，基于全国产算力训练",
                     "summary": "6月13日，科大讯飞副总裁孙东平介绍，星火多模态大模型 X2-VL 是当前唯一基于全国产算力训练的主流大模型，采用专属 MoE 架构，在视觉语言任务上表现突出。",
-                    "link": "https://www.ithome.com/0/963/855.htm",
+                    "link": "https://m.ithome.com/html/963855.htm",
                     "tags": [
                       "多模态",
                       "国产算力"
@@ -4768,7 +4767,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "摩尔线程 MTT S5000 完成 MiniMax M3 Day-0 适配",
                     "summary": "6月13日，摩尔线程宣布其旗舰 AI 训推一体 GPU MTT S5000 完成对 MiniMax M3 模型的 Day-0 适配，凭借 1000 TFLOPS 算力、80GB 大显存及原生 FP8 加速，为 M3 超长上下文与 Agentic 能力提供硬件支撑。",
-                    "link": "https://www.ithome.com/0/963/855.htm",
+                    "link": "https://m.ithome.com/html/963855.htm",
                     "tags": [
                       "国产GPU",
                       "模型适配"
@@ -4801,7 +4800,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "Mistral AI 洽谈以 200 亿欧元估值进行 D 轮融资",
                     "summary": "6月13日消息，据外媒报道，法国 AI 独角兽 Mistral AI 正洽谈以 200 亿欧元估值进行 D 轮融资。该公司在 2025 年 9 月 C 轮中以 100 亿欧元投前估值筹集 17 亿欧元，估值在不到一年内翻倍，反映欧洲 AI 赛道持续升温。",
-                    "link": "https://www.ithome.com/0/963/855.htm",
+                    "link": "https://m.ithome.com/html/963855.htm",
                     "tags": [
                       "融资",
                       "欧洲AI"
@@ -4822,7 +4821,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "国家安全部发布「AI 中转站」风险提示",
                     "summary": "6月13日，国家安全部发布专项风险提示，警示用户警惕「AI 中转站」泄露个人数据风险。用户通过第三方代理服务使用境外 AI 工具时，输入的文本、图片、文件可能被中转服务器记录存储，存在严重隐私安全隐患。",
-                    "link": "https://www.ithome.com/0/963/855.htm",
+                    "link": "https://m.ithome.com/html/963800.htm",
                     "tags": [
                       "数据安全",
                       "隐私"
@@ -4833,7 +4832,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "毕马威 AI 行业报告被指「AI 写的」：充斥幻觉",
                     "summary": "6月13日消息，知名会计师事务所毕马威发布的一份 AI 行业报告被调查指称由 AI 生成。报告共 45 条引文中仅 5 条准确对应真实来源，28 条存在改写或虚构内容，引发对 AI 生成内容进入专业研究领域的担忧。",
-                    "link": "https://www.ithome.com/0/963/855.htm",
+                    "link": "https://m.ithome.com/html/963855.htm",
                     "tags": [
                       "AI幻觉",
                       "内容质量"
@@ -5015,110 +5014,44 @@ window.__SEED_CONFIRMED = {
           },
           {
             "name": "Product Hunt",
-            "date": "2026-06-12",
+            "date": "2026-06-13",
             "link": "https://www.producthunt.com/",
             "rankings": [
               {
-                "name": "Firma.dev",
-                "category": "API",
+                "name": "Vercel Drop",
+                "category": "Productivity",
                 "rank": 1,
-                "link": "https://firma.dev"
+                "link": "https://vercel.com/drop"
               },
               {
-                "name": "Qursor",
-                "category": "Productivity",
+                "name": "Kimi K2.7 Code",
+                "category": "Open Source",
                 "rank": 2,
-                "link": "https://www.producthunt.com/products/qursor"
+                "link": "https://www.kimi.com/blog/"
               },
               {
-                "name": "Pond",
-                "category": "Marketing",
-                "rank": 3,
-                "link": "https://www.producthunt.com/products/pond"
-              },
-              {
-                "name": "KOSH Money",
-                "category": "Android",
-                "rank": 4,
-                "link": "https://www.producthunt.com/products/kosh-money"
-              },
-              {
-                "name": "HyperSleep",
-                "category": "Android",
-                "rank": 5,
-                "link": "https://www.producthunt.com/products/hypersleep"
-              },
-              {
-                "name": "Bob's CLI",
+                "name": "Prometheus by Firecrawl",
                 "category": "Developer Tools",
+                "rank": 3,
+                "link": "https://www.firecrawl.dev/prometheus"
+              },
+              {
+                "name": "CakewordAI",
+                "category": "Kids",
+                "rank": 4,
+                "link": "https://www.producthunt.com/products/cakewordai"
+              },
+              {
+                "name": "NomNak",
+                "category": "Social Media",
+                "rank": 5,
+                "link": "https://www.producthunt.com/products/nomnak"
+              },
+              {
+                "name": "Avatars in ElevenCreative",
+                "category": "Audio",
                 "rank": 6,
-                "link": "https://www.producthunt.com/products/bobs-cli"
-              },
-              {
-                "name": "Meet Warren 3.0",
-                "category": "Fintech",
-                "rank": 7,
-                "link": "https://www.producthunt.com/products/meet-warren"
-              },
-              {
-                "name": "ShellMate",
-                "category": "Productivity",
-                "rank": 8,
-                "link": "https://www.producthunt.com/products/shellmate"
-              },
-              {
-                "name": "Insta360 Luna Ultra",
-                "category": "Hardware",
-                "rank": 9,
-                "link": "https://www.producthunt.com/products/insta360-luna-ultra"
-              },
-              {
-                "name": "Slack Data Agent",
-                "category": "Artificial Intelligence",
-                "rank": 10,
-                "link": "https://www.producthunt.com/products/slack-data-agent"
-              },
-              {
-                "name": "Tide",
-                "category": "Music",
-                "rank": 11,
-                "link": "https://www.producthunt.com/products/tide-voice"
-              },
-              {
-                "name": "CueBuddy",
-                "category": "iOS",
-                "rank": 12,
-                "link": "https://www.producthunt.com/products/cuebuddy"
-              },
-              {
-                "name": "Medicyn",
-                "category": "iOS",
-                "rank": 13,
-                "link": "https://www.producthunt.com/products/medicyn"
-              },
-              {
-                "name": "NODUS PH Radar for Product Hunt",
-                "category": "Browser Extensions",
-                "rank": 14,
-                "link": "https://www.producthunt.com/products/nodus-ph-radar"
-              },
-              {
-                "name": "LocIn AI",
-                "category": "SaaS",
-                "rank": 15,
-                "link": "https://www.producthunt.com/products/locin-ai"
-              },
-              {
-                "name": "Clutch Alarm",
-                "category": "iOS",
-                "rank": 16,
-                "link": "https://www.producthunt.com/products/clutch-alarm"
-              },
-              {
-                "name": "pleNx — Plex client for Nintendo Switch",
-                "category": "Nintendo",
-                "rank": 17,
-                "link": "https://www.producthunt.com/products/plenx"
+                "link": "https://elevenlabs.io/elevencreative"
               }
             ]
           }
