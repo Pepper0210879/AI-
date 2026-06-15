@@ -227,10 +227,20 @@ def _check_ranking_rtf_files():
             date_matches = re.findall(r'(?:Jun|June|Jan|Feb|Mar|Apr|May|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{1,2},?\s+2026', content)
             rtf_date = date_matches[0] if date_matches else "unknown"
 
-            # 估算条目数
-            entry_count = len(re.findall(r'\|\s*\d+\s+\|\s*\*\*', content))  # Product Hunt
+            # 估算条目数 — 三种格式逐个尝试
+            # 格式1: Product Hunt 编号列表 (1. **产品名**)
+            entry_count = len(re.findall(r'\d+\.\s+\*\*[^*]+\*\*', content))
+            # 格式2: Markdown 表格 (| 1 | **产品名**)
             if entry_count == 0:
-                entry_count = len(re.findall(r'\|\s*\d+\s+\|.*\\薖', content))  # LMArena
+                entry_count = len(re.findall(r'\|\s*\d+\s+\|\s*\*\*', content))
+            # 格式3: LMArena RTF 转义表格
+            if entry_count == 0:
+                entry_count = len(re.findall(r'\|\s*\d+\s+\|.*\\u\d', content))
+
+            # 0 条目 = RTF 解析失败，不写入 rtf_info，让网页抓取兜底
+            if entry_count == 0:
+                print(f"    ⚠️ {rtf_file.name}: 日期 {rtf_date}，无法解析条目（格式不识别），将走网页抓取")
+                continue
 
             if "lmarena" in name_lower:
                 rtf_info["lmarena"] = {"date": rtf_date, "entries": entry_count, "file": str(rtf_file)}
