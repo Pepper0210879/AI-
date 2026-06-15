@@ -541,44 +541,80 @@ window.__RAW_DATA = {
         },
         {
           "name": "Product Hunt",
-          "date": "2026-06-13",
+          "date": "2026-06-14",
           "link": "https://www.producthunt.com/",
           "rankings": [
             {
-              "name": "Vercel Drop",
-              "category": "Productivity",
+              "name": "Slashy",
+              "category": "Email",
               "rank": 1,
-              "link": "https://vercel.com/drop"
+              "link": "https://www.producthunt.com/products/slashy"
             },
             {
-              "name": "Kimi K2.7 Code",
-              "category": "Open Source",
+              "name": "Taste Lab",
+              "category": "Design Tools",
               "rank": 2,
-              "link": "https://www.kimi.com/blog/"
+              "link": "https://www.producthunt.com/products/taste-lab"
             },
             {
-              "name": "Prometheus by Firecrawl",
-              "category": "Developer Tools",
+              "name": "Permute 4.0",
+              "category": "Mac",
               "rank": 3,
-              "link": "https://www.firecrawl.dev/prometheus"
+              "link": "https://software.charliemonroe.net/permute/"
             },
             {
-              "name": "CakewordAI",
-              "category": "Kids",
+              "name": "Athenic 2.0",
+              "category": "Analytics",
               "rank": 4,
-              "link": "https://www.producthunt.com/products/cakewordai"
+              "link": "https://www.athenic.com/"
             },
             {
-              "name": "NomNak",
-              "category": "Social Media",
+              "name": "Cloudback for Linear",
+              "category": "Productivity",
               "rank": 5,
-              "link": "https://www.producthunt.com/products/nomnak"
+              "link": "https://cloudback.it/"
             },
             {
-              "name": "Avatars in ElevenCreative",
-              "category": "Audio",
+              "name": "Memoriq",
+              "category": "Productivity",
               "rank": 6,
-              "link": "https://elevenlabs.io/elevencreative"
+              "link": "https://www.producthunt.com/products/memoriq"
+            },
+            {
+              "name": "Conan",
+              "category": "Mac",
+              "rank": 7,
+              "link": "https://www.conan.sh/"
+            },
+            {
+              "name": "Allergo",
+              "category": "Health & Fitness",
+              "rank": 8,
+              "link": "https://www.producthunt.com/products/allergo"
+            },
+            {
+              "name": "Reverie.fm",
+              "category": "Music",
+              "rank": 9,
+              "link": "https://www.producthunt.com/products/reveriefm"
+            },
+            {
+              "name": "Pool",
+              "category": "Productivity",
+              "rank": 10,
+              "link": "https://www.producthunt.com/products/pool"
+            },
+            {
+              "name": "Tinfoil Pigeons",
+              "category": "Travel",
+              "rank": 11,
+              "link": "https://www.producthunt.com/products/tinfoil-pigeons"
+            },
+            {
+              "name": "Momentra",
+              "category": "Android",
+              "rank": 12,
+              "link": "https://www.producthunt.com/products/momentra"
             }
           ]
         }
