@@ -4487,7 +4487,32 @@ window.__SEED_CONFIRMED = {
             "color": "#3370FF",
             "softBg": "#EBF0FF",
             "initial": "火",
-            "news": []
+            "news": [
+              {
+                "title": "豆包上线任务模式，支持端到端自主执行复杂任务",
+                "summary": "6月12日，字节豆包上线「任务模式」，区别于传统单步问答，可自主完成从任务拆解、步骤规划、工具调用到结果交付的全链路执行。支持零代码网页生成、一键PPT制作、数据可视化分析、多轮搜索和定时任务。原有「思考模式」同步升级为「专家模式」，调用豆包大模型2.0 Pro，主打深度推理。付费版月费68元起。",
+                "link": "https://www.ithome.com/0/963/725.htm",
+                "tags": [
+                  "Agent",
+                  "AI助手",
+                  "任务自动化"
+                ],
+                "source": "IT之家",
+                "time": "6月12日"
+              },
+              {
+                "title": "扣子3.0上线自媒体Skill，覆盖选题到复盘全流程",
+                "summary": "近日，字节扣子3.0上线专业自媒体Skill，面向内容创作者提供从选题策划、热点追踪、内容生成到账号复盘的全流程辅助。创作者可调用热点榜、爆款笔记查询等功能了解多平台热点，并通过小红书、公众号等平台的内容创作能力将选题转化为适配不同平台风格的表达，发布前还可使用违禁词检查降低内容风险。",
+                "link": "https://36kr.com/newsflashes/3852643102741511",
+                "tags": [
+                  "AI创作",
+                  "自媒体",
+                  "Agent"
+                ],
+                "source": "36氪",
+                "time": "6月15日"
+              }
+            ]
           },
           {
             "name": "DeepSeek",
@@ -4528,7 +4553,20 @@ window.__SEED_CONFIRMED = {
             "color": "#5B4DBE",
             "softBg": "#EEECFA",
             "initial": "智",
-            "news": []
+            "news": [
+              {
+                "title": "智谱发布ZCode 3.0，全面切换自研Agent内核",
+                "summary": "6月13日，智谱发布AI编程工具ZCode 3.0，全面切换到自研ZCode Agent内核，深度适配GLM-5.2。新内核针对长程推理、工具调用和大型工程执行链路做了优化，官方称任务完成效果显著优于第三方Agent。同步加入分组式任务工作区、Zread智能项目知识库、可视化Git分支图谱和上下文占用提醒。GLM-5.2面向Coding Plan全量用户开放，预计下周MIT协议开源。",
+                "link": "https://www.ithome.com/0/963/985.htm",
+                "tags": [
+                  "AI编程",
+                  "Agent",
+                  "开源"
+                ],
+                "source": "IT之家",
+                "time": "6月13日"
+              }
+            ]
           },
           {
             "name": "月之暗面",
@@ -4636,7 +4674,25 @@ window.__SEED_CONFIRMED = {
           },
           {
             "name": "自动驾驶",
-            "cards": []
+            "cards": [
+              {
+                "title": "启境汽车",
+                "news": [
+                  {
+                    "title": "启境汽车获广州L3级自动驾驶道路测试许可",
+                    "summary": "6月13日，启境汽车CEO刘嘉铭在2026中国汽车重庆论坛上宣布，启境已获得广州市L3级自动驾驶道路测试许可，相关车型已在广州多条高快速路上展开预测试。启境由广汽集团与华为乾崑联合打造，定位高端智能新能源品牌，全系搭载华为乾崑智能技术。首款车型GT7预售价21.99万元起，搭载896线激光雷达和乾崑ADS 5智驾系统。",
+                    "link": "https://m.ithome.com/html/964003.htm",
+                    "tags": [
+                      "L3自动驾驶",
+                      "路测许可",
+                      "华为乾崑"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月13日"
+                  }
+                ]
+              }
+            ]
           },
           {
             "name": "具身智能",
@@ -4702,6 +4758,23 @@ window.__SEED_CONFIRMED = {
                     ],
                     "source": "环球时报",
                     "time": "6月13日"
+                  }
+                ]
+              },
+              {
+                "title": "AI眼镜考试作弊",
+                "news": [
+                  {
+                    "title": "首尔将AI眼镜列入中小学期末考试违禁品",
+                    "summary": "6月11日，韩国首尔市教育厅下发通知，禁止考生佩戴AI智能眼镜参加期末考试，携带入场按作弊处理。通知详列AI眼镜识别要点：镜腿粗厚含电池主板、镜片旁隐藏摄像头、LED指示灯及扬声器开孔等。此前韩国已有两名考生在TOEIC考试中使用AI眼镜作弊被查，成绩作废且4年禁考。韩国教育部正研究在11月高考中单独列出AI眼镜禁带规则。",
+                    "link": "https://news.qq.com/rain/a/20260613A05OT000",
+                    "tags": [
+                      "AI监管",
+                      "教育",
+                      "防作弊"
+                    ],
+                    "source": "新华社",
+                    "time": "6月11日"
                   }
                 ]
               }
@@ -4877,44 +4950,80 @@ window.__SEED_CONFIRMED = {
           },
           {
             "name": "Product Hunt",
-            "date": "2026-06-13",
+            "date": "2026-06-14",
             "link": "https://www.producthunt.com/",
             "rankings": [
               {
-                "name": "Vercel Drop",
-                "category": "Productivity",
+                "name": "Slashy",
+                "category": "Email",
                 "rank": 1,
-                "link": "https://vercel.com/drop"
+                "link": "https://www.producthunt.com/products/slashy"
               },
               {
-                "name": "Kimi K2.7 Code",
-                "category": "Open Source",
+                "name": "Taste Lab",
+                "category": "Design Tools",
                 "rank": 2,
-                "link": "https://www.kimi.com/blog/"
+                "link": "https://www.producthunt.com/products/taste-lab"
               },
               {
-                "name": "Prometheus by Firecrawl",
-                "category": "Developer Tools",
+                "name": "Permute 4.0",
+                "category": "Mac",
                 "rank": 3,
-                "link": "https://www.firecrawl.dev/prometheus"
+                "link": "https://software.charliemonroe.net/permute/"
               },
               {
-                "name": "CakewordAI",
-                "category": "Kids",
+                "name": "Athenic 2.0",
+                "category": "Analytics",
                 "rank": 4,
-                "link": "https://www.producthunt.com/products/cakewordai"
+                "link": "https://www.athenic.com/"
               },
               {
-                "name": "NomNak",
-                "category": "Social Media",
+                "name": "Cloudback for Linear",
+                "category": "Productivity",
                 "rank": 5,
-                "link": "https://www.producthunt.com/products/nomnak"
+                "link": "https://cloudback.it/"
               },
               {
-                "name": "Avatars in ElevenCreative",
-                "category": "Audio",
+                "name": "Memoriq",
+                "category": "Productivity",
                 "rank": 6,
-                "link": "https://elevenlabs.io/elevencreative"
+                "link": "https://www.producthunt.com/products/memoriq"
+              },
+              {
+                "name": "Conan",
+                "category": "Mac",
+                "rank": 7,
+                "link": "https://www.conan.sh/"
+              },
+              {
+                "name": "Allergo",
+                "category": "Health & Fitness",
+                "rank": 8,
+                "link": "https://www.producthunt.com/products/allergo"
+              },
+              {
+                "name": "Reverie.fm",
+                "category": "Music",
+                "rank": 9,
+                "link": "https://www.producthunt.com/products/reveriefm"
+              },
+              {
+                "name": "Pool",
+                "category": "Productivity",
+                "rank": 10,
+                "link": "https://www.producthunt.com/products/pool"
+              },
+              {
+                "name": "Tinfoil Pigeons",
+                "category": "Travel",
+                "rank": 11,
+                "link": "https://www.producthunt.com/products/tinfoil-pigeons"
+              },
+              {
+                "name": "Momentra",
+                "category": "Android",
+                "rank": 12,
+                "link": "https://www.producthunt.com/products/momentra"
               }
             ]
           }
@@ -4923,4 +5032,4 @@ window.__SEED_CONFIRMED = {
     }
   }
 };
-window.__SEED_VERSION = "ad783c0a";
+window.__SEED_VERSION = "1781489138";

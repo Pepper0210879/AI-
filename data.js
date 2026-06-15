@@ -5,8 +5,8 @@ window.__RAW_DATA = {
       "vendors": [
         {
           "name": "OpenAI",
-          "color": "#7ab8d6",
-          "softBg": "#edf5fa",
+          "color": "#10A37F",
+          "softBg": "#E6F9F4",
           "initial": "O",
           "news": [
             {
@@ -21,13 +21,12 @@ window.__RAW_DATA = {
               "source": "中国新闻网",
               "time": "6月11日"
             }
-          ],
-          "logo": "logos/OpenAI.png"
+          ]
         },
         {
           "name": "Anthropic",
-          "color": "#c4a882",
-          "softBg": "#faf5ee",
+          "color": "#D4A574",
+          "softBg": "#FDF6EE",
           "initial": "A",
           "news": [
             {
@@ -42,13 +41,12 @@ window.__RAW_DATA = {
               "source": "澎湃新闻",
               "time": "6月12日"
             }
-          ],
-          "logo": "logos/Anthropic.png"
+          ]
         },
         {
           "name": "Google",
-          "color": "#8ac4a0",
-          "softBg": "#effaf3",
+          "color": "#4285F4",
+          "softBg": "#ECF0FD",
           "initial": "G",
           "news": [
             {
@@ -75,13 +73,12 @@ window.__RAW_DATA = {
               "source": "IT之家",
               "time": "6月15日"
             }
-          ],
-          "logo": "logos/Google.png"
+          ]
         },
         {
           "name": "xAI",
-          "color": "#8ab4d4",
-          "softBg": "#eef5fb",
+          "color": "#1DA1F2",
+          "softBg": "#E8F5FD",
           "initial": "X",
           "news": [
             {
@@ -96,32 +93,19 @@ window.__RAW_DATA = {
               "source": "财联社",
               "time": "6月12日"
             }
-          ],
-          "logo": "logos/xAI.png"
+          ]
         },
         {
           "name": "NVIDIA",
-          "color": "#a8c47a",
-          "softBg": "#f4f9ee",
+          "color": "#76B900",
+          "softBg": "#F2F9E6",
           "initial": "N",
-          "news": [
-            {
-              "title": "SpaceX 历史性 IPO 后，马斯克称将深化与英伟达的关系",
-              "summary": "6月13日，SpaceX 股票登陆纳斯达克数小时后，英伟达在 X 上发文祝贺 SpaceX 团队完成“历史性的 IPO 首秀”。随后，马斯克也迅速回应，称将把“与英伟达令人兴奋的合作关系提升到新水平”。SpaceX完成IPO后股价大涨，市值达2.11万亿美元，马斯克成为全球首位万亿富豪。他表示将深化与英伟达合作，SpaceX还推出AI1卫星，并拿下多笔英伟达GPU算力大单。",
-              "link": "https://www.ithome.com/0/963/889.htm",
-              "tags": [
-                "马斯克英伟达"
-              ],
-              "source": "IT之家",
-              "time": "6月13日"
-            }
-          ],
-          "logo": "logos/NVDIA.png"
+          "news": []
         },
         {
           "name": "Meta",
-          "color": "#8a9ad4",
-          "softBg": "#eff0fa",
+          "color": "#0668E1",
+          "softBg": "#E6F0FD",
           "initial": "M",
           "news": [
             {
@@ -136,20 +120,16 @@ window.__RAW_DATA = {
               "source": "华尔街见闻",
               "time": "6月14日"
             }
-          ],
-          "logo": "logos/Meta.png"
+          ]
         }
-      ],
-      "title": "海外主要厂商",
-      "icon": "fas fa-globe-americas",
-      "iconClass": "overseas"
+      ]
     },
     "domestic": {
       "vendors": [
         {
           "name": "阿里云",
-          "color": "#d4a06a",
-          "softBg": "#faf5ee",
+          "color": "#FF6A00",
+          "softBg": "#FFF0E6",
           "initial": "阿",
           "news": [
             {
@@ -164,38 +144,59 @@ window.__RAW_DATA = {
               "source": "界面新闻",
               "time": "6月14日"
             }
-          ],
-          "logo": "logos/阿里云.png"
+          ]
         },
         {
           "name": "火山引擎",
-          "color": "#8aaed4",
-          "softBg": "#eef5fb",
+          "color": "#3370FF",
+          "softBg": "#EBF0FF",
           "initial": "火",
-          "news": [],
-          "logo": "logos/火山引擎.png"
+          "news": [
+            {
+              "title": "豆包上线任务模式，支持端到端自主执行复杂任务",
+              "summary": "6月12日，字节豆包上线「任务模式」，区别于传统单步问答，可自主完成从任务拆解、步骤规划、工具调用到结果交付的全链路执行。支持零代码网页生成、一键PPT制作、数据可视化分析、多轮搜索和定时任务。原有「思考模式」同步升级为「专家模式」，调用豆包大模型2.0 Pro，主打深度推理。付费版月费68元起。",
+              "link": "https://www.ithome.com/0/963/725.htm",
+              "tags": [
+                "Agent",
+                "AI助手",
+                "任务自动化"
+              ],
+              "source": "IT之家",
+              "time": "6月12日"
+            },
+            {
+              "title": "扣子3.0上线自媒体Skill，覆盖选题到复盘全流程",
+              "summary": "近日，字节扣子3.0上线专业自媒体Skill，面向内容创作者提供从选题策划、热点追踪、内容生成到账号复盘的全流程辅助。创作者可调用热点榜、爆款笔记查询等功能了解多平台热点，并通过小红书、公众号等平台的内容创作能力将选题转化为适配不同平台风格的表达，发布前还可使用违禁词检查降低内容风险。",
+              "link": "https://36kr.com/newsflashes/3852643102741511",
+              "tags": [
+                "AI创作",
+                "自媒体",
+                "Agent"
+              ],
+              "source": "36氪",
+              "time": "6月15日"
+            }
+          ]
         },
         {
           "name": "DeepSeek",
-          "color": "#7ab8d6",
-          "softBg": "#edf5fa",
+          "color": "#4D6BFE",
+          "softBg": "#EDEFFF",
           "initial": "D",
-          "news": [],
-          "logo": "logos/DeepSeek.png"
+          "news": []
         },
         {
           "name": "腾讯",
-          "color": "#8ac4a0",
-          "softBg": "#effaf3",
+          "color": "#0052D9",
+          "softBg": "#E6EEFD",
           "initial": "腾",
-          "news": [],
-          "logo": "logos/腾讯.png"
+          "news": []
         },
         {
           "name": "小米",
-          "color": "#d4a882",
-          "softBg": "#faf5ee",
-          "initial": "米",
+          "color": "#FF6900",
+          "softBg": "#FFF0E6",
+          "initial": "小",
           "news": [
             {
               "title": "小米MIX Fold 5将首发澎湃OS4，全面AI赋能",
@@ -209,29 +210,39 @@ window.__RAW_DATA = {
               "source": "IT之家",
               "time": "6月14日"
             }
-          ],
-          "logo": "logos/小米.jpg"
+          ]
         },
         {
           "name": "智谱AI",
-          "color": "#b4a0d4",
-          "softBg": "#f5f0fa",
+          "color": "#5B4DBE",
+          "softBg": "#EEECFA",
           "initial": "智",
-          "news": [],
-          "logo": "logos/智谱.png"
+          "news": [
+            {
+              "title": "智谱发布ZCode 3.0，全面切换自研Agent内核",
+              "summary": "6月13日，智谱发布AI编程工具ZCode 3.0，全面切换到自研ZCode Agent内核，深度适配GLM-5.2。新内核针对长程推理、工具调用和大型工程执行链路做了优化，官方称任务完成效果显著优于第三方Agent。同步加入分组式任务工作区、Zread智能项目知识库、可视化Git分支图谱和上下文占用提醒。GLM-5.2面向Coding Plan全量用户开放，预计下周MIT协议开源。",
+              "link": "https://www.ithome.com/0/963/985.htm",
+              "tags": [
+                "AI编程",
+                "Agent",
+                "开源"
+              ],
+              "source": "IT之家",
+              "time": "6月13日"
+            }
+          ]
         },
         {
           "name": "月之暗面",
-          "color": "#b4a0d4",
-          "softBg": "#f5f0fa",
+          "color": "#6C3CE1",
+          "softBg": "#F0EBFC",
           "initial": "月",
-          "news": [],
-          "logo": "logos/月之暗面.png"
+          "news": []
         },
         {
           "name": "华为",
-          "color": "#d4a0a0",
-          "softBg": "#faf0f0",
+          "color": "#CF0A2C",
+          "softBg": "#FDE6E9",
           "initial": "华",
           "news": [
             {
@@ -246,13 +257,9 @@ window.__RAW_DATA = {
               "source": "观察者网",
               "time": "6月12日"
             }
-          ],
-          "logo": "logos/华为.jpg"
+          ]
         }
-      ],
-      "title": "国内主要厂商",
-      "icon": "fas fa-flag",
-      "iconClass": "domestic"
+      ]
     },
     "other": {
       "categories": [
@@ -327,17 +334,29 @@ window.__RAW_DATA = {
                 }
               ]
             }
-          ],
-          "icon": "fas fa-building",
-          "color": "#a0a8b0",
-          "softBg": "#f2f4f5"
+          ]
         },
         {
           "name": "自动驾驶",
-          "cards": [],
-          "icon": "fas fa-car",
-          "color": "#82c4d4",
-          "softBg": "#eefafc"
+          "cards": [
+            {
+              "title": "启境汽车",
+              "news": [
+                {
+                  "title": "启境汽车获广州L3级自动驾驶道路测试许可",
+                  "summary": "6月13日，启境汽车CEO刘嘉铭在2026中国汽车重庆论坛上宣布，启境已获得广州市L3级自动驾驶道路测试许可，相关车型已在广州多条高快速路上展开预测试。启境由广汽集团与华为乾崑联合打造，定位高端智能新能源品牌，全系搭载华为乾崑智能技术。首款车型GT7预售价21.99万元起，搭载896线激光雷达和乾崑ADS 5智驾系统。",
+                  "link": "https://m.ithome.com/html/964003.htm",
+                  "tags": [
+                    "L3自动驾驶",
+                    "路测许可",
+                    "华为乾崑"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月13日"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "具身智能",
@@ -359,24 +378,15 @@ window.__RAW_DATA = {
                 }
               ]
             }
-          ],
-          "icon": "fas fa-robot",
-          "color": "#d4b482",
-          "softBg": "#faf6ee"
+          ]
         },
         {
           "name": "AI出海",
-          "cards": [],
-          "icon": "fas fa-ship",
-          "color": "#8ac4a0",
-          "softBg": "#effaf3"
+          "cards": []
         },
         {
           "name": "投资资讯",
-          "cards": [],
-          "icon": "fas fa-chart-line",
-          "color": "#d4c482",
-          "softBg": "#faf9ee"
+          "cards": []
         },
         {
           "name": "行业趋势&观点",
@@ -432,15 +442,9 @@ window.__RAW_DATA = {
                 }
               ]
             }
-          ],
-          "icon": "fas fa-lightbulb",
-          "color": "#b4a0d4",
-          "softBg": "#f5f0fa"
+          ]
         }
-      ],
-      "title": "其他关注",
-      "icon": "fas fa-layer-group",
-      "iconClass": "other"
+      ]
     },
     "ranking": {
       "platforms": [
@@ -549,10 +553,7 @@ window.__RAW_DATA = {
               "score": "1473",
               "change": "+4"
             }
-          ],
-          "color": "#7ab8d6",
-          "softBg": "#edf5fa",
-          "initial": "L"
+          ]
         },
         {
           "name": "OpenRouter",
@@ -609,10 +610,7 @@ window.__RAW_DATA = {
               "score": "1.15T tokens",
               "change": "↑2%"
             }
-          ],
-          "color": "#b4a0d4",
-          "softBg": "#f5f0fa",
-          "initial": "O"
+          ]
         },
         {
           "name": "Product Hunt",
@@ -691,16 +689,9 @@ window.__RAW_DATA = {
               "rank": 12,
               "link": "https://www.producthunt.com/products/momentra"
             }
-          ],
-          "color": "#d4a882",
-          "softBg": "#faf5ee",
-          "initial": "P"
+          ]
         }
-      ],
-      "title": "榜单情况",
-      "icon": "fas fa-trophy",
-      "iconClass": "ranking"
+      ]
     }
-  },
-  "_manualEdit": "2026-06-15T01:52:23.657Z"
+  }
 };
