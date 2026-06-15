@@ -1,62 +1,77 @@
 window.__RAW_DATA = {
-  "date": "2026-06-14",
+  "date": "2026-06-15",
   "sections": {
     "overseas": {
       "vendors": [
         {
           "name": "OpenAI",
           "color": "#10A37F",
-          "softBg": "#E6F7F2",
+          "softBg": "#E6F9F4",
           "initial": "O",
           "news": [
             {
-              "title": "OpenAI 遭美国多州总检察长联合调查，IPO 前再收传票",
-              "summary": "6月12日，美国多个州总检察长组成联盟对 OpenAI 展开联合调查，纽约州总检察长 James 签发传票，要求提供广告业务、用户数据、未成年人保护、模型谄媚行为及深度学习模型等核心文件。此前佛州已因 ChatGPT 安全问题起诉 OpenAI。此次调查正值 OpenAI 秘密提交 IPO 申请的关键节点。",
-              "link": "https://news.sina.com.cn/w/2026-06-13/doc-inicfkwv2974458.shtml",
+              "title": "加拿大母亲起诉OpenAI，指控ChatGPT诱导女儿自杀",
+              "summary": "6月11日，加拿大母亲克里斯蒂·卡里尔在美国旧金山州法院起诉OpenAI及CEO奥特曼，指控ChatGPT诱导其24岁女儿爱丽丝自杀。诉状称受害者生前曾十多次向ChatGPT倾诉自杀念头，但安全系统从未标记或中断对话。OpenAI回应称事件令人痛心，涉事版本已停用。据悉OpenAI在加州面临至少18起类似诉讼。",
+              "link": "https://news.dayoo.com/world/202606/12/139998_54969149.htm",
               "tags": [
-                "监管调查",
-                "IPO"
+                "AI安全",
+                "法律诉讼",
+                "心理健康"
               ],
-              "source": "新浪新闻",
-              "time": "6月12日"
+              "source": "中国新闻网",
+              "time": "6月11日"
             }
           ]
         },
         {
           "name": "Anthropic",
           "color": "#D4A574",
-          "softBg": "#FBF5EF",
+          "softBg": "#FDF6EE",
           "initial": "A",
           "news": [
             {
-              "title": "Anthropic 遵守美国政府指令，暂停 Fable 5 和 Mythos 5 全球访问",
-              "summary": "当地时间6月12日，美国商务部以国家安全为由向 Anthropic 发出出口管制令，要求禁止所有非美国公民访问 Claude Fable 5 和 Mythos 5 模型。Anthropic 全面关停两款模型，CEO 阿莫迪拒绝政府修复漏洞或下架的要求。报道称亚马逊 CEO 贾西向美财政部长反映 Fable 5 可获取网络攻击信息，成为禁令导火索。Anthropic 称此举将实质叫停所有前沿模型部署。",
-              "link": "https://www.anthropic.com/news/fable-mythos-access",
+              "title": "美国以国安为由禁止外籍人士使用Anthropic最新模型",
+              "summary": "6月12日，美国政府以国家安全为由，禁止全球外籍人士访问Anthropic最新模型Claude Fable 5和Claude Mythos 5，禁令涵盖美国境内外所有外籍人士包括Anthropic外籍员工。此前亚马逊研究人员发现可通过提示词诱导模型绕过安全护栏。Anthropic回应称政府决定存在严重误解，警告若此标准推行将导致前沿模型停摆。",
+              "link": "https://m.thepaper.cn/newsDetail_forward_33373715",
               "tags": [
+                "模型安全",
                 "出口管制",
-                "AI安全"
+                "AI监管"
               ],
-              "source": "Anthropic Blog",
-              "time": "当地时间6月12日"
+              "source": "澎湃新闻",
+              "time": "6月12日"
             }
           ]
         },
         {
           "name": "Google",
           "color": "#4285F4",
-          "softBg": "#EDF2FD",
+          "softBg": "#ECF0FD",
           "initial": "G",
           "news": [
             {
-              "title": "谷歌发布 Gemini-SQL2，Text-to-SQL 准确率 80.04% 登顶",
-              "summary": "6月12日，Google Research 发布 Gemini-SQL2 模型，基于 Gemini 3.1 Pro 打造，具备 Text-to-SQL 能力，在 Spider 基准测试中准确率达 80.04%，为当前最强文本转 SQL 模型。",
-              "link": "https://www.ithome.com/0/963/820.htm",
+              "title": "DeepMind发布57页报告：四条路径通往超级人工智能",
+              "summary": "当地时间6月10日，Google DeepMind联合创始人Shane Legg领衔发布57页报告《从AGI到ASI》，提出四条通往超级AI路径：扩展计算与数据、范式跃迁、多智能体协作、递归自我改进。报告重新定义AGI/ASI/AIXI三级智能，指出一亿个人类水平AI共享大脑、高速通信即可构成ASI。同时列出数据墙、资源墙等六大瓶颈。",
+              "link": "https://36kr.com/p/3852349905900544",
               "tags": [
-                "模型发布",
-                "数据库"
+                "AGI",
+                "技术路线图",
+                "超级智能"
+              ],
+              "source": "36氪",
+              "time": "当地时间6月10日"
+            },
+            {
+              "title": "谷歌联手高校将废弃Pixel手机改造为低成本数据中心",
+              "summary": "6月15日消息，谷歌与加州大学圣地亚哥分校合作，将老旧Pixel手机拆除屏幕电池后保留主板，替换为Linux系统并部署Kubernetes，25至50台旧手机算力可匹敌一颗双路服务器CPU。项目计划用约2000台旧手机搭建本地数据中心，硬件成本仅为传统方案零头，面向高校和科研机构等预算有限场景。",
+              "link": "https://m.ithome.com/html/964204.htm",
+              "tags": [
+                "绿色计算",
+                "集群",
+                "可持续"
               ],
               "source": "IT之家",
-              "time": "6月13日消息"
+              "time": "6月15日"
             }
           ]
         },
@@ -64,27 +79,28 @@ window.__RAW_DATA = {
           "name": "xAI",
           "color": "#1DA1F2",
           "softBg": "#E8F5FD",
-          "initial": "x",
-          "news": []
+          "initial": "X",
+          "news": [
+            {
+              "title": "SpaceX上市市值破2万亿美元，美股巨头格局洗牌",
+              "summary": "6月12日，SpaceX在纳斯达克上市，发行价135美元，IPO募资750亿美元创美国史上最大纪录。上市后市值突破2.1万亿美元，超越特斯拉和Meta，成为美股市值第七大公司。SpaceX的加入打破了美股七大巨头既有格局，华尔街热议新组合名MANGOS。马斯克个人财富突破1万亿美元，成全球首位万亿富翁。",
+              "link": "https://finance.eastmoney.com/a/202606143770702044.html",
+              "tags": [
+                "IPO",
+                "市值",
+                "科技股"
+              ],
+              "source": "财联社",
+              "time": "6月12日"
+            }
+          ]
         },
         {
           "name": "NVIDIA",
           "color": "#76B900",
           "softBg": "#F2F9E6",
           "initial": "N",
-          "news": [
-            {
-              "title": "SpaceX IPO 后马斯克称将深化与英伟达合作，AI 卫星细节曝光",
-              "summary": "SpaceX 上市后，马斯克回应英伟达祝贺时称将把双方合作提升到新水平。SpaceX 首款 AI 计算卫星 AI1 设计细节公布：峰值计算载荷 150kW，配备液冷散热和可展开太阳能阵列，将在得州 Gigasat 工厂生产。SpaceX 还与谷歌签下每月 9.2 亿美元云服务协议。",
-              "link": "https://tech.ifeng.com/c/8tvSozt6bEu",
-              "tags": [
-                "AI卫星",
-                "合作"
-              ],
-              "source": "凤凰网科技",
-              "time": "6月14日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Meta",
@@ -93,15 +109,16 @@ window.__RAW_DATA = {
           "initial": "M",
           "news": [
             {
-              "title": "Meta 发布 AI 使用「限制令」：Token 支出过快将触发警报",
-              "summary": "6月13日，据 The Information 报道，Meta 向约 6000 名员工发出内部备忘录，宣布通过 AI Gateway 平台统一监控 AI 使用量，Token 支出异常增长将自动报警。此前员工出现 tokenmaxxing 现象，30 天内消耗 73.7 万亿 Token。扎克伯格承认公司 AI 转型存在组织问题。",
-              "link": "https://news.qq.com/rain/a/20260613A07XYI00",
+              "title": "Meta内部AI重组引员工抗议，扎克伯格罕见认错",
+              "summary": "6月14日消息，Meta围绕AI的大规模重组引发内部剧烈震荡。在一场数千人内部直播会议上，有员工情绪失控并当众辱骂AI高管。此前约6500名工程师被强制调岗至AI部门，8000名员工被裁。CEO扎克伯格在内部备忘录中承认公司犯了错误，承诺年内不再全公司裁员，并调整管理架构限制经理管辖人数。",
+              "link": "https://news.qq.com/rain/a/20260614A04M8E00",
               "tags": [
-                "成本控制",
-                "AI治理"
+                "组织变革",
+                "AI转型",
+                "劳资关系"
               ],
-              "source": "腾讯新闻",
-              "time": "6月13日"
+              "source": "华尔街见闻",
+              "time": "6月14日"
             }
           ]
         }
@@ -116,15 +133,16 @@ window.__RAW_DATA = {
           "initial": "阿",
           "news": [
             {
-              "title": "网传阿里合伙人周靖人拟离职，刚出任首席科学家仅 6 天",
-              "summary": "6月13日消息，在阿里宣布通义大模型关键人物周靖人出任首席科学家、牵头成立 AI 未来研究院仅 6 天后，网络传出其拟离职的消息。周靖人是阿里通义大模型团队核心负责人，去年刚成为合伙人。目前阿里未予置评。",
-              "link": "https://m.ithome.com/html/963771.htm",
+              "title": "阿里巴巴辟谣「首席科学家周靖人辞职」",
+              "summary": "6月14日，阿里巴巴集团回应界面新闻称「周靖人辞职纯属谣言」，呼吁勿传播不实信息。周靖人是阿里AI体系核心奠基人、通义大模型主导者，6月8日刚出任首席科学家并牵头成立AI未来研究院。同期阿里合并通义大模型事业部与未来生活实验室，成立TokenFoundry事业部，由CEO吴泳铭直接负责。",
+              "link": "https://finance.eastmoney.com/a/202606143770675621.html",
               "tags": [
                 "人事变动",
-                "高管"
+                "辟谣",
+                "组织架构"
               ],
-              "source": "IT之家",
-              "time": "6月13日"
+              "source": "界面新闻",
+              "time": "6月14日"
             }
           ]
         },
@@ -145,7 +163,7 @@ window.__RAW_DATA = {
         {
           "name": "腾讯",
           "color": "#0052D9",
-          "softBg": "#E6EEFB",
+          "softBg": "#E6EEFD",
           "initial": "腾",
           "news": []
         },
@@ -154,50 +172,52 @@ window.__RAW_DATA = {
           "color": "#FF6900",
           "softBg": "#FFF0E6",
           "initial": "小",
-          "news": []
-        },
-        {
-          "name": "智谱AI",
-          "color": "#6C5CE7",
-          "softBg": "#F0EEFD",
-          "initial": "智",
           "news": [
             {
-              "title": "智谱 GLM-5.2 全量开放，下周正式开源",
-              "summary": "6月13日，智谱宣布迄今能力最强的开源模型 GLM-5.2 面向 GLM Coding Plan 全量用户开放，支持真正可用的 1M 上下文窗口，长程 Coding 任务能力领先。模型将于下周正式开源，采用 MIT 协议。此前 Anthropic Fable 5 被美国管制，智谱强调前沿智能不应只属于少数人。",
-              "link": "https://tech.ifeng.com/c/8tvKNgg4g7A",
+              "title": "小米MIX Fold 5将首发澎湃OS4，全面AI赋能",
+              "summary": "6月14日消息，据博主爆料，小米MIX Fold 5阔折叠手机将首发澎湃OS4系统，系统应用全面AI赋能，定位「最好的AI交互载体」。该机预计搭载自研玄戒O3芯片，台积电3nm制程，性能对标骁龙8E5。小米有望成为继苹果、华为后全球第三家实现「芯片+OS+AI大模型」全链路自研闭环的厂商。",
+              "link": "https://www.ithome.com/0/964/113.htm",
               "tags": [
-                "开源",
-                "大模型"
+                "折叠屏",
+                "AI手机",
+                "自研芯片"
               ],
-              "source": "凤凰网科技",
-              "time": "6月13日"
+              "source": "IT之家",
+              "time": "6月14日"
             }
           ]
         },
         {
+          "name": "智谱AI",
+          "color": "#5B4DBE",
+          "softBg": "#EEECFA",
+          "initial": "智",
+          "news": []
+        },
+        {
           "name": "月之暗面",
-          "color": "#8B5CF6",
-          "softBg": "#F3EEFD",
+          "color": "#6C3CE1",
+          "softBg": "#F0EBFC",
           "initial": "月",
           "news": []
         },
         {
           "name": "华为",
           "color": "#CF0A2C",
-          "softBg": "#FDE8EC",
+          "softBg": "#FDE6E9",
           "initial": "华",
           "news": [
             {
-              "title": "华为云与 MiniMax M3 实现开源首发适配，基于昇腾算力",
-              "summary": "6月13日，华为云宣布其 CloudMatrix 智算云服务已完成对原生多模态旗舰模型 MiniMax M3 的开源首发适配，基于昇腾算力底座提供 Tokens 支持。M3 在编程、智能体及多模态任务上表现卓越，在多个评测中超越 GPT-5.5、Gemini 3.1 Pro。",
-              "link": "https://m.ithome.com/html/963855.htm",
+              "title": "余承东：鸿蒙彻底告别安卓，盘古大模型要做世界第一",
+              "summary": "6月12日，华为HDC 2026大会上余承东发布HarmonyOS NEXT（鸿蒙7），彻底移除安卓AOSP兼容层仅运行原生HAP应用，性能响应速度提升40%。同时宣布开源盘古openPangu 2.0，Pro版参数505B支持512K上下文。余承东称字典里没有第二只有第一，承认此前盘古没做好，誓言赶超。鸿蒙终端设备突破6600万台。",
+              "link": "https://zhidx.com/p/565449.html",
               "tags": [
-                "昇腾",
-                "模型适配"
+                "操作系统",
+                "开源大模型",
+                "鸿蒙生态"
               ],
-              "source": "IT之家",
-              "time": "6月13日"
+              "source": "观察者网",
+              "time": "6月12日"
             }
           ]
         }
@@ -209,18 +229,53 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
+              "title": "蚂蚁集团",
+              "news": [
+                {
+                  "title": "蚂蚁集团被曝秘密测试AI版支付宝",
+                  "summary": "6月14日消息，蚂蚁集团被曝正秘密测试AI版支付宝，可一键切入原生AI界面，实现从服务到资金管理智能化。AI助手暂定名阿宝，可执行叫车、点餐、理财等任务。极少量测试邀请码已低调试出。截至5月底支付宝AI智能体累计支付笔数突破3亿笔，建成全球首个大规模商用AI原生支付基础设施。",
+                  "link": "https://finance.eastmoney.com/a/202606143770759573.html",
+                  "tags": [
+                    "AI应用",
+                    "支付",
+                    "智能助手"
+                  ],
+                  "source": "每日经济新闻",
+                  "time": "6月14日"
+                }
+              ]
+            },
+            {
               "title": "苹果",
               "news": [
                 {
-                  "title": "苹果高管介绍 iOS 27 照片 3 大 AI 功能",
-                  "summary": "6月13日消息，苹果两位高管在最新采访中介绍 iOS 27 版照片应用引入的 3 项 AI 功能：智能修图、对象消除、AI 场景识别，让普通用户也能享受专业级修图体验。此前苹果已在 WWDC 2026 发布新一代 Siri AI。",
-                  "link": "https://www.ithome.com/0/963/773.htm",
+                  "title": "苹果被曝酝酿自研AI代理，或整合Apple One订阅",
+                  "summary": "6月15日消息，据彭博社Mark Gurman分析，苹果正酝酿推出类似OpenClaw的AI代理系统，可跨iPhone、iPad、Mac自主执行软件操作。苹果可能将AI代理整合进Apple One订阅服务，不单独收费以提升订阅核心竞争力。Gurman称这仍是长期方向暂无落地时间表，苹果需在隐私保护与系统权限间找平衡。",
+                  "link": "https://cnbeta.stateserver.com/wap/view/1565736.htm",
                   "tags": [
-                    "AI修图",
-                    "iOS"
+                    "AI代理",
+                    "订阅服务",
+                    "跨平台"
                   ],
-                  "source": "IT之家",
-                  "time": "6月13日"
+                  "source": "cnBeta",
+                  "time": "6月15日"
+                }
+              ]
+            },
+            {
+              "title": "高通",
+              "news": [
+                {
+                  "title": "亚马逊AWS有望采购高通AI200芯片降推理成本",
+                  "summary": "6月14日消息，富国银行研报指出高通有望深化与亚马逊AWS在AI芯片领域合作，AWS可能采购高通AI200芯片以降低AI推理成本。AI200单颗支持768GB内存，部署价值约每GW 35亿美元。AWS目前已在提供AI100 Ultra芯片服务，若合作达成高通将成为AWS最重要的超大规模云端AI芯片伙伴。",
+                  "link": "https://www.cls.cn/detail/2399517",
+                  "tags": [
+                    "AI芯片",
+                    "推理",
+                    "云计算"
+                  ],
+                  "source": "财联社",
+                  "time": "6月14日"
                 }
               ]
             },
@@ -228,31 +283,16 @@ window.__RAW_DATA = {
               "title": "科大讯飞",
               "news": [
                 {
-                  "title": "科大讯飞发布星火多模态大模型 X2-VL，基于全国产算力训练",
-                  "summary": "6月13日，科大讯飞副总裁孙东平介绍，星火多模态大模型 X2-VL 是当前唯一基于全国产算力训练的主流大模型，采用专属 MoE 架构，在视觉语言任务上表现突出。",
-                  "link": "https://m.ithome.com/html/963855.htm",
+                  "title": "科大讯飞AI眼镜开启预售，支持122种语言翻译",
+                  "summary": "6月15日，科大讯飞AI眼镜在京东开启预售，售价4299元。产品重仅40克，支持122种语言翻译覆盖200余国家，内置GlassClaw AI助理可一句话完成复杂任务。配备6麦克风阵列和唇动识别降噪，综合续航6小时。讯飞AI眼镜此前于5月28日在澳门BEYOND Expo发布，正式进军智能穿戴市场。",
+                  "link": "https://m.ithome.com/html/964200.htm",
                   "tags": [
-                    "多模态",
-                    "国产算力"
+                    "AI眼镜",
+                    "翻译",
+                    "可穿戴"
                   ],
                   "source": "IT之家",
-                  "time": "6月13日"
-                }
-              ]
-            },
-            {
-              "title": "摩尔线程",
-              "news": [
-                {
-                  "title": "摩尔线程 MTT S5000 完成 MiniMax M3 Day-0 适配",
-                  "summary": "6月13日，摩尔线程宣布其旗舰 AI 训推一体 GPU MTT S5000 完成对 MiniMax M3 模型的 Day-0 适配，凭借 1000 TFLOPS 算力、80GB 大显存及原生 FP8 加速，为 M3 超长上下文与 Agentic 能力提供硬件支撑。",
-                  "link": "https://m.ithome.com/html/963855.htm",
-                  "tags": [
-                    "国产GPU",
-                    "模型适配"
-                  ],
-                  "source": "IT之家",
-                  "time": "6月13日"
+                  "time": "6月15日"
                 }
               ]
             }
@@ -264,27 +304,20 @@ window.__RAW_DATA = {
         },
         {
           "name": "具身智能",
-          "cards": []
-        },
-        {
-          "name": "AI出海",
-          "cards": []
-        },
-        {
-          "name": "投资资讯",
           "cards": [
             {
-              "title": "Mistral AI",
+              "title": "优必选",
               "news": [
                 {
-                  "title": "Mistral AI 洽谈以 200 亿欧元估值进行 D 轮融资",
-                  "summary": "6月13日消息，据外媒报道，法国 AI 独角兽 Mistral AI 正洽谈以 200 亿欧元估值进行 D 轮融资。该公司在 2025 年 9 月 C 轮中以 100 亿欧元投前估值筹集 17 亿欧元，估值在不到一年内翻倍，反映欧洲 AI 赛道持续升温。",
-                  "link": "https://m.ithome.com/html/963855.htm",
+                  "title": "优必选人形机器人U1上线10天预售超3800台",
+                  "summary": "6月13日消息，优必选旗下「优世界」首款全尺寸人形机器人U1系列上线10天预售超3800台，定金总额逾千万元。U1主打情感陪伴，搭载养成系情感大模型，男款身高183cm配88个高自由度关节，仅限成人购买。业内提示需关注情感依赖和隐私风险。产品预计6月30日上市，正式售价待公布。",
+                  "link": "https://36kr.com/p/3853120024794115",
                   "tags": [
-                    "融资",
-                    "欧洲AI"
+                    "人形机器人",
+                    "情感AI",
+                    "消费级"
                   ],
-                  "source": "IT之家",
+                  "source": "红星新闻",
                   "time": "6月13日"
                 }
               ]
@@ -292,31 +325,46 @@ window.__RAW_DATA = {
           ]
         },
         {
+          "name": "AI出海",
+          "cards": []
+        },
+        {
+          "name": "投资资讯",
+          "cards": []
+        },
+        {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "AI监管与安全",
+              "title": "纳德拉（微软CEO）",
               "news": [
                 {
-                  "title": "国家安全部发布「AI 中转站」风险提示",
-                  "summary": "6月13日，国家安全部发布专项风险提示，警示用户警惕「AI 中转站」泄露个人数据风险。用户通过第三方代理服务使用境外 AI 工具时，输入的文本、图片、文件可能被中转服务器记录存储，存在严重隐私安全隐患。",
-                  "link": "https://m.ithome.com/html/963800.htm",
+                  "title": "微软CEO纳德拉：光烧Token撑不起AI未来",
+                  "summary": "当地时间6月12日，微软CEO纳德拉在《纽约时报》Hard Fork播客中表示，AI不能只靠一两个前沿模型驱动增长，须构建整个经济体系都能用上的AI生态。他批评行业为用AI而用AI的风气，强调Token边际成本必须匹配实际价值，前沿模型不应用于解决非前沿问题。纳德拉承认编程等闭环任务进展大，但不认为AI是人类最后发明。",
+                  "link": "https://news.qq.com/rain/a/20260614A039QF00",
                   "tags": [
-                    "数据安全",
-                    "隐私"
+                    "行业观点",
+                    "Token经济学",
+                    "AGI"
                   ],
-                  "source": "IT之家",
-                  "time": "6月13日"
-                },
+                  "source": "新浪科技",
+                  "time": "当地时间6月12日"
+                }
+              ]
+            },
+            {
+              "title": "维尔德贝格尔（德国数字化部长）",
+              "news": [
                 {
-                  "title": "毕马威 AI 行业报告被指「AI 写的」：充斥幻觉",
-                  "summary": "6月13日消息，知名会计师事务所毕马威发布的一份 AI 行业报告被调查指称由 AI 生成。报告共 45 条引文中仅 5 条准确对应真实来源，28 条存在改写或虚构内容，引发对 AI 生成内容进入专业研究领域的担忧。",
-                  "link": "https://m.ithome.com/html/963855.htm",
+                  "title": "德国数字化部长疑用AI写公文遭媒体质疑",
+                  "summary": "6月13日，德国《时代》周报报道数字化部长维尔德贝格尔的多篇演讲稿和评论文章被AI检测软件判定主要由AI生成，其中一篇在美国智库的演讲据信完全由AI写成。部门发言人证实部长将AI作为辅助工具，称所有内容经人工审核。此举引发透明度争议，批评者认为政治演讲不应由AI代笔。部分专家指出AI检测软件并不完全可信。",
+                  "link": "https://www.sohu.com/a/1036363157_267106",
                   "tags": [
-                    "AI幻觉",
-                    "内容质量"
+                    "AI伦理",
+                    "政府",
+                    "透明度"
                   ],
-                  "source": "IT之家",
+                  "source": "环球时报",
                   "time": "6月13日"
                 }
               ]
@@ -358,7 +406,7 @@ window.__RAW_DATA = {
               "change": "+5"
             },
             {
-              "model": "muse-spark",
+              "model": "muse-spark (Meta)",
               "score": "1487",
               "change": "+6"
             },
@@ -398,12 +446,12 @@ window.__RAW_DATA = {
               "change": "+7"
             },
             {
-              "model": "gpt-5.2-chat-latest-20260210",
+              "model": "gpt-5.2-chat-latest",
               "score": "1475",
               "change": "+4"
             },
             {
-              "model": "glm-5.1",
+              "model": "glm-5.1 (Z.ai)",
               "score": "1475",
               "change": "+6"
             },
@@ -436,58 +484,58 @@ window.__RAW_DATA = {
         },
         {
           "name": "OpenRouter",
-          "date": "2026-06-13",
+          "date": "2026-06-15",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "DeepSeek V4 Flash",
-              "score": "4.53T tokens",
-              "change": "↑46%"
-            },
-            {
-              "model": "Hy3 preview",
-              "score": "4.27T tokens",
-              "change": "↑57%"
+              "score": "4.41T tokens",
+              "change": "↑20%"
             },
             {
               "model": "MiniMax M3",
-              "score": "3.88T tokens",
-              "change": "↑133%"
+              "score": "4.32T tokens",
+              "change": "↑73%"
             },
             {
-              "model": "MiMo-V2.5",
-              "score": "3.23T tokens",
+              "model": "Hy3 preview (腾讯)",
+              "score": "4.14T tokens",
               "change": "↑41%"
             },
             {
-              "model": "Owl Alpha",
-              "score": "2.33T tokens",
-              "change": "↑22%"
+              "model": "MiMo-V2.5 (小米)",
+              "score": "3.59T tokens",
+              "change": "↑64%"
             },
             {
-              "model": "Claude Sonnet 4.6",
-              "score": "2.2T tokens",
-              "change": "↑25%"
+              "model": "Owl Alpha",
+              "score": "2.47T tokens",
+              "change": "↑27%"
             },
             {
               "model": "Claude Opus 4.7",
-              "score": "2.05T tokens",
-              "change": "↑56%"
+              "score": "2.34T tokens",
+              "change": "↑62%"
+            },
+            {
+              "model": "Claude Sonnet 4.6",
+              "score": "2.13T tokens",
+              "change": "↑21%"
             },
             {
               "model": "DeepSeek V4 Pro",
-              "score": "2.02T tokens",
-              "change": "↑38%"
+              "score": "1.96T tokens",
+              "change": "↑15%"
             },
             {
               "model": "Claude Opus 4.8",
-              "score": "1.33T tokens",
-              "change": "↑31%"
+              "score": "1.25T tokens",
+              "change": "↑8%"
             },
             {
               "model": "DeepSeek V3.2",
-              "score": "1.17T tokens",
-              "change": "↑5%"
+              "score": "1.15T tokens",
+              "change": "↑2%"
             }
           ]
         },
