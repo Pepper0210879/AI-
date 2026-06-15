@@ -104,7 +104,18 @@ window.__RAW_DATA = {
           "color": "#a8c47a",
           "softBg": "#f4f9ee",
           "initial": "N",
-          "news": [],
+          "news": [
+            {
+              "title": "SpaceX 历史性 IPO 后，马斯克称将深化与英伟达的关系",
+              "summary": "6月13日，SpaceX 股票登陆纳斯达克数小时后，英伟达在 X 上发文祝贺 SpaceX 团队完成“历史性的 IPO 首秀”。随后，马斯克也迅速回应，称将把“与英伟达令人兴奋的合作关系提升到新水平”。SpaceX完成IPO后股价大涨，市值达2.11万亿美元，马斯克成为全球首位万亿富豪。他表示将深化与英伟达合作，SpaceX还推出AI1卫星，并拿下多笔英伟达GPU算力大单。",
+              "link": "https://www.ithome.com/0/963/889.htm",
+              "tags": [
+                "马斯克英伟达"
+              ],
+              "source": "IT之家",
+              "time": "6月13日"
+            }
+          ],
           "logo": "logos/NVDIA.png"
         },
         {
@@ -674,5 +685,5 @@ window.__RAW_DATA = {
       "iconClass": "ranking"
     }
   },
-  "_manualEdit": "2026-06-15T01:45:55.648Z"
+  "_manualEdit": "2026-06-15T01:52:23.657Z"
 };
