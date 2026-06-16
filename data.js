@@ -162,8 +162,21 @@ window.__RAW_DATA = {
           ]
         },
         {
-          "name": "华为",
-          "news": []
+          "name": "MiniMax",
+          "news": [
+            {
+              "title": "MiniMax M3正式开源：428B原生多模态模型，百万级上下文",
+              "summary": "MiniMax于6月12日正式开源旗舰模型M3权重，总参数428B、激活参数23B，支持1M上下文。M3是首个从Step 0开始多模态混合训练的开源模型，在SWE-Bench Pro编程评测中超过GPT-5.5和Gemini 3.1 Pro，在Artificial Analysis综合智能指数排行榜上取得全球开源模型最高排名。输出速度已从30 TPS提升至80 TPS。华为云和摩尔线程已完成适配。",
+              "link": "https://m.ithome.com/html/964598.htm",
+              "tags": [
+                "开源模型",
+                "多模态",
+                "MoE"
+              ],
+              "source": "IT之家",
+              "time": "6月12日"
+            }
+          ]
         }
       ]
     },
@@ -172,23 +185,6 @@ window.__RAW_DATA = {
         {
           "name": "其他厂商",
           "cards": [
-            {
-              "title": "MiniMax",
-              "news": [
-                {
-                  "title": "MiniMax M3正式开源：428B原生多模态模型，百万级上下文",
-                  "summary": "MiniMax于6月12日正式开源旗舰模型M3权重，总参数428B、激活参数23B，支持1M上下文。M3是首个从Step 0开始多模态混合训练的开源模型，在SWE-Bench Pro编程评测中超过GPT-5.5和Gemini 3.1 Pro，在Artificial Analysis综合智能指数排行榜上取得全球开源模型最高排名。输出速度已从30 TPS提升至80 TPS。华为云和摩尔线程已完成适配。",
-                  "link": "https://m.ithome.com/html/964598.htm",
-                  "tags": [
-                    "开源模型",
-                    "多模态",
-                    "MoE"
-                  ],
-                  "source": "IT之家",
-                  "time": "6月12日"
-                }
-              ]
-            },
             {
               "title": "SK海力士",
               "news": [
