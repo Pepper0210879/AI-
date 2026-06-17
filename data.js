@@ -5,8 +5,8 @@ window.__RAW_DATA = {
       "vendors": [
         {
           "name": "OpenAI",
-          "color": "#10A37F",
-          "softBg": "#E6F7F2",
+          "color": "#7ab8d6",
+          "softBg": "#edf5fa",
           "initial": "O",
           "news": [
             {
@@ -45,12 +45,13 @@ window.__RAW_DATA = {
               "source": "虎嗅",
               "time": "当地时间6月15日"
             }
-          ]
+          ],
+          "logo": "logos/OpenAI.png"
         },
         {
           "name": "Anthropic",
-          "color": "#D4A574",
-          "softBg": "#FBF5EF",
+          "color": "#c4a882",
+          "softBg": "#faf5ee",
           "initial": "A",
           "news": [
             {
@@ -65,12 +66,13 @@ window.__RAW_DATA = {
               "source": "36氪",
               "time": "6月16日消息"
             }
-          ]
+          ],
+          "logo": "logos/Anthropic.png"
         },
         {
           "name": "Google",
-          "color": "#4285F4",
-          "softBg": "#ECF1FC",
+          "color": "#8ac4a0",
+          "softBg": "#effaf3",
           "initial": "G",
           "news": [
             {
@@ -85,12 +87,13 @@ window.__RAW_DATA = {
               "source": "IT之家",
               "time": "当地时间6月17日"
             }
-          ]
+          ],
+          "logo": "logos/Google.png"
         },
         {
           "name": "xAI",
-          "color": "#1DA1F2",
-          "softBg": "#E8F5FD",
+          "color": "#8ab4d4",
+          "softBg": "#eef5fb",
           "initial": "X",
           "news": [
             {
@@ -117,30 +120,36 @@ window.__RAW_DATA = {
               "source": "华尔街见闻",
               "time": "6月16日"
             }
-          ]
+          ],
+          "logo": "logos/xAI.png"
         },
         {
           "name": "NVIDIA",
-          "color": "#76B900",
-          "softBg": "#F0F7E6",
+          "color": "#a8c47a",
+          "softBg": "#f4f9ee",
           "initial": "N",
-          "news": []
+          "news": [],
+          "logo": "logos/NVDIA.png"
         },
         {
           "name": "Meta",
-          "color": "#0668E1",
-          "softBg": "#E6F0FC",
+          "color": "#8a9ad4",
+          "softBg": "#eff0fa",
           "initial": "M",
-          "news": []
+          "news": [],
+          "logo": "logos/Meta.png"
         }
-      ]
+      ],
+      "title": "海外主要厂商",
+      "icon": "fas fa-globe-americas",
+      "iconClass": "overseas"
     },
     "domestic": {
       "vendors": [
         {
           "name": "阿里云",
-          "color": "#FF6A00",
-          "softBg": "#FFF0E5",
+          "color": "#d4a06a",
+          "softBg": "#faf5ee",
           "initial": "阿",
           "news": [
             {
@@ -179,12 +188,13 @@ window.__RAW_DATA = {
               "source": "证券时报",
               "time": "6月16日"
             }
-          ]
+          ],
+          "logo": "logos/阿里云.png"
         },
         {
           "name": "火山引擎",
-          "color": "#3370FF",
-          "softBg": "#EBF0FF",
+          "color": "#8aaed4",
+          "softBg": "#eef5fb",
           "initial": "火",
           "news": [
             {
@@ -199,12 +209,13 @@ window.__RAW_DATA = {
               "source": "华尔街见闻",
               "time": "6月15日"
             }
-          ]
+          ],
+          "logo": "logos/火山引擎.png"
         },
         {
           "name": "DeepSeek",
-          "color": "#4D6BFE",
-          "softBg": "#EDEFFF",
+          "color": "#7ab8d6",
+          "softBg": "#edf5fa",
           "initial": "D",
           "news": [
             {
@@ -219,12 +230,13 @@ window.__RAW_DATA = {
               "source": "腾讯新闻",
               "time": "6月16日"
             }
-          ]
+          ],
+          "logo": "logos/DeepSeek.png"
         },
         {
           "name": "腾讯",
-          "color": "#0052D9",
-          "softBg": "#E6EEFA",
+          "color": "#8ac4a0",
+          "softBg": "#effaf3",
           "initial": "腾",
           "news": [
             {
@@ -251,13 +263,14 @@ window.__RAW_DATA = {
               "source": "IT之家",
               "time": "6月16日"
             }
-          ]
+          ],
+          "logo": "logos/腾讯.png"
         },
         {
           "name": "小米",
-          "color": "#FF6900",
-          "softBg": "#FFF0E5",
-          "initial": "小",
+          "color": "#d4a882",
+          "softBg": "#faf5ee",
+          "initial": "米",
           "news": [
             {
               "title": "小米MiMo Claw正式版上线，免费每天4小时",
@@ -271,30 +284,46 @@ window.__RAW_DATA = {
               "source": "凤凰网科技",
               "time": "6月16日"
             }
-          ]
+          ],
+          "logo": "logos/小米.jpg"
         },
         {
           "name": "智谱AI",
-          "color": "#6C5CE7",
-          "softBg": "#F0EDFC",
+          "color": "#b4a0d4",
+          "softBg": "#f5f0fa",
           "initial": "智",
-          "news": []
+          "news": [
+            {
+              "title": "GLM-5.2上线并开源：专注Coding与长程任务",
+              "summary": "6月17日，智谱上线并开园GLM - 5.2，该模型在Code Arena上取得全球可用模型第一的表现。",
+              "link": "https://mp.weixin.qq.com/s/hrZcV05ZSIKvd1dzSqDNDQ",
+              "tags": [],
+              "source": "智谱",
+              "time": "6月17日"
+            }
+          ],
+          "logo": "logos/智谱.png"
         },
         {
           "name": "月之暗面",
-          "color": "#7C3AED",
-          "softBg": "#F3EEFC",
+          "color": "#b4a0d4",
+          "softBg": "#f5f0fa",
           "initial": "月",
-          "news": []
+          "news": [],
+          "logo": "logos/月之暗面.png"
         },
         {
           "name": "华为",
-          "color": "#CF0A2C",
-          "softBg": "#FCE8EB",
+          "color": "#d4a0a0",
+          "softBg": "#faf0f0",
           "initial": "华",
-          "news": []
+          "news": [],
+          "logo": "logos/华为.jpg"
         }
-      ]
+      ],
+      "title": "国内主要厂商",
+      "icon": "fas fa-flag",
+      "iconClass": "domestic"
     },
     "other": {
       "categories": [
@@ -398,19 +427,31 @@ window.__RAW_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "icon": "fas fa-building",
+          "color": "#a0a8b0",
+          "softBg": "#f2f4f5"
         },
         {
           "name": "自动驾驶",
-          "cards": []
+          "cards": [],
+          "icon": "fas fa-car",
+          "color": "#82c4d4",
+          "softBg": "#eefafc"
         },
         {
           "name": "具身智能",
-          "cards": []
+          "cards": [],
+          "icon": "fas fa-robot",
+          "color": "#d4b482",
+          "softBg": "#faf6ee"
         },
         {
           "name": "AI出海",
-          "cards": []
+          "cards": [],
+          "icon": "fas fa-ship",
+          "color": "#8ac4a0",
+          "softBg": "#effaf3"
         },
         {
           "name": "投资资讯",
@@ -449,7 +490,10 @@ window.__RAW_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "icon": "fas fa-chart-line",
+          "color": "#d4c482",
+          "softBg": "#faf9ee"
         },
         {
           "name": "行业趋势&观点",
@@ -488,9 +532,15 @@ window.__RAW_DATA = {
                 }
               ]
             }
-          ]
+          ],
+          "icon": "fas fa-lightbulb",
+          "color": "#b4a0d4",
+          "softBg": "#f5f0fa"
         }
-      ]
+      ],
+      "title": "其他关注",
+      "icon": "fas fa-layer-group",
+      "iconClass": "other"
     },
     "ranking": {
       "platforms": [
@@ -599,7 +649,10 @@ window.__RAW_DATA = {
               "score": "1473",
               "change": "+4"
             }
-          ]
+          ],
+          "color": "#7ab8d6",
+          "softBg": "#edf5fa",
+          "initial": "L"
         },
         {
           "name": "OpenRouter",
@@ -656,7 +709,10 @@ window.__RAW_DATA = {
               "score": "1.13T tokens",
               "change": "↑4%"
             }
-          ]
+          ],
+          "color": "#b4a0d4",
+          "softBg": "#f5f0fa",
+          "initial": "O"
         },
         {
           "name": "Product Hunt",
@@ -783,9 +839,16 @@ window.__RAW_DATA = {
               "rank": 20,
               "link": "https://www.producthunt.com/posts/avocado"
             }
-          ]
+          ],
+          "color": "#d4a882",
+          "softBg": "#faf5ee",
+          "initial": "P"
         }
-      ]
+      ],
+      "title": "榜单情况",
+      "icon": "fas fa-trophy",
+      "iconClass": "ranking"
     }
-  }
+  },
+  "_manualEdit": "2026-06-17T01:56:26.596Z"
 };
