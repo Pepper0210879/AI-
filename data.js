@@ -243,6 +243,23 @@ window.__RAW_DATA = {
                   "time": "6月18日"
                 }
               ]
+            },
+            {
+              "title": "米哈游",
+              "news": [
+                {
+                  "title": "米哈游AI陪伴软件「林离Olivia」上架Steam",
+                  "summary": "6月18日，米哈游旗下AI陪伴应用《BSide: Olivia Lin》在Steam公开商店页面。主角「林离」定位为主修钢琴的上海女生，应用支持MIDI上传生成音乐视频、AI文字交流和桌面动态壁纸等功能，类型标注为Application而非Game，采用免费模式。",
+                  "link": "https://www.ithome.com/0/966/284.htm",
+                  "tags": [
+                    "AI陪伴",
+                    "AI应用",
+                    "米哈游"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月18日"
+                }
+              ]
             }
           ]
         },
@@ -295,7 +312,42 @@ window.__RAW_DATA = {
         },
         {
           "name": "投资资讯",
-          "cards": []
+          "cards": [
+            {
+              "title": "演语科技（Liblib）",
+              "news": [
+                {
+                  "title": "演语科技完成近3亿美元B+轮融资，ARR超3亿美元",
+                  "summary": "6月18日，演语科技（原Liblib）公布今年上半年完成的近3亿美元B+轮融资，估值超20亿美元，由Granite Asia、腾讯、顺为资本领投，高榕资本、蚂蚁集团、红杉中国等老股东加码。公司5月ARR已达3亿美元，较融资完成时增长近3倍。这是国内AI视频生成领域今年规模最大的一笔融资。",
+                  "link": "https://www.21jingji.com/article/20260618/herald/399ccd90e5a349b1b4fe32890604880b.html",
+                  "tags": [
+                    "AI融资",
+                    "视频生成",
+                    "B+轮"
+                  ],
+                  "source": "21世纪经济报道",
+                  "time": "6月18日"
+                }
+              ]
+            },
+            {
+              "title": "Momenta",
+              "news": [
+                {
+                  "title": "Momenta港股IPO备案通过，将冲击「物理AI第一股」",
+                  "summary": "6月18日，Momenta取得中国证监会境外发行上市备案通知书，拟发行不超4375万股赴港上市。CEO曹旭东将Momenta定位为物理AI基座模型构建者，非单纯的自动驾驶公司。其R7世界模型已量产首发，全球前10大车企中9家已合作，量产车辆超90万辆。",
+                  "link": "https://www.stcn.com/article/detail/3969679.html",
+                  "tags": [
+                    "IPO",
+                    "物理AI",
+                    "自动驾驶"
+                  ],
+                  "source": "证券时报",
+                  "time": "6月18日"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "行业趋势&观点",
@@ -365,6 +417,23 @@ window.__RAW_DATA = {
                   ],
                   "source": "东方财富",
                   "time": "6月17日消息"
+                }
+              ]
+            },
+            {
+              "title": "皮尤研究中心",
+              "news": [
+                {
+                  "title": "皮尤民调：63%美国人认为AI发展过快，但使用率创新高",
+                  "summary": "6月18日，皮尤研究中心发布最新民调显示，63%美国成年人认为AI发展速度过快，仅16%认为AI对社会有积极影响。与此同时，49%的美国人使用过AI聊天机器人，较2024年的33%大幅上升；ChatGPT使用率达44%，较2023年翻倍。年轻人使用AI比例最高但也最悲观。",
+                  "link": "https://www.ithome.com/0/966/233.htm",
+                  "tags": [
+                    "行业数据",
+                    "AI态度",
+                    "社会影响"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月18日"
                 }
               ]
             }
