@@ -12,7 +12,19 @@ const DEFAULT_DATA = {
           "color": "#10A37F",
           "softBg": "#E6F7F4",
           "initial": "O",
-          "news": []
+          "news": [
+            {
+              "title": "OpenAI GPT-5.6 系列有望下周登场，性能优于 Claude Mythos",
+              "summary": "6月20日消息，OpenAI有望下周推出GPT-5.6系列模型，涵盖mini、标准版及Pro版。上下文窗口从100万Tokens扩展至150万，编码能力显著优化，智能体编码已优于Anthropic Mythos系列。部分Pro用户已可提前体验，API定价仅为Claude Fable 5的三分之一。",
+              "link": "https://tech.ifeng.com/c/8u6vLpjeWsc",
+              "tags": [
+                "GPT-5.6",
+                "大模型"
+              ],
+              "source": "凤凰科技",
+              "time": "6月20日"
+            }
+          ]
         },
         {
           "name": "Anthropic",
@@ -49,12 +61,11 @@ const DEFAULT_DATA = {
           "initial": "M",
           "news": [
             {
-              "title": "Meta员工士气低迷，马斯克X平台趁机挖人",
-              "summary": "6月20日消息，Meta CTO博斯沃思宣布将改善办公室零食福利以提振士气后，X产品负责人比尔直接发文挖角Meta员工，称会匹配甚至超过任何零食预算报价。X招聘Web和数据工程师年薪18万至44万美元。此前Meta经历多轮裁员，CTO承认士气为20年来最糟。",
+              "title": "Meta 员工士气低迷，马斯克 X 平台趁机挖人",
+              "summary": "6月20日消息，Meta CTO宣布改善办公室零食福利提振士气后，X产品负责人直接发文挖角Meta员工，称会匹配甚至超过任何零食预算报价。X招聘Web和数据工程师年薪18万至44万美元。此前Meta经历多轮裁员，士气为20年来最糟。",
               "link": "https://www.ithome.com/0/966/523.htm",
               "tags": [
-                "人才争夺",
-                "员工福利"
+                "人才争夺"
               ],
               "source": "IT之家",
               "time": "1天前"
@@ -93,8 +104,8 @@ const DEFAULT_DATA = {
           "initial": "腾",
           "news": [
             {
-              "title": "微信AI助手「小微」灰度上线，支持一句话生成小程序",
-              "summary": "6月20日消息，微信原生AI助手「小微」扩大灰度测试，支持通过文字或语音对话操作微信原生功能，包括调整设置、发送消息、点外卖、生成图片等。最受关注的功能是「一句话生成小程序」，用户可通过自然语言描述直接生成小程序雏形，并支持多轮对话修改。该功能旨在打通微信生态内数百万小程序。",
+              "title": "微信 AI 助手「小微」灰度上线，支持一句话生成小程序",
+              "summary": "6月20日消息，微信原生AI助手「小微」扩大灰度测试，支持通过文字或语音对话操作微信原生功能，包括调整设置、发送消息、点外卖、生成图片等。最受关注的是「一句话生成小程序」，用户可通过自然语言描述直接生成小程序雏形。",
               "link": "https://www.ithome.com/0/966/534.htm",
               "tags": [
                 "AI助手",
@@ -117,14 +128,38 @@ const DEFAULT_DATA = {
           "color": "#5B4CBF",
           "softBg": "#EEEDF9",
           "initial": "智",
-          "news": []
+          "news": [
+            {
+              "title": "智谱 GLM 5.2 登顶 Design Arena 网页设计 AI 榜单",
+              "summary": "6月20日，Design Arena宣布智谱GLM-5.2在网页设计盲测中超越Claude Fable 5和Opus 4.7，首次登顶总分第一。GLM 5.2的TailwindCSS使用率达91%（Fable 5仅57%），擅长排版和动画，每百万tokens仅1.40/4.40美元，约为Fable 5十分之一，以MIT协议开源。",
+              "link": "https://www.ithome.com/0/966/458.htm",
+              "tags": [
+                "GLM-5.2",
+                "设计评测"
+              ],
+              "source": "IT之家",
+              "time": "6月20日"
+            }
+          ]
         },
         {
           "name": "月之暗面",
           "color": "#6C5CE7",
           "softBg": "#F0EEFD",
           "initial": "月",
-          "news": []
+          "news": [
+            {
+              "title": "四台 Mac Studio 成功本地运行万亿参数 Kimi K2.6 模型",
+              "summary": "6月20日消息，LM Studio与苹果合作，在四台Mac Studio（M3 Ultra/每台512GB内存）集群上成功本地运行月之暗面万亿参数Kimi K2.6模型，总内存池约1.5TB，推理速度约28 tokens/s。硬件成本约4.2万美元，远低于传统H100集群。",
+              "link": "https://m.ithome.com/html/966539.htm",
+              "tags": [
+                "本地部署",
+                "Mac Studio"
+              ],
+              "source": "IT之家",
+              "time": "6月20日"
+            }
+          ]
         },
         {
           "name": "华为",
@@ -139,7 +174,24 @@ const DEFAULT_DATA = {
       "categories": [
         {
           "name": "具身智能",
-          "cards": []
+          "cards": [
+            {
+              "title": "宇树科技",
+              "news": [
+                {
+                  "title": "人形机器人 Pemba 登顶 6200 米火山，基于宇树 G1 改装",
+                  "summary": "6月20日消息，基于宇树G1改装的人形机器人Pemba成功登顶厄瓜多尔钦博拉索火山海拔6200米顶峰，成为全球首台登顶6000米以上高峰的人形机器人。在坡度低于30度路段可独立行走，全程耗时16小时。项目系三冠探险计划首站，未来目标挑战珠穆朗玛峰。",
+                  "link": "https://finance.sina.com.cn/jjxw/2026-06-20/doc-iniczxru1920708.shtml",
+                  "tags": [
+                    "人形机器人",
+                    "极限测试"
+                  ],
+                  "source": "新浪财经",
+                  "time": "6月20日"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "自动驾驶",
@@ -155,7 +207,24 @@ const DEFAULT_DATA = {
         },
         {
           "name": "其他厂商",
-          "cards": []
+          "cards": [
+            {
+              "title": "金山办公",
+              "news": [
+                {
+                  "title": "金山办公将推组织级 AI 产品企业大脑 WPS Comate",
+                  "summary": "6月20日消息，金山办公副总裁透露将推出面向中大型组织的AI办公产品WPS Comate，旨在整合组织内数据、理解团队协作关系、生成数字员工融入业务决策。产品将于7月面世，有望成为国内首个规模化交付的企业大脑产品。",
+                  "link": "https://tech.ifeng.com/c/8u6vphIFC5w",
+                  "tags": [
+                    "AI办公",
+                    "企业服务"
+                  ],
+                  "source": "凤凰科技",
+                  "time": "6月20日"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "行业趋势&观点",
@@ -164,8 +233,8 @@ const DEFAULT_DATA = {
               "title": "高通CEO安蒙",
               "news": [
                 {
-                  "title": "高通CEO安蒙：智能眼镜市场有望比肩手机",
-                  "summary": "当地时间6月19日，高通CEO安蒙接受CNBC采访时表示，AI智能体将改变人们使用应用和设备的方式，未来手机和新型设备都将围绕AI智能体重新设计。高通正参与40多种AI设备的设计，涵盖智能首饰、摄像头耳机、智能胸针等。安蒙最看好智能眼镜，预计其市场规模最终可比肩智能手机（年出货超12亿部）。",
+                  "title": "高通 CEO 安蒙：智能眼镜市场有望比肩手机",
+                  "summary": "当地时间6月19日，高通CEO安蒙接受CNBC采访时表示AI智能体将改变人们使用设备和应用的方式，手机和新型设备都将围绕AI智能体重新设计。高通正参与40多种AI设备设计，安蒙最看好智能眼镜，预计市场规模最终可比肩智能手机。",
                   "link": "https://www.ithome.com/0/966/548.htm",
                   "tags": [
                     "智能眼镜",
@@ -180,11 +249,11 @@ const DEFAULT_DATA = {
               "title": "Netflix工程师",
               "news": [
                 {
-                  "title": "Netflix工程师开源Headroom工具，可节省60%-95% Token消耗",
-                  "summary": "6月20日消息，Netflix高级工程师开发的开源工具Headroom近日爆火，GitHub星标超3.96万，累计帮助用户节省约70万美元成本。Headroom在AI应用与LLM之间建立本地透明压缩层，自动压缩冗余数据。研究指出AI应用中约76%的Token消耗仅用于读取用户输入，该工具能大幅降低API成本。",
+                  "title": "Netflix 工程师开源 Headroom，可节省 60%-95% Token 消耗",
+                  "summary": "6月20日消息，Netflix高级工程师开发的开源工具Headroom近日爆火，GitHub星标超3.96万，累计节省约70万美元成本。Headroom在AI应用与LLM间建立本地透明压缩层，自动压缩冗余数据，AI应用中约76%的Token消耗仅用于读取用户输入。",
                   "link": "https://www.ithome.com/0/966/527.htm",
                   "tags": [
-                    "开源工具",
+                    "开源",
                     "Token优化"
                   ],
                   "source": "IT之家",
@@ -196,15 +265,15 @@ const DEFAULT_DATA = {
               "title": "中国科学家",
               "news": [
                 {
-                  "title": "中国科学家提出AI语言，文本压缩至27.9%仍保留99.5%语义",
-                  "summary": "上海交大等高校团队提出BabelTele压缩方法，将AI模型间通信文本压缩至原长的27.9%，语义保留率达99.5%。这种人类几乎无法阅读的AI语言在Gemini等模型间传递时理解准确率稳定，为AI Agent通信和长文本处理提供了新思路，有助于降低多智能体系统通信成本。",
+                  "title": "中国科学家提出「AI 语言」，文本压缩至 27.9% 仍保留 99.5% 语义",
+                  "summary": "上海交大等团队提出BabelTele压缩方法，将AI模型间通信文本压缩至原长27.9%，语义保留率达99.5%。这种人类几乎无法阅读的AI语言在Gemini等模型间传递时理解准确率稳定，为AI Agent通信和长文本处理提供新思路。",
                   "link": "https://www.ithome.com/0/966/529.htm",
                   "tags": [
                     "学术研究",
                     "AI通信"
                   ],
                   "source": "IT之家",
-                  "time": "6月21日"
+                  "time": "6月20日"
                 }
               ]
             },
@@ -212,8 +281,8 @@ const DEFAULT_DATA = {
               "title": "Take-Two前AI负责人",
               "news": [
                 {
-                  "title": "Take-Two前AI负责人：生成式AI或败坏整个AI领域声誉",
-                  "summary": "当地时间6月19日，Take-Two前AI研究负责人迪肯博士接受采访时表示，生成式AI热度被严重夸大，一旦泡沫破裂可能连累传统AI研究。Take-Two已于今年4月裁撤整个AI研究团队，迪肯呼吁行业重新认识传统AI技术的价值，认为大语言模型已进入幻灭低谷期。",
+                  "title": "Take-Two 前 AI 负责人：生成式 AI 或败坏整个 AI 领域声誉",
+                  "summary": "当地时间6月19日，Take-Two前AI研究负责人迪肯博士表示生成式AI热度被严重夸大，一旦泡沫破裂可能连累传统AI研究。Take-Two已于4月裁撤整个AI研究团队，迪肯呼吁行业重新认识传统AI价值，认为大语言模型已进入幻灭低谷期。",
                   "link": "https://www.ithome.com/0/966/565.htm",
                   "tags": [
                     "AI泡沫",
@@ -458,66 +527,6 @@ const DEFAULT_DATA = {
               "category": "Design",
               "rank": 10,
               "link": "https://www.producthunt.com/search?q=EverArt+5.0"
-            },
-            {
-              "name": "Potis AI",
-              "category": "Artificial Intelligence",
-              "rank": 11,
-              "link": "https://www.producthunt.com/search?q=Potis+AI"
-            },
-            {
-              "name": "Make It Snappy",
-              "category": "User Experience",
-              "rank": 12,
-              "link": "https://www.producthunt.com/search?q=Make+It+Snappy"
-            },
-            {
-              "name": "Flutter Flow 6.0",
-              "category": "Developer Tools",
-              "rank": 13,
-              "link": "https://www.producthunt.com/search?q=Flutter+Flow+6.0"
-            },
-            {
-              "name": "Zendo Edit",
-              "category": "Video",
-              "rank": 14,
-              "link": "https://www.producthunt.com/search?q=Zendo+Edit"
-            },
-            {
-              "name": "Rally",
-              "category": "Productivity",
-              "rank": 15,
-              "link": "https://www.producthunt.com/search?q=Rally"
-            },
-            {
-              "name": "Sune",
-              "category": "Productivity",
-              "rank": 16,
-              "link": "https://www.producthunt.com/search?q=Sune"
-            },
-            {
-              "name": "Pulsetic",
-              "category": "Developer Tools",
-              "rank": 17,
-              "link": "https://www.producthunt.com/search?q=Pulsetic"
-            },
-            {
-              "name": "Loom 4.0",
-              "category": "Productivity",
-              "rank": 18,
-              "link": "https://www.producthunt.com/search?q=Loom+4.0"
-            },
-            {
-              "name": "Sheetify",
-              "category": "Data & Analytics",
-              "rank": 19,
-              "link": "https://www.producthunt.com/search?q=Sheetify"
-            },
-            {
-              "name": "Bezel 3.0",
-              "category": "Design",
-              "rank": 20,
-              "link": "https://www.producthunt.com/search?q=Bezel+3.0"
             }
           ]
         }
