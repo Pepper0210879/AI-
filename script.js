@@ -693,7 +693,6 @@ const NEWS_DATA = {
       ]
     }
   }
-}
 };
 
 const CATEGORY_DISPLAY = {

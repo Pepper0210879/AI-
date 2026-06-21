@@ -692,7 +692,6 @@ const DEFAULT_DATA = {
       ]
     }
   }
-}
 };
 
 function loadAPIConfig() {
