@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-21",
+  "date": "2026-06-20",
   "sections": {
     "overseas": {
       "vendors": [
@@ -15,21 +15,90 @@
           "color": "#D4A574",
           "softBg": "#FBF5EF",
           "initial": "A",
-          "news": []
+          "news": [
+            {
+              "title": "AlphaFold之父Jumper从谷歌跳槽Anthropic",
+              "summary": "当地时间6月18日，2024年诺贝尔化学奖得主、AlphaFold核心缔造者John Jumper宣布离开谷歌DeepMind，加入Anthropic。Jumper在DeepMind工作近九年，主导开发的AlphaFold被诺奖委员会认为是AI迄今最具影响力的应用之一。此前两天，谷歌Gemini联合负责人Noam Shazeer已宣布转投OpenAI，谷歌48小时内连失两位AI核心人物。",
+              "link": "https://www.36kr.com/p/3860814933660674",
+              "tags": [
+                "人才争夺",
+                "AlphaFold"
+              ],
+              "source": "36氪",
+              "time": "2天前"
+            },
+            {
+              "title": "Anthropic高管称有信心数日内重新开放Mythos与Fable 5",
+              "summary": "当地时间6月19日，Anthropic国际董事总经理恰乌里在首尔新闻发布会上表示，公司有信心在未来几天内向美国以外地区重新开放Claude Mythos及Fable 5模型。此前白宫以国家安全为由下令限制非美国用户访问这两个前沿模型，恰乌里将此归因于一个安全漏洞场景，并宣布将深化对韩投资、开设首尔办事处。",
+              "link": "https://wallstreetcn.com/articles/3775040",
+              "tags": [
+                "出口管制",
+                "Claude"
+              ],
+              "source": "华尔街见闻",
+              "time": "2天前"
+            }
+          ]
         },
         {
           "name": "Google",
           "color": "#4285F4",
           "softBg": "#EBF1FD",
           "initial": "G",
-          "news": []
+          "news": [
+            {
+              "title": "谷歌AI搜索强推AI概览，意外为DuckDuckGo引流",
+              "summary": "6月19日消息，谷歌在搜索引擎中强推AI概览功能引发用户反弹。当用户搜索no AI等短语时，谷歌AI竟主动建议前往DuckDuckGo的无AI搜索页面。DuckDuckGo随后晒出截图证实此事，其应用安装量周环比增长达30%。谷歌至今不允许用户永久关闭AI概览，与DuckDuckGo可随时开关AI功能形成鲜明对比。",
+              "link": "https://news.qq.com/rain/a/20260620A04JOA00",
+              "tags": [
+                "AI搜索",
+                "用户体验"
+              ],
+              "source": "腾讯新闻",
+              "time": "1天前"
+            },
+            {
+              "title": "谷歌协力打造全球首个AI艺术博物馆Dataland",
+              "summary": "当地时间6月18日，谷歌宣布携手艺术家Refik Anadol在洛杉矶打造全球首个AI艺术博物馆Dataland，于6月20日开馆。博物馆面积约2500平方米，使用Gemini及扩散模型等AI技术实时生成12亿像素超现实画面，并配合动态声景和算法气味，形成多感官沉浸式体验。系统运行在87%无碳可再生能源上。",
+              "link": "https://www.donews.com/news/detail/4/6602588.html",
+              "tags": [
+                "AI艺术",
+                "Gemini"
+              ],
+              "source": "DoNews",
+              "time": "2天前"
+            }
+          ]
         },
         {
           "name": "xAI",
           "color": "#000000",
           "softBg": "#F2F2F2",
           "initial": "x",
-          "news": []
+          "news": [
+            {
+              "title": "杨立昆锐评马斯克：xAI已经失败，SpaceX出色",
+              "summary": "当地时间6月18日，图灵奖得主杨立昆接受CNBC采访时表示，马斯克创办的xAI某种程度上已经失败，创始团队全部出走导致难以招到顶尖AI人才，被迫将数据中心出租给Anthropic等对手以回收成本。杨立昆认为xAI无法参与最前沿AI竞争，但对SpaceX和特斯拉FSD给予正面评价。同时他警告AI行业若不降本恐面临泡沫破裂。",
+              "link": "https://m.techweb.com.cn/marticle/2026-06-19/2976708.shtml",
+              "tags": [
+                "xAI",
+                "行业观点"
+              ],
+              "source": "TechWeb",
+              "time": "2天前"
+            },
+            {
+              "title": "xAI为微软Office推出Grok扩展",
+              "summary": "6月19日，马斯克旗下SpaceXAI面向微软Word、Excel和PowerPoint推出Grok Office扩展。用户安装后在Office右侧出现对话侧边栏，可通过自然语言指令自动生成文档、分析数据、制作幻灯片。扩展需订阅SuperGrok或Heavy等付费计划，标志着Grok从独立聊天机器人向嵌入式办公助手转型。",
+              "link": "https://tech.ifeng.com/c/8u704LDXfHT",
+              "tags": [
+                "Grok",
+                "Office"
+              ],
+              "source": "凤凰科技",
+              "time": "1天前"
+            }
+          ]
         },
         {
           "name": "NVIDIA",
@@ -45,15 +114,15 @@
           "initial": "M",
           "news": [
             {
-              "title": "Meta员工士气低迷，马斯克X平台趁机挖人",
-              "summary": "6月20日消息，Meta CTO博斯沃思宣布将改善办公室零食福利以提振士气后，X产品负责人比尔直接发文挖角Meta员工，称会匹配甚至超过任何零食预算报价。X招聘Web和数据工程师年薪18万至44万美元。此前Meta经历多轮裁员，CTO承认士气为20年来最糟。",
-              "link": "https://www.ithome.com/0/966/523.htm",
+              "title": "扎克伯格承诺Meta今年不再裁员，员工士气仍跌至谷底",
+              "summary": "当地时间6月11日，扎克伯格向员工发内部备忘录，承诺Meta今年余下时间不再裁员，但坦言未来可能更艰难。此前Meta在AI转型重组中裁撤8000人（占10%），约7000人被强制调岗至AI项目从事基础数据工作。扎克伯格宣布7月办AI黑客松试图提振士气，却遭员工冷淡回绝，CTO承认士气或为20年来最糟。",
+              "link": "https://finance.sina.cn/stock/jdts/2026-06-20/detail-iniczanc0927721.d.html",
               "tags": [
-                "人才争夺",
-                "员工福利"
+                "裁员",
+                "AI转型"
               ],
-              "source": "IT之家",
-              "time": "1天前"
+              "source": "新浪财经",
+              "time": "6月11日"
             }
           ]
         }
@@ -66,7 +135,19 @@
           "color": "#FF6A00",
           "softBg": "#FFF0E5",
           "initial": "阿",
-          "news": []
+          "news": [
+            {
+              "title": "蔡崇信：阿里全面投入AI，开源推动力来自中国企业",
+              "summary": "当地时间6月18日，阿里主席蔡崇信在VivaTech 2026欧洲科技峰会上表示，AI总潜在市场规模对标全球人类生产力达50万亿美元，阿里凭借能源、基础设施、模型和应用层全栈优势全面投入AI。他强调全球AI开源的主要推动力量如今来自中国企业，千问（Qwen）已成为全球最受欢迎的开源模型之一。",
+              "link": "https://tech.huanqiu.com/article/4S2dClJDEt0",
+              "tags": [
+                "开源",
+                "全栈AI"
+              ],
+              "source": "环球网",
+              "time": "2天前"
+            }
+          ]
         },
         {
           "name": "火山引擎",
@@ -87,19 +168,7 @@
           "color": "#0052D9",
           "softBg": "#E5EDFB",
           "initial": "腾",
-          "news": [
-            {
-              "title": "微信AI助手「小微」灰度上线，支持一句话生成小程序",
-              "summary": "6月20日消息，微信原生AI助手「小微」扩大灰度测试，支持通过文字或语音对话操作微信原生功能，包括调整设置、发送消息、点外卖、生成图片等。最受关注的功能是「一句话生成小程序」，用户可通过自然语言描述直接生成小程序雏形，并支持多轮对话修改。该功能旨在打通微信生态内数百万小程序。",
-              "link": "https://www.ithome.com/0/966/534.htm",
-              "tags": [
-                "AI助手",
-                "小程序"
-              ],
-              "source": "IT之家",
-              "time": "1天前"
-            }
-          ]
+          "news": []
         },
         {
           "name": "小米",
@@ -113,14 +182,38 @@
           "color": "#5B4CBF",
           "softBg": "#EEEDF9",
           "initial": "智",
-          "news": []
+          "news": [
+            {
+              "title": "智谱创始人唐杰回应马斯克：中国大模型追上Fable用不了那么久",
+              "summary": "6月18日，马斯克在X平台预测中国大模型需到2027年Q1才能追上Anthropic Fable级别。智谱AI创始人唐杰随即回应称用不了那么久。此前智谱刚发布GLM-5.2，在FrontierSWE编程基准仅落后Claude Opus 4.8约1个百分点，智谱港股当日大涨26%创历史新高。",
+              "link": "https://m.thepaper.cn/newsDetail_forward_33418162",
+              "tags": [
+                "大模型追赶",
+                "开源"
+              ],
+              "source": "澎湃新闻",
+              "time": "2天前"
+            }
+          ]
         },
         {
           "name": "月之暗面",
           "color": "#6C5CE7",
           "softBg": "#F0EEFD",
           "initial": "月",
-          "news": []
+          "news": [
+            {
+              "title": "四台Mac Studio成功本地运行万亿参数Kimi K2.6模型",
+              "summary": "6月20日消息，在WWDC 2026期间，LM Studio与苹果合作，成功在四台Mac Studio（M3 Ultra/每台512GB内存）集群上本地运行月之暗面的万亿参数Kimi K2.6模型，总内存池约1.5TB，推理速度约28 tokens/s。硬件成本约4.2万美元，远低于传统H100集群的30万美元，被视为本地私有AI部署的标志性突破。",
+              "link": "https://m.ithome.com/html/966539.htm",
+              "tags": [
+                "本地部署",
+                "Mac Studio"
+              ],
+              "source": "IT之家",
+              "time": "6月20日"
+            }
+          ]
         },
         {
           "name": "华为",
@@ -135,11 +228,45 @@
       "categories": [
         {
           "name": "具身智能",
-          "cards": []
+          "cards": [
+            {
+              "title": "银河通用",
+              "news": [
+                {
+                  "title": "银河通用发布全球首个人形机器人通用小脑GPT模型",
+                  "summary": "6月19日，银河通用机器人发布AstraBrain-WBC 0.5，全球首个达到GPT-1量级（8040万参数）的人形机器人全身实时运控大模型。模型使用2万小时人类动作数据训练，首次验证运动控制领域的Scaling Law：数据从200万帧扩展至20亿帧后成功率从83%提升至93%。论文已被CVPR 2026接收，代码全面开源。",
+                  "link": "https://www.qbitai.com/2026/06/436813.html",
+                  "tags": [
+                    "运动控制",
+                    "基础模型"
+                  ],
+                  "source": "量子位",
+                  "time": "2天前"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "自动驾驶",
-          "cards": []
+          "cards": [
+            {
+              "title": "Rivian",
+              "news": [
+                {
+                  "title": "Rivian因夸大初代车型自动驾驶能力遭车主集体起诉",
+                  "summary": "6月19日消息，美国造车新势力Rivian因涉嫌在五年间系统性夸大初代R1T皮卡和R1S SUV的自动驾驶能力，在加州中区联邦法院遭消费者集体起诉。原告指控Rivian承诺的脱手脱眼驾驶功能因硬件不足永远无法实现，CEO Scaringe 2022年的公开表态被引为证据。Rivian以诉讼审理中为由不予置评。",
+                  "link": "https://m.ithome.com/html/966437.htm",
+                  "tags": [
+                    "虚假宣传",
+                    "集体诉讼"
+                  ],
+                  "source": "IT之家",
+                  "time": "1天前"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "AI出海",
@@ -157,66 +284,50 @@
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "高通CEO安蒙",
+              "title": "挪威政府",
               "news": [
                 {
-                  "title": "高通CEO安蒙：智能眼镜市场有望比肩手机",
-                  "summary": "当地时间6月19日，高通CEO安蒙接受CNBC采访时表示，AI智能体将改变人们使用应用和设备的方式，未来手机和新型设备都将围绕AI智能体重新设计。高通正参与40多种AI设备的设计，涵盖智能首饰、摄像头耳机、智能胸针等。安蒙最看好智能眼镜，预计其市场规模最终可比肩智能手机（年出货超12亿部）。",
-                  "link": "https://www.ithome.com/0/966/548.htm",
+                  "title": "挪威将在小学阶段全面禁止使用生成式AI",
+                  "summary": "当地时间6月19日，挪威首相斯特勒宣布从8月底新学年起，小学1-7年级原则上全面禁止使用生成式AI工具，初中生须在教师监管下谨慎使用，高中生则学习恰当使用AI。此前挪威已禁止学生在校使用智能手机，并计划立法增加纸质教材使用，以扭转基础教育过度依赖电子设备的趋势。",
+                  "link": "https://k.sina.com.cn/article_1371701597_m51c2815d03301g0pw.html",
                   "tags": [
-                    "智能眼镜",
-                    "AI智能体"
+                    "AI监管",
+                    "教育"
                   ],
-                  "source": "IT之家",
-                  "time": "2天前"
+                  "source": "新浪新闻",
+                  "time": "6月19日"
                 }
               ]
             },
             {
-              "title": "Netflix工程师",
+              "title": "印度首富安巴尼",
               "news": [
                 {
-                  "title": "Netflix工程师开源Headroom工具，可节省60%-95% Token消耗",
-                  "summary": "6月20日消息，Netflix高级工程师开发的开源工具Headroom近日爆火，GitHub星标超3.96万，累计帮助用户节省约70万美元成本。Headroom在AI应用与LLM之间建立本地透明压缩层，自动压缩冗余数据。研究指出AI应用中约76%的Token消耗仅用于读取用户输入，该工具能大幅降低API成本。",
-                  "link": "https://www.ithome.com/0/966/527.htm",
+                  "title": "安巴尼：印度必须成为AI的创造者和全球领导者",
+                  "summary": "当地时间6月19日，印度首富安巴尼在信实工业年度股东大会上宣布成立Reliance Intelligence，提出印度不能只是AI消费者，必须成为创造者和全球领导者。信实发布Jio Call Agent通话助手等多款AI产品，计划年底前在贾姆讷格尔投用120兆瓦AI基础设施，采用NVIDIA GB300系统，覆盖超5亿用户。",
+                  "link": "https://tech.ifeng.com/c/8u5tOzAsrdq",
                   "tags": [
-                    "开源工具",
-                    "Token优化"
+                    "印度AI",
+                    "信实工业"
                   ],
-                  "source": "IT之家",
-                  "time": "1天前"
+                  "source": "凤凰科技",
+                  "time": "6月19日"
                 }
               ]
             },
             {
-              "title": "中国科学家",
+              "title": "中国八部门",
               "news": [
                 {
-                  "title": "中国科学家提出AI语言，文本压缩至27.9%仍保留99.5%语义",
-                  "summary": "上海交大等高校团队提出BabelTele压缩方法，将AI模型间通信文本压缩至原长的27.9%，语义保留率达99.5%。这种人类几乎无法阅读的AI语言在Gemini等模型间传递时理解准确率稳定，为AI Agent通信和长文本处理提供了新思路，有助于降低多智能体系统通信成本。",
-                  "link": "https://www.ithome.com/0/966/529.htm",
+                  "title": "八部门联合发文加快人工智能+消费发展",
+                  "summary": "6月18日，商务部等八部门联合印发《关于加快人工智能+消费发展的实施意见》，提出5方面17条举措，包括促进AI手机、电脑、人形机器人等产品消费，扩大AI在居家、养老、文旅等服务场景应用，推动智慧商圈与无人配送，优化AI消费环境。政策旨在打通供需堵点，培育消费新增长点。",
+                  "link": "https://www.gov.cn/zhengce/zhengceku/202606/content_7072672.htm",
                   "tags": [
-                    "学术研究",
-                    "AI通信"
+                    "政策",
+                    "AI消费"
                   ],
-                  "source": "IT之家",
-                  "time": "6月21日"
-                }
-              ]
-            },
-            {
-              "title": "Take-Two前AI负责人",
-              "news": [
-                {
-                  "title": "Take-Two前AI负责人：生成式AI或败坏整个AI领域声誉",
-                  "summary": "当地时间6月19日，Take-Two前AI研究负责人迪肯博士接受采访时表示，生成式AI热度被严重夸大，一旦泡沫破裂可能连累传统AI研究。Take-Two已于今年4月裁撤整个AI研究团队，迪肯呼吁行业重新认识传统AI技术的价值，认为大语言模型已进入幻灭低谷期。",
-                  "link": "https://www.ithome.com/0/966/565.htm",
-                  "tags": [
-                    "AI泡沫",
-                    "行业观点"
-                  ],
-                  "source": "IT之家",
-                  "time": "2天前"
+                  "source": "中国政府网",
+                  "time": "6月18日"
                 }
               ]
             }
@@ -335,7 +446,7 @@
         },
         {
           "name": "OpenRouter",
-          "date": "2026-06-21",
+          "date": "2026-06-20",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
@@ -392,7 +503,7 @@
         },
         {
           "name": "Product Hunt",
-          "date": "2026-06-21",
+          "date": "2026-06-20",
           "link": "https://www.producthunt.com/",
           "rankings": [
             {
