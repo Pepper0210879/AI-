@@ -17,12 +17,12 @@ const NEWS_DATA = {
             {
               "title": "OpenAI 上调五年收入预期，但预计 2030 年前多消耗 1110 亿美元现金",
               "summary": "据 The Information 6月21日报道，OpenAI上调未来五年收入预期约27%，去年收入131亿美元，今年预计300亿美元，明年约620亿美元。但现金消耗同步激增，预计2030年前将比此前预测多消耗1110亿美元，AI训练和推理成本将投入6650亿美元。ChatGPT周活跃用户9.1亿，公司仍预计2030年实现现金流转正。",
-              "link": "https://www.ifanr.com/1669504",
+              "link": "https://wallstreetcn.com/articles/3775117",
               "tags": [
                 "财务",
                 "营收预期"
               ],
-              "source": "爱范儿",
+              "source": "华尔街见闻",
               "time": "6月21日"
             }
           ]
@@ -36,12 +36,12 @@ const NEWS_DATA = {
             {
               "title": "特朗普称不再将 Anthropic 视为国家安全威胁",
               "summary": "当地时间6月19日，特朗普在Axios访谈节目中表示，他已不再将Anthropic视为国家安全威胁。此前白宫曾以国家安全为由限制Anthropic的Mythos和Fable 5模型对非美国用户开放，Anthropic高管近日在首尔表示有信心数日内恢复访问。",
-              "link": "https://36kr.com/p/3863586257573124",
+              "link": "https://news.cri.cn/20260620/72077e7b-a6cc-4f74-bb32-ef21d02496b4.html",
               "tags": [
                 "政策",
                 "出口管制"
               ],
-              "source": "36氪",
+              "source": "国际在线",
               "time": "6月19日"
             }
           ]
@@ -69,6 +69,18 @@ const NEWS_DATA = {
               ],
               "source": "IT之家",
               "time": "6月22日"
+            },
+            {
+              "title": "马斯克：Grok语音控制特斯拉FSD功能约3个月后上线",
+              "summary": "6月21日消息，马斯克在X平台确认，Grok与FSD系统适配工作正在推进，语音控制FSD功能约三个月后上线。届时车主可通过自然语言直接设定FSD全部行驶逻辑，如'导航去五角场，到店后倒进门口的车位'。这将是AI首次深度操控车辆底层驾驶系统，彻底改变人车交互方式。",
+              "link": "https://www.ithome.com/0/966/604.htm",
+              "tags": [
+                "Grok",
+                "FSD",
+                "语音控制"
+              ],
+              "source": "IT之家",
+              "time": "6月21日"
             }
           ]
         },
@@ -327,13 +339,261 @@ const NEWS_DATA = {
                   "time": "6月21日"
                 }
               ]
+            },
+            {
+              "title": "独立开发者",
+              "news": [
+                {
+                  "title": "独立开发者用AI九天内自制《GTA6》，全程Vibe Coding",
+                  "summary": "6月21日消息，25岁AI智能体初创公司创始人徐子文在X平台启动自制《GTA6》项目，使用Claude Max 20x大模型投入开发。仅九天即实现NPC自主行走、道路车辆通行、武器系统和游戏手机等功能。项目无发行商合作也无工作室资金，全部内容依靠「氛围式编程」搭配多组循环联动AI智能体制作而成。",
+                  "link": "https://www.ithome.com/0/966/746.htm",
+                  "tags": [
+                    "Vibe Coding",
+                    "游戏开发"
+                  ],
+                  "source": "IT之家",
+                  "time": "6月21日"
+                }
+              ]
             }
           ]
         }
       ]
     },
     "ranking": {
-      "platforms": []
+      "platforms": [
+        {
+          "name": "LMArena",
+          "date": "2026-06-16",
+          "link": "https://lmarena.ai/leaderboard/text",
+          "rankings": [
+            {
+              "model": "claude-fable-5",
+              "score": "1508",
+              "change": "+9"
+            },
+            {
+              "model": "claude-opus-4-6-thinking",
+              "score": "1504",
+              "change": "+4"
+            },
+            {
+              "model": "claude-opus-4-7-thinking",
+              "score": "1502",
+              "change": "+5"
+            },
+            {
+              "model": "claude-opus-4-6",
+              "score": "1499",
+              "change": "+4"
+            },
+            {
+              "model": "claude-opus-4-7",
+              "score": "1493",
+              "change": "+5"
+            },
+            {
+              "model": "muse-spark",
+              "score": "1487",
+              "change": "+6"
+            },
+            {
+              "model": "gemini-3.1-pro-preview",
+              "score": "1486",
+              "change": "+4"
+            },
+            {
+              "model": "gemini-3-pro",
+              "score": "1486",
+              "change": "+4"
+            },
+            {
+              "model": "claude-opus-4-8-thinking",
+              "score": "1483",
+              "change": "+6"
+            },
+            {
+              "model": "gpt-5.5-high",
+              "score": "1481",
+              "change": "+5"
+            },
+            {
+              "model": "gpt-5.4-high",
+              "score": "1478",
+              "change": "+4"
+            },
+            {
+              "model": "claude-opus-4-8",
+              "score": "1478",
+              "change": "+6"
+            },
+            {
+              "model": "gemini-3.5-flash",
+              "score": "1476",
+              "change": "+7"
+            },
+            {
+              "model": "gpt-5.2-chat-latest-20260210",
+              "score": "1475",
+              "change": "+4"
+            },
+            {
+              "model": "glm-5.1",
+              "score": "1475",
+              "change": "+6"
+            },
+            {
+              "model": "gpt-5.5",
+              "score": "1475",
+              "change": "+5"
+            },
+            {
+              "model": "qwen3.7-max-preview",
+              "score": "1475",
+              "change": "+10"
+            },
+            {
+              "model": "grok-4.20-beta-0309-reasoning",
+              "score": "1474",
+              "change": "+4"
+            },
+            {
+              "model": "grok-4.20-beta1",
+              "score": "1474",
+              "change": "+5"
+            },
+            {
+              "model": "gemini-3-flash",
+              "score": "1473",
+              "change": "+4"
+            }
+          ]
+        },
+        {
+          "name": "OpenRouter",
+          "date": "2026-06-22",
+          "link": "https://openrouter.ai/rankings",
+          "rankings": [
+            {
+              "model": "DeepSeek V4 Flash",
+              "score": "4.89T tokens",
+              "change": "↑8%"
+            },
+            {
+              "model": "MiniMax M3",
+              "score": "3.96T tokens",
+              "change": "↑4%"
+            },
+            {
+              "model": "MiMo-V2.5",
+              "score": "3.84T tokens",
+              "change": "↑12%"
+            },
+            {
+              "model": "Hy3 preview",
+              "score": "3.53T tokens",
+              "change": "↑17%"
+            },
+            {
+              "model": "Claude Opus 4.7",
+              "score": "2.71T tokens",
+              "change": "↑23%"
+            },
+            {
+              "model": "DeepSeek V4 Pro",
+              "score": "2.55T tokens",
+              "change": "↑28%"
+            },
+            {
+              "model": "Owl Alpha",
+              "score": "2.47T tokens",
+              "change": "↑2%"
+            },
+            {
+              "model": "Claude Opus 4.8",
+              "score": "1.57T tokens",
+              "change": "↑19%"
+            },
+            {
+              "model": "Claude Sonnet 4.6",
+              "score": "1.55T tokens",
+              "change": "↑30%"
+            },
+            {
+              "model": "GLM 5.2",
+              "score": "1.07T tokens",
+              "change": "new"
+            }
+          ]
+        },
+        {
+          "name": "Product Hunt",
+          "date": "2026-06-22",
+          "link": "https://www.producthunt.com/",
+          "rankings": [
+            {
+              "name": "WorkClaw",
+              "category": "Productivity",
+              "rank": 1,
+              "link": "https://www.producthunt.com/search?q=WorkClaw"
+            },
+            {
+              "name": "Reframe",
+              "category": "Open Source",
+              "rank": 2,
+              "link": "https://www.producthunt.com/search?q=Reframe"
+            },
+            {
+              "name": "Slackbot's MCP Client",
+              "category": "Slack",
+              "rank": 3,
+              "link": "https://www.producthunt.com/search?q=Slackbot's+MCP+Client"
+            },
+            {
+              "name": "Mellum by JetBrains",
+              "category": "Developer Tools",
+              "rank": 4,
+              "link": "https://www.producthunt.com/search?q=Mellum+by+JetBrains"
+            },
+            {
+              "name": "Arbor",
+              "category": "Sustainability",
+              "rank": 5,
+              "link": "https://www.producthunt.com/search?q=Arbor"
+            },
+            {
+              "name": "Lottielab",
+              "category": "Design",
+              "rank": 6,
+              "link": "https://www.producthunt.com/search?q=Lottielab"
+            },
+            {
+              "name": "Routine 5.0",
+              "category": "Productivity",
+              "rank": 7,
+              "link": "https://www.producthunt.com/search?q=Routine+5.0"
+            },
+            {
+              "name": "Windsurf by Codeium",
+              "category": "Developer Tools",
+              "rank": 8,
+              "link": "https://www.producthunt.com/search?q=Windsurf+by+Codeium"
+            },
+            {
+              "name": "Glowtify",
+              "category": "Marketing",
+              "rank": 9,
+              "link": "https://www.producthunt.com/search?q=Glowtify"
+            },
+            {
+              "name": "EverArt 5.0",
+              "category": "Design",
+              "rank": 10,
+              "link": "https://www.producthunt.com/search?q=EverArt+5.0"
+            }
+          ]
+        }
+      ]
     }
   }
 };
