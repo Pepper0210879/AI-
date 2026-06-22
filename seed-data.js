@@ -1512,6 +1512,22 @@ window.__SEED_CONFIRMED = {
                     "time": "6月22日"
                   }
                 ]
+              },
+              {
+                "title": "亚马逊",
+                "news": [
+                  {
+                    "title": "亚马逊AI主管称正商谈外售Trainium芯片",
+                    "summary": "6月22日消息，亚马逊AI主管透露公司已就向外部客户出售实体Trainium AI芯片进行商谈，认为外售芯片不会蚕食AWS的AI云业务，AI算力领域仍有很大增长空间。此举将直接挑战NVIDIA在AI训练芯片市场的主导地位。",
+                    "link": "https://next.ithome.com/",
+                    "tags": [
+                      "AI芯片",
+                      "Trainium"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月22日"
+                  }
+                ]
               }
             ]
           },
@@ -1563,6 +1579,22 @@ window.__SEED_CONFIRMED = {
                     ],
                     "source": "IT之家",
                     "time": "6月21日"
+                  }
+                ]
+              },
+              {
+                "title": "AI治理",
+                "news": [
+                  {
+                    "title": "四川一女子用AI编造股市谣言被行政处罚",
+                    "summary": "6月22日消息，四川南充一男子利用大模型生成约3000字虚假股市文章，对A股走势进行误导性解读以博取流量，被警方行政处罚并清理文章。这是继5月北京处罚后又一AI小作文扰乱市场案例，AI生成内容监管持续收紧。",
+                    "link": "https://next.ithome.com/",
+                    "tags": [
+                      "AI监管",
+                      "网络谣言"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月22日"
                   }
                 ]
               }
