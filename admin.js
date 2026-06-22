@@ -559,68 +559,62 @@ const DEFAULT_DATA = {
         },
         {
           "name": "Product Hunt",
-          "date": "2026-06-22",
+          "date": "2026-06-21",
           "link": "https://www.producthunt.com/",
           "rankings": [
             {
-              "name": "WorkClaw",
-              "category": "Productivity",
+              "name": "Agent 37 Cloud",
+              "category": "Developer Tools",
               "rank": 1,
-              "link": "https://www.producthunt.com/search?q=WorkClaw"
+              "link": "https://www.producthunt.com/products/agent-37-cloud"
             },
             {
-              "name": "Reframe",
-              "category": "Open Source",
+              "name": "Atomic Mail Agentic",
+              "category": "Email",
               "rank": 2,
-              "link": "https://www.producthunt.com/search?q=Reframe"
+              "link": "https://www.producthunt.com/products/atomic-mail-agentic"
             },
             {
-              "name": "Slackbot's MCP Client",
-              "category": "Slack",
-              "rank": 3,
-              "link": "https://www.producthunt.com/search?q=Slackbot's+MCP+Client"
-            },
-            {
-              "name": "Mellum by JetBrains",
-              "category": "Developer Tools",
-              "rank": 4,
-              "link": "https://www.producthunt.com/search?q=Mellum+by+JetBrains"
-            },
-            {
-              "name": "Arbor",
-              "category": "Sustainability",
-              "rank": 5,
-              "link": "https://www.producthunt.com/search?q=Arbor"
-            },
-            {
-              "name": "Lottielab",
-              "category": "Design",
-              "rank": 6,
-              "link": "https://www.producthunt.com/search?q=Lottielab"
-            },
-            {
-              "name": "Routine 5.0",
+              "name": "Grok by SpaceXAI for Word",
               "category": "Productivity",
-              "rank": 7,
-              "link": "https://www.producthunt.com/search?q=Routine+5.0"
+              "rank": 3,
+              "link": "https://www.producthunt.com/products/grok-for-word"
             },
             {
-              "name": "Windsurf by Codeium",
+              "name": "Backgrind",
+              "category": "Productivity",
+              "rank": 4,
+              "link": "https://www.producthunt.com/products/backgrind"
+            },
+            {
+              "name": "oioi",
+              "category": "Productivity",
+              "rank": 5,
+              "link": "https://www.producthunt.com/products/oioi"
+            },
+            {
+              "name": "Laguna by Poolside",
               "category": "Developer Tools",
+              "rank": 6,
+              "link": "https://www.producthunt.com/products/laguna-by-poolside"
+            },
+            {
+              "name": "Cloudback MCP Server",
+              "category": "Developer Tools",
+              "rank": 7,
+              "link": "https://www.producthunt.com/products/cloudback-mcp-server"
+            },
+            {
+              "name": "Notchkin",
+              "category": "Productivity",
               "rank": 8,
-              "link": "https://www.producthunt.com/search?q=Windsurf+by+Codeium"
+              "link": "https://www.producthunt.com/products/notchkin"
             },
             {
-              "name": "Glowtify",
-              "category": "Marketing",
+              "name": "Plansera AI",
+              "category": "SaaS",
               "rank": 9,
-              "link": "https://www.producthunt.com/search?q=Glowtify"
-            },
-            {
-              "name": "EverArt 5.0",
-              "category": "Design",
-              "rank": 10,
-              "link": "https://www.producthunt.com/search?q=EverArt+5.0"
+              "link": "https://www.producthunt.com/products/plansera-ai"
             }
           ]
         }
