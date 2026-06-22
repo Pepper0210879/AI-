@@ -62,12 +62,12 @@ const NEWS_DATA = {
             {
               "title": "马斯克行权特斯拉薪酬方案，账面收益 1160 亿美元",
               "summary": "6月22日消息，马斯克已全额行使其2018年特斯拉CEO薪酬方案，以每股23.34美元行权价获得3.04亿股，按6月16日收盘价计账面收益约1160亿美元（约合7800亿元人民币）。历时六年法律拉锯战终结，但股份需至2028年1月归属并面临巨额税务。",
-              "link": "https://www.ithome.com/0/966/746.htm",
+              "link": "https://www.cls.cn/detail/2084239",
               "tags": [
                 "薪酬",
                 "特斯拉"
               ],
-              "source": "IT之家",
+              "source": "财联社",
               "time": "6月22日"
             },
             {
@@ -118,12 +118,12 @@ const NEWS_DATA = {
             {
               "title": "字节跳动洽购至少5万颗天数智芯AI推理GPU",
               "summary": "6月22日消息，字节跳动正与天数智芯讨论采购至少5万颗AI芯片，主要用于大模型推理负载，对应智铠系列云端推理GPU。若交易达成，天数智芯将成为华为和寒武纪之后字节跳动的第三家GPU供应商，进一步推动豆包大模型的算力部署。",
-              "link": "https://36kr.com/p/3863586257573124",
+              "link": "https://www.cnfin.com/gs-lb/detail/20260617/4428410_1.html",
               "tags": [
                 "GPU采购",
                 "国产芯片"
               ],
-              "source": "36氪",
+              "source": "第一财经",
               "time": "6月17日"
             }
           ]
@@ -158,12 +158,12 @@ const NEWS_DATA = {
             {
               "title": "智谱 GLM-5.2 登顶 DeepSWE 开源第一",
               "summary": "6月22日消息，智谱AI开源模型GLM-5.2进入长程软件工程基准DeepSWE v1.1榜单，在最高思考力度下Pass@1为44%±2%，位列第五且为表现最好的开源模型，比Kimi K2.7 Code高出13个百分点。平均成本3.92美元，平均输出7.8万token。",
-              "link": "https://www.ifanr.com/1669504",
+              "link": "https://www.iheima.com/article-398750.html",
               "tags": [
                 "GLM-5.2",
                 "软件工程"
               ],
-              "source": "爱范儿",
+              "source": "i黑马",
               "time": "6月22日"
             }
           ]
@@ -195,12 +195,12 @@ const NEWS_DATA = {
                 {
                   "title": "现代汽车拟收购软银持有波士顿动力剩余股权，将成全资子公司",
                   "summary": "6月22日消息，现代汽车计划以5000亿韩元（约22.23亿元人民币）收购软银持有的波士顿动力9.65%股份，交易后波士顿动力将成为现代全资子公司。现代2021年以80%股份入主，软银现行使看跌期权出售剩余股权，现代预计6月22日召开董事会批准。",
-                  "link": "https://www.ifanr.com/1669504",
+                  "link": "https://www.jiemian.com/article/14615901.html",
                   "tags": [
                     "收购",
                     "人形机器人"
                   ],
-                  "source": "爱范儿",
+                  "source": "界面新闻",
                   "time": "6月22日"
                 }
               ]
@@ -224,12 +224,12 @@ const NEWS_DATA = {
                 {
                   "title": "AI推理芯片公司淬思科技完成首轮融资",
                   "summary": "6月22日消息，上海淬思科技完成孵化轮融资，由砺思资本与启盈同创基金联合领投，资金用于首款面向AI智能体推理的专用芯片研发与流片。公司Agentic EDA平台已产生商业化收入，芯片设计方法学已通过真实流片验证。",
-                  "link": "https://www.ifanr.com/1669504",
+                  "link": "https://www.sohu.com/a/1039481015_122014422",
                   "tags": [
                     "AI芯片",
                     "融资"
                   ],
-                  "source": "爱范儿",
+                  "source": "搜狐",
                   "time": "6月22日"
                 }
               ]
@@ -245,12 +245,12 @@ const NEWS_DATA = {
                 {
                   "title": "米哈游 AI 女友陪伴软件《BSide：Olivia Lin》上架 Steam",
                   "summary": "米哈游旗下AI陪伴软件《BSide：Olivia Lin》近日上架Steam，主角设定为上海钢琴系女生，提供钢琴演奏、音乐视频生成、文字通信和桌面动态壁纸等功能。这是米哈游在AI情感陪伴领域的新尝试。",
-                  "link": "https://www.ifanr.com/1669504",
+                  "link": "https://www.gamersky.com/news/202606/2048125.shtml",
                   "tags": [
                     "AI陪伴",
                     "游戏"
                   ],
-                  "source": "爱范儿",
+                  "source": "游民星空",
                   "time": "6月21日"
                 }
               ]
@@ -261,7 +261,7 @@ const NEWS_DATA = {
                 {
                   "title": "努比亚集中资源投入第二代豆包 AI 手机，收缩传统手机业务",
                   "summary": "6月22日消息，中兴努比亚内部已调整手机业务优先级，计划将核心资源集中投入第二代豆包AI手机，传统手机业务线暂时收缩。第二代豆包AI手机预计搭载第五代骁龙8至尊版，可能在2026年上半年发布。",
-                  "link": "https://www.ithome.com/0/966/746.htm",
+                  "link": "https://www.ithome.com/0/966/642.htm",
                   "tags": [
                     "AI手机",
                     "豆包"
@@ -277,12 +277,12 @@ const NEWS_DATA = {
                 {
                   "title": "网易云音乐旗下 AI 陪伴 App「妙时」将于 7 月停运",
                   "summary": "6月22日消息，网易云音乐旗下AI情感陪伴App「妙时」发布停运公告，已停止新用户注册和充值，将于7月14日正式停运。用户账号余额可申请退款。妙时是网易在AI社交陪伴赛道的一次尝试，停运反映出该赛道商业化仍面临挑战。",
-                  "link": "https://www.ifanr.com/1669504",
+                  "link": "https://m.thepaper.cn/newsDetail_forward_33424950",
                   "tags": [
                     "AI陪伴",
                     "停运"
                   ],
-                  "source": "爱范儿",
+                  "source": "澎湃新闻",
                   "time": "6月22日"
                 }
               ]
@@ -293,12 +293,12 @@ const NEWS_DATA = {
                 {
                   "title": "特斯拉申请 Amazing Abundance 商标，加速推进 AI 与机器人战略",
                   "summary": "特斯拉正式提交「Amazing Abundance」商标注册申请，表明将深耕AI、人形机器人、自动驾驶系统等长期发展愿景，依托自动化技术实现生产成本大幅下降。此举呼应马斯克此前提出的「极致丰饶」未来愿景。",
-                  "link": "https://36kr.com/p/3863586257573124",
+                  "link": "https://www.cls.cn/detail/2084500",
                   "tags": [
                     "商标",
                     "机器人"
                   ],
-                  "source": "36氪",
+                  "source": "财联社",
                   "time": "6月22日"
                 }
               ]
@@ -314,12 +314,12 @@ const NEWS_DATA = {
                 {
                   "title": "刘强东：AI时代不再需要快递员，拟培训70万蓝领员工转岗",
                   "summary": "6月21日，刘强东在APEC工商领导人中国论坛上透露，京东提出「涅槃计划」，拟将70万快递员等蓝领员工送学校接受技术培训，未来配送由机器人完成。京东已签约120所学校，员工可转岗从事机器人维修保养。刘强东同时呼吁全球合作应对AI时代冲击，表示京东所有AI技术将向海外开放。",
-                  "link": "https://www.ithome.com/0/966/746.htm",
+                  "link": "https://www.nbd.com.cn/articles/2026-06-22/4438225.html",
                   "tags": [
                     "AI就业",
                     "机器人替代"
                   ],
-                  "source": "IT之家",
+                  "source": "每日经济新闻",
                   "time": "6月21日"
                 }
               ]
@@ -330,12 +330,12 @@ const NEWS_DATA = {
                 {
                   "title": "梁朝伟：AI能节省制作时间但没有灵魂",
                   "summary": "梁朝伟在上海国际电影节闭幕前受访时将AI称为「双刃剑」。他认为AI可在前期和后期制作中节省大量时间和成本，但也会让岗位消失、把创作简化为计算。他呼吁年轻观众重回大银幕，认为表演和电影仍依赖人的观察、经验和情感积累。",
-                  "link": "https://www.ifanr.com/1669504",
+                  "link": "https://www.hollywoodreporter.com/news/general-news/tony-leung-ai-soul-1236281745/",
                   "tags": [
                     "AI与影视",
                     "行业观点"
                   ],
-                  "source": "爱范儿",
+                  "source": "好莱坞报道者",
                   "time": "6月21日"
                 }
               ]
@@ -346,7 +346,7 @@ const NEWS_DATA = {
                 {
                   "title": "独立开发者用AI九天内自制《GTA6》，全程Vibe Coding",
                   "summary": "6月21日消息，25岁AI智能体初创公司创始人徐子文在X平台启动自制《GTA6》项目，使用Claude Max 20x大模型投入开发。仅九天即实现NPC自主行走、道路车辆通行、武器系统和游戏手机等功能。项目无发行商合作也无工作室资金，全部内容依靠「氛围式编程」搭配多组循环联动AI智能体制作而成。",
-                  "link": "https://www.ithome.com/0/966/746.htm",
+                  "link": "https://www.ithome.com/0/966/642.htm",
                   "tags": [
                     "Vibe Coding",
                     "游戏开发"
