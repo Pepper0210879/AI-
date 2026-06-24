@@ -874,8 +874,8 @@ const NEWS_DATA = {
       ]
     }
   }
-}
 };
+
 
 const VENDOR_DISPLAY = {
     "OpenAI":       { color: "#7ab8d6", softBg: "#edf5fa", initial: "O", logo: "logos/OpenAI.png" },
