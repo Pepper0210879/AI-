@@ -227,6 +227,10 @@ const DEFAULT_DATA = {
           ]
         },
         {
+          "name": "小米",
+          "news": []
+        },
+        {
           "name": "智谱AI",
           "news": []
         },
