@@ -3265,5 +3265,725 @@ window.__SEED_CONFIRMED = {
         ]
       }
     }
+  },
+  "2026-06-27": {
+    "date": "2026-06-27",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "color": "#10A37F",
+            "softBg": "#E6F7F2",
+            "initial": "O",
+            "news": [
+              {
+                "title": "OpenAI 发布 GPT-5.6 系列，编程跑分超越 Claude Mythos 5",
+                "summary": "6月27日，OpenAI 正式发布 GPT-5.6 系列模型，包括旗舰版 Sol、均衡版 Terra 和轻量版 Luna。Sol 在 Terminal-Bench 2.1 编程基准中得分 88.8%，Ultra 模式下达 91.9%，超越 Claude Mythos 5。模型引入 Max 推理强度和借助子智能体加速复杂任务的 Ultra 模式。应美国政府要求，目前仅向少数可信合作伙伴开放预览，计划未来几周全面上线。",
+                "link": "https://www.techweb.com.cn/it/2026-06-27/2976928.shtml",
+                "tags": [
+                  "旗舰模型",
+                  "编程能力",
+                  "出口管制"
+                ],
+                "source": "TechWeb",
+                "time": "6月27日"
+              }
+            ]
+          },
+          {
+            "name": "Anthropic",
+            "color": "#D4A574",
+            "softBg": "#FBF5EF",
+            "initial": "A",
+            "news": [
+              {
+                "title": "Anthropic 与美国政府达成共识，Mythos 5 向百余家机构开放",
+                "summary": "6月27日消息，美国政府解除对 Anthropic Claude Mythos 5 的部分出口管制，允许向超过 100 家美国机构和企业恢复提供该模型。商务部长卢特尼克致函确认安全措施已到位。Fable 5 公众版恢复仍在谈判中，Anthropic 正与政府协商推进。",
+                "link": "https://news.qq.com/rain/a/20260627A025DH00",
+                "tags": [
+                  "出口管制",
+                  "网络安全",
+                  "AI监管"
+                ],
+                "source": "腾讯新闻",
+                "time": "6月27日消息"
+              },
+              {
+                "title": "Anthropic 企业市场份额首次反超 OpenAI",
+                "summary": "6月27日消息，企业支出平台 Ramp 数据显示，2026 年 5 月 Anthropic 企业 AI 订阅市场份额升至 41%，首次超过 OpenAI 的 39.5%。Indagari 数据同步显示，自今年 1 月以来 Anthropic 付费用户收入增长约 75%，年化收入超过 300 亿美元。Claude Code 发布 9 个月即达 25 亿美元年化收入。",
+                "link": "https://fund.eastmoney.com/a/202606263784502875.html",
+                "tags": [
+                  "市场份额",
+                  "企业市场",
+                  "营收增长"
+                ],
+                "source": "东方财富",
+                "time": "6月27日消息"
+              }
+            ]
+          },
+          {
+            "name": "Google",
+            "color": "#4285F4",
+            "softBg": "#ECF1FD",
+            "initial": "G",
+            "news": [
+              {
+                "title": "Gemini 3.5 Flash 原生集成 Computer Use 能力",
+                "summary": "当地时间6月24日，Google 宣布将 Computer Use 功能原生集成至 Gemini 3.5 Flash 模型，取代此前独立的 computer-use-preview 模型。开发者可通过单一 API 调用同时启用推理、搜索和电脑操作，模型通过截图理解屏幕并生成点击、输入等 UI 操作。内置定向对抗训练和敏感操作确认等安全机制。",
+                "link": "https://www.pingwest.com/w/315043",
+                "tags": [
+                  "AI Agent",
+                  "Computer Use",
+                  "多模态"
+                ],
+                "source": "品玩",
+                "time": "当地时间6月24日"
+              }
+            ]
+          },
+          {
+            "name": "xAI",
+            "color": "#1DA1F2",
+            "softBg": "#E8F5FD",
+            "initial": "X",
+            "news": []
+          },
+          {
+            "name": "NVIDIA",
+            "color": "#76B900",
+            "softBg": "#F2F9E6",
+            "initial": "N",
+            "news": [
+              {
+                "title": "NVIDIA 开源 NeMo AutoModel：一行代码让 MoE 微调加速 3.7 倍",
+                "summary": "6月26日消息，NVIDIA 正式开源 NeMo AutoModel 库，基于 Hugging Face Transformers v5，只需添加一行 import 即可实现 MoE 模型微调吞吐量提升 3.4-3.7 倍，GPU 显存占用减少 29%-32%。该工具集成了专家并行、DeepEP 通信优化和 TransformerEngine 加速内核，显著降低中小企业 MoE 微调门槛。",
+                "link": "https://www.qbitai.com/2026/06/438703.html",
+                "tags": [
+                  "MoE",
+                  "开源",
+                  "微调加速"
+                ],
+                "source": "量子位",
+                "time": "6月26日消息"
+              }
+            ]
+          },
+          {
+            "name": "Meta",
+            "color": "#0668E1",
+            "softBg": "#E6F0FC",
+            "initial": "M",
+            "news": []
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "color": "#FF6A00",
+            "softBg": "#FFF0E6",
+            "initial": "阿",
+            "news": []
+          },
+          {
+            "name": "火山引擎",
+            "color": "#3370FF",
+            "softBg": "#EBF0FF",
+            "initial": "火",
+            "news": []
+          },
+          {
+            "name": "DeepSeek",
+            "color": "#4B32C3",
+            "softBg": "#EEECF9",
+            "initial": "D",
+            "news": []
+          },
+          {
+            "name": "腾讯",
+            "color": "#0052D9",
+            "softBg": "#E6EEFA",
+            "initial": "腾",
+            "news": [
+              {
+                "title": "腾讯云用 AI 代码助手 4.5 个月完成印尼运营商全链路迁移",
+                "summary": "6月26日，印尼运营商 XLSMART 宣布在腾讯云助力下完成大规模公有云转型。腾讯云团队基于代码助手 CodeBuddy 和效率智能体 WorkBuddy 开发 20 多个云迁移 Skills，将业界通常需 2 年的迁移压缩至 4.5 个月，涉及 1200 个微服务和超 15TB 核心数据资产。",
+                "link": "https://news.qq.com/rain/a/20260626A04ATE00",
+                "tags": [
+                  "云迁移",
+                  "CodeBuddy",
+                  "出海"
+                ],
+                "source": "腾讯新闻",
+                "time": "6月26日"
+              }
+            ]
+          },
+          {
+            "name": "小米",
+            "color": "#FF6900",
+            "softBg": "#FFF1E6",
+            "initial": "米",
+            "news": []
+          },
+          {
+            "name": "智谱AI",
+            "color": "#6B4CE6",
+            "softBg": "#F1EDFC",
+            "initial": "智",
+            "news": []
+          },
+          {
+            "name": "月之暗面",
+            "color": "#8B5CF6",
+            "softBg": "#F3EEFD",
+            "initial": "月",
+            "news": []
+          },
+          {
+            "name": "华为",
+            "color": "#CF0A2C",
+            "softBg": "#FDE8EB",
+            "initial": "华",
+            "news": []
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "其他厂商",
+            "cards": [
+              {
+                "title": "亚马逊",
+                "news": [
+                  {
+                    "title": "亚马逊追加 130 亿美元投资印度 AI 及云基础设施",
+                    "summary": "6月25日，亚马逊宣布 2030 年前向印度追加 130 亿美元用于扩建 AI 及云基础设施，主要用于扩充 AWS 在孟买和海得拉巴的数据中心容量。加上此前 350 亿美元承诺，2026-2030 年间在印度总投资达 480 亿美元，使亚马逊成为印度最大规模的全球 AI 及云基础设施投资者之一。",
+                    "link": "https://www.ithome.com/0/968/544.htm",
+                    "tags": [
+                      "云计算",
+                      "印度市场",
+                      "数据中心"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月25日"
+                  }
+                ]
+              },
+              {
+                "title": "高通",
+                "news": [
+                  {
+                    "title": "高通宣布为中国市场定制合规 AI 数据中心芯片",
+                    "summary": "6月25日消息，高通 CEO 安蒙在投资者日上发布数据中心品牌 Dragonfly，涵盖 AI 加速器、CPU、定制 ASIC 和互连芯片四条产品线，全部计划引入中国。面向中国市场的 AI 芯片将单独调整性能参数以符合美国出口管制，已与字节跳动达成定制供货协议，合规 ASIC 预计年内批量出货。高通目标 2029 年数据中心业务与手机芯片收入持平。",
+                    "link": "https://www.ithome.com/0/969/000.htm",
+                    "tags": [
+                      "AI芯片",
+                      "数据中心",
+                      "出口管制"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月25日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "自动驾驶",
+            "cards": [
+              {
+                "title": "特斯拉",
+                "news": [
+                  {
+                    "title": "特斯拉 FSD 全球转向订阅制，港澳台 6 月 30 日后停售买断版",
+                    "summary": "6月26日消息，特斯拉在全球范围将 FSD 从买断制全面转为订阅制。港澳台地区买断版将于 6 月 30 日后下架，中国内地目前仍维持 6.4 万元买断价，尚无订阅时间表。截至 2026 年 Q1，FSD 全球订阅用户达 128 万，同比增长 51%。中国内地 FSD 有望在 Q3 获得全面商用许可。",
+                    "link": "https://www.stcn.com/article/detail/3981838.html",
+                    "tags": [
+                      "FSD",
+                      "订阅制",
+                      "自动驾驶"
+                    ],
+                    "source": "证券时报",
+                    "time": "6月26日消息"
+                  }
+                ]
+              },
+              {
+                "title": "交通运输部",
+                "news": [
+                  {
+                    "title": "五部门印发「人工智能+交通运输」行动方案",
+                    "summary": "6月25日，交通运输部等五部门联合印发《「人工智能+交通运输」典型应用场景创新行动方案》，提出到 2030 年形成一批 AI 新基础设施和服务模式。方案列出智能驾驶、智慧公路、智能铁路等十大重点方向，明确开展「端到端」大模型研发与测试，推动 Robotaxi、无人配送等场景验证，超百项试点项目计划 2026 年启动。",
+                    "link": "https://www.ithome.com/0/968/341.htm",
+                    "tags": [
+                      "政策",
+                      "智能驾驶",
+                      "智慧交通"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月25日"
+                  }
+                ]
+              },
+              {
+                "title": "何小鹏（小鹏汽车CEO）",
+                "news": [
+                  {
+                    "title": "何小鹏：2026 年底自动驾驶可合法进入全球，小鹏 VLA 走向海外",
+                    "summary": "6月26日，小鹏汽车 CEO 何小鹏在朋友圈发文透露，第二代 VLA 大模型走向全球已进入确定模式。联合国 DCAS 法规六个月后成为欧盟强制标准，意味着 2026 年底自动驾驶可合法进入全球市场。何小鹏预告 2027 年海外用户可用中文和当地语言混合与小鹏汽车对话控车，小鹏智驾正式从国内走向全球。",
+                    "link": "https://36kr.com/newsflashes/3869506406733065",
+                    "tags": [
+                      "VLA",
+                      "出海",
+                      "法规"
+                    ],
+                    "source": "36氪",
+                    "time": "6月26日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "具身智能",
+            "cards": [
+              {
+                "title": "何小鹏（小鹏汽车CEO）",
+                "news": [
+                  {
+                    "title": "小鹏机器人架构大调整：新设九部门，何小鹏兼任产品部负责人",
+                    "summary": "6月26日消息，小鹏机器人中心新设立九个二级部门，包括产品部、具身系统工程部、具身智能部、数据闭环部等。何小鹏亲自兼任机器人中心负责人及产品部负责人，直接听取各部门汇报。何小鹏称小鹏机器人正处于量产和商业化前夜，IRON 人形机器人计划 2026 年底量产。",
+                    "link": "https://stcn.com/article/detail/3981600.html",
+                    "tags": [
+                      "组织架构",
+                      "人形机器人",
+                      "量产"
+                    ],
+                    "source": "证券时报",
+                    "time": "6月26日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "投资资讯",
+            "cards": [
+              {
+                "title": "无界动力 天使轮",
+                "news": [
+                  {
+                    "title": "具身智能公司无界动力完成超 2 亿美元天使轮融资",
+                    "summary": "6月26日消息，通用具身智能机器人公司无界动力宣布完成超 2 亿美元天使轮融资，由京东关联基金、C 资本、弘毅投资等联合投资，红杉中国、线性资本等老股东跟投。公司采用「隐空间世界模型+强化学习」技术路线，已签署近 1 亿美元全球订单，第二代机器人本体 K15 已批量投产。",
+                    "link": "https://finance.eastmoney.com/a/202606263784575571.html",
+                    "tags": [
+                      "具身智能",
+                      "天使轮",
+                      "京东"
+                    ],
+                    "source": "东方财富",
+                    "time": "6月26日消息"
+                  }
+                ]
+              },
+              {
+                "title": "临界点 近10亿元融资",
+                "news": [
+                  {
+                    "title": "智元旗下灵巧手公司临界点估值突破 10 亿美元",
+                    "summary": "6月24日消息，智元机器人旗下灵巧手公司临界点完成近 10 亿元融资，投后估值超 10 亿美元，成立仅 5 个月即跻身独角兽。公司 4 轮密集融资获高瓴、蓝驰、百度风投等加持，OmniHand 系列灵巧手累计交付超 8000 台，2026 年 Q1 国内灵巧手市场份额第一，且已实现经营性净盈利。",
+                    "link": "https://stcn.com/article/detail/3978064.html",
+                    "tags": [
+                      "灵巧手",
+                      "独角兽",
+                      "智元"
+                    ],
+                    "source": "证券时报",
+                    "time": "6月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "深度机智 数亿元融资",
+                "news": [
+                  {
+                    "title": "物理 AI 公司深度机智再获数亿元融资",
+                    "summary": "6月26日消息，深度机智宣布完成新一轮数亿元融资，由国寿长三角科创基金领投，普华资本、诚通科创基金等跟投。公司采用「人类学习」原创技术路线，以人类第一视角数据训练机器人。近期实现零样本泛化突破，仅凭人类操作数据预训练即可完成全新任务。全线产品已签约落地，累计订单数千万元。",
+                    "link": "https://stcn.com/article/detail/3982269.html",
+                    "tags": [
+                      "物理AI",
+                      "央企投资",
+                      "具身智能"
+                    ],
+                    "source": "证券时报",
+                    "time": "6月26日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "行业趋势&观点",
+            "cards": [
+              {
+                "title": "国家标准",
+                "news": [
+                  {
+                    "title": "《人工智能 智能体互联》系列 7 项国家标准发布",
+                    "summary": "6月26日，国家市场监管总局正式发布《人工智能 智能体互联》系列 7 项国家标准，覆盖总体架构、身份码、身份管理、智能体描述、发现、交互和工具调用等核心环节，系统性搭建起「身份标识—能力描述—供需发现—协同交互—工具调用」闭环标准体系。70 余家头部企业和科研院所参与编制，百余家企业开展试点。",
+                    "link": "https://www.gov.cn/lianbo/202606/content_7073465.htm",
+                    "tags": [
+                      "国家标准",
+                      "智能体",
+                      "互联协议"
+                    ],
+                    "source": "中国政府网",
+                    "time": "6月26日"
+                  }
+                ]
+              },
+              {
+                "title": "版权诉讼",
+                "news": [
+                  {
+                    "title": "近 400 家美国报纸联合起诉 OpenAI 和微软侵犯版权",
+                    "summary": "6月26日消息，代表近 400 家美国地方报纸的出版商联盟在纽约南区联邦法院对 OpenAI 和微软提起大规模版权侵权诉讼，指控两家公司系统性爬取付费墙后新闻内容用于训练 GPT 模型，故意删除版权管理信息。诉状称 OpenAI 训练数据中含原告方超 1.15 亿个 token，请求永久禁令和法定损害赔偿。这是地方报纸针对 AI 公司发起的最大规模协同法律行动。",
+                    "link": "https://www.ithome.com/0/968/872.htm",
+                    "tags": [
+                      "版权诉讼",
+                      "AI训练数据",
+                      "DMCA"
+                    ],
+                    "source": "IT之家",
+                    "time": "6月26日消息"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "LMArena",
+            "date": "2026-06-25",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "claude-fable-5",
+                "score": "1508",
+                "change": "—"
+              },
+              {
+                "model": "claude-opus-4-6-thinking",
+                "score": "1503",
+                "change": "—"
+              },
+              {
+                "model": "claude-opus-4-7-thinking",
+                "score": "1502",
+                "change": "—"
+              },
+              {
+                "model": "claude-opus-4-6",
+                "score": "1499",
+                "change": "—"
+              },
+              {
+                "model": "claude-opus-4-7",
+                "score": "1494",
+                "change": "—"
+              },
+              {
+                "model": "muse-spark (Meta)",
+                "score": "1487",
+                "change": "—"
+              },
+              {
+                "model": "gemini-3.1-pro-preview",
+                "score": "1486",
+                "change": "—"
+              },
+              {
+                "model": "gemini-3-pro",
+                "score": "1486",
+                "change": "—"
+              },
+              {
+                "model": "claude-opus-4-8-thinking",
+                "score": "1484",
+                "change": "—"
+              },
+              {
+                "model": "gpt-5.5-high",
+                "score": "1481",
+                "change": "—"
+              },
+              {
+                "model": "claude-opus-4-8",
+                "score": "1479",
+                "change": "—"
+              },
+              {
+                "model": "gpt-5.4-high",
+                "score": "1478",
+                "change": "—"
+              },
+              {
+                "model": "gemini-3.5-flash",
+                "score": "1476",
+                "change": "—"
+              },
+              {
+                "model": "gpt-5.2-chat-latest",
+                "score": "1476",
+                "change": "—"
+              },
+              {
+                "model": "grok-4.20-beta-reasoning",
+                "score": "1476",
+                "change": "—"
+              },
+              {
+                "model": "qwen3.7-max-preview",
+                "score": "1475",
+                "change": "—"
+              },
+              {
+                "model": "gpt-5.5",
+                "score": "1475",
+                "change": "—"
+              },
+              {
+                "model": "grok-4.20-beta1",
+                "score": "1474",
+                "change": "—"
+              },
+              {
+                "model": "glm-5.1 (Z.ai)",
+                "score": "1473",
+                "change": "—"
+              },
+              {
+                "model": "gemini-3-flash",
+                "score": "1473",
+                "change": "—"
+              }
+            ]
+          },
+          {
+            "name": "OpenRouter",
+            "date": "2026-06-27",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": [
+              {
+                "model": "DeepSeek V4 Flash",
+                "score": "4.83T tokens",
+                "change": "↑3%"
+              },
+              {
+                "model": "MiMo-V2.5 (小米)",
+                "score": "4.49T tokens",
+                "change": "↑17%"
+              },
+              {
+                "model": "MiniMax M3",
+                "score": "3.83T tokens",
+                "change": "↑7%"
+              },
+              {
+                "model": "Owl Alpha",
+                "score": "3.29T tokens",
+                "change": "↑38%"
+              },
+              {
+                "model": "Hy3 preview (腾讯)",
+                "score": "3.28T tokens",
+                "change": "↑6%"
+              },
+              {
+                "model": "Claude Opus 4.7",
+                "score": "2.34T tokens",
+                "change": "↑20%"
+              },
+              {
+                "model": "DeepSeek V4 Pro",
+                "score": "2.07T tokens",
+                "change": "↑17%"
+              },
+              {
+                "model": "Claude Opus 4.8",
+                "score": "2.06T tokens",
+                "change": "↑47%"
+              },
+              {
+                "model": "GLM 5.2 (智谱)",
+                "score": "1.92T tokens",
+                "change": "↑123%"
+              },
+              {
+                "model": "Claude Sonnet 4.6",
+                "score": "1.49T tokens",
+                "change": "↑4%"
+              },
+              {
+                "model": "Claude Opus 4.5",
+                "score": "1.35T tokens",
+                "change": "↑12%"
+              },
+              {
+                "model": "Gemini 3.1 Pro Preview",
+                "score": "1.20T tokens",
+                "change": "↑8%"
+              },
+              {
+                "model": "GPT-5.5",
+                "score": "1.08T tokens",
+                "change": "↓3%"
+              },
+              {
+                "model": "DeepSeek R1",
+                "score": "0.98T tokens",
+                "change": "↓5%"
+              },
+              {
+                "model": "Gemini 3 Flash Preview",
+                "score": "0.87T tokens",
+                "change": "↑15%"
+              },
+              {
+                "model": "Claude Sonnet 4.5",
+                "score": "0.76T tokens",
+                "change": "↓8%"
+              },
+              {
+                "model": "Qwen 3.5 (千问)",
+                "score": "0.62T tokens",
+                "change": "↑22%"
+              },
+              {
+                "model": "Grok 4.2 Beta (xAI)",
+                "score": "0.55T tokens",
+                "change": "↑18%"
+              },
+              {
+                "model": "GPT-5.4",
+                "score": "0.48T tokens",
+                "change": "↓12%"
+              },
+              {
+                "model": "MiMo-V2 (小米)",
+                "score": "0.42T tokens",
+                "change": "↓15%"
+              }
+            ]
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-06-26",
+            "link": "https://www.producthunt.com/",
+            "rankings": [
+              {
+                "name": "Agent Arena",
+                "category": "Social Media",
+                "rank": 1,
+                "link": "https://www.producthunt.com/products/agent-arena"
+              },
+              {
+                "name": "Gemini Spark",
+                "category": "Task Management",
+                "rank": 2,
+                "link": "https://www.producthunt.com/products/gemini-spark"
+              },
+              {
+                "name": "note.md",
+                "category": "Writing",
+                "rank": 3,
+                "link": "https://www.producthunt.com/products/note-md"
+              },
+              {
+                "name": "Atlas",
+                "category": "Marketing",
+                "rank": 4,
+                "link": "https://www.producthunt.com/products/atlas"
+              },
+              {
+                "name": "Sleek Analytics",
+                "category": "Analytics",
+                "rank": 5,
+                "link": "https://www.producthunt.com/products/sleek-analytics"
+              },
+              {
+                "name": "ModuleX",
+                "category": "Artificial Intelligence",
+                "rank": 6,
+                "link": "https://www.producthunt.com/products/modulex"
+              },
+              {
+                "name": "Basedash for Excel",
+                "category": "Artificial Intelligence",
+                "rank": 7,
+                "link": "https://www.producthunt.com/products/basedash-for-excel"
+              },
+              {
+                "name": "SquidHub",
+                "category": "Productivity",
+                "rank": 8,
+                "link": "https://www.producthunt.com/products/squidhub"
+              },
+              {
+                "name": "Group Subscriptions by beehiiv",
+                "category": "Newsletters",
+                "rank": 9,
+                "link": "https://www.producthunt.com/products/beehiiv-group-subscriptions"
+              },
+              {
+                "name": "LockIn MCP",
+                "category": "Productivity",
+                "rank": 10,
+                "link": "https://www.producthunt.com/products/lockin-mcp"
+              },
+              {
+                "name": "AI Slide Editor by CubeOne",
+                "category": "Design Tools",
+                "rank": 11,
+                "link": "https://www.producthunt.com/products/cubeone-ai-slide-editor"
+              },
+              {
+                "name": "Animdock Motion Templates",
+                "category": "Design Tools",
+                "rank": 12,
+                "link": "https://www.producthunt.com/products/animdock"
+              },
+              {
+                "name": "DMV by Agent Community",
+                "category": "Developer Tools",
+                "rank": 13,
+                "link": "https://www.producthunt.com/products/dmv-agent-community"
+              },
+              {
+                "name": "Aurora Notch",
+                "category": "Productivity",
+                "rank": 14,
+                "link": "https://www.producthunt.com/products/aurora-notch"
+              },
+              {
+                "name": "Cewsco",
+                "category": "Productivity",
+                "rank": 15,
+                "link": "https://www.producthunt.com/products/cewsco"
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 };
+window.__SEED_VERSION = "2026-06-27";
