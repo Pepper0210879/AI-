@@ -25464,7 +25464,7 @@ window.__SEED_CONFIRMED = {
                   "GB300"
                 ],
                 "source": "东方财富",
-                "time": "7月3日消息"
+                "time": "7月2日消息"
               }
             ]
           },
@@ -25477,14 +25477,14 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "扎克伯格坦承AI智能体开发未达预期，Meta官宣卖算力股价大涨",
                 "summary": "7月3日消息，扎克伯格坦言AI智能体开发「并未以预期方式加速」，实现超级智能仍需更多时间。同时Meta正筹备云基础设施业务，将内部过剩AI算力出售给客户，股价逆势大涨8.81%。",
-                "link": "https://www.cls.cn/detail/2415788",
+                "link": "https://finance.eastmoney.com/a/202607033792593511.html",
                 "tags": [
                   "Meta",
                   "扎克伯格",
                   "AI智能体",
                   "AI算力"
                 ],
-                "source": "财联社",
+                "source": "东方财富",
                 "time": "7月3日消息"
               }
             ]
@@ -25514,14 +25514,14 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "阿里云秒悟Meoo上线夜间计划，Qwen3.7-Max最低2折",
                 "summary": "7月3日消息，阿里云秒悟Meoo上线夜间计划，每晚22:00至次日08:00调用Qwen 3.7-Max费用低至2折，Qwen 3.7-Plus低至4折，最高可节省80%成本。",
-                "link": "https://www.ithome.com/0/971/976.htm",
+                "link": "https://finance.eastmoney.com/a/202607023791771611.html",
                 "tags": [
                   "阿里云",
                   "Qwen",
                   "秒悟Meoo"
                 ],
-                "source": "IT之家",
-                "time": "7月3日消息"
+                "source": "东方财富",
+                "time": "7月2日消息"
               },
               {
                 "title": "AI版支付宝「阿宝」开放公测，支持72类生活办事场景",
@@ -25546,7 +25546,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "豆包辟谣网传「明星指数榜」，称系AI生成不实内容",
                 "summary": "7月3日消息，针对网传「豆包明星指数前十榜单」引发争议，豆包公关负责人刘星辟谣称平台并无此功能，榜单为博主利用豆包AI生成的不实内容，右下角还带有水印。",
-                "link": "https://www.ithome.com/0/971/976.htm",
+                "link": "https://www.ithome.com/0/971/608.htm",
                 "tags": [
                   "豆包",
                   "辟谣",
@@ -25654,7 +25654,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "理想汽车马赫M100芯片论文入选ISCA 2026",
                     "summary": "7月3日消息，理想汽车马赫M100芯片论文入选计算机体系结构顶会ISCA 2026工业分区，为首家入选该分区的中国汽车企业。马赫M100已随全新理想L9和L8量产上车。",
-                    "link": "https://www.ithome.com/0/971/968.htm",
+                    "link": "https://m.ithome.com/html/971357.htm",
                     "tags": [
                       "理想汽车",
                       "AI芯片",
@@ -25676,7 +25676,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "马斯克分享Optimus人形机器人生产线合照",
                     "summary": "7月3日消息，马斯克发布在弗里蒙特工厂参观Optimus机器人生产线的合照，坦言生产初期会极其缓慢、和造车不一样，可能意味着特斯拉人形机器人正进入量产阶段。",
-                    "link": "https://www.ithome.com/0/971/968.htm",
+                    "link": "https://www.ithome.com/0/971/509.htm",
                     "tags": [
                       "Optimus",
                       "人形机器人",
@@ -25702,14 +25702,14 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "宇树科技获准科创板IPO注册，成A股首家人形机器人上市公司",
                     "summary": "7月3日消息，证监会同意宇树科技首次公开发行股票并在科创板上市的注册申请。从3月20日受理到注册生效仅用104天，将成为A股首家人形机器人上市公司。",
-                    "link": "https://www.ithome.com/0/971/968.htm",
+                    "link": "https://finance.eastmoney.com/a/202607023792262781.html",
                     "tags": [
                       "宇树科技",
                       "IPO",
                       "人形机器人"
                     ],
-                    "source": "IT之家",
-                    "time": "7月3日消息"
+                    "source": "东方财富",
+                    "time": "7月2日消息"
                   }
                 ]
               },
@@ -25736,14 +25736,14 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "乐享科技完成近5亿元Pre-A轮融资，发布具身智能品牌",
                     "summary": "7月3日消息，乐享科技完成近5亿元Pre-A轮融资，蚂蚁集团领投，吉利资本、三七互娱等跟投，成立一年半累计融资达10亿元。同步发布家庭具身智能品牌「元点Zeroth」。",
-                    "link": "https://www.ithome.com/0/971/968.htm",
+                    "link": "https://finance.eastmoney.com/a/202607023791704449.html",
                     "tags": [
                       "乐享科技",
                       "具身智能",
                       "融资"
                     ],
-                    "source": "IT之家",
-                    "time": "7月3日消息"
+                    "source": "东方财富",
+                    "time": "7月2日消息"
                   }
                 ]
               }
@@ -25758,7 +25758,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "苹果酝酿2027年多款新品，M7芯片首次亮相主打本地AI能力",
                     "summary": "7月3日消息，苹果计划2027年上半年推出M7处理器、新款iPad Pro及全新设计的入门级MacBook Pro，旨在通过缩短芯片迭代周期优化对AI工作负载的支持，实现史上最大规模产品年。",
-                    "link": "https://www.ithome.com/0/971/968.htm",
+                    "link": "https://m.ithome.com/html/971397.htm",
                     "tags": [
                       "苹果",
                       "M7芯片",
@@ -25792,13 +25792,13 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "微软Teams将推出Facilitator AI助手，开会时AI辅助答疑",
                     "summary": "7月3日消息，微软计划8月为Teams推出Facilitator AI助手，能在会议中实时分析对话、识别未解答问题并提供相关答案。该功能默认关闭，不会主动发言。",
-                    "link": "https://www.ithome.com/0/971/968.htm",
+                    "link": "https://www.chinaz.com/ainews/29319.shtml",
                     "tags": [
                       "微软",
                       "Teams",
                       "AI助手"
                     ],
-                    "source": "IT之家",
+                    "source": "站长之家",
                     "time": "7月3日消息"
                   }
                 ]
@@ -25865,14 +25865,14 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "全球AI数据中心面临极端高温威胁",
                     "summary": "7月3日消息，气候风险研究显示全球数据中心79%算力容量面临洪水、大风、山火等极端天气灾害威胁，英伟达称新型AI服务器可在最高45°C冷却液环境下运行。",
-                    "link": "https://www.ithome.com/0/971/968.htm",
+                    "link": "https://fund.eastmoney.com/a/202607023791671486.html",
                     "tags": [
                       "AI数据中心",
                       "极端天气",
                       "风险"
                     ],
-                    "source": "IT之家",
-                    "time": "7月3日消息"
+                    "source": "东方财富",
+                    "time": "7月2日消息"
                   }
                 ]
               },
@@ -25899,7 +25899,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "瑞银：愿为Siri AI升级iPhone的用户占比降至24%",
                     "summary": "7月3日消息，瑞银证据实验室最新研究表明，愿意为Siri AI和Apple Intelligence提前换机的受访者占比降至24%，较此前下降5个百分点。",
-                    "link": "https://www.ithome.com/0/971/968.htm",
+                    "link": "https://m.ithome.com/html/971528.htm",
                     "tags": [
                       "Siri AI",
                       "苹果",
