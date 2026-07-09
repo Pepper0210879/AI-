@@ -1,204 +1,5 @@
-// 种子数据：为 Step 9 无新闻厂商近期动态提供历史新闻
+// 种子数据
 window.__SEED_CONFIRMED = {
-  "2026-07-06": {
-    "date": "2026-07-06",
-    "sections": {
-      "overseas": {
-        "vendors": [
-          {
-            "name": "OpenAI",
-            "color": "#10A37F",
-            "softBg": "rgba(16,163,127,0.08)",
-            "initial": "O",
-            "news": []
-          },
-          {
-            "name": "Anthropic",
-            "color": "#D4A574",
-            "softBg": "rgba(212,165,116,0.08)",
-            "initial": "A",
-            "news": [
-              {
-                "title": "Anthropic最新论文发现Claude内部存在心理工作空间J-space",
-                "summary": "当地时间7月6日，Anthropic发布论文称在Claude内部发现一组在训练过程中自然涌现的神经模式集合J-space，并非人为设计。研究团队开发J-lens方法可直接读取Claude的推理过程。关闭J-space后Claude多步推理能力几乎归零。",
-                "link": "https://news.qq.com/rain/a/20260707A0232700",
-                "tags": ["可解释性", "AI安全"],
-                "source": "腾讯新闻",
-                "time": "当地时间7月6日"
-              }
-            ]
-          },
-          {
-            "name": "Google",
-            "color": "#4285F4",
-            "softBg": "rgba(66,133,244,0.08)",
-            "initial": "G",
-            "news": []
-          },
-          {
-            "name": "xAI",
-            "color": "#1DA1F2",
-            "softBg": "rgba(29,161,242,0.08)",
-            "initial": "X",
-            "news": [
-              {
-                "title": "马斯克xAI正式更名为SpaceXAI，全新logo同步上线",
-                "summary": "7月7日，马斯克创立的AI公司xAI官宣正式更名为SpaceXAI，同步更换标识和X平台用户名。今年2月xAI被SpaceX收购，5月马斯克宣布xAI将撤销独立公司身份并入SpaceX。",
-                "link": "https://m.ithome.com/html/973318.htm",
-                "tags": ["品牌更名", "SpaceX"],
-                "source": "IT之家",
-                "time": "7月7日"
-              }
-            ]
-          },
-          {
-            "name": "NVIDIA",
-            "color": "#76B900",
-            "softBg": "rgba(118,185,0,0.08)",
-            "initial": "N",
-            "news": [
-              {
-                "title": "英伟达回应Kyber NVL144 AI服务器架构延后传闻：路线图未变",
-                "summary": "7月7日消息，研究机构SemiAnalysis爆料英伟达下一代AI服务器架构Kyber NVL144因PCB制造工艺遭挑战，将延迟超12个月至2028年推出。英伟达随后书面声明回应称路线图没有改变。",
-                "link": "https://finance.eastmoney.com/a/202607073795525096.html",
-                "tags": ["AI服务器", "英伟达"],
-                "source": "东方财富",
-                "time": "7月7日消息"
-              }
-            ]
-          },
-          {
-            "name": "Meta",
-            "color": "#1877F2",
-            "softBg": "rgba(24,119,242,0.08)",
-            "initial": "M",
-            "news": []
-          }
-        ]
-      },
-      "domestic": {
-        "vendors": [
-          {
-            "name": "阿里云",
-            "color": "#FF6A00",
-            "softBg": "rgba(255,106,0,0.08)",
-            "initial": "A",
-            "news": [
-              {
-                "title": "阿里千问升级实时语音识别模型Fun-ASR-Realtime，支持16种方言30种语言",
-                "summary": "7月6日，阿里千问正式升级实时语音识别大模型Fun-ASR-Realtime，首字延迟控制在百毫秒级别，识别准确率接近离线模型水平，支持16种方言和30种语言。",
-                "link": "https://www.ithome.com/0/973/062.htm",
-                "tags": ["语音识别", "千问"],
-                "source": "IT之家",
-                "time": "7月6日"
-              },
-              {
-                "title": "沙利文报告：阿里云全栈AI云服务市场份额40.1%，超第二至第四名总和",
-                "summary": "7月6日，国际咨询机构沙利文发布报告显示2025年中国IaaS+PaaS+MaaS总市场规模达595.9亿元。阿里云以239亿元收入占据40.1%市场份额位列第一。",
-                "link": "https://36kr.com/newsflashes/3883658638405896",
-                "tags": ["市场份额", "阿里云"],
-                "source": "36氪",
-                "time": "7月6日"
-              }
-            ]
-          },
-          {
-            "name": "火山引擎",
-            "color": "#FF5733",
-            "softBg": "rgba(255,87,51,0.08)",
-            "initial": "B",
-            "news": [
-              {
-                "title": "豆包应用生成功能已停止服务，智能体功能将于7月15日下线",
-                "summary": "7月6日消息，继豆包宣布全面下线智能体功能后，其应用生成功能已于5月31日率先停止服务。豆包正持续进行产品功能调整和精简。",
-                "link": "https://news.qq.com/rain/a/20260706A04Y7M00",
-                "tags": ["豆包", "功能调整"],
-                "source": "腾讯新闻",
-                "time": "7月6日消息"
-              }
-            ]
-          },
-          {
-            "name": "DeepSeek",
-            "color": "#4D6BFE",
-            "softBg": "rgba(77,107,254,0.08)",
-            "initial": "D",
-            "news": []
-          },
-          {
-            "name": "腾讯",
-            "color": "#00A4FF",
-            "softBg": "rgba(0,164,255,0.08)",
-            "initial": "T",
-            "news": [
-              {
-                "title": "腾讯混元Hy3正式发布，Agent能力显著提升",
-                "summary": "7月6日，腾讯混元Hy3正式发布并开源。采用MoE架构，总参数295B、激活参数21B，支持256K上下文。API输入价格仅1元/百万Token。",
-                "link": "https://www.tencent.com/zh-cn/articles/2202386.html",
-                "tags": ["大模型", "Hy3"],
-                "source": "腾讯",
-                "time": "7月6日"
-              },
-              {
-                "title": "企业微信联合出门问问、科大讯飞发布AI录音硬件",
-                "summary": "7月6日，企业微信与出门问问、科大讯飞等硬件伙伴联合推出AI录音设备，支持声纹识别区分发言人、自动生成会议摘要。",
-                "link": "https://www.ithome.com/0/972/991.htm",
-                "tags": ["AI硬件", "企业微信"],
-                "source": "IT之家",
-                "time": "7月6日"
-              }
-            ]
-          },
-          {
-            "name": "小米",
-            "color": "#FF6900",
-            "softBg": "rgba(255,105,0,0.08)",
-            "initial": "M",
-            "news": []
-          },
-          {
-            "name": "智谱AI",
-            "color": "#667EEA",
-            "softBg": "rgba(102,126,234,0.08)",
-            "initial": "Z",
-            "news": []
-          },
-          {
-            "name": "月之暗面",
-            "color": "#8B5CF6",
-            "softBg": "rgba(139,92,246,0.08)",
-            "initial": "Y",
-            "news": [
-              {
-                "title": "Kimi K2.7 Code接入GitHub Copilot",
-                "summary": "7月6日，Kimi开放平台官宣GitHub Copilot模型选择器已上线Kimi K2.7 Code，这是Copilot首次接入开源模型。",
-                "link": "https://www.53ai.com/news/OpenSourceLLM/2026070648196.html",
-                "tags": ["AI编程", "开源模型"],
-                "source": "53AI",
-                "time": "7月6日"
-              }
-            ]
-          },
-          {
-            "name": "华为",
-            "color": "#CF0A2C",
-            "softBg": "rgba(207,10,44,0.08)",
-            "initial": "H",
-            "news": [
-              {
-                "title": "华为Mate 90系列有望搭载基于韬定律的新麒麟芯片",
-                "summary": "7月6日，据科创板报从知情人士处获悉，将于今年秋季发布的华为Mate 90系列计划搭载基于韬定律的新麒麟芯片，晶体管密度提升53.5%达238MTr/mm2。",
-                "link": "https://36kr.com/newsflashes/3883711499137283",
-                "tags": ["麒麟芯片", "韬定律"],
-                "source": "36氪",
-                "time": "7月6日"
-              }
-            ]
-          }
-        ]
-      }
-    }
-  },
   "2026-07-07": {
     "date": "2026-07-07",
     "sections": {
@@ -221,7 +22,10 @@ window.__SEED_CONFIRMED = {
                 "title": "Anthropic最新论文发现Claude内部存在心理工作空间J-space",
                 "summary": "当地时间7月6日，Anthropic发布论文称在Claude内部发现一组在训练过程中自然涌现的神经模式集合J-space，并非人为设计。",
                 "link": "https://news.qq.com/rain/a/20260707A0232700",
-                "tags": ["可解释性", "AI安全"],
+                "tags": [
+                  "可解释性",
+                  "AI安全"
+                ],
                 "source": "腾讯新闻",
                 "time": "当地时间7月6日"
               }
@@ -244,7 +48,10 @@ window.__SEED_CONFIRMED = {
                 "title": "马斯克xAI正式更名为SpaceXAI，全新logo同步上线",
                 "summary": "7月7日，马斯克创立的AI公司xAI官宣正式更名为SpaceXAI，同步更换标识和X平台用户名。今年2月xAI被SpaceX收购。",
                 "link": "https://m.ithome.com/html/973318.htm",
-                "tags": ["品牌更名", "SpaceX"],
+                "tags": [
+                  "品牌更名",
+                  "SpaceX"
+                ],
                 "source": "IT之家",
                 "time": "7月7日"
               }
@@ -260,7 +67,9 @@ window.__SEED_CONFIRMED = {
                 "title": "英伟达回应Kyber NVL144 AI服务器架构延后传闻",
                 "summary": "7月7日消息，研究机构SemiAnalysis爆料英伟达下一代AI服务器架构Kyber NVL144将延迟超12个月至2028年推出。英伟达声明称路线图没有改变。",
                 "link": "https://finance.eastmoney.com/a/202607073795525096.html",
-                "tags": ["AI服务器"],
+                "tags": [
+                  "AI服务器"
+                ],
                 "source": "东方财富",
                 "time": "7月7日消息"
               }
@@ -287,7 +96,9 @@ window.__SEED_CONFIRMED = {
                 "title": "阿里千问升级实时语音识别模型Fun-ASR-Realtime",
                 "summary": "7月6日，阿里千问正式升级实时语音识别大模型Fun-ASR-Realtime，支持16种方言和30种语言，API已上线阿里云百炼平台。",
                 "link": "https://www.ithome.com/0/973/062.htm",
-                "tags": ["语音识别"],
+                "tags": [
+                  "语音识别"
+                ],
                 "source": "IT之家",
                 "time": "7月6日"
               },
@@ -295,7 +106,9 @@ window.__SEED_CONFIRMED = {
                 "title": "沙利文报告：阿里云全栈AI云服务市场份额40.1%",
                 "summary": "7月6日，沙利文报告显示2025年中国IaaS+PaaS+MaaS市场阿里云以239亿元收入占据40.1%市场份额位列第一。",
                 "link": "https://36kr.com/newsflashes/3883658638405896",
-                "tags": ["市场份额"],
+                "tags": [
+                  "市场份额"
+                ],
                 "source": "36氪",
                 "time": "7月6日"
               }
@@ -311,7 +124,9 @@ window.__SEED_CONFIRMED = {
                 "title": "豆包应用生成功能已停止服务",
                 "summary": "7月6日消息，豆包应用生成功能已于5月31日停止服务，智能体功能将于7月15日下线。豆包正持续进行产品功能精简。",
                 "link": "https://news.qq.com/rain/a/20260706A04Y7M00",
-                "tags": ["豆包"],
+                "tags": [
+                  "豆包"
+                ],
                 "source": "腾讯新闻",
                 "time": "7月6日消息"
               }
@@ -334,7 +149,9 @@ window.__SEED_CONFIRMED = {
                 "title": "腾讯混元Hy3正式发布并开源",
                 "summary": "7月6日，腾讯混元Hy3正式发布并开源。MoE架构总参数295B、激活21B，支持256K上下文。",
                 "link": "https://www.tencent.com/zh-cn/articles/2202386.html",
-                "tags": ["Hy3"],
+                "tags": [
+                  "Hy3"
+                ],
                 "source": "腾讯",
                 "time": "7月6日"
               },
@@ -342,7 +159,9 @@ window.__SEED_CONFIRMED = {
                 "title": "企业微信联合发布AI录音硬件",
                 "summary": "7月6日，企业微信与出门问问、科大讯飞等联合推出AI录音设备，支持声纹识别和智能摘要。",
                 "link": "https://www.ithome.com/0/972/991.htm",
-                "tags": ["AI硬件"],
+                "tags": [
+                  "AI硬件"
+                ],
                 "source": "IT之家",
                 "time": "7月6日"
               }
@@ -372,7 +191,9 @@ window.__SEED_CONFIRMED = {
                 "title": "Kimi K2.7 Code接入GitHub Copilot",
                 "summary": "7月6日，Kimi K2.7 Code接入GitHub Copilot，为首个开源模型登陆该平台。",
                 "link": "https://www.53ai.com/news/OpenSourceLLM/2026070648196.html",
-                "tags": ["AI编程"],
+                "tags": [
+                  "AI编程"
+                ],
                 "source": "53AI",
                 "time": "7月6日"
               }
@@ -388,7 +209,9 @@ window.__SEED_CONFIRMED = {
                 "title": "华为Mate 90系列有望搭载基于韬定律新麒麟芯片",
                 "summary": "7月6日消息，华为Mate 90系列计划搭载基于韬定律的新麒麟芯片，采用逻辑折叠技术。",
                 "link": "https://36kr.com/newsflashes/3883711499137283",
-                "tags": ["麒麟芯片"],
+                "tags": [
+                  "麒麟芯片"
+                ],
                 "source": "36氪",
                 "time": "7月6日"
               }
@@ -413,7 +236,9 @@ window.__SEED_CONFIRMED = {
                 "title": "OpenAI首席未来学家Joshua Achiam宣布月底离职",
                 "summary": "7月8日，OpenAI首席未来学家Joshua Achiam在社交媒体上宣布将于本月底离职，结束近九年的任职。",
                 "link": "https://finance.sina.com.cn/roll/2026-07-08/doc-inifzwqh8250727.shtml",
-                "tags": ["高层变动"],
+                "tags": [
+                  "高层变动"
+                ],
                 "source": "新浪财经",
                 "time": "7月8日"
               }
@@ -429,7 +254,9 @@ window.__SEED_CONFIRMED = {
                 "title": "Claude Cowork扩展至网页与移动端",
                 "summary": "7月7日，Anthropic宣布Claude Cowork正式扩展至网页端与移动端，超90%使用场景为非代码开发的日常知识工作。",
                 "link": "https://36kr.com/p/3886261266640896",
-                "tags": ["产品更新"],
+                "tags": [
+                  "产品更新"
+                ],
                 "source": "36氪",
                 "time": "7月7日"
               }
@@ -452,7 +279,9 @@ window.__SEED_CONFIRMED = {
                 "title": "xAI正式更名为SpaceXAI，完成品牌重塑",
                 "summary": "7月7日，xAI正式完成品牌重塑，更名为SpaceXAI，同步启用全新Logo。源于SpaceX今年2月对xAI的收购。",
                 "link": "https://www.sohu.com/a/1046991421_99900743",
-                "tags": ["品牌更名"],
+                "tags": [
+                  "品牌更名"
+                ],
                 "source": "搜狐",
                 "time": "7月7日"
               },
@@ -460,7 +289,9 @@ window.__SEED_CONFIRMED = {
                 "title": "SpaceX公布AI数据中心计划",
                 "summary": "7月6日，SpaceX公布AI数据中心计划，将在美国中西部建设250兆瓦AI数据中心，首批投产预计2027年第二季度。",
                 "link": "https://36kr.com/newsflashes/3884777410031879",
-                "tags": ["AI基础设施"],
+                "tags": [
+                  "AI基础设施"
+                ],
                 "source": "36氪",
                 "time": "7月6日"
               }
@@ -483,7 +314,9 @@ window.__SEED_CONFIRMED = {
                 "title": "Meta发布自研AI图像生成模型Muse Image",
                 "summary": "当地时间7月7日，Meta发布Muse Image模型，支持文生图、图像编辑、文字渲染，已接入Meta AI、Instagram和WhatsApp。",
                 "link": "https://www.ithome.com/0/973/820.htm",
-                "tags": ["图像生成"],
+                "tags": [
+                  "图像生成"
+                ],
                 "source": "IT之家",
                 "time": "当地时间7月7日"
               }
@@ -517,7 +350,9 @@ window.__SEED_CONFIRMED = {
                 "title": "消息称DeepSeek正在自研AI推理芯片",
                 "summary": "7月7日，路透社独家报道DeepSeek正在自研面向推理场景的AI芯片，项目约一年前启动，目前处于早期阶段。",
                 "link": "https://www.ithome.com/0/973/810.htm",
-                "tags": ["自研芯片"],
+                "tags": [
+                  "自研芯片"
+                ],
                 "source": "IT之家",
                 "time": "7月7日"
               },
@@ -525,7 +360,9 @@ window.__SEED_CONFIRMED = {
                 "title": "前华为天才少年李博杰吐槽DeepSeek面试",
                 "summary": "7月6日，前华为天才少年李博杰公开吐槽DeepSeek面试流程慢、面试官质疑抄袭，他感到被冒犯后终止面试。",
                 "link": "https://m.21jingji.com/article/20260707/herald/8b65799685586edbb2a119ec0c1a65d3.html",
-                "tags": ["人才招聘"],
+                "tags": [
+                  "人才招聘"
+                ],
                 "source": "第一财经",
                 "time": "7月6日"
               }
@@ -541,7 +378,9 @@ window.__SEED_CONFIRMED = {
                 "title": "腾讯AI应用生成平台「吐司」iOS版正式上线",
                 "summary": "7月6日，腾讯旗下AI应用生成平台「吐司」iOS版上线，零门槛Vibe Coding产品，已生成近5万个应用。",
                 "link": "https://news.qq.com/rain/a/20260707A078CW00",
-                "tags": ["Vibe Coding"],
+                "tags": [
+                  "Vibe Coding"
+                ],
                 "source": "腾讯新闻",
                 "time": "7月6日"
               },
@@ -549,7 +388,9 @@ window.__SEED_CONFIRMED = {
                 "title": "腾讯AI小程序成长计划加码",
                 "summary": "7月7日，AI小程序成长计划升级：Token额度提至10亿，生图额度提至10万张，升级混元Hy3。",
                 "link": "https://www.ithome.com/0/973/597.htm",
-                "tags": ["混元"],
+                "tags": [
+                  "混元"
+                ],
                 "source": "IT之家",
                 "time": "7月7日"
               }
@@ -565,7 +406,9 @@ window.__SEED_CONFIRMED = {
                 "title": "小米调整小爱同学组织架构",
                 "summary": "7月7日，小米调整小爱同学架构：MiMo团队负责基础模型，原负责人王刚调任机器人业务。",
                 "link": "https://36kr.com/p/3885391875242884",
-                "tags": ["组织调整"],
+                "tags": [
+                  "组织调整"
+                ],
                 "source": "36氪",
                 "time": "7月7日"
               },
@@ -573,7 +416,9 @@ window.__SEED_CONFIRMED = {
                 "title": "小米发布MiMo-V2.5-ASR全链路语音模型",
                 "summary": "7月7日，小米MiMo开放平台上线MiMo-V2.5-ASR语音模型，支持方言、中英混识，定价0.5元/小时。",
                 "link": "https://m.ithome.com/html/973369.htm",
-                "tags": ["语音识别"],
+                "tags": [
+                  "语音识别"
+                ],
                 "source": "IT之家",
                 "time": "7月7日"
               }
@@ -589,7 +434,9 @@ window.__SEED_CONFIRMED = {
                 "title": "智谱辟谣「撤回A股辅导备案」传闻",
                 "summary": "7月7日，智谱辟谣撤回A股备案传闻，称报道失实，A股发行辅导工作已完成。股价一度涨超10%。",
                 "link": "https://www.cnstock.com/commonDetail/739703",
-                "tags": ["A股上市"],
+                "tags": [
+                  "A股上市"
+                ],
                 "source": "证券之星",
                 "time": "7月7日"
               }
@@ -612,6 +459,700 @@ window.__SEED_CONFIRMED = {
         ]
       }
     }
+  },
+  "2026-07-09": {
+    "date": "2026-07-09",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "color": "#10A37F",
+            "softBg": "rgba(16,163,127,0.08)",
+            "initial": "O",
+            "news": [
+              {
+                "title": "特朗普政府解除对OpenAI GPT-5.6限制，商务部批准全面推出",
+                "summary": "7月8日，据Axios独家报道，特朗普政府已解除对OpenAI GPT-5.6模型的发布限制，美国商务部下属AI标准与创新中心完成多轮安全测试后批准全面上线。上个月出于国家安全考量，特朗普政府曾要求OpenAI对GPT-5.6采取分阶段发布策略。此次获批为GPT-5.6全系模型面向公众开放扫清障碍。",
+                "link": "https://www.cls.cn/detail/2420061",
+                "tags": [
+                  "政策",
+                  "监管"
+                ],
+                "source": "财联社",
+                "time": "7月8日"
+              },
+              {
+                "title": "OpenAI官宣GPT-5.6系列全量上线，Sol/Terra/Luna三款模型同步推出",
+                "summary": "7月8日，OpenAI宣布GPT-5.6全系模型将于当地时间7月9日面向全球公开发布。旗舰模型Sol定价输入5美元/百万Token，支持150万超长上下文窗口，编程Terminal-Bench 2.1达91.9%；均衡款Terra成本砍半；轻量款Luna主打低延迟高吞吐。三款模型同步落地，标志着OpenAI在经历政府安全审查延迟后全面放开关键模型。",
+                "link": "https://36kr.com/p/3886609637847044",
+                "tags": [
+                  "模型发布",
+                  "GPT-5.6"
+                ],
+                "source": "36氪",
+                "time": "当地时间7月9日"
+              },
+              {
+                "title": "OpenAI发布GPT-Live语音模型：全双工架构让AI对话更接近真人",
+                "summary": "当地时间7月8日，OpenAI正式推出新一代语音模型GPT-Live-1和GPT-Live-1 mini。新模型采用全双工架构，可同时收听和说话，用户可在AI回应时随时打断。盲测中GPT-Live-1偏好率达75.7%，显著优于上一代高级语音模式。目前每周已有超1.5亿人使用ChatGPT语音功能，OpenAI正押注语音成为AI时代最重要的人机交互方式。",
+                "link": "https://openai.com/index/introducing-gpt-live/",
+                "tags": [
+                  "语音",
+                  "模型发布"
+                ],
+                "source": "华尔街见闻",
+                "time": "当地时间7月8日"
+              }
+            ]
+          },
+          {
+            "name": "Anthropic",
+            "color": "#D4A574",
+            "softBg": "rgba(212,165,116,0.08)",
+            "initial": "A",
+            "news": [
+              {
+                "title": "工信部NVDB通报：AI编程工具Claude Code存在安全后门隐患",
+                "summary": "7月8日，工信部网络安全威胁和漏洞信息共享平台（NVDB）发布风险提示，指出Anthropic的Claude Code（版本2.1.91至2.1.196）存在安全后门隐患，内置监控机制未经用户同意即向远程服务器回传敏感信息，危害严重。平台建议立即卸载或升级至最新安全版本，并加强开发工具外联管控与流量监测。",
+                "link": "https://news.cctv.com/2026/07/08/ARTIxwp3xheVJJXMthavei2w260708.shtml",
+                "tags": [
+                  "安全",
+                  "监管"
+                ],
+                "source": "央视新闻",
+                "time": "7月8日"
+              },
+              {
+                "title": "Anthropic延长Claude Fable 5免费期至7月12日",
+                "summary": "当地时间7月7日，Anthropic宣布将Claude Fable 5免费推广期延长至7月12日，原定截止日7月8日因大量付费用户不满而延后。Pro、Max、Team用户每周最多可将50%订阅用量用于Fable 5，无需额外付费。7月12日后Fable 5将不再计入订阅免费额度，需按量付费使用。",
+                "link": "https://ai.cnmo.com/news/812840.html",
+                "tags": [
+                  "产品策略"
+                ],
+                "source": "CNMO",
+                "time": "当地时间7月7日"
+              },
+              {
+                "title": "Anthropic扩张纽约办公室，员工规模将翻番至1000人",
+                "summary": "当地时间7月7日，Anthropic宣布租赁纽约曼哈顿哈德逊街330号一栋16层办公楼，计划今年将纽约员工规模扩大一倍至1000人，该办公室将成为其东海岸总部。Anthropic的竞争对手OpenAI此前已在附近设立纽约办公室，反映出AI行业在纽约东海岸的人才争夺战正在加剧。",
+                "link": "https://www.jiemian.com/article/14718796.html",
+                "tags": [
+                  "公司动态",
+                  "扩张"
+                ],
+                "source": "界面新闻",
+                "time": "当地时间7月7日"
+              }
+            ]
+          },
+          {
+            "name": "Google",
+            "color": "#4285F4",
+            "softBg": "rgba(66,133,244,0.08)",
+            "initial": "G",
+            "news": []
+          },
+          {
+            "name": "xAI",
+            "color": "#1DA1F2",
+            "softBg": "rgba(29,161,242,0.08)",
+            "initial": "X",
+            "news": [
+              {
+                "title": "SpaceXAI发布Grok 4.5编程智能体模型，与Cursor联合训练成本减半",
+                "summary": "7月9日，SpaceXAI正式发布首个编程智能体模型Grok 4.5，定位公司迄今最强模型，与Cursor联合训练，参数约1.5万亿，在数万个英伟达GB300 GPU上完成训练。擅长处理大型代码库及跨仓库长时间任务，Token消耗仅为同类领先模型一半，每秒输出80 TPS。API定价输入2美元、输出6美元/百万Token，成本不到Opus 4.8的十分之一。",
+                "link": "https://www.ithome.com/0/974/278.htm",
+                "tags": [
+                  "模型发布",
+                  "编程"
+                ],
+                "source": "IT之家",
+                "time": "7月9日"
+              }
+            ]
+          },
+          {
+            "name": "NVIDIA",
+            "color": "#76B900",
+            "softBg": "rgba(118,185,0,0.08)",
+            "initial": "N",
+            "news": [
+              {
+                "title": "英伟达Nemotron 3 Ultra获开源模型最高准确率，推理成本仅为顶级闭源模型1/10",
+                "summary": "7月8日消息，英伟达发布Nemotron 3 Ultra开源模型，在多项基准测试中获开源模型最高准确率，推理成本仅为顶级闭源模型的十分之一。Nemotron 3 Ultra针对企业级推理场景优化，支持多步复杂任务处理，进一步巩固英伟达在AI算力与开源模型生态的双重布局。",
+                "link": "https://www.ithome.com/0/974/269.htm",
+                "tags": [
+                  "开源",
+                  "推理"
+                ],
+                "source": "IT之家",
+                "time": "7月8日"
+              }
+            ]
+          },
+          {
+            "name": "Meta",
+            "color": "#1877F2",
+            "softBg": "rgba(24,119,242,0.08)",
+            "initial": "M",
+            "news": [
+              {
+                "title": "Meta测试「超级感知」AI眼镜，可持续录音拍照引隐私争议",
+                "summary": "7月8日，据Financial Times报道，Meta正在测试一款「超级感知」AI眼镜原型，可每隔几秒拍摄照片并持续采集音频，用户可借助AI随时查询回顾任何瞬间。Meta计划在超级感知模式下关闭LED指示灯，旁观者难以察觉被录制，引发内部关于隐私的激烈争论。此前Meta已推送更新：检测到LED指示灯被篡改则自动禁用摄像头。",
+                "link": "https://36kr.com/newsflashes/3886848224588036",
+                "tags": [
+                  "穿戴设备",
+                  "隐私"
+                ],
+                "source": "36氪",
+                "time": "7月8日"
+              }
+            ]
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "color": "#FF6A00",
+            "softBg": "rgba(255,106,0,0.08)",
+            "initial": "A",
+            "news": [
+              {
+                "title": "阿里Q1财报前瞻：阿里云收入增长加速至45%大超预期",
+                "summary": "7月8日消息，阿里2027财年Q1财报前瞻显示，阿里云季度收入增长加速至45%左右，大超市场预期，EBITA利润率从往季9.1%提升至低双位数。AI相关产品收入已连续11个季度三位数增长，MaaS业务拉动明显。受消息提振，阿里巴巴港股盘中涨超13%，市值重返2万亿港元。",
+                "link": "https://stcn.com/article/detail/4006224.html",
+                "tags": [
+                  "财报",
+                  "云服务"
+                ],
+                "source": "证券时报",
+                "time": "7月8日"
+              }
+            ]
+          },
+          {
+            "name": "火山引擎",
+            "color": "#FF5733",
+            "softBg": "rgba(255,87,51,0.08)",
+            "initial": "B",
+            "news": [
+              {
+                "title": "字节跳动发布Seedream 5.0 Pro多模态图像创作模型",
+                "summary": "7月8日晚间，字节跳动Seed团队发布多模态图像创作模型Seedream 5.0 Pro。四大核心突破包括：复杂信息可视化（高密度信息图输出）、交互式精准编辑（图层分离、色彩材质替换）、真实影像与人像质感和原生多语种输入生成。已上线火山方舟体验中心，将陆续登陆豆包与即梦平台。",
+                "link": "https://m.ithome.com/html/974249.htm",
+                "tags": [
+                  "多模态",
+                  "图像生成"
+                ],
+                "source": "IT之家",
+                "time": "7月8日"
+              }
+            ]
+          },
+          {
+            "name": "DeepSeek",
+            "color": "#4D6BFE",
+            "softBg": "rgba(77,107,254,0.08)",
+            "initial": "D",
+            "news": []
+          },
+          {
+            "name": "腾讯",
+            "color": "#00A4FF",
+            "softBg": "rgba(0,164,255,0.08)",
+            "initial": "T",
+            "news": [
+              {
+                "title": "腾讯再次挖角OpenAI，前研究员田永龙入职参与VLM研发",
+                "summary": "7月8日，据接近腾讯的知情人士透露，OpenAI前研究员Yonglong Tian（田永龙）已于近期加入腾讯大语言模型部，将参与VLM（视觉语言模型）研发。田永龙本科清华、MIT EECS博士，主导SupContrast等开源项目，先后在Google Research、DeepMind和OpenAI工作。这是继去年12月姚顺雨加入后，腾讯第二次挖角OpenAI核心研究员。",
+                "link": "https://www.thepaper.cn/newsdetail_forward_33540343",
+                "tags": [
+                  "人才",
+                  "视觉语言模型"
+                ],
+                "source": "澎湃新闻",
+                "time": "7月8日"
+              },
+              {
+                "title": "腾讯混元新模型Hy3调用激增，WorkBuddy已紧急扩容",
+                "summary": "7月9日消息，腾讯混元大模型最新版Hy3上线后调用量激增，据腾讯内部消息，Hy3在OpenRouter上周使用量环比增长51%达1.82T tokens，免费版更以1.9T tokens新上榜位列第八。腾讯AI智能体WorkBuddy因用户涌入已紧急扩容。Hy3采用MoE架构，总参数295B激活21B，支持256K上下文。",
+                "link": "https://www.ithome.com/0/974/310.htm",
+                "tags": [
+                  "混元",
+                  "大模型"
+                ],
+                "source": "IT之家",
+                "time": "7月9日"
+              }
+            ]
+          },
+          {
+            "name": "小米",
+            "color": "#FF6900",
+            "softBg": "rgba(255,105,0,0.08)",
+            "initial": "M",
+            "news": []
+          },
+          {
+            "name": "智谱AI",
+            "color": "#667EEA",
+            "softBg": "rgba(102,126,234,0.08)",
+            "initial": "Z",
+            "news": [
+              {
+                "title": "智谱配售新H股募资约314亿港元，创年内港股单笔配售新高",
+                "summary": "7月9日，智谱在港交所公告，拟以每股1588港元配售最多1978万股新H股，所得款项总额预期约314.1亿港元，将用于基座模型研发、技术创新、商业化落地及生态建设。此前7月8日约2568万股限售股解禁日不跌反涨逾13%，多家基石投资者表态长期持有。",
+                "link": "https://stcn.com/article/detail/4007594.html",
+                "tags": [
+                  "融资",
+                  "港股"
+                ],
+                "source": "证券时报",
+                "time": "7月9日"
+              },
+              {
+                "title": "消息称智谱考虑自研AI芯片，已向国内设计公司初步询问",
+                "summary": "7月8日，据The Information报道，智谱AI正在权衡设计自有AI芯片。随着GLM模型需求上升及美国出口管制限制先进芯片供给，算力资源成为更大约束。智谱走定制化ASIC路线，已向国内多家芯片设计公司初步询价，项目仍处早期评估阶段。同期DeepSeek也被曝正在自研AI推理芯片，大模型公司集体下场造芯成为趋势。",
+                "link": "https://36kr.com/p/3886547036437129",
+                "tags": [
+                  "芯片",
+                  "自研"
+                ],
+                "source": "36氪",
+                "time": "7月8日"
+              }
+            ]
+          },
+          {
+            "name": "月之暗面",
+            "color": "#8B5CF6",
+            "softBg": "rgba(139,92,246,0.08)",
+            "initial": "Y",
+            "news": []
+          },
+          {
+            "name": "华为",
+            "color": "#CF0A2C",
+            "softBg": "rgba(207,10,44,0.08)",
+            "initial": "H",
+            "news": []
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "其他厂商",
+            "cards": [
+              {
+                "title": "亚马逊",
+                "news": [
+                  {
+                    "title": "亚马逊秘密推进Alexa「Moonraker」AI智能体计划，成本高昂引内部担忧",
+                    "summary": "7月8日消息，亚马逊内部规划文件显示，公司正秘密推进代号「Moonraker」的Alexa AI智能体项目，支持单次指令执行多项关联操作。但该项目预计2026年GPU算力开销超1亿美元，被内部定性为最高成本新项目，部分高管认为AI模型支出过高，推迟或缩减项目规模是可行途径。",
+                    "link": "https://www.jiemian.com/article/14725948.html",
+                    "tags": [
+                      "智能体",
+                      "Alexa"
+                    ],
+                    "source": "界面新闻",
+                    "time": "7月8日"
+                  },
+                  {
+                    "title": "亚马逊启动至少250亿美元债券发行，资金用于AI基础设施建设",
+                    "summary": "7月8日消息，亚马逊于美东时间7月7日启动至少250亿美元债券发行，分8个档位涵盖3至40年期，所得资金用于扩大AI基础设施投入，2026年资本开支预计接近2000亿美元。不过此次认购倍数仅约1.6倍，远低于此前热度，市场对AI军备竞赛债务风险关注上升。",
+                    "link": "https://api3.cls.cn/share/article/2419723",
+                    "tags": [
+                      "融资",
+                      "基础设施"
+                    ],
+                    "source": "财联社",
+                    "time": "7月8日"
+                  }
+                ]
+              },
+              {
+                "title": "努比亚",
+                "news": [
+                  {
+                    "title": "努比亚确认推出全球首款AI智能体手机，将在WAIC 2026亮相",
+                    "summary": "7月8日，中兴通讯终端事业部总裁倪飞发文确认，全球首款AI智能体手机来自努比亚，该量产旗舰机型将在2026世界人工智能大会（WAIC）上首次公开亮相。新机采用GUI Agent架构与端侧大模型，用户说出需求即可自动完成跨应用操作全流程，仅支付确认需人工介入。这是继与字节豆包合作初代AI手机后的第二代量产版。",
+                    "link": "https://m.ithome.com/html/974123.htm",
+                    "tags": [
+                      "AI手机",
+                      "WAIC"
+                    ],
+                    "source": "IT之家",
+                    "time": "7月8日"
+                  }
+                ]
+              },
+              {
+                "title": "MiniMax",
+                "news": [
+                  {
+                    "title": "MiniMax计划推出2.7万亿参数大模型M3 Pro，最早Q3发布并开源",
+                    "summary": "7月8日，据The Information报道，MiniMax计划推出2.7万亿参数规模的新一代大语言模型，内部代号M3 Pro，参数约为现有旗舰M3的6倍，将成为国内规模最大的大语言模型，预计最早2026年Q3发布并开源，大幅增强复杂推理和多步任务处理能力。同日MiniMax港股大涨近12%。",
+                    "link": "https://m.ithome.com/html/974132.htm",
+                    "tags": [
+                      "大模型",
+                      "开源"
+                    ],
+                    "source": "IT之家",
+                    "time": "7月8日"
+                  },
+                  {
+                    "title": "MiniMax解禁前夕：超八成股东表态长期持有，创始团队自愿延锁12个月",
+                    "summary": "7月8日，在MiniMax基石投资者解禁窗口来临之际，超八成Pre IPO及基石股东明确表态长期持有，包括Aspex、博裕、IDG、国寿投资等。创始团队自愿追加12个月锁定期。高盛、美银、花旗三家国际投行同时给予买入评级。7月8日MiniMax股价盘中一度涨近20%，收盘涨约11.98%。",
+                    "link": "https://news.qq.com/rain/a/20260708A09AH400",
+                    "tags": [
+                      "资本市场",
+                      "解禁"
+                    ],
+                    "source": "腾讯新闻",
+                    "time": "7月8日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "自动驾驶",
+            "cards": [
+              {
+                "title": "Momenta",
+                "news": [
+                  {
+                    "title": "Momenta港交所上市成「物理AI第一股」，募资约68亿港元",
+                    "summary": "7月8日，Momenta正式在港交所挂牌上市，成为港股「物理AI第一股」。上市定价295.6港元/股，募资约68亿港元，公开发售获414倍超额认购，国际发售覆盖15个国家和地区获超1000亿港元订单。CEO曹旭东提出未来十年将机器人服务引入家庭场景。首日收盘持平发行价。",
+                    "link": "https://stcn.com/article/detail/4007231.html",
+                    "tags": [
+                      "IPO",
+                      "自动驾驶"
+                    ],
+                    "source": "证券时报",
+                    "time": "7月8日"
+                  }
+                ]
+              },
+              {
+                "title": "特斯拉",
+                "news": [
+                  {
+                    "title": "曝特斯拉Cybercab搭载更强FSD计算机，内存超32GB支持L4自动驾驶",
+                    "summary": "7月8日消息，据Notateslaapp报道，特斯拉即将量产的Cybercab搭载的FSD计算机性能高于当前家用车版本，内存超过现有AI4的32GB上限，可能来自AI4+预量产版（总内存64GB），用于运行更大规模自动驾驶神经网络。Cybercab已标注SAE L4级自动驾驶，并在奥斯汀公共道路测试无方向盘、无踏板版本。",
+                    "link": "https://tech.ifeng.com/c/8uapKRahO34",
+                    "tags": [
+                      "自动驾驶",
+                      "Cybercab"
+                    ],
+                    "source": "凤凰网科技",
+                    "time": "7月8日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "具身智能",
+            "cards": [
+              {
+                "title": "蚂蚁灵波",
+                "news": [
+                  {
+                    "title": "蚂蚁灵波开源LingBot-VLA 2.0具身基座模型，覆盖20种机器人构型",
+                    "summary": "7月8日，蚂蚁集团旗下蚂蚁灵波科技正式开源新一代具身基座模型LingBot-VLA 2.0。新版本预训练使用6万小时高质量物理数据，覆盖17个品牌20种机器人构型，支持单臂、双臂、双足、轮式等形态。基于MoE架构，在GM-100评测中任务进度分和成功率全面领先。已在零售分拣、物流分拣等场景开展商业落地测试。",
+                    "link": "https://www.ithome.com/0/974/115.htm",
+                    "tags": [
+                      "具身智能",
+                      "开源"
+                    ],
+                    "source": "IT之家",
+                    "time": "7月8日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "投资资讯",
+            "cards": [
+              {
+                "title": "Rebellions",
+                "news": [
+                  {
+                    "title": "三星支持的韩国AI芯片创企Rebellions计划明年上半年在韩IPO",
+                    "summary": "7月8日，据CNBC报道，三星电子支持的韩国AI芯片创企Rebellions CEO表示，公司计划2027年第一或第二季度在韩国KOSPI上市，后续可能通过ADR赴美上市，主承销商为摩根大通和三星证券。Rebellions成立于2020年，聚焦AI推理芯片，2026年3月完成4亿美元融资估值约23.4亿美元。",
+                    "link": "https://36kr.com/newsflashes/3886643228684544",
+                    "tags": [
+                      "IPO",
+                      "AI芯片"
+                    ],
+                    "source": "36氪",
+                    "time": "7月8日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "行业趋势&观点",
+            "cards": [
+              {
+                "title": "Decagon CEO",
+                "news": [
+                  {
+                    "title": "Decagon CEO：开源模型与前沿模型是同一生命周期两个阶段非零和竞争",
+                    "summary": "7月7日，AI初创公司Decagon CEO Jesse Zhang发文提出，在企业级AI市场，开源模型与闭源模型并非零和竞争，而是同一生命周期两个阶段——闭源主导发现，开源接管生产。企业探索新用例时倾向前沿闭源模型，用例成熟后迁移至经微调的开源模型。Decagon自身约90%工作负载运行在开源模型上。",
+                    "link": "https://finance.sina.cn/2026-07-08/detail-inihatua4852645.d.html",
+                    "tags": [
+                      "开源",
+                      "行业观点"
+                    ],
+                    "source": "新浪财经",
+                    "time": "7月7日"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "LMArena",
+            "date": "2026-07-02",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "claude-opus-4-6",
+                "score": "1499",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-7",
+                "score": "1494",
+                "change": "+4"
+              },
+              {
+                "model": "muse-spark",
+                "score": "1487",
+                "change": "+6"
+              },
+              {
+                "model": "gemini-3.1-pro-preview",
+                "score": "1486",
+                "change": "+4"
+              },
+              {
+                "model": "gemini-3-pro",
+                "score": "1486",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-8-thinking",
+                "score": "1484",
+                "change": "+5"
+              },
+              {
+                "model": "gpt-5.5-high",
+                "score": "1481",
+                "change": "+5"
+              },
+              {
+                "model": "gemini-3.5-flash",
+                "score": "1479",
+                "change": "+6"
+              },
+              {
+                "model": "gpt-5.4-high",
+                "score": "1478",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-8",
+                "score": "1477",
+                "change": "+6"
+              },
+              {
+                "model": "gpt-5.2-chat-latest-20260210",
+                "score": "1476",
+                "change": "+4"
+              },
+              {
+                "model": "qwen3.7-max-preview",
+                "score": "1475",
+                "change": "+10"
+              },
+              {
+                "model": "gpt-5.5",
+                "score": "1475",
+                "change": "+5"
+              },
+              {
+                "model": "grok-4.20-beta-0309-reasoning",
+                "score": "1475",
+                "change": "+4"
+              },
+              {
+                "model": "grok-4.20-beta1",
+                "score": "1474",
+                "change": "+5"
+              },
+              {
+                "model": "gemini-3-flash",
+                "score": "1473",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-5-20251101-thinking-32k",
+                "score": "1473",
+                "change": "+4"
+              }
+            ]
+          },
+          {
+            "name": "OpenRouter",
+            "date": "2026-07-09",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": [
+              {
+                "model": "DeepSeek V4 Flash",
+                "score": "5.42T tokens",
+                "change": "↑11%"
+              },
+              {
+                "model": "MiMo-V2.5",
+                "score": "4.49T tokens",
+                "change": "↑6%"
+              },
+              {
+                "model": "MiniMax M3",
+                "score": "4.31T tokens",
+                "change": "↑19%"
+              },
+              {
+                "model": "GLM 5.2",
+                "score": "3.05T tokens",
+                "change": "↑28%"
+              },
+              {
+                "model": "DeepSeek V4 Pro",
+                "score": "2.76T tokens",
+                "change": "↑26%"
+              },
+              {
+                "model": "Claude Opus 4.7",
+                "score": "2.6T tokens",
+                "change": "↑47%"
+              },
+              {
+                "model": "Claude Opus 4.8",
+                "score": "2.04T tokens",
+                "change": "↑1%"
+              },
+              {
+                "model": "Hy3 (free)",
+                "score": "1.9T tokens",
+                "change": "new"
+              },
+              {
+                "model": "Hy3 preview",
+                "score": "1.82T tokens",
+                "change": "↑51%"
+              },
+              {
+                "model": "Step 3.7 Flash",
+                "score": "1.48T tokens",
+                "change": "↑1%"
+              }
+            ]
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-07-08",
+            "link": "https://www.producthunt.com/",
+            "rankings": [
+              {
+                "name": "AnySearch",
+                "category": "Developer Tools",
+                "rank": 1,
+                "link": "https://www.anysearch.com"
+              },
+              {
+                "name": "Octolens",
+                "category": "Marketing",
+                "rank": 2,
+                "link": "https://octolens.com"
+              },
+              {
+                "name": "Typeahead 2.0",
+                "category": "Productivity",
+                "rank": 3,
+                "link": "https://www.producthunt.com/products/typeahead/launches/typeahead-2-0"
+              },
+              {
+                "name": "Sunrise",
+                "category": "Productivity",
+                "rank": 4,
+                "link": "https://www.producthunt.com/products/sunrise-5"
+              },
+              {
+                "name": "Stanley Studio",
+                "category": "Social Media",
+                "rank": 5,
+                "link": "https://studio.getstanley.ai/"
+              },
+              {
+                "name": "AirKaren",
+                "category": "Customer Success",
+                "rank": 6,
+                "link": "https://www.producthunt.com/posts/airkaren"
+              },
+              {
+                "name": "Edge Claude Code Compressor V2",
+                "category": "API",
+                "rank": 7,
+                "link": "https://www.producthunt.com/posts/edge-claude-code-compressor-v2"
+              },
+              {
+                "name": "Astryx",
+                "category": "Design Tools",
+                "rank": 8,
+                "link": "https://www.producthunt.com/posts/astryx"
+              },
+              {
+                "name": "CodeMote",
+                "category": "iOS",
+                "rank": 9,
+                "link": "https://www.producthunt.com/posts/codemote"
+              },
+              {
+                "name": "Nixmac",
+                "category": "Open Source",
+                "rank": 10,
+                "link": "https://www.producthunt.com/posts/nixmac"
+              },
+              {
+                "name": "Mozaik",
+                "category": "Developer Tools",
+                "rank": 11,
+                "link": "https://www.producthunt.com/posts/mozaik"
+              },
+              {
+                "name": "Cadence",
+                "category": "Productivity",
+                "rank": 12,
+                "link": "https://www.producthunt.com/posts/cadence"
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 };
-window.__SEED_VERSION = '1.0.0';
