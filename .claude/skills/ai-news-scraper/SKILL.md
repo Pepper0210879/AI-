@@ -547,36 +547,52 @@ python3 .claude/skills/ai-news-scraper/scripts/feishu_sync.py --date YYYY-MM-DD
 
 将当日 data.json 合并到 `seed-data.js`，为 GitHub Pages 提供历史新闻数据（支撑 Step 9 无新闻厂商近期动态）。
 
+> ⚠️ **永久保留全部历史，不截断。** 每次用 git 历史中各个 date 的最后版本覆盖合并，确保不丢失任何一天的数据。
+
 ```bash
-python3 -c "
-import json
+python3 << 'PYEOF'
+import json, subprocess, sys
 from pathlib import Path
 
-# 读取当日数据
-with open('data.json') as f:
-    today = json.load(f)
+# 1. 通过 git 历史获取每个 date 的最新版本
+result = subprocess.run(
+    ['git', 'log', '--reverse', '--format=%H', '--', 'data.json'],
+    capture_output=True, text=True, timeout=30
+)
+commits = result.stdout.strip().split()
 
-# 读取现有种子数据
-seed_file = Path('seed-data.js')
-if seed_file.exists():
-    content = seed_file.read_text()
-    start = content.index('{')
-    end = content.rindex('}') + 1
-    seed = json.loads(content[start:end])
-else:
-    seed = {}
+date_to_commit = {}
+for commit in commits:
+    try:
+        r = subprocess.run(['git', 'show', f'{commit}:data.json'],
+            capture_output=True, text=True, timeout=5)
+        data = json.loads(r.stdout)
+        d = data.get('date')
+        if d:
+            date_to_commit[d] = commit  # later commit overwrites earlier
+    except:
+        pass
 
-# 合并：当日数据覆盖同日期，保留最近 3 天
-seed[today['date']] = today
-dates = sorted(seed.keys(), reverse=True)
-for old_date in dates[3:]:
-    del seed[old_date]
+# 2. 提取每个 date 的最新完整数据
+seed = {}
+for date in sorted(date_to_commit.keys()):
+    r = subprocess.run(['git', 'show', f'{date_to_commit[date]}:data.json'],
+        capture_output=True, text=True, timeout=5)
+    seed[date] = json.loads(r.stdout)
 
-# 写入
-js = '// 种子数据：为 Step 9 无新闻厂商近期动态提供历史新闻\nwindow.__SEED_CONFIRMED = ' + json.dumps(seed, ensure_ascii=False, indent=2) + ';\n'
-seed_file.write_text(js)
-print(f'种子数据已更新：包含 {list(seed.keys())}，共 {len(js)} 字符')
-"
+# 3. 写入（包含当前日期的数据）
+js = (
+    '// 种子数据：为无新闻厂商近期动态提供历史新闻\n'
+    '// 自动从 git 历史全量恢复，永久保留\n'
+    'window.__SEED_CONFIRMED = '
+    + json.dumps(seed, ensure_ascii=False, indent=2) + ';\n\n'
+    'window.__SEED_VERSION = 2;\n'
+)
+Path('seed-data.js').write_text(js)
+print(f'种子数据已更新：共 {len(seed)} 天，'
+      f'{min(seed.keys())} ~ {max(seed.keys())}，'
+      f'{len(js)} 字符')
+PYEOF
 ```
 
 ### >> 检查点 7
@@ -587,7 +603,7 @@ print(f'种子数据已更新：包含 {list(seed.keys())}，共 {len(js)} 字�
 ✅ script.js NEWS_DATA 已同步
 ✅ admin.js DEFAULT_DATA 已同步
 ✅ 日报链接自检：零日报链接残留
-✅ 种子数据已更新：包含最近 3 天
+✅ 种子数据已更新：包含全部历史日期（从 git 全量恢复）
 ✅ 飞书知识库已同步：X 条新闻 + Y 条榜单
 ⚠️ 尚未推送，进入 Step 8 复核通过后再推送
 ```
