@@ -31717,7 +31717,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "11天Claude Fable 5狂写超100万行代码，Rust重构JavaScript运行时Bun",
                 "summary": "Claude Fable 5在11天内使用Rust语言重写了JavaScript运行时Bun项目超过100万行代码。Bun作者因担忧AI生成代码质量问题对此表示愤怒，称该行为可能引发开源社区代码审计和信任危机。这一事件展示了AI编程能力已提升至可独立重构大型开源项目的水平，但也引发了对AI生成代码质量和开源协议合规性的广泛讨论。",
-                "link": "https://www.ithome.com/0/975/627.htm",
+                "link": "https://www.ithome.com/0/975/469.htm",
                 "tags": [
                   "AI编程",
                   "开源"
@@ -31777,12 +31777,12 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "SpaceX公布太空移民新规划：2026年底发射，特斯拉机器人首批进驻",
                 "summary": "SpaceX创始人马斯克近日公布太空移民计划最新时间表，拟于2026年底前启动火箭发射，将首批建设物资运往月球和火星。特斯拉研发的擎天柱人形机器人将作为首批居民先行进驻，负责太空基础设施的早期搭建。公司已向FCC申请发射由10万颗卫星组成的新星座。马斯克表示若目标实现，SpaceX价值将超过地球上其他所有资产总和。",
-                "link": "https://tech.ifeng.com/c/8ue7H0aaQS7",
+                "link": "https://cnbeta.stateserver.com/view/1568578.htm",
                 "tags": [
                   "太空探索",
                   "人形机器人"
                 ],
-                "source": "凤凰科技",
+                "source": "cnBeta",
                 "time": "7月10日消息"
               },
               {
@@ -31849,7 +31849,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "Meta发布Muse Spark 1.1多模态推理模型，对标GPT-5.6",
                 "summary": "Meta超级智能实验室发布多模态推理模型Muse Spark 1.1，支持100万token上下文窗口，引入主从架构训练，可作为主智能体进行任务规划与分发。模型具备计算机操作能力，可自动化完成长流程任务。Meta同步开启Model API公测，API定价仅为OpenAI和Anthropic顶级模型的约25%，并披露自研AI芯片Iris将于今年9月投产。",
-                "link": "https://www.ithome.com/0/975/627.htm",
+                "link": "https://www.ithome.com/0/974/775.htm",
                 "tags": [
                   "多模态模型",
                   "API",
@@ -31894,12 +31894,12 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "传腾讯正洽谈成为Manus最大股东，出资136亿元从Meta手中回购",
                 "summary": "据《金融时报》报道，腾讯正考虑入股AI智能体初创公司Manus，计划以20亿美元（约136亿元人民币）从Meta手中买回Manus股份，成为该公司最大股东但持股不超过50%。此次交易涉及真格基金、红杉资本等多方磋商。此前国家发改委已禁止外资收购Manus，要求Meta与Manus恢复独立运营。",
-                "link": "https://www.ithome.com/0/975/622.htm",
+                "link": "https://tech.ifeng.com/c/8udx3rupdGP",
                 "tags": [
                   "AI智能体",
                   "投资"
                 ],
-                "source": "IT之家",
+                "source": "凤凰科技",
                 "time": "7月10日消息"
               }
             ]
@@ -32071,12 +32071,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "上纬新材将在WAIC发布全球首款可变形个人机器人启元T1",
                     "summary": "上纬新材将在2026世界人工智能大会（WAIC）上推出全球首款可变形个人机器人启元T1。该产品基于一个机器人本体可实现轮足人形与四足两种形态的自动切换变形，具备拍摄运镜功能，在智能交互与陪伴方面取得突破，锚定家用消费场景。",
-                    "link": "https://www.ithome.com/0/975/569.htm",
+                    "link": "https://finance.eastmoney.com/a/202607103801995774.html",
                     "tags": [
                       "可变形机器人",
                       "WAIC"
                     ],
-                    "source": "IT之家",
+                    "source": "东方财富",
                     "time": "7月10日消息"
                   }
                 ]
@@ -32092,12 +32092,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "联合国ADS GTR自动驾驶全球法规正式落地，中国智驾出海迎统一规则",
                     "summary": "联合国世界车辆法规协调组织（UN/WP.29）第199次全体会议完成自动驾驶系统全球统一技术法规（ADS GTR）投票并正式发布。该法规由中国、欧盟、英国、美国等共同牵头制定，实现全球L3及以上自动驾驶统一标准从无到有的突破，为具备成熟智驾技术的中国车企出海扫清关键合规障碍，标志着中国汽车产业正式参与全球规则制定。",
-                    "link": "https://www.cls.cn/detail/2421457",
+                    "link": "https://www.stcn.com/article/detail/4010135.html",
                     "tags": [
                       "法规",
                       "智驾出海"
                     ],
-                    "source": "财联社",
+                    "source": "证券时报",
                     "time": "7月11日消息"
                   }
                 ]
@@ -32108,12 +32108,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "NHTSA局长暗示将取消自动驾驶汽车强制标配方向盘规定",
                     "summary": "美国国家公路交通安全管理局（NHTSA）局长乔纳森·莫里森表示支持自动驾驶技术创新，暗示将考虑取消自动驾驶汽车必须配备方向盘和制动踏板等人工操纵装置的法律规定。他表示如果汽车从设计之初就不是为人类操作，继续要求手动控制装置并不合理。目前特斯拉、优步等正在开发不设方向盘的自动驾驶出租车。",
-                    "link": "https://www.ithome.com/0/975/661.htm",
+                    "link": "https://www.163.com/dy/article/L1FPFES90511CPVM.html",
                     "tags": [
                       "法规",
                       "无人驾驶"
                     ],
-                    "source": "IT之家",
+                    "source": "网易",
                     "time": "7月10日消息"
                   }
                 ]
@@ -32145,12 +32145,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "端侧AI推理芯片企业聆思科技完成近5亿元B轮融资",
                     "summary": "端侧AI推理芯片企业聆思科技完成近5亿元B轮融资，由安徽省与合肥市多家国资平台联合战略领投。资金将重点投入新一代端侧大模型AI推理芯片研发，推动产品体系从感知模型AI推理芯片向认知大模型AI推理芯片升级。",
-                    "link": "https://www.36kr.com/p/3889056408435970",
+                    "link": "https://www.cls.cn/detail/2422616",
                     "tags": [
                       "AI芯片",
                       "融资"
                     ],
-                    "source": "36氪",
+                    "source": "财联社",
                     "time": "7月11日消息"
                   }
                 ]
@@ -32159,9 +32159,9 @@ window.__SEED_CONFIRMED = {
                 "title": "他山科技",
                 "news": [
                   {
-                    "title": "触觉传感器企业他山科技完成数亿元B轮融资",
+                    "title": "36氪首发 | 英伟达全球首家触觉仿真合作伙伴再获数亿融资",
                     "summary": "AI触觉传感器企业他山科技完成数亿元B轮融资，由均胜电子、太平创新等产业方投资。资金将主要用于触觉传感器及芯片迭代、场景化方案落地及触觉训练平台建设，推动AI触觉感知技术的产业化应用。",
-                    "link": "https://www.36kr.com/p/3889058007377921",
+                    "link": "https://36kr.com/p/3889141540370949",
                     "tags": [
                       "触觉传感器",
                       "融资"
@@ -32215,12 +32215,12 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "派拓网络CEO：AI Token成本需降低90%才能实现企业大规模普及",
                     "summary": "派拓网络（Palo Alto Networks）CEO Nikesh Arora表示，高昂的Token成本已成为企业预算重大负担，AI Token成本需要在未来12个月内降至目前的20%，随后一年内实现90%降幅，才能推动企业大规模采用人工智能。尽管OpenAI称其最新模型智能体编程Token效率提升54%，但这仅是一个开始。",
-                    "link": "https://www.ithome.com/0/975/635.htm",
+                    "link": "https://www.cnbc.com/2026/07/09/palo-alto-ceo-arora-ai-pricing.html",
                     "tags": [
                       "Token成本",
                       "企业AI"
                     ],
-                    "source": "IT之家",
+                    "source": "CNBC",
                     "time": "7月10日消息"
                   }
                 ]
@@ -32491,6 +32491,349 @@ window.__SEED_CONFIRMED = {
                 "link": "https://framer.com"
               }
             ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-07-12": {
+    "date": "2026-07-12",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "color": "#10a37f",
+            "softBg": "#e6f7f1",
+            "initial": "O",
+            "news": [
+              {
+                "title": "OpenAI GPT-5.6 Sol Ultra一小时证明50年数学猜想，700词Prompt驾驭64个子Agent",
+                "summary": "OpenAI GPT-5.6 Sol Ultra在一小时内成功证明了一个已有50年历史的数学猜想，使用仅700词的Prompt驾驭64个子智能体协同工作。这一突破展示了GPT-5.6系列在复杂推理和多智能体协作方面的能力，标志着AI在数学研究领域迈入新阶段，从辅助工具升级为可独立完成前沿探索的科研伙伴。",
+                "link": "https://www.ithome.com/0/975/646.htm",
+                "tags": [
+                  "数学证明",
+                  "多智能体"
+                ],
+                "source": "IT之家",
+                "time": "7月12日消息"
+              }
+            ]
+          },
+          {
+            "name": "Anthropic",
+            "color": "#d4a574",
+            "softBg": "#fdf6ee",
+            "initial": "A",
+            "news": []
+          },
+          {
+            "name": "Google",
+            "color": "#4285f4",
+            "softBg": "#e8f0fe",
+            "initial": "G",
+            "news": []
+          },
+          {
+            "name": "xAI",
+            "color": "#1a1a2e",
+            "softBg": "#e8e8f0",
+            "initial": "X",
+            "news": [
+              {
+                "title": "马斯克再出狂言：目标让SpaceX价值超过整个地球",
+                "summary": "马斯克在回应支持者对SpaceX与Anthropic算力协议的质疑时表示，若SpaceX实现其目标，公司价值将超过地球上其他所有资产总和。此前有用户指出Anthropic从SpaceX租用计算资源，担心把太多资金交给竞争对手。马斯克还表示不会因竞争关系切断对Anthropic的算力支持。",
+                "link": "https://www.ithome.com/0/975/435.htm",
+                "tags": [
+                  "SpaceX",
+                  "算力租赁"
+                ],
+                "source": "IT之家",
+                "time": "7月12日消息"
+              },
+              {
+                "title": "GPT-5.6上线之际马斯克再度和奥特曼隔空掐架，互怼升级",
+                "summary": "GPT-5.6上线之际，xAI CEO马斯克与OpenAI CEO奥特曼再次爆发激烈交锋。马斯克率先发难，指责奥特曼将诈骗提升到全新高度，翻出其2023年参议院听证发言嘲讽。奥特曼反击称大量基准测试证明GPT-5.6是最好模型，调侃最可靠的判断方式就是马斯克又开始针对他。两人从太空数据中心争论到OpenAI起源，延续多年恩怨。",
+                "link": "https://www.ithome.com/0/975/641.htm",
+                "tags": [
+                  "CEO互怼",
+                  "GPT-5.6"
+                ],
+                "source": "IT之家",
+                "time": "7月12日消息"
+              },
+              {
+                "title": "特斯拉46天拆除Model S/X产线，为Optimus人形机器人量产铺路",
+                "summary": "特斯拉在46天内拆除了Model S和Model X的生产线，为Optimus人形机器人的大规模量产腾出工厂空间。此举标志着特斯拉的战略重心从电动汽车进一步向机器人领域转移，Optimus的量产计划正在加速推进。马斯克此前曾要求Optimus在9月达到周产千台的目标。",
+                "link": "https://www.ithome.com/0/975/664.htm",
+                "tags": [
+                  "人形机器人",
+                  "量产"
+                ],
+                "source": "IT之家",
+                "time": "7月12日消息"
+              }
+            ]
+          },
+          {
+            "name": "NVIDIA",
+            "color": "#76b900",
+            "softBg": "#f0f7e6",
+            "initial": "N",
+            "news": []
+          },
+          {
+            "name": "Meta",
+            "color": "#1877f2",
+            "softBg": "#e7f3ff",
+            "initial": "M",
+            "news": [
+              {
+                "title": "Meta CTO博斯沃思：Meta正开发多款下一代VR头显，计划9月Connect大会发布",
+                "summary": "Meta首席技术官安德鲁·博斯沃思表示，公司仍在研发多款下一代头戴式设备，可能在9月Connect大会上发布相关消息。他否认Meta放弃VR的猜测，称公司调整运营使其更可持续发展，但仍在VR领域投入大量资源。此外Meta还有一款配备有线外置计算模块的超轻量级MR头显可能在2027年上半年发布。",
+                "link": "https://www.ithome.com/0/975/495.htm",
+                "tags": [
+                  "VR",
+                  "MR头显"
+                ],
+                "source": "IT之家",
+                "time": "7月11日消息"
+              }
+            ]
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "color": "#ff6a00",
+            "softBg": "#fff3e6",
+            "initial": "A",
+            "news": []
+          },
+          {
+            "name": "火山引擎",
+            "color": "#0080ff",
+            "softBg": "#e6f2ff",
+            "initial": "火",
+            "news": []
+          },
+          {
+            "name": "DeepSeek",
+            "color": "#4d6bfe",
+            "softBg": "#edf0ff",
+            "initial": "D",
+            "news": []
+          },
+          {
+            "name": "腾讯",
+            "color": "#00b4e6",
+            "softBg": "#e6f7fc",
+            "initial": "腾",
+            "news": []
+          },
+          {
+            "name": "小米",
+            "color": "#ff6900",
+            "softBg": "#fff3e6",
+            "initial": "米",
+            "news": []
+          },
+          {
+            "name": "智谱AI",
+            "color": "#0055ff",
+            "softBg": "#e6eeff",
+            "initial": "智",
+            "news": [
+              {
+                "title": "智谱创始人唐杰发内部信：开启Touch High摸高计划，全力攻坚AGI不追求短期变现",
+                "summary": "智谱创始人唐杰发布内部信《巨浪已来》，正式启动为期两年的Touch High（摸高）计划。唐杰表示智谱将继续聚焦AGI研究而非短期商业变现，提出四大攻坚方向：长程任务能力、自治智能体系统、完全自我训练和极致安全治理。其中安全治理方面将投入百亿级资源攻坚机械可解释性，推动黑盒系统向透明可解释系统转变。",
+                "link": "https://tech.ifeng.com/c/8ugMf4Giwv5",
+                "tags": [
+                  "AGI",
+                  "内部信"
+                ],
+                "source": "凤凰科技",
+                "time": "7月11日消息"
+              }
+            ]
+          },
+          {
+            "name": "月之暗面",
+            "color": "#8b5cf6",
+            "softBg": "#f3edff",
+            "initial": "月",
+            "news": []
+          },
+          {
+            "name": "华为",
+            "color": "#cf0a2c",
+            "softBg": "#fde8ec",
+            "initial": "华",
+            "news": [
+              {
+                "title": "华为联合昇维旭筹建DRAM晶圆厂，力图突破存储芯片供应链瓶颈",
+                "summary": "据行业知情人士爆料，华为与深圳DRAM芯片制造商昇维旭及政府组成战略铁三角，共同投资建设一座12英寸DRAM内存制造晶圆厂。项目初期从28nm工艺切入，设计月产能14万片晶圆，已重金聘请前台积电高管出任CEO。此举旨在缓解存储芯片短缺问题，构筑自主可控的供应链防线，以防范地缘政治风险对半导体供应链的潜在制裁。",
+                "link": "https://www.163.com/dy/article/L1KBBK6N0511BLFD.html",
+                "tags": [
+                  "DRAM",
+                  "晶圆厂",
+                  "芯片自主"
+                ],
+                "source": "网易",
+                "time": "7月12日消息"
+              }
+            ]
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "行业趋势&观点",
+            "cards": [
+              {
+                "title": "公共数据MCP",
+                "news": [
+                  {
+                    "title": "韩国首尔将试点公共数据MCP服务，AI可查询实时空气与交通信息",
+                    "summary": "韩国首尔市宣布将试点公共数据MCP（Model Context Protocol）服务，使AI模型能直接查询实时空气质量和交通信息等公共数据。这是MCP协议在政府公共数据开放领域的创新应用，让AI不再依赖静态训练数据，而是能实时获取公共数据提供更精准的服务，为全球智慧城市建设提供新范式。",
+                    "link": "https://www.ithome.com/0/975/674.htm",
+                    "tags": [
+                      "MCP",
+                      "智慧城市",
+                      "公共数据"
+                    ],
+                    "source": "IT之家",
+                    "time": "7月12日消息"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "LMArena",
+            "date": "2026-07-10",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "claude-fable-5",
+                "score": "1509",
+                "change": "+6"
+              },
+              {
+                "model": "claude-opus-4-6-thinking",
+                "score": "1504",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-7-thinking",
+                "score": "1503",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-6",
+                "score": "1498",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-7",
+                "score": "1494",
+                "change": "+4"
+              },
+              {
+                "model": "muse-spark-1.1",
+                "score": "1490",
+                "change": "+10"
+              },
+              {
+                "model": "muse-spark",
+                "score": "1488",
+                "change": "+6"
+              },
+              {
+                "model": "gpt-5.6-sol-xhigh",
+                "score": "1486",
+                "change": "+14"
+              },
+              {
+                "model": "gemini-3-pro",
+                "score": "1486",
+                "change": "+4"
+              },
+              {
+                "model": "gemini-3.1-pro-preview",
+                "score": "1485",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-8-thinking",
+                "score": "1482",
+                "change": "+5"
+              },
+              {
+                "model": "gpt-5.5-high",
+                "score": "1481",
+                "change": "+5"
+              },
+              {
+                "model": "gpt-5.4-high",
+                "score": "1476",
+                "change": "+4"
+              },
+              {
+                "model": "gemini-3.5-flash-high",
+                "score": "1476",
+                "change": "+7"
+              },
+              {
+                "model": "gemini-3.5-flash-medium",
+                "score": "1476",
+                "change": "+7"
+              },
+              {
+                "model": "gpt-5.2-chat-latest",
+                "score": "1476",
+                "change": "+4"
+              },
+              {
+                "model": "qwen3.7-max-preview",
+                "score": "1475",
+                "change": "+10"
+              },
+              {
+                "model": "claude-opus-4-8",
+                "score": "1475",
+                "change": "+5"
+              },
+              {
+                "model": "grok-4.20-beta1",
+                "score": "1475",
+                "change": "+5"
+              },
+              {
+                "model": "gpt-5.5",
+                "score": "1474",
+                "change": "+5"
+              }
+            ]
+          },
+          {
+            "name": "OpenRouter",
+            "date": "2026-07-12",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": []
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-07-10",
+            "link": "https://www.producthunt.com/",
+            "rankings": []
           }
         ]
       }
