@@ -1,4 +1,5 @@
 // 种子数据：为无新闻厂商近期动态提供历史新闻
+// 自动从 git 历史全量恢复，永久保留
 window.__SEED_CONFIRMED = {
   "2026-05-27": {
     "date": "2026-05-27",
@@ -31654,6 +31655,840 @@ window.__SEED_CONFIRMED = {
                 "category": "SaaS",
                 "rank": 6,
                 "link": "https://www.producthunt.com/posts/lemonlime-2"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-07-11": {
+    "date": "2026-07-11",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "color": "#10a37f",
+            "softBg": "#e6f7f1",
+            "initial": "O",
+            "news": [
+              {
+                "title": "OpenAI首席运营官因病离职，IPO前夕再失核心高管",
+                "summary": "当地时间7月9日，OpenAI宣布公司第二号人物、负责产品与商业化业务的首席运营官菲吉·西莫（Fidji Simo）因患体位性心动过速综合征（POTS）病情恶化，决定医疗休假结束后不再回归全职岗位，转任公司兼职顾问。西莫曾带领Instacart成功IPO，2024年加入OpenAI董事会。其离职正值OpenAI筹备IPO的关键时期，今年4月已有三位高管同日离职，核心管理层持续面临流失压力。",
+                "link": "https://finance.sina.cn/2026-07-12/detail-inihpchf7935555.d.html",
+                "tags": [
+                  "高管变动",
+                  "IPO"
+                ],
+                "source": "新浪财经",
+                "time": "7月11日消息"
+              },
+              {
+                "title": "OpenAI招聘家庭产品经理，加速拓展家庭消费市场",
+                "summary": "OpenAI正在招聘一名家庭产品经理，旨在将其AI技术拓展至家庭用户市场。该职位将负责定义面向家庭场景的AI产品策略，推动ChatGPT等产品在家庭环境中的普及应用，暗示OpenAI正从企业市场向家庭消费场景延伸。",
+                "link": "https://www.ithome.com/0/975/633.htm",
+                "tags": [
+                  "产品市场",
+                  "家庭应用"
+                ],
+                "source": "IT之家",
+                "time": "7月11日消息"
+              }
+            ]
+          },
+          {
+            "name": "Anthropic",
+            "color": "#d4a574",
+            "softBg": "#fdf6ee",
+            "initial": "A",
+            "news": [
+              {
+                "title": "前美联储主席伯南克加入Anthropic长期利益信托，聚焦AI治理",
+                "summary": "当地时间7月9日，Anthropic宣布前美联储主席本·伯南克加入其长期利益信托机构（LTBT），负责监督公司AI安全使命及长期社会影响。伯南克将聚焦AI对全球经济和劳动力市场的影响，包括白领岗位替代风险和AI投资可能催生的金融泡沫。LTBT拥有任命和罢免公司董事会多数成员的实质性治理权力。此举被视为Anthropic在IPO前强化治理架构的重要信号。",
+                "link": "https://fund.eastmoney.com/a/202607103800489686.html",
+                "tags": [
+                  "AI治理",
+                  "IPO"
+                ],
+                "source": "东方财富",
+                "time": "当地时间7月9日"
+              },
+              {
+                "title": "11天Claude Fable 5狂写超100万行代码，Rust重构JavaScript运行时Bun",
+                "summary": "Claude Fable 5在11天内使用Rust语言重写了JavaScript运行时Bun项目超过100万行代码。Bun作者因担忧AI生成代码质量问题对此表示愤怒，称该行为可能引发开源社区代码审计和信任危机。这一事件展示了AI编程能力已提升至可独立重构大型开源项目的水平，但也引发了对AI生成代码质量和开源协议合规性的广泛讨论。",
+                "link": "https://www.ithome.com/0/975/627.htm",
+                "tags": [
+                  "AI编程",
+                  "开源"
+                ],
+                "source": "IT之家",
+                "time": "7月11日消息"
+              },
+              {
+                "title": "GPT-5.6上线后Claude重置Fable 5免费额度，AI竞争白热化",
+                "summary": "OpenAI发布GPT-5.6系列模型后，Anthropic迅速跟进调整产品策略，重置了Claude Fable 5的免费使用额度。此前Fable 5因大幅降智问题引发用户不满，Anthropic宣布将免费使用期延长至7月12日后，在GPT-5.6的压力下进一步优化模型性能以留住用户。",
+                "link": "https://www.qbitai.com/2026/07/447691.html",
+                "tags": [
+                  "模型竞争",
+                  "免费额度"
+                ],
+                "source": "量子位",
+                "time": "7月11日消息"
+              }
+            ]
+          },
+          {
+            "name": "Google",
+            "color": "#4285f4",
+            "softBg": "#e8f0fe",
+            "initial": "G",
+            "news": [
+              {
+                "title": "谷歌要求AI广告必须标注，覆盖搜索和YouTube等平台",
+                "summary": "当地时间7月9日，谷歌宣布全面扩大生成式AI广告的披露范围，要求在Google搜索、YouTube和Discover信息流中对由AI创建或编辑的商业广告进行明确标注。使用谷歌自有AI工具生成的广告自动标注AI标签，使用第三方AI工具如Midjourney、DALL-E生成的广告则需广告主手动申报。此举旨在防止消费者被AI生成的虚假合成场景误导。",
+                "link": "https://www.sohu.com/a/1048299380_313745",
+                "tags": [
+                  "广告规范",
+                  "AI透明度"
+                ],
+                "source": "搜狐",
+                "time": "当地时间7月9日"
+              }
+            ]
+          },
+          {
+            "name": "xAI",
+            "color": "#1a1a2e",
+            "softBg": "#e8e8f0",
+            "initial": "X",
+            "news": [
+              {
+                "title": "马斯克态度反转盛赞Anthropic，承认此前判断“明显错误”",
+                "summary": "当地时间7月9日，埃隆·马斯克在X平台上公开称赞Anthropic为AI领域的领先者，承认自己此前对Anthropic的判断明显错误，称目前没有任何公司发布过像Mythos/Fable这样出色的模型，并预计Anthropic很快将推出Mythos 2。马斯克同时表示不会因Anthropic是竞争对手而切断SpaceX对其的计算资源支持。",
+                "link": "https://news.qq.com/rain/a/20260710A02MV600",
+                "tags": [
+                  "行业评价",
+                  "竞争"
+                ],
+                "source": "腾讯新闻",
+                "time": "当地时间7月9日"
+              },
+              {
+                "title": "SpaceX公布太空移民新规划：2026年底发射，特斯拉机器人首批进驻",
+                "summary": "SpaceX创始人马斯克近日公布太空移民计划最新时间表，拟于2026年底前启动火箭发射，将首批建设物资运往月球和火星。特斯拉研发的擎天柱人形机器人将作为首批居民先行进驻，负责太空基础设施的早期搭建。公司已向FCC申请发射由10万颗卫星组成的新星座。马斯克表示若目标实现，SpaceX价值将超过地球上其他所有资产总和。",
+                "link": "https://tech.ifeng.com/c/8ue7H0aaQS7",
+                "tags": [
+                  "太空探索",
+                  "人形机器人"
+                ],
+                "source": "凤凰科技",
+                "time": "7月10日消息"
+              },
+              {
+                "title": "SpaceX星舰第13次试飞定于当地时间7月16日",
+                "summary": "SpaceX宣布星舰（Starship）第13次试飞计划于当地时间7月16日进行。此次试飞将继续测试星舰的轨道能力和回收技术，为未来的月球和火星任务积累数据。星舰是SpaceX下一代完全可重复使用运输系统，对马斯克的太空移民愿景至关重要。",
+                "link": "https://www.ithome.com/0/975/632.htm",
+                "tags": [
+                  "星舰",
+                  "太空探索"
+                ],
+                "source": "IT之家",
+                "time": "7月11日消息"
+              },
+              {
+                "title": "特斯拉正开发Grok语音控制FSD功能，支持自然语言指挥自动驾驶",
+                "summary": "特斯拉正在开发基于xAI的Grok大模型的FSD语音控制功能，未来用户可像与司机对话般用自然语言指挥自动驾驶系统。此举将Grok与特斯拉FSD深度整合，标志着xAI的AI能力开始赋能特斯拉核心驾驶体验，从简单的指令控制升级为智能化的人车交互。",
+                "link": "https://www.ithome.com/0/975/658.htm",
+                "tags": [
+                  "FSD",
+                  "语音控制",
+                  "Grok"
+                ],
+                "source": "IT之家",
+                "time": "7月11日消息"
+              }
+            ]
+          },
+          {
+            "name": "NVIDIA",
+            "color": "#76b900",
+            "softBg": "#f0f7e6",
+            "initial": "N",
+            "news": [
+              {
+                "title": "NVIDIA RTX Spark超级芯片真机现身Bilibili World，笔记本可跑120B大模型",
+                "summary": "NVIDIA在Computex上发布的RTX Spark超级芯片真机在Bilibili World 2026上首次公开亮相。该芯片将CPU和GPU直接集成封装，可在笔记本电脑上运行120B参数大模型。RTX Spark的落地标志着AI推理从云端走向终端设备的重要进展，为个人开发者使用本地大模型提供了高性能解决方案。",
+                "link": "https://www.qbitai.com/2026/07/447981.html",
+                "tags": [
+                  "AI芯片",
+                  "端侧推理"
+                ],
+                "source": "量子位",
+                "time": "7月11日消息"
+              }
+            ]
+          },
+          {
+            "name": "Meta",
+            "color": "#1877f2",
+            "softBg": "#e7f3ff",
+            "initial": "M",
+            "news": [
+              {
+                "title": "扎克伯格否认Meta算力过剩，考虑出租AI基础设施开辟云业务",
+                "summary": "当地时间7月9日，Meta CEO扎克伯格首次回应公司筹划云基础设施业务一事，明确否认外界关于Meta算力过剩的猜测，称目前所有计算资源满负荷运转。但他表示当前市场对算力出价极高，将部分AI基础设施对外出租在财务上可能更划算，暗示Meta正评估进入云计算市场的可能性。",
+                "link": "https://www.thepaper.cn/newsDetail_forward_33556530",
+                "tags": [
+                  "算力",
+                  "云业务"
+                ],
+                "source": "澎湃新闻",
+                "time": "当地时间7月9日"
+              },
+              {
+                "title": "Meta发布Muse Spark 1.1多模态推理模型，对标GPT-5.6",
+                "summary": "Meta超级智能实验室发布多模态推理模型Muse Spark 1.1，支持100万token上下文窗口，引入主从架构训练，可作为主智能体进行任务规划与分发。模型具备计算机操作能力，可自动化完成长流程任务。Meta同步开启Model API公测，API定价仅为OpenAI和Anthropic顶级模型的约25%，并披露自研AI芯片Iris将于今年9月投产。",
+                "link": "https://www.ithome.com/0/975/627.htm",
+                "tags": [
+                  "多模态模型",
+                  "API",
+                  "AI芯片"
+                ],
+                "source": "IT之家",
+                "time": "当地时间7月9日"
+              }
+            ]
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "color": "#ff6a00",
+            "softBg": "#fff3e6",
+            "initial": "A",
+            "news": []
+          },
+          {
+            "name": "火山引擎",
+            "color": "#0080ff",
+            "softBg": "#e6f2ff",
+            "initial": "火",
+            "news": []
+          },
+          {
+            "name": "DeepSeek",
+            "color": "#4d6bfe",
+            "softBg": "#edf0ff",
+            "initial": "D",
+            "news": []
+          },
+          {
+            "name": "腾讯",
+            "color": "#00b4e6",
+            "softBg": "#e6f7fc",
+            "initial": "腾",
+            "news": [
+              {
+                "title": "传腾讯正洽谈成为Manus最大股东，出资136亿元从Meta手中回购",
+                "summary": "据《金融时报》报道，腾讯正考虑入股AI智能体初创公司Manus，计划以20亿美元（约136亿元人民币）从Meta手中买回Manus股份，成为该公司最大股东但持股不超过50%。此次交易涉及真格基金、红杉资本等多方磋商。此前国家发改委已禁止外资收购Manus，要求Meta与Manus恢复独立运营。",
+                "link": "https://www.ithome.com/0/975/622.htm",
+                "tags": [
+                  "AI智能体",
+                  "投资"
+                ],
+                "source": "IT之家",
+                "time": "7月10日消息"
+              }
+            ]
+          },
+          {
+            "name": "小米",
+            "color": "#ff6900",
+            "softBg": "#fff3e6",
+            "initial": "米",
+            "news": []
+          },
+          {
+            "name": "智谱AI",
+            "color": "#0055ff",
+            "softBg": "#e6eeff",
+            "initial": "智",
+            "news": []
+          },
+          {
+            "name": "月之暗面",
+            "color": "#8b5cf6",
+            "softBg": "#f3edff",
+            "initial": "月",
+            "news": [
+              {
+                "title": "Kimi K2.7 Code高速版正式登陆Kimi Code，输出速度达普通版5倍",
+                "summary": "月之暗面旗下Kimi宣布K2.7 Code高速版结束Beta阶段，正式成为Kimi Code常驻可选模式。订阅Allegretto及以上会员的用户可直接调用高速模式，输出速度约为普通版的5-6倍，常规场景达180 Token/s，短上下文场景可达260 Token/s。高速版在Coding Plan中按普通版的3倍计费。",
+                "link": "https://tech.ifeng.com/c/8ugM8HnPFRp",
+                "tags": [
+                  "AI编程",
+                  "高速模式"
+                ],
+                "source": "凤凰科技",
+                "time": "7月10日消息"
+              },
+              {
+                "title": "中国农业银行联合Kimi推出全球首张AI原生信用卡",
+                "summary": "全球首张AI原生信用卡Kimi信用卡正式发行，合作方为中国农业银行和美国运通。持卡人日常消费积分可按1000:1比例兑换Kimi会员权益，最高支持50%积分兑换，且兑换时可享受八折优惠。未来三方还将探索智能体支付、Token额度与信用额度挂钩、积分与算力双向打通等更多创新玩法。",
+                "link": "https://www.nbd.com.cn/articles/2026-07-10/4466973.html",
+                "tags": [
+                  "AI金融",
+                  "信用卡"
+                ],
+                "source": "每日经济新闻",
+                "time": "7月10日消息"
+              }
+            ]
+          },
+          {
+            "name": "华为",
+            "color": "#cf0a2c",
+            "softBg": "#fde8ec",
+            "initial": "华",
+            "news": []
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "其他厂商",
+            "cards": [
+              {
+                "title": "苹果",
+                "news": [
+                  {
+                    "title": "苹果起诉OpenAI窃取商业机密，指控挖角员工系统性泄密",
+                    "summary": "北京时间7月11日凌晨，苹果在加州北区联邦法院起诉OpenAI及首席硬件官Tang Tan，指控OpenAI为开发AI硬件设备蓄意策动苹果员工泄露未发布产品的相关信息、元器件、图纸等商业机密。诉状指出前iPhone硬件工程师Chang Liu在加入OpenAI后秘密下载数十份保密文件。苹果要求法院禁止OpenAI使用相关技术并寻求损害赔偿。",
+                    "link": "https://www.thepaper.cn/newsDetail_forward_33564962",
+                    "tags": [
+                      "商业机密",
+                      "诉讼",
+                      "AI硬件"
+                    ],
+                    "source": "澎湃新闻",
+                    "time": "北京时间7月11日"
+                  }
+                ]
+              },
+              {
+                "title": "三星",
+                "news": [
+                  {
+                    "title": "三星研发AI PC加速芯片GAIA，已向联想惠普提供样片测试",
+                    "summary": "三星电子系统LSI事业部正在开发一款专为AI PC设计的生成式AI加速芯片，代号GAIA。该芯片采用4纳米制程，搭载NPU，面向PC端生成式AI任务优化。三星已向联想、惠普等主要PC制造商提供原型样品进行性能验证，并推进与下一代DRAM技术PIM的整合，计划明年启动量产。",
+                    "link": "https://finance.eastmoney.com/a/202607103801746486.html",
+                    "tags": [
+                      "AI芯片",
+                      "PC"
+                    ],
+                    "source": "东方财富",
+                    "time": "7月10日消息"
+                  }
+                ]
+              },
+              {
+                "title": "努比亚",
+                "news": [
+                  {
+                    "title": "努比亚倪飞披露AI智能体手机细节，定义四项核心能力标尺",
+                    "summary": "努比亚总裁倪飞提前披露全球首款AI智能体手机细节，提出四项核心能力标尺：听得懂（自然语言交互）、能干活（AI代执行任务）、记得住（记忆用户习惯）、够安全（隐私防护）。该产品定位为从功能叠加走向原生智能体，不仅面向科技发烧友，还致力于为老人、儿童及视障人群提供便捷数字生活体验，计划在7月17日WAIC上正式展示。",
+                    "link": "https://www.ithome.com/0/975/662.htm",
+                    "tags": [
+                      "AI手机",
+                      "智能体"
+                    ],
+                    "source": "IT之家",
+                    "time": "7月10日消息"
+                  }
+                ]
+              },
+              {
+                "title": "MiniMax",
+                "news": [
+                  {
+                    "title": "MiniMax完成160亿港元融资，创始人闫俊杰宣布不领工资并捐5%股份",
+                    "summary": "MiniMax完成新一轮160亿港元股权类融资，实现7倍认购覆盖，百余家机构参与。同日创始人闫俊杰发布内部信，宣布即日起至公司实现AGI前不再领取任何薪酬，未来四年拿出个人名下相当于公司总股本4%的股份激励团队，另设1%股份专项基金支持开源社区。",
+                    "link": "https://www.thepaper.cn/newsDetail_forward_33556453",
+                    "tags": [
+                      "融资",
+                      "创始人"
+                    ],
+                    "source": "澎湃新闻",
+                    "time": "7月10日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "具身智能",
+            "cards": [
+              {
+                "title": "蚂蚁灵波",
+                "news": [
+                  {
+                    "title": "蚂蚁灵波发布业界首个具身原生世界动作模型LingBot-VA 2.0",
+                    "summary": "蚂蚁灵波发布LingBot-VA 2.0，这是业界首个具身原生世界动作模型。该模型采用自回归架构从头预训练，引入语义视觉-动作分词器、MoE架构和增强异步推理机制，不再以数字内容生成模型微调为主要路径。机器人可在执行动作同时预测未来状态，单卡实时推理效率达150Hz，代表具身智能从数字世界模型嫁接走向物理世界原生设计的关键路线选择。",
+                    "link": "https://www.qbitai.com/2026/07/447597.html",
+                    "tags": [
+                      "具身智能",
+                      "世界动作模型"
+                    ],
+                    "source": "量子位",
+                    "time": "7月10日消息"
+                  }
+                ]
+              },
+              {
+                "title": "宇树G1",
+                "news": [
+                  {
+                    "title": "宇树G1人形机器人完成两例活体手术登上《自然》，00后中国博士生主导",
+                    "summary": "国际顶级期刊《自然》发表论文，加州大学圣迭戈分校团队利用宇树G1人形机器人通过远程操作为两头活猪实施腹腔镜胆囊切除术。论文第一作者兼通讯作者为00后中国博士生梁泽楷。首台手术56分钟无严重并发症，第二台由两台G1自主配合仅32分钟完成。研究证明人形机器人在外科手术领域的可行性。",
+                    "link": "https://www.donews.com/news/detail/4/6628513.html",
+                    "tags": [
+                      "人形机器人",
+                      "医疗手术",
+                      "Nature"
+                    ],
+                    "source": "DoNews",
+                    "time": "7月10日消息"
+                  }
+                ]
+              },
+              {
+                "title": "上纬新材启元T1",
+                "news": [
+                  {
+                    "title": "上纬新材将在WAIC发布全球首款可变形个人机器人启元T1",
+                    "summary": "上纬新材将在2026世界人工智能大会（WAIC）上推出全球首款可变形个人机器人启元T1。该产品基于一个机器人本体可实现轮足人形与四足两种形态的自动切换变形，具备拍摄运镜功能，在智能交互与陪伴方面取得突破，锚定家用消费场景。",
+                    "link": "https://www.ithome.com/0/975/569.htm",
+                    "tags": [
+                      "可变形机器人",
+                      "WAIC"
+                    ],
+                    "source": "IT之家",
+                    "time": "7月10日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "自动驾驶",
+            "cards": [
+              {
+                "title": "联合国自动驾驶法规",
+                "news": [
+                  {
+                    "title": "联合国ADS GTR自动驾驶全球法规正式落地，中国智驾出海迎统一规则",
+                    "summary": "联合国世界车辆法规协调组织（UN/WP.29）第199次全体会议完成自动驾驶系统全球统一技术法规（ADS GTR）投票并正式发布。该法规由中国、欧盟、英国、美国等共同牵头制定，实现全球L3及以上自动驾驶统一标准从无到有的突破，为具备成熟智驾技术的中国车企出海扫清关键合规障碍，标志着中国汽车产业正式参与全球规则制定。",
+                    "link": "https://www.cls.cn/detail/2421457",
+                    "tags": [
+                      "法规",
+                      "智驾出海"
+                    ],
+                    "source": "财联社",
+                    "time": "7月11日消息"
+                  }
+                ]
+              },
+              {
+                "title": "NHTSA",
+                "news": [
+                  {
+                    "title": "NHTSA局长暗示将取消自动驾驶汽车强制标配方向盘规定",
+                    "summary": "美国国家公路交通安全管理局（NHTSA）局长乔纳森·莫里森表示支持自动驾驶技术创新，暗示将考虑取消自动驾驶汽车必须配备方向盘和制动踏板等人工操纵装置的法律规定。他表示如果汽车从设计之初就不是为人类操作，继续要求手动控制装置并不合理。目前特斯拉、优步等正在开发不设方向盘的自动驾驶出租车。",
+                    "link": "https://www.ithome.com/0/975/661.htm",
+                    "tags": [
+                      "法规",
+                      "无人驾驶"
+                    ],
+                    "source": "IT之家",
+                    "time": "7月10日消息"
+                  }
+                ]
+              },
+              {
+                "title": "特斯拉FSD",
+                "news": [
+                  {
+                    "title": "特斯拉FSD v14 Lite首次走出美国，韩国率先获得更新",
+                    "summary": "特斯拉FSD v14 Lite版本首次走出美国市场，韩国成为首个获得该更新的海外国家。这标志着特斯拉全自动驾驶系统开始全球化部署，韩国用户将率先体验FSD功能。此前FSD主要在美国本土测试和推送，此次出海是特斯拉自动驾驶全球化战略的重要一步。",
+                    "link": "https://www.ithome.com/0/975/655.htm",
+                    "tags": [
+                      "FSD",
+                      "出海"
+                    ],
+                    "source": "IT之家",
+                    "time": "7月11日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "投资资讯",
+            "cards": [
+              {
+                "title": "聆思科技",
+                "news": [
+                  {
+                    "title": "端侧AI推理芯片企业聆思科技完成近5亿元B轮融资",
+                    "summary": "端侧AI推理芯片企业聆思科技完成近5亿元B轮融资，由安徽省与合肥市多家国资平台联合战略领投。资金将重点投入新一代端侧大模型AI推理芯片研发，推动产品体系从感知模型AI推理芯片向认知大模型AI推理芯片升级。",
+                    "link": "https://www.36kr.com/p/3889056408435970",
+                    "tags": [
+                      "AI芯片",
+                      "融资"
+                    ],
+                    "source": "36氪",
+                    "time": "7月11日消息"
+                  }
+                ]
+              },
+              {
+                "title": "他山科技",
+                "news": [
+                  {
+                    "title": "触觉传感器企业他山科技完成数亿元B轮融资",
+                    "summary": "AI触觉传感器企业他山科技完成数亿元B轮融资，由均胜电子、太平创新等产业方投资。资金将主要用于触觉传感器及芯片迭代、场景化方案落地及触觉训练平台建设，推动AI触觉感知技术的产业化应用。",
+                    "link": "https://www.36kr.com/p/3889058007377921",
+                    "tags": [
+                      "触觉传感器",
+                      "融资"
+                    ],
+                    "source": "36氪",
+                    "time": "7月11日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "行业趋势& 观点",
+            "cards": [
+              {
+                "title": "SK海力士",
+                "news": [
+                  {
+                    "title": "SK海力士赴美上市融资265亿美元，刷新外国公司赴美IPO纪录",
+                    "summary": "SK海力士以每份149美元价格发行1.779亿份ADR在纳斯达克上市，融资265亿美元，创外国公司在美国IPO最高纪录，也是全球史上第三大上市融资项目。上市首日开盘价170美元，收盘报168.01美元涨约12.8%。公司CEO郭鲁正表示内存行业明年将迎来史上最严峻局势，2030年后可能仍供不应求。",
+                    "link": "https://fund.eastmoney.com/a/202607103800769263.html",
+                    "tags": [
+                      "IPO",
+                      "HBM",
+                      "存储芯片"
+                    ],
+                    "source": "东方财富",
+                    "time": "7月10日消息"
+                  }
+                ]
+              },
+              {
+                "title": "中科曙光",
+                "news": [
+                  {
+                    "title": "中科曙光全国产10万卡AI超集群曙光8000正式落成",
+                    "summary": "中科曙光宣布中国首个全国产10万卡AI超集群曙光8000（登峰）正式落成并接入国家超算互联网。集群采用超智融合技术路线，支持FP64到INT8全精度，覆盖科学计算、大模型训练、AI推理和工业仿真等场景。系统底层由海光等国产芯片支撑，采用浸没式相变液冷技术，具备全链路自研能力。",
+                    "link": "https://tech.gmw.cn/2026-07/10/content_38879178.htm",
+                    "tags": [
+                      "算力基础设施",
+                      "国产化"
+                    ],
+                    "source": "光明网",
+                    "time": "7月10日消息"
+                  }
+                ]
+              },
+              {
+                "title": "AI成本困局",
+                "news": [
+                  {
+                    "title": "派拓网络CEO：AI Token成本需降低90%才能实现企业大规模普及",
+                    "summary": "派拓网络（Palo Alto Networks）CEO Nikesh Arora表示，高昂的Token成本已成为企业预算重大负担，AI Token成本需要在未来12个月内降至目前的20%，随后一年内实现90%降幅，才能推动企业大规模采用人工智能。尽管OpenAI称其最新模型智能体编程Token效率提升54%，但这仅是一个开始。",
+                    "link": "https://www.ithome.com/0/975/635.htm",
+                    "tags": [
+                      "Token成本",
+                      "企业AI"
+                    ],
+                    "source": "IT之家",
+                    "time": "7月10日消息"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "LMArena",
+            "date": "2026-07-10",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "claude-fable-5",
+                "score": "1509",
+                "change": "+6"
+              },
+              {
+                "model": "claude-opus-4-6-thinking",
+                "score": "1504",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-7-thinking",
+                "score": "1503",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-6",
+                "score": "1498",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-7",
+                "score": "1494",
+                "change": "+4"
+              },
+              {
+                "model": "muse-spark-1.1",
+                "score": "1490",
+                "change": "+10"
+              },
+              {
+                "model": "muse-spark",
+                "score": "1488",
+                "change": "+6"
+              },
+              {
+                "model": "gpt-5.6-sol-xhigh",
+                "score": "1486",
+                "change": "+14"
+              },
+              {
+                "model": "gemini-3-pro",
+                "score": "1486",
+                "change": "+4"
+              },
+              {
+                "model": "gemini-3.1-pro-preview",
+                "score": "1485",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-8-thinking",
+                "score": "1482",
+                "change": "+5"
+              },
+              {
+                "model": "gpt-5.5-high",
+                "score": "1481",
+                "change": "+5"
+              },
+              {
+                "model": "gpt-5.4-high",
+                "score": "1476",
+                "change": "+4"
+              },
+              {
+                "model": "gemini-3.5-flash-high",
+                "score": "1476",
+                "change": "+7"
+              },
+              {
+                "model": "gemini-3.5-flash-medium",
+                "score": "1476",
+                "change": "+7"
+              },
+              {
+                "model": "gpt-5.2-chat-latest",
+                "score": "1476",
+                "change": "+4"
+              },
+              {
+                "model": "qwen3.7-max-preview",
+                "score": "1475",
+                "change": "+10"
+              },
+              {
+                "model": "claude-opus-4-8",
+                "score": "1475",
+                "change": "+5"
+              },
+              {
+                "model": "grok-4.20-beta1",
+                "score": "1475",
+                "change": "+5"
+              },
+              {
+                "model": "gpt-5.5",
+                "score": "1474",
+                "change": "+5"
+              }
+            ]
+          },
+          {
+            "name": "OpenRouter",
+            "date": "2026-07-11",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": [
+              {
+                "model": "MiMo-V2.5 (小米)",
+                "score": "5.4T tokens",
+                "change": "↑25%"
+              },
+              {
+                "model": "DeepSeek V4 Flash",
+                "score": "5.21T tokens",
+                "change": "↑3%"
+              },
+              {
+                "model": "Hy3 (free) (腾讯)",
+                "score": "5T tokens",
+                "change": "—"
+              },
+              {
+                "model": "MiniMax M3",
+                "score": "4.3T tokens",
+                "change": "↑7%"
+              },
+              {
+                "model": "GLM 5.2 (智谱)",
+                "score": "3.21T tokens",
+                "change": "↑27%"
+              },
+              {
+                "model": "DeepSeek V4 Pro",
+                "score": "2.92T tokens",
+                "change": "↑30%"
+              },
+              {
+                "model": "Claude Opus 4.7",
+                "score": "2.41T tokens",
+                "change": "↑19%"
+              },
+              {
+                "model": "Claude Opus 4.8",
+                "score": "2.01T tokens",
+                "change": "↑4%"
+              },
+              {
+                "model": "Nemotron 3 Ultra (free) (NVIDIA)",
+                "score": "1.68T tokens",
+                "change": "↑76%"
+              },
+              {
+                "model": "Step 3.7 Flash (阶跃星辰)",
+                "score": "1.29T tokens",
+                "change": "↑17%"
+              }
+            ]
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-07-10",
+            "link": "https://www.producthunt.com/",
+            "rankings": [
+              {
+                "name": "ChatCut",
+                "category": "Marketing · AI · Video",
+                "rank": 1,
+                "link": ""
+              },
+              {
+                "name": "Sim",
+                "category": "Open Source · Developer Tools",
+                "rank": 2,
+                "link": ""
+              },
+              {
+                "name": "PlugThis",
+                "category": "Chrome Extensions · AI",
+                "rank": 3,
+                "link": ""
+              },
+              {
+                "name": "Scarlett.",
+                "category": "Marketing · AI · CRM",
+                "rank": 4,
+                "link": ""
+              },
+              {
+                "name": "ConnectMachine 2.0",
+                "category": "Meetings · AI",
+                "rank": 5,
+                "link": ""
+              },
+              {
+                "name": "GPT-5.6",
+                "category": "Artificial Intelligence",
+                "rank": 6,
+                "link": "https://openai.com"
+              },
+              {
+                "name": "Juicy - Mac Battery App",
+                "category": "Mac · Menu Bar",
+                "rank": 7,
+                "link": ""
+              },
+              {
+                "name": "Native SDK",
+                "category": "GitHub · Development",
+                "rank": 8,
+                "link": ""
+              },
+              {
+                "name": "Ship OS by Notion",
+                "category": "Task Management · AI",
+                "rank": 9,
+                "link": "https://notion.so"
+              },
+              {
+                "name": "StoryChief Connect",
+                "category": "Productivity · Marketing",
+                "rank": 10,
+                "link": ""
+              },
+              {
+                "name": "Muse Spark 1.1 by Meta AI",
+                "category": "Artificial Intelligence",
+                "rank": 11,
+                "link": ""
+              },
+              {
+                "name": "Mispher",
+                "category": "Mac · Productivity · AI",
+                "rank": 12,
+                "link": ""
+              },
+              {
+                "name": "RepStandard",
+                "category": "iOS · Health & Fitness",
+                "rank": 13,
+                "link": ""
+              },
+              {
+                "name": "Yasmine Works",
+                "category": "Slack · AI · Virtual Asst",
+                "rank": 14,
+                "link": ""
+              },
+              {
+                "name": "Framer AI Agents",
+                "category": "Design Tools · AI",
+                "rank": 15,
+                "link": "https://framer.com"
               }
             ]
           }
