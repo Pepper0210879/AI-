@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "sections": {
     "overseas": {
       "vendors": [
@@ -10,16 +10,16 @@ window.__RAW_DATA = {
           "initial": "O",
           "news": [
             {
-              "title": "OpenAI的160亿美元AI数据中心项目遇阻，当地居民担忧水污染和电费上涨",
-              "summary": "7月17日消息，据路透社报道，OpenAI计划投资160亿美元的AI数据中心项目遭遇当地居民强烈反对，居民担忧项目将导致水污染和电费大幅上涨。该项目目前面临审批障碍，OpenAI正与当地政府和社区协商解决方案。",
-              "link": "https://www.ithome.com/0/977/885.htm",
+              "title": "奥尔特曼调侃Anthropic新广告：以为是讽刺短片",
+              "summary": "7月18日消息，OpenAI CEO山姆·奥尔特曼在社交平台发文调侃Anthropic最新发布的宣传片，称起初以为这是一部讽刺短片，甚至特意确认发布账号是否为仿冒账号。Anthropic该广告通过燃烧房屋、面部识别监控等画面探讨AI社会影响，整体风格偏悲观警示，引发广泛争议。",
+              "link": "https://finance.sina.com.cn/tech/roll/2026-07-18/doc-iniikuft2480441.shtml",
               "tags": [
-                "AI数据中心",
-                "监管",
-                "基础设施"
+                "Anthropic",
+                "广告",
+                "争议"
               ],
-              "source": "IT之家",
-              "time": "7月17日消息"
+              "source": "极客公园",
+              "time": "7月18日消息"
             }
           ]
         },
@@ -28,7 +28,32 @@ window.__RAW_DATA = {
           "color": "#d4a574",
           "softBg": "#fdf6ee",
           "initial": "A",
-          "news": []
+          "news": [
+            {
+              "title": "Anthropic加速推进IPO，最快10月挂牌上市",
+              "summary": "7月16日消息，消息称Anthropic正在安排与投资者会面，负责IPO的承销银行摩根士丹利、高盛和摩根大通将在未来几周安排投资者与公司管理层会谈。Anthropic已于6月1日向SEC秘密提交S-1注册声明草案，若进展顺利最快10月上市。公司在5月完成H轮融资后估值达9650亿美元，首次超过OpenAI成为全球估值最高的未上市AI公司之一。",
+              "link": "https://wallstreetcn.com/articles/3777045",
+              "tags": [
+                "IPO",
+                "融资",
+                "估值"
+              ],
+              "source": "华尔街见闻",
+              "time": "7月16日消息"
+            },
+            {
+              "title": "纳德拉吐槽Anthropic Fable模型：内容管控过于严苛",
+              "summary": "当地时间7月16日，微软CEO萨提亚·纳德拉在面向Copilot AI工程师的内部会议上批评Anthropic旗下Fable模型的内容管控政策，称其设置各类限制「毫无道理」。据Anthropic支持页面，当用户向Fable询问大规模AI模型搭建等敏感话题时，系统有时会调用旧版本模型生成回复。纳德拉认为不应让全世界只有少数两家公司拥有AI的「令牌资本」。",
+              "link": "https://tech.ifeng.com/c/8upZNThoGf6",
+              "tags": [
+                "AI安全",
+                "内容管控",
+                "微软"
+              ],
+              "source": "凤凰科技",
+              "time": "当地时间7月16日"
+            }
+          ]
         },
         {
           "name": "Google",
@@ -37,27 +62,15 @@ window.__RAW_DATA = {
           "initial": "G",
           "news": [
             {
-              "title": "Google宣布NotebookLM更名为Gemini Notebook，接入Gemini和Google搜索",
-              "summary": "7月16日消息，Google宣布NotebookLM正式更名为Gemini Notebook，已服务超3000万用户和60万个组织。更名后仍作为独立研究工具运营，将接入Gemini应用和Google搜索，并为每个笔记本提供安全的云端计算环境。",
-              "link": "https://www.ithome.com/0/977/833.htm",
+              "title": "英特尔与Google Cloud深化战略合作，部署Gemini加速数字化转型",
+              "summary": "7月17日消息，英特尔与Google Cloud宣布深化多年战略合作，通过部署Gemini Enterprise和Google Cloud基础设施加速英特尔全公司范围数字化转型。Google Cloud的C4和N4计算实例将作为英特尔本地算力补充，借助Gemini高级推理能力引入智能体编码辅助和工程自动化，缩短芯片设计周期，提升跨部门协同效率。",
+              "link": "https://tech.ifeng.com/c/8upkOWbBDMM",
               "tags": [
-                "AI工具",
-                "产品更名",
-                "搜索引擎"
+                "AI合作",
+                "芯片设计",
+                "云服务"
               ],
-              "source": "IT之家",
-              "time": "7月16日消息"
-            },
-            {
-              "title": "消息称谷歌旗舰AI模型Gemini 3.5 Pro已延期数月，技术表现未达目标",
-              "summary": "7月17日消息，据彭博社报道，谷歌旗舰AI模型Gemini 3.5 Pro已延期数月，技术表现未达内部目标。该模型原计划今年上半年发布，但在开发过程中遇到技术瓶颈，发布时间被推迟。",
-              "link": "https://www.ithome.com/0/977/847.htm",
-              "tags": [
-                "AI模型",
-                "大模型",
-                "延期"
-              ],
-              "source": "IT之家",
+              "source": "凤凰科技",
               "time": "7月17日消息"
             }
           ]
@@ -67,58 +80,71 @@ window.__RAW_DATA = {
           "color": "#000000",
           "softBg": "#f2f2f2",
           "initial": "X",
-          "news": [
-            {
-              "title": "SpaceXAI宣布开源Grok Build，重置所有用户使用限制",
-              "summary": "当地时间7月15日，马斯克旗下SpaceXAI宣布开源Grok Build的CLI、终端界面和AI智能体运行时源码，重置所有用户使用额度。项目主体代码用Rust编写，自上线以来完全尊重零数据保留原则，正在删除之前保留的所有编码数据。",
-              "link": "https://36kr.com/newsflashes/3897517050250889",
-              "tags": [
-                "开源",
-                "AI编程",
-                "AI智能体"
-              ],
-              "source": "36氪",
-              "time": "当地时间7月15日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "NVIDIA",
           "color": "#76b900",
           "softBg": "#f1f9e7",
           "initial": "N",
-          "news": [
-            {
-              "title": "黄仁勋东京面谢世嘉前社长30年前雪中送炭，英伟达与世嘉合作30周年",
-              "summary": "当地时间7月15日，英伟达CEO黄仁勋在东京出席世嘉与英伟达合作30周年活动时，公开感谢世嘉前社长在30年前英伟达陷入困境时提供约500万美元援助。活动现场展示了合作新作《虚幻斗士 命运交锋》。",
-              "link": "https://www.ithome.com/0/977/227.htm",
-              "tags": [
-                "英伟达",
-                "世嘉",
-                "合作"
-              ],
-              "source": "IT之家",
-              "time": "当地时间7月15日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Meta",
           "color": "#1877f2",
           "softBg": "#e8f2fe",
           "initial": "M",
+          "news": []
+        },
+        {
+          "name": "苹果",
+          "color": "#555555",
+          "softBg": "#f0f0f0",
+          "initial": "苹",
           "news": [
             {
-              "title": "Meta AI上线新功能：青少年讨论自杀或自残话题将自动通报家长",
-              "summary": "7月16日消息，Meta宣布其AI系统上线新功能，当检测到青少年在平台上讨论自杀或自残相关话题时，将自动通报家长或监护人。该功能旨在加强青少年保护，防止极端事件发生。",
-              "link": "https://www.ithome.com/0/977/841.htm",
+              "title": "苹果市值重返全球第一，时隔3个月超越英伟达",
+              "summary": "7月17日，苹果股价上涨，市值上升至约4.90万亿美元，时隔3个月超越英伟达重返全球市值第一。英伟达下跌3.2%，市值缩水至约4.86万亿美元。自6月底以来苹果股价累计上涨约20%，新版Siri获积极评价、苹果AI有望进入中国市场以及折叠屏iPhone预期均提振了市场信心。汇丰将苹果评级上调至买入，认为其拥有25亿台存量设备，有望以较低基础设施投入获得AI红利。",
+              "link": "https://www.jiemian.com/article/14786763.html",
+              "tags": [
+                "市值",
+                "苹果",
+                "英伟达"
+              ],
+              "source": "界面新闻",
+              "time": "7月17日"
+            },
+            {
+              "title": "苹果与OpenAI法律战升级，约40名前苹果员工收到律师函",
+              "summary": "7月18日消息，据《金融时报》报道，苹果已向约40名目前就职于OpenAI的前苹果员工发出法律通知，要求保存与案件相关的文件和通信记录。此前苹果起诉OpenAI及两名前员工，指控其通过系统性招募苹果员工获取未发布产品、零部件及供应商关系等商业机密。目前已有超过400名前苹果员工加入OpenAI。",
+              "link": "https://www.cqcb.com/news/56/2026-07-18/6182779.html",
+              "tags": [
+                "法律",
+                "商业机密",
+                "诉讼"
+              ],
+              "source": "上游新闻",
+              "time": "7月18日消息"
+            }
+          ]
+        },
+        {
+          "name": "微软",
+          "color": "#00a4ef",
+          "softBg": "#e6f4fc",
+          "initial": "微",
+          "news": [
+            {
+              "title": "微软正研发类Mythos AI漏洞检测工具「感知计划」，最快本月发布",
+              "summary": "7月17日消息，微软正推出一款内部代号「感知计划」的AI安全产品，融合Anthropic、OpenAI及微软自研多套大模型，采用与Mythos模型相近的思路排查软件漏洞，并能自动修复安全缺陷。产品搭载模型路由调度系统，可根据任务类型自动切换调用不同模型，以此将使用成本控制在较低水平。该产品由微软新任安全业务负责人推动，最快本月正式面世。",
+              "link": "https://www.ithome.com/0/978/292.htm",
               "tags": [
                 "AI安全",
-                "青少年保护",
-                "社交媒体"
+                "漏洞检测",
+                "网络安全"
               ],
               "source": "IT之家",
-              "time": "7月16日消息"
+              "time": "7月17日消息"
             }
           ]
         }
@@ -133,16 +159,28 @@ window.__RAW_DATA = {
           "initial": "阿",
           "news": [
             {
-              "title": "阿里千问首款AI智能体耳机将在WAIC 2026亮相",
-              "summary": "7月16日消息，阿里巴巴旗下千问首款AI智能体耳机将于WAIC 2026期间亮相。此前千问已在MWC展示AI眼镜，并计划年内推出AI指环等穿戴设备，打造覆盖多终端、软硬一体的个人AI助手生态。",
-              "link": "https://www.cls.cn/detail/2428404",
+              "title": "阿里Qoder AI编程市场份额47.6%断层第一，IDC报告发布",
+              "summary": "7月17日消息，IDC发布《中国AI编程市场份额，2025》报告，阿里旗下Qoder以47.6%营收市场份额位居第一，超过第二名至第五名总和。阿里AI编程产品Qoder于2025年8月发布，已发展出智能体工作台、插件、命令行工具等完整产品形态，全球用户超500万，服务中国一汽、中信证券等数十万家企业。",
+              "link": "https://www.cnstock.com/commonDetail/745896",
               "tags": [
-                "AI硬件",
-                "耳机",
-                "智能体"
+                "AI编程",
+                "市场份额",
+                "IDC"
               ],
-              "source": "财联社",
-              "time": "7月16日消息"
+              "source": "证券时报",
+              "time": "7月17日消息"
+            },
+            {
+              "title": "阿里千问输入法移动版上线：无广告无弹窗，支持AI自动润色",
+              "summary": "7月17日消息，阿里千问输入法正式登陆iPhone。基于自研语音大模型，支持9种方言及中英混合识别，最快每分钟300字。核心在于大模型驱动的语义理解和自动润色，能过滤语气词、纠正口误、格式化排版，将口语转为结构化文本。主打纯净无广告无需注册。",
+              "link": "https://www.ithome.com/0/978/194.htm",
+              "tags": [
+                "AI输入法",
+                "语音识别",
+                "大模型"
+              ],
+              "source": "IT之家",
+              "time": "7月17日消息"
             }
           ]
         },
@@ -151,7 +189,20 @@ window.__RAW_DATA = {
           "color": "#1677ff",
           "softBg": "#e9f0ff",
           "initial": "火",
-          "news": []
+          "news": [
+            {
+              "title": "字节新一代豆包手机备货数十万台，AI转向MCP接入模式",
+              "summary": "7月17日消息，据晚点LatePost报道，字节新一代豆包手机备货量从此前3万台大幅提升至数十万台。AI操作方式从GUI模拟点击转向MCP服务接入模式，只有应用自行提供MCP服务开放接口，豆包手机才能接入调用。目前豆包手机助手团队正与各头部应用厂商谈判，争取对方开放可被AI调用的接口或服务能力。",
+              "link": "https://tech.ifeng.com/c/8uqpohJXHm7",
+              "tags": [
+                "AI手机",
+                "豆包",
+                "MCP"
+              ],
+              "source": "凤凰科技",
+              "time": "7月17日消息"
+            }
+          ]
         },
         {
           "name": "DeepSeek",
@@ -160,15 +211,15 @@ window.__RAW_DATA = {
           "initial": "D",
           "news": [
             {
-              "title": "DeepSeek估值超3500亿元，启动第二轮融资",
-              "summary": "7月16日消息，开润股份公告显示，按投资金额和持股比例推算，DeepSeek本轮融资后估值约3510亿元。接近DeepSeek的人士称公司已启动第二轮融资，年底是否冲刺科创板尚未确定。",
-              "link": "https://36kr.com/p/3895568122447237",
+              "title": "DeepSeek估值超3500亿元，开润股份间接入股披露",
+              "summary": "7月16日晚，开润股份公告通过砺思星灵间接投资DeepSeek 4000万元，穿透持股0.0114%，据此推算DeepSeek本轮投后估值约3510亿元。据接近DeepSeek人士确认，首轮融资完成后公司已启动第二轮融资，计划在私募市场至少再融资100亿元，并开始筹备A股IPO。宁德时代、网易、京东、腾讯等已通过持股平台入股。",
+              "link": "https://wallstreetcn.com/articles/3777125",
               "tags": [
                 "融资",
                 "估值",
-                "科创板"
+                "IPO"
               ],
-              "source": "36氪",
+              "source": "华尔街见闻",
               "time": "7月16日消息"
             }
           ]
@@ -185,20 +236,7 @@ window.__RAW_DATA = {
           "color": "#ff6900",
           "softBg": "#fff0e6",
           "initial": "米",
-          "news": [
-            {
-              "title": "小米发布具身基座模型Xiaomi-Robotics-1，10万小时真实操作数据预训练",
-              "summary": "7月16日消息，小米发布具身基座模型Xiaomi-Robotics-1，以10万小时真实世界操作轨迹预训练，覆盖1700个场景、240万段轨迹与260多类任务。后训练阶段加入约1万小时跨本体数据，采用预训练+后训练技术路线，首次系统验证机器人Scaling Law。",
-              "link": "https://tech.ifeng.com/c/8unvCD8utZR",
-              "tags": [
-                "具身智能",
-                "大模型",
-                "机器人"
-              ],
-              "source": "凤凰科技",
-              "time": "7月16日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "智谱AI",
@@ -207,15 +245,15 @@ window.__RAW_DATA = {
           "initial": "智",
           "news": [
             {
-              "title": "消息称智谱AI年度经常性收入已达10亿美元，半年增长15倍",
-              "summary": "7月17日消息，消息称智谱AI年度经常性收入（ARR）已达10亿美元，半年增长15倍。智谱AI近期在资本市场表现强劲，H股配售持续获得大额融资，公司正在加速商业化进程。",
-              "link": "https://36kr.com/p/3898662052693894",
+              "title": "智谱ARR达到10亿美元，半年增长15倍",
+              "summary": "7月17日消息，据多个独立信源，截至2026年7月智谱年度经常性收入（ARR）已达10亿美元。从1亿美元增长至10亿美元仅用约5个月。智谱是国内最早押注Coding路线的模型厂商之一，今年Q1 GLM API价格累计上调约83%，海外订阅价格接近Claude Code，但调用量仍逆势增长约400%。",
+              "link": "https://wallstreetcn.com/articles/3777177",
               "tags": [
                 "ARR",
-                "营收",
-                "商业化"
+                "商业化",
+                "AI编程"
               ],
-              "source": "36氪",
+              "source": "华尔街见闻",
               "time": "7月17日消息"
             }
           ]
@@ -227,16 +265,16 @@ window.__RAW_DATA = {
           "initial": "月",
           "news": [
             {
-              "title": "月之暗面发布Kimi K3：2.8万亿参数开源模型，支持100万token上下文",
-              "summary": "7月16日晚，月之暗面正式上线迄今最强旗舰模型Kimi K3，采用2.8万亿参数MoE架构（896专家激活16个），最大支持100万token上下文窗口。在编程、游戏/3D及知识类任务上表现突出，整体扩展效率较K2提升约2.5倍。API价格为每百万token输入2元（缓存命中）或20元，输出100元。",
-              "link": "https://www.cnstock.com/commonDetail/746430",
+              "title": "月之暗面联合创始人：Kimi暂不开发视频生成模型",
+              "summary": "7月17日消息，月之暗面联合创始人周昕宇在X发文表示，Kimi目前没有开发视频生成模型的计划，团队将资源集中在提升模型智能上限。他认为视频生成虽然有明确用途，但从理论和实际效果看对提升模型智能帮助不大。K3的能力延续这一选择，重点放在软件工程、知识工作、深度推理和图像理解。",
+              "link": "https://www.theblockbeats.info/flash/356603",
               "tags": [
-                "大模型",
-                "开源",
-                "MoE"
+                "战略",
+                "视频生成",
+                "大模型"
               ],
-              "source": "证券时报",
-              "time": "7月16日消息"
+              "source": "爱范儿",
+              "time": "7月17日消息"
             }
           ]
         },
@@ -245,20 +283,7 @@ window.__RAW_DATA = {
           "color": "#cf0a2c",
           "softBg": "#fde8ec",
           "initial": "华",
-          "news": [
-            {
-              "title": "华为引望CEO靳玉志：L3 2027年规模商用，城区L4分阶段试点",
-              "summary": "7月16日消息，华为引望CEO靳玉志公布自动驾驶时间表：今年在部分城市开展城区低速L4试点；2027年推动L3规模商用并试点Robotaxi；2028年扩大Robotaxi城市商用，推动城区全速L4和无人干线物流试点。",
-              "link": "https://tech.ifeng.com/c/8uoF7XEDhhr",
-              "tags": [
-                "自动驾驶",
-                "L3",
-                "Robotaxi"
-              ],
-              "source": "36氪",
-              "time": "7月16日消息"
-            }
-          ]
+          "news": []
         }
       ]
     },
@@ -268,53 +293,138 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "努比亚",
+              "title": "阶跃星辰",
               "news": [
                 {
-                  "title": "努比亚全球首款AI智能体手机NaviX Ultra官宣，内置豆包手机助手",
-                  "summary": "7月16日消息，努比亚正式发布全球首款AI智能体手机NaviX Ultra，搭载豆包手机助手，配备橙色AI键。该机提供蓝境、幻梦、黑色和白色四款配色，获2026世界人工智能大会SAIL卓越奖。",
-                  "link": "https://tech.ifeng.com/c/8unqhPsBu7j",
+                  "title": "阶跃星辰STEPX Neo智能体手机亮相WAIC，获「镇馆之宝」",
+                  "summary": "7月17日，阶跃星辰在WAIC 2026展示首款大模型原生智能体手机STEPX Neo，搭载全球首个智能体原生操作系统Step AOS和个人智能体「阶跃Amoo」。该手机获WAIC 2026「镇馆之宝」荣誉，首批通过AI终端智能化分级L3级测试。Amoo具备记忆、决策与执行、安全三大核心能力，可自主完成差旅规划、外卖下单、PPT制作等复杂任务。",
+                  "link": "https://www.nbd.com.cn/articles/2026-07-17/4476076.html",
                   "tags": [
                     "AI手机",
                     "智能体",
-                    "豆包"
-                  ],
-                  "source": "凤凰科技",
-                  "time": "7月16日消息"
-                }
-              ]
-            },
-            {
-              "title": "MiniMax",
-              "news": [
-                {
-                  "title": "MiniMax携M3、H3全模态模型及产品亮相WAIC 2026",
-                  "summary": "7月16日消息，MiniMax在WAIC 2026展示旗舰模型M3（4280亿总参数、230亿激活参数），并预热多模态生成模型H3。现场还展示了本地创作工作台MiniMax Hub、机器狗、AI眼镜等合作案例，其中Vbot机器狗首销预售累计6540台。",
-                  "link": "https://www.yicai.com/news/103278346.html",
-                  "tags": [
-                    "大模型",
-                    "多模态",
                     "WAIC"
                   ],
-                  "source": "第一财经",
-                  "time": "7月16日消息"
+                  "source": "每日经济新闻",
+                  "time": "7月17日"
                 }
               ]
             },
             {
-              "title": "荣耀",
+              "title": "蚂蚁集团",
               "news": [
                 {
-                  "title": "荣耀Robot Phone展示双配色与四自由度云台，全球首台机器人手机",
-                  "summary": "7月16日消息，荣耀CEO李健公布Robot Phone双配色，产品已准备就绪。机身顶部集成四自由度钛合金机械云台，约0.8秒弹出，支持360度追踪。搭载第五代骁龙8至尊版、1.5K直屏，支持120W快充。",
-                  "link": "https://m.ithome.com/html/977463.htm",
+                  "title": "蚂蚁集团WAIC展示面向智能体商业的三层AI布局",
+                  "summary": "7月17日，蚂蚁集团在WAIC 2026展示面向智能体商业时代的三层AI布局：AI应用层（健康AI「阿福」用户数突破1亿，日均处理超1000万次健康咨询；AI版支付宝「阿宝」已上架公测）、智能体商业生态层（AI支付已支持3亿笔智能体支付，适配95%通用智能体框架）和技术基座层（百灵大模型、LingBot 2.0具身模型、OceanBase AI数据库等）。",
+                  "link": "https://cj.sina.com.cn/articles/view/2311077472/89c03e6002002lq8k",
                   "tags": [
-                    "机器人手机",
-                    "AI硬件",
-                    "云台"
+                    "AI应用",
+                    "智能体",
+                    "WAIC"
                   ],
-                  "source": "IT之家",
-                  "time": "7月16日消息"
+                  "source": "爱范儿",
+                  "time": "7月17日"
+                }
+              ]
+            },
+            {
+              "title": "商汤科技",
+              "news": [
+                {
+                  "title": "商汤在WAIC展示日日新U1 Pro与具身智能方案",
+                  "summary": "7月17日，商汤科技在WAIC 2026以「未来实验室」为主题展示日日新SenseNova U1 Pro，该模型实现理解、生成和行动原生统一，支持原生8K输出。具身智能方面，搭载Kairos开悟世界模型的机器人可在消费级终端近实时推理，完成早餐制作、家务整理等长程任务。商汤还在展馆周边设置SenseMart Go机器人智能便利店，机器人自主完成取放商品、整理货架和盘点库存。",
+                  "link": "https://www.ifanr.com/digest/1672322",
+                  "tags": [
+                    "多模态",
+                    "具身智能",
+                    "WAIC"
+                  ],
+                  "source": "爱范儿",
+                  "time": "7月17日"
+                }
+              ]
+            },
+            {
+              "title": "联想",
+              "news": [
+                {
+                  "title": "联想在WAIC展示企业智能体乐享4.0与具身智能机器人",
+                  "summary": "7月17日，联想在WAIC 2026展示从智算基础设施到企业智能体再到AI终端的全链路方案。企业智能体「联想乐享」4.0月活跃用户达700万、累计销售额超50亿元；门店人形机器人「乐享壹号」助力进店量环比增长109%。联想42款产品通过AI终端智能化分级L3级测试，数量居行业首位。",
+                  "link": "https://finance.sina.com.cn/jjxw/2026-07-17/doc-iniiccvc8232848.shtml",
+                  "tags": [
+                    "企业智能体",
+                    "人形机器人",
+                    "WAIC"
+                  ],
+                  "source": "极客公园",
+                  "time": "7月17日"
+                }
+              ]
+            },
+            {
+              "title": "曙光",
+              "news": [
+                {
+                  "title": "曙光8000超智融合架构真机亮相WAIC，算力密度提升20倍",
+                  "summary": "7月17日，曙光8000（登峰）在WAIC 2026以真机形态首次公开亮相，入选大会「镇馆之宝」。该系统采用超智融合架构，支持FP64至INT8全精度计算，单个计算单元算力密度提升20倍；自研scaleFabric互连技术可支撑十万卡规模稳定互连。系统已完成300余项重点应用适配，覆盖20余个科研与产业领域。",
+                  "link": "https://tech.ifeng.com/c/8upkXtedgpk",
+                  "tags": [
+                    "超算",
+                    "AI芯片",
+                    "WAIC"
+                  ],
+                  "source": "36氪",
+                  "time": "7月17日"
+                }
+              ]
+            },
+            {
+              "title": "面壁智能",
+              "news": [
+                {
+                  "title": "面壁智能开源StaffDeck数字员工管理平台，给AI发工号定岗位",
+                  "summary": "7月17日消息，面壁智能在WAIC 2026期间开源StaffDeck，一个面向企业级AI应用的全生命周期数字员工管理平台。StaffDeck可为AI智能体发工号、定岗位、做绩效，实现数字员工从入职到退出的全流程管理，帮助企业在真实业务场景中落地AI智能体。",
+                  "link": "https://www.qbitai.com/2026/07/453245.html",
+                  "tags": [
+                    "数字员工",
+                    "开源",
+                    "智能体"
+                  ],
+                  "source": "量子位",
+                  "time": "7月17日消息"
+                }
+              ]
+            },
+            {
+              "title": "网易",
+              "news": [
+                {
+                  "title": "网易灵动WAIC展示「人机混编」具身智能，远程操控工程机器人",
+                  "summary": "7月17日，网易旗下专注工程机械领域的具身智能品牌网易灵动在WAIC展示「灵载」装载机器人和「灵掘」挖掘机器人。现场工作人员通过智能座舱跨越千里远程操控真实电厂、港口设备。两类工程机器人已在全国十余个省份超100个项目中常态运行，累计完成超70万次安全作业，「黑灯工地」方案综合效率达熟练人工的120%。",
+                  "link": "https://www.cnstock.com/commonDetail/746593",
+                  "tags": [
+                    "具身智能",
+                    "工程机械",
+                    "WAIC"
+                  ],
+                  "source": "36氪",
+                  "time": "7月17日"
+                }
+              ]
+            },
+            {
+              "title": "光羽芯辰",
+              "news": [
+                {
+                  "title": "光羽芯辰发布端侧3D堆叠近存算推理芯片TC1000系列",
+                  "summary": "7月17日，光羽芯辰在WAIC 2026全球首发端侧大算力3D堆叠近存算推理芯片TC1000系列。依托自研3D堆叠近存算与存算融合架构突破「内存墙」瓶颈，实现等效带宽10倍跃升、功耗仅传统方案1/3，支持3B模型300token/s超高速推理及35B模型高性能运行。已与联想达成深度合作，推进下一代AI PC等端侧推理产品落地。",
+                  "link": "https://www.c114.net.cn/chipnews/100940.html",
+                  "tags": [
+                    "AI芯片",
+                    "端侧推理",
+                    "近存计算"
+                  ],
+                  "source": "36氪",
+                  "time": "7月17日"
                 }
               ]
             }
@@ -324,20 +434,19 @@ window.__RAW_DATA = {
           "name": "自动驾驶",
           "cards": [
             {
-              "title": "Waymo",
+              "title": "文远知行",
               "news": [
                 {
-                  "title": "美国旧金山市长回应Waymo自动驾驶出租车事故，敦促加强监管",
-                  "summary": "7月16日消息，美国旧金山市长就近期Waymo自动驾驶出租车连续发生事故作出回应，敦促交通部门加强自动驾驶出租车监管。市长表示需要在创新与公共安全之间找到平衡，要求完善事故报告和应急响应机制。",
-                  "link": "https://www.ithome.com/0/977/850.htm",
+                  "title": "文远知行发布物理AI大模型WITT，引入「最小物理事实单元」概念",
+                  "summary": "7月17日，文远知行在WAIC 2026发布物理AI认知基础大模型WITT，首次引入「最小物理事实单元」概念，将三维场景拆解为可识别、量化、验证的标准化事实单元。WITT具备事实提取、推理、验证和编排四大核心能力，数据处理效率提升200倍，Token消耗最高降低98%，单卡单日可处理1万分钟车辆运行视频，适配车端和机器人端边缘硬件。",
+                  "link": "https://news.qq.com/rain/a/20260717A06XS600",
                   "tags": [
-                    "Waymo",
-                    "自动驾驶",
-                    "监管",
-                    "事故"
+                    "物理AI",
+                    "大模型",
+                    "自动驾驶"
                   ],
-                  "source": "IT之家",
-                  "time": "7月16日消息"
+                  "source": "腾讯新闻",
+                  "time": "7月17日"
                 }
               ]
             }
@@ -347,19 +456,36 @@ window.__RAW_DATA = {
           "name": "具身智能",
           "cards": [
             {
-              "title": "波士顿动力",
+              "title": "星尘智能",
               "news": [
                 {
-                  "title": "现代汽车将波士顿动力转为全资子公司，加速布局机器人业务",
-                  "summary": "7月16日消息，现代汽车集团宣布收购软银持有的波士顿动力近10%股份（约3.25亿美元），将其转变为全资子公司。波士顿动力人形机器人Atlas已制定明确时间表：2028年部署超25000台至工厂，2030年扩展至零部件组装。",
-                  "link": "https://www.cls.cn/detail/2428164",
+                  "title": "星尘智能甩出20+超难家务自主，具身模型能力再突破",
+                  "summary": "7月17日，星尘智能（Astribot）在WAIC 2026展示了其具身模型Lumo-2的最新进展，甩出20多项超难家务自主操作，涵盖厨房烹饪、衣物折叠、精细抓取等长程复杂任务。展区现场演示了机器人自主完成多步骤家务流程，展现了具身模型在家政服务场景中的商业化潜力。",
+                  "link": "https://www.sznews.com/news/content/2026-07/17/content_32123871.htm",
                   "tags": [
-                    "收购",
-                    "人形机器人",
-                    "现代汽车"
+                    "具身智能",
+                    "家政机器人",
+                    "WAIC"
                   ],
-                  "source": "财联社",
-                  "time": "7月16日消息"
+                  "source": "机器之心",
+                  "time": "7月17日消息"
+                }
+              ]
+            },
+            {
+              "title": "宇泛智能",
+              "news": [
+                {
+                  "title": "全球首款720°连续后空翻机器狗亮相WAIC，宇泛智能携「灵猫」首秀",
+                  "summary": "7月17日，宇泛智能在WAIC 2026发布全球首款720°连续后空翻机器狗「灵猫」（Cyberling）。该四足机器人具备高动态运动能力，可完成连续后空翻、越障、奔跑等复杂动作。产品面向巡检、安防及家庭陪伴等场景，展现了国产四足机器人在运动控制领域的突破性进展。",
+                  "link": "https://www.qbitai.com/2026/07/453506.html",
+                  "tags": [
+                    "四足机器人",
+                    "机器狗",
+                    "WAIC"
+                  ],
+                  "source": "量子位",
+                  "time": "7月17日"
                 }
               ]
             }
@@ -377,71 +503,121 @@ window.__RAW_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "日本机器人AI",
+              "title": "影视飓风",
               "news": [
                 {
-                  "title": "日本拟采购2.75万颗英伟达Rubin芯片，打造本土机器人AI基础模型",
-                  "summary": "7月16日消息，日本计划采购2.75万颗英伟达下一代Rubin AI芯片，新成立的Noetra将负责建设大型数据中心，计划2027年3月发布首个AI模型。该项目由软银、丰田旗下Preferred Networks、日本电气等参与运营，获政府3873亿日元支持。",
-                  "link": "https://www.jiemian.com/article/14776964.html",
-                  "tags": [
-                    "英伟达",
-                    "日本",
-                    "机器人",
-                    "AI芯片"
-                  ],
-                  "source": "界面新闻",
-                  "time": "7月16日消息"
-                }
-              ]
-            },
-            {
-              "title": "孙正义",
-              "news": [
-                {
-                  "title": "孙正义预计AI机器人市场规模将超290万亿元，称质疑AI如同拒绝汽车",
-                  "summary": "7月14日消息，软银创始人孙正义在东京出席活动时表示，对AI泡沫的担忧毫无依据。预计2040年前后将约有10亿台搭载AI的人形机器人投入运行，AI机器人市场规模将扩大到约7000万亿日元（约292.7万亿元人民币）。",
-                  "link": "https://news.qq.com/rain/a/20260716A07GYO00",
-                  "tags": [
-                    "孙正义",
-                    "AI机器人",
-                    "市场规模"
-                  ],
-                  "source": "腾讯新闻",
-                  "time": "7月14日消息"
-                }
-              ]
-            },
-            {
-              "title": "AI编造谣言",
-              "news": [
-                {
-                  "title": "网民用AI编造“高考估分715查分299”虚假谣言被警方依法行政拘留",
-                  "summary": "7月16日消息，四川绵阳警方通报，一福建网民利用AI工具编造“高考估分715查分299，试卷被调包”的虚假网文博取流量。经核查，帖中考生、成绩及流程均属捏造。造谣者已被警方依据新修订《治安管理处罚法》行政拘留。",
-                  "link": "https://news.sina.com.cn/s/2026-07-16/doc-inihyuqf8052297.shtml",
-                  "tags": [
-                    "AI安全",
-                    "谣言",
-                    "法律",
-                    "高考"
-                  ],
-                  "source": "新浪新闻",
-                  "time": "7月16日消息"
-                }
-              ]
-            },
-            {
-              "title": "机器人老师",
-              "news": [
-                {
-                  "title": "纽约州试点引入人形机器人担任“助教”，课程内容可控且不说谎",
-                  "summary": "7月16日消息，据外媒报道，今年秋季由Realbotix提供的人形机器人Sally将进入纽约州西部公立学校担任“助教”。Sally拥有硅胶皮肤和逼真外形，培训材料仅限学区课程，运行在封闭网络中不连接公共互联网。在无法回答时明确说“我不知道”，检测到自残风险会自动向管理人员发出警报。",
-                  "link": "https://m.ithome.com/html/977321.htm",
+                  "title": "影视飓风49元AI课一夜售出10万份，单日营收近500万",
+                  "summary": "7月17日消息，全平台粉丝超4000万的科技影视博主「影视飓风」7月15日在直播间开卖AI实战课程，券后价49元。上线首日销量突破10万份，单日营收超490万元。课程共16节课，覆盖AI生图、视频生成、提示词撰写等入门实操及模拟机械臂运镜等进阶玩法，由影视飓风与AI视觉创作平台TapNow联合打造。",
+                  "link": "https://www.jiemian.com/article/14782599.html",
                   "tags": [
                     "AI教育",
-                    "人形机器人"
+                    "知识付费",
+                    "AI视频"
                   ],
-                  "source": "IT之家",
-                  "time": "7月16日消息"
+                  "source": "界面新闻",
+                  "time": "7月15日消息"
+                }
+              ]
+            },
+            {
+              "title": "华强北",
+              "news": [
+                {
+                  "title": "华强北内存价格暴涨超320%，AI算力「吞噬」存储产能",
+                  "summary": "7月17日消息，华强北电子市场正经历近15年来最剧烈的存储芯片价格震荡。32GB DDR5内存套装价格从去年约900元飙升至近3800元，涨幅超320%；1TB固态硬盘从410元涨至950元。三星、SK海力士、美光三大原厂将70%至80%先进产能转向AI专用HBM内存，导致消费级存储供需缺口持续扩大。存储芯片在整机物料成本中的占比已从15%飙升至35%以上。",
+                  "link": "https://m.techweb.com.cn/article/2026-07-17/2977490.shtml",
+                  "tags": [
+                    "存储芯片",
+                    "AI算力",
+                    "DDR5"
+                  ],
+                  "source": "极客公园",
+                  "time": "7月17日消息"
+                }
+              ]
+            },
+            {
+              "title": "复旦量子闪存",
+              "news": [
+                {
+                  "title": "复旦「量子闪存」登上《Science》，室温单电子非易失存储突破",
+                  "summary": "北京时间7月17日凌晨，复旦大学周鹏-刘春森研究团队在《Science》发表「量子闪存」技术。利用二维半导体与共面漏极-沟道-源极结构，在27℃室温下观测到单电子非易失存储，每注入一个电子对应一个比特，存储窗口达0.5伏特，把此前55mV、仅维持5秒的硅基单电子存储推进到室温稳定保存。团队计划1至3年内对接AI客户实现产品落地。",
+                  "link": "https://news.pconline.com.cn/2178/21787670.html",
+                  "tags": [
+                    "存储技术",
+                    "量子闪存",
+                    "Science"
+                  ],
+                  "source": "复旦大学",
+                  "time": "7月17日"
+                }
+              ]
+            },
+            {
+              "title": "Shopify CEO",
+              "news": [
+                {
+                  "title": "Shopify CEO：反AI编程的人严重高估了人类代码质量",
+                  "summary": "7月17日消息，Shopify联合创始人兼CEO Tobi Lütke在社交平台发帖称，反对AI编程的人严重高估了人类代码的质量。他表示除少数优秀开源项目和高质量企业代码库外，大量「人类垃圾代码」普遍存在，任何达到Opus级别的模型都能轻松改进这类代码。马斯克随后回复「True」表示认同。有用户指出AI生成的代码仍需人工审查和调试。",
+                  "link": "https://www.theblockbeats.info/flash/356648",
+                  "tags": [
+                    "AI编程",
+                    "代码质量",
+                    "争议"
+                  ],
+                  "source": "爱范儿",
+                  "time": "7月17日消息"
+                }
+              ]
+            },
+            {
+              "title": "Netflix",
+              "news": [
+                {
+                  "title": "Netflix联席CEO：生成式AI已进入约300部作品制作流程",
+                  "summary": "7月17日消息，Netflix联席CEO Ted Sarandos在二季度财报电话会上表示，2026年已有约300部Netflix作品使用生成式AI，集中在前期预演、视觉特效、场景参考和后期制作。其中《The American Experiment》有17分钟画面经过AI增强。Sarandos称AI增强了创作者的能力而非取代创作者，叙事、表演和审美选择仍由导演和后期人员决定。",
+                  "link": "https://news.qq.com/rain/a/20260717A070JX00",
+                  "tags": [
+                    "生成式AI",
+                    "影视制作",
+                    "AIGC"
+                  ],
+                  "source": "爱范儿",
+                  "time": "7月17日消息"
+                }
+              ]
+            },
+            {
+              "title": "德国Soofi S",
+              "news": [
+                {
+                  "title": "德国Soofi S开放300亿参数双语开源模型与训练配方",
+                  "summary": "7月17日消息，德国Soofi联盟发布Soofi S 30B-A3B，采用MoE与Mamba-Transformer混合架构，总参数300亿，每个token激活约30亿参数。训练使用约27万亿token，在德国电信慕尼黑Industrial AI Cloud上完成。团队承诺开放模型权重、中间检查点、训练和评测代码及超参数，在德语、英语和代码综合评测中超过多款欧洲开放模型。",
+                  "link": "https://ai.cnmo.com/news/813500.html",
+                  "tags": [
+                    "开源模型",
+                    "MoE",
+                    "欧洲AI"
+                  ],
+                  "source": "爱范儿",
+                  "time": "7月17日消息"
+                }
+              ]
+            },
+            {
+              "title": "国家超算",
+              "news": [
+                {
+                  "title": "国家超算互联网推出科学智能体共创计划",
+                  "summary": "7月17日，国家超算互联网在WAIC 2026上推出「科学计算智能体生态共创与开发者招募合作计划」。该计划为期半年，面向高校科研院所、个人开发者及企业研发团队，广泛征集智能体、科研模型、MCP工具等创新成果，以构建开放协同的科学智能生态体系，推动超算资源与AI技术的深度融合。",
+                  "link": "https://m.ithome.com/html/978307.htm",
+                  "tags": [
+                    "科学计算",
+                    "智能体",
+                    "超算"
+                  ],
+                  "source": "36氪",
+                  "time": "7月17日"
                 }
               ]
             }
@@ -453,7 +629,7 @@ window.__RAW_DATA = {
       "platforms": [
         {
           "name": "LMArena",
-          "date": "2026-07-17",
+          "date": "2026-07-18",
           "link": "https://lmarena.ai/leaderboard/text",
           "rankings": [
             {
@@ -560,7 +736,7 @@ window.__RAW_DATA = {
         },
         {
           "name": "OpenRouter",
-          "date": "2026-07-17",
+          "date": "2026-07-18",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
@@ -594,6 +770,11 @@ window.__RAW_DATA = {
               "change": "↑218%"
             },
             {
+              "model": "Kimi K3",
+              "score": "2.97T tokens",
+              "change": "NEW"
+            },
+            {
               "model": "DeepSeek V4 Pro",
               "score": "2.47T tokens",
               "change": "↑14%"
@@ -612,12 +793,57 @@ window.__RAW_DATA = {
               "model": "Gemini 3 Flash Preview",
               "score": "947B tokens",
               "change": "↑2%"
+            },
+            {
+              "model": "gpt-5.6-sol",
+              "score": "812B tokens",
+              "change": "↓5%"
+            },
+            {
+              "model": "Grok 4.5",
+              "score": "743B tokens",
+              "change": "↓8%"
+            },
+            {
+              "model": "Qwen3.7-Max",
+              "score": "712B tokens",
+              "change": "↑3%"
+            },
+            {
+              "model": "Nemotron 3 Ultra",
+              "score": "621B tokens",
+              "change": "↑12%"
+            },
+            {
+              "model": "Gemma 4 12B",
+              "score": "584B tokens",
+              "change": "↑7%"
+            },
+            {
+              "model": "Claude Sonnet 5",
+              "score": "536B tokens",
+              "change": "↑5%"
+            },
+            {
+              "model": "Muse Spark 1.1",
+              "score": "492B tokens",
+              "change": "↑15%"
+            },
+            {
+              "model": "Llama 5.5",
+              "score": "468B tokens",
+              "change": "↓3%"
+            },
+            {
+              "model": "GPT-5.5",
+              "score": "435B tokens",
+              "change": "↓2%"
             }
           ]
         },
         {
           "name": "Product Hunt",
-          "date": "2026-07-17",
+          "date": "2026-07-18",
           "link": "https://www.producthunt.com/",
           "rankings": [
             {
