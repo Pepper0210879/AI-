@@ -3,7 +3,7 @@ const CONFIRMED_KEY = 'ai-news-confirmed';
 
 // 默认数据结构（与 script.js 中的 NEWS_DATA 一致）
 const DEFAULT_DATA = {
-  "date": "2026-07-19",
+  "date": "2026-07-20",
   "sections": {
     "overseas": {
       "vendors": [
@@ -12,7 +12,20 @@ const DEFAULT_DATA = {
           "color": "#10a37f",
           "softBg": "#e6f7f1",
           "initial": "O",
-          "news": []
+          "news": [
+            {
+              "title": "OpenAI 高管盛赞 Kimi K3：性能接近 2026 Q1 最佳公开模型",
+              "summary": "7月19日，OpenAI 战略未来负责人 Dean Ball 公开表示，Kimi K3 是一款「非常好的模型」，在智能体编程场景中基本达到 2026 年第一季度最佳公开模型水平。Ball 还表示 K3 表现不能简单归因于蒸馏，同时指出 K3 对 Token 消耗较高，实际运行成本未必很低。他对中国仍开放此类高能力模型感到意外。",
+              "link": "https://www.163.com/dy/article/L26O0HU00511D6RL.html",
+              "tags": [
+                "Kimi",
+                "开源模型",
+                "评价"
+              ],
+              "source": "网易",
+              "time": "7月19日"
+            }
+          ]
         },
         {
           "name": "Anthropic",
@@ -21,15 +34,15 @@ const DEFAULT_DATA = {
           "initial": "A",
           "news": [
             {
-              "title": "Anthropic：Claude Fable 5 永久纳入 Max 和 Team Premium 订阅，限额 50%",
-              "summary": "7月18日，Anthropic 宣布从 7 月 20 日起，Claude Fable 5 模型将永久纳入 Max 和 Team Premium 订阅计划，使用限额为标准限额的 50%。Pro 和 Team Standard 用户可通过用量积分调用，并获赠 100 美元积分。官方称因需求旺盛将分阶段推广，用户评价两极。",
-              "link": "https://tech.ifeng.com/c/8urEkcisStw",
+              "title": "Claude Fable 5 官宣永久可用，纳入 Max 和 Team Premium 套餐",
+              "summary": "7月19日消息，Anthropic 宣布从 7 月 20 日起，Claude Fable 5 将永久保留在 Max 和 Team Premium 订阅计划中，使用限额为标准限额的 50%。Pro 和 Team Standard 用户可通过积分访问，并获赠 100 美元一次性积分。此前 Anthropic 因算力不足和出口管制多次调整 Fable 5 可用期限，在 GPT-5.6 竞争压力下改为永久保留。",
+              "link": "https://36kr.com/p/3900918550546308",
               "tags": [
                 "Claude",
                 "订阅"
               ],
-              "source": "凤凰网科技",
-              "time": "7月18日消息"
+              "source": "36氪",
+              "time": "7月19日消息"
             }
           ]
         },
@@ -47,11 +60,12 @@ const DEFAULT_DATA = {
           "initial": "X",
           "news": [
             {
-              "title": "马斯克：Grok 4.6 下周完成训练，2 万亿参数模型",
-              "summary": "7月18日，马斯克在 X 上透露，xAI 正在训练的下一代 Grok 4.6 模型参数规模达 2 万亿，预计下周完成初始训练。马斯克表示 2 万亿参数版本在各方面优于当前 1.5 万亿参数的 Grok 4.5，推理速度和 Token 效率接近现有版本，猜测可能超过月之暗面 Kimi 3。",
+              "title": "马斯克：xAI 正训练 2 万亿参数模型，下周完成初始训练",
+              "summary": "7月18日，马斯克在 X 平台透露，xAI 正在训练的下一代模型参数规模达 2 万亿，预计下周完成初始训练。马斯克表示 2 万亿参数版本在各方面优于当前 1.5 万亿参数的 Grok 4.5，综合能力可能超越月之暗面 Kimi K3，同时推理速度和 Token 效率接近 Grok 4.5 水平。Kimi 官方在 X 上回应：「欢迎加入 2万亿+ 俱乐部。」",
               "link": "https://tech.ifeng.com/c/8usXhWt3BmF",
               "tags": [
                 "Grok",
+                "xAI",
                 "大模型"
               ],
               "source": "凤凰网科技",
@@ -64,20 +78,7 @@ const DEFAULT_DATA = {
           "color": "#76b900",
           "softBg": "#f1f9e7",
           "initial": "N",
-          "news": [
-            {
-              "title": "英伟达 N1X 首个 Cinebench 2026 跑分曝光，单核接近苹果 M3 Max",
-              "summary": "7月18日消息，爆料者放出英伟达 N1X 芯片首个 Cinebench 2026 测试数据，运行平台为微软 Surface Ultra 工程样机，单核 540 分、多核 5771 分，单核性能接近苹果 M3 Max。N1X 是英伟达与微软推进 Windows on Arm 高性能 PC 生态的关键芯片，搭载 20 核 CPU 和 Blackwell GPU，最高支持 128GB 统一内存。",
-              "link": "https://www.ithome.com/0/978/600.htm",
-              "tags": [
-                "芯片",
-                "N1X",
-                "Arm"
-              ],
-              "source": "IT之家",
-              "time": "7月18日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Meta",
@@ -86,14 +87,14 @@ const DEFAULT_DATA = {
           "initial": "M",
           "news": [
             {
-              "title": "Meta 26 名员工指控公司用 AI 筛选裁员对象，法院驳回阻止请求",
-              "summary": "7月18日，美国加州法官驳回 Meta 26 名员工的紧急申请，员工指控公司利用 AI 系统筛选裁员对象，导致休病假和残疾员工被不成比例裁掉。法院认为员工未能证明「不可弥补损害」，允许 Meta 从 7 月 22 日起继续推进约 8000 人的裁员计划，相关争议转入仲裁。",
-              "link": "https://m.163.com/news/article/L1SFK93H00097U7T.html",
+              "title": "Meta 与 Anthropic 商谈两年最高 100 亿美元算力租赁",
+              "summary": "7月18日消息，据《纽约时报》报道，Meta 正与 Anthropic 商谈出租数据中心算力，潜在合同两年最高价值 100 亿美元。Anthropic 于 6 月提出合作方案，Meta 仍在评估，双方尚未签署最终协议。若达成，将是 Meta 首次大规模对外算力收入。Meta 今年资本开支最高达 1450 亿美元，Anthropic 已与 SpaceXAI 签署 450 亿美元长期算力协议。",
+              "link": "https://www.sohu.com/a/1052126204_122014422",
               "tags": [
-                "AI伦理",
-                "裁员"
+                "算力",
+                "数据中心"
               ],
-              "source": "网易新闻",
+              "source": "搜狐",
               "time": "7月18日消息"
             }
           ]
@@ -103,7 +104,19 @@ const DEFAULT_DATA = {
           "color": "#555555",
           "softBg": "#f0f0f0",
           "initial": "苹",
-          "news": []
+          "news": [
+            {
+              "title": "苹果天才吧测试 AI「Live Notes」系统，可转录顾客对话",
+              "summary": "7月20日消息，据彭博社记者古尔曼爆料，苹果正在部分直营店天才吧测试「Live Notes」AI 系统，可利用 AI 工具记录、转录和总结员工与顾客的服务对话，让员工免于手动记笔记。需要双方同意才能启用，录音文件不保存，管理人员无法查看。部分员工担忧未来被用于绩效考核，苹果称非强制使用。",
+              "link": "https://tech.ifeng.com/c/8uuDi6vPSF8",
+              "tags": [
+                "AI应用",
+                "苹果"
+              ],
+              "source": "凤凰网科技",
+              "time": "7月20日消息"
+            }
+          ]
         },
         {
           "name": "微软",
@@ -123,16 +136,28 @@ const DEFAULT_DATA = {
           "initial": "阿",
           "news": [
             {
-              "title": "阿里云发布灵骏真武 M890 超节点实例，单台可承载十万亿参数 MoE 推理",
-              "summary": "7月18日，阿里云在 WAIC 2026 发布灵骏真武 M890 超节点实例，首次通过公共云提供超节点形态 AI 算力。搭载 ICN Switch 1.0 芯片实现 64 卡互联，卡间速率 800GB/s，单台可承载十万亿参数级 MoE 大模型推理，训练性能较上一代提升 3 倍。已在乌兰察布地域开放邀测。",
-              "link": "https://www.ithome.com/0/978/578.htm",
+              "title": "阿里千问 Qwen3.8 预览版上线：2.4T 参数，宣称仅次于 Fable 5",
+              "summary": "7月19日，阿里千问宣布 Qwen3.8 即将发布并开源，预览版 Qwen3.8-Max-Preview 已上线 Token Plan、Qoder 等平台。新模型参数 2.4T，支持思考模式与快速模式双推理机制切换，官方称在内部真实任务测评中展现匹敌世界前沿模型水平，「可能是除了 Fable 5 外最强大的模型」。Token Plan 个人版同步发布，限时优惠每月 39 元起。",
+              "link": "https://www.ithome.com/0/978/730.htm",
               "tags": [
-                "AI算力",
-                "超节点",
-                "MoE"
+                "Qwen",
+                "开源",
+                "大模型"
               ],
               "source": "IT之家",
-              "time": "7月18日"
+              "time": "7月19日"
+            },
+            {
+              "title": "阿里云百炼灰测 HappyOyster 1.0 世界模型，一句话生成可交互数字世界",
+              "summary": "7月19日，阿里云百炼上线开放式世界模型 HappyOyster 1.0（快乐生蚝），面向企业和开发者开启灰测。支持世界探索（Adventure）和实时导演（Directing）两大模式，用户输入一句话或一张图即可生成可实时控制和探索的数字世界，支持 1 分钟以上连续互动。提供 Android/iOS/Web 三端 SDK。",
+              "link": "https://www.ithome.com/0/978/729.htm",
+              "tags": [
+                "世界模型",
+                "阿里云",
+                "百炼"
+              ],
+              "source": "IT之家",
+              "time": "7月19日"
             }
           ]
         },
@@ -157,25 +182,15 @@ const DEFAULT_DATA = {
           "initial": "腾",
           "news": [
             {
-              "title": "腾讯 WorkBuddy 正式版 App 发布，安卓 / iOS / 鸿蒙三端上线",
-              "summary": "7月18日，腾讯宣布 WorkBuddy 正式版 App 发布，安卓、iOS、鸿蒙三端同步上线，是首个登陆鸿蒙系统的通用智能体应用。支持连接电脑模式和云端工作模式，支持文字、语音、拍照等多模态输入，可远程向电脑端发起任务，打通腾讯文档和 ima 知识库。",
-              "link": "https://news.qq.com/rain/a/20260718A05N6H00",
+              "title": "首款接入腾讯 WorkBuddy 的 AI 记忆眼镜发布，李未可合作",
+              "summary": "7月18日，腾讯云 WorkBuddy 与李未可科技在 WAIC 发布 X-AI 记忆眼镜，为首款接入 WorkBuddy 的智能眼镜硬件。眼镜搭载 WakeeMemory OS，可全天候自动记录会议、差旅行程等信息，提炼决议和待办事项并同步至 WorkBuddy 执行。眼镜重 26g，支持 10 小时以上录音，预售 499 元起。",
+              "link": "https://www.cnr.cn/bj/sijh/20260719/t20260719_527717741.shtml",
               "tags": [
-                "智能体",
-                "WorkBuddy"
+                "WorkBuddy",
+                "AI眼镜",
+                "腾讯云"
               ],
-              "source": "腾讯新闻",
-              "time": "7月18日"
-            },
-            {
-              "title": "腾讯副总裁林松涛：终端将是 AI 普及的最后一公里",
-              "summary": "7月18日，腾讯副总裁林松涛在 WAIC 论坛上表示，终端将是 AI 普及的最后一公里，AI 将从聊天助手走向主动协同的终端智能伙伴。他指出模型差距正在缩小但工程差距在拉开，模型决定 AI 上限，工程决定下限，AI 应成为普惠的生产工具。",
-              "link": "https://finance.sina.cn/2026-07-18/detail-iniierwh4026038.d.html",
-              "tags": [
-                "WAIC",
-                "终端AI"
-              ],
-              "source": "新浪财经",
+              "source": "央广网",
               "time": "7月18日"
             }
           ]
@@ -201,15 +216,39 @@ const DEFAULT_DATA = {
           "initial": "月",
           "news": [
             {
-              "title": "月之暗面：已通知投资者调整架构，最快 6 个月内赴港上市",
-              "summary": "7月18日消息，月之暗面已通知投资者调整公司架构，筹备赴港 IPO，最快 6 个月内完成港股上市。此前其发布 Kimi K3 模型总参数达 2.8 万亿，为首个达此规模的开源模型，引发美股纳斯达克和标普 500 指数下挫逾 1%，多家美媒将此归因于 K3 对全球大模型竞争格局的冲击。",
-              "link": "https://www.yicai.com/brief/103281065.html",
+              "title": "月之暗面已向投资人发送上市议案，最快 6 个月内赴港 IPO",
+              "summary": "7月20日消息，月之暗面已通知投资者调整公司架构并筹备赴港 IPO，已向投资人发送股东决议文件寻求支持，最快 6 个月内完成上市。公司 ARR 在 6 月达 3 亿美元（3 个月翻 3 倍），最新估值超 300 亿美元。Kimi K3 模型的发布进一步增强了资本市场信心。",
+              "link": "https://www.cls.cn/detail/2430468",
               "tags": [
                 "IPO",
-                "Kimi"
+                "月之暗面"
               ],
-              "source": "第一财经",
-              "time": "7月18日消息"
+              "source": "财联社",
+              "time": "7月20日消息"
+            },
+            {
+              "title": "Kimi 因 K3 发布后暴增的请求量暂停 C 端新用户订阅",
+              "summary": "7月19日，月之暗面 Kimi 发布公告称，因 K3 发布后过去 48 小时用户请求量大幅超出预估，逼近现有集群承载极限，即日起暂停 C 端新用户订阅，将全部算力优先保障已订阅用户权益。团队正全速推进算力扩容，后续将逐步恢复订阅并拆分 Kimi 主权益与 Kimi Code 权益以精准匹配算力。",
+              "link": "https://news.qq.com/rain/a/20260719A09F2300",
+              "tags": [
+                "Kimi",
+                "算力",
+                "订阅"
+              ],
+              "source": "腾讯新闻",
+              "time": "7月19日"
+            },
+            {
+              "title": "Kimi K3 登顶 Frontend Code Arena 榜单，彭博社称美 AI 领先中国认知被打破",
+              "summary": "7月19日消息，月之暗面 Kimi K3 大模型在 Frontend Code Arena 榜单以 1679 分超越 Claude Fable 5（1631 分）登顶。彭博社报道称该模型正在打破「美国 AI 领先中国」的固有认知。伯克利教授 Ion Stoica 表示差距已从 6-9 个月缩短至 2-3 个月。Kimi 总裁张予彤透露，K3 发布次日公司 ARR 创下历史最大单日增幅，计划于 7 月 27 日开放模型权重。",
+              "link": "https://tech.ifeng.com/c/8usuPwlhPtE",
+              "tags": [
+                "K3",
+                "登顶",
+                "开源"
+              ],
+              "source": "凤凰网科技",
+              "time": "7月19日消息"
             }
           ]
         },
@@ -218,7 +257,20 @@ const DEFAULT_DATA = {
           "color": "#cf0a2c",
           "softBg": "#fde8ec",
           "initial": "华",
-          "news": []
+          "news": [
+            {
+              "title": "华为 Pura X Max 等产品获国标人工智能 L3 等级首证",
+              "summary": "7月19日消息，华为终端官方宣布，HUAWEI Pura X Max 手机、MateBook Pro 电脑、智慧屏 S7 Pro 分别获国标人工智能 L3 等级手机、电脑、电视首证。L3 为当前行业可达到的最高智能化评级，标志着华为在终端 AI 能力认证方面取得新突破。该标准将终端智能化划分为 L1-L4 四个等级。",
+              "link": "https://www.ithome.com/0/978/615.htm",
+              "tags": [
+                "AI认证",
+                "华为",
+                "L3"
+              ],
+              "source": "IT之家",
+              "time": "7月19日消息"
+            }
+          ]
         }
       ]
     },
@@ -228,19 +280,31 @@ const DEFAULT_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "荣耀",
+              "title": "面壁智能",
               "news": [
                 {
-                  "title": "荣耀李健：AI 演进必将迈向伙伴型类人生命体，Robot Phone 开启预约",
-                  "summary": "7月18日，荣耀 CEO 李健在 WAIC 演讲中提出 AI 将脱离工具属性，全面迈向伙伴型类人生命体。荣耀将 MagicOS 升维为行业首个伙伴型多模态智能体操作系统，并发布全球首款机器人手机 Robot Phone，配备四自由度云台系统，当天开启全渠道预约。",
-                  "link": "https://news.qq.com/rain/a/20260718A0BJKM00",
+                  "title": "面壁智能发布端侧模型 MiniCPM5-2B，AA-Index 4B 以下性能第一",
+                  "summary": "7月19日，面壁智能在 WAIC 联合 OpenBMB 发布最新端侧模型 MiniCPM5-2B，在 AA-Index 榜单以 17 分获全球 4B 以下模型最高得分。模型仅 20 亿参数，原生支持混合思考，提供 512K 超长上下文窗口。已完成 AMD、英特尔、联发科、高通等主流芯片及华为昇腾等 9 款国产芯片适配。",
+                  "link": "https://www.ithome.com/0/978/796.htm",
                   "tags": [
-                    "WAIC",
-                    "Robot Phone",
-                    "智能体"
+                    "端侧模型",
+                    "面壁",
+                    "WAIC"
                   ],
-                  "source": "腾讯新闻",
-                  "time": "7月18日"
+                  "source": "IT之家",
+                  "time": "7月19日"
+                },
+                {
+                  "title": "面壁开源 MiniCPM-Robot 系列，进军具身智能 VLA 模型",
+                  "summary": "7月19日，面壁智能在 WAIC 发布并开源面向机器人操作的 MiniCPM-RobotManip（1.5B）和面向跟踪导航的 MiniCPM-RobotTrack（0.9B）。Manip 模型支持 1 分钟上下文记忆，单步延迟仅 120ms；Track 模型原生适配宇树 Go2 Edu，纯本地无网运行，帧率稳定 5Hz 以上。",
+                  "link": "https://www.d1ev.com/news/shichang/307495",
+                  "tags": [
+                    "具身智能",
+                    "VLA",
+                    "开源"
+                  ],
+                  "source": "第一电动",
+                  "time": "7月19日"
                 }
               ]
             },
@@ -248,81 +312,95 @@ const DEFAULT_DATA = {
               "title": "商汤",
               "news": [
                 {
-                  "title": "商汤科技发布日日新 U1 Pro 图片创作模型，最高 8K 原生分辨率输出",
-                  "summary": "7月18日，商汤科技在 WAIC 2026 发布日日新 SenseNova U1 Pro 图片创作模型，宣称告别「AI 味」，支持最高 8K 原生分辨率输出，图文渲染出错率极低。内置长程 Agentic 闭环思维，可围绕复杂目标进行数十轮自主生成与修正。预览版已开启邀请测试，8 月上线正式版及 API。",
-                  "link": "https://tech.ifeng.com/c/8urgY4YBoXQ",
+                  "title": "商汤发起「银河计划」，联合近 20 家伙伴共建 5 个万卡级国产智算集群",
+                  "summary": "7月18日，商汤大装置在 WAIC 联合近 20 家生态伙伴发起「银河计划」，将建设 1 个 Token 运营中心和 5 个万卡级国产智算集群。商汤与国星宇航共建「商汤算力星座」，今年发射首批 4 颗算力卫星，2030 年建成千颗级卫星网络覆盖全球。商汤日均 Token 服务量已达 2.42 万亿，预计 Q4 达 10 万亿。",
+                  "link": "https://wap.eastmoney.com/a/202607183811797068.html",
                   "tags": [
-                    "图片生成",
                     "商汤",
+                    "智算集群",
+                    "算力卫星"
+                  ],
+                  "source": "东方财富",
+                  "time": "7月18日"
+                }
+              ]
+            },
+            {
+              "title": "小红书",
+              "news": [
+                {
+                  "title": "小红书亮相 WAIC：全量上线 RED Skill，内测 Vibe Coding 小工具",
+                  "summary": "7月19日消息，小红书在 WAIC 宣布全量上线 RED Skill、内测 Vibe Coding 小工具。RED Skill 内测一月产生超 7300 个原创 AI Skill，覆盖提效工具、职场辅导等领域。2 月以来每月发布 4 万至 5 万个 Vibe Coding 作品。过去一年超 16 万名 AI 开发者活跃于小红书。",
+                  "link": "https://finance.sina.cn/2026-07-19/detail-iniikaqz0148006.d.html",
+                  "tags": [
+                    "小红书",
+                    "Vibe Coding",
                     "WAIC"
                   ],
-                  "source": "凤凰网科技",
-                  "time": "7月18日"
+                  "source": "新浪财经",
+                  "time": "7月19日消息"
                 }
               ]
             },
             {
-              "title": "网易有道",
+              "title": "阶跃星辰",
               "news": [
                 {
-                  "title": "网易有道发布国内首款 MFi 认证开放式 AI 耳机 OpenPods",
-                  "summary": "7月18日，网易有道在 WAIC 2026 首次公开展出 AI 会议耳机 OpenPods，为国内首款苹果 MFi 认证开放式 AI 耳机。覆盖录音转写、翻译、总结全链路，支持十余种语言实时互译，配备音色克隆技术。耳机盒可独立运行录音翻译终端，无需手机。已量产，预计 8 月正式发布。",
-                  "link": "https://www.ithome.com/0/978/567.htm",
+                  "title": "阶跃星辰与上海期智研究院共建智能体前沿研究院",
+                  "summary": "7月18日，阶跃星辰与上海期智研究院宣布共建「智能体前沿研究院」，围绕智能体网络及经济原理、AI Safety 等方向开展联合研究。上海期智研究院院长姚期智与阶跃董事长印奇共同揭牌，提出「智能体时代五大全球新命题」。阶跃同步推出 StepStar 顶尖人才计划，面向全球招募智能体领域人才。",
+                  "link": "https://finance.sina.com.cn/roll/2026-07-19/doc-iniihuvr0426843.shtml",
                   "tags": [
-                    "AI耳机",
-                    "翻译"
+                    "智能体",
+                    "阶跃星辰",
+                    "研究院"
                   ],
-                  "source": "IT之家",
+                  "source": "新浪财经",
                   "time": "7月18日"
-                }
-              ]
-            },
-            {
-              "title": "Soul",
-              "news": [
+                },
                 {
-                  "title": "Soul 推出 AI 智能硬件 B Soul，提供智能交互与定制化语音体验",
-                  "summary": "7月18日，社交平台 Soul 在 WAIC 2026 推出 AI 智能硬件 B Soul，搭载自研多模态交互大模型 SoulX，将 AI 陪伴从手机屏幕延伸至物理空间。支持随时唤醒、自然交流和持续陪伴，配套 App 承载关系养成和记忆沉淀。7 月 25 日上线，预计 8 月逐步量产销售。",
-                  "link": "https://tech.ifeng.com/c/8urgevqyey0",
+                  "title": "千里科技在 WAIC 公布进展：阶跃 Step AOS 将应用于汽车，年底推 ASD 5.0",
+                  "summary": "7月19日消息，千里科技（阶跃星辰母公司）在 WAIC 公布多项汽车智能化进展，宣布将阶跃星辰 Step AOS 智能体原生操作系统应用于汽车领域，打通硬件与系统能力，并发布 ASD 4.1 技术预览，计划年底推出 ASD 5.0。联合吉利研发的汽车超级智能体「超级Eva」已搭载于极氪 8X 车型。",
+                  "link": "https://tech.ifeng.com/c/8utc52Khk0Q",
                   "tags": [
-                    "AI硬件",
-                    "Soul"
+                    "自动驾驶",
+                    "Step AOS"
                   ],
                   "source": "凤凰网科技",
-                  "time": "7月18日"
+                  "time": "7月19日消息"
                 }
               ]
             },
             {
-              "title": "京东",
+              "title": "百度",
               "news": [
                 {
-                  "title": "京东首次系统展示 JoyAI 模型矩阵，发布语音交互与视频编辑模型",
-                  "summary": "7月18日，京东在 WAIC 2026 首次系统展示面向物理世界的 JoyAI 模型矩阵，发布 JoyAI-Talker 实时语音交互模型和 JoyAI-Video-Edit 视频编辑模型。Talker 具备情绪理解和工具调用能力，Video-Edit 支持自然语言实时编辑视频画面。同步开源行业最大第一视角数据集 EgoLive。",
-                  "link": "https://m.ithome.com/html/978593.htm",
+                  "title": "百度一镜 WAIC 首发数字人视频播客，突破微表情技术",
+                  "summary": "7月19日，百度一镜在 WAIC 首发数字人视频播客解决方案，突破数字人微表情技术，实现自然插话和专业视听语音能力。该方案依托文心大模型将表情控制粒度压缩至 1 秒内，使制作成本下降 74%，内容表现力提升 785%，平均播放时长上涨 29%，人物自然度全面超越市面主流模型。",
+                  "link": "https://36kr.com/newsflashes/3901954083030918",
                   "tags": [
-                    "京东",
-                    "AI模型",
+                    "百度",
+                    "数字人",
                     "WAIC"
                   ],
-                  "source": "IT之家",
-                  "time": "7月18日"
+                  "source": "36氪",
+                  "time": "7月19日"
                 }
               ]
             },
             {
-              "title": "TikTok",
+              "title": "努比亚",
               "news": [
                 {
-                  "title": "TikTok 测试 AI 肖像检测工具，协助创作者识别深度伪造内容",
-                  "summary": "7月18日消息，TikTok 正在小范围测试 AI 肖像检测工具，面向部分美国创作者开放。创作者需通过第三方完成身份验证，系统自动扫描平台内容识别可能使用了其肖像的 AI 生成作品，并可对未经授权的深度伪造内容提交举报。TikTok 表示不会留存身份证明文件，面部信息仅用于比对。",
-                  "link": "https://www.163.com/dy/article/L241R25B0511BLFD.html",
+                  "title": "全球首款 AI 智能体手机努比亚 NaviX Ultra 亮相 WAIC，搭载豆包助手",
+                  "summary": "7月19日，搭载豆包手机助手的全球首款 AI 智能体手机努比亚 NaviX Ultra 在 WAIC 亮相。采用系统级 GUI Agent 架构，可直接看懂屏幕并模拟点击滑动，实现跨应用多步骤任务。配备独立橙色 AI 按键、7000mAh 电池，是国内首款搭载备案端侧智能体大模型的手机。",
+                  "link": "https://tech.ifeng.com/c/8ut3YdvrT9P",
                   "tags": [
-                    "深度伪造",
-                    "TikTok"
+                    "AI手机",
+                    "努比亚",
+                    "豆包"
                   ],
-                  "source": "网易新闻",
-                  "time": "7月18日消息"
+                  "source": "凤凰网科技",
+                  "time": "7月19日"
                 }
               ]
             }
@@ -330,11 +408,47 @@ const DEFAULT_DATA = {
         },
         {
           "name": "自动驾驶",
-          "cards": []
+          "cards": [
+            {
+              "title": "小鹏",
+              "news": [
+                {
+                  "title": "小鹏 MONA L03 上市后带动全系试驾量创历史新高",
+                  "summary": "7月19日，小鹏 MONA L03 上市后首个周末迎来客流高峰，自身单日试驾量创小鹏历史上市同期新高，并带动全系试驾量创历史最高水平。新车 12.38 万元起，搭载自研图灵 AI 芯片（Max 版 750TOPS）与第二代 VLA 智驾系统，提供纯电/增程双动力。",
+                  "link": "https://tech.ifeng.com/c/8utJ6skwMQj",
+                  "tags": [
+                    "小鹏",
+                    "VLA",
+                    "智驾"
+                  ],
+                  "source": "凤凰网科技",
+                  "time": "7月19日"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "具身智能",
-          "cards": []
+          "cards": [
+            {
+              "title": "大晓机器人",
+              "news": [
+                {
+                  "title": "大晓机器人发布开悟世界模型 Kairos 3.1，面向全行业开源",
+                  "summary": "7月19日，大晓机器人在 WAIC 发布原生行动一体化开悟世界模型 Kairos 3.1 并面向全行业开源。采用混合 Transformer 统一架构，融合世界理解、物理生成、动作预测三大能力。自研推理引擎 KairosRT 在 Jetson Thor 平台 8B 模型延迟仅 125ms，效率较 Cosmos 3 Nano 提升 52 倍。同步发布三大行业解决方案及具身物理智能评测基准平台。",
+                  "link": "https://www.jiemian.com/article/14790910.html",
+                  "tags": [
+                    "世界模型",
+                    "具身智能",
+                    "开源"
+                  ],
+                  "source": "界面新闻",
+                  "time": "7月19日"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "AI出海",
@@ -344,17 +458,18 @@ const DEFAULT_DATA = {
           "name": "投资资讯",
           "cards": [
             {
-              "title": "OpenRouter",
+              "title": "一目科技",
               "news": [
                 {
-                  "title": "AI 聚合平台 OpenRouter 获多家科技巨头收购意向，估值或超 13 亿美元",
-                  "summary": "7月19日消息，据 The Information 报道，AI 大模型 API 聚合平台 OpenRouter 已收到多家大型科技公司收购意向，估值可能高于 5 月 B 轮融资后的 13 亿美元。平台聚合超 400 款 AI 大模型，坐拥 800 万用户，月处理约 100 万亿 Token，年化收入约 5000 万美元。",
-                  "link": "https://finance.sina.cn/2026-07-19/detail-iniihzci7989930.d.html",
+                  "title": "具身智能触觉传感器厂商一目科技完成超 10 亿元 E 轮融资，估值破百亿",
+                  "summary": "7月19日消息，一目科技完成超 10 亿元 E 轮融资，投后估值突破 100 亿元，跻身百亿级具身智能独角兽。公司核心产品为仿生视触觉传感器，厚度小于 3mm，分辨率与力精度达类人水准，商业版图覆盖人形机器人、汽车、制药等领域。资金将用于触觉感知材料与芯片研发及规模化量产。",
+                  "link": "https://www.cls.cn/detail/2430385",
                   "tags": [
-                    "投资",
-                    "OpenRouter"
+                    "融资",
+                    "具身智能",
+                    "传感器"
                   ],
-                  "source": "新浪财经",
+                  "source": "财联社",
                   "time": "7月19日消息"
                 }
               ]
@@ -365,68 +480,87 @@ const DEFAULT_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "Spotify",
+              "title": "IDC",
               "news": [
                 {
-                  "title": "Spotify 去年清理 7500 万首 AI 生成音乐，应对垃圾内容滥用",
-                  "summary": "7月17日消息，Spotify 高级管理人员透露，2025 年 Spotify 从服务器移除了 7500 万首 AI 生成的音乐曲目。每天约 10 万首新歌被机器人自动上传，其中大部分通过 AI 低成本批量生成。Spotify 设有专门团队打击 AI 垃圾内容，但对经批准的 AI 辅助创作仍持开放态度。",
-                  "link": "https://www.ithome.com/0/977/955.htm",
+                  "title": "IDC 预发布 DAA 报告：2030 年全球活跃智能体将超 22 亿个",
+                  "summary": "7月19日消息，IDC 在 WAIC 预发布行业首份《DAA 研究报告》，用日活智能体数（Daily Active Agents）衡量智能体实际使用。报告预计全球活跃 Agent 数量从 2025 年的 2860 万个增至 2026 年的 7940 万个，2030 年达到 22.16 亿个。该指标由百度李彦宏在 Create 2026 大会上提出。",
+                  "link": "https://www.iheima.com/article-399700.html",
                   "tags": [
-                    "AI音乐",
-                    "版权"
+                    "DAA",
+                    "研究报告",
+                    "智能体"
+                  ],
+                  "source": "i黑马",
+                  "time": "7月19日消息"
+                }
+              ]
+            },
+            {
+              "title": "Dave Eggers",
+              "news": [
+                {
+                  "title": "作家 Dave Eggers 受邀为 OpenAI 员工演讲，痛批 ChatGPT 让学生失去写作能力",
+                  "summary": "7月19日消息，美国作家 Dave Eggers 去年受 Sam Altman 邀请在 OpenAI 总部向约 200 名员工发表演讲。Eggers 严厉批评 ChatGPT 对教育的影响是「灾难性的」：如果学生用它来写作，将永远学不会写作，被夺走自己的声音，让一两代人都陷入沉默。他质疑未来是否真的有人愿意阅读 AI 创作的小说。",
+                  "link": "https://www.ithome.com/0/978/607.htm",
+                  "tags": [
+                    "AI教育",
+                    "ChatGPT",
+                    "争议"
                   ],
                   "source": "IT之家",
-                  "time": "7月17日消息"
+                  "time": "7月19日消息"
                 }
               ]
             },
             {
-              "title": "英特尔",
+              "title": "世界人工智能合作组织",
               "news": [
                 {
-                  "title": "英特尔前 CEO 基辛格反思：当年确实看不上英伟达 GPU",
-                  "summary": "7月18日消息，英特尔前 CEO 帕特·基辛格在播客中承认，英特尔在 CPU 主导时代对英伟达 GPU 不屑一顾，认为「只是游戏发烧友用的东西」。他同时批评英特尔资本配置失误——回归前公司向股东返还约 1000 亿美元股息而非投入制造，导致十年未建新晶圆厂，错失 AI 时代机遇。",
-                  "link": "https://news.17173.com/content/07182026/120501812.shtml",
+                  "title": "世界人工智能合作组织（WAICO）正式成立，29 国创始成员国签署协定",
+                  "summary": "7月16日，29 个国家在上海签署《成立世界人工智能合作组织协定》，成为创始成员国，总部设在上海。该组织将重点开展 AI 能力建设国际合作、供需对接推动 AI+行动、以及全球治理体系建设三方面工作，将鼓励共建开源生态，确保发展中国家平等受益。",
+                  "link": "https://app.xinhuanet.com/news/article.html?articleId=202607167b558fa84ac8488bb938c4edbc30f2ed",
                   "tags": [
-                    "英特尔",
-                    "GPU",
-                    "反思"
+                    "国际合作",
+                    "AI治理",
+                    "WAICO"
                   ],
-                  "source": "17173新闻",
+                  "source": "新华社",
+                  "time": "7月16日"
+                }
+              ]
+            },
+            {
+              "title": "SK崔泰源",
+              "news": [
+                {
+                  "title": "SK 集团会长崔泰源：明年全球半导体需求至少增五成，AI 驱动增长",
+                  "summary": "7月19日，SK 集团会长崔泰源在济州论坛媒体座谈会上表示，明年全球半导体需求至少增长 50%-60%，其中 AI 领域需求预计增加 60%-100%。但明年新增供应量几乎为零，供需缺口恐扩大。他预测继电力设备后，材料供应和设施建设将成为新瓶颈，电线、海底电缆已出现短缺。",
+                  "link": "https://cb.yna.co.kr/gate/big5/cn.yna.co.kr/view/ACK20260719000700881",
+                  "tags": [
+                    "半导体",
+                    "AI供需",
+                    "SK"
+                  ],
+                  "source": "韩联社",
+                  "time": "7月19日"
+                }
+              ]
+            },
+            {
+              "title": "《大众摄影》",
+              "news": [
+                {
+                  "title": "《大众摄影》刊发 AI 生成「五腿牛」照片引发争议，官方回应已撤下",
+                  "summary": "7月18日消息，网友发现《大众摄影》杂志刊发照片《龙川晨韵》中黄牛有五条腿，质疑为 AI 生成。杂志社回应称作者承认使用 AI 后期调整时失误，照片已撤下。该事件再次引发关于 AI 生成内容标识与审核的讨论。杂志社表示已修订征稿规范，要求 AI 生成影像需主动声明并展示 AI 标识。",
+                  "link": "https://m.gmw.cn/2026-07/18/content_1304534599.htm",
+                  "tags": [
+                    "AI争议",
+                    "摄影",
+                    "审核"
+                  ],
+                  "source": "光明网",
                   "time": "7月18日消息"
-                }
-              ]
-            },
-            {
-              "title": "申真谞",
-              "news": [
-                {
-                  "title": "世界第一棋手申真谞挑战围棋 AI KataGo，受让两子首局告负",
-                  "summary": "7月18日消息，为纪念 AlphaGo 对战李世石十周年，世界排名第一的韩国棋手申真谞七段受让两子挑战围棋 AI KataGo，首局 245 手投子认负。KataGo 开局便使用非常规招法，展现打破传统布局的能力。后两局将于 7 月 19 日、21 日进行。",
-                  "link": "https://tech.ifeng.com/c/8urX0BAeDbx",
-                  "tags": [
-                    "围棋",
-                    "人机大战"
-                  ],
-                  "source": "凤凰网科技",
-                  "time": "7月18日消息"
-                }
-              ]
-            },
-            {
-              "title": "凯文·凯利",
-              "news": [
-                {
-                  "title": "凯文·凯利现身 WAIC：未来个人智能体将比你更了解自己",
-                  "summary": "7月18日，著名未来学家凯文·凯利在 WAIC 荣耀论坛发表演讲，称未来每个人都将拥有个人智能体，多个智能体协同可完成复杂事务。他指出随着时间推移和交互频次增加，智能体对用户的深度理解甚至可能超越个体对自我的认知边界——「比你自己更了解你」。",
-                  "link": "https://tech.ifeng.com/c/8urVmwvgSGt",
-                  "tags": [
-                    "WAIC",
-                    "个人智能体",
-                    "未来趋势"
-                  ],
-                  "source": "凤凰网科技",
-                  "time": "7月18日"
                 }
               ]
             }
@@ -545,58 +679,58 @@ const DEFAULT_DATA = {
         },
         {
           "name": "OpenRouter",
-          "date": "2026-07-19",
+          "date": "2026-07-20",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "Hy3 (free)",
-              "score": "11.1T tokens",
-              "change": "↑122%"
+              "score": "11.5T tokens",
+              "change": "↑87%"
             },
             {
               "model": "MiMo-V2.5",
-              "score": "9.28T tokens",
-              "change": "↑72%"
+              "score": "9.19T tokens",
+              "change": "↑55%"
             },
             {
               "model": "DeepSeek V4 Flash",
-              "score": "5.34T tokens",
+              "score": "5.35T tokens",
               "change": "↑2%"
             },
             {
               "model": "MiniMax M3",
-              "score": "3.9T tokens",
-              "change": "↑9%"
-            },
-            {
-              "model": "GLM 5.2",
-              "score": "3.5T tokens",
-              "change": "↑9%"
-            },
-            {
-              "model": "Nemotron 3 Ultra (free)",
-              "score": "3.2T tokens",
-              "change": "↑90%"
-            },
-            {
-              "model": "DeepSeek V4 Pro",
-              "score": "2.58T tokens",
+              "score": "3.75T tokens",
               "change": "↑12%"
             },
             {
+              "model": "GLM 5.2",
+              "score": "3.65T tokens",
+              "change": "↑14%"
+            },
+            {
+              "model": "Nemotron 3 Ultra (free)",
+              "score": "3.06T tokens",
+              "change": "↑50%"
+            },
+            {
+              "model": "DeepSeek V4 Pro",
+              "score": "2.67T tokens",
+              "change": "↑5%"
+            },
+            {
               "model": "Claude Opus 4.7",
-              "score": "2.22T tokens",
-              "change": "↑8%"
+              "score": "2.16T tokens",
+              "change": "↑4%"
             },
             {
               "model": "Claude Opus 4.8",
-              "score": "2.19T tokens",
-              "change": "↑9%"
+              "score": "2.06T tokens",
+              "change": "↑2%"
             },
             {
               "model": "Claude Sonnet 5",
               "score": "1.06T tokens",
-              "change": "↑16%"
+              "change": "↑14%"
             }
           ]
         },
@@ -730,13 +864,7 @@ const DEFAULT_DATA = {
       ]
     }
   }
-};
-
-};
-
-};
-
-};
+}
 
 function loadAPIConfig() {
     var provider = document.getElementById('admin-api-provider');
