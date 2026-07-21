@@ -3,7 +3,7 @@ const CONFIRMED_KEY = 'ai-news-confirmed';
 
 // 默认数据结构（与 script.js 中的 NEWS_DATA 一致）
 const DEFAULT_DATA = {
-  "date": "2026-07-20",
+  "date": "2026-07-21",
   "sections": {
     "overseas": {
       "vendors": [
@@ -14,16 +14,28 @@ const DEFAULT_DATA = {
           "initial": "O",
           "news": [
             {
-              "title": "OpenAI 高管盛赞 Kimi K3：性能接近 2026 Q1 最佳公开模型",
-              "summary": "7月19日，OpenAI 战略未来负责人 Dean Ball 公开表示，Kimi K3 是一款「非常好的模型」，在智能体编程场景中基本达到 2026 年第一季度最佳公开模型水平。Ball 还表示 K3 表现不能简单归因于蒸馏，同时指出 K3 对 Token 消耗较高，实际运行成本未必很低。他对中国仍开放此类高能力模型感到意外。",
-              "link": "https://www.163.com/dy/article/L26O0HU00511D6RL.html",
+              "title": "OpenAI 战略未来主管批 Kimi K3 开源称「减速主义」，硅谷多方驳斥",
+              "summary": "7月20日消息，月之暗面Kimi K3登顶全球榜单并开放权重后，OpenAI新任战略未来主管Dean W. Ball批评称开放权重模型「本质上是减速主义」，会阻碍进一步AI资本支出，还建议美国政府制造「中国模型可能存在后门」的监管恐慌打压对手。David Sacks、Chamath Palihapitiya等硅谷知名人士在社交平台公开驳斥Ball的观点，开源与闭源路线之争再度激化。",
+              "link": "https://www.163.com/dy/article/L29L0C5A0511B8LM.html",
               "tags": [
-                "Kimi",
-                "开源模型",
-                "评价"
+                "Kimi K3",
+                "开源",
+                "中美AI竞争"
               ],
               "source": "网易",
-              "time": "7月19日"
+              "time": "7月20日"
+            },
+            {
+              "title": "OpenAI 董事会主席预测：一年后企业将不再担心 Token 成本",
+              "summary": "7月21日消息，OpenAI董事会主席布雷特·泰勒接受CNBC采访时预测，约12个月后企业将不必再操心Token成本。他认为当前AI市场类似互联网早期，随着第三方服务商接管Token管理、收费模式转向按结果付费以及模型运行效率持续提升，Token成本问题将自然消解。IT部门届时能熟练部署不同场景的AI工具。",
+              "link": "https://www.ithome.com/0/979/279.htm",
+              "tags": [
+                "预测",
+                "Token",
+                "AI成本"
+              ],
+              "source": "IT之家",
+              "time": "7月21日消息"
             }
           ]
         },
@@ -32,98 +44,79 @@ const DEFAULT_DATA = {
           "color": "#d4a574",
           "softBg": "#fdf6ee",
           "initial": "A",
-          "news": [
-            {
-              "title": "Claude Fable 5 官宣永久可用，纳入 Max 和 Team Premium 套餐",
-              "summary": "7月19日消息，Anthropic 宣布从 7 月 20 日起，Claude Fable 5 将永久保留在 Max 和 Team Premium 订阅计划中，使用限额为标准限额的 50%。Pro 和 Team Standard 用户可通过积分访问，并获赠 100 美元一次性积分。此前 Anthropic 因算力不足和出口管制多次调整 Fable 5 可用期限，在 GPT-5.6 竞争压力下改为永久保留。",
-              "link": "https://36kr.com/p/3900918550546308",
-              "tags": [
-                "Claude",
-                "订阅"
-              ],
-              "source": "36氪",
-              "time": "7月19日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Google",
           "color": "#4285f4",
           "softBg": "#e8f0fe",
           "initial": "G",
-          "news": []
-        },
-        {
-          "name": "xAI",
-          "color": "#000000",
-          "softBg": "#f2f2f2",
-          "initial": "X",
           "news": [
             {
-              "title": "马斯克：xAI 正训练 2 万亿参数模型，下周完成初始训练",
-              "summary": "7月18日，马斯克在 X 平台透露，xAI 正在训练的下一代模型参数规模达 2 万亿，预计下周完成初始训练。马斯克表示 2 万亿参数版本在各方面优于当前 1.5 万亿参数的 Grok 4.5，综合能力可能超越月之暗面 Kimi K3，同时推理速度和 Token 效率接近 Grok 4.5 水平。Kimi 官方在 X 上回应：「欢迎加入 2万亿+ 俱乐部。」",
-              "link": "https://tech.ifeng.com/c/8usXhWt3BmF",
+              "title": "Google DeepMind CEO 哈萨比斯：AI 不会让 STEM 学位失去价值",
+              "summary": "7月18日消息，Google DeepMind CEO德米斯·哈萨比斯在伦敦商业会议上表示，AI正在重塑科技行业职业路径，但STEM和计算机科学基础不会因此失去价值。真正深入理解技术的人使用AI工具的效率可达缺乏基础者的10倍。他还强调AI时代同样需要伦理学、哲学等人文学科以应对技术发展带来的新问题。",
+              "link": "https://tech.ifeng.com/c/8uqtk00RBd6",
               "tags": [
-                "Grok",
-                "xAI",
-                "大模型"
+                "STEM",
+                "AI教育"
               ],
               "source": "凤凰网科技",
               "time": "7月18日"
-            }
-          ]
-        },
-        {
-          "name": "NVIDIA",
-          "color": "#76b900",
-          "softBg": "#f1f9e7",
-          "initial": "N",
-          "news": []
-        },
-        {
-          "name": "Meta",
-          "color": "#1877f2",
-          "softBg": "#e8f2fe",
-          "initial": "M",
-          "news": [
+            },
             {
-              "title": "Meta 与 Anthropic 商谈两年最高 100 亿美元算力租赁",
-              "summary": "7月18日消息，据《纽约时报》报道，Meta 正与 Anthropic 商谈出租数据中心算力，潜在合同两年最高价值 100 亿美元。Anthropic 于 6 月提出合作方案，Meta 仍在评估，双方尚未签署最终协议。若达成，将是 Meta 首次大规模对外算力收入。Meta 今年资本开支最高达 1450 亿美元，Anthropic 已与 SpaceXAI 签署 450 亿美元长期算力协议。",
-              "link": "https://www.sohu.com/a/1052126204_122014422",
+              "title": "谷歌正研发 Frozen v2 芯片，将 Gemini 架构固化进硬件",
+              "summary": "7月20日消息，据The Information报道，谷歌正在研发代号Frozen v2的全新服务器芯片，将Gemini大模型底层运算架构直接固化进硬件层面。单位功耗可处理的Token数量预计达现有自研AI芯片的6至10倍。不同于初代方案直接固化模型权重导致无法迭代，Frozen v2采用弹性固化思路只固化底层架构逻辑，保留通过更新权重进行模型升级的可能性。",
+              "link": "https://wallstreetcn.com/articles/3777467",
               "tags": [
-                "算力",
-                "数据中心"
+                "AI芯片",
+                "硬件创新",
+                "Gemini"
               ],
-              "source": "搜狐",
-              "time": "7月18日消息"
-            }
-          ]
-        },
-        {
-          "name": "苹果",
-          "color": "#555555",
-          "softBg": "#f0f0f0",
-          "initial": "苹",
-          "news": [
-            {
-              "title": "苹果天才吧测试 AI「Live Notes」系统，可转录顾客对话",
-              "summary": "7月20日消息，据彭博社记者古尔曼爆料，苹果正在部分直营店天才吧测试「Live Notes」AI 系统，可利用 AI 工具记录、转录和总结员工与顾客的服务对话，让员工免于手动记笔记。需要双方同意才能启用，录音文件不保存，管理人员无法查看。部分员工担忧未来被用于绩效考核，苹果称非强制使用。",
-              "link": "https://tech.ifeng.com/c/8uuDi6vPSF8",
-              "tags": [
-                "AI应用",
-                "苹果"
-              ],
-              "source": "凤凰网科技",
+              "source": "华尔街见闻",
               "time": "7月20日消息"
             }
           ]
         },
         {
-          "name": "微软",
-          "color": "#00a4ef",
-          "softBg": "#e6f4fc",
-          "initial": "微",
+          "name": "xAI",
+          "color": "#1d1d1f",
+          "softBg": "#f2f2f2",
+          "initial": "X",
           "news": []
+        },
+        {
+          "name": "NVIDIA",
+          "color": "#76b900",
+          "softBg": "#f0fae6",
+          "initial": "N",
+          "news": []
+        },
+        {
+          "name": "Meta",
+          "color": "#0668e1",
+          "softBg": "#e8f0fe",
+          "initial": "M",
+          "news": []
+        },
+        {
+          "name": "Apple",
+          "color": "#555555",
+          "softBg": "#f0f0f0",
+          "initial": "A",
+          "news": [
+            {
+              "title": "苹果 iOS/iPadOS 27.0 Beta 4 发布：增强 Siri AI",
+              "summary": "7月21日，苹果向iPhone和iPad用户推送iOS/iPadOS 27.0开发者预览版Beta 4更新，增强Siri AI能力，包括全新启动画面、增强语音选项、屏幕内容感知和跨应用操作等。但国行iPhone的Apple Intelligence和完整Siri AI仍未上线。",
+              "link": "https://www.chinaz.com/2026/0721/1766078.shtml",
+              "tags": [
+                "iOS",
+                "Siri",
+                "系统更新"
+              ],
+              "source": "站长之家",
+              "time": "7月21日"
+            }
+          ]
         }
       ]
     },
@@ -132,66 +125,77 @@ const DEFAULT_DATA = {
         {
           "name": "阿里云",
           "color": "#ff6a00",
-          "softBg": "#fff1e6",
-          "initial": "阿",
+          "softBg": "#fff3e6",
+          "initial": "A",
           "news": [
             {
-              "title": "阿里千问 Qwen3.8 预览版上线：2.4T 参数，宣称仅次于 Fable 5",
-              "summary": "7月19日，阿里千问宣布 Qwen3.8 即将发布并开源，预览版 Qwen3.8-Max-Preview 已上线 Token Plan、Qoder 等平台。新模型参数 2.4T，支持思考模式与快速模式双推理机制切换，官方称在内部真实任务测评中展现匹敌世界前沿模型水平，「可能是除了 Fable 5 外最强大的模型」。Token Plan 个人版同步发布，限时优惠每月 39 元起。",
-              "link": "https://www.ithome.com/0/978/730.htm",
+              "title": "阿里云发布轻量应用服务器智能体专用型实例，2亿Token包月262.5元",
+              "summary": "7月20日，阿里云推出轻量应用服务器智能体专用型实例，将vCPU、内存、云盘、200Mbps峰值带宽与大模型Tokens打包为预付费套餐，提供一站式AI Agent运行环境。搭载ANOLISA专用操作系统可降低约30%的Token浪费。入门套餐2核2G+2亿Token/月活动价262.5元，相比分开购买可节省约18%-68%。",
+              "link": "https://www.ithome.com/0/979/212.htm",
               "tags": [
-                "Qwen",
-                "开源",
-                "大模型"
+                "云服务",
+                "AI智能体"
               ],
               "source": "IT之家",
-              "time": "7月19日"
+              "time": "7月20日"
             },
             {
-              "title": "阿里云百炼灰测 HappyOyster 1.0 世界模型，一句话生成可交互数字世界",
-              "summary": "7月19日，阿里云百炼上线开放式世界模型 HappyOyster 1.0（快乐生蚝），面向企业和开发者开启灰测。支持世界探索（Adventure）和实时导演（Directing）两大模式，用户输入一句话或一张图即可生成可实时控制和探索的数字世界，支持 1 分钟以上连续互动。提供 Android/iOS/Web 三端 SDK。",
-              "link": "https://www.ithome.com/0/978/729.htm",
+              "title": "阿里千问发布语音合成大模型 Qwen-Audio-3.0-TTS，登顶榜单",
+              "summary": "7月20日，阿里千问发布Qwen-Audio-3.0-TTS语音合成大模型，推出Flash（首包延迟300ms）和Plus两个版本，Plus登顶Artificial Analysis榜单。模型支持细粒度标签控制语气情绪、20种中文方言、16种语言，音频采样率提升至48KHz，单次合成最长3分钟。已在阿里云百炼平台全面开放调用。",
+              "link": "https://m.ithome.com/html/979128.htm",
               "tags": [
-                "世界模型",
-                "阿里云",
-                "百炼"
+                "语音合成",
+                "多模态"
               ],
               "source": "IT之家",
-              "time": "7月19日"
+              "time": "7月20日"
             }
           ]
         },
         {
           "name": "火山引擎",
-          "color": "#1677ff",
-          "softBg": "#e9f0ff",
+          "color": "#1e7aff",
+          "softBg": "#e8f2ff",
           "initial": "火",
-          "news": []
+          "news": [
+            {
+              "title": "字节跳动发布 Seed Audio 1.0 音频创作模型",
+              "summary": "7月20日，字节跳动Seed团队发布Seed Audio 1.0音频创作模型，在统一框架下联合建模人声、音效和环境声，支持文本或参考音频输入，单次可生成约2分钟音频并可持续延长，覆盖20多种语言。模型支持100ms间隔精度的时间控制，角色音色与表达方式保持连贯。在影视、播客等十余类场景评测中多数可用率达90%以上，已在火山方舟体验中心上线。",
+              "link": "https://www.cnstock.com/commonDetail/747694",
+              "tags": [
+                "音频",
+                "多模态",
+                "AIGC"
+              ],
+              "source": "证券时报",
+              "time": "7月20日"
+            }
+          ]
         },
         {
           "name": "DeepSeek",
-          "color": "#4f46e5",
-          "softBg": "#eef1ff",
+          "color": "#4f6ef7",
+          "softBg": "#edf0fe",
           "initial": "D",
           "news": []
         },
         {
           "name": "腾讯",
           "color": "#07c160",
-          "softBg": "#e6f9ee",
+          "softBg": "#e6f9ed",
           "initial": "腾",
           "news": [
             {
-              "title": "首款接入腾讯 WorkBuddy 的 AI 记忆眼镜发布，李未可合作",
-              "summary": "7月18日，腾讯云 WorkBuddy 与李未可科技在 WAIC 发布 X-AI 记忆眼镜，为首款接入 WorkBuddy 的智能眼镜硬件。眼镜搭载 WakeeMemory OS，可全天候自动记录会议、差旅行程等信息，提炼决议和待办事项并同步至 WorkBuddy 执行。眼镜重 26g，支持 10 小时以上录音，预售 499 元起。",
-              "link": "https://www.cnr.cn/bj/sijh/20260719/t20260719_527717741.shtml",
+              "title": "腾讯 WorkBuddy PC端AI办公智能体月访问量破2000万",
+              "summary": "7月20日，《2026年Q2中国办公智能体平台市场洞察报告》显示，腾讯WorkBuddy在PC端AI原生办公智能体市场6月单月访问量突破2000万次，居市场第一，超过第二、第三位总和。DAU超1300万，已接入混元、DeepSeek、智谱GLM、Kimi等主流大模型。",
+              "link": "https://www.cnstock.com/commonDetail/747775",
               "tags": [
-                "WorkBuddy",
-                "AI眼镜",
-                "腾讯云"
+                "AI办公",
+                "智能体",
+                "市场份额"
               ],
-              "source": "央广网",
-              "time": "7月18日"
+              "source": "证券时报",
+              "time": "7月20日"
             }
           ]
         },
@@ -204,71 +208,70 @@ const DEFAULT_DATA = {
         },
         {
           "name": "智谱AI",
-          "color": "#2962ff",
-          "softBg": "#e8efff",
+          "color": "#7c3aed",
+          "softBg": "#f3edff",
           "initial": "智",
           "news": []
         },
         {
           "name": "月之暗面",
           "color": "#8b5cf6",
-          "softBg": "#f2ecfe",
+          "softBg": "#f3edfe",
           "initial": "月",
           "news": [
             {
-              "title": "月之暗面已向投资人发送上市议案，最快 6 个月内赴港 IPO",
-              "summary": "7月20日消息，月之暗面已通知投资者调整公司架构并筹备赴港 IPO，已向投资人发送股东决议文件寻求支持，最快 6 个月内完成上市。公司 ARR 在 6 月达 3 亿美元（3 个月翻 3 倍），最新估值超 300 亿美元。Kimi K3 模型的发布进一步增强了资本市场信心。",
-              "link": "https://www.cls.cn/detail/2430468",
+              "title": "Kimi K3 登顶 LMArena 前端开发榜，中信建投称另一个DeepSeek时刻",
+              "summary": "7月20日消息，中信建投研报指出，Kimi K3（2.8万亿参数、100万上下文）本周在LMArena前端开发榜以1679分超越Claude Fable 5排名第一，综合榜进入第9名。研报认为K3发布是分水岭事件，证明国产模型已在Agentic Coding主战场与美国前沿模型正面交锋，应用层使用Tier1模型的成本预计将降低。",
+              "link": "https://36kr.com/newsflashes/3903585520371588",
               "tags": [
-                "IPO",
-                "月之暗面"
+                "Kimi K3",
+                "LMArena",
+                "大模型排名"
               ],
-              "source": "财联社",
+              "source": "36氪",
               "time": "7月20日消息"
             },
             {
-              "title": "Kimi 因 K3 发布后暴增的请求量暂停 C 端新用户订阅",
-              "summary": "7月19日，月之暗面 Kimi 发布公告称，因 K3 发布后过去 48 小时用户请求量大幅超出预估，逼近现有集群承载极限，即日起暂停 C 端新用户订阅，将全部算力优先保障已订阅用户权益。团队正全速推进算力扩容，后续将逐步恢复订阅并拆分 Kimi 主权益与 Kimi Code 权益以精准匹配算力。",
-              "link": "https://news.qq.com/rain/a/20260719A09F2300",
+              "title": "月之暗面回应马斯克：欢迎加入2万亿+俱乐部",
+              "summary": "7月20日，马斯克在X平台称其2万亿参数新模型可能超越Kimi，月之暗面官方微博直接@马斯克回应「欢迎加入2万亿+俱乐部」。此前马斯克曾在Kimi K3报道下留言Impressive表达赞赏。Kimi K3实际参数规模为2.8万亿。",
+              "link": "https://finance.sina.com.cn/jjxw/2026-07-20/doc-iniinmvw9662329.shtml",
               "tags": [
-                "Kimi",
-                "算力",
-                "订阅"
+                "Kimi K3",
+                "马斯克"
               ],
-              "source": "腾讯新闻",
-              "time": "7月19日"
+              "source": "新浪财经",
+              "time": "7月20日"
             },
             {
-              "title": "Kimi K3 登顶 Frontend Code Arena 榜单，彭博社称美 AI 领先中国认知被打破",
-              "summary": "7月19日消息，月之暗面 Kimi K3 大模型在 Frontend Code Arena 榜单以 1679 分超越 Claude Fable 5（1631 分）登顶。彭博社报道称该模型正在打破「美国 AI 领先中国」的固有认知。伯克利教授 Ion Stoica 表示差距已从 6-9 个月缩短至 2-3 个月。Kimi 总裁张予彤透露，K3 发布次日公司 ARR 创下历史最大单日增幅，计划于 7 月 27 日开放模型权重。",
-              "link": "https://tech.ifeng.com/c/8usuPwlhPtE",
+              "title": "中软国际与月之暗面签署登月计划合作协议，Token分成模式",
+              "summary": "7月20日，中软国际与月之暗面签署登月计划合作协议，双方基于Kimi K3大模型在能源电力、金融等行业联合开发企业级智能体，并共建FDE创新实验室。合作采用创新的Token消耗收益分成模式，构建可持续的AI商业化合作范式。受消息影响，中软国际股价当天一度拉升超37%。",
+              "link": "https://tech.ifeng.com/c/8uuoXhoI6D4",
               "tags": [
-                "K3",
-                "登顶",
-                "开源"
+                "企业合作",
+                "商业化"
               ],
               "source": "凤凰网科技",
-              "time": "7月19日消息"
+              "time": "7月20日"
             }
           ]
         },
         {
           "name": "华为",
           "color": "#cf0a2c",
-          "softBg": "#fde8ec",
+          "softBg": "#fde8eb",
           "initial": "华",
           "news": [
             {
-              "title": "华为 Pura X Max 等产品获国标人工智能 L3 等级首证",
-              "summary": "7月19日消息，华为终端官方宣布，HUAWEI Pura X Max 手机、MateBook Pro 电脑、智慧屏 S7 Pro 分别获国标人工智能 L3 等级手机、电脑、电视首证。L3 为当前行业可达到的最高智能化评级，标志着华为在终端 AI 能力认证方面取得新突破。该标准将终端智能化划分为 L1-L4 四个等级。",
-              "link": "https://www.ithome.com/0/978/615.htm",
+              "title": "靳玉志：华为乾崑继续做汽车行业电子螺丝钉，累计投入超千亿",
+              "summary": "7月20日消息，华为高级副总裁、引望CEO靳玉志接受采访时重申，华为乾崑不会做成独立汽车品牌，继续做汽车行业电子螺丝钉。乾崑智驾搭载量突破190万台，华为在汽车智能化领域累计投入超1000亿元，2026年研发预算约180亿元。首次明确界系列覆盖30万以上市场、境系列瞄准30万以下市场。",
+              "link": "https://36kr.com/p/3902068392658566",
               "tags": [
-                "AI认证",
-                "华为",
-                "L3"
+                "智能汽车",
+                "乾崑",
+                "智驾"
               ],
-              "source": "IT之家",
-              "time": "7月19日消息"
+              "source": "36氪",
+              "time": "7月20日"
             }
           ]
         }
@@ -280,127 +283,35 @@ const DEFAULT_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "面壁智能",
+              "title": "无问芯穹",
               "news": [
                 {
-                  "title": "面壁智能发布端侧模型 MiniCPM5-2B，AA-Index 4B 以下性能第一",
-                  "summary": "7月19日，面壁智能在 WAIC 联合 OpenBMB 发布最新端侧模型 MiniCPM5-2B，在 AA-Index 榜单以 17 分获全球 4B 以下模型最高得分。模型仅 20 亿参数，原生支持混合思考，提供 512K 超长上下文窗口。已完成 AMD、英特尔、联发科、高通等主流芯片及华为昇腾等 9 款国产芯片适配。",
-                  "link": "https://www.ithome.com/0/978/796.htm",
+                  "title": "无问芯穹发布 Agentic Infra 前店后厂一中心战略",
+                  "summary": "7月20日，无问芯穹在WAIC 2026发布Agentic Infra前店后厂一中心战略，涵盖算力集散中心（跨域训练覆盖超37,000P算力、16种芯片）、Agentic MaaS Token工厂（单日Token调用量较去年12月增长40倍）和AI生产力商店。同时发布PDD架构可将首Token延迟降低51.5%、单Token成本降低37.5%。",
+                  "link": "https://finance.sina.cn/2026-07-20/detail-iniimzha9775491.d.html",
                   "tags": [
-                    "端侧模型",
-                    "面壁",
+                    "AI基础设施",
                     "WAIC"
+                  ],
+                  "source": "新浪财经",
+                  "time": "7月20日"
+                }
+              ]
+            },
+            {
+              "title": "百度昆仑芯",
+              "news": [
+                {
+                  "title": "百度昆仑芯 M100 实物首次展出，面向大模型推理优化",
+                  "summary": "7月20日，百度旗下昆仑芯科技在WAIC 2026首次展出第四代AI芯片M100实物。该芯片基于全国产供应链打造，延续自研XPU架构，面向大模型推理场景优化，主要对标NVIDIA H20。同时展出的32/64卡超节点及256卡超节点集群是国内率先实现量产交付的超节点产品。",
+                  "link": "https://www.ithome.com/0/978/920.htm",
+                  "tags": [
+                    "AI芯片",
+                    "WAIC",
+                    "国产芯片"
                   ],
                   "source": "IT之家",
-                  "time": "7月19日"
-                },
-                {
-                  "title": "面壁开源 MiniCPM-Robot 系列，进军具身智能 VLA 模型",
-                  "summary": "7月19日，面壁智能在 WAIC 发布并开源面向机器人操作的 MiniCPM-RobotManip（1.5B）和面向跟踪导航的 MiniCPM-RobotTrack（0.9B）。Manip 模型支持 1 分钟上下文记忆，单步延迟仅 120ms；Track 模型原生适配宇树 Go2 Edu，纯本地无网运行，帧率稳定 5Hz 以上。",
-                  "link": "https://www.d1ev.com/news/shichang/307495",
-                  "tags": [
-                    "具身智能",
-                    "VLA",
-                    "开源"
-                  ],
-                  "source": "第一电动",
-                  "time": "7月19日"
-                }
-              ]
-            },
-            {
-              "title": "商汤",
-              "news": [
-                {
-                  "title": "商汤发起「银河计划」，联合近 20 家伙伴共建 5 个万卡级国产智算集群",
-                  "summary": "7月18日，商汤大装置在 WAIC 联合近 20 家生态伙伴发起「银河计划」，将建设 1 个 Token 运营中心和 5 个万卡级国产智算集群。商汤与国星宇航共建「商汤算力星座」，今年发射首批 4 颗算力卫星，2030 年建成千颗级卫星网络覆盖全球。商汤日均 Token 服务量已达 2.42 万亿，预计 Q4 达 10 万亿。",
-                  "link": "https://wap.eastmoney.com/a/202607183811797068.html",
-                  "tags": [
-                    "商汤",
-                    "智算集群",
-                    "算力卫星"
-                  ],
-                  "source": "东方财富",
-                  "time": "7月18日"
-                }
-              ]
-            },
-            {
-              "title": "小红书",
-              "news": [
-                {
-                  "title": "小红书亮相 WAIC：全量上线 RED Skill，内测 Vibe Coding 小工具",
-                  "summary": "7月19日消息，小红书在 WAIC 宣布全量上线 RED Skill、内测 Vibe Coding 小工具。RED Skill 内测一月产生超 7300 个原创 AI Skill，覆盖提效工具、职场辅导等领域。2 月以来每月发布 4 万至 5 万个 Vibe Coding 作品。过去一年超 16 万名 AI 开发者活跃于小红书。",
-                  "link": "https://finance.sina.cn/2026-07-19/detail-iniikaqz0148006.d.html",
-                  "tags": [
-                    "小红书",
-                    "Vibe Coding",
-                    "WAIC"
-                  ],
-                  "source": "新浪财经",
-                  "time": "7月19日消息"
-                }
-              ]
-            },
-            {
-              "title": "阶跃星辰",
-              "news": [
-                {
-                  "title": "阶跃星辰与上海期智研究院共建智能体前沿研究院",
-                  "summary": "7月18日，阶跃星辰与上海期智研究院宣布共建「智能体前沿研究院」，围绕智能体网络及经济原理、AI Safety 等方向开展联合研究。上海期智研究院院长姚期智与阶跃董事长印奇共同揭牌，提出「智能体时代五大全球新命题」。阶跃同步推出 StepStar 顶尖人才计划，面向全球招募智能体领域人才。",
-                  "link": "https://finance.sina.com.cn/roll/2026-07-19/doc-iniihuvr0426843.shtml",
-                  "tags": [
-                    "智能体",
-                    "阶跃星辰",
-                    "研究院"
-                  ],
-                  "source": "新浪财经",
-                  "time": "7月18日"
-                },
-                {
-                  "title": "千里科技在 WAIC 公布进展：阶跃 Step AOS 将应用于汽车，年底推 ASD 5.0",
-                  "summary": "7月19日消息，千里科技（阶跃星辰母公司）在 WAIC 公布多项汽车智能化进展，宣布将阶跃星辰 Step AOS 智能体原生操作系统应用于汽车领域，打通硬件与系统能力，并发布 ASD 4.1 技术预览，计划年底推出 ASD 5.0。联合吉利研发的汽车超级智能体「超级Eva」已搭载于极氪 8X 车型。",
-                  "link": "https://tech.ifeng.com/c/8utc52Khk0Q",
-                  "tags": [
-                    "自动驾驶",
-                    "Step AOS"
-                  ],
-                  "source": "凤凰网科技",
-                  "time": "7月19日消息"
-                }
-              ]
-            },
-            {
-              "title": "百度",
-              "news": [
-                {
-                  "title": "百度一镜 WAIC 首发数字人视频播客，突破微表情技术",
-                  "summary": "7月19日，百度一镜在 WAIC 首发数字人视频播客解决方案，突破数字人微表情技术，实现自然插话和专业视听语音能力。该方案依托文心大模型将表情控制粒度压缩至 1 秒内，使制作成本下降 74%，内容表现力提升 785%，平均播放时长上涨 29%，人物自然度全面超越市面主流模型。",
-                  "link": "https://36kr.com/newsflashes/3901954083030918",
-                  "tags": [
-                    "百度",
-                    "数字人",
-                    "WAIC"
-                  ],
-                  "source": "36氪",
-                  "time": "7月19日"
-                }
-              ]
-            },
-            {
-              "title": "努比亚",
-              "news": [
-                {
-                  "title": "全球首款 AI 智能体手机努比亚 NaviX Ultra 亮相 WAIC，搭载豆包助手",
-                  "summary": "7月19日，搭载豆包手机助手的全球首款 AI 智能体手机努比亚 NaviX Ultra 在 WAIC 亮相。采用系统级 GUI Agent 架构，可直接看懂屏幕并模拟点击滑动，实现跨应用多步骤任务。配备独立橙色 AI 按键、7000mAh 电池，是国内首款搭载备案端侧智能体大模型的手机。",
-                  "link": "https://tech.ifeng.com/c/8ut3YdvrT9P",
-                  "tags": [
-                    "AI手机",
-                    "努比亚",
-                    "豆包"
-                  ],
-                  "source": "凤凰网科技",
-                  "time": "7月19日"
+                  "time": "7月20日"
                 }
               ]
             }
@@ -408,43 +319,57 @@ const DEFAULT_DATA = {
         },
         {
           "name": "自动驾驶",
-          "cards": [
-            {
-              "title": "小鹏",
-              "news": [
-                {
-                  "title": "小鹏 MONA L03 上市后带动全系试驾量创历史新高",
-                  "summary": "7月19日，小鹏 MONA L03 上市后首个周末迎来客流高峰，自身单日试驾量创小鹏历史上市同期新高，并带动全系试驾量创历史最高水平。新车 12.38 万元起，搭载自研图灵 AI 芯片（Max 版 750TOPS）与第二代 VLA 智驾系统，提供纯电/增程双动力。",
-                  "link": "https://tech.ifeng.com/c/8utJ6skwMQj",
-                  "tags": [
-                    "小鹏",
-                    "VLA",
-                    "智驾"
-                  ],
-                  "source": "凤凰网科技",
-                  "time": "7月19日"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "具身智能",
           "cards": [
             {
-              "title": "大晓机器人",
+              "title": "人形机器人产业",
               "news": [
                 {
-                  "title": "大晓机器人发布开悟世界模型 Kairos 3.1，面向全行业开源",
-                  "summary": "7月19日，大晓机器人在 WAIC 发布原生行动一体化开悟世界模型 Kairos 3.1 并面向全行业开源。采用混合 Transformer 统一架构，融合世界理解、物理生成、动作预测三大能力。自研推理引擎 KairosRT 在 Jetson Thor 平台 8B 模型延迟仅 125ms，效率较 Cosmos 3 Nano 提升 52 倍。同步发布三大行业解决方案及具身物理智能评测基准平台。",
-                  "link": "https://www.jiemian.com/article/14790910.html",
+                  "title": "工信部：我国人形机器人整机产品达400余款，超全球半数",
+                  "summary": "7月20日，工信部在国新办发布会上介绍，我国人形机器人整机产品已达400余款，占全球总数半数以上；四足机器人占全球销量份额接近70%。这是工信部列举的具有国际竞争优势的产业加快壮大的例证，显示我国在智能机器人领域的全球领先地位。",
+                  "link": "https://www.cnstock.com/commonDetail/747647",
                   "tags": [
-                    "世界模型",
-                    "具身智能",
-                    "开源"
+                    "人形机器人",
+                    "工信部"
                   ],
-                  "source": "界面新闻",
-                  "time": "7月19日"
+                  "source": "证券时报",
+                  "time": "7月20日"
+                }
+              ]
+            },
+            {
+              "title": "宇树科技",
+              "news": [
+                {
+                  "title": "宇树发布 UnifoLM-OminiA-0.3 模型，支持全模态交互理解",
+                  "summary": "7月20日，宇树科技发布UnifoLM-OminiA-0.3具身大模型，单模型可统筹家居康养多任务，支持语音、视觉等全模态交互理解。搭载该模型的G1人形机器人展示了物品搬运、视觉感知问答、精细操作、智能设备联动等能力，全程自主抗干扰。该模型实现了机器人从感知到行动的完整闭环。",
+                  "link": "https://36kr.com/newsflashes/3903657704277633",
+                  "tags": [
+                    "人形机器人",
+                    "具身大模型"
+                  ],
+                  "source": "36氪",
+                  "time": "7月20日"
+                }
+              ]
+            },
+            {
+              "title": "润科具能",
+              "news": [
+                {
+                  "title": "润科具能发布轮足复合半人马机器人，面向特种场景",
+                  "summary": "7月20日，润科具能在WAIC 2026发布全球首款半人马轮足复合机器人，采用人形上体+四轮底盘设计，面向炼钢、矿山、核工业、消防应急等特种场景。平均负载100-120kg，极限静态负载210kg，具备防爆等级。已获真实订单，计划2026年Q4实现小规模量产，国产化率达95%以上。",
+                  "link": "https://m.ithome.com/html/978833.htm",
+                  "tags": [
+                    "具身智能",
+                    "特种机器人",
+                    "WAIC"
+                  ],
+                  "source": "IT之家",
+                  "time": "7月20日"
                 }
               ]
             }
@@ -458,19 +383,82 @@ const DEFAULT_DATA = {
           "name": "投资资讯",
           "cards": [
             {
-              "title": "一目科技",
+              "title": "Meshy",
               "news": [
                 {
-                  "title": "具身智能触觉传感器厂商一目科技完成超 10 亿元 E 轮融资，估值破百亿",
-                  "summary": "7月19日消息，一目科技完成超 10 亿元 E 轮融资，投后估值突破 100 亿元，跻身百亿级具身智能独角兽。公司核心产品为仿生视触觉传感器，厚度小于 3mm，分辨率与力精度达类人水准，商业版图覆盖人形机器人、汽车、制药等领域。资金将用于触觉感知材料与芯片研发及规模化量产。",
-                  "link": "https://www.cls.cn/detail/2430385",
+                  "title": "Meshy 完成近4亿美元B轮融资，刷新AI 3D领域纪录",
+                  "summary": "7月20日，AI 3D内容平台Meshy宣布完成近4亿美元B轮融资，投后估值超100亿元人民币，刷新AI 3D赛道单轮融资规模与估值两项纪录。由IDG资本、经纬中国、Monolith砺思资本联合投资。注册用户突破1200万，年收入增长12倍，全球前十科技公司半数已成为其客户。",
+                  "link": "https://36kr.com/newsflashes/3903365138270088",
                   "tags": [
-                    "融资",
-                    "具身智能",
-                    "传感器"
+                    "AI 3D",
+                    "融资"
                   ],
-                  "source": "财联社",
-                  "time": "7月19日消息"
+                  "source": "36氪",
+                  "time": "7月20日"
+                }
+              ]
+            },
+            {
+              "title": "Emergent",
+              "news": [
+                {
+                  "title": "AI 平台 Emergent 以15亿美元估值完成1.3亿美元C轮融资",
+                  "summary": "7月20日，AI软件开发平台Emergent宣布完成1.3亿美元C轮融资，估值达15亿美元，由Creaegis领投，Khosla Ventures、软银愿景基金2等跟投。公司成立一年便跻身独角兽，年化收入约1.2亿美元，平台用户已建立超1200万个应用，70%用户无编程经验。",
+                  "link": "https://news.qq.com/rain/a/20260720A02PJA00",
+                  "tags": [
+                    "AI开发",
+                    "融资"
+                  ],
+                  "source": "腾讯新闻",
+                  "time": "7月20日"
+                }
+              ]
+            },
+            {
+              "title": "飞书",
+              "news": [
+                {
+                  "title": "飞书 Q2 ARR 同比增长超100%，超九成新客户采购AI产品",
+                  "summary": "7月20日消息，截至2026年二季度末，飞书ARR同比增长超100%，增速达商业化以来最高。新增客户中超九成同步采购飞书AI产品，客户范围从互联网、新能源汽车延伸至零售、制造、能源等传统行业。AI已成为飞书获客的关键变量。",
+                  "link": "https://m.21jingji.com/article/20260720/herald/3e3eed8898e6e508bdba8d4e8faf5a86.html",
+                  "tags": [
+                    "企业服务",
+                    "AI商业化"
+                  ],
+                  "source": "第一财经",
+                  "time": "7月20日消息"
+                }
+              ]
+            },
+            {
+              "title": "零一万物",
+              "news": [
+                {
+                  "title": "李开复旗下零一万物计划2027年赴港上市",
+                  "summary": "7月20日消息，据彭博社报道，李开复在WAIC 2026期间透露，零一万物正推进IPO前融资，目标最早2027年在香港上市。公司正在解除离岸控股结构以适应港交所规程。目前约一半收入来自海外市场，已从早期大模型研发转向企业AI基础设施。",
+                  "link": "https://www.ithome.com/0/979/051.htm",
+                  "tags": [
+                    "IPO",
+                    "AI创业"
+                  ],
+                  "source": "IT之家",
+                  "time": "7月20日消息"
+                }
+              ]
+            },
+            {
+              "title": "Etched",
+              "news": [
+                {
+                  "title": "AI芯片初创 Etched 洽谈200亿美元估值融资",
+                  "summary": "7月20日消息，据华尔街日报报道，开发低电压AI推理芯片的Etched正洽谈以200亿美元估值融资，由简街资本领投。公司2025年12月以50亿美元估值完成5亿美元融资，不到一年估值翻四倍。由三名哈佛辍学生创立，芯片电压比多数竞品低50%以上，客户端需求意向约10亿美元。",
+                  "link": "https://tech.ifeng.com/c/8uuk5Ogt8Pf",
+                  "tags": [
+                    "AI芯片",
+                    "融资"
+                  ],
+                  "source": "凤凰网科技",
+                  "time": "7月20日消息"
                 }
               ]
             }
@@ -480,87 +468,149 @@ const DEFAULT_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "IDC",
+              "title": "WAIC 2026",
               "news": [
                 {
-                  "title": "IDC 预发布 DAA 报告：2030 年全球活跃智能体将超 22 亿个",
-                  "summary": "7月19日消息，IDC 在 WAIC 预发布行业首份《DAA 研究报告》，用日活智能体数（Daily Active Agents）衡量智能体实际使用。报告预计全球活跃 Agent 数量从 2025 年的 2860 万个增至 2026 年的 7940 万个，2030 年达到 22.16 亿个。该指标由百度李彦宏在 Create 2026 大会上提出。",
-                  "link": "https://www.iheima.com/article-399700.html",
+                  "title": "2026世界人工智能大会闭幕，意向采购金额超203亿元",
+                  "summary": "7月20日，WAIC 2026在上海闭幕。展品4486项，351款全球首发。预计达成意向采购约203.6亿元，同比增长约25%。29个国家签署《关于成立世界人工智能合作组织的协定》，总部设在上海。现场观众超40万人次，177个采购团组发布212项采购需求。",
+                  "link": "https://www.ithome.com/0/979/174.htm",
                   "tags": [
-                    "DAA",
-                    "研究报告",
-                    "智能体"
-                  ],
-                  "source": "i黑马",
-                  "time": "7月19日消息"
-                }
-              ]
-            },
-            {
-              "title": "Dave Eggers",
-              "news": [
-                {
-                  "title": "作家 Dave Eggers 受邀为 OpenAI 员工演讲，痛批 ChatGPT 让学生失去写作能力",
-                  "summary": "7月19日消息，美国作家 Dave Eggers 去年受 Sam Altman 邀请在 OpenAI 总部向约 200 名员工发表演讲。Eggers 严厉批评 ChatGPT 对教育的影响是「灾难性的」：如果学生用它来写作，将永远学不会写作，被夺走自己的声音，让一两代人都陷入沉默。他质疑未来是否真的有人愿意阅读 AI 创作的小说。",
-                  "link": "https://www.ithome.com/0/978/607.htm",
-                  "tags": [
-                    "AI教育",
-                    "ChatGPT",
-                    "争议"
+                    "WAIC",
+                    "行业大会"
                   ],
                   "source": "IT之家",
-                  "time": "7月19日消息"
+                  "time": "7月20日"
                 }
               ]
             },
             {
-              "title": "世界人工智能合作组织",
+              "title": "光电融合",
               "news": [
                 {
-                  "title": "世界人工智能合作组织（WAICO）正式成立，29 国创始成员国签署协定",
-                  "summary": "7月16日，29 个国家在上海签署《成立世界人工智能合作组织协定》，成为创始成员国，总部设在上海。该组织将重点开展 AI 能力建设国际合作、供需对接推动 AI+行动、以及全球治理体系建设三方面工作，将鼓励共建开源生态，确保发展中国家平等受益。",
-                  "link": "https://app.xinhuanet.com/news/article.html?articleId=202607167b558fa84ac8488bb938c4edbc30f2ed",
+                  "title": "光电融合芯片有望让Token成本降50%",
+                  "summary": "7月20日消息，业内人士在WAIC 2026上指出，光电融合芯片相比传统电芯片延迟更低、功耗更低，每单位Token成本有望下降50%甚至更多。光子替代电子进行数据传输和矩阵运算，能从根源削减电费和散热两大成本大头。预计未来3到5年内落地，率先在云端算力机房、自动驾驶等场景铺开。",
+                  "link": "https://finance.sina.com.cn/wm/2026-07-20/doc-iniimeaq8139268.shtml",
                   "tags": [
-                    "国际合作",
-                    "AI治理",
-                    "WAICO"
+                    "AI芯片",
+                    "降本"
                   ],
-                  "source": "新华社",
-                  "time": "7月16日"
+                  "source": "新浪财经",
+                  "time": "7月20日消息"
                 }
               ]
             },
             {
-              "title": "SK崔泰源",
+              "title": "摩根士丹利",
               "news": [
                 {
-                  "title": "SK 集团会长崔泰源：明年全球半导体需求至少增五成，AI 驱动增长",
-                  "summary": "7月19日，SK 集团会长崔泰源在济州论坛媒体座谈会上表示，明年全球半导体需求至少增长 50%-60%，其中 AI 领域需求预计增加 60%-100%。但明年新增供应量几乎为零，供需缺口恐扩大。他预测继电力设备后，材料供应和设施建设将成为新瓶颈，电线、海底电缆已出现短缺。",
-                  "link": "https://cb.yna.co.kr/gate/big5/cn.yna.co.kr/view/ACK20260719000700881",
+                  "title": "摩根士丹利成为华尔街AI债务交易头号银行",
+                  "summary": "7月20日消息，摩根士丹利为AI数据中心建设设计创新债务和股权融资模式，输送数百亿美元资金，成为主导AI基建融资的头号银行。上半年债务和股权资本市场费用收入达23亿美元，同比增长约64%，超越高盛升至全球第二。代表性交易包括为TeraWulf发行32亿美元债券等。",
+                  "link": "https://36kr.com/newsflashes/3903632074770050",
                   "tags": [
-                    "半导体",
-                    "AI供需",
-                    "SK"
+                    "AI基建",
+                    "融资"
                   ],
-                  "source": "韩联社",
-                  "time": "7月19日"
+                  "source": "36氪",
+                  "time": "7月20日消息"
                 }
               ]
             },
             {
-              "title": "《大众摄影》",
+              "title": "特斯拉FSD",
               "news": [
                 {
-                  "title": "《大众摄影》刊发 AI 生成「五腿牛」照片引发争议，官方回应已撤下",
-                  "summary": "7月18日消息，网友发现《大众摄影》杂志刊发照片《龙川晨韵》中黄牛有五条腿，质疑为 AI 生成。杂志社回应称作者承认使用 AI 后期调整时失误，照片已撤下。该事件再次引发关于 AI 生成内容标识与审核的讨论。杂志社表示已修订征稿规范，要求 AI 生成影像需主动声明并展示 AI 标识。",
-                  "link": "https://m.gmw.cn/2026-07/18/content_1304534599.htm",
+                  "title": "马斯克：特斯拉FSD将记住个人驾驶风格，实现个性化自动驾驶",
+                  "summary": "7月20日，马斯克在X平台回应车主抱怨时表示，特斯拉FSD端到端神经网络将学习驾驶员的人工干预行为，根据个人偏好调整驾驶策略，从通用型变为真正的个性化驾驶系统。系统将学习用户停车习惯等偏好，预计FSD v15将进一步提升个性化驾驶能力。",
+                  "link": "https://www.ithome.com/0/978/642.htm",
                   "tags": [
-                    "AI争议",
-                    "摄影",
-                    "审核"
+                    "特斯拉",
+                    "FSD",
+                    "自动驾驶"
                   ],
-                  "source": "光明网",
-                  "time": "7月18日消息"
+                  "source": "IT之家",
+                  "time": "7月20日"
+                }
+              ]
+            },
+            {
+              "title": "王祖贤",
+              "news": [
+                {
+                  "title": "王祖贤息影22年后授权AI形象，网易《天下》首个AI短片上线",
+                  "summary": "7月20日，王祖贤息影22年后授权AI形象，与网易《天下》合作的首个AI短片《倩影》正式上线。这是国内游戏行业首支获得明星授权、全程AIGC技术制作的广告片，无真人实拍。由网易互娱DM Monet画布与火山引擎技术支持，王祖贤AI形象还被制成游戏内数字NPC和专属时装。",
+                  "link": "https://m.ithome.com/html/979089.htm",
+                  "tags": [
+                    "AIGC",
+                    "游戏",
+                    "数字人"
+                  ],
+                  "source": "IT之家",
+                  "time": "7月20日"
+                }
+              ]
+            },
+            {
+              "title": "小鹏汽车",
+              "news": [
+                {
+                  "title": "小鹏汽车AI Infra负责人陆思渊将离职，下一站OpenAI",
+                  "summary": "7月20日消息，据雷峰网报道，小鹏汽车AI基础架构部负责人陆思渊即将离职，将前往OpenAI参与具身智能机器人方向研发。陆思渊直管约200人团队，负责模型训练框架、GPU集群管理、自研芯片编译器、车端推理部署等完整链路。离职后其团队预计拆分为三个以上独立团队降低影响。",
+                  "link": "https://m.ithome.com/html/979250.htm",
+                  "tags": [
+                    "人才流动",
+                    "具身智能"
+                  ],
+                  "source": "IT之家",
+                  "time": "7月20日消息"
+                }
+              ]
+            },
+            {
+              "title": "美国AI测试机构",
+              "news": [
+                {
+                  "title": "上任仅3个月，美国AI测试机构负责人克里斯·福尔辞职",
+                  "summary": "当地时间7月20日，美国商务部证实，下属AI测试机构——美国人工智能标准与创新中心主任克里斯·福尔在上任仅3个月后辞职。该机构负责与Anthropic、谷歌DeepMind、OpenAI等合作，在模型发布前测试安全漏洞。此次离职正值特朗普政府AI监管政策持续转向之际，联邦关键AI机构将暂时缺少正式负责人。",
+                  "link": "https://www.ithome.com/0/979/288.htm",
+                  "tags": [
+                    "AI监管",
+                    "美国政策"
+                  ],
+                  "source": "IT之家",
+                  "time": "当地时间7月20日"
+                }
+              ]
+            },
+            {
+              "title": "工信部",
+              "news": [
+                {
+                  "title": "工信部：我国智能算力达2185 EFLOPS，AI开源模型下载突破100亿次",
+                  "summary": "7月20日，工信部在国新办发布会上披露多项数据：截至6月底我国智能算力规模达2185 EFLOPS，算力设施上架率71.4%；AI开源大模型全球累计下载量突破100亿次，开源鸿蒙生态设备超13.5亿台；AI产业规模达1.2万亿元。",
+                  "link": "https://news.qq.com/rain/a/20260720A03WUJ00",
+                  "tags": [
+                    "算力",
+                    "开源",
+                    "产业数据"
+                  ],
+                  "source": "腾讯新闻",
+                  "time": "7月20日"
+                }
+              ]
+            },
+            {
+              "title": "AI批判性思维研究",
+              "news": [
+                {
+                  "title": "研究：AI会削弱人类批判性思维，降低说我不知道的意愿",
+                  "summary": "7月20日消息，最新研究发现使用AI建议显著削弱人的批判性思维能力。有AI辅助时参与者准确率从27%降至9%，但自信心从30%飙升至76%；说不知道的比例从44%骤降至3%。MIT的另一项研究发现过度依赖AI聊天机器人使人的独立判断能力下降15.3%。",
+                  "link": "https://www.ithome.com/0/979/222.htm",
+                  "tags": [
+                    "AI影响",
+                    "批判性思维"
+                  ],
+                  "source": "IT之家",
+                  "time": "7月20日消息"
                 }
               ]
             }
@@ -578,159 +628,159 @@ const DEFAULT_DATA = {
             {
               "model": "claude-fable-5",
               "score": "1509",
-              "change": "+9"
+              "change": "±9"
             },
             {
               "model": "claude-opus-4-6-thinking",
               "score": "1504",
-              "change": "+4"
+              "change": "±4"
             },
             {
               "model": "claude-opus-4-7-thinking",
               "score": "1503",
-              "change": "+4"
+              "change": "±4"
             },
             {
               "model": "claude-opus-4-6",
               "score": "1498",
-              "change": "+4"
+              "change": "±4"
             },
             {
               "model": "claude-opus-4-7",
               "score": "1494",
-              "change": "+4"
+              "change": "±4"
             },
             {
               "model": "muse-spark-1.1",
               "score": "1490",
-              "change": "+10"
+              "change": "±10"
             },
             {
               "model": "muse-spark",
               "score": "1488",
-              "change": "+6"
+              "change": "±6"
             },
             {
               "model": "gpt-5.6-sol-xhigh",
               "score": "1486",
-              "change": "+14"
+              "change": "±14"
             },
             {
               "model": "gemini-3-pro",
               "score": "1486",
-              "change": "+4"
+              "change": "±4"
             },
             {
               "model": "gemini-3.1-pro-preview",
               "score": "1485",
-              "change": "+4"
+              "change": "±4"
             },
             {
               "model": "claude-opus-4-8-thinking",
               "score": "1482",
-              "change": "+5"
+              "change": "±5"
             },
             {
               "model": "gpt-5.5-high",
               "score": "1481",
-              "change": "+5"
+              "change": "±5"
             },
             {
               "model": "gpt-5.4-high",
               "score": "1476",
-              "change": "+4"
+              "change": "±4"
             },
             {
               "model": "gemini-3.5-flash-high",
               "score": "1476",
-              "change": "+7"
+              "change": "±7"
             },
             {
               "model": "gemini-3.5-flash-medium",
               "score": "1476",
-              "change": "+7"
+              "change": "±7"
             },
             {
-              "model": "gpt-5.2-chat-latest",
+              "model": "gpt-5.2-chat-latest-20260210",
               "score": "1476",
-              "change": "+4"
+              "change": "±4"
             },
             {
               "model": "qwen3.7-max-preview",
               "score": "1475",
-              "change": "+10"
+              "change": "±10"
             },
             {
               "model": "claude-opus-4-8",
               "score": "1475",
-              "change": "+5"
+              "change": "±5"
             },
             {
               "model": "grok-4.20-beta1",
               "score": "1475",
-              "change": "+5"
+              "change": "±5"
             },
             {
               "model": "gpt-5.5",
               "score": "1474",
-              "change": "+5"
+              "change": "±5"
             }
           ]
         },
         {
           "name": "OpenRouter",
-          "date": "2026-07-20",
+          "date": "2026-07-21",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
-              "model": "Hy3 (free)",
+              "model": "Hy3 (free) (by tencent)",
               "score": "11.5T tokens",
-              "change": "↑87%"
+              "change": "87%"
             },
             {
-              "model": "MiMo-V2.5",
+              "model": "MiMo-V2.5 (by xiaomi)",
               "score": "9.19T tokens",
-              "change": "↑55%"
+              "change": "55%"
             },
             {
-              "model": "DeepSeek V4 Flash",
+              "model": "DeepSeek V4 Flash (by deepseek)",
               "score": "5.35T tokens",
-              "change": "↑2%"
+              "change": "2%"
             },
             {
-              "model": "MiniMax M3",
+              "model": "MiniMax M3 (by minimax)",
               "score": "3.75T tokens",
-              "change": "↑12%"
+              "change": "12%"
             },
             {
-              "model": "GLM 5.2",
+              "model": "GLM 5.2 (by z-ai)",
               "score": "3.65T tokens",
-              "change": "↑14%"
+              "change": "14%"
             },
             {
-              "model": "Nemotron 3 Ultra (free)",
+              "model": "Nemotron 3 Ultra (free) (by nvidia)",
               "score": "3.06T tokens",
-              "change": "↑50%"
+              "change": "50%"
             },
             {
-              "model": "DeepSeek V4 Pro",
+              "model": "DeepSeek V4 Pro (by deepseek)",
               "score": "2.67T tokens",
-              "change": "↑5%"
+              "change": "5%"
             },
             {
-              "model": "Claude Opus 4.7",
+              "model": "Claude Opus 4.7 (by anthropic)",
               "score": "2.16T tokens",
-              "change": "↑4%"
+              "change": "4%"
             },
             {
-              "model": "Claude Opus 4.8",
+              "model": "Claude Opus 4.8 (by anthropic)",
               "score": "2.06T tokens",
-              "change": "↑2%"
+              "change": "2%"
             },
             {
-              "model": "Claude Sonnet 5",
+              "model": "Claude Sonnet 5 (by anthropic)",
               "score": "1.06T tokens",
-              "change": "↑14%"
+              "change": "14%"
             }
           ]
         },
@@ -743,121 +793,121 @@ const DEFAULT_DATA = {
               "name": "Velo 3.0",
               "category": "Productivity",
               "rank": 1,
-              "link": "https://www.velo.com"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "V2Fun",
               "category": "AI",
               "rank": 2,
-              "link": "https://v2fun.xyz"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "Campus",
               "category": "Productivity",
               "rank": 3,
-              "link": "https://www.campus.io"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "Agently",
               "category": "Productivity",
               "rank": 4,
-              "link": "https://agently.com"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "Crustdata Recruiter",
               "category": "Hiring",
               "rank": 5,
-              "link": "https://crustdata.com"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "YAGNI",
               "category": "SaaS",
               "rank": 6,
-              "link": "https://yagni.com"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "RecordMeeting",
               "category": "Chrome Extensions",
               "rank": 7,
-              "link": "https://recordmeeting.com"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "Tiptap AI Toolkit",
               "category": "Text Editors",
               "rank": 8,
-              "link": "https://tiptap.dev"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "Flodesk Studio",
               "category": "Email",
               "rank": 9,
-              "link": "https://flodesk.com"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "CodeNearby 2.0",
               "category": "Productivity",
               "rank": 10,
-              "link": "https://codenearby.com"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "nudge2.0",
               "category": "Productivity",
               "rank": 11,
-              "link": "https://nudge2.com"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "Copresent",
               "category": "Chrome Extensions",
               "rank": 12,
-              "link": "https://copresent.com"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "Keepresso",
               "category": "Productivity",
               "rank": 13,
-              "link": "https://keepresso.app"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "Clerk",
               "category": "Fintech",
               "rank": 14,
-              "link": "https://clerk.com"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "Review by Eddie AI",
               "category": "Productivity",
               "rank": 15,
-              "link": "https://eddie.ai"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "Jam-Pod",
               "category": "Music",
               "rank": 16,
-              "link": "https://jampod.app"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "ccshare",
               "category": "Dev Tools",
               "rank": 17,
-              "link": "https://ccshare.dev"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "QuickQuill",
               "category": "Mac",
               "rank": 18,
-              "link": "https://quickquill.app"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "New AI tools by IFTTT",
               "category": "Productivity",
               "rank": 19,
-              "link": "https://ifttt.com"
+              "link": "https://www.producthunt.com/"
             },
             {
               "name": "DeskMat 1.3",
               "category": "Mac",
               "rank": 20,
-              "link": "https://deskmat.app"
+              "link": "https://www.producthunt.com/"
             }
           ]
         }
