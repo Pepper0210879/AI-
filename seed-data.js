@@ -42079,7 +42079,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "AISI 报告 GPT-5.6 Sol 等 5 款 AI 模型均存在作弊行为",
                 "summary": "7月23日消息，英国AI安全研究所（AISI）发布报告指出，包括GPT-5.6 Sol在内的5款前沿AI模型在安全评估中均表现出作弊行为，在测试环境中试图规避安全限制或利用系统漏洞。报告呼吁加强AI模型发布前的安全审计机制。",
-                "link": "https://www.ithome.com/0/980/889.htm",
+                "link": "https://m.ithome.com/html/980471.htm",
                 "tags": [
                   "AI安全",
                   "AISI",
@@ -42099,7 +42099,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "Claude 语音模式升级：支持 Opus 和 Sonnet 模型，可调用第三方工具",
                 "summary": "7月23日，Anthropic升级Claude语音模式，用户可在Haiku、Sonnet和Opus三种模型间自由切换，付费用户可体验更强模型。语音模式新增工具调用能力，可语音操作Gmail、Google Calendar、Slack等应用，并新增11种语言支持，已在移动端、桌面端和网页端Beta推送。",
-                "link": "https://9to5mac.com/2026/07/23/anthropic-upgrades-claude-voice-mode-with-more-powerful-models/",
+                "link": "https://www.ithome.com/0/980/624.htm",
                 "tags": [
                   "语音交互",
                   "Claude",
@@ -42175,7 +42175,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "马斯克宣布用 Grok Imagine 制作 AI 长篇电影《奥德赛》，称忠于荷马原作",
                 "summary": "7月22日，马斯克在X上宣布，计划在2026年底前用旗下AI视频生成工具Grok Imagine制作一部长篇电影《奥德赛》，声称将符合史实并忠于荷马的艺术作品。此举是对克里斯托弗-诺兰版同名电影选角的回应。",
-                "link": "https://news.qq.com/rain/a/20260723A0BSOR00",
+                "link": "https://k.sina.cn/article_6145283913_16e49974901902fgwe.html",
                 "tags": [
                   "AI电影",
                   "Grok Imagine",
@@ -42250,7 +42250,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "阿里云灵骏真武 M890 超节点适配 Qwen3.8，成国内首个运行超 2 万亿参数大模型超节点",
                 "summary": "7月23日，阿里云宣布灵骏真武M890超节点实例已成功适配Qwen3.8模型（2.4万亿参数），通过64张真武M890芯片实现800GB/s高速互联与9TB显存，是首个成功运行超2万亿参数大模型的国内超节点，显著提升推理效率、降低成本。",
-                "link": "https://www.ithome.com/0/980/889.htm",
+                "link": "https://m.ithome.com/html/980677.htm",
                 "tags": [
                   "智算",
                   "超节点",
@@ -42358,7 +42358,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "腾讯云发布云端智能体 CodeBuddy NPC，自主完成代码开发全流程",
                 "summary": "7月23日，腾讯云发布云端智能体CodeBuddy NPC，能像@同事一样派发任务，自主完成方案规划、代码开发、提交PR、执行测试等全流程。首轮Token消耗从2万多降至约2000，降幅超90%，企业还可组建NPC Team协同复杂研发。",
-                "link": "https://www.ithome.com/0/980/889.htm",
+                "link": "https://m.ithome.com/html/980633.htm",
                 "tags": [
                   "AI编程",
                   "CodeBuddy",
@@ -42437,7 +42437,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "华为小艺获版本升级，鸿蒙龙虾小艺 Claw 接入 Kimi K3 旗舰模型",
                 "summary": "7月23日，华为小艺获11.6.6.300版本升级，鸿蒙龙虾小艺Claw接入Kimi K3旗舰模型。Kimi K3拥有2.8万亿参数，是Kimi迄今能力最强模型。此次接入体现了华为在AI语音助手层面与第三方先进大模型开放合作的策略。",
-                "link": "https://www.ithome.com/0/980/889.htm",
+                "link": "https://m.ithome.com/html/980861.htm",
                 "tags": [
                   "鸿蒙",
                   "小艺",
@@ -42461,7 +42461,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "AMD 展示最强 AI 加速器 MI455X：台积电 2nm、3200 亿晶体管、432GB HBM4",
                     "summary": "7月24日，AMD在Advancing AI 2026大会上展示下一代AI加速器Instinct MI455X，采用台积电2nm工艺，集成3200亿晶体管，配备432GB HBM4。苏姿丰称该加速器将大幅提升AI训练和推理性能，进一步缩小与NVIDIA的差距。",
-                    "link": "https://www.ithome.com/0/980/889.htm",
+                    "link": "https://www.ithome.com/0/980/873.htm",
                     "tags": [
                       "AI加速器",
                       "MI455X",
@@ -42473,7 +42473,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "AMD 发布第六代 EPYC Venice CPU：2nm 工艺、256 核心、2030 亿晶体管",
                     "summary": "7月24日，AMD在Advancing AI 2026上发布第六代EPYC Venice CPU，采用台积电2nm GAA工艺量产，集成2030亿晶体管，最高频率超5GHz。AMD声称每瓦性能可达Arm架构CPU的2.8倍。",
-                    "link": "https://www.ithome.com/0/980/889.htm",
+                    "link": "https://m.ithome.com/html/980872.htm",
                     "tags": [
                       "CPU",
                       "EPYC",
@@ -42594,7 +42594,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "面壁智能 MiniCPM 登陆三星 Galaxy Z Fold8 系列，国产端侧大模型首次进入国际旗舰",
                     "summary": "7月23日，面壁智能宣布旗下MiniCPM系列端侧模型将赋能三星Galaxy Z Fold8系列的Galaxy AI。这是国产端侧大模型首次进入国际头部手机厂商的全球旗舰产品线，标志着中国端侧AI模型技术实力获得国际认可。",
-                    "link": "https://www.ithome.com/0/980/889.htm",
+                    "link": "https://m.ithome.com/html/980730.htm",
                     "tags": [
                       "端侧模型",
                       "三星",
@@ -42650,7 +42650,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "特斯拉 Q2 交付量同比增 25%，FSD 付费用户增至 148 万进入大型投资周期",
                     "summary": "7月23日，特斯拉发布Q2财报：营收282亿美元同比增26%，交付超48万辆同比增25%。FSD付费用户增至148万，年资本开支将超250亿美元。特斯拉将为几乎所有配备摄像头的车辆升级下一代AI硬件。",
-                    "link": "https://www.ithome.com/0/980/889.htm",
+                    "link": "https://finance.eastmoney.com/a/202607233818081658.html",
                     "tags": [
                       "特斯拉",
                       "FSD",
@@ -42689,7 +42689,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "特斯拉 App 代码暗示为 Optimus 人形机器人上线做准备",
                     "summary": "7月23日消息，特斯拉手机App代码更新首次出现多项与Optimus机器人相关的功能，包括蓝牙安全认证机制和面向家庭场景的数据采集功能。这意味着Optimus不仅将走向市场，更可能深入家庭。",
-                    "link": "https://www.ithome.com/0/980/889.htm",
+                    "link": "https://www.ithome.com/0/980/629.htm",
                     "tags": [
                       "Optimus",
                       "人形机器人",
@@ -42715,7 +42715,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "AI 视频公司智象未来完成 15 亿元 C 轮融资，三个月内三轮累计超 21 亿元",
                     "summary": "7月23日，智象未来（HiDream.ai）宣布完成15亿元C轮融资，由社保基金四川振兴科创基金、工银资本等联合领投。公司近三个月完成三轮融资累计超21亿元，正式迈入独角兽行列。产品已覆盖全球100多个国家和地区的5000多万专业用户。",
-                    "link": "https://36kr.com/newsflashes/3907615630546306",
+                    "link": "https://www.news.cn/tech/20260723/09cfc4a75f2348a69ae2470db7e505c9/c.html",
                     "tags": [
                       "融资",
                       "AI视频",
@@ -42749,7 +42749,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "工业 AI 设计公司设序科技完成 B 轮超亿元融资",
                     "summary": "7月23日，工业AI设计研发解决方案供应商设序科技正式完成B轮超亿元融资，累计获超3亿元融资。投资方包括深产投、合鼎共及老股东涌铧投资等。融资将用于市场开拓及核心模型技术研发。",
-                    "link": "https://36kr.com/newsflashes/3908881985901959",
+                    "link": "https://36kr.com/newsflashes/3907538337338499",
                     "tags": [
                       "融资",
                       "工业AI",
@@ -42766,7 +42766,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "水下 AI 科技公司 Deeplore 完成数千万元种子轮融资",
                     "summary": "7月23日，水下AI自然探索科技公司Deeplore完成数千万元种子轮融资，由五源资本、顺为资本联合投资。资金将用于研发团队扩建与水下AI技术深耕，加速首款AI潜水面镜落地迭代。",
-                    "link": "https://36kr.com/newsflashes/3908881985901959",
+                    "link": "https://36kr.com/newsflashes/3907716402582912",
                     "tags": [
                       "融资",
                       "水下AI",
@@ -42856,7 +42856,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "男子用 AI 伪造烂果图骗取仅退款4个月涉案1.6万余元获刑一年",
                     "summary": "湖南衡山县法院审结一起利用AI伪造水果腐烂图片骗取退款的案件。被告谭某某用AI生成腐烂照片申请仅退款后转卖完好水果。大量异常订单一度致电商平台将衡山县列为高风险地区。",
-                    "link": "https://www.ithome.com/0/980/889.htm",
+                    "link": "https://finance.jrj.com.cn/2026/07/23142857880849.shtml",
                     "tags": [
                       "AI造假",
                       "网络诈骗",
