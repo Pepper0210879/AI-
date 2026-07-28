@@ -3,7 +3,6 @@ const CONFIRMED_KEY = 'ai-news-confirmed';
 
 // 默认数据结构（与 script.js 中的 NEWS_DATA 一致）
 const DEFAULT_DATA = {
-{
   "date": "2026-07-28",
   "sections": {
     "overseas": {
@@ -787,7 +786,6 @@ const DEFAULT_DATA = {
       ]
     }
   }
-}
 };
 function loadAPIConfig() {
     var provider = document.getElementById('admin-api-provider');

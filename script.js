@@ -4,7 +4,6 @@ const CONFIRMED_KEY = 'ai-news-confirmed';
 const LAST_UPDATE_KEY = 'ai-news-last-update';
 const LAST_VIEWED_DATE_KEY = 'ai-news-last-viewed-date';
 const NEWS_DATA = {
-{
   "date": "2026-07-28",
   "sections": {
     "overseas": {
@@ -788,7 +787,6 @@ const NEWS_DATA = {
       ]
     }
   }
-}
 };
 const VENDOR_DISPLAY = {
     "OpenAI":       { color: "#7ab8d6", softBg: "#edf5fa", initial: "O", logo: "logos/OpenAI.png" },
