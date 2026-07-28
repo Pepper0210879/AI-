@@ -789,11 +789,7 @@ const NEWS_DATA = {
     }
   }
 }
-};;
-
-
-
-
+};
 const VENDOR_DISPLAY = {
     "OpenAI":       { color: "#7ab8d6", softBg: "#edf5fa", initial: "O", logo: "logos/OpenAI.png" },
     "Anthropic":    { color: "#c4a882", softBg: "#faf5ee", initial: "A", logo: "logos/Anthropic.png" },

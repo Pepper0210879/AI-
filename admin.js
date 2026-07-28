@@ -788,11 +788,7 @@ const DEFAULT_DATA = {
     }
   }
 }
-};;;
-
-
-
-
+};
 function loadAPIConfig() {
     var provider = document.getElementById('admin-api-provider');
     var endpoint = document.getElementById('admin-api-endpoint');
