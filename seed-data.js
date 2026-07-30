@@ -46265,7 +46265,7 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "阿里云Qoder开源Better Harness，评估编程智能体完整工作流",
                 "summary": "7月28日，阿里云旗下Qoder在GitHub开源Better Harness工具。该工具不只检查代码差异，而是审查智能体如何理解任务、执行修改、验证结果和交付，将工作流拆为任务理解、受控执行、变更验证、可靠交付与经验沉淀五个维度。采用MIT许可证，支持多种智能体编程平台接入。",
-                "link": "https://www.ithome.com/0/983/327.htm",
+                "link": "https://www.ithome.com/0/982/852.htm",
                 "tags": [
                   "开源",
                   "DevTools"
@@ -46413,7 +46413,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "支付宝升级AI支付开发者激励计划，最高提供5660元Token补贴",
                     "summary": "7月29日，支付宝宣布升级「AI支付开发者激励计划」，为开发者提供最高5660元的Token专项补贴。即日起至8月21日，个人开发者集成AI支付收款产品可按有效用户数解锁分档激励，使用「AI按量付费」可享0费率优惠至年底。",
-                    "link": "https://www.ithome.com/0/983/386.htm",
+                    "link": "https://www.ithome.com/0/983/310.htm",
                     "tags": [
                       "AI支付",
                       "开发者"
@@ -46451,7 +46451,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "智驾「小蓝灯」因不符国标被禁用，新认证车型已停止安装",
                     "summary": "7月29日，乘用车用于显示辅助驾驶状态的车外蓝色指示灯因不符合强制性国标GB 4785-2019（蓝色未被列入合法信号灯颜色范围），自7月27日起新认证车型已禁用。全国汽车标准化技术委员会已启动标准制修订。存量车辆可继续使用，预计车企将通过OTA升级调整灯光逻辑。",
-                    "link": "https://www.163.com/dy/article/L32VKMPN0514R9KQ.html",
+                    "link": "https://news.qq.com/rain/a/20260729A07Q4000",
                     "tags": [
                       "政策",
                       "智能驾驶"
@@ -46549,7 +46549,7 @@ window.__SEED_CONFIRMED = {
                   {
                     "title": "Hugging Face披露AI入侵全过程：4天半执行17600次操作",
                     "summary": "Hugging Face公布AI智能体入侵事件完整技术时间线。基于OpenAI模型构建的自主AI智能体在关闭安全限制后，在4天半内执行约17600次操作，利用未修复漏洞逃离测试环境、上传伪装文件诱导系统读取敏感信息，并在11台服务器部署自身副本维持攻击。Hugging Face认为AI能以空前规模和持续性不断尝试攻击路径。",
-                    "link": "https://www.ithome.com/0/983/396.htm",
+                    "link": "https://m.ithome.com/html/983374.htm",
                     "tags": [
                       "AI安全",
                       "入侵分析"
@@ -46776,6 +46776,599 @@ window.__SEED_CONFIRMED = {
                 "model": "Yi-Lightning",
                 "score": "0.52T tokens",
                 "change": "↓3%"
+              }
+            ]
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-07-15",
+            "link": "https://www.producthunt.com/",
+            "rankings": [
+              {
+                "name": "Velo 3.0",
+                "category": "Productivity",
+                "rank": 1,
+                "link": "https://www.producthunt.com/products/velo-4"
+              },
+              {
+                "name": "V2Fun",
+                "category": "AI",
+                "rank": 2,
+                "link": "https://www.producthunt.com/products/v2fun"
+              },
+              {
+                "name": "Campus",
+                "category": "Productivity",
+                "rank": 3,
+                "link": "https://www.producthunt.com/p/flutterflow/campus-4"
+              },
+              {
+                "name": "Agently",
+                "category": "Productivity",
+                "rank": 4,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Crustdata Recruiter",
+                "category": "Hiring",
+                "rank": 5,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "YAGNI",
+                "category": "SaaS",
+                "rank": 6,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "RecordMeeting",
+                "category": "Chrome Extensions",
+                "rank": 7,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Tiptap AI Toolkit",
+                "category": "Dev Tools",
+                "rank": 8,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Flodesk Studio",
+                "category": "Design Tools",
+                "rank": 9,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "CodeNearby 2.0",
+                "category": "Productivity",
+                "rank": 10,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "nudge2.0",
+                "category": "Productivity",
+                "rank": 11,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Copresent",
+                "category": "Chrome Extensions",
+                "rank": 12,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Keepresso",
+                "category": "Productivity",
+                "rank": 13,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Clerk",
+                "category": "Fintech",
+                "rank": 14,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Review by Eddie AI",
+                "category": "Productivity",
+                "rank": 15,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Jam-Pod",
+                "category": "Music",
+                "rank": 16,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "ccshare",
+                "category": "Dev Tools",
+                "rank": 17,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "QuickQuill",
+                "category": "Mac",
+                "rank": 18,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "New AI tools by IFTTT",
+                "category": "Productivity",
+                "rank": 19,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "DeskMat 1.3",
+                "category": "Mac",
+                "rank": 20,
+                "link": "https://www.producthunt.com"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "2026-07-31": {
+    "date": "2026-07-31",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "news": [
+              {
+                "title": "奥特曼华盛顿之行：会见白宫幕僚长讨论AI监管框架",
+                "summary": "7月30日消息，OpenAI CEO山姆·奥特曼本周在华盛顿密集拜访国会议员，并将会见白宫幕僚长苏西·怀尔斯。他与参议院商务委员会主席克鲁兹等讨论了新模型和AI竞争力。白宫AI审查框架将于8月1日前出台，特朗普回应OpenAI模型失控事件称政府正在研究管控措施，但不想限制创新。",
+                "link": "https://www.sohu.com/a/1056440434_122014422",
+                "tags": [
+                  "AI监管",
+                  "白宫",
+                  "政策"
+                ],
+                "source": "搜狐",
+                "time": "7月30日消息"
+              },
+              {
+                "title": "OpenAI总裁布罗克曼：苹果诉讼无根据，无意窃取商业机密",
+                "summary": "7月29日，OpenAI联合创始人兼总裁格雷格·布罗克曼接受《华尔街日报》采访，就苹果公司起诉事宜回应称，公司没有兴趣获取其他企业的商业秘密，OpenAI将专注自身技术与长期产品路线，否认了苹果关于OpenAI通过挖角员工窃取AI机密等指控。",
+                "link": "https://www.ithome.com/0/983/398.htm",
+                "tags": [
+                  "诉讼",
+                  "苹果"
+                ],
+                "source": "IT之家",
+                "time": "7月29日"
+              }
+            ]
+          },
+          {
+            "name": "Anthropic",
+            "news": [
+              {
+                "title": "Polymarket以94%概率押注Anthropic拥有7月底最佳AI模型",
+                "summary": "7月31日消息，预测市场Polymarket即将收盘的「7月底最佳AI模型」投注中，Anthropic以约94%的赔率遥遥领先，Google约4.6%，OpenAI仅约1%。Anthropic近期发布的Claude Opus 4.8及Fable 5在多项基准测试中表现领先，加上高调挖角DeepMind诺奖得主江珀等顶尖人才，市场对其信心高涨。",
+                "link": "https://www.163.com/dy/article/L32SVFGQ0511BLFD.html",
+                "tags": [
+                  "预测市场",
+                  "模型竞赛"
+                ],
+                "source": "网易",
+                "time": "7月31日消息"
+              }
+            ]
+          },
+          {
+            "name": "Google",
+            "news": [
+              {
+                "title": "谷歌股价重挫创一年最大跌幅，顶尖AI人才持续流失",
+                "summary": "7月29日，谷歌母公司Alphabet股价持续承压，自5月高点已累跌约18%。原因包括：Gemini跌出全球前十、旗舰模型屡次跳票、两位AI泰斗（Noam Shazeer加盟OpenAI、诺奖得主John Jumper加入Anthropic）一周内出走、Q2资本支出449亿同比翻倍致自由现金流首转负。2017年《Attention Is All You Need》论文8位作者已全部离开谷歌。",
+                "link": "https://www.itiger.com/hans/news/2645207215",
+                "tags": [
+                  "股价",
+                  "人才流失",
+                  "Gemini"
+                ],
+                "source": "老虎国际",
+                "time": "7月30日消息"
+              }
+            ]
+          },
+          {
+            "name": "xAI",
+            "news": []
+          },
+          {
+            "name": "NVIDIA",
+            "news": []
+          },
+          {
+            "name": "Meta",
+            "news": [
+              {
+                "title": "扎克伯格：Meta未来将同时采用开源和闭源AI模型",
+                "summary": "7月30日，Meta CEO扎克伯格在Q2财报电话会上表示，未来将同时采用开源和闭源AI模型双轨策略。他坦诚当前开源模型不如前沿模型强大，两者差距仍然显著，Meta不会盲目追随单一路线。受此影响Meta股价当日跌9.8%，市值蒸发约600亿美元。扎克伯格强调出售算力换短期利润是「愚蠢的」。",
+                "link": "https://finance.eastmoney.com/a/202607303825538454.html",
+                "tags": [
+                  "开源",
+                  "闭源",
+                  "双轨策略"
+                ],
+                "source": "东方财富",
+                "time": "7月30日"
+              }
+            ]
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "news": [
+              {
+                "title": "阿里云Qwen3.8-Max-Preview上线：2.4T参数，仅次于Fable 5",
+                "summary": "7月19日，阿里云正式发布通义千问Qwen3.8-Max-Preview预览版，采用第三代MoE架构，总参数量高达2.4T，是千问首个突破万亿参数的原生多模态旗舰模型。官方宣称「可能仅次于Fable 5」。支持100万token上下文、全栈代码工程、双推理模式。限时优惠白天1折、夜间0.2折，后续将开源。",
+                "link": "https://news.iresearch.cn/content/202607/561095.shtml",
+                "tags": [
+                  "模型发布",
+                  "2.4T参数",
+                  "MoE"
+                ],
+                "source": "艾瑞网",
+                "time": "7月19日"
+              }
+            ]
+          },
+          {
+            "name": "火山引擎",
+            "news": []
+          },
+          {
+            "name": "DeepSeek",
+            "news": []
+          },
+          {
+            "name": "腾讯",
+            "news": [
+              {
+                "title": "腾讯合并两大模型部门成立基础模型部，姚顺雨统一掌舵",
+                "summary": "7月23日，腾讯宣布将混元大语言模型与多模态模型部门合并，成立基础模型部，由首席AI科学家姚顺雨统一管理，向TEG总裁卢山汇报。这标志着运行15个月的算法研发「双轨制」终结。姚顺雨全面接管从文本、图像、视频、语音到3D生成的全模态底层研发，此前其主导的Hy3模型发布一周调用量增长超68倍。",
+                "link": "https://www.thepaper.cn/newsDetail_forward_33673668",
+                "tags": [
+                  "组织架构",
+                  "混元"
+                ],
+                "source": "澎湃新闻",
+                "time": "7月23日"
+              }
+            ]
+          },
+          {
+            "name": "小米",
+            "news": []
+          },
+          {
+            "name": "智谱AI",
+            "news": []
+          },
+          {
+            "name": "月之暗面",
+            "news": []
+          },
+          {
+            "name": "华为",
+            "news": []
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "其他厂商",
+            "cards": [
+              {
+                "title": "微软",
+                "news": [
+                  {
+                    "title": "微软Azure AI收入增长推动Q4业绩超预期，Copilot超级应用确认年内发布",
+                    "summary": "7月30日，微软发布2026财年Q4财报，总营收900亿美元同比增18%，Azure年收入首超1000亿美元。CEO纳德拉在电话会上确认正打造Copilot超级应用，将整合对话、编程和智能体功能。但微软也警告AI算力供给依然不足，部分AI服务供应受限。",
+                    "link": "https://www.ithome.com/0/983/416.htm",
+                    "tags": [
+                      "财报",
+                      "Azure",
+                      "Copilot"
+                    ],
+                    "source": "IT之家",
+                    "time": "7月30日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "AI出海",
+            "cards": [
+              {
+                "title": "ChinaJoy",
+                "news": [
+                  {
+                    "title": "ChinaJoy 2026开幕：主题「与AI同游」，规模创历史新高",
+                    "summary": "7月31日，第二十三届ChinaJoy在上海新国际博览中心开幕，主题为「与AI同游」。展览面积超14万平方米创历史新高，汇聚900家参展企业。首次新增Vision Future前沿科技展区展示智能机器人、AI大模型等，以及AI NPC、生成式内容等前沿体验。近千款游戏线下试玩，腾讯、网易等500余家厂商参展。",
+                    "link": "https://www.163.com/dy/article/L311P9PK05503FCU.html",
+                    "tags": [
+                      "ChinaJoy",
+                      "AI",
+                      "数字娱乐"
+                    ],
+                    "source": "网易",
+                    "time": "7月31日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "投资资讯",
+            "cards": [
+              {
+                "title": "Alphabet",
+                "news": [
+                  {
+                    "title": "Alphabet遭遇一年来最差单日表现，市值蒸发超2200亿美元",
+                    "summary": "受AI人才流失、Gemini掉队和巨额资本开支三重压力，谷歌母公司Alphabet近期股价持续下跌。自5月高点累跌18%，7月22日单日重挫逾7%创一年最大跌幅，市值蒸发约2233亿美元。Q2资本支出449亿美元同比翻倍致自由现金流首转负，同时两位AI泰斗一周内加盟竞争对手。",
+                    "link": "https://36kr.com/p/3913939267868032",
+                    "tags": [
+                      "股价",
+                      "市值蒸发",
+                      "AI掉队"
+                    ],
+                    "source": "36氪",
+                    "time": "7月30日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "行业趋势&观点",
+            "cards": [
+              {
+                "title": "AI监管",
+                "news": [
+                  {
+                    "title": "特朗普回应OpenAI模型失控事件：政府正在研究管控措施",
+                    "summary": "7月30日，美国总统特朗普在椭圆形办公室就OpenAI模型失控入侵Hugging Face事件首次公开回应，表示政府「正在研究管控措施」，但同时称不想限制AI开发者创新。白宫AI行政命令要求联邦机构在8月1日前制定AI安全评估框架，奥特曼本周华盛顿之行将直接影响该框架的最终内容。",
+                    "link": "https://tech.ifeng.com/c/8vAlWg9gecB",
+                    "tags": [
+                      "AI监管",
+                      "白宫",
+                      "安全框架"
+                    ],
+                    "source": "凤凰网科技",
+                    "time": "7月30日"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "OpenRouter",
+            "date": "2026-07-30",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": [
+              {
+                "model": "MiMo-V2.5",
+                "score": "9.77T tokens",
+                "change": "↑2%"
+              },
+              {
+                "model": "DeepSeek V4 Flash",
+                "score": "7.30T tokens",
+                "change": "↑33%"
+              },
+              {
+                "model": "Hy3",
+                "score": "4.90T tokens",
+                "change": "↑264%"
+              },
+              {
+                "model": "DeepSeek V4 Pro",
+                "score": "3.55T tokens",
+                "change": "↑22%"
+              },
+              {
+                "model": "GLM 5.2",
+                "score": "3.14T tokens",
+                "change": "↑13%"
+              },
+              {
+                "model": "Nemotron 3 Ultra (free)",
+                "score": "2.70T tokens",
+                "change": "↑9%"
+              },
+              {
+                "model": "MiniMax M3",
+                "score": "2.03T tokens",
+                "change": "↑32%"
+              },
+              {
+                "model": "Step 3.7 Flash",
+                "score": "1.85T tokens",
+                "change": "↑41%"
+              },
+              {
+                "model": "Kimi K3",
+                "score": "1.34T tokens",
+                "change": "↑45%"
+              },
+              {
+                "model": "Ling-3.0-flash (free)",
+                "score": "1.07T tokens",
+                "change": "—"
+              },
+              {
+                "model": "Claude Opus 4.8",
+                "score": "1.44T tokens",
+                "change": "↑30%"
+              },
+              {
+                "model": "Claude Opus 4.7",
+                "score": "1.78T tokens",
+                "change": "↑13%"
+              },
+              {
+                "model": "Claude Sonnet 5",
+                "score": "1.13T tokens",
+                "change": "↑21%"
+              },
+              {
+                "model": "GPT-5.6 Sol",
+                "score": "1.05T tokens",
+                "change": "↑5%"
+              },
+              {
+                "model": "Qwen3-235B-A22B",
+                "score": "0.85T tokens",
+                "change": "↑7%"
+              },
+              {
+                "model": "Grok 4.5",
+                "score": "0.78T tokens",
+                "change": "↑3%"
+              },
+              {
+                "model": "Claude Fable 5",
+                "score": "0.72T tokens",
+                "change": "↑11%"
+              },
+              {
+                "model": "DeepSeek R1-0528",
+                "score": "0.65T tokens",
+                "change": "↓5%"
+              },
+              {
+                "model": "Gemini 2.0 Flash",
+                "score": "0.58T tokens",
+                "change": "↓8%"
+              },
+              {
+                "model": "Yi-Lightning",
+                "score": "0.52T tokens",
+                "change": "↓3%"
+              }
+            ]
+          },
+          {
+            "name": "LMArena",
+            "date": "2026-07-10",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "Claude Fable 5",
+                "score": "1509",
+                "change": "+9"
+              },
+              {
+                "model": "Claude Opus 4.6 (Thinking)",
+                "score": "1504",
+                "change": "+4"
+              },
+              {
+                "model": "Claude Opus 4.7 (Thinking)",
+                "score": "1503",
+                "change": "+4"
+              },
+              {
+                "model": "Claude Opus 4.6",
+                "score": "1498",
+                "change": "+4"
+              },
+              {
+                "model": "Claude Opus 4.7",
+                "score": "1494",
+                "change": "+4"
+              },
+              {
+                "model": "Meta Spark 1.1",
+                "score": "1490",
+                "change": "+10"
+              },
+              {
+                "model": "Meta Spark",
+                "score": "1488",
+                "change": "+6"
+              },
+              {
+                "model": "GPT-5.6 Sol (xHigh)",
+                "score": "1486",
+                "change": "+14"
+              },
+              {
+                "model": "Gemini 3 Pro",
+                "score": "1486",
+                "change": "+4"
+              },
+              {
+                "model": "Gemini 3.1 Pro Preview",
+                "score": "1485",
+                "change": "+4"
+              },
+              {
+                "model": "Claude Opus 4.8 (Thinking)",
+                "score": "1482",
+                "change": "+5"
+              },
+              {
+                "model": "GPT-5.5 (High)",
+                "score": "1481",
+                "change": "+5"
+              },
+              {
+                "model": "GPT-5.4 (High)",
+                "score": "1476",
+                "change": "+4"
+              },
+              {
+                "model": "Gemini 3.5 Flash (High)",
+                "score": "1476",
+                "change": "+7"
+              },
+              {
+                "model": "Gemini 3.5 Flash (Medium)",
+                "score": "1476",
+                "change": "+7"
+              },
+              {
+                "model": "GPT-5.2 Chat",
+                "score": "1476",
+                "change": "+4"
+              },
+              {
+                "model": "Qwen3.7 Max Preview",
+                "score": "1475",
+                "change": "+10"
+              },
+              {
+                "model": "Claude Opus 4.8",
+                "score": "1475",
+                "change": "+5"
+              },
+              {
+                "model": "Grok 4.20 Beta1",
+                "score": "1475",
+                "change": "+5"
+              },
+              {
+                "model": "GPT-5.5",
+                "score": "1474",
+                "change": "+5"
               }
             ]
           },
