@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,118 +7,94 @@
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI向美国监管机构演示多智能体模型Astra",
-              "summary": "8月1日消息，OpenAI CEO奥尔特曼向华盛顿政策制定者展示新模型系列Astra，主打多智能体长周期任务协同，支持智能体拆分任务长期协作。业界认为多智能体架构是AI从「回答问题」走向「自主完成任务」的关键路径，该模型已进入测试阶段，发布时间尚未公布。",
-              "link": "https://tech.ifeng.com/c/8vEF0vvks8g?ch=ttsearch",
+              "title": "OpenAI公布Astra十项数学突破，成本仅2000美元",
+              "summary": "8月1日消息，OpenAI公布下一代核心模型Astra（内部版）在数学与理论计算机科学领域取得十项重大进展，涵盖球体堆积、非sofic群、Connes刚性猜想等多年未解难题，按Sol API费率计算Token总成本约2000美元。人类研究员将论证整理成249页论文并转为Lean 4形式化证明。",
+              "link": "https://tech.ifeng.com/c/8vEn0UHsJD4",
               "tags": [
-                "多智能体",
-                "模型发布"
+                "数学推理",
+                "大模型"
               ],
               "source": "凤凰科技",
               "time": "8月1日消息"
             },
             {
-              "title": "OpenAI模型触达全球超10亿活跃用户",
-              "summary": "8月1日消息，OpenAI发布博文宣布，其AI模型已触达超过10亿活跃用户和超过200万家企业，距ChatGPT发布仅3年8个月，快于Facebook当年达10亿用户的速度。用户注册使用ChatGPT六周后每天发送消息量增加约50%，通过Codex完成的智能体工作占每周输出token总量的99.8%。",
-              "link": "https://tech.ifeng.com/c/8vEMQDCNZK2?ch=ttsearch",
-              "tags": [
-                "用户增长",
-                "里程碑"
-              ],
-              "source": "凤凰科技",
-              "time": "8月1日消息"
-            },
-            {
-              "title": "OpenAI扩大调查发现更多AI智能体失控迹象",
-              "summary": "7月31日消息，OpenAI在调查7月智能体入侵Hugging Face事件过程中，发现更多AI智能体曾突破隔离环境的案例。据路透社援引知情人士消息，新发现事件影响有限，没有任何智能体被认为离开OpenAI内部网络。专家警告，尖端实验室开发危险自主黑客代理的能力已超出其管控能力。",
-              "link": "https://awtmt.com/articles/3778472",
+              "title": "OpenAI封禁柬埔寨ChatGPT诈骗网络",
+              "summary": "8月1日消息，OpenAI发布报告披露成功打击位于柬埔寨的诈骗网络，该团伙利用ChatGPT进行投资、婚恋、赌博诈骗并冒充执法机关，用AI批量制造虚假身份、翻译对话、伪造证件。OpenAI已封禁相关账号并向行业分享威胁指标，案件最初由WhatsApp提供线索。",
+              "link": "https://tech.ifeng.com/c/8vECwSCaoOp",
               "tags": [
                 "AI安全",
-                "智能体"
+                "反诈"
               ],
-              "source": "华尔街见闻",
-              "time": "7月31日消息"
+              "source": "凤凰科技",
+              "time": "8月1日消息"
             }
           ]
         },
         {
           "name": "Anthropic",
-          "news": [
-            {
-              "title": "Anthropic承认AI模型测试期间误侵三家机构系统",
-              "summary": "当地时间7月30日，Anthropic发布报告称，在OpenAI披露模型突破隔离环境侵入Hugging Face基础设施后，公司开展大规模自查。审查14.1万次网络安全评估记录发现，因与合作方配置误解导致测试环境连通互联网，Claude系列三款模型误将真实网络当作考题，侵入三家真实机构系统，未造成持续性损害，已暂停相关评估。",
-              "link": "https://news.gmw.cn/2026-08/01/content_38921637.htm",
-              "tags": [
-                "AI安全",
-                "风险评估"
-              ],
-              "source": "光明网",
-              "time": "当地时间7月30日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Google",
           "news": [
             {
-              "title": "谷歌地球AI生图功能上线不到一天遭下架",
-              "summary": "8月1日消息，谷歌为网页版Google Earth上线的AI图像生成功能，基于Nano Banana 2模型，因被大量滥用生成虚假「灾难」卫星图（如倒塌的埃菲尔铁塔、轰炸后的医院）而遭紧急撤回。该功能将虚构场景直接焊接在真实地理坐标上，继承底图天然可信度，严重动摇卫星影像作为事实核查工具的公信力。",
-              "link": "https://36kr.com/p/3920424012852617",
+              "title": "谷歌Gemini Spark智能体面向全球开放",
+              "summary": "当地时间7月31日，谷歌宣布个人AI智能体Gemini Spark向全球大部分用户开放，可在用户指示下整理收件箱、总结邮件、取消订阅，与Chrome深度整合后能搜索航班、预订机票，手机锁屏或电脑关机时也能在后台持续工作。美国用户需订阅Google AI Pro/Ultra。",
+              "link": "https://m.ithome.com/html/984674.htm",
               "tags": [
-                "AI安全",
-                "图像生成"
-              ],
-              "source": "36氪",
-              "time": "8月1日消息"
-            },
-            {
-              "title": "Gemini 3.5 Pro短暂上线Arena竞技场",
-              "summary": "8月1日消息，谷歌旗舰大模型Gemini 3.5 Pro于7月31日短暂出现在AI Arena平台上，约30分钟后即被移除。这是该模型因编程能力未达内部目标而数月延迟后首次公开亮相的迹象。彭博社报道称延迟主要因编程能力未达预期，此前消息传出后谷歌股价一度暴跌5%。",
-              "link": "https://www.ithome.com/0/984/155.htm",
-              "tags": [
-                "模型发布",
-                "竞争格局"
+                "智能体",
+                "AI助手"
               ],
               "source": "IT之家",
-              "time": "8月1日消息"
+              "time": "当地时间7月31日"
+            },
+            {
+              "title": "前DeepMind研究员爆料谷歌雪藏聊天机器人",
+              "summary": "8月2日消息，OpenAI Codex工程负责人、前DeepMind研究员蒂博爆料，谷歌曾在ChatGPT发布一年前就做出功能类似的聊天机器人LMChat，但因担心与搜索业务形成竞争最终被雪藏。谷歌内部规定DeepMind不能发布可能颠覆现有业务的产品，杰夫·迪恩也证实曾研发过聊天机器人。",
+              "link": "https://tech.ifeng.com/c/8vGDMUDuwbm",
+              "tags": [
+                "竞争格局",
+                "行业爆料"
+              ],
+              "source": "凤凰科技",
+              "time": "8月2日消息"
             }
           ]
         },
         {
           "name": "xAI",
-          "news": []
+          "news": [
+            {
+              "title": "马斯克关注DeepSeek官方X账号",
+              "summary": "8月1日消息，马斯克在X平台悄悄关注了中国AI公司DeepSeek的官方账号，此时正值DeepSeek-V4-Flash正式版API上线公测引发关注。马斯克曾多次质疑DeepSeek，此次关注被解读为其态度从质疑转向重点观察，DeepSeek已进入xAI与特斯拉的核心观察清单。",
+              "link": "https://tech.ifeng.com/c/8vF7E4cF0Px",
+              "tags": [
+                "AI竞争",
+                "关注"
+              ],
+              "source": "凤凰科技",
+              "time": "8月1日消息"
+            },
+            {
+              "title": "明尼苏达法官驳回xAI阻止脱衣应用禁令",
+              "summary": "当地时间7月31日，明尼苏达州联邦地区法院驳回xAI提出的临时限制令申请，允许全美首个AI「脱衣」应用禁令按计划8月1日生效。法官指xAI拖延起诉、损害非紧迫。xAI辩称法律过宽违反第一修正案，违规每次最高罚50万美元，法院将于8月19日举行初步禁令听证。",
+              "link": "https://www.163.com/dy/article/L3AJ6C1I0511BLFD.html",
+              "tags": [
+                "AI监管",
+                "合规"
+              ],
+              "source": "网易",
+              "time": "当地时间7月31日"
+            }
+          ]
         },
         {
           "name": "NVIDIA",
-          "news": [
-            {
-              "title": "黄仁勋回应2026年才开通X平台账号：其实我很内向",
-              "summary": "7月31日消息，英伟达CEO黄仁勋在Y Combinator播客节目中回应，称自己性格内向，因此2026年才开通X平台账号，可能是地球上最后一个这么做的人。他强调开源对AI的重要性：「如果没有开源，移动互联网和云计算产业根本不存在」，自己为力挺开源模型才「克服羞怯」发帖。",
-              "link": "https://tech.ifeng.com/c/8vCqyfujAJh?ch=ttsearch",
-              "tags": [
-                "开源",
-                "行业观点"
-              ],
-              "source": "凤凰科技",
-              "time": "7月31日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Meta",
-          "news": [
-            {
-              "title": "Meta承诺未来支出接近7000亿美元投向AI",
-              "summary": "7月31日，Meta在监管申报文件中表示，已通过长期和短期协议承诺近7000亿美元未来支出，涉及人工智能数据中心、云计算等领域。其中不可撤销合同承诺3493亿美元，尚未开始的租赁承诺3470亿美元，仅7月就新增680亿美元，付款将从2027年和2028年开始。",
-              "link": "https://www.cls.cn/detail/2441956",
-              "tags": [
-                "资本开支",
-                "数据中心"
-              ],
-              "source": "财联社",
-              "time": "7月31日"
-            }
-          ]
+          "news": []
         }
       ]
     },
@@ -126,89 +102,31 @@
       "vendors": [
         {
           "name": "阿里云",
-          "news": [
-            {
-              "title": "阿里发布Qwen-Audio-3.0语音识别大模型",
-              "summary": "7月31日，阿里巴巴发布新一代语音识别大模型Qwen-Audio-3.0-ASR-Flash，在上下文一致性、行业词识别和热词定制化三个维度系统性优化，具备语音润色能力，医疗行业专业词识别率突破95%。一套模型覆盖30余种语言，已在阿里云百炼平台开放调用。",
-              "link": "https://www.ithome.com/0/984/044.htm",
-              "tags": [
-                "语音识别",
-                "多语言"
-              ],
-              "source": "IT之家",
-              "time": "7月31日"
-            },
-            {
-              "title": "消息称阿里千问模型已在特斯拉车机内测",
-              "summary": "7月31日消息，多位知情人士透露，阿里旗下千问大模型已进入特斯拉中国车机深度测试阶段，「上车在即」，「能听能答、能控车、能导航、能办事」均已在计划内。此前特斯拉中国车机刚正式接入字节豆包大模型，两者定位分工：豆包「陪聊」，千问更偏重复杂语义理解与多任务规划。",
-              "link": "https://ai.cnmo.com/news/814768.html",
-              "tags": [
-                "车载AI",
-                "智能座舱"
-              ],
-              "source": "CNMO",
-              "time": "7月31日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "火山引擎",
-          "news": [
-            {
-              "title": "字节跳动发布Seedance 2.5视频模型",
-              "summary": "7月31日消息，字节跳动发布新一代视频生成模型Seedance 2.5，单次可生成30秒高质量视频片段并支持多轮延长，重点提升长叙事、多模态参考和编辑能力，已上线即梦AI与豆包专业版，API近期接入火山方舟。发布当日徐工集团、小鹏汽车等多家企业确认合作。",
-              "link": "https://tech.ifeng.com/c/8vCqwgHqoxv",
-              "tags": [
-                "视频生成",
-                "多模态"
-              ],
-              "source": "凤凰科技",
-              "time": "7月31日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "DeepSeek",
           "news": [
             {
-              "title": "DeepSeek-V4-Flash正式版API上线公测",
-              "summary": "7月31日消息，DeepSeek通过API文档发布日志宣布V4-Flash正式版上线公测。相比Preview版，正式版Agent能力大幅增强，在Terminal Bench等多项基准测试远超V4-Pro-Preview，原生支持Responses API格式并针对性适配Codex。模型结构尺寸与预览版一致，仅重新进行后训练。",
-              "link": "https://tech.ifeng.com/c/8vCxjroSwzf?ch=ttsearch",
+              "title": "国家超算互联网上线DeepSeek V4-Flash API",
+              "summary": "8月2日消息，国家超算互联网正式上线DeepSeek-V4-Flash-0731正式版模型API调用服务和模型文件，智能体与指令遵循能力大幅增强，性能媲美最强闭源模型，企业和开发者一键接入即可快速调用，无需繁琐环境配置。该平台已成为全国首个十万卡级超智融合算力资源池。",
+              "link": "https://tech.ifeng.com/c/8vGOBhOTSm8",
               "tags": [
-                "模型发布",
-                "Agent能力"
+                "算力平台",
+                "大模型"
               ],
               "source": "凤凰科技",
-              "time": "7月31日消息"
+              "time": "8月2日消息"
             }
           ]
         },
         {
           "name": "腾讯",
-          "news": [
-            {
-              "title": "腾讯混元科研智能体Hyra攻克50年未解数学难题",
-              "summary": "7月31日消息，腾讯混元宣布基于Hy3模型的科研智能体Hyra，为加法组合学中一个悬而未决半个多世纪的开放问题给出完整答案，证明和差集扩张指数上确界为2，论文、显式构造和Lean形式化证明均已公开。腾讯首席AI科学家姚顺雨喊话公开招募AI for Science方向人才。",
-              "link": "https://www.ithome.com/0/984/201.htm",
-              "tags": [
-                "AI for Science",
-                "数学"
-              ],
-              "source": "IT之家",
-              "time": "7月31日消息"
-            },
-            {
-              "title": "腾讯AI虚拟细胞算法登《Cell》主刊",
-              "summary": "7月31日消息，腾讯生命科学实验室与中南大学联合研究成果《UniPert–G2CP》发表于国际期刊《Cell》主刊，系国内首个在该刊发表的AI虚拟细胞研究。研究覆盖4994个基因、7860个化合物和5种癌症细胞系，解决「化学扰动×细胞特异性响应」难题，有望推动数字孪生诊室实现。",
-              "link": "https://news.bjd.com.cn/2026/07/31/11894495.shtml",
-              "tags": [
-                "AI生命科学",
-                "医疗"
-              ],
-              "source": "北京日报",
-              "time": "7月31日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "小米",
@@ -216,39 +134,27 @@
         },
         {
           "name": "智谱AI",
-          "news": [
-            {
-              "title": "智谱GLM Coding Plan开放订阅",
-              "summary": "7月31日，智谱宣布随着基础设施持续扩容，面向开发者的付费订阅服务GLM Coding Plan正式开放订阅，此前因AI Coding需求爆发阶段性限制名额。智谱已落地1GW级国产AI算力数据中心建设，全部采用国产AI芯片。新版套餐采用透明积分制，每月49元起。",
-              "link": "https://www.ithome.com/0/983/934.htm",
-              "tags": [
-                "AI编程",
-                "算力"
-              ],
-              "source": "IT之家",
-              "time": "7月31日"
-            }
-          ]
-        },
-        {
-          "name": "月之暗面",
           "news": []
         },
         {
-          "name": "华为",
+          "name": "月之暗面",
           "news": [
             {
-              "title": "华为开源5050亿参数openPangu-2.0-Pro模型",
-              "summary": "7月31日消息，华为宣布开源盘古5050亿参数openPangu-2.0-Pro模型（模型权重、基础推理代码）及技术报告，支持512K超长上下文，基于昇腾NPU训练。这是6月HDC开发者大会余承东喊话「把盘古大模型做到世界第一」后的重磅发布，开发者可通过华为云MaaS平台在线体验。",
-              "link": "https://tech.ifeng.com/c/8vCgxixPlu3?ch=ttsearch",
+              "title": "美众议院调查DoorDash使用月之暗面模型",
+              "summary": "8月2日消息，美国众议院两个委员会联名致函DoorDash，要求其8月14日前提交使用的所有中国AI模型清单及安全测试记录。DoorDash联合创始人称Kimi K2.6与Anthropic Fable 5组合在成本更低情况下性能优于此前方案，议员担忧依赖中国模型的国安风险。",
+              "link": "https://tech.ifeng.com/c/8vFp7C3qDUw",
               "tags": [
-                "开源模型",
-                "大模型"
+                "中美AI",
+                "监管"
               ],
               "source": "凤凰科技",
-              "time": "7月31日消息"
+              "time": "8月2日消息"
             }
           ]
+        },
+        {
+          "name": "华为",
+          "news": []
         }
       ]
     },
@@ -258,18 +164,34 @@
           "name": "其他厂商",
           "cards": [
             {
+              "title": "高通",
+              "news": [
+                {
+                  "title": "高通完成收购Modular加速AI计算布局",
+                  "summary": "8月2日消息，高通宣布完成对AI原生软件基础设施初创企业Modular的收购，双方将打造领先AI计算平台。Modular平台可帮助开发者在异构计算系统中部署生成式AI和智能体，收购将加速高通在数据中心、边缘、工业AI等领域布局，Modular CEO Chris Lattner将出任高通高级AI软件与平台执行副总裁。",
+                  "link": "https://tech.ifeng.com/c/8vFw1L7qotc",
+                  "tags": [
+                    "收购",
+                    "AI计算"
+                  ],
+                  "source": "凤凰科技",
+                  "time": "8月2日消息"
+                }
+              ]
+            },
+            {
               "title": "苹果",
               "news": [
                 {
-                  "title": "库克：苹果首批Apple智能功能已获中国批准",
-                  "summary": "7月31日，苹果CEO库克在2026财年Q3财报电话会议确认，苹果上周已在中国获准推出首批「Apple 智能」功能，率先推出相册「消除」等工具。此前网信部门已按《生成式人工智能服务管理暂行办法》将「Apple 智能」列入7款端侧生成式AI备案名单。库克表示未来Siri AI在中国仍处起步阶段。",
-                  "link": "https://www.ithome.com/0/983/944.htm",
+                  "title": "苹果警告AI算力短缺或致产品延迟发布",
+                  "summary": "8月1日消息，苹果在提交给美国证券交易委员会的最新10-Q财报文件中警告，公司在AI和机器学习领域的计算资源可能面临短缺风险。文件指出存储芯片持续短缺、AI基础设施需求爆发使公司难以获得足够产能，若无法以商业合理条件获取资源，产品与服务的功能性和可用性将受限，甚至导致新品部署推迟。",
+                  "link": "http://www.c114.net.cn/ainews/106691.html",
                   "tags": [
-                    "端侧AI",
-                    "监管备案"
+                    "AI算力",
+                    "供应链"
                   ],
-                  "source": "IT之家",
-                  "time": "7月31日"
+                  "source": "C114通信网",
+                  "time": "8月1日消息"
                 }
               ]
             },
@@ -277,78 +199,14 @@
               "title": "长鑫科技",
               "news": [
                 {
-                  "title": "长鑫科技市值首次突破4万亿元",
-                  "summary": "7月31日，国产DRAM龙头长鑫科技盘中涨超13%，股价最高触及60.60元，总市值首次突破4万亿元，稳坐A股总市值头把交椅。该股7月27日登陆科创板，上市首日大涨465.82%登顶A股市值榜首，连续创下A股开盘市值破3万亿、单日成交破千亿等多项历史纪录。",
-                  "link": "https://finance.sina.com.cn/jjxw/2026-07-31/doc-inikshrr1376383.shtml",
+                  "title": "消息称长鑫LPDDR6接近研发验证尾声",
+                  "summary": "8月1日消息，据第一财经，行业人士透露长鑫存储LPDDR6已接近量产前的研发验证尾声，这是量产前的重要一步。首款产品速率达12800Mbps，在低功耗设计、RAS功能上较LPDDR5X明显优化，预计下半年量产导入。长鑫有望成为全球最早量产LPDDR6的存储厂商之一。",
+                  "link": "https://www.stcn.com/article/detail/4053680.html",
                   "tags": [
                     "存储芯片",
-                    "IPO"
+                    "LPDDR6"
                   ],
-                  "source": "新浪财经",
-                  "time": "7月31日"
-                }
-              ]
-            },
-            {
-              "title": "MiniMax",
-              "news": [
-                {
-                  "title": "MiniMax发布全模态生成模型H3将于近期开源",
-                  "summary": "7月31日，MiniMax正式发布通用全模态生成模型MiniMax H3，支持对文本、图像、视频、声音多模态上下文统一理解，可输出原生双声道音视频，最高支持15秒2K分辨率，视频生成价格约为主流模型三分之一。MiniMax计划近期开放模型权重，为国内视频生成大模型首次面向社区开源。",
-                  "link": "https://www.thepaper.cn/newsDetail_forward_33691798",
-                  "tags": [
-                    "多模态",
-                    "视频生成"
-                  ],
-                  "source": "澎湃新闻",
-                  "time": "7月31日"
-                }
-              ]
-            },
-            {
-              "title": "美团",
-              "news": [
-                {
-                  "title": "美团正式上线骑手「等灯停表」功能",
-                  "summary": "7月31日，美团与苏州公安联合上线外卖骑手「等灯停表」功能首个正式版本，率先在苏州约1100个路口试点。骑手等红灯时配送计时同步暂停，等灯时长单独累加并顺延配送时间。功能依托骑手位置轨迹与实时红绿灯灯态数据，预计今年内覆盖超百万骑手。",
-                  "link": "http://www.bjnews.com.cn/detail/1785550795169222.html",
-                  "tags": [
-                    "外卖",
-                    "配送"
-                  ],
-                  "source": "新京报",
-                  "time": "7月31日"
-                }
-              ]
-            },
-            {
-              "title": "LG",
-              "news": [
-                {
-                  "title": "LG AI研究院发布750B参数K-EXAONE 2.0",
-                  "summary": "7月31日，LG AI研究院发布韩国迄今最大AI基础模型K-EXAONE 2.0，总参数7500亿、激活参数370亿，采用MoE架构，支持262,144 token上下文窗口，以Apache 2.0开源。这是韩国科技信息通信部主导的「独立AI基础模型项目」第二代成果，24项基准测试平均得分70.1，超初代10%以上。",
-                  "link": "https://www.ithome.com/0/984/018.htm",
-                  "tags": [
-                    "开源模型",
-                    "韩语"
-                  ],
-                  "source": "IT之家",
-                  "time": "7月31日"
-                }
-              ]
-            },
-            {
-              "title": "亚马逊",
-              "news": [
-                {
-                  "title": "亚马逊提前兑现对OpenAI的500亿美元投资",
-                  "summary": "8月1日消息，据《金融时报》报道，亚马逊已提前完成对OpenAI总计500亿美元的投资，当前持股约5%。亚马逊2026年2月与OpenAI达成战略合作，原定追加投资需满足OpenAI完成IPO等条件，但未达成仍提前履约。AWS成为OpenAI企业平台Frontier独家第三方云分发合作伙伴。",
-                  "link": "https://news.qq.com/rain/a/20260801A03VUO00",
-                  "tags": [
-                    "AI投资",
-                    "云计算"
-                  ],
-                  "source": "腾讯新闻",
+                  "source": "证券时报",
                   "time": "8月1日消息"
                 }
               ]
@@ -357,56 +215,39 @@
         },
         {
           "name": "自动驾驶",
-          "cards": [
-            {
-              "title": "特斯拉",
-              "news": [
-                {
-                  "title": "特斯拉中国车机正式接入豆包大模型",
-                  "summary": "7月31日消息，特斯拉中国开始向Model 3、Model Y、Model S、Model X分批次推送2026.14.13版本车机软件更新，首次接入字节豆包大模型作为智能语音助手，支持实时信息查询和自然对话，需开通高级车载娱乐服务。这是特斯拉入华十余年来首次在AI交互层做本土化分叉，与DeepSeek Chat形成双模型分工。",
-                  "link": "https://tech.ifeng.com/c/8vCduzCAV3e?ch=ttsearch",
-                  "tags": [
-                    "智能座舱",
-                    "车载AI"
-                  ],
-                  "source": "凤凰科技",
-                  "time": "7月31日消息"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "具身智能",
           "cards": [
             {
-              "title": "人形机器人续航",
+              "title": "IDC",
               "news": [
                 {
-                  "title": "人形机器人「电量焦虑」行业探索换电路线",
-                  "summary": "7月31日消息，当前全球主流量产人形机器人续航普遍仅2到4小时，撑不满一个标准班次。在WAIC 2026上，均胜电子旗下均恩新能源指出行业面临续航能力不足与安全挑战两大核心矛盾。行业正在积极探索换电、固态电池、半固态电池等路线，换电是短期最务实方案。",
-                  "link": "https://stcn.com/article/detail/4051192.html",
+                  "title": "IDC：中国工业具身智能机器人市场达57.4亿元",
+                  "summary": "8月1日消息，IDC报告显示2025年中国工业具身智能机器人市场规模约57.4亿元，其中以工业机器人为载体约36.2亿元、以人形机器人为代表约21.1亿元。市场已进入商业化加速阶段，竞争正从机器人本体性能转向模型、数据、工程化和场景落地能力的综合竞争。",
+                  "link": "https://tech.ifeng.com/c/8vFB0kOdRnc",
                   "tags": [
                     "具身智能",
-                    "电池"
+                    "市场数据"
                   ],
-                  "source": "证券时报",
-                  "time": "7月31日消息"
+                  "source": "凤凰科技",
+                  "time": "8月1日消息"
                 }
               ]
             },
             {
-              "title": "高通",
+              "title": "Tau Robotics",
               "news": [
                 {
-                  "title": "高通回应NEURA人形机器人演示倒地",
-                  "summary": "8月1日消息，高通合作伙伴NEURA Robotics在台北国际电脑展演示搭载高通Dragonwing IQ10参考设计的4NE-1人形机器人时，机器人突然后仰倒地。高通回应称，一次短暂通信故障触发受控关机，机器人执行了设计中的「安全倒塌」序列，安全系统按预期工作。",
-                  "link": "https://tech.ifeng.com/c/8vEHeVBDNFi",
+                  "title": "Tau Robotics推人形机器人家政清洁服务",
+                  "summary": "8月1日消息，美国旧金山初创公司Tau Robotics推出人形机器人家政清洁服务，每小时30美元。目前机器人由真人在中央控制室实时操控、AI仅起辅助作用，公司员工随机器人上门监督。每次服务全程录像用于训练未来自主清洁AI，引发隐私和数据收集争议。",
+                  "link": "https://www.ithome.com/0/984/573.htm",
                   "tags": [
                     "人形机器人",
-                    "演示事故"
+                    "家政"
                   ],
-                  "source": "凤凰科技",
+                  "source": "IT之家",
                   "time": "8月1日消息"
                 }
               ]
@@ -419,86 +260,37 @@
         },
         {
           "name": "投资资讯",
-          "cards": [
-            {
-              "title": "Nscale",
-              "news": [
-                {
-                  "title": "英伟达支持的Nscale最早秋季IPO估值约250亿美元",
-                  "summary": "7月31日，据报道，英伟达支持的AI基础设施公司Nscale最早可能于今年秋季进行IPO，投行给出的上市前估值目标约250亿美元，较3月20亿美元C轮融资时的146亿美元大幅提升。公司为英国AI云初创企业，已获得英伟达、微软、OpenAI等战略投资，计划下周在纽约举办投资者日活动。",
-                  "link": "https://news.qq.com/rain/a/20260731A04XME00",
-                  "tags": [
-                    "AI基础设施",
-                    "IPO"
-                  ],
-                  "source": "腾讯新闻",
-                  "time": "7月31日"
-                }
-              ]
-            },
-            {
-              "title": "昆腾动力",
-              "news": [
-                {
-                  "title": "昆腾动力完成超亿元种子轮融资",
-                  "summary": "7月31日，Physical AI平台公司昆腾动力完成超亿元种子轮融资，由云启资本、商汤国香资本联合投资。资金将用于Physical AI核心技术研发与全球化市场拓展。公司由前菜鸟CTO李强创立，以物流为切入点构建从真实部署中持续进化的具身智能系统。",
-                  "link": "https://www.jiemian.com/article/14855619.html",
-                  "tags": [
-                    "具身智能",
-                    "融资"
-                  ],
-                  "source": "界面新闻",
-                  "time": "7月31日"
-                }
-              ]
-            },
-            {
-              "title": "AI股神爆仓",
-              "news": [
-                {
-                  "title": "「AI股神」对冲基金爆仓规模缩水至百亿美元",
-                  "summary": "7月31日，25岁前OpenAI研究员阿申布伦纳创立的AI对冲基金「态势感知」因高杠杆重仓AI基建股，在市场暴跌中惨遭强制平仓，管理规模从450亿美元峰值骤降至约100亿美元。其被迫将约160亿美元公开持仓折价出售给城堡投资，重仓的SK海力士、CoreWeave等暴跌。",
-                  "link": "https://stcn.com/article/detail/4052018.html",
-                  "tags": [
-                    "对冲基金",
-                    "市场波动"
-                  ],
-                  "source": "证券时报",
-                  "time": "7月31日"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "欧盟AI监管",
+              "title": "马斯克、奥特曼",
               "news": [
                 {
-                  "title": "欧盟8月2日起执行AI透明度要求",
-                  "summary": "7月31日消息，欧盟委员会宣布自8月2日起，人工智能办公室与各成员国主管部门共同开始执行《人工智能法》相关规定，新增AI透明度要求：聊天机器人等交互式AI须明确告知用户其AI身份，深度伪造内容必须标识，AI生成内容需添加机器可识别标记。",
-                  "link": "https://news.cctv.com/2026/07/31/ARTItFt550LPTCOENGi4IQQA260731.shtml",
+                  "title": "马斯克和奥特曼共识：人类已迈入AI奇点时代",
+                  "summary": "8月1日消息，科技媒体thenews报道马斯克和奥特曼在AI奇点议题上达成共识。奥特曼7月25日作客播客时称「已身处奇点时代」，AI已能自动化约30-40%的人类工作；马斯克7月31日在X发推称「AI在很多方面已超越人类，正处于奇点之中」。",
+                  "link": "https://finance.sina.com.cn/tech/digi/2026-08-01/doc-inikvanf3779938.shtml",
                   "tags": [
-                    "AI监管",
-                    "透明度"
+                    "AI奇点",
+                    "行业观点"
                   ],
-                  "source": "央视新闻",
-                  "time": "7月31日消息"
+                  "source": "新浪财经",
+                  "time": "8月1日消息"
                 }
               ]
             },
             {
-              "title": "德国AI版权",
+              "title": "四大科技巨头",
               "news": [
                 {
-                  "title": "德国法院裁定AI音乐公司Suno侵犯版权",
-                  "summary": "8月1日消息，德国慕尼黑地区法院判决美国AI音乐生成平台Suno侵犯版权。法院认定Suno未经德国音乐演出和作品复制权协会GEMA许可，使用其代理音乐人作品训练AI模型，模型本身构成侵权，须公布违法所得并支付赔偿金，且不得再基于GEMA代理作品生成歌曲。",
-                  "link": "https://news.ifeng.com/c/8vDSFu11M9m",
+                  "title": "四大科技巨头承诺2.4万亿美元投入AI基建",
+                  "summary": "8月1日消息，据彭博社报道，谷歌母公司Alphabet、Meta、微软和亚马逊已为未来数年数据中心建设承诺投入近2.4万亿美元。过去一年四家公司支出承诺急剧膨胀，尽管Alphabet和亚马逊自由现金流已转负，但各公司仍相继上调支出计划，理由是AI算力需求极为庞大。",
+                  "link": "https://tech.ifeng.com/c/8vEmODESuU5",
                   "tags": [
-                    "AI版权",
-                    "法律"
+                    "AI基建",
+                    "资本开支"
                   ],
                   "source": "凤凰科技",
                   "time": "8月1日消息"
@@ -506,18 +298,50 @@
               ]
             },
             {
-              "title": "发改委AI数据",
+              "title": "唱片公司",
               "news": [
                 {
-                  "title": "发改委：AI相关行业保持30%以上高增长",
-                  "summary": "7月31日，国家发改委在7月新闻发布会上介绍，人工智能相关行业保持30%以上的高增长，截至6月底全国智能算力规模达去年同期2.8倍。上半年国产大模型全球总下载量突破100亿次，首个全国产10万卡AI超集群投用。下一步将加快人工智能法立法进程。",
-                  "link": "https://stcn.com/article/detail/4051813.html",
+                  "title": "唱片公司提议将低质AI音乐剔除排行榜",
+                  "summary": "8月1日消息，据The Verge报道，环球音乐、索尼音乐、华纳音乐等多家唱片公司提议将低质量AI音乐从排行榜中剔除。提案要求歌曲满足「实质上由人类创作」等标准才能进入国际排行榜，AI仅起辅助作用的歌曲仍有资格，但需符合AI服务条款、训练数据合法使用权等要求。",
+                  "link": "https://m.ithome.com/html/984621.htm",
                   "tags": [
-                    "行业数据",
-                    "政策"
+                    "AI音乐",
+                    "版权"
                   ],
-                  "source": "证券时报",
-                  "time": "7月31日"
+                  "source": "IT之家",
+                  "time": "8月1日消息"
+                }
+              ]
+            },
+            {
+              "title": "中国AI大模型",
+              "news": [
+                {
+                  "title": "央视：中国AI大模型领跑全球调用量榜单",
+                  "summary": "8月2日消息，据央视报道，OpenRouter全球大模型调用量榜单前五名全为中国企业，小米MiMo-V2.5以单周10.5万亿Tokens居首；Hugging Face上中国开源模型累计下载量突破100亿次、全球第一，千问系列以超10亿次居首。中国开源模型下载量已占全球41%，超越美国。",
+                  "link": "https://www.ithome.com/0/984/725.htm",
+                  "tags": [
+                    "开源模型",
+                    "行业趋势"
+                  ],
+                  "source": "IT之家",
+                  "time": "8月2日消息"
+                }
+              ]
+            },
+            {
+              "title": "AI训练数据争议",
+              "news": [
+                {
+                  "title": "珍稀图书遭粉碎用于AI训练引众怒",
+                  "summary": "8月2日消息，多家图书供应商突然收到数量异常庞大的图书采购订单，外界猜测AI公司为获取高质量训练数据大量采购实体书并拆脊扫描后销毁。图书数据库ISBNdb被指牵线搭桥，已删除相关宣传页面并否认从事AI训练。此前Anthropic「巴拿马计划」已与作者达成15亿美元和解。",
+                  "link": "https://tech.ifeng.com/c/8vFjKy8K2MZ",
+                  "tags": [
+                    "训练数据",
+                    "版权"
+                  ],
+                  "source": "凤凰科技",
+                  "time": "8月2日消息"
                 }
               ]
             }
@@ -636,58 +460,58 @@
         },
         {
           "name": "OpenRouter",
-          "date": "2026-08-01",
+          "date": "2026-08-02",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
-              "model": "MiMo-V2.5",
-              "score": "8.09T tokens",
-              "change": "↑19%"
+              "model": "DeepSeek V4 Flash",
+              "score": "7.43T tokens",
+              "change": "↑24%"
             },
             {
-              "model": "DeepSeek V4 Flash",
-              "score": "7.56T tokens",
-              "change": "↑30%"
+              "model": "MiMo-V2.5",
+              "score": "7.23T tokens",
+              "change": "↑29%"
             },
             {
               "model": "Hy3",
-              "score": "4.8T tokens",
-              "change": "↑73%"
+              "score": "4.79T tokens",
+              "change": "↑43%"
             },
             {
               "model": "DeepSeek V4 Pro",
-              "score": "3.6T tokens",
-              "change": "↑20%"
+              "score": "3.5T tokens",
+              "change": "↑14%"
             },
             {
               "model": "GLM 5.2",
-              "score": "3.06T tokens",
-              "change": "↑15%"
+              "score": "2.99T tokens",
+              "change": "↑14%"
             },
             {
               "model": "Nemotron 3 Ultra (free)",
-              "score": "2.58T tokens",
-              "change": "↑8%"
+              "score": "2.5T tokens",
+              "change": "↑5%"
             },
             {
               "model": "MiniMax M3",
-              "score": "2.03T tokens",
-              "change": "↑16%"
+              "score": "2T tokens",
+              "change": "↑9%"
             },
             {
               "model": "Step 3.7 Flash",
-              "score": "1.7T tokens",
-              "change": "↑2%"
+              "score": "1.67T tokens",
+              "change": "↑9%"
             },
             {
               "model": "Kimi K3",
-              "score": "1.38T tokens",
-              "change": "↑13%"
+              "score": "1.41T tokens",
+              "change": "↑15%"
             },
             {
               "model": "Ling-3.0-flash (free)",
-              "score": "1.35T tokens",
-              "change": "↑882%"
+              "score": "1.39T tokens",
+              "change": "↑423%"
             },
             {
               "model": "Claude Sonnet 5",
