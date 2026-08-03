@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,26 +7,26 @@ window.__RAW_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI公布Astra十项数学突破，成本仅2000美元",
-              "summary": "8月1日消息，OpenAI公布下一代核心模型Astra（内部版）在数学与理论计算机科学领域取得十项重大进展，涵盖球体堆积、非sofic群、Connes刚性猜想等多年未解难题，按Sol API费率计算Token总成本约2000美元。人类研究员将论证整理成249页论文并转为Lean 4形式化证明。",
-              "link": "https://tech.ifeng.com/c/8vEn0UHsJD4",
+              "title": "OpenAI或将IPO推迟到明年",
+              "summary": "8月1日消息，据《华尔街日报》报道，因投资者担忧现金消耗过快、巨额亏损及市场环境不佳，OpenAI可能将IPO推迟至明年，原定最快2026年秋季上市的计划生变。与此同时，Anthropic正加速推进秋季IPO计划，其营收增长与估值近期均超过OpenAI，部分投资者通过向Anthropic注资对冲对OpenAI的押注。",
+              "link": "https://finance.eastmoney.com/a/202608013828990123.html",
               "tags": [
-                "数学推理",
-                "大模型"
+                "IPO",
+                "资本市场"
               ],
-              "source": "凤凰科技",
+              "source": "东方财富",
               "time": "8月1日消息"
             },
             {
-              "title": "OpenAI封禁柬埔寨ChatGPT诈骗网络",
-              "summary": "8月1日消息，OpenAI发布报告披露成功打击位于柬埔寨的诈骗网络，该团伙利用ChatGPT进行投资、婚恋、赌博诈骗并冒充执法机关，用AI批量制造虚假身份、翻译对话、伪造证件。OpenAI已封禁相关账号并向行业分享威胁指标，案件最初由WhatsApp提供线索。",
-              "link": "https://tech.ifeng.com/c/8vECwSCaoOp",
+              "title": "奥特曼建议放缓AI发展速度，重检模型安全边界",
+              "summary": "8月3日消息，OpenAI CEO奥特曼近日表示，或许是时候控制人工智能发展速度，让社会有时间围绕新能力水平做好准备。他此前在播客中承认已与白宫官员讨论放缓AI发展的必要性，OpenAI与Anthropic均支持1200余名AI员工联署的减速请愿。这一表态出现在OpenAI模型卷入Hugging Face安全事件之后。",
+              "link": "https://wt.cfi.cn/p20260803000020.html",
               "tags": [
                 "AI安全",
-                "反诈"
+                "行业观点"
               ],
-              "source": "凤凰科技",
-              "time": "8月1日消息"
+              "source": "中财网",
+              "time": "8月3日消息"
             }
           ]
         },
@@ -36,55 +36,32 @@ window.__RAW_DATA = {
         },
         {
           "name": "Google",
-          "news": [
-            {
-              "title": "谷歌Gemini Spark智能体面向全球开放",
-              "summary": "当地时间7月31日，谷歌宣布个人AI智能体Gemini Spark向全球大部分用户开放，可在用户指示下整理收件箱、总结邮件、取消订阅，与Chrome深度整合后能搜索航班、预订机票，手机锁屏或电脑关机时也能在后台持续工作。美国用户需订阅Google AI Pro/Ultra。",
-              "link": "https://m.ithome.com/html/984674.htm",
-              "tags": [
-                "智能体",
-                "AI助手"
-              ],
-              "source": "IT之家",
-              "time": "当地时间7月31日"
-            },
-            {
-              "title": "前DeepMind研究员爆料谷歌雪藏聊天机器人",
-              "summary": "8月2日消息，OpenAI Codex工程负责人、前DeepMind研究员蒂博爆料，谷歌曾在ChatGPT发布一年前就做出功能类似的聊天机器人LMChat，但因担心与搜索业务形成竞争最终被雪藏。谷歌内部规定DeepMind不能发布可能颠覆现有业务的产品，杰夫·迪恩也证实曾研发过聊天机器人。",
-              "link": "https://tech.ifeng.com/c/8vGDMUDuwbm",
-              "tags": [
-                "竞争格局",
-                "行业爆料"
-              ],
-              "source": "凤凰科技",
-              "time": "8月2日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "xAI",
           "news": [
             {
-              "title": "马斯克关注DeepSeek官方X账号",
-              "summary": "8月1日消息，马斯克在X平台悄悄关注了中国AI公司DeepSeek的官方账号，此时正值DeepSeek-V4-Flash正式版API上线公测引发关注。马斯克曾多次质疑DeepSeek，此次关注被解读为其态度从质疑转向重点观察，DeepSeek已进入xAI与特斯拉的核心观察清单。",
-              "link": "https://tech.ifeng.com/c/8vF7E4cF0Px",
+              "title": "SpaceX首份财报即将发布，空头持仓创纪录",
+              "summary": "8月2日消息，SpaceX将于8月4日美股盘后发布上市以来首份财报，8月6日面临最多9.115亿股解禁（价值超1000亿美元）。截至7月29日空头持仓达2.193亿股，约占可交易流通股34%，名义价值约246亿美元，为美国被做空最严重的大型公司之一。股价已较上市高点跌超52%至108美元附近。",
+              "link": "https://finance.eastmoney.com/a/202608023829093485.html",
               "tags": [
-                "AI竞争",
-                "关注"
+                "SpaceX",
+                "财报"
               ],
-              "source": "凤凰科技",
-              "time": "8月1日消息"
+              "source": "东方财富",
+              "time": "8月2日消息"
             },
             {
-              "title": "明尼苏达法官驳回xAI阻止脱衣应用禁令",
-              "summary": "当地时间7月31日，明尼苏达州联邦地区法院驳回xAI提出的临时限制令申请，允许全美首个AI「脱衣」应用禁令按计划8月1日生效。法官指xAI拖延起诉、损害非紧迫。xAI辩称法律过宽违反第一修正案，违规每次最高罚50万美元，法院将于8月19日举行初步禁令听证。",
-              "link": "https://www.163.com/dy/article/L3AJ6C1I0511BLFD.html",
+              "title": "SpaceXAI将拆除数据中心69台移动涡轮发电机",
+              "summary": "8月2日消息，马斯克旗下SpaceXAI宣布，因环境污染争议，将逐步拆除Colossus数据中心69台临时移动天然气涡轮发电机，2027年7月前全部清退。这批发电机曾是其19天部署10万块英伟达H200的关键，但因缺运营许可遭投诉和诉讼。作为替代，一座1.2GW永久发电厂正在建设。",
+              "link": "https://tech.ifeng.com/c/8vGjazOpCWo?ch=ttsearch",
               "tags": [
-                "AI监管",
-                "合规"
+                "数据中心",
+                "能源"
               ],
-              "source": "网易",
-              "time": "当地时间7月31日"
+              "source": "凤凰科技",
+              "time": "8月2日消息"
             }
           ]
         },
@@ -110,19 +87,7 @@ window.__RAW_DATA = {
         },
         {
           "name": "DeepSeek",
-          "news": [
-            {
-              "title": "国家超算互联网上线DeepSeek V4-Flash API",
-              "summary": "8月2日消息，国家超算互联网正式上线DeepSeek-V4-Flash-0731正式版模型API调用服务和模型文件，智能体与指令遵循能力大幅增强，性能媲美最强闭源模型，企业和开发者一键接入即可快速调用，无需繁琐环境配置。该平台已成为全国首个十万卡级超智融合算力资源池。",
-              "link": "https://tech.ifeng.com/c/8vGOBhOTSm8",
-              "tags": [
-                "算力平台",
-                "大模型"
-              ],
-              "source": "凤凰科技",
-              "time": "8月2日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "腾讯",
@@ -138,19 +103,7 @@ window.__RAW_DATA = {
         },
         {
           "name": "月之暗面",
-          "news": [
-            {
-              "title": "美众议院调查DoorDash使用月之暗面模型",
-              "summary": "8月2日消息，美国众议院两个委员会联名致函DoorDash，要求其8月14日前提交使用的所有中国AI模型清单及安全测试记录。DoorDash联合创始人称Kimi K2.6与Anthropic Fable 5组合在成本更低情况下性能优于此前方案，议员担忧依赖中国模型的国安风险。",
-              "link": "https://tech.ifeng.com/c/8vFp7C3qDUw",
-              "tags": [
-                "中美AI",
-                "监管"
-              ],
-              "source": "凤凰科技",
-              "time": "8月2日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "华为",
@@ -164,50 +117,77 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "高通",
-              "news": [
-                {
-                  "title": "高通完成收购Modular加速AI计算布局",
-                  "summary": "8月2日消息，高通宣布完成对AI原生软件基础设施初创企业Modular的收购，双方将打造领先AI计算平台。Modular平台可帮助开发者在异构计算系统中部署生成式AI和智能体，收购将加速高通在数据中心、边缘、工业AI等领域布局，Modular CEO Chris Lattner将出任高通高级AI软件与平台执行副总裁。",
-                  "link": "https://tech.ifeng.com/c/8vFw1L7qotc",
-                  "tags": [
-                    "收购",
-                    "AI计算"
-                  ],
-                  "source": "凤凰科技",
-                  "time": "8月2日消息"
-                }
-              ]
-            },
-            {
               "title": "苹果",
               "news": [
                 {
-                  "title": "苹果警告AI算力短缺或致产品延迟发布",
-                  "summary": "8月1日消息，苹果在提交给美国证券交易委员会的最新10-Q财报文件中警告，公司在AI和机器学习领域的计算资源可能面临短缺风险。文件指出存储芯片持续短缺、AI基础设施需求爆发使公司难以获得足够产能，若无法以商业合理条件获取资源，产品与服务的功能性和可用性将受限，甚至导致新品部署推迟。",
-                  "link": "http://www.c114.net.cn/ainews/106691.html",
+                  "title": "苹果限制AI批量低质漏洞报告",
+                  "summary": "8月2日消息，苹果安全研究团队更新漏洞赏金计划规则，限制每位安全研究人员同时提交的漏洞数量并设30天冷却期。原因是大量自动化脚本与AI大模型被用于生成虚假漏洞报告，多数属模型幻觉产物，挤占审核精力。意大利公司Bynario用ChatGPT三周发现macOS 50多个漏洞却因限额无法上报。",
+                  "link": "https://m.ithome.com/html/984722.htm",
                   "tags": [
-                    "AI算力",
+                    "AI安全",
+                    "漏洞赏金"
+                  ],
+                  "source": "IT之家",
+                  "time": "8月2日消息"
+                },
+                {
+                  "title": "AI内存短缺致MacBook Air缺货",
+                  "summary": "8月3日消息，据彭博社记者古尔曼报道，AI产业快速扩张引发的内存芯片短缺正影响苹果Mac供应，畅销的MacBook Air面临库存压力，部分型号需等到8月下旬甚至9月发货。苹果返校季宣传也明显减少对MacBook Air的强调，转而突出基础款MacBook Pro。",
+                  "link": "https://tech.ifeng.com/c/8vHPJI0FDGs?ch=ttsearch",
+                  "tags": [
+                    "内存短缺",
                     "供应链"
                   ],
-                  "source": "C114通信网",
+                  "source": "凤凰科技",
+                  "time": "8月3日消息"
+                }
+              ]
+            },
+            {
+              "title": "三星",
+              "news": [
+                {
+                  "title": "三星预计内存短缺2027年加剧",
+                  "summary": "8月1日消息，三星在Q2财报电话会上预测，全球内存芯片短缺将在2027年进一步加剧，供应紧张至少持续至2028年。前沿AI实验室正直接向三星提交中长期需求预测以提前锁定产能，存储厂商将60%-70%产能签入面向数据中心和AI实验室的长期合同，消费电子产能被持续压缩。",
+                  "link": "https://m.ithome.com/html/984435.htm",
+                  "tags": [
+                    "内存短缺",
+                    "AI需求"
+                  ],
+                  "source": "IT之家",
                   "time": "8月1日消息"
                 }
               ]
             },
             {
-              "title": "长鑫科技",
+              "title": "哔哩哔哩",
               "news": [
                 {
-                  "title": "消息称长鑫LPDDR6接近研发验证尾声",
-                  "summary": "8月1日消息，据第一财经，行业人士透露长鑫存储LPDDR6已接近量产前的研发验证尾声，这是量产前的重要一步。首款产品速率达12800Mbps，在低功耗设计、RAS功能上较LPDDR5X明显优化，预计下半年量产导入。长鑫有望成为全球最早量产LPDDR6的存储厂商之一。",
-                  "link": "https://www.stcn.com/article/detail/4053680.html",
+                  "title": "曾爱玲加入B站负责AI视频生成",
+                  "summary": "7月31日消息，据36氪独家报道，曾爱玲入职哔哩哔哩担任AI视频生成业务负责人，向CEO陈睿汇报。她曾在腾讯混元与AI Lab工作三年，后在米哈游创始人蔡浩宇旗下Anuttacon负责交互式多模态视频生成系统。B站AI投入覆盖视频理解、推荐和辅助创作，曾爱玲入职将推动AI视频生成升至更高层级。",
+                  "link": "https://www.36kr.com/p/3910776673064073",
                   "tags": [
-                    "存储芯片",
-                    "LPDDR6"
+                    "AI视频",
+                    "人事变动"
                   ],
-                  "source": "证券时报",
-                  "time": "8月1日消息"
+                  "source": "36氪",
+                  "time": "7月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "Snap",
+              "news": [
+                {
+                  "title": "Snap将于9月全面展示消费级AR眼镜Specs",
+                  "summary": "8月2日消息，Snap宣布将于9月16日在洛杉矶举办专场活动，全面展示旗下首款面向普通消费者的AR眼镜Specs，CEO埃文·斯皮格尔将首次深入介绍其功能。该眼镜售价2195美元，内置浏览器并接入OpenAI和Google双平台AI能力，已开启预购，预计秋季率先在美国、英国、法国发货。",
+                  "link": "https://m.ithome.com/html/984792.htm",
+                  "tags": [
+                    "AR眼镜",
+                    "AI助手"
+                  ],
+                  "source": "IT之家",
+                  "time": "8月2日消息"
                 }
               ]
             }
@@ -221,34 +201,34 @@ window.__RAW_DATA = {
           "name": "具身智能",
           "cards": [
             {
-              "title": "IDC",
+              "title": "启元机器人",
               "news": [
                 {
-                  "title": "IDC：中国工业具身智能机器人市场达57.4亿元",
-                  "summary": "8月1日消息，IDC报告显示2025年中国工业具身智能机器人市场规模约57.4亿元，其中以工业机器人为载体约36.2亿元、以人形机器人为代表约21.1亿元。市场已进入商业化加速阶段，竞争正从机器人本体性能转向模型、数据、工程化和场景落地能力的综合竞争。",
-                  "link": "https://tech.ifeng.com/c/8vFB0kOdRnc",
+                  "title": "上纬启元与《魔兽世界》合作推限定机器人",
+                  "summary": "8月2日消息，上纬新材旗下消费级具身智能品牌启元机器人在ChinaJoy期间官宣与暴雪《魔兽世界》合作，推出活动限定「鱼人定制款」启元Q1机器人。该产品依托启元Q1探索版模块化设计、软硬件开源能力打造，身高约80-88厘米，22个自由度，支持轮足、人形、四足三态切换，搭载AI跟拍等功能。",
+                  "link": "https://www.ithome.com/0/984/758.htm",
                   "tags": [
                     "具身智能",
-                    "市场数据"
+                    "IP联动"
                   ],
-                  "source": "凤凰科技",
-                  "time": "8月1日消息"
+                  "source": "IT之家",
+                  "time": "8月2日消息"
                 }
               ]
             },
             {
-              "title": "Tau Robotics",
+              "title": "法拉第未来",
               "news": [
                 {
-                  "title": "Tau Robotics推人形机器人家政清洁服务",
-                  "summary": "8月1日消息，美国旧金山初创公司Tau Robotics推出人形机器人家政清洁服务，每小时30美元。目前机器人由真人在中央控制室实时操控、AI仅起辅助作用，公司员工随机器人上门监督。每次服务全程录像用于训练未来自主清洁AI，引发隐私和数据收集争议。",
-                  "link": "https://www.ithome.com/0/984/573.htm",
+                  "title": "贾跃亭FF EAI机器人7月出货152台创新高",
+                  "summary": "8月3日消息，法拉第未来创始人贾跃亭透露，FF EAI机器人7月实现销售及出货152台，创单月新高，截至7月底累计出货394台，正朝着全年2000台目标推进。公司今年5月宣布转型为物理AI生态企业，确立人形仿生机器人与汽车机器人两大主线，整车业务退居次要位置。",
+                  "link": "https://tech.ifeng.com/c/8vHSpzNcSa9?ch=ttsearch",
                   "tags": [
-                    "人形机器人",
-                    "家政"
+                    "具身智能",
+                    "人形机器人"
                   ],
-                  "source": "IT之家",
-                  "time": "8月1日消息"
+                  "source": "凤凰科技",
+                  "time": "8月3日消息"
                 }
               ]
             }
@@ -266,81 +246,33 @@ window.__RAW_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "马斯克、奥特曼",
+              "title": "AI成本论",
               "news": [
                 {
-                  "title": "马斯克和奥特曼共识：人类已迈入AI奇点时代",
-                  "summary": "8月1日消息，科技媒体thenews报道马斯克和奥特曼在AI奇点议题上达成共识。奥特曼7月25日作客播客时称「已身处奇点时代」，AI已能自动化约30-40%的人类工作；马斯克7月31日在X发推称「AI在很多方面已超越人类，正处于奇点之中」。",
-                  "link": "https://finance.sina.com.cn/tech/digi/2026-08-01/doc-inikvanf3779938.shtml",
+                  "title": "经济学家汉克：AI成本极高难大规模取代人力",
+                  "summary": "8月3日消息，约翰斯·霍普金斯大学教授汉克批评「AI将免费」的观点脱离现实，指出AI运行需消耗大量水电和GPU，成本极高，很多情况下使用AI成本反而比雇佣员工更高，企业不会把所有员工裁掉换成AI。他认为决定AI革命走向的是稀缺资源成本，而非市场热情。",
+                  "link": "https://m.ithome.com/html/984835.htm",
                   "tags": [
-                    "AI奇点",
-                    "行业观点"
-                  ],
-                  "source": "新浪财经",
-                  "time": "8月1日消息"
-                }
-              ]
-            },
-            {
-              "title": "四大科技巨头",
-              "news": [
-                {
-                  "title": "四大科技巨头承诺2.4万亿美元投入AI基建",
-                  "summary": "8月1日消息，据彭博社报道，谷歌母公司Alphabet、Meta、微软和亚马逊已为未来数年数据中心建设承诺投入近2.4万亿美元。过去一年四家公司支出承诺急剧膨胀，尽管Alphabet和亚马逊自由现金流已转负，但各公司仍相继上调支出计划，理由是AI算力需求极为庞大。",
-                  "link": "https://tech.ifeng.com/c/8vEmODESuU5",
-                  "tags": [
-                    "AI基建",
-                    "资本开支"
-                  ],
-                  "source": "凤凰科技",
-                  "time": "8月1日消息"
-                }
-              ]
-            },
-            {
-              "title": "唱片公司",
-              "news": [
-                {
-                  "title": "唱片公司提议将低质AI音乐剔除排行榜",
-                  "summary": "8月1日消息，据The Verge报道，环球音乐、索尼音乐、华纳音乐等多家唱片公司提议将低质量AI音乐从排行榜中剔除。提案要求歌曲满足「实质上由人类创作」等标准才能进入国际排行榜，AI仅起辅助作用的歌曲仍有资格，但需符合AI服务条款、训练数据合法使用权等要求。",
-                  "link": "https://m.ithome.com/html/984621.htm",
-                  "tags": [
-                    "AI音乐",
-                    "版权"
+                    "行业观点",
+                    "AI成本"
                   ],
                   "source": "IT之家",
-                  "time": "8月1日消息"
+                  "time": "8月3日消息"
                 }
               ]
             },
             {
-              "title": "中国AI大模型",
+              "title": "大模型评测",
               "news": [
                 {
-                  "title": "央视：中国AI大模型领跑全球调用量榜单",
-                  "summary": "8月2日消息，据央视报道，OpenRouter全球大模型调用量榜单前五名全为中国企业，小米MiMo-V2.5以单周10.5万亿Tokens居首；Hugging Face上中国开源模型累计下载量突破100亿次、全球第一，千问系列以超10亿次居首。中国开源模型下载量已占全球41%，超越美国。",
-                  "link": "https://www.ithome.com/0/984/725.htm",
+                  "title": "Arena推出AutoEval用奖励模型快速预估排名",
+                  "summary": "8月2日消息，大模型评测平台Arena推出AutoEval，用数百万组真实用户偏好训练奖励模型模拟用户投票，新模型发布后最快1小时即可获得预估排行榜分数，后续再由真人投票校正。回测显示其与真人排名相关性超0.98，但模型实力接近（分差小于5分）时区分度有限。",
+                  "link": "https://www.theblockbeats.info/flash/359235",
                   "tags": [
-                    "开源模型",
-                    "行业趋势"
+                    "模型评测",
+                    "奖励模型"
                   ],
-                  "source": "IT之家",
-                  "time": "8月2日消息"
-                }
-              ]
-            },
-            {
-              "title": "AI训练数据争议",
-              "news": [
-                {
-                  "title": "珍稀图书遭粉碎用于AI训练引众怒",
-                  "summary": "8月2日消息，多家图书供应商突然收到数量异常庞大的图书采购订单，外界猜测AI公司为获取高质量训练数据大量采购实体书并拆脊扫描后销毁。图书数据库ISBNdb被指牵线搭桥，已删除相关宣传页面并否认从事AI训练。此前Anthropic「巴拿马计划」已与作者达成15亿美元和解。",
-                  "link": "https://tech.ifeng.com/c/8vFjKy8K2MZ",
-                  "tags": [
-                    "训练数据",
-                    "版权"
-                  ],
-                  "source": "凤凰科技",
+                  "source": "The Block Beats",
                   "time": "8月2日消息"
                 }
               ]
@@ -460,53 +392,58 @@ window.__RAW_DATA = {
         },
         {
           "name": "OpenRouter",
-          "date": "2026-08-02",
+          "date": "2026-08-03",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "DeepSeek V4 Flash",
-              "score": "7.43T tokens",
-              "change": "↑24%"
+              "score": "7.22T tokens",
+              "change": "↑13%"
             },
             {
               "model": "MiMo-V2.5",
-              "score": "7.23T tokens",
-              "change": "↑29%"
+              "score": "6.3T tokens",
+              "change": "↑40%"
             },
             {
               "model": "Hy3",
-              "score": "4.79T tokens",
-              "change": "↑43%"
+              "score": "4.82T tokens",
+              "change": "↑22%"
             },
             {
               "model": "DeepSeek V4 Pro",
-              "score": "3.5T tokens",
-              "change": "↑14%"
+              "score": "3.28T tokens",
+              "change": "↑3%"
             },
             {
               "model": "GLM 5.2",
-              "score": "2.99T tokens",
-              "change": "↑14%"
+              "score": "2.89T tokens",
+              "change": "↑12%"
             },
             {
               "model": "Nemotron 3 Ultra (free)",
-              "score": "2.5T tokens",
-              "change": "↑5%"
+              "score": "2.43T tokens",
+              "change": "↑4%"
             },
             {
               "model": "MiniMax M3",
-              "score": "2T tokens",
-              "change": "↑9%"
+              "score": "1.96T tokens",
+              "change": "↑4%"
+            },
+            {
+              "model": "GPT-5.6 Luna",
+              "score": "1.95T tokens",
+              "change": "↑465%"
             },
             {
               "model": "Step 3.7 Flash",
-              "score": "1.67T tokens",
-              "change": "↑9%"
+              "score": "1.66T tokens",
+              "change": "↑14%"
             },
             {
               "model": "Kimi K3",
-              "score": "1.41T tokens",
-              "change": "↑15%"
+              "score": "1.42T tokens",
+              "change": "↑16%"
             },
             {
               "model": "Ling-3.0-flash (free)",
@@ -532,11 +469,6 @@ window.__RAW_DATA = {
               "model": "Claude Opus 5",
               "score": "927B tokens",
               "change": "↑>999%"
-            },
-            {
-              "model": "GPT-5.6 Luna",
-              "score": "835B tokens",
-              "change": "↑151%"
             },
             {
               "model": "Gemini 2.5 Flash Lite",
