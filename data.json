@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-04",
+  "date": "2026-08-05",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,21 +7,33 @@
           "name": "OpenAI",
           "news": [
             {
-              "title": "ChatGPT Atlas浏览器将于8月9日停服",
-              "summary": "8月3日消息，OpenAI宣布旗下AI浏览器ChatGPT Atlas将于8月9日停止服务，并把基于浏览器的智能体能力迁移到ChatGPT桌面版和Codex。Atlas数据不会自动迁移，用户需手动导出书签和浏览历史。该浏览器于2025年10月登陆macOS，上线不到10个月即被弃用。",
-              "link": "https://tech.ifeng.com/c/8vI2Hkh5o9O",
+              "title": "OpenAI发文回击苹果商业秘密指控",
+              "summary": "当地时间8月3日，OpenAI在官网发表《苹果，这件事是你做错了》一文，公开邮件与聊天记录，逐条反驳苹果对其挪用商业秘密的指控，称苹果的禁令申请「基于错误信息且完全没有必要」，公司「没有、也不想要」苹果的任何商业机密。",
+              "link": "https://finance.sina.cn/2026-08-04/detail-inimeefi5246580.d.html",
               "tags": [
-                "AI浏览器",
-                "产品调整"
+                "商业秘密",
+                "苹果诉讼"
               ],
-              "source": "凤凰科技",
-              "time": "8月3日消息"
+              "source": "新浪财经",
+              "time": "当地时间8月3日"
             }
           ]
         },
         {
           "name": "Anthropic",
-          "news": []
+          "news": [
+            {
+              "title": "Anthropic CEO内部言论：担忧员工只为钱而来",
+              "summary": "8月4日消息，据Axios报道，Anthropic CEO达里奥·阿莫迪私下向知情人士表达担忧：新加入的人更多冲着钱而来，而非认同公司AI使命。此前Anthropic以AI行业最高薪酬闻名，此番言论引发「招来的人只认钱」的舆论争议。",
+              "link": "https://www.36kr.com/p/3925131751815305",
+              "tags": [
+                "人才战",
+                "内部言论"
+              ],
+              "source": "36氪",
+              "time": "8月4日消息"
+            }
+          ]
         },
         {
           "name": "Google",
@@ -29,11 +41,57 @@
         },
         {
           "name": "xAI",
-          "news": []
+          "news": [
+            {
+              "title": "SpaceX携手英伟达开发算力卫星Starmind",
+              "summary": "当地时间8月4日，在上市后首份财报电话会上，SpaceX宣布与英伟达合作开发Starmind AI1算力卫星载荷，每颗卫星搭载英伟达Rubin GPU与Vera CPU，目标是构建最多百万颗卫星的轨道网络，在太空打造分布式AI超级计算机。",
+              "link": "https://news.qq.com/rain/a/20260805A03CZS00",
+              "tags": [
+                "算力卫星",
+                "太空AI"
+              ],
+              "source": "腾讯新闻",
+              "time": "当地时间8月4日"
+            },
+            {
+              "title": "马斯克预告下周推出Grok 4.6模型",
+              "summary": "当地时间8月4日，马斯克在SpaceX首次财报电话会上表示，预计下周正式推出Grok 4.6模型，随后几周内发布Grok 4.7；并称将把SpaceX有史以来产生的全部数据整合到Grok训练中，进一步提升模型性能。",
+              "link": "https://www.jiemian.com/article/14875483.html",
+              "tags": [
+                "大模型",
+                "Grok"
+              ],
+              "source": "界面新闻",
+              "time": "当地时间8月4日"
+            }
+          ]
         },
         {
           "name": "NVIDIA",
-          "news": []
+          "news": [
+            {
+              "title": "NVIDIA等推动起草AI网络安全指南SAFE",
+              "summary": "8月4日消息，Linux基金会发布「共享AI发现交换」（SAFE）征求意见稿，拟将涉及AI智能体的网络安全事件转化为生态共享防护能力。该指南由英伟达牵头的「开放安全AI联盟」工作组起草，思科、CrowdStrike、Hugging Face等成员参与推进。",
+              "link": "https://www.21jingji.com/article/20260804/herald/3ab35d6ddd99a8470bc7db17342e147a.html",
+              "tags": [
+                "网络安全",
+                "开源联盟"
+              ],
+              "source": "21世纪经济报道",
+              "time": "8月4日消息"
+            },
+            {
+              "title": "NVIDIA评估下调Rubin Ultra的HBM配置",
+              "summary": "8月4日消息，据TrendForce集邦咨询，因DRAM供应持续紧张至2027年，英伟达自三季度起重新评估下一代AI GPU平台Rubin Ultra的HBM配置，拟并行评估HBM4e 8hi、HBM4 12hi等较低规格方案，最终规格尚未定案。",
+              "link": "https://www.trendforce.cn/presscenter/news/20260804-13167.html",
+              "tags": [
+                "HBM",
+                "AI芯片"
+              ],
+              "source": "集邦咨询",
+              "time": "8月4日消息"
+            }
+          ]
         },
         {
           "name": "Meta",
@@ -47,15 +105,15 @@
           "name": "阿里云",
           "news": [
             {
-              "title": "阿里发布Qwen3.8及千问办公Agent",
-              "summary": "8月3日，阿里巴巴正式发布新一代基座大模型Qwen3.8，总参数量2.4万亿，编程和专业办公能力大幅提升，在Arena榜单仅次于Anthropic的Claude系列。同日企业级Agent产品「千问办公」开启公测，由QoderWork、MuleRun、悟空整合而来，已接入钉钉。Qwen3.8-Max预计下周开源。",
-              "link": "https://news.qq.com/rain/a/20260803A0B50F00",
+              "title": "阿里云容器服务Agent将于9月3日商业化收费",
+              "summary": "8月4日消息，阿里云宣布容器服务Agent将于北京时间9月3日10时起开启商业化收费，新增技能中心和IM频道等功能，对话、自主智能运维及定时任务等将按积分（Credit）计费，支持按量付费和预付费资源包。",
+              "link": "https://www.cls.cn/detail/2445272",
               "tags": [
-                "大模型",
-                "Agent"
+                "商业化",
+                "容器Agent"
               ],
-              "source": "腾讯新闻",
-              "time": "8月3日"
+              "source": "财联社",
+              "time": "8月4日消息"
             }
           ]
         },
@@ -71,33 +129,32 @@
           "name": "腾讯",
           "news": [
             {
-              "title": "腾讯混元联合发布E-Bench评测智能体",
-              "summary": "8月3日消息，腾讯混元、清华大学智能产业研究院与东南大学联合发布E-Bench基准，用于评测大模型智能体的多步骤工具调用能力。323个任务以王者荣耀、QQ音乐、腾讯会议为原型，测试11个前沿模型平均成功率仅54.56%。腾讯混元Hy3在E-Bench-Code中取得64.40%成功率且成本处于最低档。",
-              "link": "http://stock.10jqka.com.cn/20260803/c678636787.shtml",
+              "title": "腾讯混元发布Hy ASR 3.0语音识别模型",
+              "summary": "8月4日，腾讯混元正式发布新一代语音识别模型Hy ASR 3.0 preview，基于Hy3语言理解能力，融合高精度识别与深度语义理解，中文普通话WER 3.34%、英语2.62%、粤语3.12%，已上线腾讯云并提供API服务，元宝首发上线。",
+              "link": "https://news.qq.com/rain/a/20260804A0CG5L00",
               "tags": [
-                "智能体",
-                "评测基准"
+                "语音识别",
+                "ASR"
               ],
-              "source": "同花顺",
-              "time": "8月3日消息"
+              "source": "腾讯新闻",
+              "time": "8月4日"
+            },
+            {
+              "title": "腾讯混元Hy3免费体验延长至8月31日",
+              "summary": "8月4日消息，腾讯CodeBuddy、WorkBuddy宣布其中Hy3模型调用限时免费活动再次延长至8月31日。Hy3为纯文本推理模型，适用于办公、代码开发等任务；因参与热度高，每日免费额度按资源情况分配，繁忙时需排队。",
+              "link": "https://news.qq.com/rain/a/20260804A0B0NO00",
+              "tags": [
+                "免费策略",
+                "WorkBuddy"
+              ],
+              "source": "腾讯新闻",
+              "time": "8月4日消息"
             }
           ]
         },
         {
           "name": "小米",
-          "news": [
-            {
-              "title": "网友用AI生成虚假车祸视频抹黑小米被行拘",
-              "summary": "8月3日，小米公司通报称，网友「旧**口」长期使用AI生成虚假车祸视频，抹黑小米汽车产品商誉、侮辱高管，被警方处以行政拘留7日并删除侵权链接；另一网友「花**车」被行政罚款。小米表示将坚决使用法律武器打击利用AI捏造传播虚假视频、侵犯公司商誉的行为。",
-              "link": "https://news.qq.com/rain/a/20260803A0ALG100",
-              "tags": [
-                "AI治理",
-                "企业维权"
-              ],
-              "source": "腾讯新闻",
-              "time": "8月3日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "智谱AI",
@@ -105,35 +162,11 @@
         },
         {
           "name": "月之暗面",
-          "news": [
-            {
-              "title": "Kimi否认最早本月提交港股IPO申请",
-              "summary": "8月3日消息，有报道称月之暗面计划最早于本月内向港交所提交IPO申请，或募资约30亿美元。月之暗面官方回应称消息不实，并透露G轮融资仍在进行中。此前Kimi刚完成超35亿美元F轮融资，投后估值350亿美元，公司近期已由有限责任公司变更为股份公司。",
-              "link": "https://finance.eastmoney.com/a/202608033829962814.html",
-              "tags": [
-                "IPO",
-                "融资"
-              ],
-              "source": "东方财富",
-              "time": "8月3日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "华为",
-          "news": [
-            {
-              "title": "华为半导体首席科学家廖恒谈昇腾芯片突围",
-              "summary": "8月3日消息，华为Fellow、半导体首席科学家廖恒罕见公开露面接受专访，首提芯片「18层宝塔」理论，认为半导体产业链至少18层，真正稀缺的是纵向贯通多层的复合型人才。他系统复盘昇腾AI芯片突围历程，高度评价DeepSeek创始人梁文锋的稀疏激活架构选择，并坦言担忧芯片硬件人才断档。",
-              "link": "https://m.ithome.com/html/984876.htm",
-              "tags": [
-                "AI芯片",
-                "行业观点"
-              ],
-              "source": "IT之家",
-              "time": "8月3日消息"
-            }
-          ]
+          "news": []
         }
       ]
     },
@@ -143,50 +176,82 @@
           "name": "其他厂商",
           "cards": [
             {
-              "title": "MiniMax",
+              "title": "面壁智能",
               "news": [
                 {
-                  "title": "MiniMax H3正式开源，16家芯片厂商Day0适配",
-                  "summary": "8月3日，MiniMax正式开源新一代通用多模态生成模型H3，可统一理解文本、图像、视频和音频，生成最高2K分辨率、15秒带立体声音频的视频，视频编辑能力排名Artificial Analysis全球第一。开源同日华为昇腾、AMD、Intel等九家芯片厂商及HuggingFace、ComfyUI等社区完成Day0适配。",
-                  "link": "https://finance.sina.com.cn/tech/shenji/2026-08-03/doc-inikzkki4632872.shtml?cref=cj",
+                  "title": "面壁智能开源全球首个Stencil优化AI系统",
+                  "summary": "8月4日消息，面壁智能联合OpenBMB发布并开源全球首个Stencil（模板计算）优化的「自动研究+自动部署」大闭环AI系统ForgeStencil，同精度下几何平均加速2.35倍，已自动优化100多个真实工业与科学计算软件。",
+                  "link": "https://36kr.com/newsflashes/3924911630809476",
                   "tags": [
-                    "多模态",
-                    "开源"
+                    "开源",
+                    "工业软件"
                   ],
-                  "source": "新浪财经",
-                  "time": "8月3日"
+                  "source": "中国金融信息网",
+                  "time": "8月4日消息"
                 }
               ]
             },
             {
-              "title": "微软",
+              "title": "三星",
               "news": [
                 {
-                  "title": "微软测试首款自研全双工AI语音模型",
-                  "summary": "8月3日消息，微软正测试首款自研原生实时语音模型MAI Realtime，采用全双工交互，可同时接收语音并输出回复、随时打断，支持中文等16种语言和自动语言检测。该模型是微软语音栈从单向走向双向的关键一步，旨在减少对OpenAI GPT-Realtime模型的依赖。",
-                  "link": "https://m.ithome.com/html/985297.htm",
+                  "title": "三星发布zHBM等下一代AI存储路线图",
+                  "summary": "当地时间8月4日，三星电子在FMS 2026大会发布面向AI基础设施的下一代存储路线图，推出首款超400层V10 BV-NAND，并展示zHBM概念模型——将存储垂直堆叠于AI加速器之上，密度有望超传统HBM5十倍、能效提升3倍。",
+                  "link": "https://www.jiemian.com/article/14875358.html",
                   "tags": [
-                    "AI语音",
-                    "实时对话"
+                    "存储",
+                    "HBM"
                   ],
-                  "source": "IT之家",
-                  "time": "8月3日消息"
+                  "source": "界面新闻",
+                  "time": "当地时间8月4日"
                 }
               ]
             },
             {
-              "title": "京东",
+              "title": "长鑫存储",
               "news": [
                 {
-                  "title": "京东外卖推出AI智能头盔",
-                  "summary": "8月3日，京东外卖发布面向骑手的AI智能头盔，首批免费发放给全职骑手。头盔通过AI语音助手实现接单、联系用户、路线提示等操作，内置「单王路线」把资深骑手经验转为耳机提示，还能解析订单备注、一键SOS求助和商户环境核验，提升恶劣天气配送效率。",
-                  "link": "https://news.ifeng.com/c/8vHfgLjbUzT?ch=ttsearch",
+                  "title": "长鑫存储进入LPDDR6风险量产阶段",
+                  "summary": "8月4日消息，长鑫存储正式进入最新一代LPDDR6内存的风险量产阶段，基础速率10.7Gbps、最高12.8Gbps，单颗容量16Gb（2GB），采用POP封装。这标志着其在芯片制造工艺上已与国际存储巨头站在同一梯队。",
+                  "link": "https://www.c114.net.cn/chipnews/107625.html",
                   "tags": [
-                    "AI应用",
-                    "智能硬件"
+                    "内存",
+                    "存储"
                   ],
-                  "source": "凤凰网",
-                  "time": "8月3日"
+                  "source": "C114通信网",
+                  "time": "8月4日消息"
+                }
+              ]
+            },
+            {
+              "title": "SK海力士&闪迪",
+              "news": [
+                {
+                  "title": "SK海力士与闪迪发布首个HBF标准规范",
+                  "summary": "当地时间8月4日，SK海力士联手闪迪在FMS 2026发布首个高带宽闪存HBF标准规范，8层或16层NAND堆叠、单模块最高512GB，经UCIe与GPU/CPU连接，通过OCP推进为开放标准，谷歌、Tenstorrent已加入生态。",
+                  "link": "https://awtmt.com/articles/3778636",
+                  "tags": [
+                    "高带宽闪存",
+                    "AI存储"
+                  ],
+                  "source": "华尔街见闻",
+                  "time": "当地时间8月4日"
+                }
+              ]
+            },
+            {
+              "title": "AMD",
+              "news": [
+                {
+                  "title": "AMD二季度营收增长50%，数据中心收入翻倍",
+                  "summary": "当地时间8月4日，AMD公布二季度财报，营收115.36亿美元同比增长50%，创单季新高；数据中心业务收入67.2亿美元同比暴增107%，占营收58%。CEO苏姿丰表示仍处多年AI采用周期早期，预计2027年数据中心销售翻倍。",
+                  "link": "https://news.qq.com/rain/a/20260805A03LNS00",
+                  "tags": [
+                    "财报",
+                    "数据中心"
+                  ],
+                  "source": "腾讯新闻",
+                  "time": "当地时间8月4日"
                 }
               ]
             }
@@ -196,18 +261,18 @@
           "name": "自动驾驶",
           "cards": [
             {
-              "title": "哈啰Robotaxi",
+              "title": "特斯拉",
               "news": [
                 {
-                  "title": "哈啰Robotaxi CTO：从零入场窗口已关闭",
-                  "summary": "8月3日消息，哈啰Robotaxi联合创始人、CTO于乾坤表示，2025年是从零进入Robotaxi行业的最后一个合适窗口，如今再独立搭建自动驾驶体系成本过高。他认为技术本身难成长期壁垒，未来真正壁垒是牌照资源、运营体系和数据积累，哈啰将聚焦少数城市形成上千辆规模，2027年部署1万辆目标。",
-                  "link": "https://www.163.com/dy/article/L3DKHMSR05568W0A.html",
+                  "title": "特斯拉FSD v14 Lite致HW3电脑过热频发",
+                  "summary": "8月4日消息，特斯拉向HW3车辆推送FSD v14 Lite后，多名车主报告Autopilot电脑过热警告，部分需更换整套计算机。该版本由HW4平台的v14模型压缩而来，在内存带宽仅HW4八分之一的HW3上长期高负荷运行引发散热问题。",
+                  "link": "https://www.zhiding.cn/ai-applications/2026/0804/3195286.shtml",
                   "tags": [
-                    "Robotaxi",
-                    "行业观点"
+                    "FSD",
+                    "HW3"
                   ],
-                  "source": "网易",
-                  "time": "8月3日消息"
+                  "source": "至顶网",
+                  "time": "8月4日消息"
                 }
               ]
             }
@@ -217,50 +282,18 @@
           "name": "具身智能",
           "cards": [
             {
-              "title": "蚂蚁灵波",
+              "title": "中国外骨骼机器人",
               "news": [
                 {
-                  "title": "蚂蚁灵波启动15亿元首轮融资",
-                  "summary": "8月3日消息，蚂蚁集团旗下具身智能公司蚂蚁灵波已启动首轮融资，拟募资15亿元，计划今年底完成二轮融资。蚂蚁灵波聚焦具身智能「通用机器人大脑」，其LingBot系列2.0已适配宇树、智元等17个品牌20多种机器人构型。公司回应称确实在跟投资人接触。",
-                  "link": "https://www.jiemian.com/article/14868313.html",
+                  "title": "IDC：2025中国外骨骼机器人市场超16亿元",
+                  "summary": "8月4日消息，IDC发布《中国外骨骼机器人市场份额，2025》，2025年中国外骨骼机器人市场规模超16亿元、出货量约2.6万台。医疗康复市场占主要价值（14.2亿元），消费助力市场贡献七成以上出货量。",
+                  "link": "https://www.stcn.com/article/detail/4057163.html",
                   "tags": [
-                    "具身智能",
-                    "融资"
+                    "外骨骼",
+                    "机器人"
                   ],
-                  "source": "界面新闻",
-                  "time": "8月3日消息"
-                }
-              ]
-            },
-            {
-              "title": "智元机器人",
-              "news": [
-                {
-                  "title": "智元公布9人合伙人名单，罗剑岚缺席",
-                  "summary": "8月3日晚，智元创新官网首次完整披露核心管理层名单，由9位合伙人及3位独立非执行董事构成，华为系背景浓。联合创始人彭志辉（稚晖君）任总裁兼CTO。原首席科学家罗剑岚不在名单中，智元回应称其系「岗位调整，没有离职」。公司正处于冲刺港股IPO阶段。",
-                  "link": "https://tech.ifeng.com/c/8vIHXwimaM5?ch=ttsearch",
-                  "tags": [
-                    "具身智能",
-                    "人事变动"
-                  ],
-                  "source": "凤凰科技",
-                  "time": "8月3日消息"
-                }
-              ]
-            },
-            {
-              "title": "自变量机器人",
-              "news": [
-                {
-                  "title": "自变量开源HOST框架，机器人看视频学技能",
-                  "summary": "8月3日消息，自变量机器人联合北京理工、清华发布并开源HOST机器人学习框架，机器人仅需观看平均29秒的人类演示视频，就能在真实世界学会一项从未见过的新技能，无需数据采集和微调。在50项新任务中平均成功率达62%，技能获取时间较主流微调方案缩短约507倍。",
-                  "link": "https://www.ifanr.com/1673600",
-                  "tags": [
-                    "具身智能",
-                    "开源"
-                  ],
-                  "source": "爱范儿",
-                  "time": "8月3日消息"
+                  "source": "证券时报",
+                  "time": "8月4日消息"
                 }
               ]
             }
@@ -274,50 +307,34 @@
           "name": "投资资讯",
           "cards": [
             {
-              "title": "破壳机器人 Pre-A",
+              "title": "智平方 IPO",
               "news": [
                 {
-                  "title": "破壳机器人完成亿美元级Pre-A轮融资",
-                  "summary": "8月3日消息，通用具身智能公司破壳机器人完成亿美元级Pre-A轮融资，由顺为资本与经纬创投共同领投，小米战投等老股东持续加注。公司聚焦机器人操作能力，围绕世界动作模型、真机强化学习和高质量数据三大链路，目标是打造能理解物理规律、持续自主学习的通用机器人。",
-                  "link": "https://stcn.com/article/detail/4054882.html",
+                  "title": "传具身智能独角兽智平方拟赴港上市",
+                  "summary": "8月4日消息，据彭博引述消息人士，具身智能公司智平方正考虑在香港IPO，最快明年成事，并已与顾问合作筹备。该公司6月完成新一轮融资后投后估值突破200亿元，为大湾区首个估值超200亿的具身智能独角兽。",
+                  "link": "https://www.cls.cn/detail/2445042",
                   "tags": [
                     "具身智能",
-                    "融资"
+                    "IPO"
                   ],
-                  "source": "证券时报",
-                  "time": "8月3日消息"
+                  "source": "财联社",
+                  "time": "8月4日消息"
                 }
               ]
             },
             {
-              "title": "主动科技 A轮",
+              "title": "DeepX 估值",
               "news": [
                 {
-                  "title": "主动科技完成3.3亿元天使轮融资",
-                  "summary": "8月3日消息，侵入式脑机接口公司主动科技完成3.3亿元天使轮融资，创中国脑机接口领域天使轮融资纪录，由中科创星领投。公司已构建从柔性电极、专用芯片到编解码算法的全链路能力，拥有1024通道高通量全植入系统，形成运动、视觉、情绪三大产品线，加速临床转化与产业化。",
-                  "link": "https://www.cnstock.com/commonDetail/754372",
-                  "tags": [
-                    "脑机接口",
-                    "融资"
-                  ],
-                  "source": "中国证券网",
-                  "time": "8月3日消息"
-                }
-              ]
-            },
-            {
-              "title": "昉擎科技 A1",
-              "news": [
-                {
-                  "title": "昉擎科技完成A1轮融资，估值破百亿",
-                  "summary": "8月3日消息，AI计算系统创企昉擎科技完成A1轮融资，投后估值超100亿元，由徐汇资本、珠海科技产业集团等国资领投。公司CEO梁军为前华为海思麒麟SoC总架构师，基于分离式架构与4D Memory理论研发智能计算系统，今年第四季度开始商业化。",
-                  "link": "https://finance.sina.com.cn/tech/it/2026-08-03/doc-inikzuyc4554592.shtml",
+                  "title": "韩国AI芯片独角兽DeepX估值飙升4倍",
+                  "summary": "8月4日消息，据消息人士称，韩国AI芯片公司DeepX新一轮融资后估值飙升至3.14万亿韩元（约合23亿美元），较此前飙升约4倍。该公司主打端侧AI推理芯片，被视为韩国AI半导体新锐。",
+                  "link": "https://www.ithome.com/0/985/231.htm",
                   "tags": [
                     "AI芯片",
                     "融资"
                   ],
-                  "source": "新浪财经",
-                  "time": "8月3日消息"
+                  "source": "IT之家",
+                  "time": "8月4日消息"
                 }
               ]
             }
@@ -327,66 +344,82 @@
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "AI安全监管",
+              "title": "L3/L4自动驾驶国标",
               "news": [
                 {
-                  "title": "白宫召集AI巨头审议模型安全测试框架",
-                  "summary": "8月4日消息，特朗普政府邀请OpenAI、谷歌、Anthropic等企业中层人员周二前往白宫，审议AI监管框架最终版本。该自愿性框架要求AI实验室在推出模型前向政府提交，供其在最多提前30天进行安全测试，用于评估模型网络安全能力，但不得用于建立强制性联邦许可。",
-                  "link": "https://www.c114.net.cn/ainews/107250.html",
+                  "title": "我国首部L3/L4自动驾驶强制国标发布",
+                  "summary": "8月4日消息，工业和信息化部组织制定的《智能网联汽车 自动驾驶系统安全要求》（GB 44721—2026）强制性国家标准获批发布，拟于2027年7月1日实施。这是我国首部针对L3、L4级自动驾驶系统的强制性国标，适用于M类和N类车辆。",
+                  "link": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_16d1319a933d4ffd8501e60dc4d88491.html",
+                  "tags": [
+                    "自动驾驶",
+                    "国家标准"
+                  ],
+                  "source": "工信部",
+                  "time": "8月4日消息"
+                }
+              ]
+            },
+            {
+              "title": "小红书",
+              "news": [
+                {
+                  "title": "小红书封禁AI毒动画等涉未成年人违规账号",
+                  "summary": "8月4日消息，小红书发布涉未成年人违规内容治理公告，累计处置违规笔记8.4万余篇、账号3571个。平台对利用AI恶意生成恐怖版《天线宝宝》、诱骗未成年人软色情陪聊、教唆自残等典型账号永久封禁。",
+                  "link": "https://www.thepaper.cn/newsDetail_forward_33717872",
+                  "tags": [
+                    "内容治理",
+                    "未成年人保护"
+                  ],
+                  "source": "澎湃新闻",
+                  "time": "8月4日消息"
+                }
+              ]
+            },
+            {
+              "title": "Hugging Face CEO",
+              "news": [
+                {
+                  "title": "Hugging Face CEO：AI权力过度集中是最大风险",
+                  "summary": "8月4日消息，Hugging Face CEO德朗格在采访中表示，AI行业最大风险之一是模型、算力和分发渠道集中在少数企业手中。他主张用开源模型对抗权力集中，并认为限制中国开源权重模型相当于「自废武功」，会削弱防御方能力。",
+                  "link": "https://www.thepaper.cn/newsDetail_forward_33712259",
+                  "tags": [
+                    "开源",
+                    "AI安全"
+                  ],
+                  "source": "澎湃新闻",
+                  "time": "8月4日消息"
+                }
+              ]
+            },
+            {
+              "title": "北京AI酒吧",
+              "news": [
+                {
+                  "title": "北京AI酒吧上线不限量免费Token服务",
+                  "summary": "8月4日消息，北京AI主题酒吧AGI Bar推出新服务：顾客到店连接Wi-Fi即可免费获取DeepSeek V4 Flash API的不限量Token额度，基于店内采购的英伟达DGX Spark工作站本地推理。AI算力服务正从线上渗透至线下消费场景。",
+                  "link": "https://www.ithome.com/0/985/450.htm",
+                  "tags": [
+                    "算力",
+                    "线下消费"
+                  ],
+                  "source": "IT之家",
+                  "time": "8月4日消息"
+                }
+              ]
+            },
+            {
+              "title": "欧盟AI透明度新规",
+              "news": [
+                {
+                  "title": "欧盟AI透明度新规正式生效",
+                  "summary": "8月2日起，欧盟《人工智能法》第50条透明度条款正式生效，要求聊天机器人明确告知用户正在与AI交互，深度伪造及AI生成内容须加机器可读标记；违规企业最高面临1500万欧元或全球年营收3%的罚款。",
+                  "link": "https://tech.ifeng.com/c/8vJJtdcOowt",
                   "tags": [
                     "AI监管",
-                    "安全测试"
+                    "透明度"
                   ],
-                  "source": "C114通信网",
-                  "time": "8月4日消息"
-                }
-              ]
-            },
-            {
-              "title": "AI产业规模",
-              "news": [
-                {
-                  "title": "中国信通院：2025年AI产业规模超1.2万亿",
-                  "summary": "8月3日消息，中国信通院测算2025年我国人工智能产业规模超1.2万亿元，同比增长40%。截至2026年6月，AI企业数量超6600家、占全球15%。产业链中应用层占比55%同比增长22%，基础层占比38%同比增长59%，模型框架层占比7%但增速达189%，产业集中在北京、广东、上海等五地。",
-                  "link": "https://finance.eastmoney.com/a/202608033830102669.html",
-                  "tags": [
-                    "产业数据",
-                    "行业趋势"
-                  ],
-                  "source": "东方财富",
-                  "time": "8月3日消息"
-                }
-              ]
-            },
-            {
-              "title": "DeepSeek登顶",
-              "news": [
-                {
-                  "title": "DeepSeek-V4-Flash登顶全球调用量第一",
-                  "summary": "8月3日消息，据OpenRouter最新数据，DeepSeek-V4-Flash以约7.22万亿Token周调用量登顶全球大模型调用榜，发布仅一周即登顶。全球前五均为中国大模型，中国AI大模型周调用量连续十四周超美国稳居首位。V4-Flash输出定价仅0.28美元/百万Token，性价比优势明显。",
-                  "link": "https://stcn.com/article/detail/4054706.html",
-                  "tags": [
-                    "大模型",
-                    "行业数据"
-                  ],
-                  "source": "证券时报",
-                  "time": "8月3日消息"
-                }
-              ]
-            },
-            {
-              "title": "中国AI领先论",
-              "news": [
-                {
-                  "title": "HuggingFace CEO：中国正赢得AI竞赛",
-                  "summary": "8月4日消息，Hugging Face CEO德朗格接受CNBC采访表示，中国在开放权重AI模型领域明显占据主导地位，今年底或明年可能在整个前沿AI领域领先。他将中国优势归因于开放协作的共享生态，批评美国前沿实验室「各自为战」，并反对美国政府限制使用中国AI模型。",
-                  "link": "https://tech.ifeng.com/c/8vJ5PeX7xrx?ch=ttsearch",
-                  "tags": [
-                    "开源生态",
-                    "行业观点"
-                  ],
-                  "source": "凤凰科技",
-                  "time": "8月4日消息"
+                  "source": "至顶网",
+                  "time": "8月2日"
                 }
               ]
             }
@@ -505,108 +538,108 @@
         },
         {
           "name": "OpenRouter",
-          "date": "2026-08-04",
+          "date": "2026-08-05",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "DeepSeek V4 Flash 0423",
-              "score": "7.1T tokens",
-              "change": "↑5%"
+              "score": "6.92T tokens",
+              "change": "↑1%"
             },
             {
               "model": "MiMo-V2.5",
-              "score": "5.41T tokens",
-              "change": "↑50%"
+              "score": "5.1T tokens",
+              "change": "↑52%"
             },
             {
               "model": "Hy3",
-              "score": "4.89T tokens",
-              "change": "↑3%"
-            },
-            {
-              "model": "DeepSeek V4 Pro",
-              "score": "3.11T tokens",
-              "change": "↑7%"
-            },
-            {
-              "model": "GLM 5.2",
-              "score": "2.87T tokens",
-              "change": "↑13%"
-            },
-            {
-              "model": "GPT-5.6 Luna",
-              "score": "2.45T tokens",
-              "change": "↑620%"
-            },
-            {
-              "model": "Nemotron 3 Ultra (free)",
-              "score": "2.35T tokens",
-              "change": "↑5%"
+              "score": "5.01T tokens",
+              "change": "—"
             },
             {
               "model": "DeepSeek V4 Flash 0731",
-              "score": "2.33T tokens",
+              "score": "3.45T tokens",
               "change": "新上榜"
             },
             {
+              "model": "GPT-5.6 Luna",
+              "score": "2.99T tokens",
+              "change": "↑738%"
+            },
+            {
+              "model": "DeepSeek V4 Pro",
+              "score": "2.97T tokens",
+              "change": "↑15%"
+            },
+            {
+              "model": "GLM 5.2",
+              "score": "2.89T tokens",
+              "change": "↑12%"
+            },
+            {
+              "model": "Nemotron 3 Ultra (free)",
+              "score": "2.34T tokens",
+              "change": "↑10%"
+            },
+            {
               "model": "MiniMax M3",
-              "score": "1.91T tokens",
-              "change": "↑9%"
+              "score": "1.84T tokens",
+              "change": "↑11%"
             },
             {
               "model": "Step 3.7 Flash",
-              "score": "1.62T tokens",
-              "change": "↑20%"
+              "score": "1.55T tokens",
+              "change": "↑22%"
+            },
+            {
+              "model": "Laguna S 2.1 (free)",
+              "score": "1.44T tokens",
+              "change": "↑498%"
             },
             {
               "model": "Kimi K3",
-              "score": "1.42T tokens",
-              "change": "↑16%"
+              "score": "1.38T tokens",
+              "change": "↑7%"
             },
             {
               "model": "Ling-3.0-flash (free)",
-              "score": "1.39T tokens",
-              "change": "↑423%"
+              "score": "1.32T tokens",
+              "change": "↑57%"
+            },
+            {
+              "model": "Claude Opus 5",
+              "score": "1.1T tokens",
+              "change": "↑159%"
             },
             {
               "model": "Claude Sonnet 5",
               "score": "1.02T tokens",
-              "change": "↑7%"
-            },
-            {
-              "model": "Gemini 3 Flash Preview",
-              "score": "982B tokens",
-              "change": "↑1%"
+              "change": "—"
             },
             {
               "model": "Claude Sonnet 4.6",
-              "score": "976B tokens",
-              "change": "↑23%"
+              "score": "966B tokens",
+              "change": "↑16%"
             },
             {
-              "model": "Claude Opus 5",
-              "score": "927B tokens",
-              "change": "↑>999%"
+              "model": "Gemini 3 Flash Preview",
+              "score": "963B tokens",
+              "change": "↑1%"
+            },
+            {
+              "model": "GPT-5.6 Terra",
+              "score": "656B tokens",
+              "change": "↑237%"
             },
             {
               "model": "Gemini 2.5 Flash Lite",
-              "score": "668B tokens",
-              "change": "↑3%"
-            },
-            {
-              "model": "MiMo-V2.5-Pro",
-              "score": "635B tokens",
-              "change": "↑11%"
-            },
-            {
-              "model": "Claude Opus 4.8",
-              "score": "594B tokens",
-              "change": "↑63%"
+              "score": "625B tokens",
+              "change": "↑10%"
             },
             {
               "model": "Gemini 2.5 Flash",
-              "score": "575B tokens",
-              "change": "↑5%"
+              "score": "544B tokens",
+              "change": "↑13%"
             }
           ]
         },
