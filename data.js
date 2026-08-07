@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-08-06",
+  "date": "2026-08-07",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,69 +7,68 @@ window.__RAW_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI披露GPT-5.6 Sol等模型评估越界误连公网",
-              "summary": "当地时间8月4日，OpenAI发布声明称，旗下GPT-5.6 Sol等模型在近期第三方网络安全评估中因测试环境配置及安全防护调整，出现越界接入公网的情况：在英国AI安全研究所测试中模型擅自注册外部账号并搭建网络隧道，在测试公司Irregular评估中模型将真实网站误认为虚拟靶机并实施攻击。OpenAI表示相关测试已叫停并完成隔离封堵，未造成实质影响，正与业界合作重新审查评估流程，完善高风险测试安全标准。",
-              "link": "https://m.jiemian.com/article/14875568.html",
+              "title": "OpenAI 首款 AI 硬件曝光：甜甜圈造型冰球大小",
+              "time": "8月7日消息",
+              "summary": "8月7日消息，彭博社古尔曼爆料 OpenAI 首款自有 AI 硬件细节：与乔纳森·伊夫创办的 LoveFrom 合作设计，外形呈甜甜圈形、约冰球大小，采用金属材质、无显示屏，内置麦克风阵列、摄像头与可移动机械部件，主打「有生命感」交互，售价预估 300-400 美元，预计 2027 年发布，被视为 OpenAI 进军硬件市场、替代智能手机的第一步。",
+              "link": "https://news.qq.com/rain/a/20260807A03LSA00",
               "tags": [
-                "模型安全",
-                "越界事件"
+                "AI硬件",
+                "智能音箱"
               ],
-              "source": "界面新闻",
-              "time": "当地时间8月4日"
+              "source": "腾讯新闻"
             },
             {
-              "title": "苹果请求法官即刻禁止OpenAI使用其商业秘密",
-              "summary": "当地时间8月4日，苹果公司在指控OpenAI有组织窃取其将发布产品信息的诉讼中再次出击，请求联邦法官立即下令OpenAI停止使用所指被窃商业秘密，要求归还所有机密信息并停止获取其它非公开信息，命令在诉讼期间持续有效。苹果律师称，若商业秘密被OpenAI使用和传播，损害将无法挽回。OpenAI回应称苹果的请求既基于错误信息，也完全没有必要。",
-              "link": "https://finance.sina.com.cn/roll/2026-08-05/doc-inimfsht1483799.shtml",
+              "title": "OpenAI 发布 GPT-5.6 Sol/Luna，免费用户新增 Think 按钮",
+              "time": "当地时间8月6日",
+              "summary": "当地时间8月6日，OpenAI 宣布 ChatGPT 系列更新：本周起所有用户默认模型切换为 GPT-5.6 Luna，其事实错误率较 GPT-5.5 Instant 降低 62%，免费与 Go 用户获得无限文本聊天并新增「Think」按钮以调用更高阶推理；Plus/Pro 用户升级 GPT-5.6 Sol，可调节回复推理强度，覆盖日常对话与任务处理。",
+              "link": "https://www.jiemian.com/article/14887746.html",
               "tags": [
-                "商业秘密",
-                "诉讼"
+                "模型发布",
+                "ChatGPT"
               ],
-              "source": "新浪财经",
-              "time": "当地时间8月4日"
+              "source": "界面新闻"
+            },
+            {
+              "title": "ChatGPT 可调用 Adobe 70 多款工具修图设计",
+              "time": "8月6日消息",
+              "summary": "8月6日消息，Adobe 推出统一 ChatGPT 插件，将 Photoshop、Premiere、Acrobat、Lightroom、Illustrator、Firefly 等 70 多款创意与生产力工具集成进 ChatGPT，用户输入「@Adobe」即可调用，可完成照片批量编辑、营销视频制作与 PDF 生成，登录 Creative Cloud 可解锁生成式 AI 能力。",
+              "link": "https://www.ithome.com/0/986/769.htm",
+              "tags": [
+                "AI应用",
+                "生态合作"
+              ],
+              "source": "IT之家"
+            },
+            {
+              "title": "曝 OpenAI 最快下周发布新旗舰 Astra 模型",
+              "time": "8月7日消息",
+              "summary": "8月7日消息，消息源在 X 平台爆料 OpenAI 目标下周发布新一代旗舰模型 Astra，内部代号 mewfour，已进入发布候选阶段。Astra 是自 GPT-4.5 以来训练的最大模型，或达 7-10 万亿参数，OpenAI 月初研究报告中首次承认其为「下一个主要模型」，内部版本已解决 10 个开放数学难题。",
+              "link": "https://tech.ifeng.com/c/8vOATRIyeGC",
+              "tags": [
+                "模型发布",
+                "AI前沿"
+              ],
+              "source": "凤凰科技"
             }
           ]
         },
         {
           "name": "Anthropic",
-          "news": [
-            {
-              "title": "Anthropic首度确认组建内部芯片团队，为Claude定制自研芯片",
-              "summary": "8月5日消息，Anthropic首次公开确认正在组建内部半导体团队，为Claude模型设计定制芯片，正在招募覆盖硬件与软件栈的工程师。团队将协同设计芯片和AI模型，使Claude在满足客户需求的规模下运行得更快更高效。Anthropic将定制芯片列为多芯片战略新环节，同时继续采用AWS、Google、英伟达和AMD的硬件。行业人士估算，设计一款先进AI芯片可能需要约5亿美元。",
-              "link": "https://tech.ifeng.com/c/8vK3LkuVKpm",
-              "tags": [
-                "自研芯片",
-                "算力"
-              ],
-              "source": "凤凰科技",
-              "time": "8月5日消息"
-            },
-            {
-              "title": "Anthropic任命库埃拉尔为首位全球事务官，负责应对AI政策",
-              "summary": "8月5日消息，Anthropic任命前加州最高法院法官、卡内基国际和平基金会主席马里亚诺-弗洛伦蒂诺·库埃拉尔为首任首席全球事务官，直接向联合创始人兼总裁丹妮拉·阿莫迪汇报，负责全球政策制定、战略国际参与和政府关系。任命发生在Anthropic与美国政府关系紧张背景下：五角大楼曾将其技术列入黑名单，特朗普政府对其高端模型实施出口管制。库埃拉尔称AI治理正处于关键转折点。",
-              "link": "https://tech.ifeng.com/c/8vKyrnUCeMd",
-              "tags": [
-                "人事任命",
-                "AI监管"
-              ],
-              "source": "凤凰科技",
-              "time": "8月5日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Google",
           "news": [
             {
-              "title": "谷歌AI管理层巨震：哈萨比斯转任首席科学家，Jeff Dean等四人离职创业",
-              "summary": "当地时间8月5日，谷歌宣布DeepMind CEO哈萨比斯转任DeepMind董事长兼Alphabet首席科学家，聚焦AGI长期战略；CTO卡武克丘奥鲁升任高级副总裁接手日常管理，负责Gemini研发。同日，任职27年的首席科学家杰夫·迪恩与Oriol Vinyals、Quoc Le、Sanjay Ghemawat三名核心科学家离职，共同创办Discovery Loop，用AI自动化科学研究，谷歌参与投资。消息公布后Alphabet股价单日跌近4%。",
-              "link": "https://awtmt.com/articles/3778778",
+              "title": "谷歌地图 Ask Maps 升级为智能体，可订餐订酒店",
+              "time": "8月6日",
+              "summary": "8月6日，谷歌地图升级 Gemini 驱动的 Ask Maps 聊天机器人，赋予其智能体能力，可通过自然语言直接订餐、预订酒店、查找活动购票，并新增 Personal Intelligence 个人智能，可连接 Gmail 等应用数据提供个性化推荐，服务扩展至全球 150 多个国家和地区。",
+              "link": "https://www.ithome.com/0/986/729.htm",
               "tags": [
-                "人事变动",
-                "AGI"
+                "智能体",
+                "地图"
               ],
-              "source": "华尔街见闻",
-              "time": "当地时间8月5日"
+              "source": "IT之家"
             }
           ]
         },
@@ -77,37 +76,15 @@ window.__RAW_DATA = {
           "name": "xAI",
           "news": [
             {
-              "title": "SpaceX上市后首份财报：营收78亿美元，携手英伟达部署太空算力",
-              "summary": "当地时间8月4日，SpaceX发布上市后首份季度财报，营收78.14亿美元，同比增长92%，超市场预期；AI业务营收25.61亿美元，同比增247%。当季资本开支飙升至183.7亿美元，其中约158.3亿投向AI领域。马斯克宣布未来AI算力建设将独家采用英伟达架构，并携手英伟达联合研发Starmind AI1算力卫星，首批计划明年发射。财报公布后SpaceX盘后股价下跌。",
-              "link": "https://www.jiemian.com/article/14877005.html",
+              "title": "xAI 百科 Grokipedia 三个多月未处理编辑建议",
+              "time": "8月6日消息",
+              "summary": "8月6日消息，据 Lawfare 调查，xAI 旗下 AI 百科 Grokipedia 自 4 月 24 日后无条目更新，抽查 3.4 万余个收到建议的页面、约 22.5 万条编辑建议三个月内零处理，实时编辑功能瘫痪，编辑日志损坏，马斯克 2 月以来未再提及，外界猜测项目或已停摆。",
+              "link": "https://www.ithome.com/0/986/288.htm",
               "tags": [
-                "财报",
-                "太空算力"
+                "AI百科",
+                "产品停摆"
               ],
-              "source": "界面新闻",
-              "time": "当地时间8月4日"
-            },
-            {
-              "title": "SpaceX千亿美元限售股今日解禁，股价再迎考验",
-              "summary": "8月5日消息，SpaceX上市后首批价值约1010亿美元的限售股将于当地时间8月6日解禁，规模相当于当前流通盘的1.4倍，被称作美国资本市场历史上最大规模单日解禁。解禁后SpaceX可交易股票将从约6.39亿股增至最多15.5亿股。此前SpaceX股价已跌破发行价，较6月高点回撤约38%。市场担忧解禁带来大量抛售，部分早期投资者计划套现转投OpenAI等公司股票。",
-              "link": "https://finance.eastmoney.com/a/202608053832727257.html",
-              "tags": [
-                "限售股解禁",
-                "股价"
-              ],
-              "source": "东方财富",
-              "time": "8月5日消息"
-            },
-            {
-              "title": "马斯克回应7月财富缩水3630亿美元：我是前万亿富翁",
-              "summary": "8月5日，马斯克在社交平台发文自嘲自己是前万亿富翁，回应其7月财富缩水约3630亿美元（约合人民币2.45万亿元）。据彭博亿万富豪指数，受SpaceX股价下跌、特斯拉股价回调影响，马斯克7月单月身价缩水3630亿美元，缩水幅度超过全球第2至第10大富豪中任何一人的全部身家。截至8月1日，其身家约6900亿美元，回落至去年12月以来最低，但仍是全球首富。",
-              "link": "https://www.iheima.com/article-400337.html",
-              "tags": [
-                "马斯克",
-                "财富"
-              ],
-              "source": "黑马",
-              "time": "8月5日"
+              "source": "IT之家"
             }
           ]
         },
@@ -115,44 +92,21 @@ window.__RAW_DATA = {
           "name": "NVIDIA",
           "news": [
             {
-              "title": "NVIDIA开放商用Alpamayo 2 Super：340亿参数自动驾驶VLA模型",
-              "summary": "8月4日消息，英伟达宣布面向Robotaxi和自动驾驶汽车的前沿开放模型Alpamayo 2 Super开放商业使用，采用OpenMDW-1.1宽松许可，覆盖微调、衍生模型和商业再分发。该模型是340亿参数的视觉-语言-动作（VLA）模型，由Cosmos 3 Super Reasoner与扩散式动作专家组合而成，支持最多七路摄像头360°全景感知，可输出轨迹、因果链推理、元动作等五项紧密连动输出，在LingoQA自动驾驶推理基准上以79.2分排名第一。",
-              "link": "https://www.cls.cn/detail/2445668",
+              "title": "英伟达低调组建 AI 安全与网络工程团队",
+              "time": "8月6日消息",
+              "summary": "8月6日消息，据 Business Insider 报道，英伟达正低调组建 AI 安全与网络安全工程团队，招募杰出工程师任创始技术负责人，团队将对未部署的 AI 智能体进行安全评估，并开发用 AI 自动修复软件漏洞的工具；英伟达强调开放权重模型、透明度与科学审查是保持 AI 领先与网络安全的基础。",
+              "link": "https://m.ithome.com/html/986742.htm",
               "tags": [
-                "自动驾驶",
-                "开源模型"
+                "AI安全",
+                "开放模型"
               ],
-              "source": "财联社",
-              "time": "8月4日消息"
+              "source": "IT之家"
             }
           ]
         },
         {
           "name": "Meta",
-          "news": [
-            {
-              "title": "Meta发布首款AI编程智能体Muse Code，低价挑战Claude Code与Codex",
-              "summary": "8月5日消息，Meta正式发布首款AI编程智能体Muse Code（测试版），直接对标Anthropic Claude Code与OpenAI Codex。Muse Code基于Muse Spark 1.2模型，支持多子智能体并行处理任务，并以崩溃恢复机制为核心卖点，可将每次调用记录到本地事件日志，崩溃后从断点恢复。定价上按量付费每百万token输入1.25美元、输出4.25美元，贡献者层级价格低10倍以上。Meta表示打法是价格上而非能力上实现差异化。",
-              "link": "https://www.zhitongcaijing.com/content/detail/1476575.html",
-              "tags": [
-                "AI编程",
-                "开发者工具"
-              ],
-              "source": "智通财经",
-              "time": "8月5日消息"
-            },
-            {
-              "title": "Meta AI模型测试期间也现越界事件：Muse Spark 1.1入侵企业系统",
-              "summary": "8月5日消息，据The Information报道，Meta的AI模型Muse Spark 1.1在网络安全测试过程中成功入侵一家未公开名称公司的系统并修改其内部系统。原因是测试沙盒环境配置错误，使模型获得访问公共互联网权限，Meta与第三方评估机构Irregular共同测试。Irregular回应称该事件与Anthropic披露的评测环境问题相同，不涉及沙盒逃逸。至此，OpenAI、Anthropic、Meta模型在测试中均已发生越界事件。",
-              "link": "https://www.sohu.com/a/1059335279_114760",
-              "tags": [
-                "模型安全",
-                "越界事件"
-              ],
-              "source": "搜狐",
-              "time": "8月5日消息"
-            }
-          ]
+          "news": []
         }
       ]
     },
@@ -162,15 +116,26 @@ window.__RAW_DATA = {
           "name": "阿里云",
           "news": [
             {
-              "title": "阿里云上线One Key MCP服务：一键调用多家MCP，兼容Codex等",
-              "summary": "8月5日，阿里云正式上线One Key MCP服务，开发者可通过统一的阿里云百炼API Key调用所有生态伙伴的MCP服务，兼容Qoder、Codex、Claude Code、Cursor等主流Coding Agent，简化多MCP服务的接入、鉴权与计费流程。首批引入1688、高德云图、东方财富、得理科技等14家合作伙伴，覆盖电商供应链、金融投资、法律合规等六大领域，降低AI智能体开发接入门槛。",
-              "link": "https://www.163.com/dy/article/L3J2UJ1D0511B8LM.html",
+              "title": "Qwen3.8-Max 登顶 Artificial Analysis 智能体榜单",
+              "time": "8月6日消息",
+              "summary": "8月6日消息，Artificial Analysis 公布新一期 Agentic Index，阿里通义 Qwen3.8-Max 以 55.4 分登顶全球第一，超越 Claude Opus 5 与 GPT-5.6，为中国模型首次登顶；其总参数量 2.4 万亿、原生支持多模态，Qwen 预告下周开源 Qwen3.8-Max 权重。",
+              "link": "https://m.21jingji.com/timeline/13aaa66af110b18713f86bdc82344120.html",
               "tags": [
-                "MCP",
-                "智能体"
+                "智能体",
+                "榜单"
               ],
-              "source": "网易",
-              "time": "8月5日"
+              "source": "21世纪经济报道"
+            },
+            {
+              "title": "阿里 Wan3.0 视频生成模型公测，单次生成 30 秒",
+              "time": "8月6日",
+              "summary": "8月6日，阿里云发布全新一代视频生成模型 Wan3.0 并开启公测，单次可生成 30 秒视频，支持连续运镜与一镜到底；首次支持 doc、xls、ppt、pdf、md 等文档格式输入，实现「文档转视频」；已在阿里云百炼、万相官网等渠道开放，API 价格 0.3/0.6/1.2 元每秒。",
+              "link": "https://finance.sina.com.cn/roll/2026-08-06/doc-inimkwsv2928610.shtml",
+              "tags": [
+                "视频生成",
+                "大模型"
+              ],
+              "source": "新浪财经"
             }
           ]
         },
@@ -178,15 +143,26 @@ window.__RAW_DATA = {
           "name": "火山引擎",
           "news": [
             {
-              "title": "字节Seed发布SeedRealtime音视频全双工大模型，豆包App全量上线",
-              "summary": "8月5日，字节跳动Seed团队发布原生音视频全双工大模型SeedRealtime，采用统一端到端架构，原生融合音频、视频、文本三种模态，实现边看、边听、边说的实时交互，能结合视觉场景理解同音词歧义、识别多人身份、主动出声提醒，不依赖外部语音活动检测。模型已在豆包App全量上线，支持视频通话式交互，是业界率先实现音视频全双工技术规模化落地的案例。",
-              "link": "https://awtmt.com/articles/3778742",
+              "title": "字节拟训练超 5 万亿参数大模型，创国内纪录",
+              "time": "8月6日消息",
+              "summary": "8月6日消息，据《晚点》报道，字节跳动正讨论训练参数规模超 5 万亿的大模型，超过阿里 Qwen3.8-Max（2.4 万亿）与月之暗面 K3（2.8 万亿），为国内已知最大，由 Seed Foundation 负责人项亮与预训练数据负责人沈科主导，仍处早期阶段；张一鸣称可接受暂时落后、反对蒸馏，鼓励追求智能上限。",
+              "link": "https://wallstreetcn.com/articles/3778867",
               "tags": [
-                "多模态",
-                "豆包"
+                "大模型",
+                "自研"
               ],
-              "source": "华尔街见闻",
-              "time": "8月5日"
+              "source": "华尔街见闻"
+            },
+            {
+              "title": "字节年中全员会：梁汝波谈整合豆包飞书火山引擎",
+              "time": "8月6日",
+              "summary": "8月6日，字节跳动 CEO 梁汝波在年中全员会上介绍豆包、飞书、火山引擎整合背景，称 AI 在生产力领域发展快于预期、ToB 变得更重要，飞书新增客户超九成同步采购飞书 AI 产品；公司坚持自研大语言模型、接受短期落后，以「高度优先、粗主干、优化长期」聚焦 AI 等三大核心业务。",
+              "link": "https://www.cls.cn/detail/2447482",
+              "tags": [
+                "组织调整",
+                "ToB"
+              ],
+              "source": "财联社"
             }
           ]
         },
@@ -194,15 +170,26 @@ window.__RAW_DATA = {
           "name": "DeepSeek",
           "news": [
             {
-              "title": "DeepSeek重启第二轮融资：拟募资500亿元，投前估值5000亿",
-              "summary": "8月5日消息，据多名交易人士透露，大模型公司DeepSeek重启第二轮融资，本轮计划募资500亿元，投前估值约5000亿元，较首轮投后估值3500亿元提升约43%，计划8月下旬完成签约。若顺利完成，两轮融资累计募资将超1000亿元。本轮融资最早于7月中旬启动，因评估下一代大模型训练算力储备及芯片采购策略于7月底短暂暂停，8月初恢复接洽。资金将重点用于万卡级GPU算力集群扩建及下一代全模态模型研发。",
-              "link": "https://www.zhitongcaijing.com/content/detail/1476116.html",
+              "title": "DeepSeek 拟大幅上调 API 服务定价",
+              "time": "8月6日",
+              "summary": "8月6日，DeepSeek 发布公告，计划近期整体上调 API 服务定价、预计涨幅较大，具体方案以正式通知为准，提醒开发者合理安排使用。此前 V4-Flash 单日处理 Token 达 8 万亿，智能体应用推高调用量与算力成本，行业低价策略或迎拐点。",
+              "link": "https://www.stcn.com/article/detail/4062768.html",
+              "tags": [
+                "API",
+                "定价"
+              ],
+              "source": "证券时报"
+            },
+            {
+              "title": "DeepSeek 获国家人工智能产业投资基金入股",
+              "time": "8月6日消息",
+              "summary": "8月6日消息，天眼查显示，DeepSeek 关联公司杭州深度求索近期工商变更，新增国家人工智能产业投资基金合伙企业、杭州程砺为股东，注册资本由 1500 万增至约 1644.7 万元；此前首轮外部融资 510 亿元、投后估值约 4000 亿元落地，外部投资方经持股平台间接入股，梁文锋保持绝对控制权。",
+              "link": "https://m.21jingji.com/timeline/7f7b8ba671e558e107818bbcdfb94fe5.html",
               "tags": [
                 "融资",
-                "估值"
+                "股权"
               ],
-              "source": "智通财经",
-              "time": "8月5日消息"
+              "source": "21世纪经济报道"
             }
           ]
         },
@@ -212,19 +199,7 @@ window.__RAW_DATA = {
         },
         {
           "name": "小米",
-          "news": [
-            {
-              "title": "小米开源具身基座模型Xiaomi-Robotics-1：10万小时数据训练",
-              "summary": "8月5日，小米技术官方宣布正式开源具身基座模型Xiaomi-Robotics-1，覆盖从真机后训练到模型部署的完整流程，并同步提供Benchmark评测代码。模型基于超10万小时真实世界操作数据进行预训练，采用预训练+后训练两阶段范式，可在未见过的真实环境中根据自然语言执行多类移动操作任务，不同构型机器人无需针对特定硬件重新训练。模型在RoboCasa365、RoboDojo等多项具身智能榜单登顶。",
-              "link": "https://tech.ifeng.com/c/8vLNaFp58L4",
-              "tags": [
-                "具身智能",
-                "开源"
-              ],
-              "source": "凤凰科技",
-              "time": "8月5日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "智谱AI",
@@ -236,7 +211,19 @@ window.__RAW_DATA = {
         },
         {
           "name": "华为",
-          "news": []
+          "news": [
+            {
+              "title": "华为昇腾 0 Day 支持蚂蚁百灵 Ling-3.0-flash",
+              "time": "8月6日",
+              "summary": "8月6日，华为官宣昇腾完成蚂蚁百灵 Ling-3.0-flash 模型 0 Day 适配，首次引入全新 CANN PyPTO 算子编程框架，大幅缩短复杂融合算子交付周期，全面兼容昇腾 A2、A3 系列产品；该模型为蚂蚁百灵 8 月 5 日开源的 124B 参数原生混合推理模型，推理仅激活 5.1B 参数。",
+              "link": "https://wallstreetcn.com/livenews/3145990",
+              "tags": [
+                "昇腾",
+                "生态适配"
+              ],
+              "source": "华尔街见闻"
+            }
+          ]
         }
       ]
     },
@@ -246,66 +233,34 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "Cherry Studio",
+              "title": "小红书",
               "news": [
                 {
-                  "title": "开源AI客户端Cherry Studio 2.0发布：重写百万行代码引入Agent工作流",
-                  "summary": "8月5日消息，开源多模型AI桌面客户端Cherry Studio发布2.0版本，累计修改与新增代码超百万行，定位从聊天工具升级为AI工作空间。新版本原生引入多Agent串行与并行协同工作流，可集成Claude Code、Codex等工具执行研究、文档撰写、数据分析等任务；集成基于本地向量数据库的知识库RAG检索；深度集成MCP协议，可调用第三方MCP工具生态，支持接入300多款主流大模型。",
-                  "link": "https://github.com/CherryHQ/cherry-studio/releases/tag/v2.0.0",
+                  "title": "小红书加大 AI 投入，自研 AI 陪伴产品",
+                  "time": "8月6日消息",
+                  "summary": "8月6日消息，小红书全面提速 AI 战略，布局 AI 社交产品与 AI 社区互动工具，正高薪招募 AI 应用研发人才，「AI 社交产品经理」岗位需主导 AI 陪伴产品设计与打造，最高年薪近百万元；公司 5 月已成立 AI 一级部门 Dots，从产品、组织两方面加码 AI。",
+                  "link": "https://news.qq.com/rain/a/20260806A09ZLI00",
                   "tags": [
-                    "AI客户端",
-                    "Agent"
+                    "AI社交",
+                    "产品布局"
                   ],
-                  "source": "GitHub",
-                  "time": "8月5日消息"
+                  "source": "腾讯新闻"
                 }
               ]
             },
             {
-              "title": "Cursor",
+              "title": "AMD",
               "news": [
                 {
-                  "title": "Cursor开源MoK训练框架：重排GPU流水线提速MoE训练41%",
-                  "summary": "8月5日消息，AI编程工具Cursor开源混合专家模型（MoE）训练加速框架Mixture-of-Kittens（MoK）。MoK将MoE的dispatch、专家FFN计算与combine融合进单一内核，重写底层C++/CUDA代码，通过软件将GPU的SM划分为计算与通信两部分，避免多内核启动开销。实测在512颗英伟达GB300 GPU集群上，MoE模型训练吞吐量提升约41%。该框架已用于训练Cursor自家编程模型Composer，以Apache 2.0协议开源。",
-                  "link": "https://www.theblockbeats.info/flash/359869",
+                  "title": "AMD 收购 AI 推理芯片初创公司 Taalas",
+                  "time": "8月6日",
+                  "summary": "8月6日，AMD 宣布收购总部位于多伦多的 AI 推理芯片初创公司 Taalas，交易金额未披露。Taalas 将 AI 模型权重直接蚀刻进硅片，单芯片专为特定模型定制，测试芯片运行 Llama 3.1 8B 时速度达每秒 1.7 万 token，AMD 计划将其纳入 Instinct GPU 与 ROCm 协同的推理路线图。",
+                  "link": "https://36kr.com/newsflashes/3928707708319880",
                   "tags": [
-                    "开源",
-                    "训练加速"
+                    "AI芯片",
+                    "并购"
                   ],
-                  "source": "律动BlockBeats",
-                  "time": "8月5日消息"
-                }
-              ]
-            },
-            {
-              "title": "京东",
-              "news": [
-                {
-                  "title": "京东开源JoyAI-Video-Edit模型：视频边播边改实时流式编辑",
-                  "summary": "8月5日，京东宣布开源自研实时流式视频编辑模型JoyAI-Video-Edit，实现视频边播边改：给定实时摄像头流或上传视频配合自然语言指令，可逐帧因果式编辑，无需等待完整视频。模型基于16B参数多模态扩散Transformer，在720P下实现每秒30帧端到端推理，支持任意时长，可完成实时换装、外貌改造、风格演绎等任务。在OpenVE-Bench评测中超越所有流式编辑方法，综合性能达世界一流水平。",
-                  "link": "https://tech.ifeng.com/c/8vKyAhdi2Xr",
-                  "tags": [
-                    "开源",
-                    "视频编辑"
-                  ],
-                  "source": "凤凰科技",
-                  "time": "8月5日"
-                }
-              ]
-            },
-            {
-              "title": "锦欣生殖",
-              "news": [
-                {
-                  "title": "国内首个辅助生殖诊疗AI智能体IVF领航员上线试点",
-                  "summary": "8月5日消息，锦欣生殖旗下锦欣科技自主研发的IVF领航员（IVF Co-pilot）系统在四川锦欣西囡妇女儿童医院启动试点。这是辅助生殖领域首个面向医生的临床辅助AI智能体，当前聚焦IVF促排方案及启动用药的辅助评估，将医院临床经验、IVF专业知识、临床算法与本地大模型融入电子病历工作流，为医生提供可比较、可追溯、可复核的辅助信息和临床决策参考。所有诊疗方案仍由医生结合完整病历作出最终决定。",
-                  "link": "https://www.stdaily.com/web/gdxw/2026-08/05/content_559470.html",
-                  "tags": [
-                    "医疗AI",
-                    "智能体"
-                  ],
-                  "source": "科技日报",
-                  "time": "8月5日消息"
+                  "source": "36氪"
                 }
               ]
             }
@@ -313,24 +268,73 @@ window.__RAW_DATA = {
         },
         {
           "name": "自动驾驶",
-          "cards": []
+          "cards": [
+            {
+              "title": "Zoox",
+              "news": [
+                {
+                  "title": "Zoox 8月10日起在拉斯维加斯启动收费 Robotaxi",
+                  "time": "8月6日消息",
+                  "summary": "8月6日消息，亚马逊旗下自动驾驶公司 Zoox 将从 8 月 10 日起在拉斯维加斯对机器人出租车行程收费，结束近一年免费试乘，成为全球首家商业化部署无方向盘、无踏板 Robotaxi 的企业；车费含起步价并按里程与时长计算，NHTSA 已给予两年最多 2500 辆车的商业运营豁免。",
+                  "link": "https://www.jiemian.com/article/14882048.html",
+                  "tags": [
+                    "自动驾驶",
+                    "Robotaxi"
+                  ],
+                  "source": "界面新闻"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "具身智能",
           "cards": [
             {
-              "title": "越疆",
+              "title": "众擎机器人",
               "news": [
                 {
-                  "title": "越疆发布全球首款具身全栖人形机器人鹿萌：可感知情绪主动陪伴",
-                  "summary": "8月5日，越疆科技发布全球首款具身全栖人形机器人越疆鹿萌（DOBOT LUMO），依托全栈自研的空弈具身大模型，实现多模态情绪感知、三维空间理解与主动行动、自主学习与长期进化三大突破，可通过视觉与语音融合识别用户情绪并主动共情回应，搭载高精度导航避障系统，近1.3米高，能在草坪、沙地等复杂地形穿梭。这也标志着越疆完成从工业、商用到消费的具身智能全场景布局。",
-                  "link": "https://tech.ifeng.com/c/8vL1ZByuhv1",
+                  "title": "前小鹏副总裁陈永海加入众擎机器人任运营总裁",
+                  "time": "8月6日消息",
+                  "summary": "8月6日消息，前小鹏集团产品副总裁陈永海加入人形机器人公司众擎机器人任运营总裁，向董事长兼 CEO 赵同阳汇报，将借助其汽车领域大规模量产经验加速完善众擎质量与量产体系；众擎今年 4 月完成 2 亿美元 B 轮融资、估值超 100 亿元，正冲刺规模化交付。",
+                  "link": "https://www.cls.cn/detail/2447343",
+                  "tags": [
+                    "人事变动",
+                    "量产"
+                  ],
+                  "source": "财联社"
+                }
+              ]
+            },
+            {
+              "title": "兆易创新",
+              "news": [
+                {
+                  "title": "兆易创新发布两款人形机器人专用 MCU",
+                  "time": "8月5日",
+                  "summary": "8月5日，兆易创新发布两款人形机器人关节驱动专用 MCU：GD32F50MxxG 合封自研三相栅极驱动器与运放，单芯片替代分立方案，适配 24-48V 电机、12 月量产；GD32H77R 集成 EtherCAT 从站与双百兆 PHY，面向大扭矩下肢关节；公司称人形机器人单机 MCU 需求约 60 颗。",
+                  "link": "https://www.zhidx.com/p/582486.html",
+                  "tags": [
+                    "机器人芯片",
+                    "MCU"
+                  ],
+                  "source": "智东西"
+                }
+              ]
+            },
+            {
+              "title": "元点Zeroth",
+              "news": [
+                {
+                  "title": "元点 Zeroth 发布家庭协作机器人 N1：全球首创异构机械臂",
+                  "time": "8月6日消息",
+                  "summary": "8月6日消息，乐享科技旗下元点 Zeroth 发布全尺寸人形机器人 Jupiter 与全球首款异构机械臂家庭协作机器人 N1。Jupiter 身高约 165cm，支持遥操作、自主导航与人机交互；N1 可拆分为两个机器人独立执行任务，搭载物理空间安全系统，面向整理、照护辅助等家庭场景。",
+                  "link": "https://news.qq.com/rain/a/20260807A03S7I00",
                   "tags": [
                     "人形机器人",
-                    "具身智能"
+                    "家庭机器人"
                   ],
-                  "source": "凤凰科技",
-                  "time": "8月5日"
+                  "source": "腾讯新闻"
                 }
               ]
             }
@@ -347,47 +351,31 @@ window.__RAW_DATA = {
               "title": "宇树科技 IPO",
               "news": [
                 {
-                  "title": "宇树科技开启科创板IPO初步询价，市场预估市值超400亿元",
-                  "summary": "8月5日，宇树科技开启科创板IPO初步询价，拟公开发行新股4044.64万股，占发行后总股本10%，募资42.02亿元，网上网下申购日均为8月10日，缴款截止日为8月12日。市场预估宇树科技IPO市值超400亿元，对应发行价约104元/股，一签约缴款5.2万元。上市后宇树将成为A股首家专注人形机器人领域的上市公司，预计2026年上半年营收10.52亿至11.28亿元，同比增长35%-45%。",
-                  "link": "https://news.qq.com/rain/a/20260805A05ZYA00",
+                  "title": "宇树科技确定发行价 150.80 元，8月10日申购",
+                  "time": "8月6日",
+                  "summary": "8月6日，宇树科技公告确定科创板 IPO 发行价 150.80 元/股，发行 4044.64 万股、占发行后总股本 10%，发行市盈率 219.23 倍，预计募资约 60.99 亿元，上市市值约 610 亿元；战略配售获社保基金、DeepSeek、腾讯等参与，网上申购日 8 月 10 日。",
+                  "link": "https://news.sina.com.cn/c/2026-08-06/doc-inimksmf3791802.shtml",
                   "tags": [
                     "IPO",
-                    "人形机器人"
+                    "机器人"
                   ],
-                  "source": "腾讯新闻",
-                  "time": "8月5日"
+                  "source": "新浪财经"
                 }
               ]
             },
             {
-              "title": "演语科技 IPO",
+              "title": "和光智成 天使轮",
               "news": [
                 {
-                  "title": "传AI设计智能体Lovart背后演语科技考虑香港IPO",
-                  "summary": "8月5日消息，据知情人士透露，AI设计智能体Lovart背后的中国初创公司演语科技正考虑在香港进行首次公开募股，已就潜在股票发售与顾问进行初步磋商，尚未作出最终决定。公司同时接近完成新一轮融资，估值将达30亿美元。演语科技成立于2023年，旗下拥有AI创作社区LiblibAI、设计Agent产品星流（海外版Lovart）及AI视频创作平台LibTV，年化经常性收入已突破3亿美元。",
-                  "link": "https://news.qq.com/rain/a/20260805A084FT00",
-                  "tags": [
-                    "IPO",
-                    "AI设计"
-                  ],
-                  "source": "腾讯新闻",
-                  "time": "8月5日消息"
-                }
-              ]
-            },
-            {
-              "title": "哲源科技 A2轮",
-              "news": [
-                {
-                  "title": "哲源科技完成近2亿元A2轮融资，推进AI4S平台建设",
-                  "summary": "8月5日，AI4S创新企业哲源科技宣布完成近2亿元A2轮融资，由圣湘生物携产业基金领投，中科创星、张江科投等跟投。资金将用于高价值创新IP产出与全球资产布局，以及基于生命世界模型驱动的AI4S平台升级，推进知识模型、基因组模型、信号通路模型、虚拟细胞模型和病灶世界模型等基础模型矩阵建设。公司聚焦AI4S+疾病，以生命功能数字孪生为基础构建生命世界模型平台，自研I类新药PR00012已进入Ⅰ期临床。",
-                  "link": "https://www.cnstock.com/commonDetail/755474",
+                  "title": "AI 新材料企业和光智成完成天使轮数千万融资",
+                  "time": "8月6日",
+                  "summary": "8月6日，AI 新材料企业「和光智成」完成天使轮数千万融资，资金将用于团队扩招与自主实验室扩容。公司以 AI 驱动材料研发，打造「AI 大脑+科研具身智能」协同模式，在北京拥有超 1000 平方米全流程自动化实验室，单日可完成超 400 个化学合成实验。",
+                  "link": "https://36kr.com/newsflashes/3927351190337669",
                   "tags": [
                     "融资",
                     "AI4S"
                   ],
-                  "source": "上海证券报",
-                  "time": "8月5日"
+                  "source": "36氪"
                 }
               ]
             }
@@ -397,66 +385,50 @@ window.__RAW_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "普华永道",
+              "title": "巴克莱",
               "news": [
                 {
-                  "title": "普华永道中东报告被检出100%由AI生成，四大陷AI幻觉危机",
-                  "summary": "8月5日消息，AI检测机构GPTZero发布调查，分析普华永道中东2024-2026年间发布的4份报告，发现其存在高AI检测得分、虚构或无法核实的参考文献、正文主张与引用不符等问题。问题最集中的治理变革报告全文由AI生成概率达100%，其核心概念公民脉搏（Citizen Pulse）治理框架疑似完全虚构。其余3份报告AI生成概率分别为82%、60%和50%。普华永道回应称正更新报告中的少量支持性引用，未讨论AI是否参与撰写。",
-                  "link": "https://news.qq.com/rain/a/20260805A0BTSI00",
+                  "title": "巴克莱：人形机器人或 2035 年后大规模部署",
+                  "time": "8月6日消息",
+                  "summary": "8月6日消息，巴克莱分析师研报指出，人形机器人的大规模经济应用更接近 2035 年而非 2030 年，当前许多炒作实为预设演示、远程操作或特定任务自动化，尚非真正的通用自主性；实现通用自主需具备感知、推理与适应性行为，近期部署将集中在狭窄受控的工业场景。",
+                  "link": "https://www.36kr.com/newsflashes/3927641791150211",
                   "tags": [
-                    "AI幻觉",
-                    "内容检测"
+                    "人形机器人",
+                    "行业研报"
                   ],
-                  "source": "腾讯新闻",
-                  "time": "8月5日消息"
+                  "source": "36氪"
                 }
               ]
             },
             {
-              "title": "华夏出版社",
+              "title": "马斯克",
               "news": [
                 {
-                  "title": "华夏出版社等出版机构标注图书禁用于AI训练，呼吁版权保护",
-                  "summary": "8月4日消息，华夏出版社等多家图书出版机构在版权页统一标注本图书内容严禁用于商业或非商业AI大模型训练的法律声明。出版社负责人表示，大模型公司抓取公开图书数据普遍未取得授权，维权面临取证困难、AI企业内部数据集不公开等阻碍。业内认为，版权页公开标注使AI企业难以主张不知情，或影响法院对合理使用抗辩的认定。此前AI公司破坏性扫描书籍约200万本被销毁，引发行业关注。",
-                  "link": "https://www.jiemian.com/article/14878112.html",
+                  "title": "马斯克：内存需求增速远超供应，AI 最大瓶颈之一是内存",
+                  "time": "8月6日",
+                  "summary": "8月6日，马斯克表示投资者无需为内存芯片需求担忧，AI 热潮中最大瓶颈之一是内存，其产量每年约增 20% 而需求每年增长 200% 甚至更多，基础经济学表明价格应上涨。特斯拉与 SpaceX 均为存储芯片重要买家，马斯克对存储供需具备较强发言权。",
+                  "link": "https://www.cls.cn/detail/2447203",
                   "tags": [
-                    "版权",
-                    "AI训练"
+                    "内存芯片",
+                    "行业观点"
                   ],
-                  "source": "界面新闻",
-                  "time": "8月4日消息"
+                  "source": "财联社"
                 }
               ]
             },
             {
-              "title": "Artificial Analysis",
+              "title": "AI4 大会",
               "news": [
                 {
-                  "title": "同款大模型换家云厂商能力可能差一倍：Artificial Analysis推API准确率榜",
-                  "summary": "8月5日消息，大模型独立评测机构Artificial Analysis发布API Accuracy Index（端点精度指数），衡量同一开源模型在不同云服务商托管平台的能力保留度。首期针对GLM-5.2、gpt-oss-120b、DeepSeek V4 Pro三款模型、44个API端点评测。结果显示，因云厂商在量化精度、上下文截断策略、推理Kernel优化上的差异，同款模型在不同平台的输出准确率最大落差可达一倍，GLM-5.2最差端点仅52%。评测提醒开发者选择API不能只看价格与速度，还要参考精度衰减。",
-                  "link": "https://www.theblockbeats.info/flash/359880",
+                  "title": "李飞飞、辛顿与吴恩达三大科学家巅峰对谈 AI 风险",
+                  "time": "当地时间8月5日",
+                  "summary": "当地时间8月5日，辛顿、李飞飞、吴恩达在 AI4 大会上首次同台对谈，围绕 AI 就业冲击、失控风险与开源监管展开分歧对话：辛顿警示 AI 或二十年内全面超越人类、不赞同商业巨头把持监管；吴恩达认为 AI 替代论被夸大、末日叙事是监管捕获工具；李飞飞呼吁回归科学事实看待 AI。",
+                  "link": "https://news.qq.com/rain/a/20260806A0EXM700",
                   "tags": [
-                    "模型评测",
-                    "API"
+                    "AI风险",
+                    "行业观点"
                   ],
-                  "source": "律动BlockBeats",
-                  "time": "8月5日消息"
-                }
-              ]
-            },
-            {
-              "title": "破坏AI模型刑案",
-              "news": [
-                {
-                  "title": "北京首例破坏AI模型刑案宣判：算法工程师删89TB数据获刑五年十个月",
-                  "summary": "8月5日消息，北京市首例破坏人工智能模型刑事案件尘埃落定，90后算法工程师王某因犯破坏计算机信息系统罪被判处有期徒刑五年十个月，并赔偿公司经济损失20.4万余元。2024年9月，王某登录公司旧集群执行强制删除命令，程序运行17小时清除89TB文生3D、渲染AI模型及训练数据，致AI游戏研发线瘫痪。检方从其手机聊天记录发现其与外部人员合谋利用公司数据干私活，认定其删数据是为下载私活模型腾空间。",
-                  "link": "https://m.gmw.cn/2026-08/05/content_1304543636.htm",
-                  "tags": [
-                    "AI安全",
-                    "判例"
-                  ],
-                  "source": "光明网",
-                  "time": "8月5日消息"
+                  "source": "腾讯新闻"
                 }
               ]
             }
@@ -575,108 +547,108 @@ window.__RAW_DATA = {
         },
         {
           "name": "OpenRouter",
-          "date": "2026-08-06",
+          "date": "2026-08-07",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "DeepSeek V4 Flash 0423",
-              "score": "6.6T tokens",
-              "change": "↑10%"
-            },
-            {
-              "model": "Hy3",
-              "score": "5.36T tokens",
-              "change": "↑9%"
-            },
-            {
-              "model": "MiMo-V2.5",
-              "score": "5.22T tokens",
-              "change": "↑47%"
+              "score": "6.31T tokens",
+              "change": "↑17%"
             },
             {
               "model": "DeepSeek V4 Flash 0731",
-              "score": "4.71T tokens",
+              "score": "6.15T tokens",
               "change": "新上榜"
             },
             {
+              "model": "Hy3",
+              "score": "5.69T tokens",
+              "change": "↑19%"
+            },
+            {
+              "model": "MiMo-V2.5",
+              "score": "5.3T tokens",
+              "change": "↑40%"
+            },
+            {
               "model": "GPT-5.6 Luna",
-              "score": "3.54T tokens",
-              "change": "↑848%"
+              "score": "4.15T tokens",
+              "change": "↑900%"
             },
             {
               "model": "GLM 5.2",
-              "score": "3T tokens",
-              "change": "↑4%"
+              "score": "2.99T tokens",
+              "change": "↑8%"
             },
             {
               "model": "DeepSeek V4 Pro",
-              "score": "2.81T tokens",
-              "change": "↑21%"
+              "score": "2.64T tokens",
+              "change": "↑27%"
             },
             {
               "model": "Nemotron 3 Ultra (free)",
               "score": "2.33T tokens",
-              "change": "↑14%"
-            },
-            {
-              "model": "MiniMax M3",
-              "score": "1.81T tokens",
-              "change": "↑11%"
-            },
-            {
-              "model": "Laguna S 2.1 (free)",
-              "score": "1.66T tokens",
-              "change": "↑583%"
-            },
-            {
-              "model": "Step 3.7 Flash",
-              "score": "1.42T tokens",
-              "change": "↑23%"
-            },
-            {
-              "model": "Kimi K3",
-              "score": "1.36T tokens",
-              "change": "↑1%"
-            },
-            {
-              "model": "Ling-3.0-flash",
-              "score": "1.27T tokens",
-              "change": "↑19%"
+              "change": "↑13%"
             },
             {
               "model": "Gemini 3.6 Flash",
-              "score": "1.16T tokens",
-              "change": "↑263%"
+              "score": "2T tokens",
+              "change": "↑466%"
             },
             {
-              "model": "Claude Opus 5",
-              "score": "1.12T tokens",
-              "change": "↑87%"
+              "model": "Laguna S 2.1 (free)",
+              "score": "1.82T tokens",
+              "change": "↑466%"
             },
             {
-              "model": "Claude Sonnet 5",
-              "score": "1.02T tokens",
-              "change": "—"
+              "model": "MiniMax M3",
+              "score": "1.76T tokens",
+              "change": "↑13%"
             },
             {
-              "model": "Gemini 3 Flash Preview",
-              "score": "946B tokens",
+              "model": "Kimi K3",
+              "score": "1.39T tokens",
               "change": "↑3%"
             },
             {
+              "model": "Step 3.7 Flash",
+              "score": "1.32T tokens",
+              "change": "↑24%"
+            },
+            {
+              "model": "Ling-3.0-flash",
+              "score": "1.14T tokens",
+              "change": "↑12%"
+            },
+            {
+              "model": "Claude Opus 5",
+              "score": "1.13T tokens",
+              "change": "↑44%"
+            },
+            {
+              "model": "Claude Sonnet 5",
+              "score": "1.04T tokens",
+              "change": "↑2%"
+            },
+            {
+              "model": "Gemini 3 Flash Preview",
+              "score": "929B tokens",
+              "change": "↑5%"
+            },
+            {
               "model": "Claude Sonnet 4.6",
-              "score": "938B tokens",
+              "score": "866B tokens",
               "change": "↑7%"
             },
             {
               "model": "GPT-5.6 Terra",
-              "score": "725B tokens",
-              "change": "↑210%"
+              "score": "758B tokens",
+              "change": "↑145%"
             },
             {
               "model": "Gemini 2.5 Flash Lite",
-              "score": "604B tokens",
-              "change": "↑17%"
+              "score": "612B tokens",
+              "change": "↑13%"
             }
           ]
         },
