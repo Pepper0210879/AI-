@@ -3,7 +3,7 @@ const CONFIRMED_KEY = 'ai-news-confirmed';
 
 // 默认数据结构（与 script.js 中的 NEWS_DATA 一致）
 const DEFAULT_DATA = {
-    "date": "2026-08-12",
+    "date": "2026-08-13",
     "sections": {
       "overseas": {
         "vendors": [
@@ -11,37 +11,15 @@ const DEFAULT_DATA = {
             "name": "OpenAI",
             "news": [
               {
-                "title": "OpenAI 伦理负责人入职未满一年即离职",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，据金融时报报道，OpenAI AI 伦理负责人克洛伊·巴卡拉尔已于7月悄然离职，距其2025年8月加入不到一年。她是OpenAI唯一专职伦理学家，目前暂无接替人选。此次离职是OpenAI近期接连发生的高管离任事件之一，此前安全系统主管约翰内斯·海德克、首席未来学家约书亚·阿基阿姆也已相继离开。",
-                "link": "https://www.ithome.com/0/988/365.htm",
-                "tags": [
-                  "人事变动",
-                  "AI安全"
-                ],
-                "source": "IT之家"
-              },
-              {
-                "title": "ChatGPT 月活突破 10 亿，周活同期达峰",
+                "title": "OpenAI 测试付费重置额度，ChatGPT Plus 可用 8 美元续额",
                 "time": "8月12日消息",
-                "summary": "8月12日消息，据媒体统计，OpenAI 的 ChatGPT 与谷歌 Gemini 月活用户双双突破10亿，生成式 AI 应用进入十亿级用户规模新阶段。OpenAI 发言人此前确认，ChatGPT 月活已突破10亿，7月周活一度达到10亿。ChatGPT 上线不足四年达成该里程碑，创下史上最快纪录。",
-                "link": "https://www.cnmo.com/news/815705.html",
-                "tags": [
-                  "用户规模",
-                  "里程碑"
-                ],
-                "source": "CNMO科技"
-              },
-              {
-                "title": "ChatGPT 接入 Yelp，对话中可直接订座排队",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，Yelp 扩大与 ChatGPT 的合作，美国和加拿大用户可在聊天中直接完成餐厅订位或加入候位名单，无需跳出对话。预订流程会收集人数、日期、特殊要求等并返回确认信息，覆盖数千家使用 Yelp Guest Manager 系统的餐厅，把找餐厅和确认座位接成一条操作链。",
-                "link": "https://tech.ifeng.com/c/8vUeiqeYeSz",
+                "summary": "8月12日消息，OpenAI 正在灰度测试 ChatGPT Plus 的付费重置额度功能。当用户每周使用额度耗尽时，界面会出现支付 8 美元（约 54 元人民币）的按钮，付款后可立即将额度恢复至 100%，无需等待约 5 小时自动恢复。OpenAI 发言人证实正在探索让达到上限的用户购买额外使用额度的方式，目前仅为早期实验，尚无大规模推出计划。",
+                "link": "https://www.chinaz.com/ainews/30281.shtml",
                 "tags": [
                   "产品功能",
-                  "AI应用"
+                  "订阅"
                 ],
-                "source": "凤凰科技"
+                "source": "站长之家"
               }
             ]
           },
@@ -49,24 +27,13 @@ const DEFAULT_DATA = {
             "name": "Anthropic",
             "news": [
               {
-                "title": "Claude 输出全量嵌入隐形水印，AI 内容可全球溯源",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，Anthropic 宣布自8月2日起发布的新款 Claude 模型将在生成文本中直接嵌入隐形水印，复制粘贴后仍保留，全球范围生效，覆盖 Claude、Claude Code、Cowork 等全产品线。此举旨在防范 AI 内容冒充原创，是落实欧盟《AI法案》第50条透明度准则的一部分，违规罚款最高达1500万欧元或全球年营收的3%。",
-                "link": "https://www.ithome.com/0/988/260.htm",
+                "title": "Claude 打破平台壁垒，Chrome 侧边栏对话互通全平台历史",
+                "time": "8月13日消息",
+                "summary": "8月13日消息，Claude 推出 Chrome 侧边栏扩展，用户可在浏览器侧边栏与 Claude 对话，并互通全平台的历史记录，无需跳转网页或客户端。此举打破产品平台壁垒，让 Claude 的对话上下文在不同界面间保持一致，被解读为 Anthropic 加码 Agent 和日常 AI 助手入口的布局。",
+                "link": "https://www.ithome.com/0/989/006.htm",
                 "tags": [
-                  "AI安全",
-                  "内容溯源"
-                ],
-                "source": "IT之家"
-              },
-              {
-                "title": "Claude Sonnet 5 维持首发优惠价，取消涨价计划",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，Anthropic 宣布 Claude Sonnet 5 将永久维持首发优惠价，原定9月起生效的涨价方案已取消。当前价格为每百万 Token 输入2美元、输出10美元，原计划上调至3美元和15美元。此举为企业级 AI 应用提供更稳定的成本预期，被分析视为 Anthropic 在 IPO 前争夺企业级工作负载的策略。",
-                "link": "https://www.ithome.com/0/988/132.htm",
-                "tags": [
-                  "定价",
-                  "产品"
+                  "产品功能",
+                  "AI应用"
                 ],
                 "source": "IT之家"
               }
@@ -76,26 +43,28 @@ const DEFAULT_DATA = {
             "name": "Google",
             "news": [
               {
-                "title": "Gemini 月活突破 10 亿，成谷歌增长最快产品",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，谷歌 CEO 桑达尔·皮查伊宣布，Gemini 应用月活跃用户达到10亿，是谷歌有史以来增长最快的产品，也是第14款跨越十亿用户大关的产品。统计仅覆盖 Gemini 独立应用本身，未计入搜索、Workspace 等场景的集成使用；2月时 Gemini 月活为7.5亿。",
-                "link": "https://www.ithome.com/0/988/552.htm",
+                "title": "谷歌发布 Pixel 11 系列，Tensor G6 深度整合 Gemini",
+                "time": "8月12日消息",
+                "summary": "8月12日消息，谷歌在 Made by Google 活动发布 Pixel 11、Pixel 11 Pro、Pro XL 及 Pro Fold 四款新机，搭载自研 Tensor G6 芯片，TPU 增大约 50%，端侧 AI 速度提升 3.5 倍。Gemini 深度集成至 40 多款应用，可代用户订餐厅、叫车、点咖啡，Pro 版变焦升至 120 倍。全系 256GB 起步，售价 899 美元起，8 月 20 日开售。",
+                "link": "https://m.ithome.com/html/988985.htm",
                 "tags": [
-                  "用户规模",
-                  "里程碑"
+                  "新品发布",
+                  "手机",
+                  "Gemini"
                 ],
                 "source": "IT之家"
               },
               {
-                "title": "布林紧急接管 Gemini 团队，3.5 Pro 被曝已取消",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，据 36氪、新浪财经等报道，谷歌联合创始人谢尔盖·布林在 Gemini 面临危机之际紧急回归，介入团队实际管理。研究机构 SemiAnalysis 判断，Gemini 3.5 Pro 因编程能力未达内部目标已被悄然取消，谷歌正用 3.6 Flash 等中端模型补位。同期核心人才流失严重，Gemini 联合负责人 Noam Shazeer 加盟 OpenAI，消息公布当天 Alphabet 股价盘中跌6%。",
-                "link": "https://finance.sina.com.cn/tech/csj/2026-08-11/doc-inimxvuf0639369.shtml",
+                "title": "Pixel Watch 5 支持离线 Gemini，新增血压与胰岛素抵抗趋势",
+                "time": "8月12日消息",
+                "summary": "8月12日消息，谷歌发布 Pixel Watch 5，起售价 399 美元。新表支持完全离线的 Gemini 助手，可离线管理定时器、闹钟和健身活动，并新增主动建议功能。健康方面加入血压趋势与胰岛素抵抗追踪，基于超 50 万人数据训练的高级波形模型，按月提供趋势总结，定位从健身追踪转向健康守护与生活助理。",
+                "link": "https://api3.cls.cn/share/article/2452850?os=web&sv=698",
                 "tags": [
-                  "人事变动",
-                  "大模型"
+                  "新品发布",
+                  "智能手表",
+                  "Gemini"
                 ],
-                "source": "新浪财经"
+                "source": "财联社"
               }
             ]
           },
@@ -103,26 +72,26 @@ const DEFAULT_DATA = {
             "name": "xAI",
             "news": [
               {
-                "title": "xAI 开放 Grok Bot 早期测试，云端智能体可跨应用协作",
+                "title": "xAI 发布 Grok 4.6，综合评分追平 GPT-5.6 Sol",
                 "time": "8月12日消息",
-                "summary": "8月12日消息，SpaceXAI 开放 Grok Bot 早期测试。该产品由一组常驻云端的 AI 智能体组成，每个 Bot 拥有独立计算机，可登录网站和应用执行多步骤任务，用户关闭电脑后任务仍继续运行。多个 Bot 可在群聊中共享上下文、分配职责，并支持观察学习用户工作流。当前面向 SuperGrok Heavy、Cursor Ultra 等订阅用户开放。",
-                "link": "https://www.cqcb.com/news/56/2026-08-12/6197293.html",
+                "summary": "8月12日消息，马斯克旗下 xAI 发布新一代旗舰模型 Grok 4.6，重点强化长程智能体、复杂编程与知识工作能力。在综合 9 项基准的 Artificial Analysis Intelligence Index 上取得 61 分，与 OpenAI GPT-5.6 Sol Max 持平、落后 Fable 5 一分，在 GDPVal、Harvey LAB 等长时程任务上反超对手。API 输入 2 美元/输出 6 美元每百万 Token，约为竞品一半。",
+                "link": "https://awtmt.com/articles/3779307",
                 "tags": [
-                  "智能体",
-                  "产品发布"
+                  "模型发布",
+                  "基准测试"
                 ],
-                "source": "上游新闻"
+                "source": "华尔街见闻"
               },
               {
-                "title": "越南 VinSpace 与 SpaceX 签约，2027 年发射首批卫星",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，越南企业集团 Vingroup 宣布，旗下 VinSpace 与 SpaceX 签署卫星发射合同，卫星将于2027年二季度通过 SpaceX 的 Transporter 拼车计划发射入轨，首次在轨验证自主研发的卫星模块。这是越南航天工业发展的重要里程碑，VinSpace 成立于2025年11月，隶属越南最大私营企业集团。",
-                "link": "https://www.jiemian.com/article/14904643.html",
+                "title": "马斯克：AI 收入下月将超 SpaceX 其他业务总和",
+                "time": "8月12日消息",
+                "summary": "8月12日消息，马斯克在 SpaceX 内部全员会议上表示，AI 营收 9 月将确定超过 SpaceX 其他所有业务营收总和，四季度将大幅超越；未来四五年内 AI 将占 SpaceX 价值 99%，目标明年底建成 10 吉瓦算力。他称 AI 已成为 SpaceX 未来极其重要的一部分，必须赢得 AI 竞争，未来将用 SpaceX 全部信息训练 Grok。",
+                "link": "https://finance.eastmoney.com/a/202608123839098988.html",
                 "tags": [
-                  "航天",
-                  "国际合作"
+                  "行业观点",
+                  "算力"
                 ],
-                "source": "界面新闻"
+                "source": "东方财富"
               }
             ]
           },
@@ -130,26 +99,15 @@ const DEFAULT_DATA = {
             "name": "NVIDIA",
             "news": [
               {
-                "title": "英伟达被曝开发万亿参数开源模型 Nemotron 4",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，据 The Information 报道，英伟达正开发新一代开源 AI 模型 Nemotron 4，旗舰版参数量目标至少1万亿，约为现旗舰 Nemotron 3 Ultra 的两倍，旨在挑战全球顶级开源模型。英伟达希望通过开放模型生态扩大 AI 应用范围，并进一步拉动 GPU 算力需求。发布日期尚未确定，最早可能今年秋末准备就绪。",
-                "link": "https://t.cj.sina.com.cn/articles/view/5182171545/134e1a99902002i316",
+                "title": "英伟达开源 Nemotron 3.5 Lightning，智能体执行提速 30%",
+                "time": "当地时间8月11日",
+                "summary": "当地时间8月11日，英伟达开源 30B 参数（MoE，激活约 3B）模型 Nemotron 3.5 Lightning，专为大型多智能体系统的高频执行任务打造，支持 100 万 token 上下文，输出速度最高提升 4 倍、智能体任务完成加快 30%，采用 OpenMDW-1.1 许可允许商业使用。同期发布开源智能路由库 NeMo Switchyard，可将多模型任务成本降至 Opus 4.8 的三分之一。",
+                "link": "https://www.ithome.com/0/988/609.htm",
                 "tags": [
                   "开源模型",
-                  "大模型"
+                  "智能体"
                 ],
-                "source": "新浪财经"
-              },
-              {
-                "title": "NVIDIA 公布 Vera 存储基准，多项任务超越 x86 CPU",
-                "time": "当地时间8月3日",
-                "summary": "当地时间8月3日，NVIDIA 公布 Vera BlueField-4 STX 存储处理器的首批基准测试。该处理器集成88个 Olympus Armv9.2 CPU 核心，负责处理 AI 存储路径中的加密、压缩、校验与数据恢复等 CPU 侧任务。自测显示加密解密吞吐分别提升1.43倍和1.29倍，CRC32C 完整性校验提升3.67倍，压缩提升3.29倍，多项基准领先 x86 CPU。",
-                "link": "https://developer.nvidia.cn/blog/nvidia-vera-storage-benchmarks-faster-encryption-compression-integrity-checking-and-recovery-for-ai-native-storage/",
-                "tags": [
-                  "AI芯片",
-                  "存储"
-                ],
-                "source": "NVIDIA 官方博客"
+                "source": "IT之家"
               }
             ]
           },
@@ -163,56 +121,58 @@ const DEFAULT_DATA = {
         "vendors": [
           {
             "name": "阿里云",
-            "news": []
+            "news": [
+              {
+                "title": "阿里云灵骏真武 M890 超节点上线，可承载十万亿参数模型",
+                "time": "8月12日消息",
+                "summary": "8月12日消息，阿里云宣布灵骏真武 M890 超节点实例正式上线，首批在乌兰察布开售，是国内首个成功运行超 2 万亿参数大模型的超节点形态算力，单实例最高承载十万亿参数级 MoE 推理。依托平头哥真武 M890 芯片与 ICN Switch 互联，卡间达 800GB/s，Kimi K3 与 Qwen3.8-Max 均已通过该实例对外服务。",
+                "link": "https://www.stcn.com/article/detail/4071213.html",
+                "tags": [
+                  "算力",
+                  "云计算"
+                ],
+                "source": "证券时报"
+              },
+              {
+                "title": "阿里首次开放千问 Max 级权重：Qwen3.8-2.4T-A95B",
+                "time": "8月13日消息",
+                "summary": "8月13日消息，阿里千问首次将 Max 级旗舰模型开源，正式开放 Qwen3.8-2.4T-A95B 权重。模型总参数 2.4 万亿、每个 Token 仅激活 95B 参数，原生支持 256K 上下文，可扩展至 1M，思考模式默认开启。官方评测显示其在 PaperBench 达 93 分超越 GPT-5.6 Sol、OSworld-Verified 位列第一，性能多项接近 Fable 5，仓库体积约 4.89TB。",
+                "link": "https://tech.ifeng.com/c/8vXydmUWHsI",
+                "tags": [
+                  "开源模型",
+                  "千问"
+                ],
+                "source": "凤凰科技"
+              }
+            ]
           },
           {
             "name": "火山引擎",
-            "news": []
+            "news": [
+              {
+                "title": "豆包推出学生优惠：2.5 倍免费额度，专业版降至 38 元",
+                "time": "8月12日消息",
+                "summary": "8月12日消息，字节跳动豆包正式上线面向在校大学生的学生优惠。完成学生身份认证后可获得普通用户 2.5 倍免费额度，豆包专业版标准套餐连续包月价格从 68 元降至 38 元。学生可通过豆包电脑端工作任务模式发送指令或从订阅页进入学生权益，身份认证通过抖音账号完成，权益入口目前位于电脑端。",
+                "link": "https://m.ithome.com/html/988891.htm",
+                "tags": [
+                  "定价",
+                  "学生优惠"
+                ],
+                "source": "IT之家"
+              }
+            ]
           },
           {
             "name": "DeepSeek",
             "news": [
               {
-                "title": "DeepSeek 梁文锋财富一年暴涨 3850%，增速登顶全球",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，金融研究机构 bestbrokers 基于福布斯数据统计，DeepSeek 创始人梁文锋净资产从2025年的10亿美元飙升至2026年的395亿美元，一年增长3850%，增速登顶全球亿万富豪榜，跻身全球最富50人。其财富暴增源于 DeepSeek 首轮500亿元融资后估值跃升，目前梁文锋为全球身价最高的 AI 公司创始人。",
-                "link": "https://www.ithome.com/0/988/396.htm",
+                "title": "DeepSeek V4 Pro 正式版 API 上线，多项测试接近 Fable 5",
+                "time": "8月13日消息",
+                "summary": "8月13日消息，DeepSeek V4 Pro 正式版发布并更新至 API，调用模型名不变，模型版本为 DeepSeek-V4-Pro-0813。新版本大幅增强 Agent 能力，支持 Responses API 与 Codex 接入，1M 上下文、384K 最大输出。定价为百万 Token 缓存命中 0.025 元、输入 3 元、输出 6 元，相比预览版能力大幅提升，Terminal Bench 达 87.9 分逼近 Fable 5 的 88 分。",
+                "link": "https://finance.sina.cn/2026-08-13/detail-ininchpa3517586.d.html",
                 "tags": [
-                  "创始人",
-                  "财富"
-                ],
-                "source": "IT之家"
-              },
-              {
-                "title": "DeepSeek 深度思考会\"取外号\"？官方回应是临时打标签",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，有网友发现 DeepSeek 在深度思考模式下会偷偷给用户取外号（如\"墨墨\"），相关话题冲上热搜。DeepSeek 回应称这实为临时\"打标签\"，仅用于帮模型理清回答的侧重点，不会存储或跨会话保存，不涉及隐私留存，关闭对话框即彻底清除。",
-                "link": "https://m.gmw.cn/2026-08/11/content_1304546270.htm",
-                "tags": [
-                  "隐私",
-                  "AI行为"
-                ],
-                "source": "光明网"
-              },
-              {
-                "title": "DeepSeek 注册\"Harness 团队\"公众号，主攻代码智能体",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，北京深度求索已注册\"Deepseek Harness 团队\"公众号，旨在对标 Claude Code，研发代码智能体产品，由资深研究员陈德里领衔，在北京招聘研究员、工程师等岗位。其岗位描述核心公式为\"Model + Harness = Agent\"，即把 DeepSeek 前沿模型能力转化为领先的 Agent 产品。",
-                "link": "https://www.ithome.com/0/988/327.htm",
-                "tags": [
-                  "代码智能体",
-                  "产品布局"
-                ],
-                "source": "IT之家"
-              },
-              {
-                "title": "DeepSeek 招募 IDC 数据中心团队，向算力基建延伸",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，DeepSeek 官网新增 IDC 数据中心团队招聘，覆盖北京、杭州和内蒙古乌兰察布，面向电气、暖通、土木等专业，工作范围从数据中心规划、建设、测试延伸至交付运维。从招聘土木工程师到大手笔布局智算中心，DeepSeek 正从依赖外部算力的模型公司向算力基础设施更深处延伸。",
-                "link": "https://finance.sina.com.cn/roll/2026-08-11/doc-inimxvuf0683580.shtml",
-                "tags": [
-                  "算力基建",
-                  "招聘"
+                  "模型发布",
+                  "API"
                 ],
                 "source": "新浪财经"
               }
@@ -222,15 +182,26 @@ const DEFAULT_DATA = {
             "name": "腾讯",
             "news": [
               {
-                "title": "腾讯 WorkBuddy 升级多端同步，手机可远程操控电脑端任务",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，腾讯 WorkBuddy 宣布升级多端同步功能，实现 PC、App、小程序三端的任务、对话记录与产物实时同步，并支持手机远程对电脑端任务进行授权与停止，突破设备边界，不打断工作流。用户只需在 PC 和移动端登录同一账号即可自动连接。",
-                "link": "https://www.cls.cn/detail/2451048",
+                "title": "腾讯 Q2 资本开支翻倍至 528 亿，混元 Hy4 计划近期发布",
+                "time": "8月12日消息",
+                "summary": "8月12日消息，腾讯发布 2026 年二季度财报，营收 2047.9 亿元同比增长 11%，资本开支 527.8 亿元同比大增 176%，主要投向 AI 基础设施，若剔除算力采购预付款自由现金流为 376 亿元。混元 Hy3 正式版上线一周调用量较上代增长超 68 倍，更大参数规模的 Hy4 计划近期发布；微信 AI 助手小微灰度测试中，WorkBuddy PC 端 6 月访问量破 2000 万。",
+                "link": "https://finance.eastmoney.com/a/202608123839456973.html",
                 "tags": [
-                  "产品功能",
-                  "办公AI"
+                  "财报",
+                  "大模型"
                 ],
-                "source": "财联社"
+                "source": "东方财富"
+              },
+              {
+                "title": "腾讯微信公布 WeLM 模型：80B 已用于小微，617B 开发中",
+                "time": "8月13日消息",
+                "summary": "8月13日消息，腾讯微信团队公布自研大模型 WeLM 系列，其中 WeLM-80B 总参数 800 亿、激活 30 亿，已应用于微信原生 AI 助手小微，支持对话搜索、操作微信原生功能与调用小程序服务；WeLM-617B 采用 MoE 架构、总参数 6170 亿，正面向智能小程序开发与小微工具生成等复杂任务开发。",
+                "link": "https://finance.sina.cn/tech/2026-08-13/detail-ininchpa3516286.d.html",
+                "tags": [
+                  "大模型",
+                  "微信"
+                ],
+                "source": "新浪财经"
               }
             ]
           },
@@ -240,19 +211,7 @@ const DEFAULT_DATA = {
           },
           {
             "name": "智谱AI",
-            "news": [
-              {
-                "title": "智谱 ZCode 全面升级，新增 Goal 与子智能体",
-                "time": "8月11日消息",
-                "summary": "8月11日消息，智谱宣布面向 GLM 优化的编程工具 ZCode 重大升级，新增 Goal、Subagents、Remote Control 与闲时任务四大功能。Goal 模式可把可验收目标拆成多轮任务，自动修改代码、运行命令和测试；手机可远程控制桌面端工作区。ZCode 上下文缓存命中率超98%，并重置全部 GLM Coding Plan 用户额度。",
-                "link": "https://www.pingwest.com/w/316342",
-                "tags": [
-                  "代码智能体",
-                  "产品升级"
-                ],
-                "source": "品玩"
-              }
-            ]
+            "news": []
           },
           {
             "name": "月之暗面",
@@ -260,7 +219,30 @@ const DEFAULT_DATA = {
           },
           {
             "name": "华为",
-            "news": []
+            "news": [
+              {
+                "title": "华为 Haco 发布会定档 9 月 23 日，Mate 90 或首发韬定律芯片",
+                "time": "8月12日消息",
+                "summary": "8月12日消息，文旅部全国涉外营业性演出活动审批信息显示，华为终端 Haco 发布会助兴演出定于 9 月 23 日在深圳国际会展中心举行，外界普遍认为对应 Mate 90 系列年度旗舰发布会。该机有望首发基于韬定律逻辑折叠技术的麒麟 2026 芯片，晶体管密度提升约 53.5%，等效 3nm 制程水准，是华为绕开先进制程限制的关键一步。",
+                "link": "https://www.21jingji.com/article/20260812/herald/ff01259a562993884694f5066625bef6.html",
+                "tags": [
+                  "芯片",
+                  "新品发布"
+                ],
+                "source": "21世纪经济报道"
+              },
+              {
+                "title": "奕境曾清林：华为智驾依然是行业顶级存在",
+                "time": "8月12日消息",
+                "summary": "8月12日消息，奕境汽车品牌总经理曾清林发文谈与华为的合作，称无论外界如何拿华为开玩笑，其智驾水平依然是行业顶级存在。他列举华为 896 线激光雷达、ADS 5 系统与 130 亿公里智驾数据积累，强调这些硬技术绝不是随便一个供应商能平替的，并称奕境与华为从全栈原生共创第一天起就没有备胎思维。",
+                "link": "https://www.c114.net.cn/industry/110136.html",
+                "tags": [
+                  "智能驾驶",
+                  "华为智驾"
+                ],
+                "source": "C114通信网"
+              }
+            ]
           }
         ]
       },
@@ -270,155 +252,97 @@ const DEFAULT_DATA = {
             "name": "其他厂商",
             "cards": [
               {
-                "title": "Manus",
+                "title": "小红书",
                 "news": [
                   {
-                    "title": "Manus 宣布恢复独立运营，与 Meta 完成分拆",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，Manus 发布《致用户的一封信》，宣布恢复以独立公司形式运营。作为分拆的一部分，部分用户在2025年12月29日（Meta 收购日）之后产生的数据将于8月23日至24日被删除，用户需在8月23日前备份。此前中国监管已依法禁止 Meta 20亿美元收购 Manus，此次调整与数据泄露无关。",
-                    "link": "https://finance.sina.cn/2026-08-11/detail-inimynse5636242.d.html",
+                    "title": "小红书打造 AI 导购，对话中直接推送商品卡片",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，据新浪科技报道，小红书正在打造全新 AI 导购功能，依托对话交互模式，在问答场景中直接推送商品卡片并挂载下单跳转链接，由产品负责人道玄主导推进。此举将 AI 能力延伸至交易链路，此前小红书已于 4 月成立 AI 一级部门 Dots 和企业智能部，加速布局 AI 社交产品与社区互动工具。",
+                    "link": "https://finance.sina.cn/tech/2026-08-12/detail-ininaezk5222851.d.html",
                     "tags": [
-                      "智能体",
-                      "收购反转"
+                      "电商",
+                      "AI应用"
                     ],
                     "source": "新浪财经"
                   }
                 ]
               },
               {
-                "title": "字节跳动",
+                "title": "三星",
                 "news": [
                   {
-                    "title": "字节新设\"AI 数据与安全\"一级部门，与 Seed、Flow 平行",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，据36氪报道，字节跳动近期成立\"AI 数据与安全\"一级部门，与 Seed、Flow、抖音等部门平行，由王赢磊（Adam Wang）负责。新部门整合 Global Data、集团数据中台 DMC、Flow 旗下 AIDP 等团队，为字节所有大模型提供跨模态数据服务，覆盖标准制定、寻源采购、合成清洗与质量评测。",
-                    "link": "https://www.36kr.com/p/3934936980667776",
+                    "title": "三星半导体引入 Claude，芯片设计验证从一月缩至两天",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，据韩媒报道，三星电子确认引入 Anthropic 的 Claude 模型与 Claude Code 工具。在一项定制 SoC 功能验证项目中，原本预计耗时一个月以上的工作仅用两天完成，内部评估效率提升约 15 倍；一名入职两年工程师借助 Claude Code 在一天内完成通常需一个月的 USB 设备开发验证。三星正以 AI 压缩重复性开发，缓解与高通约 9 倍的设计人力差距。",
+                    "link": "https://wallstreetcn.com/articles/3779271",
                     "tags": [
-                      "组织架构",
-                      "AI数据"
+                      "芯片",
+                      "AI应用"
                     ],
-                    "source": "36氪"
+                    "source": "华尔街见闻"
                   }
                 ]
               },
               {
-                "title": "蚂蚁",
+                "title": "荣耀",
                 "news": [
                   {
-                    "title": "蚂蚁开源 Ling-3.0-tiny，79 亿参数面向本地智能体",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，蚂蚁百灵开源 Ling-3.0-tiny，采用 MIT 许可证，提供 BF16、FP8、INT4 权重。模型共79亿参数，每个 Token 仅激活13亿参数，采用 KDA-MLA 混合注意力与 128 专家 MoE 架构，面向本地部署和智能体任务。FP8 版在 M4 Pro MacBook 上可达约86-90 Token/s，8K 上下文时峰值内存占用约8.34 GiB。",
-                    "link": "https://www.36kr.com/p/3935123373866371",
+                    "title": "全球首款机器人手机荣耀 Robot Phone 发布，9999 元起",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，荣耀正式发布全球首款机器人手机 Robot Phone，12GB+512GB 版 9999 元、16GB+1TB 版 12999 元，8 月 18 日首销，预订量已超 40 万台。新机将 4 自由度钛合金机械臂装入机身，搭载 Agentic OS 与首发 YOYO Pro 模式，由阿里千问大模型深度加持，支持跨应用长任务与多模态具身感知，被视为荣耀进军机器人赛道的敲门砖。",
+                    "link": "https://news.sina.cn/2026-08-12/detail-ininarqz6646628.d.html",
                     "tags": [
-                      "开源模型",
-                      "端侧"
+                      "新品发布",
+                      "机器人",
+                      "AI手机"
                     ],
-                    "source": "36氪"
+                    "source": "新浪科技"
                   }
                 ]
               },
               {
-                "title": "商汤",
+                "title": "影石",
                 "news": [
                   {
-                    "title": "商汤发布 SenseNova 6.8 Flash Lite 预览版，主打长任务智能体",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，商汤开放 SenseNova 6.8 Flash Lite Preview，这是一款面向长程任务的多模态智能体模型，支持长任务续跑与多智能体协作，主智能体可动态调度十余个专业智能体并行处理检索、数据分析、视觉理解等任务。已上线 SenseNova Token Plan，预览版每5小时提供1500次免费调用。",
-                    "link": "https://news.qq.com/rain/a/20260811A0CQFB00",
+                    "title": "影石发布全景相机 X6：AI 三芯架构，3999 元起",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，影石 Insta360 发布新一代超旗舰全景相机 X6，大陆售价 3999 元起。新机采用高通 4nm AI 芯片加两颗专用影像芯片的三芯架构，算力提升 5 倍，支持 8K 50 帧全景视频与 1.2 亿像素全景照片，并首次支持机内原生杜比视界。搭载自研 PanoMind AI 模型，AI 导演功能可自动识别高光片段、生成剪辑，覆盖 71% 全球全景相机市场份额。",
+                    "link": "https://www.pingwest.com/w/316390",
                     "tags": [
-                      "智能体",
-                      "多模态"
+                      "新品发布",
+                      "AI影像"
                     ],
-                    "source": "腾讯新闻"
+                    "source": "品玩"
                   }
                 ]
               },
               {
-                "title": "Suno",
+                "title": "亚马逊",
                 "news": [
                   {
-                    "title": "Suno 设下载上限并加入 AI 水印，打击批量导出",
-                    "time": "当地时间8月11日",
-                    "summary": "当地时间8月11日，AI 音乐公司 Suno 宣布从9月3日起限制歌曲下载次数，免费版与订阅档位适用不同额度，超出额度可单独购买。同时下载歌曲将加入不可听见的音频水印，以标示 AI 参与，防范 AI 歌曲批量流入流媒体平台。相关限制源于 Suno 与华纳音乐的版权诉讼和解。",
-                    "link": "https://barrettmedia.com/2026/08/11/suno-imposes-download-limits-starting-september-third/",
+                    "title": "Twitch 默认用直播内容训练亚马逊 AI，主播强烈不满",
+                    "time": "8月13日消息",
+                    "summary": "8月13日消息，Twitch 确认亚马逊一直使用其平台直播内容训练生成式 AI 模型，并新增退出设置但默认处于开启状态，主播需手动关闭。该决定引发社区强烈不满，要求所有 AI 功能默认关闭的帖子获超 1.3 万票支持，近 3000 名用户在官方直播中刷屏抗议。分析指出主播面临接受数据被训练或离开平台的伪选择。",
+                    "link": "https://www.ithome.com/0/989/032.htm",
                     "tags": [
-                      "AI音乐",
-                      "版权"
-                    ],
-                    "source": "Barrett Media"
-                  }
-                ]
-              },
-              {
-                "title": "米哈游",
-                "news": [
-                  {
-                    "title": "米哈游 AI 陪伴应用《BSide》上线未满一月宣布停运",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，米哈游旗下 AI 陪伴与音乐应用《BSide: Olivia Lin》发布停运公告，将于8月27日上线离线版本，8月31日从 Steam 下架并关闭服务器。该应用7月13日以抢先体验登陆 Steam，实际运营不到两个月，离线版本将保留本地聆听演奏和桌面动态壁纸等功能。",
-                    "link": "https://www.bjnews.com.cn/detail-1786443675129467.html",
-                    "tags": [
-                      "AI陪伴",
-                      "停运"
-                    ],
-                    "source": "新京报"
-                  }
-                ]
-              },
-              {
-                "title": "苹果",
-                "news": [
-                  {
-                    "title": "iOS 27 代码首现国行 Apple Intelligence 踪迹，本地处理请求",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，苹果推送 iOS 27 Beta 5，开发者挖掘代码发现国行 Apple Intelligence 采用本地处理机制：用户请求在设备端完成，不会发送给 Apple 或安全机制提供商，符合国内法规。此前\"Apple智能\"已完成备案，底层集成阿里千问大模型，预计随 iOS 27 正式版落地。",
-                    "link": "https://www.ithome.com/0/988/254.htm",
-                    "tags": [
-                      "苹果AI",
-                      "本地化"
+                      "AI训练",
+                      "数据隐私"
                     ],
                     "source": "IT之家"
                   }
                 ]
               },
               {
-                "title": "GitHub",
+                "title": "Mistral AI",
                 "news": [
                   {
-                    "title": "GitHub 发布 Java 版 Copilot SDK，可创建 Agent 会话",
-                    "time": "当地时间8月10日",
-                    "summary": "当地时间8月10日，GitHub 发布 Copilot SDK for Java 预览版（1.0.7-preview.1），Java 服务端应用可直接创建 Agent 会话、注册工具、发送提示词并接收结构化结果，支持 Jakarta EE 与 Spring。SDK 支持 BYOK，可连接 OpenAI、Anthropic 等端点，无需 Copilot 订阅即可使用替代模型。",
-                    "link": "https://github.blog/engineering/using-the-github-copilot-sdk-for-java/",
+                    "title": "Mistral 平台首次接入第三方模型，首款为智谱 GLM-5.2",
+                    "time": "当地时间8月11日",
+                    "summary": "当地时间8月11日，Mistral AI 宣布其平台正式支持第三方开放模型，首款接入的是智谱 AI 旗下 GLM-5.2，这是该平台历史上首次接入第三方模型。第三方模型将与第一方模型运行在相同基础设施与区域控制下，同时新增美国或欧洲区域推理负载选择，并启动 Mistral 优先层级公开预览，被业界视为对欧洲主权 AI 定义的重新诠释。",
+                    "link": "https://m.ithome.com/html/989031.htm",
                     "tags": [
-                      "编程智能体",
-                      "开发者工具"
-                    ],
-                    "source": "GitHub 官方博客"
-                  }
-                ]
-              },
-              {
-                "title": "Spotify",
-                "news": [
-                  {
-                    "title": "Spotify 开放 Xirp，统一编排 Claude Code、Codex 等编程智能体",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，Spotify 开放内部使用的 Xirp，可统一管理 Claude Code、Gemini CLI 和 Codex 等多种编程智能体，一次协调50个以上并行会话，每个会话使用独立 Git worktree 避免冲突，切换模型时保留工作上下文。已有超1300名内部工程师在3.6万次会话中使用。",
-                    "link": "https://news.marsbit.co/flash/20260811170325634462.html",
-                    "tags": [
-                      "编程智能体",
-                      "开发者工具"
-                    ],
-                    "source": "火星财经"
-                  },
-                  {
-                    "title": "Spotify 推出\"AI 人格\"标签，标记 AI 生成歌手作品",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，Spotify 宣布将于9月起陆续上线\"AI 人格\"标签功能，AI 创作者可主动标记，平台也会审核打标，默认不推荐 AI 作品，优先支持真实歌手，让 AI 生成的非真人歌手作品无处遁形。",
-                    "link": "https://www.ithome.com/0/988/504.htm",
-                    "tags": [
-                      "AI音乐",
-                      "内容治理"
+                      "模型生态",
+                      "欧洲AI"
                     ],
                     "source": "IT之家"
                   }
@@ -428,15 +352,15 @@ const DEFAULT_DATA = {
                 "title": "微软",
                 "news": [
                   {
-                    "title": "微软 MAI-Image-2.6 发布，跃升 Arena 文生图榜第二",
-                    "time": "当地时间8月10日",
-                    "summary": "当地时间8月10日，微软发布新一代自研文生图模型 MAI-Image-2.6，在 Arena 文生图排行榜位列第二，Elo 评分1336分，仅次于 OpenAI 的 GPT Image 2，领先谷歌、Meta、xAI 等竞品。相比上代 Elo 提升79分，文本渲染单项提升91分，已开放 Arena 体验，API 预计下周提供。",
-                    "link": "https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/",
+                    "title": "微软发布 MAI-Code-1.1-Flash，编程模型价格降至四分之一",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，微软正式将 MAI-Code-1.1-Flash 投入生产，已在 GitHub Copilot 上线。该模型在 Terminal-Bench 2.1 得分提升 22%，.NET 任务提升 15%，推理成本降至 1.0 版本的四分之一（输出每百万 Token 1.2 美元），Token 流式输出提速 25%，并新增原生视觉能力。1380 亿参数稀疏 MoE、每请求激活约 50 亿参数，针对代理式编码与仓库问答调优。",
+                    "link": "https://www.pingwest.com/w/316375",
                     "tags": [
-                      "文生图",
-                      "模型"
+                      "编程模型",
+                      "Copilot"
                     ],
-                    "source": "微软官方"
+                    "source": "品玩"
                   }
                 ]
               }
@@ -444,40 +368,41 @@ const DEFAULT_DATA = {
           },
           {
             "name": "自动驾驶",
-            "cards": []
+            "cards": [
+              {
+                "title": "比亚迪",
+                "news": [
+                  {
+                    "title": "比亚迪 AI 团队首秀 HyWorldVLA，刷新自动驾驶基准纪录",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，比亚迪汽车新技术研究院 AI 团队发布混合世界模型 HyWorldVLA，在自动驾驶基准 NAVSIM v1 上取得 90.59 PDMS 刷新历史最佳，NAVSIM v2 也以 89.71 领先第二名近 1 分。该模型结合像素级与潜在空间世界建模，自研 4nm 车规智驾芯片璇玑 A3 实现算法与芯片闭环，被视为比亚迪 L3 智驾的关键技术储备。",
+                    "link": "https://www.c114.net.cn/industry/110372.html",
+                    "tags": [
+                      "自动驾驶",
+                      "世界模型"
+                    ],
+                    "source": "C114通信网"
+                  }
+                ]
+              }
+            ]
           },
           {
             "name": "具身智能",
             "cards": [
               {
-                "title": "中国人形机器人",
+                "title": "自变量",
                 "news": [
                   {
-                    "title": "上半年中国人形机器人出货量占全球 97%，智元超宇树登顶",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，据美国研究机构 SAG 数据，2026年上半年全球人形机器人出货量约1.91万台，中国制造商占97%以上。智元机器人以8400台（44%份额）超越宇树科技（5900台，31%）夺得第一，两家均远超特斯拉、Figure AI 等美国企业。工业和商业用途已占上半年出货量70%以上。",
-                    "link": "https://finance.eastmoney.com/a/202608113837904234.html",
+                    "title": "自变量机器人物流分拣 1816 件/小时，反超 Figure AI",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，深圳具身智能企业自变量机器人完成 1 小时全自主物流分拣直播，以 1816 件/小时效率、98% 准确率超越美国 Figure AI 此前 1248 件/小时的纪录约 45%，且采用双机械臂加标准夹爪方案，成本仅为 Figure AI 约 30%。核心依托自研端到端世界统一模型 WALL-B，验证了不堆硬件、靠具身大脑实现规模化产业落地的路径。",
+                    "link": "https://www.qbitai.com/2026/08/471049.html",
                     "tags": [
-                      "人形机器人",
-                      "行业数据"
+                      "具身智能",
+                      "机器人"
                     ],
-                    "source": "东方财富"
-                  }
-                ]
-              },
-              {
-                "title": "三星",
-                "news": [
-                  {
-                    "title": "三星集结全公司之力，加快自研人形机器人",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，韩媒报道，三星电子正集结全公司力量加快人形机器人自主研发，制造技术、生产现场数据、软件、资金和半导体实力将汇聚。除子公司 Rainbow Robotics 外，三星还在独立开发人形机器人，已启动世界模型研发和专用执行器开发，并计划在美国、中国、日本设立海外研发中心。",
-                    "link": "https://finance.jrj.com.cn/2026/08/11174558074843.shtml",
-                    "tags": [
-                      "人形机器人",
-                      "厂商动态"
-                    ],
-                    "source": "金融界"
+                    "source": "量子位"
                   }
                 ]
               }
@@ -491,50 +416,146 @@ const DEFAULT_DATA = {
             "name": "投资资讯",
             "cards": [
               {
-                "title": "语用科技",
+                "title": "面壁智能",
                 "news": [
                   {
-                    "title": "前千问负责人林俊旸创办语用科技，红杉高榕领投、腾讯参投",
+                    "title": "面壁智能启动 IPO 辅导，估值突破 200 亿元",
                     "time": "8月12日消息",
-                    "summary": "8月12日消息，离开阿里通义千问约5个月后，林俊旸官宣创办 AI 公司 Pragmatik Labs（语用科技），聚焦数字智能体和物理智能体，目标是让 AI 进入知识工作、企业运营、工业流程及现实环境中的长期任务。红杉中国、高榕创投领投，腾讯与上海未来产业基金参与支持，投后估值约20亿美元。",
-                    "link": "https://m.pedaily.cn/news/567578",
+                    "summary": "8月12日消息，证监会公示显示，北京面壁智能于 8 月 11 日向北京证监局提交 IPO 上市辅导备案，辅导机构为中信证券。面壁智能主打端侧大模型 MiniCPM，全球下载量超 4300 万次，已获 8 轮融资，2026 年上半年累计融资超 50 亿元、估值突破 200 亿元，股东含华为哈勃、智谱、中国电信等，是国内端侧智能领域公开估值最大的独角兽。",
+                    "link": "https://finance.eastmoney.com/a/202608123838936567.html",
+                    "tags": [
+                      "IPO",
+                      "端侧大模型"
+                    ],
+                    "source": "东方财富"
+                  }
+                ]
+              },
+              {
+                "title": "River AI",
+                "news": [
+                  {
+                    "title": "xAI 联合创始人创办 River AI，获 11 亿美元融资",
+                    "time": "8月11日消息",
+                    "summary": "8月11日消息，由 xAI 联合创始人伊戈尔·巴布什金创办的初创公司 River AI 宣布完成 11 亿美元融资，覆盖种子轮和 A 轮，General Catalyst 与 AMP PBC 领投，英伟达与 AMD Ventures 跟投，YC 与淡马锡参投。该公司成立仅约两个月、团队约 20 人，主打让企业用自有数据训练专属 AI，其 River API 已上线并投入实际应用，押注个人 AI 与开放模型路线。",
+                    "link": "https://www.jiemian.com/article/14909244.html",
                     "tags": [
                       "融资",
-                      "智能体"
+                      "开放模型"
+                    ],
+                    "source": "界面新闻"
+                  }
+                ]
+              },
+              {
+                "title": "凯文·韦尔",
+                "news": [
+                  {
+                    "title": "前 OpenAI 产品官创业，新 AI 科学公司寻求 7.5 亿美元估值",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，据 Business Insider 报道，前 OpenAI 首席产品官凯文·韦尔正在为新成立的 AI 科学初创公司寻求至少 7.5 亿美元估值，并计划本轮募集 1.5 亿美元。该公司定位为为 AI 模型收集科学数据、将前沿大模型嵌入科学家工作流。消息人士称细节尚未敲定，韦尔未回应置评请求，反映出 AI 前沿正从聊天转向科学发现的趋势。",
+                    "link": "https://flash.jin10.com/detail/20260812035315552800",
+                    "tags": [
+                      "融资",
+                      "AI4Science"
+                    ],
+                    "source": "金十数据"
+                  }
+                ]
+              },
+              {
+                "title": "中际旭创",
+                "news": [
+                  {
+                    "title": "传英伟达拟 20 亿美元入股中际旭创，两公司紧急回应",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，市场传闻英伟达计划斥 20 亿美元战略入股光模块龙头中际旭创，用于新一代光模块研发与泰国新工厂建设，同时有意任新易盛港股 IPO 基石投资者。对此中际旭创回应表示并不了解，以公告为准；新易盛称不便评论，相关事项以披露公告为准。中际旭创是英伟达 1.6T 光模块核心供应商，当日两股均上涨逾 3%。",
+                    "link": "https://finance.eastmoney.com/news/1345,202608123838992246.html",
+                    "tags": [
+                      "投资传闻",
+                      "光模块"
+                    ],
+                    "source": "东方财富"
+                  }
+                ]
+              },
+              {
+                "title": "慧仑科技",
+                "news": [
+                  {
+                    "title": "广汽孵化人形机器人公司慧仑科技完成超亿元融资",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，广汽集团孵化的人形机器人公司广东慧仑科技宣布完成超亿元融资，由中车国创基金、招银国际、四川科创等联合投资。资金将投向垂类模型优化、汽车产线与综合服务场景拓展及核心硬件迭代。公司已推出 GoMate、GoMate Mini 等四款产品，GoMate Mini 已落地 7 大项目、部署近 50 台，规划支撑万台级产能。",
+                    "link": "https://m.21jingji.com/article/20260812/herald/5def8c1527a1e2412641633b06622d75.html",
+                    "tags": [
+                      "融资",
+                      "人形机器人"
+                    ],
+                    "source": "21世纪经济报道"
+                  }
+                ]
+              },
+              {
+                "title": "艾欧智能",
+                "news": [
+                  {
+                    "title": "具身数据基础设施企业艾欧智能完成数亿元融资",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，机器人与具身智能数据基础设施企业艾欧智能宣布完成数亿元融资，由顺为资本、松禾资本、深创投联合投资，并获得头部机器人本体企业战略投资。公司成立腾讯、百度等背景团队，自研遥操作数据采集、人类数据采集与数据管理平台三大产品，已服务全球 150 余家本体企业与模型公司，累计适配 80 余款机器人。",
+                    "link": "https://news.pedaily.cn/202608/567593.shtml",
+                    "tags": [
+                      "融资",
+                      "具身智能"
                     ],
                     "source": "投资界"
                   }
                 ]
               },
               {
-                "title": "CoreWeave",
+                "title": "梁文锋",
                 "news": [
                   {
-                    "title": "CoreWeave 完成 26 亿美元 AI 基础设施贷款融资",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，CoreWeave 宣布完成26亿美元延期提款定期贷款融资，期限约五年，用于支持其 AI 云平台的持续扩张及已承诺的客户部署项目。融资所得将用于采购和部署专用于客户合同的高性能计算（HPC）基础设施。",
-                    "link": "https://www.jiemian.com/article/14902941.html",
+                    "title": "梁文锋旗下私募拿下宇树网下配售最大份额",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，宇树科技科创板 IPO 网下配售结果出炉，135 家私募旗下 2839 只产品获配，合计约 42.99 亿元。梁文锋实际控制的宁波幻方量化与浙江九章资产以 198 只产品获配约 3893.74 万元，按配售对象计居私募机构首位；叠加 DeepSeek 此前约 1.41 亿元战略配售，梁文锋三家主体合计投入约 1.8 亿元，若宇树首日市值破 3000 亿有望浮盈约 7 亿元。",
+                    "link": "https://www.thepaper.cn/newsDetail_forward_33769012",
                     "tags": [
-                      "融资",
-                      "AI基建"
+                      "IPO",
+                      "打新"
                     ],
-                    "source": "界面新闻"
+                    "source": "澎湃新闻"
                   }
                 ]
               },
               {
-                "title": "戴盟机器人",
+                "title": "但斌",
                 "news": [
                   {
-                    "title": "蚂蚁领投戴盟机器人，数亿元押注触觉智能",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，戴盟机器人宣布完成数亿元战略轮融资，由蚂蚁集团领投，老股东超额跟投。这是蚂蚁在具身智能赛道首次布局触觉感知层。戴盟发布全球首个触觉锚定世界模型 Daimon-TWM，在四大接触密集型任务中平均成功率64%，远超对比模型，打造驱动机器人灵巧操作的\"物理交互脑\"。",
-                    "link": "https://www.jiemian.com/article/14905338.html",
+                    "title": "但斌美股持仓大换血：清仓苹果，新进 7 只 AI 硬件股",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，但斌旗下东方港湾海外基金二季度美股持仓大幅调整，清仓苹果、特斯拉、谷歌等 6 只标的，新进英特尔、闪迪、AMD、迈威尔、Arm、博通、Lumentum 等 7 只 AI 硬件股，其中英特尔以约 2.58 亿美元持仓升至第二大重仓股、超越英伟达。整体持仓市值约 16.5 亿美元，环比增约 45.6%。但斌重申 AI 是未来十年超级主线，国内产品保持满仓。",
+                    "link": "https://m.21jingji.com/article/20260812/herald/be08b21eb59bb3d1132d23e9a23e9eaf.html",
                     "tags": [
-                      "融资",
-                      "触觉智能"
+                      "持仓",
+                      "AI硬件"
                     ],
-                    "source": "界面新闻"
+                    "source": "21世纪经济报道"
+                  }
+                ]
+              },
+              {
+                "title": "芝商所",
+                "news": [
+                  {
+                    "title": "芝商所拟推算力期货：追踪英伟达 GPU 租赁价格",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，芝加哥商品交易所宣布与 Silicon Data 合作，拟于 10 月 5 日推出追踪英伟达 H100、B200 GPU 每小时租赁成本的算力期货合约，每份合约代表约 730 GPU-hour 的标准月租赁量，采用现金结算，若落地将成为全球首个算力期货。此举将算力变为可交易的标准大宗商品，为 AI 厂商提供对冲算力成本与价格发现的新工具。",
+                    "link": "https://www.weiyangx.com/475073.html",
+                    "tags": [
+                      "算力",
+                      "期货"
+                    ],
+                    "source": "未央网"
                   }
                 ]
               }
@@ -544,82 +565,83 @@ const DEFAULT_DATA = {
             "name": "行业趋势&观点",
             "cards": [
               {
-                "title": "阅文",
+                "title": "抖音",
                 "news": [
                   {
-                    "title": "阅文上半年短剧及 AI 漫剧收入 4.3 亿元，为去年同期 3 倍",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，阅文集团发布中期业绩，上半年收入35.3亿元，同比增长10.7%，其中短剧及 AI 漫剧业务收入达4.3亿元，是去年同期的3倍多。依托 AI 技术，上千部网文被改编为 AI 漫剧，46部播放量破亿、367部播放量破千万，并在海内外分别推出起点剧场和 ToonScroll 平台。",
-                    "link": "https://stcn.com/article/detail/4070010.html",
+                    "title": "抖音处置台风不实内容 1.28 万条，重点治理 AI 虚构灾害画面",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，抖音发布台风白海豚不实信息治理公告，自 8 月 9 日起累计处置不实内容 12834 条、违规账号 5 个、不实评论 128 条，并上线求真卡汇总权威信息。治理对象包括移花接木、旧闻翻炒、夸大灾情及利用 AI 生成或加工灾害画面等五类内容，平台结合内容识别、画面分析与人工核验处置 AI 伪造灾害场景，提醒用户以气象应急部门预警为准。",
+                    "link": "https://finance.sina.cn/2026-08-12/detail-inimzytm3637661.d.html",
                     "tags": [
-                      "AI内容",
-                      "财报"
-                    ],
-                    "source": "证券时报"
-                  }
-                ]
-              },
-              {
-                "title": "杨奇（游戏科学美术总监）",
-                "news": [
-                  {
-                    "title": "杨奇：《黑神话：钟馗》设计与资产阶段暂不使用 AI",
-                    "time": "8月10日消息",
-                    "summary": "8月10日消息，游戏科学美术总监杨奇回应网友提问，称《黑神话：钟馗》在设计和资产制作阶段会远离 AIGC，并非抵触 AI，而是\"没有什么末班车是非赶不可的\"，未来使用 AI 仍有充足时间。他以诺兰坚持传统胶片拍摄《奥德赛》为例，认为创作者不必急于追赶技术节奏。",
-                    "link": "https://news.qq.com/rain/a/20260811A05GD100",
-                    "tags": [
-                      "AI创作",
-                      "游戏"
-                    ],
-                    "source": "腾讯新闻"
-                  }
-                ]
-              },
-              {
-                "title": "李飞飞",
-                "news": [
-                  {
-                    "title": "李飞飞：AI 进校园最大风险是削弱孩子的学习能力",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，斯坦福大学教授李飞飞在播客中表示，AI 进入校园的最大风险并非学生作弊，而是可能削弱孩子的学习能力、自主性和动力。\"最糟糕的结果，是年轻一代的自主性，以及作为人的学习和生活动力被工具夺走。\"她同时警告不应全面禁止学生使用 AI，而应将其定位为\"学习伙伴\"而非\"思考替代品\"。",
-                    "link": "https://tech.ifeng.com/c/8vVjN8uAOt2",
-                    "tags": [
-                      "AI教育",
-                      "观点"
-                    ],
-                    "source": "凤凰科技"
-                  }
-                ]
-              },
-              {
-                "title": "李开复",
-                "news": [
-                  {
-                    "title": "李开复：中国开源大模型让美国人很担忧",
-                    "time": "8月11日消息",
-                    "summary": "8月11日消息，零一万物 CEO 李开复表示，中国开源大模型正吸引越来越多美国公司使用，让美国人感到担忧。他举例称，月之暗面 Kimi K3 模型性能接近美国最强 AI，但价格可能便宜60%，许多人已在公开讨论开源生态是否会导致美国闭源体系发展不力甚至崩盘。",
-                    "link": "https://finance.sina.com.cn/roll/2026-08-11/doc-inimyxhc4233972.shtml",
-                    "tags": [
-                      "开源模型",
-                      "观点"
+                      "AI治理",
+                      "内容安全"
                     ],
                     "source": "新浪财经"
                   }
                 ]
               },
               {
-                "title": "Gartner",
+                "title": "狮门影业",
                 "news": [
                   {
-                    "title": "Gartner 预估 2026 年 AI 推理支出首次超越模型训练",
+                    "title": "激进投资者敦促狮门影业拥抱 AI 或考虑出售",
                     "time": "8月11日消息",
-                    "summary": "8月11日消息，Gartner 预测2026年全球 AI 优化 IaaS 支出将达420亿美元，同比增长96%，其中 AI 推理支出预计233亿美元，首次超过模型训练支出的190亿美元，推理任务将占 55%。这标志着 AI 应用正从模型开发阶段走向规模化生产部署，智能体 AI 和推理模型的崛起是主要推动力。",
-                    "link": "https://www.zhiding.cn/ai-infrastructure/2026/0811/3195914.shtml",
+                    "summary": "8月11日消息，激进投资机构 Anson Funds 致信狮门影业董事会，要求公司更快转向 AI 或考虑出售。信中认为生成式视频模型正改变市场对传统影视公司的判断，狮门需证明自己能成为 AI 受益者。狮门今年已任命首位首席 AI 官并测试相关工具，管理层强调用 AI 时保护创作者权益，公司表示目前无实质并购谈判。",
+                    "link": "https://www.jiemian.com/article/14908376.html",
                     "tags": [
-                      "行业报告",
-                      "算力"
+                      "AI转型",
+                      "影视行业"
                     ],
-                    "source": "至顶网"
+                    "source": "界面新闻"
+                  }
+                ]
+              },
+              {
+                "title": "SAFE 框架",
+                "news": [
+                  {
+                    "title": "英伟达等 120 家组织提议建立 AI 智能体事故追踪机制",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，由英伟达、思科、CrowdStrike 等超 120 家组织组成的开放安全 AI 联盟，提议为 AI 智能体建立标准化安全事故追踪机制 SAFE。草案要求成员在事故后 4 个工作日内提交初步保密报告、90 天内更新修复进展，需保留提示词、智能体运行轨迹等证据，以 NASA 航空安全报告系统为蓝本，并明确意图不能决定事件是否应上报。",
+                    "link": "https://m.21jingji.com/article/20260812/herald/a095ab7e976d08605172c2554f8daba2.html",
+                    "tags": [
+                      "AI安全",
+                      "行业治理"
+                    ],
+                    "source": "21世纪经济报道"
+                  }
+                ]
+              },
+              {
+                "title": "阿莫迪（Anthropic CEO）",
+                "news": [
+                  {
+                    "title": "Anthropic 上市前夕，投资人不满 CEO 屡谈 AI 毁灭风险",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，据 The Information 报道，Anthropic 预计最快 9 月 IPO、估值约 9650 亿美元，但 CEO 阿莫迪屡次公开警告 AI 可能消灭一半初级白领岗位、将失业率推至 10%-20%，并主张建立航空式监管，令部分投资人不满，希望他少讲 AI 毁灭世界、多讲如何赚钱。阿莫迪坚持安全使命优先，此前甚至拒绝公关团队强化正面宣传的建议，投资者难以左右其决定。",
+                    "link": "https://wallstreetcn.com/articles/3779225",
+                    "tags": [
+                      "AI安全",
+                      "IPO"
+                    ],
+                    "source": "华尔街见闻"
+                  }
+                ]
+              },
+              {
+                "title": "算力用电",
+                "news": [
+                  {
+                    "title": "报告：2030 年全国算力用电量将达 8000 亿度",
+                    "time": "8月12日消息",
+                    "summary": "8月12日消息，据行业报告，到 2030 年全国算力用电量预计将达 8000 亿度，届时约 6 万亿度绿电将奔涌入网。随着大模型训练与推理需求快速增长，算力成为电力消耗的重要增量，报告同时关注数据中心绿电消纳与能源结构转型，为算力基础设施建设提供能耗与电网承载的量化参照。",
+                    "link": "https://www.ithome.com/0/988/994.htm",
+                    "tags": [
+                      "算力",
+                      "用电",
+                      "行业趋势"
+                    ],
+                    "source": "IT之家"
                   }
                 ]
               }
@@ -725,7 +747,7 @@ const DEFAULT_DATA = {
                 "change": "+7"
               },
               {
-                "model": "GPT-5.2 Chat",
+                "model": "GPT-5.2 Chat Latest",
                 "score": "1476",
                 "change": "+4"
               },
@@ -738,58 +760,58 @@ const DEFAULT_DATA = {
           },
           {
             "name": "OpenRouter",
-            "date": "2026-08-12",
+            "date": "2026-08-13",
             "link": "https://openrouter.ai/rankings",
             "rankings": [
               {
                 "model": "DeepSeek V4 Flash 0731",
-                "score": "10T tokens",
-                "change": "↑191%"
+                "score": "10.5T tokens",
+                "change": "↑123%"
               },
               {
                 "model": "Hy3",
-                "score": "9.48T tokens",
-                "change": "↑90%"
+                "score": "10.1T tokens",
+                "change": "↑89%"
               },
               {
                 "model": "DeepSeek V4 Flash 0423",
-                "score": "5.5T tokens",
-                "change": "↑21%"
-              },
-              {
-                "model": "MiMo-V2.5",
-                "score": "5.03T tokens",
-                "change": "↑1%"
+                "score": "5.3T tokens",
+                "change": "↑20%"
               },
               {
                 "model": "GPT-5.6 Luna",
-                "score": "4.88T tokens",
-                "change": "↑63%"
+                "score": "5.12T tokens",
+                "change": "↑45%"
+              },
+              {
+                "model": "MiMo-V2.5",
+                "score": "4.64T tokens",
+                "change": "↑11%"
               },
               {
                 "model": "GLM 5.2",
-                "score": "3.69T tokens",
-                "change": "↑28%"
+                "score": "3.65T tokens",
+                "change": "↑22%"
               },
               {
                 "model": "DeepSeek V4 Pro",
-                "score": "2.55T tokens",
-                "change": "↑14%"
-              },
-              {
-                "model": "Gemini 3.6 Flash",
-                "score": "2.46T tokens",
-                "change": "↑451%"
+                "score": "2.66T tokens",
+                "change": "↑5%"
               },
               {
                 "model": "Nemotron 3 Ultra (free)",
-                "score": "2.24T tokens",
-                "change": "↑4%"
+                "score": "2.16T tokens",
+                "change": "↑7%"
+              },
+              {
+                "model": "Gemini 3.6 Flash",
+                "score": "2.09T tokens",
+                "change": "↑80%"
               },
               {
                 "model": "Laguna S 2.1 (free)",
-                "score": "1.76T tokens",
-                "change": "↑23%"
+                "score": "1.71T tokens",
+                "change": "↑3%"
               },
               {
                 "model": "MiniMax M3",
@@ -864,19 +886,19 @@ const DEFAULT_DATA = {
                 "name": "metrics",
                 "category": "Mac",
                 "rank": 3,
-                "link": "https://www.producthunt.com"
+                "link": "https://github.com/mxcl/metrics"
               },
               {
                 "name": "Poth Labs",
                 "category": "Customer Success",
                 "rank": 4,
-                "link": "https://www.producthunt.com"
+                "link": "https://www.pothlabs.com"
               },
               {
                 "name": "DepthData",
                 "category": "Analytics",
                 "rank": 5,
-                "link": "https://www.producthunt.com"
+                "link": "https://www.depthdata.com"
               },
               {
                 "name": "Halo by Scam AI",
@@ -894,7 +916,7 @@ const DEFAULT_DATA = {
                 "name": "Customer.io Summer Release",
                 "category": "Email",
                 "rank": 8,
-                "link": "https://www.producthunt.com"
+                "link": "https://customer.io"
               },
               {
                 "name": "Screencap",
@@ -906,7 +928,7 @@ const DEFAULT_DATA = {
                 "name": "Gemini Robotics 2",
                 "category": "Robots",
                 "rank": 10,
-                "link": "https://www.producthunt.com"
+                "link": "https://deepmind.google"
               },
               {
                 "name": "TraceLLM",
@@ -918,7 +940,7 @@ const DEFAULT_DATA = {
                 "name": "Mubert API",
                 "category": "Music",
                 "rank": 12,
-                "link": "https://www.producthunt.com"
+                "link": "https://mubert.com"
               }
             ]
           }
