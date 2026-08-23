@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-22",
+  "date": "2026-08-23",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,26 +7,15 @@
           "name": "OpenAI",
           "news": [
             {
-              "title": "GPT Image 2 API 预览透明背景生成，一键出 Alpha 通道 PNG",
-              "summary": "8月21日消息，OpenAI宣布GPT Image 2 API开始预览透明背景生成功能。开发者可直接生成能叠加到不同背景上的可复用素材，用于产品图片、平面设计、网站原型和营销内容，一个参数即可输出带Alpha通道的PNG。官方模型页面显示，GPT Image 2可通过图像生成与图像编辑端点使用，并支持灵活的图像尺寸和高保真图像输入。同日LMArena上出现名为luna-lisa-alpha的匿名图像模型，测试者猜测可能与OpenAI下一代图像模型有关。",
-              "link": "https://finance.sina.com.cn/stock/t/2026-08-21/doc-inipakuq1400338.shtml",
+              "title": "OpenAI一改立场，呼吁加州强化AI安全法案",
+              "summary": "8月23日消息，OpenAI呼吁加州进一步加强具有里程碑意义的AI安全法案SB 53，称该法案应扩大安全保障措施，例如要求对正在训练或评估的前沿AI模型进行监控、在整个模型开发生命周期加强网络安全保护。这是OpenAI首次公开支持强化该州级监管，此前其曾反对该法案。OpenAI表示在缺乏联邦AI立法的情况下支持「逆向联邦主义」路径，让各州采取相互兼容的监管政策。",
+              "link": "https://www.ithome.com/0/993/141.htm",
               "tags": [
-                "图像生成",
-                "API"
+                "AI安全",
+                "监管"
               ],
-              "source": "新浪财经",
-              "time": "8月21日消息"
-            },
-            {
-              "title": "OpenAI下调GPT-5.6 Sol价格，API与Credit费用降幅超20%",
-              "summary": "当地时间8月21日，OpenAI官方在开发者社区宣布，将在未来3个月内将旗舰模型GPT-5.6 Sol的API与Credit调用价格下调20%以上，API端即时生效并陆续向ChatGPT Work和Codex credits方案推送。标准输入从5美元降至4美元，标准输出从30美元降至20美元。OpenAI表示Sol优化了自身生产推理内核，将端到端服务成本削减约20%，支撑此次降价。市场视为OpenAI面对Anthropic及DeepSeek价格战压力的回应。",
-              "link": "https://36kr.com/newsflashes/3950062675377280",
-              "tags": [
-                "定价",
-                "价格战"
-              ],
-              "source": "36氪",
-              "time": "当地时间8月21日"
+              "source": "IT之家",
+              "time": "8月23日消息"
             }
           ]
         },
@@ -34,25 +23,25 @@
           "name": "Anthropic",
           "news": [
             {
-              "title": "Anthropic目标估值2万亿美元IPO，或成史上最大IPO",
-              "summary": "8月21日消息，据英国《金融时报》报道，多位Anthropic投资方透露，Anthropic最快将于今年10月挂牌上市，目标估值2万亿美元起步，部分投资人预期高达3万亿美元。若按2万亿美元发行估值落地，将超越今年6月SpaceX创下的1.77万亿美元IPO纪录，成为全球商业史上最大IPO。公司二季度实现调整后营业利润5.59亿美元，估值依据年底1000-1200亿美元年化收入计算，市销率约17-20倍。",
-              "link": "https://www.tmtpost.com/8104736.html",
+              "title": "Anthropic多款Claude旧模型可被越狱生成露骨内容",
+              "summary": "8月23日消息，据TechCrunch测试及英国独立研究员发现，Anthropic多款仍在使用的Claude旧模型存在安全漏洞，可被诱导生成其使用规范明确禁止的露骨色情内容。Claude Opus 4.6在10次测试中每次都立即配合，Opus 3和Haiku 4.5也可通过近期被利用的越狱方法生成违规内容，这些模型仍可通过API及Azure、AWS等平台访问。较新的Opus 4.7至5对此越狱方法有抵抗力。Anthropic回应称用户用于色情角色扮演的场景仅占全部对话不到0.1%。",
+              "link": "https://finance.sina.com.cn/stock/t/2026-08-23/doc-iniphhay2676675.shtml",
               "tags": [
-                "IPO",
-                "估值"
+                "AI安全",
+                "越狱漏洞"
               ],
-              "source": "钛媒体",
-              "time": "8月21日消息"
+              "source": "新浪财经",
+              "time": "8月23日消息"
             },
             {
-              "title": "Anthropic挖来谷歌TPU创始负责人，加速自研芯片布局",
-              "summary": "8月22日消息，Anthropic聘请谷歌定制芯片项目创始人之一阿米尔·萨莱克（Amir Salek）加入其计算团队，为进军自研半导体铺路。萨莱克此前主导交付前七代谷歌TPU芯片，被称为「谷歌TPU之父」，2022年离任后任私募机构Cerberus高级董事总经理。本月Anthropic已宣布组建内部Custom Silicon团队并开出最高48.5万美元年薪招芯片工程师，此前还挖来OpenAI自研芯片项目核心成员Clive Chan，芯片团队集齐谷歌TPU创始负责人与OpenAI自研芯片核心大牛。",
-              "link": "https://news.qq.com/rain/a/20260822A01V4300",
+              "title": "Anthropic招股书把美国公众AI抵制情绪列为关键风险",
+              "summary": "8月22日消息，据CNBC报道，Anthropic已在6月秘密提交IPO申请，预计未来几周发布的招股说明书将把美国公众对AI和数据中心的负面情绪列为一项关键风险因素。盖洛普5月调查显示70%美国人反对在所在地区建设AI数据中心，近半数强烈反对。公司上市估值或高达约2万亿美元，年化营收刚突破650亿美元。数据中心建设若因公众抵制放缓，可能削弱其增长势头。",
+              "link": "https://awtmt.com/articles/3780042",
               "tags": [
-                "自研芯片",
-                "人才"
+                "IPO",
+                "数据中心"
               ],
-              "source": "腾讯新闻",
+              "source": "华尔街见闻",
               "time": "8月22日消息"
             }
           ]
@@ -67,19 +56,7 @@
         },
         {
           "name": "NVIDIA",
-          "news": [
-            {
-              "title": "英伟达据悉与韩国AI芯片创企Rebellions洽谈投资或收购",
-              "summary": "8月21日消息，据彭博社报道，英伟达CEO黄仁勋在加州圣克拉拉总部会见韩国AI芯片设计公司Rebellions联合创始人兼CEO朴成铉，就潜在合作展开初步谈判，探讨涵盖技术合作、投资乃至全面收购等多种选项，目前处于非常早期阶段。Rebellions成立于2020年，是韩国「K-Nvidia计划」核心培育对象，已累计融资约8.5亿美元，估值约23亿美元，专注AI推理芯片。若达成交易，将是英伟达继7月入股Naver后在韩国AI生态的又一落子。",
-              "link": "https://www.jiemian.com/article/14965012.html",
-              "tags": [
-                "AI芯片",
-                "收购"
-              ],
-              "source": "界面新闻",
-              "time": "8月21日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Meta",
@@ -91,33 +68,21 @@
       "vendors": [
         {
           "name": "阿里云",
-          "news": [
-            {
-              "title": "阿里重组业务架构，云智能与平头哥合并为AI云与算力服务",
-              "summary": "8月20日消息，阿里巴巴公布截至6月30日的季度业绩，同步调整业务架构：国内与国际电商、盒马及菜鸟部分商业业务并入阿里电商集团；云智能集团与平头哥合并为「AI云与算力服务」；模型实验室、千问消费者业务、QwenWork组成「AI实验室与应用」。AI云与算力服务季度收入484.37亿元，AI相关产品收入连续第12个季度实现三位数增长，本季度资本开支增至676.78亿元，主要用于扩充AI基础设施。",
-              "link": "https://finance.eastmoney.com/a/202608203848014751.html",
-              "tags": [
-                "组织架构",
-                "云计算"
-              ],
-              "source": "东方财富",
-              "time": "8月20日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "火山引擎",
           "news": [
             {
-              "title": "豆包工作任务上线技能、连接器与工作伙伴，支持多Agent协同",
-              "summary": "8月21日消息，豆包在电脑版「工作任务」模式中上线技能、连接器和「工作伙伴/小队」。用户可在侧边栏选择对应入口，把常用工作步骤、交付标准和参考模板整理成可重复调用的自定义技能；连接器用于在常用工具中查找信息并处理任务；「工作伙伴」则让用户按专业方向选择不同Agent，由它们协同分析问题、拆解步骤和完成交付。豆包称目前已上架超200个技能和连接器，这次更新把工作任务从单次问答扩展为可复用流程和多Agent协作。",
-              "link": "https://tech.ifeng.com/c/8vlo4FIOYiM",
+              "title": "字节豆包最快下周发布办公AI产品，对标腾讯WorkBuddy",
+              "summary": "8月22日消息，据第一财经新皮层报道，字节豆包团队最快将于下周推出一款对标腾讯WorkBuddy的独立办公类AI产品。该产品相当于把豆包App内「工作任务」模式单独拆分出来成为独立应用，豆包网页端已出现独立「新工作任务」入口。此前字节已将飞书产品团队与豆包产品团队整合，梁汝波提出把豆包培育为全新AI主干业务。",
+              "link": "https://app.myzaker.com/news/article.php?pk=6a898e1e8e9f093f9c5e0d60",
               "tags": [
-                "Agent",
-                "办公"
+                "办公AI",
+                "字节"
               ],
-              "source": "凤凰网",
-              "time": "8月21日消息"
+              "source": "ZAKER",
+              "time": "8月22日消息"
             }
           ]
         },
@@ -125,26 +90,15 @@
           "name": "DeepSeek",
           "news": [
             {
-              "title": "DeepSeek上线多模态视觉模型V4-Flash-Vision-Exp",
-              "summary": "8月21日消息，DeepSeek上线实验性视觉理解模型DeepSeek-V4-Flash-Vision-Exp并开放至API平台。该模型纯文本能力与DeepSeek-V4-Flash正式版持平，视觉理解能力大幅提升，多模态Agent能力已接近Opus-4.8，在官方公布的4项多模态Agent评测中，Agents' Last Exam和ZeroBench上高于Opus 4.8。API支持Chat Completions、Messages和Responses三种调用格式，可接收base64、外部URL与Files API三种图像输入。",
-              "link": "https://news.qq.com/rain/a/20260821A0BGU500",
+              "title": "DeepSeek调整API周末计费，周六日全天统一按低谷价",
+              "summary": "8月23日消息，DeepSeek API开放平台宣布自8月23日00:00起优化峰谷计费规则：周末全天不再区分峰谷时段，统一按低谷时段价格收费；工作日继续执行原有峰谷分段计费。距8月17日V4-Pro高峰输出价大涨350%仅一周，此举让周末批量跑任务开发者成本直接腰斩。官方称意在让用户在周末更灵活安排业务，同时平衡全网算力负载。",
+              "link": "https://finance.eastmoney.com/a/202608233850243858.html",
               "tags": [
-                "多模态",
-                "视觉理解"
+                "API",
+                "定价"
               ],
-              "source": "腾讯新闻",
-              "time": "8月21日消息"
-            },
-            {
-              "title": "DeepSeek Harness新增Codex与Claude Code子代理接口",
-              "summary": "8月19日消息，DeepSeek Harness放出v0.1.0-rc.8版本，新增Codex、Claude Code等子代理接口。子代理子系统可把Codex、Claude Code、进程内Agent、ACP Agent和Harness SDK Agent注册为并列提供方，由主Agent统一调度，subagent-codex通过Codex app-server启动独立子进程，subagent-claude-code则调用Claude Agent SDK。这是Harness 8月13日开放开发者预览后的增量更新，重点从基础工作台扩展到跨Agent编排，打造AI Agent时代的核心调度层。",
-              "link": "https://eu.36kr.com/zh/p/3947852851664512",
-              "tags": [
-                "Agent",
-                "编排"
-              ],
-              "source": "36氪",
-              "time": "8月19日消息"
+              "source": "东方财富",
+              "time": "8月23日消息"
             }
           ]
         },
@@ -158,19 +112,7 @@
         },
         {
           "name": "智谱AI",
-          "news": [
-            {
-              "title": "神秘Ox Alpha模型限免上架，DeepSWE跑分碾压Claude Fable 5",
-              "summary": "8月22日消息，OpenRouter上线代号Ox Alpha的匿名AI模型，免费开放1周，上下文窗口约100万token，支持文本、图像和视频输入。开发者Ben Davis用DeepSWE基准10项任务测试，Ox Alpha平均通过率80%，高于Claude Fable 5的65%和GLM-5.3的62%。社区通过分词器指纹、视频编码器指纹等分析，线索强烈指向智谱AI，猜测为智谱尚未发布的GLM-5.3多模态版本，智谱此前曾用「Pony Alpha」匿名测试GLM-5。",
-              "link": "https://m.ithome.com/html/993003.htm",
-              "tags": [
-                "大模型",
-                "评测"
-              ],
-              "source": "IT之家",
-              "time": "8月22日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "月之暗面",
@@ -188,93 +130,18 @@
           "name": "其他厂商",
           "cards": [
             {
-              "title": "高剑林",
+              "title": "Inherent",
               "news": [
                 {
-                  "title": "腾讯芯片研发一号位高剑林离职，创业研发RISC-V AI CPU",
-                  "summary": "8月21日消息，据「半导体行业观察」报道，腾讯芯片研发负责人高剑林近期离职，计划围绕高性能AI服务器和Agentic AI创业，研发基于RISC-V架构的高性能CPU。他2013年在腾讯组建硬件团队，推动FPGA云服务器、AI芯片和RISC-V核心研发，2020年蓬莱实验室团队完成腾讯首颗TPU架构AI芯片回片。目前创业仍属媒体独家消息，新公司名称、融资或产品发布时间尚未披露。",
-                  "link": "https://www.donews.com/news/detail/1/6680021.html",
+                  "title": "DeepMind校友创办Inherent，小参数智能体Faraday科研复现超旗舰",
+                  "summary": "8月23日消息，伦敦AI实验室Inherent由前谷歌DeepMind员工创办，其AI智能体Faraday以仅270亿参数的Qwen 3.6模型，在事先不知答案的情况下自主复现已发表科学论文研究结果，击败Anthropic的Claude Opus 4.8与OpenAI的GPT-5.5。该公司以5000万美元种子轮结束隐身模式，目标打造具备「研究品味」、能发现全新科学知识的AI科学家智能体。",
+                  "link": "https://m.ithome.com/html/993133.htm",
                   "tags": [
-                    "RISC-V",
-                    "创业"
+                    "AI智能体",
+                    "科研"
                   ],
-                  "source": "DoNews",
-                  "time": "8月21日消息"
-                }
-              ]
-            },
-            {
-              "title": "小红书",
-              "news": [
-                {
-                  "title": "小红书开源dots3-note preview，支持512K多模态上下文",
-                  "summary": "8月20日消息，小红书dots studio开源dots3-note preview，并在dots.ai开放平台提供API限时免费调用。它是dots3系列首个开放权重模型，采用混合专家架构，可同时接收文本、图像、视频和音频，输出文本，支持512K多模态上下文。官方提供BF16与FP8权重，主要面向知识问答、数学与逻辑推理、代码生成、工具调用、多步Agent工作流和长上下文处理，建议FP8版本部署在单台8卡GPU服务器上。",
-                  "link": "https://finance.eastmoney.com/a/202608203847832630.html",
-                  "tags": [
-                    "开源",
-                    "多模态"
-                  ],
-                  "source": "东方财富",
-                  "time": "8月20日消息"
-                },
-                {
-                  "title": "小红书发布FireRedTTS3：24种语言语音生成与编辑",
-                  "summary": "8月21日消息，小红书FireRed团队发布新一代语音生成与编辑模型FireRedTTS3，用同一个模型打通语音三大能力：多语言多方言零样本音色克隆、自然语言描述定制声音设计、精准局部语音编辑。仅需几秒声音样本即可用你的音色说24种语言、21种中文方言，语音编辑精确到单个字、语速、音高。核心采用RedAE语音表示，推理延迟压至54毫秒，全部代码、模型、评测数据以Apache 2.0协议开源，音色克隆准确率和相似度在Seed-TTS-Eval上双料第一。",
-                  "link": "https://m.163.com/dy/article/L4RQLATD0511AQHO.html",
-                  "tags": [
-                    "语音合成",
-                    "开源"
-                  ],
-                  "source": "网易",
-                  "time": "8月21日消息"
-                }
-              ]
-            },
-            {
-              "title": "商汤",
-              "news": [
-                {
-                  "title": "商汤开源SenseNova U1.5正式版，原生支持4K图像生成",
-                  "summary": "8月20日消息，商汤开源SenseNova U1.5-8B-MoT正式版，原生支持4K图像生成。相较7月底发布的预览版，新权重继续改进复杂指令遵循、中英文文字渲染、海报和信息图布局、主体一致性及局部编辑。模型采用统一的多模态架构，可执行图像生成、编辑、视觉理解和图文交错生成，官方同时发布8步推理LoRA以降低生成延迟，并计划继续开放从监督微调、强化学习到MOPD的完整训练流程。",
-                  "link": "https://tech.ifeng.com/c/8vlhCCo9O8J",
-                  "tags": [
-                    "开源",
-                    "图像生成"
-                  ],
-                  "source": "凤凰网",
-                  "time": "8月20日消息"
-                }
-              ]
-            },
-            {
-              "title": "苹果",
-              "news": [
-                {
-                  "title": "苹果带摄像头AirPods参数曝光，或配备拍摄指示灯",
-                  "summary": "8月22日消息，据MacRumors报道，苹果带摄像头的AirPods曝光更多参数，左右耳机或各配备一枚摄像头，可采集同步彩色静态图像供Visual Intelligence分析，目前不支持视频录制。代码显示主动模式可采集640×640图像并输出1024×1024处理结果，被动模式采集320×320图像，框架包含镜头畸变校正、双摄像头校准以及摄像头与运动传感器校准。代码同时提到硬件指示灯及亮度控制，暗示AirPods可能配备拍摄指示灯用于提示周围人员。此前曝光的B790版本据称已取消，苹果转向开发代号B798的新版本，预计明年推出。",
-                  "link": "http://finance.sina.com.cn/tech/roll/2026-08-22/doc-inipazsi8023599.shtml",
-                  "tags": [
-                    "硬件",
-                    "AI视觉"
-                  ],
-                  "source": "新浪财经",
-                  "time": "8月22日消息"
-                }
-              ]
-            },
-            {
-              "title": "雷鸟创新",
-              "news": [
-                {
-                  "title": "雷鸟发布AI眼镜iO：34克双目显示，首发1996元起",
-                  "summary": "8月21日消息，雷鸟创新发布AI眼镜雷鸟iO，正式售价2499元，首发到手价1996元起，即日起在京东、天猫、抖音及线下眼镜渠道开售。采用双目显示架构，等效33英寸画面，入眼亮度1800尼特，整机最低重量34克，支持两天日常续航和18小时连续记录。交互配有Smart Crown旋钮，并支持点头确认、摇头取消。眼镜不配备摄像头，主要通过4颗阵列麦克风和1颗骨传导麦克风处理会议记录、实时翻译和提词，翻译覆盖55种语言。",
-                  "link": "http://www.news.cn/tech/20260821/1329d3f89e064ea1a60ee2a9c0aed9c3/c.html",
-                  "tags": [
-                    "AI眼镜",
-                    "AR"
-                  ],
-                  "source": "新华网",
-                  "time": "8月21日消息"
+                  "source": "IT之家",
+                  "time": "8月23日消息"
                 }
               ]
             }
@@ -282,28 +149,108 @@
         },
         {
           "name": "自动驾驶",
+          "cards": []
+        },
+        {
+          "name": "具身智能",
           "cards": [
             {
-              "title": "特斯拉",
+              "title": "世界人形机器人运动会",
               "news": [
                 {
-                  "title": "特斯拉官网更新：监督版FSD支持地区不再包含中国",
-                  "summary": "8月22日消息，特斯拉（北美）官网更新监督版FSD全球可用地区清单，更新后名单包含12个国家或地区，中国不在其中。2026年5月21日特斯拉曾宣布监督版FSD在中国等10个国家同步上线，如今距官宣仅约三个月，中国被移出可用地区列表。官网附注称若汽车在某国有售但FSD尚未推出，可能是需要当地监管机构明确批准，特斯拉正与各国政府合作。特斯拉官方未就此调整发布公开回应。",
-                  "link": "https://news.qq.com/rain/a/20260822A09G9P00",
+                  "title": "第二届世界人形机器人运动会开幕，2056台机器人竞技51赛项",
+                  "summary": "8月22日消息，第二届世界人形机器人运动会8月22日晚在北京国家速滑馆「冰丝带」开幕，赛期至8月26日。来自6大洲16个国家的666支队伍、2056台机器人围绕51个赛项展开1301场比赛，新增跳远、举重、拔河、乒乓球、自由搏击等对抗项目及灵巧手专项赛。开幕式上超1000台人形机器人协同列队入场，与奥运冠军丁宁、网球名将郑洁等同台展演。主办方提出「以赛定标、以赛促产」，赛后「冰丝带」将打造为永久赛训基地。",
+                  "link": "https://m.thepaper.cn/detail/33774359",
                   "tags": [
-                    "自动驾驶",
-                    "FSD"
+                    "人形机器人",
+                    "竞技"
+                  ],
+                  "source": "澎湃新闻",
+                  "time": "8月22日消息"
+                }
+              ]
+            },
+            {
+              "title": "荣耀",
+              "news": [
+                {
+                  "title": "荣耀机器人闪电百米跑出9秒32，打破人类世界纪录",
+                  "summary": "8月22日消息，在第二届世界人形机器人运动会百米竞速备赛中，荣耀战队机器人「闪电」录得9秒32成绩，峰值速度达14.5米/秒，再度刷新博尔特保持的9.58秒人类百米世界纪录，超越半马时期每秒7-8米水平。闪电采用自研高爆发关节模组、液冷散热与纯视觉识别方案，将出战100米、400米、1500米三个竞速项目。此前闪电曾以50分26秒净用时夺得人形机器人半程马拉松冠军，同样打破人类纪录。",
+                  "link": "https://news.qq.com/rain/a/20260822A08LDY00",
+                  "tags": [
+                    "人形机器人",
+                    "竞速"
                   ],
                   "source": "腾讯新闻",
                   "time": "8月22日消息"
                 }
               ]
+            },
+            {
+              "title": "天工",
+              "news": [
+                {
+                  "title": "天工400米39秒70夺得第一，打破人类世界纪录",
+                  "summary": "8月22日消息，第二届世界人形机器人运动会400米田径大型组预赛中，北京人形机器人创新中心研发的天工Ultra以39.70秒成绩位列第一，超越人类男子400米43.03秒的世界纪录，还以9.32秒率先撞线刷新百米纪录、跳出2.88米破原地跳高纪录。天工Ultra身高180cm重52kg，实测最高奔跑速度12km/h，所有参赛项目均基于「慧思开物」平台开发训练。",
+                  "link": "https://xinwen.bjd.com.cn/content/s6a8a5fdce4b03fa51a83440c.html",
+                  "tags": [
+                    "人形机器人",
+                    "竞速"
+                  ],
+                  "source": "京报网",
+                  "time": "8月22日消息"
+                }
+              ]
+            },
+            {
+              "title": "银河通用",
+              "news": [
+                {
+                  "title": "银河通用银河星仔打网球，全球首场人机网球赛开打",
+                  "summary": "8月22日消息，第二届世界人形机器人运动会开幕式上，银河通用公司推出的全球首款全自主打网球机器人「银河星仔」与网球名将郑洁及演员李昀锐上演人机混双和全球首场人机单打。星仔身高约1.75米，搭载LATENT智能规控算法，不依赖预编程，通过深度强化学习自主掌握网球技能，双目视觉0.1秒内锁定时速超50公里的来球，实测正手击球成功率90.9%，发球时速一百多公里。其背后是具身智能大模型「银河星脑」与训练平台「银河星坊」。",
+                  "link": "https://sports.sina.cn/2026-08-22/detail-inipfern3011662.d.html",
+                  "tags": [
+                    "具身智能",
+                    "网球"
+                  ],
+                  "source": "新浪体育",
+                  "time": "8月22日消息"
+                }
+              ]
+            },
+            {
+              "title": "宇树",
+              "news": [
+                {
+                  "title": "宇树机器人「笨笨」入职理想汽车，担任讲解员与向导",
+                  "summary": "8月22日消息，理想汽车官宣宇树科技人形机器人「笨笨」正式入职，担任讲解员、向导等职位，是理想首位「硅基员工」，配有专属工牌、限定工服和工位。8月23日起「笨笨」将在北京汽车博物馆迎宾讲解理想L9 Livis，随后现身珠海长隆海洋王国表演特技，并将在理想郑州东站IP体验中心担任讲解员。此次合作被视为具身智能从实验室走向真实商业场景的标志性一步。",
+                  "link": "https://tech.ifeng.com/c/8vnbMtJWwnJ",
+                  "tags": [
+                    "具身智能",
+                    "宇树"
+                  ],
+                  "source": "凤凰网",
+                  "time": "8月22日消息"
+                }
+              ]
+            },
+            {
+              "title": "上纬新材",
+              "news": [
+                {
+                  "title": "上纬新材消费级机器人启元Q1/T1开启预订，首发9月发货",
+                  "summary": "8月23日消息，上纬新材旗下消费级机器人启元Q1、启元T1双产品正式开启预订，可通过官方小程序、天猫、抖音、B站官方店铺及线下体验参与，预计首批发货今年9月。启元Q1为首个小尺寸全身力控人形机器人，高约88cm重约15公斤，聚焦具身开发与家庭陪伴；启元T1为首个可变形个人机器人，高约100cm，可实现轮足人形与四足形态自主切换。上纬新材此前与蓝思智能、卧龙电驱达成产线合作。",
+                  "link": "https://www.stcn.com/article/detail/4102725.html",
+                  "tags": [
+                    "消费级机器人",
+                    "预订"
+                  ],
+                  "source": "证券时报",
+                  "time": "8月23日消息"
+                }
+              ]
             }
           ]
-        },
-        {
-          "name": "具身智能",
-          "cards": []
         },
         {
           "name": "AI出海",
@@ -311,73 +258,40 @@
         },
         {
           "name": "投资资讯",
-          "cards": [
-            {
-              "title": "AiMOGA",
-              "news": [
-                {
-                  "title": "奇瑞旗下机器人公司AiMOGA筹备IPO，明年目标交付1万台",
-                  "summary": "8月20日消息，据路透社报道，奇瑞汽车旗下机器人公司AiMOGA正与多个潜在上市地沟通，希望通过IPO为后续技术投资筹集资金。奇瑞国际总裁张贵兵表示，公司自2025年1月孵化以来已在全球交付超3000台机器人，其中2000台交付海外，覆盖60多个国家和地区，明年的全球交付目标为1万台。公司早期把双足人形机器人投入奇瑞展厅，目前正扩展至交通管理、人群引导和公共安全宣传等场景，已有110台警务机器人在中国多个城市部署。",
-                  "link": "https://finance.sina.com.cn/stock/hkstock/hkzmt/2026-08-20/doc-ininxkrs8043755.shtml",
-                  "tags": [
-                    "IPO",
-                    "机器人"
-                  ],
-                  "source": "新浪财经",
-                  "time": "8月20日消息"
-                }
-              ]
-            },
-            {
-              "title": "Gravis Robotics",
-              "news": [
-                {
-                  "title": "软银2亿美元独家投资建筑机器人公司Gravis Robotics",
-                  "summary": "8月21日消息，瑞士建筑自动化企业Gravis Robotics宣布完成2亿美元A轮融资，由日本软银集团独家投资，创下建筑机器人领域A轮融资历史纪录。该公司2022年从苏黎世联邦理工学院机器人系统实验室分拆，开发与机械制造商无关的物理AI软件堆栈，通过后装改造将传统挖掘机、装载机等重型机械转化为自主作业设备，已适配卡特彼勒、约翰迪尔等超12个品牌。软银表示物理AI是其下一阶段AI愿景的核心，此前已签约以53.75亿美元收购ABB机器人业务。",
-                  "link": "https://www.sfccn.com/2026/8-21/2NMDE1MjBfMjIxNjM2Ng.html",
-                  "tags": [
-                    "融资",
-                    "机器人"
-                  ],
-                  "source": "世纪财经",
-                  "time": "8月21日消息"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "质量强链二期",
+              "title": "哈佛商学院",
               "news": [
                 {
-                  "title": "市场监管总局：具身智能机器人等纳入质量强链二期攻关方向",
-                  "summary": "8月21日消息，市场监管总局召开「推进实施质量强链」专题新闻发布会，质量强链二期十大标志性项目滚动部署166项攻关任务。布局延续高端仪器仪表、新能源、工业机器人等重点领域，拓展具身智能机器人、固态动力电池等新方向，新增工业母机、无人机、先进合成生物制造等重点领域。标准研制重点推动智能体、脑机接口、氢能等领域国际标准研制，统筹标准、计量、检验检测、认证认可等质量基础设施全链条要素。",
-                  "link": "https://www.thepaper.cn/newsDetail_forward_33824953",
+                  "title": "哈佛商学院推出699美元创业训练营，讲师AI数字分身提供反馈",
+                  "summary": "8月22日消息，哈佛商学院（HBS）推出为期8周、收费699美元的HBS Foundry创业训练营，借助HeyGen打造的AI数字分身，在模拟路演和董事会会议等实践环节为学员提供个性化反馈。项目负责人称最初设想接近聊天机器人，因学员反馈转向更具表现力的AI虚拟形象。部分大学生对AI持抵触态度，但训练营参与者表示很喜欢这些AI分身。该案例反映AI正从教育辅助工具向教学交互核心环节延伸。",
+                  "link": "https://www.c114.net.cn/industry/114183.html",
                   "tags": [
-                    "政策",
-                    "具身智能"
+                    "AI教育",
+                    "数字分身"
                   ],
-                  "source": "澎湃新闻",
-                  "time": "8月21日消息"
+                  "source": "C114",
+                  "time": "8月22日消息"
                 }
               ]
             },
             {
-              "title": "vibe coding",
+              "title": "AI合成影像",
               "news": [
                 {
-                  "title": "青少年开发者用Claude Code为惠普打印机开发macOS原生驱动",
-                  "summary": "8月21日消息，19岁印度青少年开发者Kuber Mehta利用Anthropic的Claude Code编程智能体，在约4小时、30-40轮提示词内，为惠普HP Laser 1003/1006/1008系列打印机（使用三星专有SPL3光栅语言的贴牌机型）成功逆向开发出macOS原生驱动。他先运行惠普Linux驱动专有编解码器获取基准输出，与开源引擎SpliX逐字段比对，最终仅修改约10行代码修复300-dpi几何计算，脱离惠普专有组件完成开发，项目已在GitHub开源。该成果推文获超300万次浏览。",
-                  "link": "https://tech.ifeng.com/c/8vmADQviteW",
+                  "title": "四川男子利用AI合成虚假影像骚扰他人被行拘",
+                  "summary": "8月22日消息，四川眉山警方查处一起利用AI合成虚假影像骚扰他人案件，嫌疑人徐某某利用AI技术合成「受害人和嫌疑人同时躺在一张床上」等虚假私密照片，多次通过微信发送给受害人并进行骚扰恐吓，被依法行政拘留五天。受害人提前保存全部聊天记录和截图形成闭环证据链。警方提示勿轻易泄露照片等个人信息，一旦遭遇AI合成影像骚扰应第一时间保存证据并报案。",
+                  "link": "https://finance.sina.cn/2026-08-22/detail-inipferi7252288.d.html",
                   "tags": [
-                    "AI编程",
-                    "vibe coding"
+                    "AI法规",
+                    "深度伪造"
                   ],
-                  "source": "凤凰网",
-                  "time": "8月21日消息"
+                  "source": "新浪财经",
+                  "time": "8月22日消息"
                 }
               ]
             }
@@ -496,108 +410,108 @@
         },
         {
           "name": "OpenRouter",
-          "date": "2026-08-21",
+          "date": "2026-08-22",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "DeepSeek V4 Flash 0731",
-              "score": "11.7T tokens",
-              "change": "↑7%"
-            },
-            {
-              "model": "Hy3",
-              "score": "8.93T tokens",
-              "change": "↑17%"
-            },
-            {
-              "model": "MiMo-V2.5",
-              "score": "8.18T tokens",
-              "change": "↑103%"
-            },
-            {
-              "model": "GPT-5.6 Luna",
-              "score": "5.41T tokens",
+              "score": "11.6T tokens",
               "change": "↑5%"
             },
             {
-              "model": "DeepSeek V4 Flash 0423",
-              "score": "5.2T tokens",
-              "change": "↑6%"
+              "model": "MiMo-V2.5",
+              "score": "9.14T tokens",
+              "change": "↑138%"
             },
             {
-              "model": "Nemotron 3 Ultra (free)",
-              "score": "4.08T tokens",
-              "change": "↑111%"
-            },
-            {
-              "model": "GLM 5.2",
-              "score": "3.79T tokens",
-              "change": "↑6%"
-            },
-            {
-              "model": "Claude Opus 5",
-              "score": "2.47T tokens",
-              "change": "↑45%"
+              "model": "Hy3",
+              "score": "8.56T tokens",
+              "change": "↑18%"
             },
             {
               "model": "Ox Alpha",
-              "score": "2T tokens",
-              "change": "—"
+              "score": "6.54T tokens",
+              "change": "new"
+            },
+            {
+              "model": "DeepSeek V4 Flash 0423",
+              "score": "5.3T tokens",
+              "change": "↑11%"
+            },
+            {
+              "model": "GPT-5.6 Luna",
+              "score": "5.17T tokens",
+              "change": "↑1%"
+            },
+            {
+              "model": "Nemotron 3 Ultra (free)",
+              "score": "4.42T tokens",
+              "change": "↑122%"
+            },
+            {
+              "model": "GLM 5.2",
+              "score": "3.59T tokens",
+              "change": "↑15%"
+            },
+            {
+              "model": "Claude Opus 5",
+              "score": "2.09T tokens",
+              "change": "↑1%"
             },
             {
               "model": "DeepSeek V4 Pro 0423",
-              "score": "1.96T tokens",
-              "change": "↑30%"
+              "score": "1.88T tokens",
+              "change": "↑32%"
             },
             {
               "model": "MiniMax M3",
-              "score": "1.76T tokens",
+              "score": "1.73T tokens",
               "change": "↑13%"
             },
             {
               "model": "Laguna S 2.1 (free)",
-              "score": "1.7T tokens",
-              "change": "↑3%"
-            },
-            {
-              "model": "Gemini 3.6 Flash",
-              "score": "1.59T tokens",
-              "change": "↑11%"
+              "score": "1.65T tokens",
+              "change": "—"
             },
             {
               "model": "Gemini 3.7 Flash",
-              "score": "1.49T tokens",
-              "change": "↑975%"
+              "score": "1.58T tokens",
+              "change": "↑493%"
+            },
+            {
+              "model": "Gemini 3.6 Flash",
+              "score": "1.48T tokens",
+              "change": "↑20%"
             },
             {
               "model": "Kimi K3",
-              "score": "1.28T tokens",
-              "change": "↑13%"
+              "score": "1.3T tokens",
+              "change": "↑10%"
             },
             {
               "model": "GPT-5.6 Sol",
-              "score": "1.17T tokens",
-              "change": "↑70%"
-            },
-            {
-              "model": "DeepSeek V4 Pro 0813",
-              "score": "1.07T tokens",
-              "change": "↑219%"
+              "score": "1.23T tokens",
+              "change": "↑75%"
             },
             {
               "model": "Claude Sonnet 5",
               "score": "1.07T tokens",
-              "change": "—"
+              "change": "↑1%"
+            },
+            {
+              "model": "DeepSeek V4 Pro 0813",
+              "score": "1.03T tokens",
+              "change": "↑107%"
             },
             {
               "model": "Nemotron 3.5 Lightning (free)",
-              "score": "895B tokens",
-              "change": "↑140%"
+              "score": "920B tokens",
+              "change": "↑86%"
             },
             {
               "model": "Gemini 3 Flash Preview",
-              "score": "845B tokens",
-              "change": "↑2%"
+              "score": "860B tokens",
+              "change": "↑1%"
             }
           ]
         },
