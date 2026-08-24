@@ -859,9 +859,7 @@ const NEWS_DATA = {
       ]
     }
   }
-}
 };
-
 const CATEGORY_DISPLAY = {
     "其他厂商":   { icon: "fas fa-building",    color: "#a0a8b0", softBg: "#f2f4f5" },
     "自动驾驶":   { icon: "fas fa-car",          color: "#82c4d4", softBg: "#eefafc" },
