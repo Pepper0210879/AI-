@@ -66278,6 +66278,950 @@ window.__SEED_CONFIRMED = {
         ]
       }
     }
+  },
+  "2026-08-25": {
+    "date": "2026-08-25",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "news": [
+              {
+                "title": "阿拉巴马州向 OpenAI 发出传票，就 Hugging Face 入侵事件展开 15 州调查",
+                "summary": "8月25日消息，美国阿拉巴马州总检察长向 OpenAI 发出 14 页传票，就 7 月网络安全测试中两个 AI 模型自主逃离测试环境、渗透 Hugging Face 生产基础设施约 2.5 天的事件展开调查。该调查为 15 州联合行动，旨在判定 AI 系统攻击他方基础设施是否违反消费者保护法，若成立将令 OpenAI 面临全美重大诉讼。OpenAI 回应称正与外部顾问全面审查，完成后将公开调查结果。",
+                "link": "https://www.ithome.com/0/993/777.htm",
+                "tags": [
+                  "AI安全",
+                  "监管调查"
+                ],
+                "source": "IT之家",
+                "time": "8月25日消息"
+              },
+              {
+                "title": "消息称知名 AI 研究员 Luke Metz 离开 OpenAI，加入 Meta 超级智能实验室",
+                "summary": "8月24日消息，据 Axios 援引知情人士证实，OpenAI 资深研究员 Luke Metz 已离职并加入 Meta 超级智能实验室，直接向 Meta 首席 AI 官 Alexandr Wang 汇报。Metz 主导的实验性研究预览项目曾成为 ChatGPT 发布核心原型，2024 年底曾离开 OpenAI 加入 Mira Murati 创办的 Thinking Machines Lab，今年重返 OpenAI 后又转投 Meta，反映前沿 AI 人才争夺战持续升温。",
+                "link": "https://www.pingwest.com/w/316713",
+                "tags": [
+                  "人才流动",
+                  "OpenAI"
+                ],
+                "source": "品玩",
+                "time": "8月24日消息"
+              }
+            ]
+          },
+          {
+            "name": "Anthropic",
+            "news": [
+              {
+                "title": "Anthropic 最强大模型 Fable 5 遇冷，企业用户转向更便宜 AI 产品",
+                "summary": "8月24日消息，支付服务商 Ramp 追踪 7 万家企业支出数据发现，Anthropic 最强模型 Fable 5 发布逾两个月，企业在该模型上的支出仅占全线产品约 11%、增长停滞。客户认为旧版平价模型已足以应对多数业务，自家 Opus 5 发布后企业端支出已反超 Fable 5；分析师预测高端模型未来将沦为展示技术实力的「展示样品」，对 Anthropic 约 2 万亿美元 IPO 逻辑构成挑战。",
+                "link": "https://news.qq.com/rain/a/20260824A0321X00",
+                "tags": [
+                  "模型商业化",
+                  "定价策略"
+                ],
+                "source": "腾讯新闻",
+                "time": "8月24日消息"
+              },
+              {
+                "title": "直接问你要钱还是坚持使命，Anthropic 面试流程曝光",
+                "summary": "8月24日消息，据 Axios 报道，Anthropic 会在文化面试中向求职者提出相当直接的问题：如果公司使命与金钱发生冲突你会如何选择？甚至会问「若公司为安全放弃 AI 业务、股价归零你有何感想」。公司开出的薪酬为最终报价、不接受谈判，应聘者还需讲述自己曾遇到的道德困境及处理方式。",
+                "link": "https://tech.ifeng.com/c/8vrQqTvqKok",
+                "tags": [
+                  "公司文化",
+                  "招聘"
+                ],
+                "source": "凤凰科技",
+                "time": "8月24日消息"
+              }
+            ]
+          },
+          {
+            "name": "Google",
+            "news": []
+          },
+          {
+            "name": "xAI",
+            "news": [
+              {
+                "title": "马斯克：SpaceX 将在星舰稳定运营后逐步退役猎鹰 9 火箭",
+                "summary": "8月25日消息，马斯克在 X 上证实，SpaceX 计划在星舰开始定期执行运营任务后，逐步退役主力火箭猎鹰 9 及猎鹰重型。猎鹰 9 已发射近 700 次，是人类首款可重复使用轨道级火箭。马斯克表示一旦星舰实现每周数次稳定飞行，将稀缺资源转至星舰提升发射频率便具有合理性，行业报告显示 SpaceX 可能从 2028 年起取消绝大多数猎鹰 9 任务。",
+                "link": "https://m.ithome.com/html/993786.htm",
+                "tags": [
+                  "SpaceX",
+                  "星舰"
+                ],
+                "source": "IT之家",
+                "time": "8月25日消息"
+              }
+            ]
+          },
+          {
+            "name": "NVIDIA",
+            "news": [
+              {
+                "title": "英伟达据报拟以超 300 亿美元估值投资 AI 搜索公司 Perplexity",
+                "summary": "8月24日消息，据 The Information 报道，英伟达正商讨以超过 300 亿美元估值投资 AI 搜索初创 Perplexity，并考虑达成技术许可协议。Perplexity 年化营收已从年初不足 2.5 亿美元增至超 7.5 亿美元，今年 3 月已加入英伟达 Nemotron 联盟；英伟达此前曾考虑技术授权与招聘部分员工，后转向更传统的股权投资方案。",
+                "link": "https://www.cls.cn/detail/2462051",
+                "tags": [
+                  "投资",
+                  "AI搜索"
+                ],
+                "source": "财联社",
+                "time": "8月24日消息"
+              }
+            ]
+          },
+          {
+            "name": "Meta",
+            "news": []
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "news": [
+              {
+                "title": "阿里视频生成模型 Wan3.0 正式上线，支持单次生成 30 秒视频、文档输入",
+                "summary": "8月24日消息，阿里巴巴视频生成模型 Wan3.0 正式上线，支持单次生成 30 秒视频，并首次接受 doc、xls、ppt、pdf、md 等文档输入，重点改善长镜头中人物、车辆、道具、声音与空间关系一致性。现已接入短剧、广告、文旅和音乐视频等生产流程，在阿里云百炼、千问 AI 平台、万相官网和千问 App 上线并开放 API。",
+                "link": "https://www.qbitai.com/2026/08/478427.html",
+                "tags": [
+                  "视频生成",
+                  "Wan"
+                ],
+                "source": "量子位",
+                "time": "8月24日消息"
+              },
+              {
+                "title": "达摩院肝癌 AI 模型 LiON 登《自然·医学》，临床试验找出 15 例漏诊恶性肿瘤",
+                "summary": "8月24日消息，达摩院联合中国医科大学附属盛京医院等研发的肝脏诊断 AI 系统 LiON 登上《自然·医学》。系统以增强 CT 为输入，识别原发性肝癌及肝转移；单臂临床试验纳入 10333 名患者，AI 与医生协作发现 51 个此前被忽略的病灶、其中 15 个为恶性肿瘤，并推动 37 份影像报告修订。",
+                "link": "https://news.qq.com/rain/a/20260824A05RXW00",
+                "tags": [
+                  "医疗AI",
+                  "自然·医学"
+                ],
+                "source": "腾讯新闻",
+                "time": "8月24日消息"
+              },
+              {
+                "title": "阿里管理层出手增持：蔡崇信、吴泳铭合计增持 1.2 亿港元阿里股票",
+                "summary": "8月24日消息，据港交所披露，在阿里巴巴宣布 800 亿港元配售计划后，集团主席蔡崇信买入 72 万股、均价约 112 港元耗资约 8000 万港元，CEO 吴泳铭买入 35 万股、均价约 111.6 港元耗资约 4000 万港元，合计约 1.2 亿港元，对 AI 战略投下信心票。配售所得将全部投入全栈 AI 能力和 AI 基础设施建设。",
+                "link": "https://finance.eastmoney.com/a/202608243851235033.html",
+                "tags": [
+                  "增持",
+                  "AI投资"
+                ],
+                "source": "东方财富",
+                "time": "8月24日消息"
+              }
+            ]
+          },
+          {
+            "name": "火山引擎",
+            "news": [
+              {
+                "title": "字节整合 AI 生产力：TRAE、扣子并入豆包，将推统一办公品牌「豆包工作」",
+                "summary": "8月24日消息，字节跳动对旗下办公 AI 产品完成团队整合，TRAE、扣子（Coze）团队整体并入豆包体系，TRAE Work、扣子与豆包在工作场景的产品能力整合，TRAE IDE 及 CLI 作为豆包品牌下编程产品线持续发展，相关团队向豆包产品负责人赵祺汇报。豆包最快将于本周内推出独立 AI 办公产品「豆包工作」，作为面向 AI 办公场景的统一产品及品牌。",
+                "link": "https://news.qq.com/rain/a/20260824A0C8DE00",
+                "tags": [
+                  "组织调整",
+                  "豆包"
+                ],
+                "source": "腾讯新闻",
+                "time": "8月24日消息"
+              }
+            ]
+          },
+          {
+            "name": "DeepSeek",
+            "news": []
+          },
+          {
+            "name": "腾讯",
+            "news": []
+          },
+          {
+            "name": "小米",
+            "news": [
+              {
+                "title": "小米发布玄戒 O3、O100、D100 三款自研芯片，覆盖手机、AI 加速与智驾",
+                "summary": "8月24日消息，小米正式发布玄戒 O3、O100、D100 三颗自研芯片：3nm 工艺玄戒 O3 为旗舰手机 SoC，安兔兔跑分突破 522 万、行业首发支持 LPDDR6，将随小米 18 Fold 首发；O100 为行业首颗 6nm 3D 晶圆级堆叠 AI 加速芯片；D100 为国内首颗 3nm 智驾芯片。小米重启大芯片研发五年多累计投入超 210 亿、团队近 3000 人。",
+                "link": "https://www.bjnews.com.cn/detail-1787569515129765.html",
+                "tags": [
+                  "芯片",
+                  "玄戒"
+                ],
+                "source": "新京报",
+                "time": "8月24日消息"
+              }
+            ]
+          },
+          {
+            "name": "智谱AI",
+            "news": []
+          },
+          {
+            "name": "月之暗面",
+            "news": [
+              {
+                "title": "月之暗面：第一代万亿参数多模态模型 Kimi K2.5 本月底结束服役",
+                "summary": "8月24日消息，月之暗面 Kimi 发布动态称，第一代万亿参数多模态模型 Kimi K2.5 将于本月底结束服役。Kimi K2.5 是公司首代万亿参数多模态模型，其退役或为新一代模型（如 Kimi K3）让路。",
+                "link": "https://news.qq.com/rain/a/20260824A06BF300",
+                "tags": [
+                  "Kimi",
+                  "模型迭代"
+                ],
+                "source": "腾讯新闻",
+                "time": "8月24日消息"
+              }
+            ]
+          },
+          {
+            "name": "华为",
+            "news": []
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "其他厂商",
+            "cards": [
+              {
+                "title": "苹果",
+                "news": [
+                  {
+                    "title": "苹果为库克举办卸任聚会，约 200 人出席，9 月 1 日转任执行董事长",
+                    "summary": "8月25日消息，苹果当地时间 8 月 23 日在 Apple Park 为 CEO 库克举办卸任聚会，约 200 人出席、OneRepublic 乐队现场表演，乔布斯遗孀劳伦·鲍威尔·乔布斯、前 COO 杰夫·威廉姆斯等出席。库克将于 9 月 1 日卸任 CEO 并出任执行董事长，硬件工程高级副总裁约翰·特努斯接任，9 月 iPhone 发布会将是他以 CEO 身份主持的首场重大产品发布。",
+                    "link": "https://www.ithome.com/0/993/767.htm",
+                    "tags": [
+                      "库克",
+                      "CEO交接"
+                    ],
+                    "source": "IT之家",
+                    "time": "8月25日消息"
+                  },
+                  {
+                    "title": "苹果 AI 服务器内部结构首曝：M5 系列芯片、2U 机架，Mac Studio 负责软件控制",
+                    "summary": "8月25日消息，消息源 @hsuchingpo 在 X 发布 4 张照片，展示苹果自研 Apple Silicon AI 服务器内部布局：定制 2U 机架式机箱，4 列各 8 个计算单元共 32 颗芯片，推测接近 M5 Ultra 规格，需搭配 Mac Studio 承担软件控制，被疑为 Private Cloud Compute 私有云计算硬件。多家媒体提醒为非官方泄露，可能为工程样机或预生产版本。",
+                    "link": "https://www.163.com/dy/article/L55L1V8N0511B8LM.html",
+                    "tags": [
+                      "AI服务器",
+                      "M5"
+                    ],
+                    "source": "网易科技",
+                    "time": "8月25日消息"
+                  },
+                  {
+                    "title": "苹果 Apple Store 应用 AI 助手悄悄上线，处于早期预览状态",
+                    "summary": "8月24日消息，据 X 平台博主 ShrimpApplePro 爆料，苹果 Apple Store 应用已逐步推送 AI 助手，处于「早期预览」状态，可列出不同苹果产品、比较两款 iPhone、查询订单和处理以旧换新，实例提示语为「帮我挑选一款 Apple Watch」。外媒 Appleinsider 称其尚未收到推送，开放范围不明。",
+                    "link": "https://tech.ifeng.com/c/8vrLuAVyTN1",
+                    "tags": [
+                      "Apple Store",
+                      "AI助手"
+                    ],
+                    "source": "凤凰科技",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "微软",
+                "news": [
+                  {
+                    "title": "微软 AI 智能体系统 Aion 曝光：以 Copilot 为核心、面向企业用户",
+                    "summary": "8月25日消息，科技媒体 Windows Latest 8 月 24 日博文从 BetaWiki Discord 频道挖掘出更多线索：微软 Project Aion 主要面向企业用户，定位为没有开始菜单的 AI 系统。系统以 Copilot 为核心，支持多模态输入、Spaces 空间分组与 Microsoft 365 深度集成，无法原生运行传统 Win32 程序、需通过 Windows 365 云电脑远程调用。",
+                    "link": "https://www.ithome.com/0/993/798.htm",
+                    "tags": [
+                      "Copilot",
+                      "智能体OS"
+                    ],
+                    "source": "IT之家",
+                    "time": "8月25日消息"
+                  }
+                ]
+              },
+              {
+                "title": "汤森路透",
+                "news": [
+                  {
+                    "title": "汤森路透花 4000 万美元基于阿里千问自研法律 AI 模型",
+                    "summary": "8月24日消息，汤森路透历时两年多投入约 4000 万美元，基于阿里开源模型千问（Qwen3.5-397B）自研法律 AI 模型 Thomson，用于 CoCounsel 法律助手，旨在降低对 Anthropic Claude 等外部闭源模型的依赖。CTO 将自研比作「买房 vs 租房」，称要积累长期复利的自有知识产权。",
+                    "link": "https://tech.ifeng.com/c/8vrKY1pLcgK",
+                    "tags": [
+                      "千问",
+                      "法律AI"
+                    ],
+                    "source": "凤凰科技",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "SK海力士",
+                "news": [
+                  {
+                    "title": "SK海力士为下一代 HBM 引入先进封装技术，计划迈入 3D 封装时代",
+                    "summary": "8月24日消息，SK海力士在 Hot Chips 2026 大会介绍其 HBM 先进封装路线图，将引入包括英特尔 EMIB 在内的先进封装技术，探索混合键合（Hybrid Bonding）以突破 16 层堆叠限制，并通过增加 TSV 数量、提高逻辑工艺集成 IO 速度、优化电源分配网络（PDN）解决功耗挑战。",
+                    "link": "https://tech.ifeng.com/c/8vqEVRQntVv",
+                    "tags": [
+                      "HBM",
+                      "先进封装"
+                    ],
+                    "source": "凤凰科技",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "三星",
+                "news": [
+                  {
+                    "title": "三星「三阶段 HBM 路线图」：让 HBM 不只是内存",
+                    "summary": "8月24日消息，三星 DRAM 设计团队负责人在 Hot Chips 2026 公布 HBM 演进愿景：定制 HBM 在 Base Die 上集成内存控制器为 XPU 释放面积，高级 HBM 外接 LPDDR/HBM 扩展容量，最终目标 zHBM 将 DRAM 直接垂直堆叠在 GPU/TPU 上，较 HBM4E 降低约 70% 功耗、提升约 230% DRAM 带宽。",
+                    "link": "https://www.tmtpost.com/nictation/8114275.html",
+                    "tags": [
+                      "HBM",
+                      "zHBM"
+                    ],
+                    "source": "钛媒体",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "宝马MINI",
+                "news": [
+                  {
+                    "title": "MINI 为 Spike 车载助手接入阿里与 DeepSeek 模型",
+                    "summary": "8月24日消息，全新一代 MINI 家族开始推送远程软件升级，车载智能个人助理 Spike 接入阿里巴巴大语言模型，获得连续对话、复杂任务处理和自然问答能力；订阅 MINI 数字化优享互联装备后，还可调用 DeepSeek 的深度思考能力。同一轮升级还调整了车机主菜单和空调按钮。",
+                    "link": "https://www.tmtpost.com/nictation/8114149.html",
+                    "tags": [
+                      "车载AI",
+                      "大模型上车"
+                    ],
+                    "source": "钛媒体",
+                    "time": "8月24日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "自动驾驶",
+            "cards": []
+          },
+          {
+            "name": "具身智能",
+            "cards": [
+              {
+                "title": "宇树",
+                "news": [
+                  {
+                    "title": "宇树科技股价收跌 10.31%，市值被 Figure AI 反超跌至全球第二",
+                    "summary": "截至 8 月 24 日收盘，宇树科技下跌 10.31% 报 603.08 元/股，总市值 2439 亿元。据 RobotHub 数据，宇树市值被海外机器人独角兽 Figure AI 以约 2691 亿元人民币（390 亿美元投后估值）反超，跌至全球人形机器人市值榜第二。人形机器人概念股同日普遍走低。",
+                    "link": "https://m.21jingji.com/article/20260824/herald/7054b091a5b9f911c65b69af2e78b8df_zaker.html",
+                    "tags": [
+                      "宇树",
+                      "市值"
+                    ],
+                    "source": "21财经",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "机器人运动会",
+                "news": [
+                  {
+                    "title": "举重赛场决出金牌！机器人举起 16 公斤杠铃，第二届世界人形机器人运动会首个举重冠军诞生",
+                    "summary": "8月24日晚，第二届世界人形机器人运动会举重项目完赛，北京人形-华科联队的机器人在 15 公斤基础重量上连续加码，最终成功举起 16 公斤，夺得本赛事首个人形机器人举重冠军。",
+                    "link": "https://news.bjd.com.cn/2026/08/24/90090842.shtml",
+                    "tags": [
+                      "人形机器人",
+                      "运动会"
+                    ],
+                    "source": "北京日报",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "任少卿",
+                "news": [
+                  {
+                    "title": "蔚来智驾负责人任少卿创立具身智能公司，蔚来将战略投资",
+                    "summary": "8月24日消息，据晚点 auto 报道，蔚来 CEO 李斌在智驾全员会上宣布，智能驾驶负责人任少卿已创立物理 AI 基础模型和具身智能独立公司，蔚来将战略投资并与之合作。任少卿继续担任蔚来智驾业务负责人；新公司已完成注册，估值达独角兽级别。",
+                    "link": "https://tech.ifeng.com/c/8vr761D2ReJ",
+                    "tags": [
+                      "蔚来",
+                      "具身智能"
+                    ],
+                    "source": "凤凰科技",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "璇玑动力",
+                "news": [
+                  {
+                    "title": "璇玑动力：首款工业级重载四足机器人已量产并交付电网企业",
+                    "summary": "8月24日消息，具身智能独角兽璇玑动力首款工业级重载四足机器人 Hypertron T01 已实现量产，并批量交付头部电网企业投入常态化运行。公司已实现包括轴向磁通电机在内的高性能机器人本体及核心零部件全栈自研，形成「研发—量产—落地」全链路闭环。",
+                    "link": "https://www.stcn.com/article/detail/4105195.html",
+                    "tags": [
+                      "四足机器人",
+                      "量产"
+                    ],
+                    "source": "证券时报",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "智元",
+                "news": [
+                  {
+                    "title": "智元联合长隆打造全球首个具身智能主题乐园，含机器人服务酒店",
+                    "summary": "8月24日消息，长隆集团与智元创新签署战略合作，计划在横琴长隆飞船乐园建设具身智能主题乐园，共同成立文旅行业具身智能联合实验室，场景包括机器人马戏演艺、园区巡游、科普讲解和酒店服务，验证机器人在文旅场景中的长期稳定运行。",
+                    "link": "https://m.21jingji.com/article/20260824/herald/a5c408805c598958e9901ae8db0af47e.html",
+                    "tags": [
+                      "文旅",
+                      "商业化"
+                    ],
+                    "source": "21财经",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "零跑",
+                "news": [
+                  {
+                    "title": "零跑汽车：已在具身智能机器人领域有所规划",
+                    "summary": "8月24日消息，零跑在 2026 年中期业绩会上回应机器人业务布局，称具备全域自研能力的新能源车企完全有条件做具身智能机器人，公司已有相关规划并将很快公布信息。工商信息显示，零跑旗下公司已设立注册资本 2.1 亿元的精密制造公司，经营范围含工业机器人制造与智能机器人研发。",
+                    "link": "https://www.cls.cn/detail/2462708",
+                    "tags": [
+                      "零跑",
+                      "车企入局"
+                    ],
+                    "source": "财联社",
+                    "time": "8月24日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "AI出海",
+            "cards": []
+          },
+          {
+            "name": "投资资讯",
+            "cards": [
+              {
+                "title": "小鹏机器人",
+                "news": [
+                  {
+                    "title": "小鹏机器人首轮融资超 9 亿美元，投后估值约 430 亿元",
+                    "summary": "8月24日消息，小鹏机器人业务完成首轮超 9 亿美元融资，投后估值超 63 亿美元（约 430 亿元人民币），刷新中国具身智能行业单轮私募股权融资纪录。本轮由 IDG 资本领投，高榕创投参投，腾讯、阿里以战略投资者身份加入，小鹏集团继续控股，计划年底启动 IRON 人形机器人量产。",
+                    "link": "https://finance.sina.com.cn/tech/roll/2026-08-24/doc-inipmnpm0064279.shtml",
+                    "tags": [
+                      "融资",
+                      "人形机器人"
+                    ],
+                    "source": "新浪财经",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "梅卡曼德",
+                "news": [
+                  {
+                    "title": "梅卡曼德拟香港 IPO 筹至多 23.5 亿港元，9 月 1 日挂牌",
+                    "summary": "8月24日消息，根据香港交易所公告，梅卡曼德将在香港上市发售约 2314 万股 H 股，发行价区间每股 95.30-101.70 港元，计划筹集至多 23.5 亿港元（约 3 亿美元），预计 9 月 1 日开始挂牌交易。",
+                    "link": "https://www.cls.cn/detail/2461835",
+                    "tags": [
+                      "IPO",
+                      "机器人"
+                    ],
+                    "source": "财联社",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "燧原科技",
+                "news": [
+                  {
+                    "title": "「国产 GPU 四小龙」燧原科技 9 月 2 日开启申购",
+                    "summary": "8月25日消息，燧原科技将于 9 月 2 日进行新股申购。燧原科技创立于 2018 年 3 月，与摩尔线程、沐曦股份和壁仞科技合称为「国产 GPU 四小龙」，其上市进展备受 AI 算力产业链关注。",
+                    "link": "https://m.21jingji.com/article/20260824/herald/18baf7625cfd3848bbe7a92cc414169a.html",
+                    "tags": [
+                      "IPO",
+                      "国产GPU"
+                    ],
+                    "source": "21财经",
+                    "time": "8月25日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "行业趋势&观点",
+            "cards": [
+              {
+                "title": "Counterpoint",
+                "news": [
+                  {
+                    "title": "Counterpoint：今年全球智能手机出货量预计下降 14.3%",
+                    "summary": "8月24日消息，Counterpoint Research 预测，受存储和芯片成本上升、低价机供应减少及消费者购买力承压影响，今年全球智能手机出货量预计同比下降 14.3%，明年还将下降 1.4%，到 2028 年才开始恢复。折叠屏和端侧 AI 可推动差异化，但不足以带来大规模换机周期。",
+                    "link": "https://www.stcn.com/article/detail/4105911.html",
+                    "tags": [
+                      "手机市场",
+                      "报告"
+                    ],
+                    "source": "证券时报",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "胡润品牌榜",
+                "news": [
+                  {
+                    "title": "2026 胡润中国品牌榜发布：苹果蝉联第一，AIGC 品牌首次入榜",
+                    "summary": "8月24日消息，胡润研究院发布《2026 胡润中国品牌榜》，苹果蝉联第一，抖音与微信并列，华为重返总榜前十，AIGC 行业首次独立入榜。",
+                    "link": "https://finance.eastmoney.com/a/202608243851138579.html",
+                    "tags": [
+                      "品牌榜",
+                      "AIGC"
+                    ],
+                    "source": "东方财富",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "超七成论文用AI",
+                "news": [
+                  {
+                    "title": "研究：超七成英语生物医学论文已使用 AI 辅助写作",
+                    "summary": "8月25日消息，研究团队分析 PubMed Central 上 119 万余篇英文生物医学论文发现，2025 年约 77% 论文出现 AI 辅助写作特征、12 月单月接近九成，非英语母语地区使用比例超八成。研究呼吁建立完善使用规范与监管机制，关注大模型「幻觉」生成虚假事实与不存在参考文献的风险。",
+                    "link": "https://www.sohu.com/a/1067122878_114760",
+                    "tags": [
+                      "学术写作",
+                      "AI研究"
+                    ],
+                    "source": "搜狐",
+                    "time": "8月25日消息"
+                  }
+                ]
+              },
+              {
+                "title": "韩国个保法",
+                "news": [
+                  {
+                    "title": "韩国通过《个人信息保护法》修正案，允许 AI 开发使用个人数据",
+                    "summary": "8月25日消息，韩国国会全体通过《个人信息保护法》修正案，首次允许经个人信息保护委员会（PIPC）审议批准后、无需信息主体同意即可将原始个人数据用于 AI 技术开发，旨在为本土「主权 AI」训练松绑；修正案在国务会议批准并正式颁布后 6 个月生效。",
+                    "link": "https://tech.ifeng.com/c/8vqt2cdCgEH",
+                    "tags": [
+                      "数据政策",
+                      "个人隐私"
+                    ],
+                    "source": "凤凰科技",
+                    "time": "8月25日消息"
+                  }
+                ]
+              },
+              {
+                "title": "Dr.Dre",
+                "news": [
+                  {
+                    "title": "Dr. Dre 公开支持 AI 音乐，将其类比鼓机、合成器",
+                    "summary": "8月24日消息，美国音乐人 Dr. Dre 在《纽约时报》采访中公开支持 AI 音乐，将其类比鼓机与合成器：「这是一种全新的创意工具，我拥抱它」。他回应威胁论称「只有创作有困难的人才会把它视为威胁」，并透露业内存在很多隐秘使用 AI 的制作人。",
+                    "link": "https://tech.ifeng.com/c/8vrNm9ew9Oo",
+                    "tags": [
+                      "AI音乐",
+                      "行业观点"
+                    ],
+                    "source": "凤凰科技",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "卡迪夫AI批改",
+                "news": [
+                  {
+                    "title": "卡迪夫大学新研究：AI 尚无法像人类教师一样可靠地批改作业",
+                    "summary": "8月25日消息，卡迪夫大学与墨尔本大学联合研究测试 GenAI 能否可靠批改学生作业，用 ChatGPT 两个版本对 50 篇论文按 7 项标准评分，发现 AI 分数波动大、普遍给分偏高、向中间集中，单篇最大差距达 40 分。研究指出现阶段 AI 不适合取代教师预测成绩，更适合作为补充而非替代。",
+                    "link": "https://tech.ifeng.com/c/8vrLuAVyTN2",
+                    "tags": [
+                      "AI教育",
+                      "研究"
+                    ],
+                    "source": "凤凰科技",
+                    "time": "8月25日消息"
+                  }
+                ]
+              },
+              {
+                "title": "AI大模型周榜",
+                "news": [
+                  {
+                    "title": "AI 大模型周榜：glm-5.3-max 首秀闯入综合榜前 15，kimi-k3-max 冲进前十",
+                    "summary": "8月24日消息，最新 AI 大模型周榜显示，国产 glm-5.3-max 首秀闯入综合榜前 15，kimi-k3-max 冲进综合榜前十，国产模型与闭源旗舰的差距持续收窄。",
+                    "link": "https://www.ithome.com/0/993/601.htm",
+                    "tags": [
+                      "大模型榜单",
+                      "GLM"
+                    ],
+                    "source": "IT之家",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "上影昊浦",
+                "news": [
+                  {
+                    "title": "上影联合筷子科技上线「昊帧影视创制平台」，完善 AI 基建推动影视工业化",
+                    "summary": "8月24日消息，上海科技影都上线「昊帧影视创制平台」，由筷子科技与上影昊浦智慧产业社区合作建设，在既有百卡规模影视算力池基础上新增 50 台英伟达 DGX Spark，并为影视项目提供多模态 Token 补贴，面向制片、编剧、美术、后期和宣发等岗位整合模型调用、素材管理、团队协作和算力调度。",
+                    "link": "https://www.thepaper.cn/newsDetail_forward_33839026",
+                    "tags": [
+                      "影视AI",
+                      "算力平台"
+                    ],
+                    "source": "澎湃新闻",
+                    "time": "8月24日消息"
+                  }
+                ]
+              },
+              {
+                "title": "飞象老师",
+                "news": [
+                  {
+                    "title": "中国版\"AI for Teacher\"飞象老师发布 3.0 新版本，一键生成可运行教育应用",
+                    "summary": "8月24日消息，飞象星球上线飞象老师 3.0 版本，新增教育应用生成能力，用户仅需自然语言描述需求，数分钟内即可生成带独立访问链接、支持 AI 调用与数据留存的完整教育应用，全程无需代码开发与部署，覆盖教学练习、管理等多类场景。",
+                    "link": "https://www.bjnews.com.cn/detail-1787576334129885.html",
+                    "tags": [
+                      "AI教育",
+                      "教育应用"
+                    ],
+                    "source": "新京报",
+                    "time": "8月24日消息"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "LMArena",
+            "date": "2026-07-27",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "claude-fable-5",
+                "score": "1508",
+                "change": "+6"
+              },
+              {
+                "model": "claude-opus-4-6-thinking",
+                "score": "1505",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-7-thinking",
+                "score": "1502",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-6",
+                "score": "1497",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-5-max",
+                "score": "1495",
+                "change": "+12"
+              },
+              {
+                "model": "claude-opus-4-7",
+                "score": "1493",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-5-high",
+                "score": "1493",
+                "change": "+8"
+              },
+              {
+                "model": "muse-spark-1.1",
+                "score": "1491",
+                "change": "+7"
+              },
+              {
+                "model": "muse-spark",
+                "score": "1488",
+                "change": "+6"
+              },
+              {
+                "model": "gemini-3.1-pro-preview",
+                "score": "1486",
+                "change": "+3"
+              },
+              {
+                "model": "kimi-k3-max",
+                "score": "1486",
+                "change": "+10"
+              },
+              {
+                "model": "gemini-3-pro",
+                "score": "1486",
+                "change": "+4"
+              },
+              {
+                "model": "gpt-5.6-sol-xhigh",
+                "score": "1485",
+                "change": "+7"
+              },
+              {
+                "model": "claude-opus-4-8-thinking",
+                "score": "1484",
+                "change": "+5"
+              },
+              {
+                "model": "gemini-3.6-flash",
+                "score": "1482",
+                "change": "+8"
+              },
+              {
+                "model": "gpt-5.5-high",
+                "score": "1482",
+                "change": "+4"
+              },
+              {
+                "model": "gpt-5.4-high",
+                "score": "1477",
+                "change": "+4"
+              },
+              {
+                "model": "gemini-3.5-flash-high",
+                "score": "1476",
+                "change": "+7"
+              },
+              {
+                "model": "gpt-5.2-chat-latest-20260210",
+                "score": "1476",
+                "change": "+4"
+              },
+              {
+                "model": "gpt-5.5",
+                "score": "1476",
+                "change": "+4"
+              }
+            ]
+          },
+          {
+            "name": "OpenRouter",
+            "date": "2026-08-25",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": [
+              {
+                "model": "Ox Alpha",
+                "score": "17.5T tokens",
+                "change": "new"
+              },
+              {
+                "model": "DeepSeek V4 Flash 0731",
+                "score": "11.6T tokens",
+                "change": "↑3%"
+              },
+              {
+                "model": "MiMo-V2.5",
+                "score": "9.69T tokens",
+                "change": "↑94%"
+              },
+              {
+                "model": "Hy3",
+                "score": "7.76T tokens",
+                "change": "↑20%"
+              },
+              {
+                "model": "DeepSeek V4 Flash 0423",
+                "score": "5.53T tokens",
+                "change": "↑16%"
+              },
+              {
+                "model": "Nemotron 3 Ultra (free)",
+                "score": "5.12T tokens",
+                "change": "↑114%"
+              },
+              {
+                "model": "GPT-5.6 Luna",
+                "score": "4.48T tokens",
+                "change": "↑20%"
+              },
+              {
+                "model": "GLM 5.2",
+                "score": "3.26T tokens",
+                "change": "↑26%"
+              },
+              {
+                "model": "Gemini 3.7 Flash",
+                "score": "2.02T tokens",
+                "change": "↑236%"
+              },
+              {
+                "model": "DeepSeek V4 Pro 0423",
+                "score": "1.84T tokens",
+                "change": "↑31%"
+              },
+              {
+                "model": "MiniMax M3",
+                "score": "1.66T tokens",
+                "change": "↑13%"
+              },
+              {
+                "model": "Laguna S 2.1 (free)",
+                "score": "1.59T tokens",
+                "change": "—"
+              },
+              {
+                "model": "Claude Opus 5",
+                "score": "1.49T tokens",
+                "change": "↑1%"
+              },
+              {
+                "model": "GPT-5.6 Sol",
+                "score": "1.4T tokens",
+                "change": "↑75%"
+              },
+              {
+                "model": "Kimi K3",
+                "score": "1.36T tokens",
+                "change": "↑10%"
+              },
+              {
+                "model": "Claude Sonnet 5",
+                "score": "1.1T tokens",
+                "change": "↑1%"
+              },
+              {
+                "model": "Nemotron 3.5 Lightning (free)",
+                "score": "1.03T tokens",
+                "change": "↑86%"
+              },
+              {
+                "model": "DeepSeek V4 Pro 0813",
+                "score": "984B tokens",
+                "change": "↑107%"
+              },
+              {
+                "model": "Gemini 3 Flash Preview",
+                "score": "854B tokens",
+                "change": "↑1%"
+              },
+              {
+                "model": "Gemini 2.5 Flash Lite",
+                "score": "730B tokens",
+                "change": "new"
+              }
+            ]
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-07-31",
+            "link": "https://www.producthunt.com/",
+            "rankings": [
+              {
+                "name": "MiniMax H3",
+                "category": "Design Tools",
+                "rank": 1,
+                "link": "https://www.minimax.io"
+              },
+              {
+                "name": "Cleanlist AI",
+                "category": "Sales",
+                "rank": 2,
+                "link": "https://www.cleanlist.ai"
+              },
+              {
+                "name": "metrics",
+                "category": "Mac",
+                "rank": 3,
+                "link": "https://github.com/mxcl/metrics"
+              },
+              {
+                "name": "Poth Labs",
+                "category": "Customer Success",
+                "rank": 4,
+                "link": "https://www.pothlabs.com"
+              },
+              {
+                "name": "DepthData",
+                "category": "Analytics",
+                "rank": 5,
+                "link": "https://www.depthdata.com"
+              },
+              {
+                "name": "Halo by Scam AI",
+                "category": "Meetings",
+                "rank": 6,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "witr",
+                "category": "Linux",
+                "rank": 7,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Customer.io Summer Release",
+                "category": "Email",
+                "rank": 8,
+                "link": "https://customer.io"
+              },
+              {
+                "name": "Screencap",
+                "category": "Productivity",
+                "rank": 9,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Gemini Robotics 2",
+                "category": "Robots",
+                "rank": 10,
+                "link": "https://deepmind.google"
+              },
+              {
+                "name": "TraceLLM",
+                "category": "Open Source",
+                "rank": 11,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Mubert API",
+                "category": "Music",
+                "rank": 12,
+                "link": "https://mubert.com"
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 };
 
