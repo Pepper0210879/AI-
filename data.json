@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-29",
+  "date": "2026-08-30",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,25 +7,25 @@
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI终止向Cursor提供模型 指控其被SpaceX收购后违规",
-              "summary": "当地时间8月28日，OpenAI宣布终止与AI编程工具Cursor的合作，将于11月12日停止向其提供模型访问，下一代最强模型Astra也不会提供给Cursor。OpenAI称Cursor被马斯克旗下SpaceX收购后违反服务条款。马斯克回应称“我根本不在乎”。",
-              "link": "https://news.qq.com/rain/a/20260829A08ZNS00",
+              "title": "OpenAI ChatGPT、Codex 现已支持连接多个谷歌 Gmail 账号",
+              "summary": "8月29日消息，OpenAI 开发者体验工程师 Gabriel Chua 确认，ChatGPT 与 Codex 用户现可连接多个谷歌 Gmail 和日历账号。此前只能连接一个 Google 账户，如今可在侧边栏插件中添加多个账号，ChatGPT 可跨账号提取信息，提供更具上下文关联的回答。",
+              "link": "https://www.ithome.com/0/996/022.htm",
               "tags": [
-                "AI编程",
-                "合作终止"
+                "ChatGPT",
+                "账号集成"
               ],
-              "source": "腾讯新闻",
-              "time": "当地时间8月28日"
+              "source": "IT之家",
+              "time": "8月29日消息"
             },
             {
-              "title": "OpenAI为Codex开发持久模式智能体",
-              "summary": "8月28日消息，据《连线》杂志报道，OpenAI正为AI编程助手Codex开发“持久模式”智能体，启用后可持续工作直至被手动休眠，测试中曾连续运行25小时，还能主动创建后续任务、跨会话执行，目前处于内部测试阶段。",
-              "link": "https://news.qq.com/rain/a/20260828A03HUX00",
+              "title": "OpenAI 提交新请愿书，要求驳回苹果窃密诉讼",
+              "summary": "8月28日消息，据 MacObserver 报道，OpenAI 近日向法院提交最新申请，要求彻底驳回苹果的窃密诉讼，称苹果指控缺乏实际证据、更多基于推测。该诉讼源于前苹果员工 Chang Liu 和 Tang Tan 的泄密指控，法院将于 10 月 1 日召开听证会审理。",
+              "link": "https://www.ithome.com/0/995/810.htm",
               "tags": [
-                "智能体",
-                "AI编程"
+                "诉讼",
+                "苹果"
               ],
-              "source": "腾讯新闻",
+              "source": "IT之家",
               "time": "8月28日消息"
             }
           ]
@@ -34,34 +34,45 @@
           "name": "Anthropic",
           "news": [
             {
-              "title": "Anthropic官宣Claude Code打通桌面端与终端",
-              "summary": "8月29日消息，Anthropic官宣Claude Code桌面端与终端会话实现双向打通，用户在命令行中开启的会话可在桌面端通过/resume命令无缝恢复，完整对话记录与上下文同步迁移。",
-              "link": "https://m.163.com/dy/article/L5GPV7GV0511ABV6.html",
+              "title": "索尼与华纳出版起诉 Anthropic，索赔或达数十亿美元",
+              "summary": "8月29日消息，索尼音乐出版与华纳查普尔音乐出版向美国加州北区联邦法院起诉 Anthropic，指控其未经授权使用数万部版权作品训练 Claude 模型，要求每部作品最高赔偿 15 万美元，涉案总金额或达数十亿美元，两名创始人阿莫迪、曼同列为个人被告。",
+              "link": "https://m.163.com/dy/article/L5I492A30511BLFD.html",
               "tags": [
-                "AI编程",
-                "Claude Code"
+                "版权",
+                "诉讼"
               ],
               "source": "网易",
               "time": "8月29日消息"
             },
             {
-              "title": "美法院裁定国防部将Anthropic列入黑名单非法",
-              "summary": "当地时间8月27日，美国加州北区联邦法院裁定国防部将Anthropic列入“供应链风险”黑名单的行为非法，认定其违反宪法第一、第五修正案。此前国防部长赫格塞思以Anthropic拒绝军方将Claude用于大规模监控为由将其列入黑名单。",
-              "link": "https://tech.ifeng.com/c/8vxXGc2OfEn",
+              "title": "Anthropic CEO 阿莫迪：Claude 带着和平而来，无意摧毁任何人",
+              "summary": "8月29日消息，据《商业内幕》报道，Anthropic CEO 阿莫迪本周出席活动时表示，Claude 是带着和平而来的，无意摧毁任何行业。此前 Claude Cowork 插件曾引发\"SaaS 末日\"担忧、软件行业市值一度蒸发约 1 万亿美元，阿莫迪称与 Salesforce 的结合是\"一加一大于三\"。",
+              "link": "https://www.ithome.com/0/995/911.htm",
               "tags": [
-                "法律",
-                "美政府"
+                "AI 行业",
+                "SaaS"
               ],
-              "source": "凤凰科技",
-              "time": "当地时间8月27日"
+              "source": "IT之家",
+              "time": "8月29日消息"
             },
             {
-              "title": "Anthropic被曝曾拟70亿美元收购AI芯片公司MatX",
-              "summary": "8月29日消息，据机器之心报道，Anthropic被曝曾想以70亿美元收购AI芯片公司MatX，双方谈判现已转向合作模式。MatX专注研发用于训练大模型的AI芯片。",
-              "link": "https://www.ithome.com/0/995/591.htm",
+              "title": "Anthropic 揭示\"AI 训练 AI\"新方法，成本比人类研究员更低",
+              "summary": "8月29日消息，当地时间8月28日，Anthropic 研究员计划成员展示\"AI 训练 AI\"落地成果，发布论文《自动化研究员能够可靠缓解对齐失效》：AI 系统针对 10 种模型失调行为全部改善且不牺牲整体能力，训练成本更低、速度更快，工作流程与传统科研相似。",
+              "link": "https://www.ithome.com/0/996/038.htm",
               "tags": [
-                "AI芯片",
-                "收购"
+                "AI 训练",
+                "对齐"
+              ],
+              "source": "IT之家",
+              "time": "8月29日消息"
+            },
+            {
+              "title": "Anthropic 安全框架自动降级：Claude 误删开发者 700GB 主目录",
+              "summary": "8月29日消息，开发者 Sebastien Guillemot 反馈，他在测试 AI 智能体文件删除防护时，Claude 误删了约 700GB 数据、包括整个用户主目录。事故发生前，Anthropic 安全机制因任务存在风险自动将模型降级至 Opus 4.8，自动化清理功能反而酿成灾难。",
+              "link": "https://www.ithome.com/0/996/031.htm",
+              "tags": [
+                "AI 安全",
+                "自动化"
               ],
               "source": "IT之家",
               "time": "8月29日消息"
@@ -72,68 +83,47 @@
           "name": "Google",
           "news": [
             {
-              "title": "谷歌内部测试Gemini 3.8 Flash模型",
-              "summary": "8月28日消息，据Business Insider报道，谷歌员工已在内部编程平台Jetski上测试Gemini 3.8 Flash Preview，体验明显优于3.7版本。谷歌正以数周为间隔快速迭代Flash系列模型，目标几乎每月发布一次新模型。",
-              "link": "https://www.163.com/dy/article/L5DSNE830511BLFD.html",
+              "title": "谷歌部分搜索默认进入 AI 模式，自动展开摘要",
+              "summary": "8月30日消息，据 Search Engine Roundtable 报道，谷歌针对部分搜索请求自动展开页面顶部 AI 摘要，用户需向下滚动更远才能看到传统网页链接，AI 概览下方还会出现\"随便问问\"输入框，传统蓝链搜索结果进一步下移。",
+              "link": "https://www.ithome.com/0/996/062.htm",
               "tags": [
-                "Gemini",
-                "大模型"
+                "谷歌搜索",
+                "AI 摘要"
               ],
-              "source": "网易",
-              "time": "8月28日消息"
-            },
-            {
-              "title": "谷歌要求AI核心员工搬回硅谷办公",
-              "summary": "8月29日消息，据The Information报道，谷歌为加速AI研发，将分散在伦敦与硅谷的AI核心人员召回加州总部集中办公，以消除跨时区协作障碍。哈萨比斯卸任DeepMind CEO转任董事长，布林复出深度介入AI决策。",
-              "link": "https://app.myzaker.com/news/article.php?pk=6a76d5e48e9f0933ca441fde",
-              "tags": [
-                "组织调整",
-                "人才"
-              ],
-              "source": "量子位",
-              "time": "8月29日消息"
-            },
-            {
-              "title": "Alphabet市值较峰值蒸发超7000亿美元",
-              "summary": "8月28日消息，谷歌母公司Alphabet股价较5月历史高点下跌约15%，市值蒸发超7000亿美元。市场担忧其AI优势受质疑、核心AI人才流失，以及旗舰模型Gemini 3.5 Pro延期，尽管其二季度财报数据超预期。",
-              "link": "https://www.jiemian.com/article/15016376.html",
-              "tags": [
-                "股价",
-                "市值"
-              ],
-              "source": "界面新闻",
-              "time": "8月28日消息"
+              "source": "IT之家",
+              "time": "8月30日消息"
             }
           ]
         },
         {
           "name": "xAI",
-          "news": []
+          "news": [
+            {
+              "title": "星舰 B21 完成 33 台引擎全时长静态点火，冲刺第 14 次飞行",
+              "summary": "8月29日消息，SpaceX 超重助推器 B21 顺利完成 15 秒静态点火测试，全部 33 台猛禽发动机同步点燃。这是星舰第 14 次飞行前的关键地面验证，B21 为 Block 3 配置，将搭载约 20 颗 Starlink V3 卫星执行任务。",
+              "link": "https://k.sina.com.cn/article_7785414099_m1d00bfdd303301afq0.html",
+              "tags": [
+                "SpaceX",
+                "星舰"
+              ],
+              "source": "新浪新闻",
+              "time": "8月29日消息"
+            }
+          ]
         },
         {
           "name": "NVIDIA",
           "news": [
             {
-              "title": "英伟达被曝以129亿美元收购Hugging Face",
-              "summary": "8月27日消息，据外媒报道，英伟达已同意以129亿美元收购开源AI平台Hugging Face，估值超130亿美元，约为此前45亿美元估值的近三倍。若交易落地将成为英伟达最大收购之一，助其掌控开源模型分发渠道。",
-              "link": "https://m.21jingji.com/article/20260827/herald/ee525cad25ec97f69846ba44622c6e9d.html",
+              "title": "英伟达参投 AI 云厂商 Lambda 融资 10 亿美元采购 GPU",
+              "summary": "8月29日消息，据财联社报道，英伟达参投的 AI 云计算厂商 Lambda 通过私募债务融资筹集约 10 亿美元，资金用于采购英伟达 GPU，这批芯片将租赁给微软使用，交易由摩根大通牵头安排。",
+              "link": "https://www.cls.cn/detail/2468371",
               "tags": [
-                "收购",
-                "开源生态"
+                "AI 云计算",
+                "融资"
               ],
-              "source": "21世纪经济报道",
-              "time": "8月27日消息"
-            },
-            {
-              "title": "Hark与英伟达达成多年战略合作 部署吉瓦级算力",
-              "summary": "8月27日，美国AI初创公司Hark宣布与英伟达达成多年战略合作，围绕个性化智能体AI展开技术合作，并基于英伟达下一代Vera Rubin平台部署吉瓦级计算能力，支撑大规模AI训练与推理。",
-              "link": "https://www.jiemian.com/article/15011284.html",
-              "tags": [
-                "智能体",
-                "算力合作"
-              ],
-              "source": "界面新闻",
-              "time": "8月27日"
+              "source": "财联社",
+              "time": "8月29日消息"
             }
           ]
         },
@@ -141,26 +131,15 @@
           "name": "Meta",
           "news": [
             {
-              "title": "Meta内测个人AI智能体Hatch",
-              "summary": "8月29日消息，据《商业内幕》报道，Meta已把代号Project Hatch的个人AI智能体开放给更多员工测试。Hatch拥有独立计算机环境，能填表单、购物、做深度研究，连接邮箱、日历等应用，应用关闭后仍在后台运行，敏感操作需用户确认。",
-              "link": "https://www.pingwest.com/w/313501",
+              "title": "Meta 升级 AI 眼镜隐私防护：遮挡指示灯即停止拍摄",
+              "summary": "8月28日消息，据 The Verge 报道，Meta 为 AI 智能眼镜推出更新，修复拍摄指示灯隐私漏洞：录像过程中指示灯被遮住，摄像头将立即停止工作。此前有用户通过先录像再遮挡指示灯绕过保护，Meta 称将继续推出类似更新确保可靠提醒。",
+              "link": "https://www.ithome.com/0/995/795.htm",
               "tags": [
-                "智能体",
-                "内测"
+                "AI 眼镜",
+                "隐私"
               ],
-              "source": "品玩",
-              "time": "8月29日消息"
-            },
-            {
-              "title": "Meta预计每年在Anthropic的AI支出最高达100亿美元",
-              "summary": "8月27日消息，据《纽约时报》报道，Meta内部今年一度预测每年在Anthropic AI模型上的支出最高可达100亿美元，约占Anthropic预计年收入的15%。尽管两家互为竞争对手，Meta已是Anthropic最大客户之一。",
-              "link": "https://www.cls.cn/detail/2466791",
-              "tags": [
-                "算力支出",
-                "竞争"
-              ],
-              "source": "财联社",
-              "time": "8月27日消息"
+              "source": "IT之家",
+              "time": "8月28日消息"
             }
           ]
         }
@@ -170,19 +149,7 @@
       "vendors": [
         {
           "name": "阿里云",
-          "news": [
-            {
-              "title": "高德发布万帧级3D重建模型ABot-Recon",
-              "summary": "8月28日，阿里旗下高德发布首个无长程依赖的万帧级流式3D重建模型ABot-Recon，仅凭连续12帧局部画面即可实时重建上万帧3D场景，平均轨迹误差较行业代表方法降低40.6%，已在GitHub开源，可应用于测绘、具身智能、自动驾驶等场景。",
-              "link": "https://www.qbitai.com/2026/08/480208.html",
-              "tags": [
-                "3D重建",
-                "开源模型"
-              ],
-              "source": "量子位",
-              "time": "8月28日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "火山引擎",
@@ -194,51 +161,15 @@
         },
         {
           "name": "腾讯",
-          "news": [
-            {
-              "title": "腾讯发布并开源新一代大模型混元Hy4",
-              "summary": "8月28日，腾讯发布并开源新一代大模型混元Hy4 preview。总参数770B、激活参数49B，上下文长度达1M，重点优化软件工程、办公、游戏开发等生产力任务，已同步进入WorkBuddy、元宝等产品。",
-              "link": "https://www.news.cn/tech/20260828/b12d8417291b4193ba9e5d435a1a40db/c.html",
-              "tags": [
-                "大模型",
-                "开源"
-              ],
-              "source": "新华网",
-              "time": "8月28日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "小米",
-          "news": [
-            {
-              "title": "小米玄戒芯片获人民日报点赞 雷军回应",
-              "summary": "8月28日，《人民日报》“人民时评”栏目刊文，将小米玄戒芯片作为体系化攻关案例，称其“为业界探索出一条新路”。雷军当日转发回应“感谢大家，我们继续努力”。玄戒O3为3nm AI旗舰SoC，O100为端侧AI加速芯片，D100为智驾芯片。",
-              "link": "https://tech.ifeng.com/c/8vxX7ch0lWs",
-              "tags": [
-                "芯片",
-                "媒体评论"
-              ],
-              "source": "凤凰科技",
-              "time": "8月28日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "智谱AI",
-          "news": [
-            {
-              "title": "智谱开源GLM-5.3 商用设百亿美元审查门槛",
-              "summary": "8月29日，智谱在Hugging Face开放GLM-5.3权重，744B参数MoE架构，能力提升全部来自后训练，重点强化复杂编程、长时任务与网络安全能力。新许可规定年收入超100亿美元的MaaS服务商商业使用前须通过安全审查。",
-              "link": "https://www.ithome.com/0/995/896.htm",
-              "tags": [
-                "大模型",
-                "开源"
-              ],
-              "source": "IT之家",
-              "time": "8月29日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "月之暗面",
@@ -246,19 +177,7 @@
         },
         {
           "name": "华为",
-          "news": [
-            {
-              "title": "鸿蒙生态设备突破8000万台",
-              "summary": "8月28日，鸿蒙生态大会2026在深圳举行，华为轮值董事长徐直军表示，截至8月20日搭载HarmonyOS 6的终端设备已突破8000万台，预计第四季度突破1亿台，鸿蒙原生应用超10万个。大会发布“鸿图计划”做强生态底座。",
-              "link": "https://stcn.com/article/detail/4150680.html",
-              "tags": [
-                "鸿蒙",
-                "操作系统"
-              ],
-              "source": "证券时报",
-              "time": "8月28日"
-            }
-          ]
+          "news": []
         }
       ]
     },
@@ -268,114 +187,72 @@
           "name": "其他厂商",
           "cards": [
             {
-              "title": "MiniMax",
+              "title": "苹果",
               "news": [
                 {
-                  "title": "MiniMax半年ARR突破8亿美元 token消耗涨20倍",
-                  "summary": "8月28日消息，MiniMax披露半年报显示ARR已突破8亿美元，较2月的1.5亿美元暴涨超5倍；7月token消耗量为1月的20倍。B端收入爆发式增长，开放平台及企业服务收入同比暴增703%，被视为“Agent红利”驱动的增长。",
-                  "link": "https://finance.sina.com.cn/roll/2026-08-28/doc-inipwhrt5717220.shtml",
+                  "title": "苹果首款 AI 眼镜有望 2027 年亮相，主打 Siri 视觉智能",
+                  "summary": "8月29日消息，据报道，苹果首款 AI 眼镜最早有望 2027 年发布，首代采用无显示屏设计，搭载摄像头与麦克风，通过 Siri 视觉智能识别环境物体、翻译标识文字，主打本地化处理与隐私保护，库克将其视为交棒前的核心战略项目。",
+                  "link": "https://tech.ifeng.com/c/8w0AVdjofMn",
                   "tags": [
-                    "财报",
-                    "Agent"
-                  ],
-                  "source": "新浪财经",
-                  "time": "8月28日消息"
-                }
-              ]
-            },
-            {
-              "title": "美团",
-              "news": [
-                {
-                  "title": "王兴：美团不会成为Token工厂",
-                  "summary": "8月28日，美团发布二季度财报，收入1046亿元，同比增长14.4%，环比扭亏为盈。CEO王兴在业绩会上称不会成为“Token工厂”，AI模型和产品将用于支持主业，提升用户、商户体验与经营效率。",
-                  "link": "https://m.21jingji.com/article/20260828/herald/4d174b9a27ea29a88a494996c4240824.html",
-                  "tags": [
-                    "财报",
-                    "AI战略"
-                  ],
-                  "source": "21世纪经济报道",
-                  "time": "8月28日"
-                }
-              ]
-            },
-            {
-              "title": "蚂蚁",
-              "news": [
-                {
-                  "title": "蚂蚁百灵发布金融增强模型Ling-Fin",
-                  "summary": "8月28日，蚂蚁百灵发布首个金融增强模型Ling-3.0-flash-Fin，124B总参数MoE架构，可处理含5000余个公式的Excel财务模型，将投资研究拆为信息检索、推理、估值建模、研报撰写四类能力，权重计划下周开源。",
-                  "link": "https://www.pingwest.com/w/316872",
-                  "tags": [
-                    "金融模型",
-                    "开源"
-                  ],
-                  "source": "品玩",
-                  "time": "8月28日"
-                }
-              ]
-            },
-            {
-              "title": "优必选",
-              "news": [
-                {
-                  "title": "优必选上半年营收12.7亿元 人形机器人销量翻倍",
-                  "summary": "8月28日，优必选发布2026年中期业绩，总营收12.7亿元，同比增长104.2%；人形机器人销量16123台，同比增长268.3%。全尺寸具身智能人形机器人收入5.9亿元，同比大增1445%，经调整EBITDA亏损收窄45.9%。",
-                  "link": "https://www.jiemian.com/article/15022191.html",
-                  "tags": [
-                    "财报",
-                    "人形机器人"
-                  ],
-                  "source": "界面新闻",
-                  "time": "8月28日"
-                }
-              ]
-            },
-            {
-              "title": "长鑫科技",
-              "news": [
-                {
-                  "title": "长鑫科技上半年营收1503亿元 扭亏为盈",
-                  "summary": "8月28日晚，长鑫科技披露上市后首份半年报，上半年营收1503.1亿元，同比增长873.64%；净利润776.05亿元，上年同期亏损23.32亿元，同比扭亏为盈。业绩爆发主要受益于DRAM涨价红利。",
-                  "link": "https://m.21jingji.com/article/20260828/herald/66d38720dd7422a0b9177d2d17ffdc9b.html",
-                  "tags": [
-                    "财报",
-                    "存储芯片"
-                  ],
-                  "source": "21世纪经济报道",
-                  "time": "8月28日"
-                }
-              ]
-            },
-            {
-              "title": "商汤",
-              "news": [
-                {
-                  "title": "商汤助力智象未来跑通视频生成国产算力",
-                  "summary": "8月28日消息，商汤大装置与多模态生成式AI企业智象未来合作，跑通视频生成业务向国产算力无感迁移的完整链路，多卡并行视频生成加速比达93%，已支持10余种异构芯片上的模型零成本迁移。",
-                  "link": "https://www.qbitai.com/2026/08/480227.html",
-                  "tags": [
-                    "国产算力",
-                    "视频生成"
-                  ],
-                  "source": "量子位",
-                  "time": "8月28日消息"
-                }
-              ]
-            },
-            {
-              "title": "华硕",
-              "news": [
-                {
-                  "title": "华硕成立物理AI解决方案事业群",
-                  "summary": "8月28日，华硕宣布成立物理AI解决方案事业群（PAS BG），下设AI解决方案、自主平台、人形机器人三大事业部，人形机器人业务计划9月上路。华硕预判物理AI市场规模2035年将达1.1万亿美元。",
-                  "link": "https://tech.ifeng.com/c/8vxjR46GZhA",
-                  "tags": [
-                    "人形机器人",
-                    "组织调整"
+                    "AI 眼镜",
+                    "苹果"
                   ],
                   "source": "凤凰科技",
-                  "time": "8月28日"
+                  "time": "8月29日消息"
+                },
+                {
+                  "title": "苹果 CarPlay 接入第 4 款第三方 AI 应用 Meta AI",
+                  "summary": "8月29日消息，据 9to5Mac 报道，在 Siri AI 正式上线前，苹果 CarPlay 已接入 Meta AI，成为继 ChatGPT、Perplexity、Grok 之后第 4 款第三方 AI 聊天机器人应用，目前处于灰度测试阶段，部分账号暂不支持体验。",
+                  "link": "https://tech.ifeng.com/c/8w0G8oz1NEd",
+                  "tags": [
+                    "CarPlay",
+                    "AI 应用"
+                  ],
+                  "source": "凤凰科技",
+                  "time": "8月29日消息"
+                }
+              ]
+            },
+            {
+              "title": "长鑫",
+              "news": [
+                {
+                  "title": "长鑫存储起诉美国国防部，要求移出涉军企业黑名单",
+                  "summary": "8月29日消息，据路透社报道，长鑫存储在美国哥伦比亚特区联邦地区法院起诉美国国防部及国防部长赫格塞思，要求将公司移出\"协助中国军方企业\"黑名单。长鑫表示其 DRAM 芯片用于民用及商业用途，与军方无关。",
+                  "link": "https://www.ithome.com/0/995/964.htm",
+                  "tags": [
+                    "DRAM",
+                    "诉讼"
+                  ],
+                  "source": "IT之家",
+                  "time": "8月29日消息"
+                },
+                {
+                  "title": "小米 18 Fold 全球首发长鑫 LPDDR6 内存，9 月见",
+                  "summary": "8月29日消息，小米官方宣布 Xiaomi 18 Fold 将全球首发长鑫 LPDDR6 内存。长鑫在半年报中披露，自研 LPDDR6 性能较上一代 LPDDR5X 全面跃升，已向关键客户送样验证、正加速推进量产。",
+                  "link": "https://www.ithome.com/0/995/869.htm",
+                  "tags": [
+                    "存储芯片",
+                    "LPDDR6"
+                  ],
+                  "source": "IT之家",
+                  "time": "8月29日消息"
+                }
+              ]
+            },
+            {
+              "title": "玄幂",
+              "news": [
+                {
+                  "title": "行业首个量子增强型大模型\"玄幂 Xenomi\"发布",
+                  "summary": "8月29日消息，据\"国光量子\"公众号，国光量超人工智能研究团队将量子技术引入大语言模型决策与推理，推出行业首个量子增强型大模型玄幂（Xenomi），面向科研与学术领域，在科研科普、路由和智能体决策等任务中表现更稳定。",
+                  "link": "https://www.ithome.com/0/995/921.htm",
+                  "tags": [
+                    "量子计算",
+                    "大模型"
+                  ],
+                  "source": "IT之家",
+                  "time": "8月29日消息"
                 }
               ]
             }
@@ -389,34 +266,34 @@
           "name": "具身智能",
           "cards": [
             {
-              "title": "国家发改委",
+              "title": "深开鸿",
               "news": [
                 {
-                  "title": "发改委：机器人产业须防盲目跟风一哄而上",
-                  "summary": "8月28日，国家发改委新闻发言人李超表示，机器人产业必须因地制宜，防止盲目跟风、一哄而上。2025年中国机器人产业规上企业营收突破3000亿元，今年上半年营收1655亿元，同比增长24.5%。发改委将以具身智能实训场和中试基地为抓手推动落地。",
-                  "link": "https://www.jiemian.com/article/15015353.html",
+                  "title": "开源鸿蒙机器人操作系统 M-Robots OS 3.0 Beta 发布",
+                  "summary": "8月29日消息，深开鸿在 2026 中国国际大数据产业博览会上发布 M-Robots OS 3.0 Beta 版，系统重心从\"单机能力\"转向\"群体智能\"，围绕安全、实时、群体智能、数字底座四大方向升级，为每台设备赋予唯一数字身份，构筑立体防护体系。",
+                  "link": "https://www.ithome.com/0/995/865.htm",
                   "tags": [
-                    "机器人",
-                    "政策"
+                    "机器人操作系统",
+                    "开源鸿蒙"
                   ],
-                  "source": "界面新闻",
-                  "time": "8月28日"
+                  "source": "IT之家",
+                  "time": "8月29日消息"
                 }
               ]
             },
             {
-              "title": "智元机器人",
+              "title": "美国移民局",
               "news": [
                 {
-                  "title": "智元机器人首征世界人形机器人运动会双榜第一",
-                  "summary": "8月26日，第二届世界人形机器人运动会落幕，智元机器人首次出征便以18金16银12铜共46枚奖牌登顶金牌榜、奖牌榜双第一。参赛产品全部为量产机型，涵盖灵巧手OmniHand、精灵G2等，被视为人形机器人规模化落地的压力测试。",
-                  "link": "https://www.shobserver.com/staticsg/res/html/web/sgh/sghNewsDetail.html?id=4045731",
+                  "title": "美移民局拟斥资 200 万美元采购机器狗用于执法",
+                  "summary": "8月29日消息，据央视新闻，美国移民与海关执法局计划斥资 200 万美元购买机器狗，协助边境防卫与基础设施安保。机器狗具备远程操控能力、配备可伸缩机械臂，可在危险环境中进行检查与危险评估。",
+                  "link": "https://www.ithome.com/0/995/967.htm",
                   "tags": [
-                    "人形机器人",
-                    "运动会"
+                    "机器狗",
+                    "执法"
                   ],
-                  "source": "上观新闻",
-                  "time": "8月26日"
+                  "source": "IT之家",
+                  "time": "8月29日消息"
                 }
               ]
             }
@@ -430,34 +307,18 @@
           "name": "投资资讯",
           "cards": [
             {
-              "title": "a16z Machine Age",
+              "title": "灵掌机器人",
               "news": [
                 {
-                  "title": "a16z推出11亿美元“机器时代”基金",
-                  "summary": "当地时间8月28日，知名风投a16z推出首只硬件基础设施基金“Machine Age”，规模11亿美元，重点投资AI处理器、存储芯片、网络设备、数据存储、数据中心和机器人等领域。管理合伙人称“数据中心四堵墙之内的一切都会投”。",
-                  "link": "https://www.a16z.news/p/the-machine-age-fund",
+                  "title": "灵掌机器人完成数千万元天使轮融资",
+                  "summary": "8月28日消息，据科创板日报报道，工业具身机器人技术企业灵掌机器人完成数千万元天使轮融资，投资方包括凯龙高科、遨博智能、锡创投、芯能创投。",
+                  "link": "https://www.ithome.com/0/995/790.htm",
                   "tags": [
-                    "基金",
-                    "AI硬件"
+                    "具身智能",
+                    "融资"
                   ],
-                  "source": "a16z",
-                  "time": "当地时间8月28日"
-                }
-              ]
-            },
-            {
-              "title": "Sharpa",
-              "news": [
-                {
-                  "title": "AI机器人公司Sharpa完成超45亿元融资",
-                  "summary": "8月28日，专注灵巧操作的AI机器人公司Sharpa宣布完成超45亿元融资，阿里巴巴、美团、腾讯、京东、传音及红杉中国、启明创投等参投，投后估值超220亿元。资金将用于核心技术与人才投入，推动通用机器人走向真实场景。",
-                  "link": "https://www.tmtpost.com/nictation/8121278.html",
-                  "tags": [
-                    "融资",
-                    "灵巧操作"
-                  ],
-                  "source": "钛媒体",
-                  "time": "8月28日"
+                  "source": "IT之家",
+                  "time": "8月28日消息"
                 }
               ]
             }
@@ -467,49 +328,119 @@
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "G20技术会议",
+              "title": "国家数据局",
               "news": [
                 {
-                  "title": "黄仁勋、奥特曼、马斯克将出席G20技术会议",
-                  "summary": "8月28日消息，下周美国将举行G20科技部长级会议，英伟达CEO黄仁勋、OpenAI CEO奥特曼、SpaceX CEO马斯克等将出席。美国拟推动成员国签署不具约束力的“卡罗来纳原则”，主张对AI采取轻监管路径。",
-                  "link": "https://www.jiemian.com/article/15010920.html",
+                  "title": "国家数据局：我国智算总规模达 245 万 PFLOPS",
+                  "summary": "8月29日消息，据新华社报道，国家数据局负责人在 2026 中国国际大数据产业博览会上表示，截至 2026 年 7 月底全国智算总规模达 245 万 PFLOPS，八大国家算力枢纽和三个算电协同发展区建成智算占比超 85%，145 万 PFLOPS 已纳入国家级监测调度平台。",
+                  "link": "https://www.ithome.com/0/996/044.htm",
                   "tags": [
-                    "AI监管",
-                    "G20"
+                    "智算",
+                    "算力"
                   ],
-                  "source": "界面新闻",
-                  "time": "8月28日消息"
+                  "source": "IT之家",
+                  "time": "8月29日消息"
+                },
+                {
+                  "title": "2025 年我国智能体专利授权量超 3400 件",
+                  "summary": "8月29日消息，国家数据发展研究院院长胡坚波在数博会上表示，2025 年我国智能体专利授权量超过 3400 件，增速是上一年两倍以上；2025 年数据产业规模达 6.78 万亿元，同比增长 15.7%。",
+                  "link": "https://www.ithome.com/0/995/928.htm",
+                  "tags": [
+                    "智能体",
+                    "专利"
+                  ],
+                  "source": "IT之家",
+                  "time": "8月29日消息"
+                },
+                {
+                  "title": "国家数据局：全国已建成高质量数据集超 12.6 万个",
+                  "summary": "8月29日消息，国家数据局负责人在数博会上表示，全国已建成高质量数据集超 12.6 万个，总体量超 1815PB，较一季度末增长超 89%；国家数据集管理服务系统上线以来已发布数据集超 1700 个。",
+                  "link": "https://www.ithome.com/0/995/893.htm",
+                  "tags": [
+                    "数据集",
+                    "数据要素"
+                  ],
+                  "source": "IT之家",
+                  "time": "8月29日消息"
                 }
               ]
             },
             {
-              "title": "比尔·盖茨",
+              "title": "韩国",
               "news": [
                 {
-                  "title": "比尔·盖茨：中美必须合作应对AI风险",
-                  "summary": "8月26日，比尔·盖茨发表约6000字长文，警告AI正带人类进入“历史上最动荡的时期之一”，世界准备不足。他认为AI首次能替代甚至超越人类认知能力，美国和中国必须合作应对风险，并称中国在AI儿童保护方面“走得最远”。",
-                  "link": "http://kjy4.china.com/shehui/13002708/20260828/49704595.html",
+                  "title": "韩国政府计划向全体国民提供免费 AI 服务",
+                  "summary": "8月29日消息，据《华尔街日报》报道，韩国政府推出\"All for AI\"计划，向全体国民免费提供生成式 AI 服务，覆盖预约医疗、寻找住房、办理税务等日常事务。9 月开启 Beta 测试，由电信运营商与 Kakao 牵头，用户无限量使用，政府将分配最多 512 块英伟达 B200 芯片支持。",
+                  "link": "https://www.ithome.com/0/996/050.htm",
                   "tags": [
-                    "AI风险",
-                    "全球合作"
+                    "AI 服务",
+                    "韩国"
                   ],
-                  "source": "中国网",
-                  "time": "8月26日"
+                  "source": "IT之家",
+                  "time": "8月29日消息"
                 }
               ]
             },
             {
-              "title": "抖音STEPS",
+              "title": "车载词元工厂",
               "news": [
                 {
-                  "title": "抖音与北大提出自触发式Agentic推送系统STEPS",
-                  "summary": "8月29日消息，抖音与北大提出自触发式Agentic推送系统STEPS，入选RecSys 2026 Oral。系统由规划、执行、过滤三个智能体协作，自主决定推送时机，已在超10亿用户的抖音全量部署，计算开销降低79%。",
-                  "link": "https://www.jiqizhixin.com/articles/2026-08-29-2",
+                  "title": "国内首个车载移动式词元工厂亮相，探索算电协同",
+                  "summary": "8月29日消息，国内首个车载移动式词元工厂亮相，采用 40 尺集装箱搭载国产算力与能源管理系统，部署仅需 6-8 小时，可移动至新能源富集区接入电网，既消纳绿电又降低算力成本约 25%，为大模型推理、应急算力等场景提供灵活服务。",
+                  "link": "https://www.ithome.com/0/995/975.htm",
                   "tags": [
-                    "推荐系统",
-                    "Agent"
+                    "算力",
+                    "绿色能源"
                   ],
-                  "source": "机器之心",
+                  "source": "IT之家",
+                  "time": "8月29日消息"
+                }
+              ]
+            },
+            {
+              "title": "AI 铜需求",
+              "news": [
+                {
+                  "title": "AI 算力拉动铜需求激增，高端铜箔需求预计增 260%",
+                  "summary": "8月29日消息，据央视新闻报道，AI 算力拉动铜需求激增：2026 年 AI 服务器专用高端铜箔需求预计约 2.4 万吨、同比增长约 260%；单台 AI 训练服务器用铜量达普通服务器 3 至 6 倍，液冷板等散热部件成为用铜新场景。",
+                  "link": "https://www.ithome.com/0/995/891.htm",
+                  "tags": [
+                    "AI 算力",
+                    "铜需求"
+                  ],
+                  "source": "IT之家",
+                  "time": "8月29日消息"
+                }
+              ]
+            },
+            {
+              "title": "巴克莱",
+              "news": [
+                {
+                  "title": "巴克莱拆解 AI 经济账：云厂商分走模型公司近 40% 收入",
+                  "summary": "8月30日消息，据腾讯新闻报道，巴克莱拆解 AI 产业链经济账：模型公司每赚 100 美元，云厂商拿走近 40 美元，揭示大模型厂商与云基础设施之间的利润分配结构。",
+                  "link": "https://news.qq.com/rain/a/20260830A01HIW00",
+                  "tags": [
+                    "AI 经济",
+                    "云厂商"
+                  ],
+                  "source": "腾讯新闻",
+                  "time": "8月30日消息"
+                }
+              ]
+            },
+            {
+              "title": "芒果TV",
+              "news": [
+                {
+                  "title": "国内首部 AIGC 长剧《后西游记》定档 8 月 31 日开播",
+                  "summary": "8月29日消息，芒果 TV 制作的国内首部 AIGC 长剧《后西游记》第一季\"花果山篇\"将于 8 月 31 日上线芒果 TV，并登陆湖南卫视黄金档。该剧改编自同名神魔小说，共 30 集、每集 40 分钟。",
+                  "link": "https://www.ithome.com/0/995/901.htm",
+                  "tags": [
+                    "AIGC",
+                    "影视"
+                  ],
+                  "source": "IT之家",
                   "time": "8月29日消息"
                 }
               ]
@@ -629,13 +560,13 @@
         },
         {
           "name": "OpenRouter",
-          "date": "2026-08-29",
+          "date": "2026-08-30",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "Ox Alpha",
-              "score": "25.2T tokens",
-              "change": "↑>999%"
+              "score": "20.7T tokens",
+              "change": "↑216%"
             },
             {
               "model": "DeepSeek V4 Flash 0731",
@@ -644,43 +575,43 @@
             },
             {
               "model": "MiMo-V2.5",
-              "score": "10.8T tokens",
-              "change": "↑33%"
-            },
-            {
-              "model": "Hy3",
-              "score": "6.67T tokens",
-              "change": "↑25%"
+              "score": "9.98T tokens",
+              "change": "↑9%"
             },
             {
               "model": "GPT-5.6 Luna",
-              "score": "6.04T tokens",
-              "change": "↑12%"
+              "score": "6.75T tokens",
+              "change": "↑31%"
+            },
+            {
+              "model": "Hy3",
+              "score": "6.62T tokens",
+              "change": "↑23%"
             },
             {
               "model": "Nemotron 3 Ultra (free)",
-              "score": "5.59T tokens",
-              "change": "↑37%"
+              "score": "5.62T tokens",
+              "change": "↑27%"
             },
             {
               "model": "DeepSeek V4 Flash 0423",
-              "score": "5.42T tokens",
-              "change": "↑4%"
-            },
-            {
-              "model": "Gemini 3.7 Flash",
-              "score": "3.93T tokens",
-              "change": "↑164%"
+              "score": "5.4T tokens",
+              "change": "↑2%"
             },
             {
               "model": "GLM 5.3 Flash",
-              "score": "3.3T tokens",
+              "score": "4.62T tokens",
               "change": "—"
             },
             {
+              "model": "Gemini 3.7 Flash",
+              "score": "4.05T tokens",
+              "change": "↑156%"
+            },
+            {
               "model": "GLM 5.2",
-              "score": "3.15T tokens",
-              "change": "↑17%"
+              "score": "3.11T tokens",
+              "change": "↑13%"
             },
             {
               "model": "DeepSeek V4 Pro 0423",
