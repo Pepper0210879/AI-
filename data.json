@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,26 +7,37 @@
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI ChatGPT、Codex 现已支持连接多个谷歌 Gmail 账号",
-              "summary": "8月29日消息，OpenAI 开发者体验工程师 Gabriel Chua 确认，ChatGPT 与 Codex 用户现可连接多个谷歌 Gmail 和日历账号。此前只能连接一个 Google 账户，如今可在侧边栏插件中添加多个账号，ChatGPT 可跨账号提取信息，提供更具上下文关联的回答。",
-              "link": "https://www.ithome.com/0/996/022.htm",
+              "title": "OpenAI 终止向 Cursor 提供模型服务，马斯克回应\"毫不在意\"",
+              "summary": "当地时间 8 月 28 日，OpenAI 宣布计划停止向 SpaceX 旗下 AI 编程平台 Cursor 提供模型服务，拟定终止日期为 2026 年 11 月 12 日，理由是马斯克旗下公司曾出现违约行为、无法信任其合规使用。马斯克在 X 平台回应\"毫不在意\"，并指责 OpenAI CEO 阿尔特曼和总裁布罗克曼\"偷走了一个开源非营利组织\"。",
+              "link": "https://www.jiemian.com/article/15029229.html",
               "tags": [
-                "ChatGPT",
-                "账号集成"
+                "AI编程",
+                "市场竞争"
               ],
-              "source": "IT之家",
-              "time": "8月29日消息"
+              "source": "界面新闻",
+              "time": "当地时间8月28日"
             },
             {
-              "title": "OpenAI 提交新请愿书，要求驳回苹果窃密诉讼",
-              "summary": "8月28日消息，据 MacObserver 报道，OpenAI 近日向法院提交最新申请，要求彻底驳回苹果的窃密诉讼，称苹果指控缺乏实际证据、更多基于推测。该诉讼源于前苹果员工 Chang Liu 和 Tang Tan 的泄密指控，法院将于 10 月 1 日召开听证会审理。",
-              "link": "https://www.ithome.com/0/995/810.htm",
+              "title": "Codex 修复 8 类额度异常，付费用户同等额度可多用 10%~50%",
+              "summary": "8 月 30 日消息，OpenAI 修复 Codex 中 8 类导致 Token 异常消耗的漏洞，并为 Codex 和 ChatGPT Work 付费用户重置使用额度。据 Codex 负责人 Tibo 透露，修复后相同额度可多支撑 10%~50% 的使用量，同时建立异常监测告警机制。",
+              "link": "https://www.theblockbeats.info/flash/364264",
               "tags": [
-                "诉讼",
-                "苹果"
+                "Codex",
+                "修复"
               ],
-              "source": "IT之家",
-              "time": "8月28日消息"
+              "source": "BlockBeats",
+              "time": "8月30日消息"
+            },
+            {
+              "title": "OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA2 游戏",
+              "summary": "8 月 30 日消息，科技媒体 testingcatalog 8 月 29 日报道，OpenAI 正加快 Astra 模型发布进程，新增 mozaik-alpha-fdm 测试阶段扩大内测范围。首批演示样本流出，Astra 可 1 次交互生成类 GTA2 游戏，有媒体预估其为 GPT-6 模型。",
+              "link": "https://news.qq.com/rain/a/20260830A06IFQ00",
+              "tags": [
+                "GPT-6",
+                "多模态"
+              ],
+              "source": "腾讯新闻",
+              "time": "8月30日消息"
             }
           ]
         },
@@ -34,114 +45,67 @@
           "name": "Anthropic",
           "news": [
             {
-              "title": "索尼与华纳出版起诉 Anthropic，索赔或达数十亿美元",
-              "summary": "8月29日消息，索尼音乐出版与华纳查普尔音乐出版向美国加州北区联邦法院起诉 Anthropic，指控其未经授权使用数万部版权作品训练 Claude 模型，要求每部作品最高赔偿 15 万美元，涉案总金额或达数十亿美元，两名创始人阿莫迪、曼同列为个人被告。",
-              "link": "https://m.163.com/dy/article/L5I492A30511BLFD.html",
+              "title": "Claude 被曝大规模盗号，Anthropic 紧急切断支付权限",
+              "summary": "8 月 31 日消息，Anthropic 正调查大规模 Claude 账号被盗事件，紧急切断受影响用户支付权限，并在邮件中警告用户电脑很可能已感染通用信息窃取恶意软件，勿随意下载软件。分享邮件的 Reddit 用户确认其下载过盗版游戏。",
+              "link": "https://m.ithome.com/html/996359.htm",
               "tags": [
-                "版权",
-                "诉讼"
+                "安全",
+                "账号"
               ],
-              "source": "网易",
-              "time": "8月29日消息"
+              "source": "IT之家",
+              "time": "8月31日消息"
             },
             {
-              "title": "Anthropic CEO 阿莫迪：Claude 带着和平而来，无意摧毁任何人",
-              "summary": "8月29日消息，据《商业内幕》报道，Anthropic CEO 阿莫迪本周出席活动时表示，Claude 是带着和平而来的，无意摧毁任何行业。此前 Claude Cowork 插件曾引发\"SaaS 末日\"担忧、软件行业市值一度蒸发约 1 万亿美元，阿莫迪称与 Salesforce 的结合是\"一加一大于三\"。",
-              "link": "https://www.ithome.com/0/995/911.htm",
+              "title": "Claude Code 标准周限额 9 月 14 日起永久上调 25%",
+              "summary": "8 月 30 日消息，Anthropic 开发者账号 @ClaudeDevs 在 X 平台宣布，自 9 月 14 日起，Pro、Max、Team 及按席位计费企业版用户的 Claude Code 标准周限额永久上调 25%。",
+              "link": "https://tech.ifeng.com/c/8w0WxoIbqlZ",
               "tags": [
-                "AI 行业",
-                "SaaS"
+                "Claude Code",
+                "额度"
               ],
-              "source": "IT之家",
-              "time": "8月29日消息"
-            },
-            {
-              "title": "Anthropic 揭示\"AI 训练 AI\"新方法，成本比人类研究员更低",
-              "summary": "8月29日消息，当地时间8月28日，Anthropic 研究员计划成员展示\"AI 训练 AI\"落地成果，发布论文《自动化研究员能够可靠缓解对齐失效》：AI 系统针对 10 种模型失调行为全部改善且不牺牲整体能力，训练成本更低、速度更快，工作流程与传统科研相似。",
-              "link": "https://www.ithome.com/0/996/038.htm",
-              "tags": [
-                "AI 训练",
-                "对齐"
-              ],
-              "source": "IT之家",
-              "time": "8月29日消息"
-            },
-            {
-              "title": "Anthropic 安全框架自动降级：Claude 误删开发者 700GB 主目录",
-              "summary": "8月29日消息，开发者 Sebastien Guillemot 反馈，他在测试 AI 智能体文件删除防护时，Claude 误删了约 700GB 数据、包括整个用户主目录。事故发生前，Anthropic 安全机制因任务存在风险自动将模型降级至 Opus 4.8，自动化清理功能反而酿成灾难。",
-              "link": "https://www.ithome.com/0/996/031.htm",
-              "tags": [
-                "AI 安全",
-                "自动化"
-              ],
-              "source": "IT之家",
-              "time": "8月29日消息"
-            }
-          ]
-        },
-        {
-          "name": "Google",
-          "news": [
-            {
-              "title": "谷歌部分搜索默认进入 AI 模式，自动展开摘要",
-              "summary": "8月30日消息，据 Search Engine Roundtable 报道，谷歌针对部分搜索请求自动展开页面顶部 AI 摘要，用户需向下滚动更远才能看到传统网页链接，AI 概览下方还会出现\"随便问问\"输入框，传统蓝链搜索结果进一步下移。",
-              "link": "https://www.ithome.com/0/996/062.htm",
-              "tags": [
-                "谷歌搜索",
-                "AI 摘要"
-              ],
-              "source": "IT之家",
+              "source": "凤凰科技",
               "time": "8月30日消息"
             }
           ]
         },
         {
+          "name": "Google",
+          "news": []
+        },
+        {
           "name": "xAI",
           "news": [
             {
-              "title": "星舰 B21 完成 33 台引擎全时长静态点火，冲刺第 14 次飞行",
-              "summary": "8月29日消息，SpaceX 超重助推器 B21 顺利完成 15 秒静态点火测试，全部 33 台猛禽发动机同步点燃。这是星舰第 14 次飞行前的关键地面验证，B21 为 Block 3 配置，将搭载约 20 颗 Starlink V3 卫星执行任务。",
-              "link": "https://k.sina.com.cn/article_7785414099_m1d00bfdd303301afq0.html",
+              "title": "Grok Bot 上线使用指南库，支持复制和分享 Bot 配置",
+              "summary": "8 月 31 日消息，xAI 为 Grok Bot 上线使用指南库，支持通过公开链接预览并复制分享 Bot 配置，内容包括 Bot 身份、描述、技能和例行程序（不含账户与对话历史），方便团队快速复用数字员工。",
+              "link": "https://docs.x.ai/grok-bot/overview",
               "tags": [
-                "SpaceX",
-                "星舰"
+                "Grok Bot",
+                "指南"
               ],
-              "source": "新浪新闻",
-              "time": "8月29日消息"
+              "source": "xAI 官方文档",
+              "time": "8月31日消息"
+            },
+            {
+              "title": "马斯克确认 SpaceX 自产燃气轮机叶片，突破 AI 供电瓶颈",
+              "summary": "8 月 30 日，马斯克在 X 平台发文，确认 SpaceX 正筹划在美国得克萨斯州巴斯特罗普建设燃气轮机动叶与静叶铸造厂。全球仅 3 家能铸此类叶片，自产将使投运时间提前 18 个月，缓解 AI 数据中心供电瓶颈。",
+              "link": "https://m.21jingji.com/article/20260831/herald/d2355f7a9d5a1fefca575135d989918c.html",
+              "tags": [
+                "AI基础设施",
+                "能源"
+              ],
+              "source": "21世纪经济报道",
+              "time": "8月30日"
             }
           ]
         },
         {
           "name": "NVIDIA",
-          "news": [
-            {
-              "title": "英伟达参投 AI 云厂商 Lambda 融资 10 亿美元采购 GPU",
-              "summary": "8月29日消息，据财联社报道，英伟达参投的 AI 云计算厂商 Lambda 通过私募债务融资筹集约 10 亿美元，资金用于采购英伟达 GPU，这批芯片将租赁给微软使用，交易由摩根大通牵头安排。",
-              "link": "https://www.cls.cn/detail/2468371",
-              "tags": [
-                "AI 云计算",
-                "融资"
-              ],
-              "source": "财联社",
-              "time": "8月29日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Meta",
-          "news": [
-            {
-              "title": "Meta 升级 AI 眼镜隐私防护：遮挡指示灯即停止拍摄",
-              "summary": "8月28日消息，据 The Verge 报道，Meta 为 AI 智能眼镜推出更新，修复拍摄指示灯隐私漏洞：录像过程中指示灯被遮住，摄像头将立即停止工作。此前有用户通过先录像再遮挡指示灯绕过保护，Meta 称将继续推出类似更新确保可靠提醒。",
-              "link": "https://www.ithome.com/0/995/795.htm",
-              "tags": [
-                "AI 眼镜",
-                "隐私"
-              ],
-              "source": "IT之家",
-              "time": "8月28日消息"
-            }
-          ]
+          "news": []
         }
       ]
     },
@@ -153,7 +117,19 @@
         },
         {
           "name": "火山引擎",
-          "news": []
+          "news": [
+            {
+              "title": "消息称字节豆包大模型 2.2 推迟发布，原计划 8 月推出",
+              "summary": "8 月 30 日消息，消息称字节跳动原计划于 8 月推出的豆包大模型 2.2 将推迟面世。",
+              "link": "https://tech.ifeng.com/c/8w1IOuKEoEg",
+              "tags": [
+                "大模型",
+                "发布"
+              ],
+              "source": "凤凰科技",
+              "time": "8月30日消息"
+            }
+          ]
         },
         {
           "name": "DeepSeek",
@@ -165,7 +141,19 @@
         },
         {
           "name": "小米",
-          "news": []
+          "news": [
+            {
+              "title": "小米 18 Pro 或首发防窥屏，支付等 4 类敏感场景自动开启",
+              "summary": "8 月 30 日消息，博主 @kacskrz 8 月 28 日在 X 平台分享视频和图片，从国际版 ROM 固件中发现小米防窥屏功能，可按应用和敏感页面自动启用，支付、转账等 4 类高频敏感场景自动开启，小米 18 Pro 系列有望首发。",
+              "link": "https://www.163.com/dy/article/L5ISNPNH0511B8LM.html",
+              "tags": [
+                "隐私",
+                "屏幕"
+              ],
+              "source": "网易科技",
+              "time": "8月30日消息"
+            }
+          ]
         },
         {
           "name": "智谱AI",
@@ -177,7 +165,19 @@
         },
         {
           "name": "华为",
-          "news": []
+          "news": [
+            {
+              "title": "华为云联合瑞金医院发布 RuiPath 2.0，覆盖 19 个常见癌种",
+              "summary": "8 月 30 日，华为云联合瑞金医院发布瑞智病理大模型 RuiPath 2.0，参数规模 7B，覆盖 19 个常见癌种，诊断任务增至 205 项，可覆盖病理医生 90% 以上的日常诊断场景，在有无淋巴瘤诊断中准确率达 96.48%。",
+              "link": "https://www.jiemian.com/article/15030053.html",
+              "tags": [
+                "AI医疗",
+                "病理"
+              ],
+              "source": "界面新闻",
+              "time": "8月30日"
+            }
+          ]
         }
       ]
     },
@@ -187,72 +187,77 @@
           "name": "其他厂商",
           "cards": [
             {
-              "title": "苹果",
-              "news": [
-                {
-                  "title": "苹果首款 AI 眼镜有望 2027 年亮相，主打 Siri 视觉智能",
-                  "summary": "8月29日消息，据报道，苹果首款 AI 眼镜最早有望 2027 年发布，首代采用无显示屏设计，搭载摄像头与麦克风，通过 Siri 视觉智能识别环境物体、翻译标识文字，主打本地化处理与隐私保护，库克将其视为交棒前的核心战略项目。",
-                  "link": "https://tech.ifeng.com/c/8w0AVdjofMn",
-                  "tags": [
-                    "AI 眼镜",
-                    "苹果"
-                  ],
-                  "source": "凤凰科技",
-                  "time": "8月29日消息"
-                },
-                {
-                  "title": "苹果 CarPlay 接入第 4 款第三方 AI 应用 Meta AI",
-                  "summary": "8月29日消息，据 9to5Mac 报道，在 Siri AI 正式上线前，苹果 CarPlay 已接入 Meta AI，成为继 ChatGPT、Perplexity、Grok 之后第 4 款第三方 AI 聊天机器人应用，目前处于灰度测试阶段，部分账号暂不支持体验。",
-                  "link": "https://tech.ifeng.com/c/8w0G8oz1NEd",
-                  "tags": [
-                    "CarPlay",
-                    "AI 应用"
-                  ],
-                  "source": "凤凰科技",
-                  "time": "8月29日消息"
-                }
-              ]
-            },
-            {
               "title": "长鑫",
               "news": [
                 {
-                  "title": "长鑫存储起诉美国国防部，要求移出涉军企业黑名单",
-                  "summary": "8月29日消息，据路透社报道，长鑫存储在美国哥伦比亚特区联邦地区法院起诉美国国防部及国防部长赫格塞思，要求将公司移出\"协助中国军方企业\"黑名单。长鑫表示其 DRAM 芯片用于民用及商业用途，与军方无关。",
-                  "link": "https://www.ithome.com/0/995/964.htm",
+                  "title": "长鑫 LPDDR6 全球首发量产，小米 18 Fold 首批搭载",
+                  "summary": "8 月 29 日消息，长鑫科技宣布新一代低功耗内存 LPDDR6 实现量产并全球首发商用，首批搭载于小米 18 Fold 折叠旗舰手机，打破三星、SK 海力士长期垄断的先发局面。LPDDR6 峰值速率达 12800Mbps，芯片最高容量 16GB，雷军转发称\"非常了不起\"。",
+                  "link": "https://finance.sina.com.cn/jjxw/2026-08-29/doc-inipyrwr5446696.shtml",
                   "tags": [
-                    "DRAM",
-                    "诉讼"
+                    "存储",
+                    "国产芯片"
                   ],
-                  "source": "IT之家",
-                  "time": "8月29日消息"
-                },
-                {
-                  "title": "小米 18 Fold 全球首发长鑫 LPDDR6 内存，9 月见",
-                  "summary": "8月29日消息，小米官方宣布 Xiaomi 18 Fold 将全球首发长鑫 LPDDR6 内存。长鑫在半年报中披露，自研 LPDDR6 性能较上一代 LPDDR5X 全面跃升，已向关键客户送样验证、正加速推进量产。",
-                  "link": "https://www.ithome.com/0/995/869.htm",
-                  "tags": [
-                    "存储芯片",
-                    "LPDDR6"
-                  ],
-                  "source": "IT之家",
+                  "source": "新浪财经",
                   "time": "8月29日消息"
                 }
               ]
             },
             {
-              "title": "玄幂",
+              "title": "苹果",
               "news": [
                 {
-                  "title": "行业首个量子增强型大模型\"玄幂 Xenomi\"发布",
-                  "summary": "8月29日消息，据\"国光量子\"公众号，国光量超人工智能研究团队将量子技术引入大语言模型决策与推理，推出行业首个量子增强型大模型玄幂（Xenomi），面向科研与学术领域，在科研科普、路由和智能体决策等任务中表现更稳定。",
-                  "link": "https://www.ithome.com/0/995/921.htm",
+                  "title": "苹果就 Siri 跳票支付 2.5 亿美元和解，单台最高赔 95 美元",
+                  "summary": "8 月 29 日消息，苹果同意支付 2.5 亿美元（约合人民币 17 亿元）就 Siri 虚假宣传集体诉讼达成和解，符合条件的美国 iPhone 用户单台设备最高可获 95 美元赔偿。此案源于苹果将 Apple Intelligence 加持的个性化 Siri 作为 iPhone 15/16 卖点后部分功能延期上线。",
+                  "link": "https://finance.sina.cn/2026-08-29/detail-inipxyyx5520206.d.html",
                   "tags": [
-                    "量子计算",
-                    "大模型"
+                    "Siri",
+                    "诉讼"
                   ],
-                  "source": "IT之家",
+                  "source": "新浪财经",
                   "time": "8月29日消息"
+                },
+                {
+                  "title": "Ternus 明日起接任苹果 CEO，AI 与秋季新品成首要任务",
+                  "summary": "8 月 31 日消息，苹果将于 9 月 1 日完成 CEO 交接：硬件工程高级副总裁 John Ternus 接替 Tim Cook，后者转任董事会执行主席。Ternus 上任后很快要主持苹果秋季产品周期，新品包括首款折叠屏 iPhone、可识别说话者的智能显示器等，AI 成首要任务。",
+                  "link": "https://news.qq.com/rain/a/20260831A03KK300",
+                  "tags": [
+                    "人事",
+                    "苹果"
+                  ],
+                  "source": "腾讯新闻",
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "高通",
+              "news": [
+                {
+                  "title": "高通力推 HBC 架构商业化，邀三星与 SK 海力士合作",
+                  "summary": "8 月 28 日消息，高通大力推动 HBC（高带宽缓存）架构商业化，邀请三星和 SK 海力士成为存储合作伙伴，首代产品计划明年出货，有望提升 AI 计算内存带宽、降低功耗。",
+                  "link": "https://finance.sina.com.cn/stock/t/2026-08-28/doc-inipvwaa0168702.shtml",
+                  "tags": [
+                    "芯片",
+                    "存储"
+                  ],
+                  "source": "新浪财经",
+                  "time": "8月28日消息"
+                }
+              ]
+            },
+            {
+              "title": "Tavus",
+              "news": [
+                {
+                  "title": "Tavus 发布 Sparrow-2，语音 Agent 学会等待和识别环境声",
+                  "summary": "8 月 30 日消息，Tavus 发布语音 AI 模型 Sparrow-2，让语音 Agent 学会在对话中等待、识别环境声，不再一停顿就抢话，提升语音交互自然度。",
+                  "link": "https://www.theblockbeats.info/flash/364287",
+                  "tags": [
+                    "语音AI",
+                    "Agent"
+                  ],
+                  "source": "BlockBeats",
+                  "time": "8月30日消息"
                 }
               ]
             }
@@ -260,40 +265,89 @@
         },
         {
           "name": "自动驾驶",
-          "cards": []
+          "cards": [
+            {
+              "title": "小马智行",
+              "news": [
+                {
+                  "title": "小马智行携手 FutureLink，拟在韩商业投放 200 辆 Robotaxi",
+                  "summary": "8 月 31 日消息，小马智行携手 FutureLink，拟首批在韩国商业投放 200 辆 Robotaxi。两家企业去年已在首尔江南自动驾驶示范区开展技术验证，累计行驶约 8 万公里且未发生事故。",
+                  "link": "https://tech.ifeng.com/c/8w27hfGqrO0",
+                  "tags": [
+                    "Robotaxi",
+                    "出海"
+                  ],
+                  "source": "凤凰科技",
+                  "time": "8月31日消息"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "具身智能",
           "cards": [
             {
-              "title": "深开鸿",
+              "title": "敏实集团",
               "news": [
                 {
-                  "title": "开源鸿蒙机器人操作系统 M-Robots OS 3.0 Beta 发布",
-                  "summary": "8月29日消息，深开鸿在 2026 中国国际大数据产业博览会上发布 M-Robots OS 3.0 Beta 版，系统重心从\"单机能力\"转向\"群体智能\"，围绕安全、实时、群体智能、数字底座四大方向升级，为每台设备赋予唯一数字身份，构筑立体防护体系。",
-                  "link": "https://www.ithome.com/0/995/865.htm",
+                  "title": "中塞合建机器人工厂投产，成欧洲首座人形机器人量产基地",
+                  "summary": "8 月 30 日，位于塞尔维亚沙巴茨的中塞合建机器人工厂投产，成为欧洲首座人形机器人量产基地。工厂由敏实集团投资建设，首期投资 2000 万欧元，首台人形机器人已下线，能写书法、下棋，未来年产能最高可达 2 万台，产品面向欧洲及全球市场。",
+                  "link": "https://news.china.com.cn/2026-08/30/content_118670974.shtml",
                   "tags": [
-                    "机器人操作系统",
-                    "开源鸿蒙"
+                    "人形机器人",
+                    "出海"
                   ],
-                  "source": "IT之家",
-                  "time": "8月29日消息"
+                  "source": "中国网",
+                  "time": "8月30日"
                 }
               ]
             },
             {
-              "title": "美国移民局",
+              "title": "法拉第未来",
               "news": [
                 {
-                  "title": "美移民局拟斥资 200 万美元采购机器狗用于执法",
-                  "summary": "8月29日消息，据央视新闻，美国移民与海关执法局计划斥资 200 万美元购买机器狗，协助边境防卫与基础设施安保。机器狗具备远程操控能力、配备可伸缩机械臂，可在危险环境中进行检查与危险评估。",
-                  "link": "https://www.ithome.com/0/995/967.htm",
+                  "title": "法拉第未来机器人中东业务启航，完成首笔订单交付",
+                  "summary": "8 月 31 日消息，贾跃亭宣布法拉第未来机器人中东业务正式启航，完成中东首笔订单销售及交付，共交付 6 台机器人（2 台人形、4 台四足），团队正加紧推进更多订单落地。",
+                  "link": "https://tech.ifeng.com/c/8w1wUch0J0g",
                   "tags": [
-                    "机器狗",
-                    "执法"
+                    "机器人",
+                    "中东"
                   ],
-                  "source": "IT之家",
-                  "time": "8月29日消息"
+                  "source": "凤凰科技",
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "Microduck",
+              "news": [
+                {
+                  "title": "Hugging Face 机器鸭 Microduck 开售爆单，24 小时订单破 260 万美元",
+                  "summary": "8 月 30 日消息，Hugging Face 旗下 Pollen Robotics 推出的 399 美元机器鸭 Microduck 开售首日订单破 260 万美元，已出现订单积压，新订单预计 4 至 6 个月后交付。",
+                  "link": "https://sina.cn/news/detail/5337747751437442.html",
+                  "tags": [
+                    "机器人",
+                    "开源"
+                  ],
+                  "source": "新浪新闻",
+                  "time": "8月30日消息"
+                }
+              ]
+            },
+            {
+              "title": "荣耀机器人",
+              "news": [
+                {
+                  "title": "荣耀机器人\"闪电\"海外首秀，跑完马来西亚马拉松 10 公里",
+                  "summary": "8 月 30 日消息，荣耀机器人「闪电」完成海外首秀，在马来西亚双子塔夜景下跑完 10 公里并刷新赛事纪录，成为当地马拉松首位机器人参赛选手。这款 169cm 高的红色机甲风机器人以速度见长，曾在 1500 米赛中打破人类世界纪录。",
+                  "link": "https://k.sina.cn/article_1826017320_6cd6d02804001w8vu.html",
+                  "tags": [
+                    "机器人",
+                    "马拉松"
+                  ],
+                  "source": "新浪体育",
+                  "time": "8月30日消息"
                 }
               ]
             }
@@ -307,18 +361,50 @@
           "name": "投资资讯",
           "cards": [
             {
-              "title": "灵掌机器人",
+              "title": "a16z",
               "news": [
                 {
-                  "title": "灵掌机器人完成数千万元天使轮融资",
-                  "summary": "8月28日消息，据科创板日报报道，工业具身机器人技术企业灵掌机器人完成数千万元天使轮融资，投资方包括凯龙高科、遨博智能、锡创投、芯能创投。",
-                  "link": "https://www.ithome.com/0/995/790.htm",
+                  "title": "a16z 机器时代基金筹集 11 亿美元，投向芯片与机器人",
+                  "summary": "当地时间 8 月 28 日，a16z 宣布硬件正式确立为核心方向，为旗下机器时代基金筹集 11 亿美元，将投资 AI 依赖的芯片、内存、网络、存储基础设施，以及数据中心、机器人、家用 AI 设备，近期已投资 Unconventional AI、Nexthop、Volta、Atoms 等硬件公司。",
+                  "link": "https://finance.sina.com.cn/jjxw/2026-08-30/doc-iniqacxv8360037.shtml",
                   "tags": [
-                    "具身智能",
-                    "融资"
+                    "融资",
+                    "硬件"
                   ],
-                  "source": "IT之家",
-                  "time": "8月28日消息"
+                  "source": "新浪财经",
+                  "time": "当地时间8月28日"
+                }
+              ]
+            },
+            {
+              "title": "优地机器人",
+              "news": [
+                {
+                  "title": "优地机器人拟全球发售 4500 万股 H 股，9 月 9 日港交所上市",
+                  "summary": "8 月 31 日消息，优地机器人公告拟全球发售 4500 万股 H 股，香港发售 225 万股，发售价不超每股 19.55 港元，预期 2026 年 9 月 9 日开始在香港联交所买卖。",
+                  "link": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqeaqx7936430.shtml",
+                  "tags": [
+                    "IPO",
+                    "机器人"
+                  ],
+                  "source": "新浪财经",
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "燧原科技",
+              "news": [
+                {
+                  "title": "燧原科技科创板上市获证监会注册，9 月 1 日网上路演",
+                  "summary": "8 月 30 日消息，燧原科技首次公开发行股票并在科创板上市的申请已获证监会同意注册，拟公开发行新股 4303.5173 万股，占发行后总股本 10%，将于 9 月 1 日举行网上路演。",
+                  "link": "https://finance.sina.com.cn/roll/2026-08-30/doc-iniqaqpv8331373.shtml",
+                  "tags": [
+                    "科创板",
+                    "芯片"
+                  ],
+                  "source": "新浪财经",
+                  "time": "8月30日消息"
                 }
               ]
             }
@@ -331,117 +417,95 @@
               "title": "国家数据局",
               "news": [
                 {
-                  "title": "国家数据局：我国智算总规模达 245 万 PFLOPS",
-                  "summary": "8月29日消息，据新华社报道，国家数据局负责人在 2026 中国国际大数据产业博览会上表示，截至 2026 年 7 月底全国智算总规模达 245 万 PFLOPS，八大国家算力枢纽和三个算电协同发展区建成智算占比超 85%，145 万 PFLOPS 已纳入国家级监测调度平台。",
-                  "link": "https://www.ithome.com/0/996/044.htm",
+                  "title": "国家数据局：研究探索词元增值订阅、按效付费商业模式",
+                  "summary": "8 月 30 日，在 2026 中国国际大数据产业博览会上，国家数据局局长刘烈宏表示，要围绕国民经济重大场景，研究探索词元增值订阅、按效付费等商业模式。会上同步发布一批数据领域政策举措，涵盖词元、数据标注、数字人才培养等领域。",
+                  "link": "https://news.cnr.cn/native/gd/20260830/t20260830_527798687.shtml",
                   "tags": [
-                    "智算",
-                    "算力"
+                    "数据要素",
+                    "政策"
                   ],
-                  "source": "IT之家",
-                  "time": "8月29日消息"
-                },
-                {
-                  "title": "2025 年我国智能体专利授权量超 3400 件",
-                  "summary": "8月29日消息，国家数据发展研究院院长胡坚波在数博会上表示，2025 年我国智能体专利授权量超过 3400 件，增速是上一年两倍以上；2025 年数据产业规模达 6.78 万亿元，同比增长 15.7%。",
-                  "link": "https://www.ithome.com/0/995/928.htm",
-                  "tags": [
-                    "智能体",
-                    "专利"
-                  ],
-                  "source": "IT之家",
-                  "time": "8月29日消息"
-                },
-                {
-                  "title": "国家数据局：全国已建成高质量数据集超 12.6 万个",
-                  "summary": "8月29日消息，国家数据局负责人在数博会上表示，全国已建成高质量数据集超 12.6 万个，总体量超 1815PB，较一季度末增长超 89%；国家数据集管理服务系统上线以来已发布数据集超 1700 个。",
-                  "link": "https://www.ithome.com/0/995/893.htm",
-                  "tags": [
-                    "数据集",
-                    "数据要素"
-                  ],
-                  "source": "IT之家",
-                  "time": "8月29日消息"
+                  "source": "央广网",
+                  "time": "8月30日"
                 }
               ]
             },
             {
-              "title": "韩国",
+              "title": "液冷赛道",
               "news": [
                 {
-                  "title": "韩国政府计划向全体国民提供免费 AI 服务",
-                  "summary": "8月29日消息，据《华尔街日报》报道，韩国政府推出\"All for AI\"计划，向全体国民免费提供生成式 AI 服务，覆盖预约医疗、寻找住房、办理税务等日常事务。9 月开启 Beta 测试，由电信运营商与 Kakao 牵头，用户无限量使用，政府将分配最多 512 块英伟达 B200 芯片支持。",
-                  "link": "https://www.ithome.com/0/996/050.htm",
+                  "title": "液冷从\"可选项\"到\"必选项\"，千亿赛道加速升温",
+                  "summary": "8 月 30 日消息，全球 AI 硬件功耗持续攀升，传统风冷散热瓶颈凸显，液冷产业迎来爆发增长期，多家液冷企业订单排至年底。国内首个浸没式液冷算力方舱投入运行，对硅油、合成油、再生变压器油及氟化液四种冷却液进行兼容性测试，浸没式液冷有望逐步替代传统冷板式液冷。",
+                  "link": "https://www.cls.cn/detail/2438442",
                   "tags": [
-                    "AI 服务",
-                    "韩国"
+                    "AI基础设施",
+                    "散热"
                   ],
-                  "source": "IT之家",
-                  "time": "8月29日消息"
-                }
-              ]
-            },
-            {
-              "title": "车载词元工厂",
-              "news": [
-                {
-                  "title": "国内首个车载移动式词元工厂亮相，探索算电协同",
-                  "summary": "8月29日消息，国内首个车载移动式词元工厂亮相，采用 40 尺集装箱搭载国产算力与能源管理系统，部署仅需 6-8 小时，可移动至新能源富集区接入电网，既消纳绿电又降低算力成本约 25%，为大模型推理、应急算力等场景提供灵活服务。",
-                  "link": "https://www.ithome.com/0/995/975.htm",
-                  "tags": [
-                    "算力",
-                    "绿色能源"
-                  ],
-                  "source": "IT之家",
-                  "time": "8月29日消息"
-                }
-              ]
-            },
-            {
-              "title": "AI 铜需求",
-              "news": [
-                {
-                  "title": "AI 算力拉动铜需求激增，高端铜箔需求预计增 260%",
-                  "summary": "8月29日消息，据央视新闻报道，AI 算力拉动铜需求激增：2026 年 AI 服务器专用高端铜箔需求预计约 2.4 万吨、同比增长约 260%；单台 AI 训练服务器用铜量达普通服务器 3 至 6 倍，液冷板等散热部件成为用铜新场景。",
-                  "link": "https://www.ithome.com/0/995/891.htm",
-                  "tags": [
-                    "AI 算力",
-                    "铜需求"
-                  ],
-                  "source": "IT之家",
-                  "time": "8月29日消息"
-                }
-              ]
-            },
-            {
-              "title": "巴克莱",
-              "news": [
-                {
-                  "title": "巴克莱拆解 AI 经济账：云厂商分走模型公司近 40% 收入",
-                  "summary": "8月30日消息，据腾讯新闻报道，巴克莱拆解 AI 产业链经济账：模型公司每赚 100 美元，云厂商拿走近 40 美元，揭示大模型厂商与云基础设施之间的利润分配结构。",
-                  "link": "https://news.qq.com/rain/a/20260830A01HIW00",
-                  "tags": [
-                    "AI 经济",
-                    "云厂商"
-                  ],
-                  "source": "腾讯新闻",
+                  "source": "财联社",
                   "time": "8月30日消息"
                 }
               ]
             },
             {
-              "title": "芒果TV",
+              "title": "Terminal-Bench 4.0",
               "news": [
                 {
-                  "title": "国内首部 AIGC 长剧《后西游记》定档 8 月 31 日开播",
-                  "summary": "8月29日消息，芒果 TV 制作的国内首部 AIGC 长剧《后西游记》第一季\"花果山篇\"将于 8 月 31 日上线芒果 TV，并登陆湖南卫视黄金档。该剧改编自同名神魔小说，共 30 集、每集 40 分钟。",
-                  "link": "https://www.ithome.com/0/995/901.htm",
+                  "title": "Terminal-Bench 4.0 发布，GLM-5.3 冲到第三超 GPT-5.6",
+                  "summary": "8 月 30 日消息，Terminal-Bench 4.0 基准发布，衡量 AI Agent 在真实终端环境执行任务的能力。智谱 AI 的 GLM-5.3 排名升至第三，超过 GPT-5.6 Sol。",
+                  "link": "https://kakaweb3.com/kuaixun/48904.html",
                   "tags": [
-                    "AIGC",
-                    "影视"
+                    "基准",
+                    "Agent"
                   ],
-                  "source": "IT之家",
-                  "time": "8月29日消息"
+                  "source": "卡卡Web3",
+                  "time": "8月30日消息"
+                }
+              ]
+            },
+            {
+              "title": "AI反诈",
+              "news": [
+                {
+                  "title": "谷歌、OpenAI、Meta 联手日本官方打击网络诈骗",
+                  "summary": "8 月 30 日电，据报道，谷歌、OpenAI、Meta 正与日本官方机构和本土企业联手，打击激增的网络诈骗案件。",
+                  "link": "https://www.cls.cn/detail/2468704",
+                  "tags": [
+                    "安全",
+                    "反诈"
+                  ],
+                  "source": "财联社",
+                  "time": "8月30日消息"
+                }
+              ]
+            },
+            {
+              "title": "AI失控",
+              "news": [
+                {
+                  "title": "报告称 2026 年已记录 1664 起 AI 失控事件，7 月环比增 93.76%",
+                  "summary": "8 月 30 日消息，英国长期韧性中心 8 月 28 日发布报告，其\"失控观察站\"2026 年已记录 1664 起 AI 失控事件，7 月共记录 306 起，环比增长 93.67%，日均峰值 11.3 起。",
+                  "link": "https://tech.ifeng.com/c/8w0kxrSD72i",
+                  "tags": [
+                    "AI安全",
+                    "报告"
+                  ],
+                  "source": "凤凰科技",
+                  "time": "8月30日消息"
+                }
+              ]
+            },
+            {
+              "title": "英国5G",
+              "news": [
+                {
+                  "title": "英国电信高管警告：5G 升级太慢或输掉 AI 竞赛",
+                  "summary": "8 月 30 日消息，英国电信行业高管集体发声，警告若 5G 升级速度不加快，英国将在全球 AI 竞赛中落后。目前英国网络覆盖率落后于 G7 及欧盟多国，下载速度排名跌至全球第 70 位。",
+                  "link": "https://finance.sina.cn/stock/jdts/2026-08-30/detail-iniqauvt8227822.d.html",
+                  "tags": [
+                    "5G",
+                    "AI竞赛"
+                  ],
+                  "source": "新浪财经",
+                  "time": "8月30日消息"
                 }
               ]
             }
@@ -560,108 +624,108 @@
         },
         {
           "name": "OpenRouter",
-          "date": "2026-08-30",
+          "date": "2026-08-31",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "Ox Alpha",
-              "score": "20.7T tokens",
-              "change": "↑216%"
+              "score": "15.7T tokens",
+              "change": "+36%"
             },
             {
               "model": "DeepSeek V4 Flash 0731",
               "score": "12.3T tokens",
-              "change": "↑5%"
+              "change": "+6%"
             },
             {
               "model": "MiMo-V2.5",
-              "score": "9.98T tokens",
-              "change": "↑9%"
+              "score": "9.14T tokens",
+              "change": "+8%"
             },
             {
               "model": "GPT-5.6 Luna",
-              "score": "6.75T tokens",
-              "change": "↑31%"
+              "score": "7.79T tokens",
+              "change": "+59%"
             },
             {
               "model": "Hy3",
-              "score": "6.62T tokens",
-              "change": "↑23%"
-            },
-            {
-              "model": "Nemotron 3 Ultra (free)",
-              "score": "5.62T tokens",
-              "change": "↑27%"
-            },
-            {
-              "model": "DeepSeek V4 Flash 0423",
-              "score": "5.4T tokens",
-              "change": "↑2%"
+              "score": "6.66T tokens",
+              "change": "+19%"
             },
             {
               "model": "GLM 5.3 Flash",
-              "score": "4.62T tokens",
+              "score": "6.16T tokens",
               "change": "—"
+            },
+            {
+              "model": "Nemotron 3 Ultra (free)",
+              "score": "5.33T tokens",
+              "change": "+12%"
+            },
+            {
+              "model": "DeepSeek V4 Flash 0423",
+              "score": "5.2T tokens",
+              "change": "+5%"
             },
             {
               "model": "Gemini 3.7 Flash",
-              "score": "4.05T tokens",
-              "change": "↑156%"
+              "score": "3.95T tokens",
+              "change": "+120%"
             },
             {
-              "model": "GLM 5.2",
-              "score": "3.11T tokens",
-              "change": "↑13%"
-            },
-            {
-              "model": "DeepSeek V4 Pro 0423",
-              "score": "1.87T tokens",
-              "change": "↑5%"
-            },
-            {
-              "model": "GPT-5.6 Sol",
-              "score": "1.73T tokens",
-              "change": "↑48%"
-            },
-            {
-              "model": "Claude Opus 5",
-              "score": "1.51T tokens",
-              "change": "↑39%"
-            },
-            {
-              "model": "Kimi K3",
-              "score": "1.51T tokens",
-              "change": "↑18%"
-            },
-            {
-              "model": "MiniMax M3",
-              "score": "1.49T tokens",
-              "change": "↑15%"
-            },
-            {
-              "model": "Laguna S 2.1 (free)",
-              "score": "1.37T tokens",
-              "change": "↑19%"
-            },
-            {
-              "model": "Claude Sonnet 5",
-              "score": "1.18T tokens",
-              "change": "↑11%"
-            },
-            {
-              "model": "GLM 5.3",
-              "score": "1.16T tokens",
-              "change": "↑306%"
-            },
-            {
-              "model": "MiniMax M3 (free)",
-              "score": "1.12T tokens",
+              "model": "Hy4 preview",
+              "score": "3.07T tokens",
               "change": "—"
             },
             {
-              "model": "DeepSeek V4 Pro 0813",
-              "score": "1.03T tokens",
-              "change": "↑3%"
+              "model": "GLM 5.2",
+              "score": "2.99T tokens",
+              "change": "+12%"
+            },
+            {
+              "model": "MiniMax M3 (free)",
+              "score": "2.57T tokens",
+              "change": "—"
+            },
+            {
+              "model": "DeepSeek V4 Pro 0423",
+              "score": "1.77T tokens",
+              "change": "+4%"
+            },
+            {
+              "model": "GPT-5.6 Sol",
+              "score": "1.7T tokens",
+              "change": "+29%"
+            },
+            {
+              "model": "Kimi K3",
+              "score": "1.57T tokens",
+              "change": "+19%"
+            },
+            {
+              "model": "MiniMax M3",
+              "score": "1.52T tokens",
+              "change": "+11%"
+            },
+            {
+              "model": "Claude Opus 5",
+              "score": "1.46T tokens",
+              "change": "—"
+            },
+            {
+              "model": "Laguna S 2.1 (free)",
+              "score": "1.35T tokens",
+              "change": "+16%"
+            },
+            {
+              "model": "GLM 5.3",
+              "score": "1.33T tokens",
+              "change": "+171%"
+            },
+            {
+              "model": "Claude Sonnet 5",
+              "score": "1.2T tokens",
+              "change": "+11%"
             }
           ]
         },
