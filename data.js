@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-08-31",
+  "date": "2026-09-01",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,37 +7,48 @@ window.__RAW_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 终止向 Cursor 提供模型服务，马斯克回应\"毫不在意\"",
-              "summary": "当地时间 8 月 28 日，OpenAI 宣布计划停止向 SpaceX 旗下 AI 编程平台 Cursor 提供模型服务，拟定终止日期为 2026 年 11 月 12 日，理由是马斯克旗下公司曾出现违约行为、无法信任其合规使用。马斯克在 X 平台回应\"毫不在意\"，并指责 OpenAI CEO 阿尔特曼和总裁布罗克曼\"偷走了一个开源非营利组织\"。",
-              "link": "https://www.jiemian.com/article/15029229.html",
+              "title": "OpenAI 广告业务年化营收达 10 亿美元，开放更多海外市场",
+              "summary": "8 月 31 日消息，OpenAI 宣布 ChatGPT Ads 年化营收已达 10 亿美元，并从 8 月 31 日起向印度、欧洲、中东和北非广告主开放 OpenAI Ads Manager 自助投放。约 4 个月前披露的试点年化营收仅为当前规模的十分之一，广告业务成为订阅和 API 之外的收入来源，也让 OpenAI 直接进入 Google 与 Meta 主导的数字广告市场。",
+              "link": "https://www.jiemian.com/article/15037090.html",
               "tags": [
-                "AI编程",
-                "市场竞争"
+                "广告",
+                "商业化"
               ],
               "source": "界面新闻",
-              "time": "当地时间8月28日"
+              "time": "8月31日消息"
             },
             {
-              "title": "Codex 修复 8 类额度异常，付费用户同等额度可多用 10%~50%",
-              "summary": "8 月 30 日消息，OpenAI 修复 Codex 中 8 类导致 Token 异常消耗的漏洞，并为 Codex 和 ChatGPT Work 付费用户重置使用额度。据 Codex 负责人 Tibo 透露，修复后相同额度可多支撑 10%~50% 的使用量，同时建立异常监测告警机制。",
-              "link": "https://www.theblockbeats.info/flash/364264",
+              "title": "OpenAI 购入数万台苹果 Mac，训练操作计算机的 AI 智能体",
+              "summary": "8 月 31 日消息，据 The Information 报道，OpenAI 近几个月购入数万台苹果 Mac mini 和 Mac Studio（配备大容量统一内存），用于训练能够操作计算机的 AI 系统。Anthropic 也从亚马逊 AWS 租用 Mac mini，一些初创公司甚至开始构建仅限 Mac 的云服务。",
+              "link": "https://www.21jingji.com/article/20260831/herald/e23e9f5c23a2b32398b6153627b908d9.html",
+              "tags": [
+                "智能体",
+                "算力"
+              ],
+              "source": "21经济网",
+              "time": "8月31日消息"
+            },
+            {
+              "title": "Codex 活跃用户增至 2500 万，OpenAI 再次重置付费用户额度",
+              "summary": "8 月 31 日消息，OpenAI Codex 活跃用户已突破 2500 万（约 10 天前刚突破 2000 万），OpenAI 再次重置付费用户额度。",
+              "link": "https://finance.sina.com.cn/stock/t/2026-08-31/doc-iniqepev4740520.shtml",
               "tags": [
                 "Codex",
-                "修复"
+                "AI编程"
               ],
-              "source": "BlockBeats",
-              "time": "8月30日消息"
+              "source": "新浪财经",
+              "time": "8月31日消息"
             },
             {
-              "title": "OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA2 游戏",
-              "summary": "8 月 30 日消息，科技媒体 testingcatalog 8 月 29 日报道，OpenAI 正加快 Astra 模型发布进程，新增 mozaik-alpha-fdm 测试阶段扩大内测范围。首批演示样本流出，Astra 可 1 次交互生成类 GTA2 游戏，有媒体预估其为 GPT-6 模型。",
-              "link": "https://news.qq.com/rain/a/20260830A06IFQ00",
+              "title": "苹果诉 OpenAI：员工曾查看电源转换器电路图，申请加快取证",
+              "summary": "8 月 31 日消息，苹果在对 OpenAI 的诉讼中称，OpenAI 员工曾查看其电源转换器电路图，已申请加快取证。本案争点从员工离职前后资料流转，延伸到其在新公司设备上的访问和模型训练行为。",
+              "link": "https://awtmt.com/articles/3780770",
               "tags": [
-                "GPT-6",
-                "多模态"
+                "诉讼",
+                "苹果"
               ],
-              "source": "腾讯新闻",
-              "time": "8月30日消息"
+              "source": "华尔街见闻",
+              "time": "8月31日消息"
             }
           ]
         },
@@ -45,26 +56,15 @@ window.__RAW_DATA = {
           "name": "Anthropic",
           "news": [
             {
-              "title": "Claude 被曝大规模盗号，Anthropic 紧急切断支付权限",
-              "summary": "8 月 31 日消息，Anthropic 正调查大规模 Claude 账号被盗事件，紧急切断受影响用户支付权限，并在邮件中警告用户电脑很可能已感染通用信息窃取恶意软件，勿随意下载软件。分享邮件的 Reddit 用户确认其下载过盗版游戏。",
-              "link": "https://m.ithome.com/html/996359.htm",
+              "title": "Anthropic 与英伟达支持的 Lambda 签 350 亿美元云协议",
+              "summary": "8 月 31 日消息，据华尔街日报援引知情人士，Anthropic 已与英伟达支持的云计算商 Lambda 签署价值 350 亿美元的云计算协议。英伟达持有 Hut 8 得州数据中心租约并作为 Lambda 投资方，再次凸显其在帮助 Anthropic 等非投资级企业获取算力资源方面的关键作用。",
+              "link": "https://www.jiemian.com/article/15037569.html",
               "tags": [
-                "安全",
-                "账号"
+                "算力",
+                "云服务"
               ],
-              "source": "IT之家",
+              "source": "界面新闻",
               "time": "8月31日消息"
-            },
-            {
-              "title": "Claude Code 标准周限额 9 月 14 日起永久上调 25%",
-              "summary": "8 月 30 日消息，Anthropic 开发者账号 @ClaudeDevs 在 X 平台宣布，自 9 月 14 日起，Pro、Max、Team 及按席位计费企业版用户的 Claude Code 标准周限额永久上调 25%。",
-              "link": "https://tech.ifeng.com/c/8w0WxoIbqlZ",
-              "tags": [
-                "Claude Code",
-                "额度"
-              ],
-              "source": "凤凰科技",
-              "time": "8月30日消息"
             }
           ]
         },
@@ -74,38 +74,39 @@ window.__RAW_DATA = {
         },
         {
           "name": "xAI",
+          "news": []
+        },
+        {
+          "name": "NVIDIA",
           "news": [
             {
-              "title": "Grok Bot 上线使用指南库，支持复制和分享 Bot 配置",
-              "summary": "8 月 31 日消息，xAI 为 Grok Bot 上线使用指南库，支持通过公开链接预览并复制分享 Bot 配置，内容包括 Bot 身份、描述、技能和例行程序（不含账户与对话历史），方便团队快速复用数字员工。",
-              "link": "https://docs.x.ai/grok-bot/overview",
+              "title": "英伟达向联发科投资 35 亿美元，合作扩展 NVLink Fusion 生态",
+              "summary": "8 月 31 日消息，英伟达宣布向联发科投资 35 亿美元，为联发科 39 亿美元海外可转债发行的一部分，Alphabet 亦参与认购。双方扩大技术合作：联发科将允许客户用英伟达 NVLink Fusion 技术设计定制 AI 芯片，并直连英伟达大型计算系统。",
+              "link": "https://www.jiemian.com/article/15036981.html",
               "tags": [
-                "Grok Bot",
-                "指南"
+                "芯片",
+                "投资"
               ],
-              "source": "xAI 官方文档",
+              "source": "界面新闻",
               "time": "8月31日消息"
-            },
-            {
-              "title": "马斯克确认 SpaceX 自产燃气轮机叶片，突破 AI 供电瓶颈",
-              "summary": "8 月 30 日，马斯克在 X 平台发文，确认 SpaceX 正筹划在美国得克萨斯州巴斯特罗普建设燃气轮机动叶与静叶铸造厂。全球仅 3 家能铸此类叶片，自产将使投运时间提前 18 个月，缓解 AI 数据中心供电瓶颈。",
-              "link": "https://m.21jingji.com/article/20260831/herald/d2355f7a9d5a1fefca575135d989918c.html",
-              "tags": [
-                "AI基础设施",
-                "能源"
-              ],
-              "source": "21世纪经济报道",
-              "time": "8月30日"
             }
           ]
         },
         {
-          "name": "NVIDIA",
-          "news": []
-        },
-        {
           "name": "Meta",
-          "news": []
+          "news": [
+            {
+              "title": "Instagram 推出全新 AI 个人资料标签，整治 AI 虚假账号",
+              "summary": "8 月 31 日消息，Instagram 推出全新 AI 个人资料标签，用于整治 AI 虚假账号。创作者若不主动披露 AI 虚构身份，平台算法将不再将其内容推荐给非粉丝用户；平台自动标记算法出现偏差时，用户可以联系客服申诉。",
+              "link": "https://tech.ifeng.com/c/8w32cmzTeWE",
+              "tags": [
+                "平台治理",
+                "Instagram"
+              ],
+              "source": "凤凰科技",
+              "time": "8月31日消息"
+            }
+          ]
         }
       ]
     },
@@ -113,51 +114,121 @@ window.__RAW_DATA = {
       "vendors": [
         {
           "name": "阿里云",
-          "news": []
+          "news": [
+            {
+              "title": "千问创作上线 Agent Teams，覆盖专业视频制作场景",
+              "summary": "8 月 31 日消息，千问创作推出 Agent Teams 功能，接入 Wan3.0，已面向全部用户开放。该功能将多 Agent 协同机制引入专业视频创作全流程，用户提出创作想法即可召集不同分工的专家 Agent 协作完成视频创作。",
+              "link": "https://tech.ifeng.com/c/8w2SZ5SPVbw",
+              "tags": [
+                "Agent",
+                "视频生成"
+              ],
+              "source": "凤凰科技",
+              "time": "8月31日消息"
+            }
+          ]
         },
         {
           "name": "火山引擎",
           "news": [
             {
-              "title": "消息称字节豆包大模型 2.2 推迟发布，原计划 8 月推出",
-              "summary": "8 月 30 日消息，消息称字节跳动原计划于 8 月推出的豆包大模型 2.2 将推迟面世。",
-              "link": "https://tech.ifeng.com/c/8w1IOuKEoEg",
+              "title": "消息称字节上调豆包股价格至 17.02 美元，涨幅约 14.6%",
+              "summary": "8 月 31 日消息，据新浪科技，字节跳动将豆包股价格从 6 月的 14.85 美元/股调整至 17.02 美元/股，涨幅约 14.6%，并增加豆包股发放，部分员工可达总包的 5% 左右；员工可选择把总包现金换成豆包股，满配比例因职级而异。",
+              "link": "https://finance.sina.com.cn/tech/shenji/2026-08-31/doc-iniqetnx9062589.shtml",
               "tags": [
-                "大模型",
-                "发布"
+                "字节",
+                "股权激励"
+              ],
+              "source": "新浪财经",
+              "time": "8月31日消息"
+            },
+            {
+              "title": "豆包辟谣「开水煮拖鞋」传闻：博主故意引导摆拍",
+              "summary": "8 月 31 日消息，针对多平台出现的「豆包建议煮拖鞋」视频，豆包公关负责人辟谣称系博主故意引导模型按错误内容回复并摆拍制作玩梗视频，官方已联系首发博主核实。豆包实际会提醒用户不要用开水烫、蒸煮等偏方修复拖鞋。",
+              "link": "https://tech.ifeng.com/c/8w2Wqb5SARQ",
+              "tags": [
+                "豆包",
+                "辟谣"
               ],
               "source": "凤凰科技",
-              "time": "8月30日消息"
+              "time": "8月31日消息"
             }
           ]
         },
         {
           "name": "DeepSeek",
-          "news": []
+          "news": [
+            {
+              "title": "DeepSeek 开源 V4 家族首个多模态模型，权重与最小推理代码同步放出",
+              "summary": "8 月 31 日消息，DeepSeek 在 Hugging Face 开源 DeepSeek-V4-Flash-Vision-Exp，为 V4 家族首个实验性多模态模型，基于 V4-Flash 加入视觉模块继续训练。仓库采用 MIT 许可证，含 48 个权重分片与最小 PyTorch 推理实现，官方称纯文本 Agent 任务表现与 V4-Flash-0731 大致相当。",
+              "link": "https://www.zhidx.com/p/589405.html",
+              "tags": [
+                "多模态",
+                "开源"
+              ],
+              "source": "机器之心",
+              "time": "8月31日消息"
+            }
+          ]
         },
         {
           "name": "腾讯",
-          "news": []
+          "news": [
+            {
+              "title": "腾讯混元 Hy4 preview 调用激增，WorkBuddy 已紧急扩容",
+              "summary": "8 月 31 日消息，腾讯混元称，Hy4 preview 自 8 月 28 日在 WorkBuddy 首发接入以来，凭借 Agent 能力显著提升，上线首日任务队列即出现排队。公司已针对 Hy4 preview 推理集群紧急扩容并动态调配资源，但高端算力总量有限，高峰时段仍不排除排队。",
+              "link": "https://www.stcn.com/article/detail/4165032.html",
+              "tags": [
+                "混元",
+                "Agent"
+              ],
+              "source": "证券时报",
+              "time": "8月31日消息"
+            },
+            {
+              "title": "微信支付 AI 专属卡接入 DeepSeek Harness 和 OpenClaw",
+              "summary": "8 月 31 日消息，微信支付宣布 AI 专属卡已支持 DeepSeek Harness 和 OpenClaw，用户可在两个 Agent 内完成从对话推荐、下单到支付的全流程，并付费调用 Skillhub 上 700 余个 Pay Skill。支付仍需用户在手机端二次确认，AI 专属卡与微信支付主账户隔离。",
+              "link": "https://finance.sina.cn/tech/2026-08-31/detail-iniqfqsq4919410.d.html",
+              "tags": [
+                "支付",
+                "Agent"
+              ],
+              "source": "新浪财经",
+              "time": "8月31日消息"
+            }
+          ]
         },
         {
           "name": "小米",
           "news": [
             {
-              "title": "小米 18 Pro 或首发防窥屏，支付等 4 类敏感场景自动开启",
-              "summary": "8 月 30 日消息，博主 @kacskrz 8 月 28 日在 X 平台分享视频和图片，从国际版 ROM 固件中发现小米防窥屏功能，可按应用和敏感页面自动启用，支付、转账等 4 类高频敏感场景自动开启，小米 18 Pro 系列有望首发。",
-              "link": "https://www.163.com/dy/article/L5ISNPNH0511B8LM.html",
+              "title": "小米平板 9 Pro Max 玄戒 O3 跑分曝光：单核 3474，多核 13229",
+              "summary": "8 月 31 日消息，搭载小米自研玄戒 O3 处理器的小米平板 9 Pro Max 现身 GeekBench，单核 3474、多核 13229，配备 16GB 内存与 Android 17，预计 9 月发布。玄戒 O3 采用 10 核全大核架构，首发 16 核 Mali-G2-Ultra-NX GPU。",
+              "link": "https://finance.sina.com.cn/tech/digi/2026-08-31/doc-iniqfkkp7204851.shtml",
               "tags": [
-                "隐私",
-                "屏幕"
+                "芯片",
+                "玄戒"
               ],
-              "source": "网易科技",
-              "time": "8月30日消息"
+              "source": "新浪财经",
+              "time": "8月31日消息"
             }
           ]
         },
         {
           "name": "智谱AI",
-          "news": []
+          "news": [
+            {
+              "title": "智谱上半年营收 9.54 亿元，同比增长 399.7%",
+              "summary": "8 月 31 日消息，智谱发布 2026 年半年报，上半年营收 9.54 亿元，同比增长 399.7%；经调整期内净亏损 19.64 亿元。开放平台及 API 业务收入约 8.25 亿元，同比增长 2735.7%；截至 8 月 31 日 MaaS 平台年化收入 ARR 达 16 亿美元（周度口径 20 亿美元）。",
+              "link": "https://finance.sina.com.cn/roll/2026-08-31/doc-iniqfkkm4642139.shtml",
+              "tags": [
+                "财报",
+                "MaaS"
+              ],
+              "source": "新浪财经",
+              "time": "8月31日消息"
+            }
+          ]
         },
         {
           "name": "月之暗面",
@@ -167,15 +238,15 @@ window.__RAW_DATA = {
           "name": "华为",
           "news": [
             {
-              "title": "华为云联合瑞金医院发布 RuiPath 2.0，覆盖 19 个常见癌种",
-              "summary": "8 月 30 日，华为云联合瑞金医院发布瑞智病理大模型 RuiPath 2.0，参数规模 7B，覆盖 19 个常见癌种，诊断任务增至 205 项，可覆盖病理医生 90% 以上的日常诊断场景，在有无淋巴瘤诊断中准确率达 96.48%。",
-              "link": "https://www.jiemian.com/article/15030053.html",
+              "title": "华为上半年营收 4678.19 亿元，研发费用创历史新高",
+              "summary": "8 月 31 日消息，华为投资控股披露 2026 年半年报，上半年营收 4678.19 亿元，营收保持同比增长；归母净利润 234.28 亿元，较上年同期明显下降。研发费用 1213.82 亿元创历史新高，同比增幅超四分之一，研发支出增长与存储等元器件成本上升共同压低了利润。",
+              "link": "https://www.jiemian.com/article/15036100.html",
               "tags": [
-                "AI医疗",
-                "病理"
+                "财报",
+                "华为"
               ],
               "source": "界面新闻",
-              "time": "8月30日"
+              "time": "8月31日消息"
             }
           ]
         }
@@ -187,77 +258,114 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "长鑫",
+              "title": "MiniMax",
               "news": [
                 {
-                  "title": "长鑫 LPDDR6 全球首发量产，小米 18 Fold 首批搭载",
-                  "summary": "8 月 29 日消息，长鑫科技宣布新一代低功耗内存 LPDDR6 实现量产并全球首发商用，首批搭载于小米 18 Fold 折叠旗舰手机，打破三星、SK 海力士长期垄断的先发局面。LPDDR6 峰值速率达 12800Mbps，芯片最高容量 16GB，雷军转发称\"非常了不起\"。",
-                  "link": "https://finance.sina.com.cn/jjxw/2026-08-29/doc-inipyrwr5446696.shtml",
+                  "title": "MiniMax H3 Max 上线开放平台，观众开始「导演」24 小时 AI 直播",
+                  "summary": "8 月 31 日消息，MiniMax 宣布将 H3 Max 768P/480P 版本接入开放平台和 MiniMax Design，开发者正把模型接入 Twitch 直播流，由聊天室观众输入 Prompt 持续生成新画面和声音。H3 开源三周多以来下载量超 2400 万次，社区产生超 300 个公开衍生模型。",
+                  "link": "https://finance.jrj.com.cn/2026/08/31143758298879.shtml",
                   "tags": [
-                    "存储",
-                    "国产芯片"
+                    "视频生成",
+                    "开源"
                   ],
-                  "source": "新浪财经",
-                  "time": "8月29日消息"
-                }
-              ]
-            },
-            {
-              "title": "苹果",
-              "news": [
-                {
-                  "title": "苹果就 Siri 跳票支付 2.5 亿美元和解，单台最高赔 95 美元",
-                  "summary": "8 月 29 日消息，苹果同意支付 2.5 亿美元（约合人民币 17 亿元）就 Siri 虚假宣传集体诉讼达成和解，符合条件的美国 iPhone 用户单台设备最高可获 95 美元赔偿。此案源于苹果将 Apple Intelligence 加持的个性化 Siri 作为 iPhone 15/16 卖点后部分功能延期上线。",
-                  "link": "https://finance.sina.cn/2026-08-29/detail-inipxyyx5520206.d.html",
-                  "tags": [
-                    "Siri",
-                    "诉讼"
-                  ],
-                  "source": "新浪财经",
-                  "time": "8月29日消息"
-                },
-                {
-                  "title": "Ternus 明日起接任苹果 CEO，AI 与秋季新品成首要任务",
-                  "summary": "8 月 31 日消息，苹果将于 9 月 1 日完成 CEO 交接：硬件工程高级副总裁 John Ternus 接替 Tim Cook，后者转任董事会执行主席。Ternus 上任后很快要主持苹果秋季产品周期，新品包括首款折叠屏 iPhone、可识别说话者的智能显示器等，AI 成首要任务。",
-                  "link": "https://news.qq.com/rain/a/20260831A03KK300",
-                  "tags": [
-                    "人事",
-                    "苹果"
-                  ],
-                  "source": "腾讯新闻",
+                  "source": "金融界",
                   "time": "8月31日消息"
                 }
               ]
             },
             {
-              "title": "高通",
+              "title": "快手",
               "news": [
                 {
-                  "title": "高通力推 HBC 架构商业化，邀三星与 SK 海力士合作",
-                  "summary": "8 月 28 日消息，高通大力推动 HBC（高带宽缓存）架构商业化，邀请三星和 SK 海力士成为存储合作伙伴，首代产品计划明年出货，有望提升 AI 计算内存带宽、降低功耗。",
-                  "link": "https://finance.sina.com.cn/stock/t/2026-08-28/doc-inipvwaa0168702.shtml",
+                  "title": "国家人工智能基金向北京可灵注入现金资本 14 亿元",
+                  "summary": "8 月 31 日消息，快手公告称，北京可灵分别与国家人工智能基金及正大机器人订立增资加入协议，国家人工智能基金向北京可灵注入现金资本 14 亿元，正大机器人注资约 1314.5 万美元，分别占扩大后注册资本约 1.14% 和 0.11%。",
+                  "link": "https://finance.sina.com.cn/wm/2026-08-31/doc-iniqfqsm7161463.shtml",
                   "tags": [
-                    "芯片",
-                    "存储"
+                    "可灵",
+                    "融资"
                   ],
                   "source": "新浪财经",
-                  "time": "8月28日消息"
+                  "time": "8月31日消息"
                 }
               ]
             },
             {
-              "title": "Tavus",
+              "title": "海信",
               "news": [
                 {
-                  "title": "Tavus 发布 Sparrow-2，语音 Agent 学会等待和识别环境声",
-                  "summary": "8 月 30 日消息，Tavus 发布语音 AI 模型 Sparrow-2，让语音 Agent 学会在对话中等待、识别环境声，不再一停顿就抢话，提升语音交互自然度。",
-                  "link": "https://www.theblockbeats.info/flash/364287",
+                  "title": "海信发布 AI 操作系统 JUOS，9 月起覆盖电视与投影终端",
+                  "summary": "8 月 31 日消息，海信发布面向家庭场景的 AI 操作系统 JUOS，以「超级小聚」作为 AI 入口，支持以台词、人物等碎片线索搜片，也可在观看时询问角色、剧情和体育规则。升级将从 9 月起推送给海信 U、E、A 系列电视、激光电视及 Vidda 电视和投影首批机型。",
+                  "link": "https://m.ithome.com/html/996499.htm",
                   "tags": [
-                    "语音AI",
+                    "智能家居",
+                    "海信"
+                  ],
+                  "source": "IT之家",
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "长鑫",
+              "news": [
+                {
+                  "title": "消息称长鑫存储开始试产 HBM3E 内存，有望数周内大规模量产",
+                  "summary": "8 月 31 日消息，据 The Information 报道，长鑫存储已启动 HBM3E 内存风险试产，有望数周内实现大规模量产。",
+                  "link": "https://finance.sina.com.cn/stock/t/2026-08-31/doc-iniqfqsq4997077.shtml",
+                  "tags": [
+                    "存储",
+                    "HBM"
+                  ],
+                  "source": "新浪财经",
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "SK海力士",
+              "news": [
+                {
+                  "title": "SK 海力士考虑将部分 HBM 基础裸片交由英特尔生产",
+                  "summary": "8 月 31 日消息，据财联社，SK 海力士正考虑将部分 HBM 基础裸片交由英特尔生产，借此减少对台积电晶圆代工的依赖，计划从第七代 HBM 芯片 HBM4E 开始。分析指出，HBM4 时代台积电基础裸片价格比 SK 海力士自产高出 3 到 4 倍。",
+                  "link": "https://www.cls.cn/detail/2469243",
+                  "tags": [
+                    "HBM",
+                    "代工"
+                  ],
+                  "source": "财联社",
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "OpenClaw",
+              "news": [
+                {
+                  "title": "OpenClaw 2.0 发布：重做浏览器端，加入多人共享会话",
+                  "summary": "8 月 31 日消息，OpenClaw 2.0 正式发布，重做浏览器端并加入多人共享会话，允许团队成员加入进行中的任务或带上下文完成交接，还新增可固定到仪表盘的交互结果、凭据请求与一次性授权等。升级涉及 OpenProse 插件移除与模型路由迁移两项破坏性变更。",
+                  "link": "https://www.pingwest.com/w/316931",
+                  "tags": [
+                    "开源",
                     "Agent"
                   ],
-                  "source": "BlockBeats",
-                  "time": "8月30日消息"
+                  "source": "品玩",
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "范式",
+              "news": [
+                {
+                  "title": "范式与华为达成昇腾 950 算力战略合作，成首批拥抱国产最高端算力的 AI 企业",
+                  "summary": "8 月 31 日消息，范式创始人戴文渊与华为常务董事杨超斌举行高层战略座谈，双方达成基于昇腾 950 芯片的算力战略合作，范式将成为首批拥抱国产最高端算力的 AI 企业，增强其面向金融、政务等重点行业的端到端交付能力。",
+                  "link": "https://www.qbitai.com/2026/08/481919.html",
+                  "tags": [
+                    "算力",
+                    "华为"
+                  ],
+                  "source": "量子位",
+                  "time": "8月31日消息"
                 }
               ]
             }
@@ -267,17 +375,49 @@ window.__RAW_DATA = {
           "name": "自动驾驶",
           "cards": [
             {
-              "title": "小马智行",
+              "title": "L3/L4国标",
               "news": [
                 {
-                  "title": "小马智行携手 FutureLink，拟在韩商业投放 200 辆 Robotaxi",
-                  "summary": "8 月 31 日消息，小马智行携手 FutureLink，拟首批在韩国商业投放 200 辆 Robotaxi。两家企业去年已在首尔江南自动驾驶示范区开展技术验证，累计行驶约 8 万公里且未发生事故。",
-                  "link": "https://tech.ifeng.com/c/8w27hfGqrO0",
+                  "title": "我国 L3/L4 自动驾驶强制国标正式发布，2027 年 7 月 1 日实施",
+                  "summary": "8 月 31 日消息，全国标准信息公共服务平台显示，国家标准《智能网联汽车自动驾驶系统安全要求》（GB 44721-2026）正式文件出炉，为国内首部 L3/L4 智能网联汽车自动驾驶系统安全要求强制性国标，将于 2027 年 7 月 1 日实施。",
+                  "link": "https://tech.ifeng.com/c/8w2Ws6pL4hx",
                   "tags": [
-                    "Robotaxi",
-                    "出海"
+                    "自动驾驶",
+                    "政策"
                   ],
                   "source": "凤凰科技",
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "滴滴",
+              "news": [
+                {
+                  "title": "滴滴自动驾驶新一代 Robotaxi R2 开启载客测试，性能座舱全面升级",
+                  "summary": "8 月 31 日消息，滴滴自动驾驶新一代 Robotaxi R2 正式开启无人载客测试服务，北京、广州部分示范区域内用户可呼单体验。R2 为滴滴与广汽埃安联合打造的专属车型，采用滴滴 L4 全栈软硬件方案，搭载 33 个传感器，具备全球化适配能力。",
+                  "link": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqexup7815957.shtml",
+                  "tags": [
+                    "Robotaxi",
+                    "滴滴"
+                  ],
+                  "source": "新浪财经",
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "Momenta",
+              "news": [
+                {
+                  "title": "Momenta 上半年营收 16 亿元，同比增长 76%",
+                  "summary": "8 月 31 日消息，Momenta 发布 2026 年上半年财报，营收 16.0 亿元，同比增长 76%；经调整净亏损同比大幅收窄约 97%。搭载 Momenta 系统的量产车辆规模已超 110 万台，交付超 110 款量产车型，累计定点车型超 230 款。",
+                  "link": "https://www.cls.cn/detail/2469682",
+                  "tags": [
+                    "财报",
+                    "智驾"
+                  ],
+                  "source": "财联社",
                   "time": "8月31日消息"
                 }
               ]
@@ -288,66 +428,18 @@ window.__RAW_DATA = {
           "name": "具身智能",
           "cards": [
             {
-              "title": "敏实集团",
+              "title": "宇树",
               "news": [
                 {
-                  "title": "中塞合建机器人工厂投产，成欧洲首座人形机器人量产基地",
-                  "summary": "8 月 30 日，位于塞尔维亚沙巴茨的中塞合建机器人工厂投产，成为欧洲首座人形机器人量产基地。工厂由敏实集团投资建设，首期投资 2000 万欧元，首台人形机器人已下线，能写书法、下棋，未来年产能最高可达 2 万台，产品面向欧洲及全球市场。",
-                  "link": "https://news.china.com.cn/2026-08/30/content_118670974.shtml",
+                  "title": "宇树科技股价接近腰斩：较上市首日开盘价跌近一半",
+                  "summary": "8 月 31 日消息，宇树科技收报 564.90 元/股，跌幅 3.44%，相较于上市首日开盘价 1100 元/股，股价接近「腰斩」。",
+                  "link": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqexut7376378.shtml",
                   "tags": [
-                    "人形机器人",
-                    "出海"
+                    "股价",
+                    "宇树"
                   ],
-                  "source": "中国网",
-                  "time": "8月30日"
-                }
-              ]
-            },
-            {
-              "title": "法拉第未来",
-              "news": [
-                {
-                  "title": "法拉第未来机器人中东业务启航，完成首笔订单交付",
-                  "summary": "8 月 31 日消息，贾跃亭宣布法拉第未来机器人中东业务正式启航，完成中东首笔订单销售及交付，共交付 6 台机器人（2 台人形、4 台四足），团队正加紧推进更多订单落地。",
-                  "link": "https://tech.ifeng.com/c/8w1wUch0J0g",
-                  "tags": [
-                    "机器人",
-                    "中东"
-                  ],
-                  "source": "凤凰科技",
+                  "source": "新浪财经",
                   "time": "8月31日消息"
-                }
-              ]
-            },
-            {
-              "title": "Microduck",
-              "news": [
-                {
-                  "title": "Hugging Face 机器鸭 Microduck 开售爆单，24 小时订单破 260 万美元",
-                  "summary": "8 月 30 日消息，Hugging Face 旗下 Pollen Robotics 推出的 399 美元机器鸭 Microduck 开售首日订单破 260 万美元，已出现订单积压，新订单预计 4 至 6 个月后交付。",
-                  "link": "https://sina.cn/news/detail/5337747751437442.html",
-                  "tags": [
-                    "机器人",
-                    "开源"
-                  ],
-                  "source": "新浪新闻",
-                  "time": "8月30日消息"
-                }
-              ]
-            },
-            {
-              "title": "荣耀机器人",
-              "news": [
-                {
-                  "title": "荣耀机器人\"闪电\"海外首秀，跑完马来西亚马拉松 10 公里",
-                  "summary": "8 月 30 日消息，荣耀机器人「闪电」完成海外首秀，在马来西亚双子塔夜景下跑完 10 公里并刷新赛事纪录，成为当地马拉松首位机器人参赛选手。这款 169cm 高的红色机甲风机器人以速度见长，曾在 1500 米赛中打破人类世界纪录。",
-                  "link": "https://k.sina.cn/article_1826017320_6cd6d02804001w8vu.html",
-                  "tags": [
-                    "机器人",
-                    "马拉松"
-                  ],
-                  "source": "新浪体育",
-                  "time": "8月30日消息"
                 }
               ]
             }
@@ -361,50 +453,18 @@ window.__RAW_DATA = {
           "name": "投资资讯",
           "cards": [
             {
-              "title": "a16z",
-              "news": [
-                {
-                  "title": "a16z 机器时代基金筹集 11 亿美元，投向芯片与机器人",
-                  "summary": "当地时间 8 月 28 日，a16z 宣布硬件正式确立为核心方向，为旗下机器时代基金筹集 11 亿美元，将投资 AI 依赖的芯片、内存、网络、存储基础设施，以及数据中心、机器人、家用 AI 设备，近期已投资 Unconventional AI、Nexthop、Volta、Atoms 等硬件公司。",
-                  "link": "https://finance.sina.com.cn/jjxw/2026-08-30/doc-iniqacxv8360037.shtml",
-                  "tags": [
-                    "融资",
-                    "硬件"
-                  ],
-                  "source": "新浪财经",
-                  "time": "当地时间8月28日"
-                }
-              ]
-            },
-            {
-              "title": "优地机器人",
-              "news": [
-                {
-                  "title": "优地机器人拟全球发售 4500 万股 H 股，9 月 9 日港交所上市",
-                  "summary": "8 月 31 日消息，优地机器人公告拟全球发售 4500 万股 H 股，香港发售 225 万股，发售价不超每股 19.55 港元，预期 2026 年 9 月 9 日开始在香港联交所买卖。",
-                  "link": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqeaqx7936430.shtml",
-                  "tags": [
-                    "IPO",
-                    "机器人"
-                  ],
-                  "source": "新浪财经",
-                  "time": "8月31日消息"
-                }
-              ]
-            },
-            {
               "title": "燧原科技",
               "news": [
                 {
-                  "title": "燧原科技科创板上市获证监会注册，9 月 1 日网上路演",
-                  "summary": "8 月 30 日消息，燧原科技首次公开发行股票并在科创板上市的申请已获证监会同意注册，拟公开发行新股 4303.5173 万股，占发行后总股本 10%，将于 9 月 1 日举行网上路演。",
-                  "link": "https://finance.sina.com.cn/roll/2026-08-30/doc-iniqaqpv8331373.shtml",
+                  "title": "燧原科技科创板 IPO 发行价定为 142.18 元/股，9 月 2 日申购",
+                  "summary": "8 月 31 日消息，燧原科技披露科创板 IPO 发行价格为 142.18 元/股，发行数量 4303.5173 万股，预计募集资金总额 61.19 亿元，网上网下申购日为 9 月 2 日。（注：昨日已报道其获证监会注册，今日为发行价与申购进展更新）",
+                  "link": "https://www.cnstock.com/commonDetail/783678",
                   "tags": [
-                    "科创板",
+                    "IPO",
                     "芯片"
                   ],
-                  "source": "新浪财经",
-                  "time": "8月30日消息"
+                  "source": "证券时报网",
+                  "time": "8月31日消息"
                 }
               ]
             }
@@ -414,98 +474,130 @@ window.__RAW_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "国家数据局",
+              "title": "AI客服新国标",
               "news": [
                 {
-                  "title": "国家数据局：研究探索词元增值订阅、按效付费商业模式",
-                  "summary": "8 月 30 日，在 2026 中国国际大数据产业博览会上，国家数据局局长刘烈宏表示，要围绕国民经济重大场景，研究探索词元增值订阅、按效付费等商业模式。会上同步发布一批数据领域政策举措，涵盖词元、数据标注、数字人才培养等领域。",
-                  "link": "https://news.cnr.cn/native/gd/20260830/t20260830_527798687.shtml",
+                  "title": "AI 客服「转人工」难？新国标今日起实施",
+                  "summary": "9 月 1 日消息，中国首个聚焦人工客服与智能客服协同机制的国家标准《顾客联络服务人工与智能客户服务协同要求》9 月 1 日正式实施。标准要求智能客服与人工切换需提供便捷入口并保障衔接顺畅，涉及价格、折扣、退款、赔偿等事项的最终确认应由人工客服或规范化流程完成。",
+                  "link": "http://sc.people.com.cn/n2/2026/0831/c345167-41682246.html",
                   "tags": [
-                    "数据要素",
-                    "政策"
+                    "政策",
+                    "客服"
                   ],
-                  "source": "央广网",
-                  "time": "8月30日"
+                  "source": "人民网",
+                  "time": "9月1日消息"
                 }
               ]
             },
             {
-              "title": "液冷赛道",
+              "title": "巴克莱",
               "news": [
                 {
-                  "title": "液冷从\"可选项\"到\"必选项\"，千亿赛道加速升温",
-                  "summary": "8 月 30 日消息，全球 AI 硬件功耗持续攀升，传统风冷散热瓶颈凸显，液冷产业迎来爆发增长期，多家液冷企业订单排至年底。国内首个浸没式液冷算力方舱投入运行，对硅油、合成油、再生变压器油及氟化液四种冷却液进行兼容性测试，浸没式液冷有望逐步替代传统冷板式液冷。",
-                  "link": "https://www.cls.cn/detail/2438442",
+                  "title": "巴克莱：AI 公司每赚 100 美元，近 40 美元流向云巨头",
+                  "summary": "8 月 31 日消息，巴克莱分析师测算，AI 公司每赚 100 美元收入，近 40 美元流向亚马逊、微软、谷歌等云巨头。分析师认为实际利润率或高于报告估算，但随着前沿模型竞争加剧与算力供给增加，利润率预计将逐步回落。",
+                  "link": "https://m.jrj.com.cn/madapter/stock/2026/08/30132858291575.shtml",
                   "tags": [
-                    "AI基础设施",
-                    "散热"
+                    "行业趋势",
+                    "云计算"
                   ],
-                  "source": "财联社",
-                  "time": "8月30日消息"
+                  "source": "金融界",
+                  "time": "8月31日消息"
                 }
               ]
             },
             {
-              "title": "Terminal-Bench 4.0",
+              "title": "抖音AI标识",
               "news": [
                 {
-                  "title": "Terminal-Bench 4.0 发布，GLM-5.3 冲到第三超 GPT-5.6",
-                  "summary": "8 月 30 日消息，Terminal-Bench 4.0 基准发布，衡量 AI Agent 在真实终端环境执行任务的能力。智谱 AI 的 GLM-5.3 排名升至第三，超过 GPT-5.6 Sol。",
-                  "link": "https://kakaweb3.com/kuaixun/48904.html",
+                  "title": "抖音公布 AI 内容标识进展，主动声明入口前置到投稿页",
+                  "summary": "8 月 31 日消息，抖音黑板报公布《人工智能生成合成内容标识办法》实施一年以来的治理进展。平台已上线 AI 内容显式标识、元数据标识读写能力和检测模型，并将「自主声明」前置到投稿一级页面，对未声明内容弹窗提醒并新增「未进行 AI 标识」投诉分类。",
+                  "link": "https://finance.sina.com.cn/wm/2026-08-31/doc-iniqfqsp8758781.shtml",
                   "tags": [
-                    "基准",
-                    "Agent"
-                  ],
-                  "source": "卡卡Web3",
-                  "time": "8月30日消息"
-                }
-              ]
-            },
-            {
-              "title": "AI反诈",
-              "news": [
-                {
-                  "title": "谷歌、OpenAI、Meta 联手日本官方打击网络诈骗",
-                  "summary": "8 月 30 日电，据报道，谷歌、OpenAI、Meta 正与日本官方机构和本土企业联手，打击激增的网络诈骗案件。",
-                  "link": "https://www.cls.cn/detail/2468704",
-                  "tags": [
-                    "安全",
-                    "反诈"
-                  ],
-                  "source": "财联社",
-                  "time": "8月30日消息"
-                }
-              ]
-            },
-            {
-              "title": "AI失控",
-              "news": [
-                {
-                  "title": "报告称 2026 年已记录 1664 起 AI 失控事件，7 月环比增 93.76%",
-                  "summary": "8 月 30 日消息，英国长期韧性中心 8 月 28 日发布报告，其\"失控观察站\"2026 年已记录 1664 起 AI 失控事件，7 月共记录 306 起，环比增长 93.67%，日均峰值 11.3 起。",
-                  "link": "https://tech.ifeng.com/c/8w0kxrSD72i",
-                  "tags": [
-                    "AI安全",
-                    "报告"
-                  ],
-                  "source": "凤凰科技",
-                  "time": "8月30日消息"
-                }
-              ]
-            },
-            {
-              "title": "英国5G",
-              "news": [
-                {
-                  "title": "英国电信高管警告：5G 升级太慢或输掉 AI 竞赛",
-                  "summary": "8 月 30 日消息，英国电信行业高管集体发声，警告若 5G 升级速度不加快，英国将在全球 AI 竞赛中落后。目前英国网络覆盖率落后于 G7 及欧盟多国，下载速度排名跌至全球第 70 位。",
-                  "link": "https://finance.sina.cn/stock/jdts/2026-08-30/detail-iniqauvt8227822.d.html",
-                  "tags": [
-                    "5G",
-                    "AI竞赛"
+                    "AI治理",
+                    "抖音"
                   ],
                   "source": "新浪财经",
-                  "time": "8月30日消息"
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "陈沁",
+              "news": [
+                {
+                  "title": "陈沁：AI 正在拆散岗位分工，经验者接手更多年轻人原有任务",
+                  "summary": "7月30日消息，据中新社，上海科技大学 CEISD 发布中国版 C-O*NET 数据库与 AI 就业报告，项目首席数据科学家陈沁指出，AI 冲击的对象是任务而非职业：信息录入、标准问答等可被大模型独立完成的任务被拆解重组，客服等岗位招聘规模下降但职责未同步消失；复合型闭环岗位成为就业市场最大新增量（约 2100 万个岗位，占总招聘岗位 18.6%），26.6% 的高暴露岗位面临替代压力，Java 工程师等现场判断型岗位技术含金量反而上升。",
+                  "link": "https://www.sh.chinanews.com.cn/kjjy/2026-07-30/148114.shtml",
+                  "tags": [
+                    "AI就业",
+                    "观点"
+                  ],
+                  "source": "中新社上海",
+                  "time": "7月30日消息"
+                }
+              ]
+            },
+            {
+              "title": "美国法官AI",
+              "news": [
+                {
+                  "title": "美国法官用 AI 起草裁决现虚构内容，上诉法院考虑更换承办法官",
+                  "summary": "8 月 31 日消息，据路透社，美国密西西比州总检察长请求第五巡回上诉法院推翻一项涉 DEI 裁决，并在案件发回地区法院时更换承办法官。地区法官 Henry Wingate 承认其助理曾用 Perplexity 协助起草命令，文件中出现不存在的人名、权威依据和陈述，他归因于「人工监督失误」。",
+                  "link": "https://www.courthousenews.com/ai-hallucinations-derail-debate-over-mississippis-dei-ban-in-schools/",
+                  "tags": [
+                    "AI治理",
+                    "司法"
+                  ],
+                  "source": "Courthouse News",
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "AIGC后西游记",
+              "news": [
+                {
+                  "title": "国内首部 AIGC 长剧《后西游记》开播，首部「边审边播」剧集",
+                  "summary": "8 月 31 日消息，国内首部 AIGC 长剧《后西游记》8 月 31 日 18:00 在芒果 TV 开播，20:00 登陆湖南卫视，采取「边审边播」模式，首播「花果山篇」共 5 集、每集 40 分钟，讲述「西游二代」补取真经的新冒险。",
+                  "link": "https://m.jiemian.com/article/15035500.html",
+                  "tags": [
+                    "AIGC",
+                    "内容创作"
+                  ],
+                  "source": "界面新闻",
+                  "time": "8月31日消息"
+                }
+              ]
+            },
+            {
+              "title": "华为小米荣耀调价",
+              "news": [
+                {
+                  "title": "华为、小米、荣耀手机 9 月 1 日集体调价，多家旗舰机下调计划量",
+                  "summary": "9 月 1 日消息，华为、小米、荣耀手机今日集体调价。消息称由于涨价情况「非常离谱」，多家手机厂商旗舰机下调 30%-50% 计划量，上游元器件成本压力传导至终端市场。",
+                  "link": "https://k.sina.com.cn/article_1826017320_6cd6d02802001wbl8.html",
+                  "tags": [
+                    "手机",
+                    "市场"
+                  ],
+                  "source": "新浪科技",
+                  "time": "9月1日消息"
+                }
+              ]
+            },
+            {
+              "title": "晚点",
+              "news": [
+                {
+                  "title": "晚点：有用户、有收入，AI 应用却不是好生意",
+                  "summary": "9 月 1 日消息，晚点 LatePost 发文指出，独立 AI 应用同时面对三个问题：产品多久会被模型吞掉、增长能否带来利润、用户入口在谁手里。找到需求、获得用户、做出收入都不足以让独立 AI 公司长期成立，独立应用正试图逃离「模型吞噬」。",
+                  "link": "https://news.qq.com/rain/a/20260901A006XY00",
+                  "tags": [
+                    "行业观察",
+                    "AI应用"
+                  ],
+                  "source": "晚点LatePost",
+                  "time": "9月1日消息"
                 }
               ]
             }

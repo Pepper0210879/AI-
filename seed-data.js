@@ -72273,6 +72273,912 @@ window.__SEED_CONFIRMED = {
         ]
       }
     }
+  },
+  "2026-09-01": {
+    "date": "2026-09-01",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "news": [
+              {
+                "title": "OpenAI 广告业务年化营收达 10 亿美元，开放更多海外市场",
+                "summary": "8 月 31 日消息，OpenAI 宣布 ChatGPT Ads 年化营收已达 10 亿美元，并从 8 月 31 日起向印度、欧洲、中东和北非广告主开放 OpenAI Ads Manager 自助投放。约 4 个月前披露的试点年化营收仅为当前规模的十分之一，广告业务成为订阅和 API 之外的收入来源，也让 OpenAI 直接进入 Google 与 Meta 主导的数字广告市场。",
+                "link": "https://www.jiemian.com/article/15037090.html",
+                "tags": [
+                  "广告",
+                  "商业化"
+                ],
+                "source": "界面新闻",
+                "time": "8月31日消息"
+              },
+              {
+                "title": "OpenAI 购入数万台苹果 Mac，训练操作计算机的 AI 智能体",
+                "summary": "8 月 31 日消息，据 The Information 报道，OpenAI 近几个月购入数万台苹果 Mac mini 和 Mac Studio（配备大容量统一内存），用于训练能够操作计算机的 AI 系统。Anthropic 也从亚马逊 AWS 租用 Mac mini，一些初创公司甚至开始构建仅限 Mac 的云服务。",
+                "link": "https://www.21jingji.com/article/20260831/herald/e23e9f5c23a2b32398b6153627b908d9.html",
+                "tags": [
+                  "智能体",
+                  "算力"
+                ],
+                "source": "21经济网",
+                "time": "8月31日消息"
+              },
+              {
+                "title": "Codex 活跃用户增至 2500 万，OpenAI 再次重置付费用户额度",
+                "summary": "8 月 31 日消息，OpenAI Codex 活跃用户已突破 2500 万（约 10 天前刚突破 2000 万），OpenAI 再次重置付费用户额度。",
+                "link": "https://finance.sina.com.cn/stock/t/2026-08-31/doc-iniqepev4740520.shtml",
+                "tags": [
+                  "Codex",
+                  "AI编程"
+                ],
+                "source": "新浪财经",
+                "time": "8月31日消息"
+              },
+              {
+                "title": "苹果诉 OpenAI：员工曾查看电源转换器电路图，申请加快取证",
+                "summary": "8 月 31 日消息，苹果在对 OpenAI 的诉讼中称，OpenAI 员工曾查看其电源转换器电路图，已申请加快取证。本案争点从员工离职前后资料流转，延伸到其在新公司设备上的访问和模型训练行为。",
+                "link": "https://awtmt.com/articles/3780770",
+                "tags": [
+                  "诉讼",
+                  "苹果"
+                ],
+                "source": "华尔街见闻",
+                "time": "8月31日消息"
+              }
+            ]
+          },
+          {
+            "name": "Anthropic",
+            "news": [
+              {
+                "title": "Anthropic 与英伟达支持的 Lambda 签 350 亿美元云协议",
+                "summary": "8 月 31 日消息，据华尔街日报援引知情人士，Anthropic 已与英伟达支持的云计算商 Lambda 签署价值 350 亿美元的云计算协议。英伟达持有 Hut 8 得州数据中心租约并作为 Lambda 投资方，再次凸显其在帮助 Anthropic 等非投资级企业获取算力资源方面的关键作用。",
+                "link": "https://www.jiemian.com/article/15037569.html",
+                "tags": [
+                  "算力",
+                  "云服务"
+                ],
+                "source": "界面新闻",
+                "time": "8月31日消息"
+              }
+            ]
+          },
+          {
+            "name": "Google",
+            "news": []
+          },
+          {
+            "name": "xAI",
+            "news": []
+          },
+          {
+            "name": "NVIDIA",
+            "news": [
+              {
+                "title": "英伟达向联发科投资 35 亿美元，合作扩展 NVLink Fusion 生态",
+                "summary": "8 月 31 日消息，英伟达宣布向联发科投资 35 亿美元，为联发科 39 亿美元海外可转债发行的一部分，Alphabet 亦参与认购。双方扩大技术合作：联发科将允许客户用英伟达 NVLink Fusion 技术设计定制 AI 芯片，并直连英伟达大型计算系统。",
+                "link": "https://www.jiemian.com/article/15036981.html",
+                "tags": [
+                  "芯片",
+                  "投资"
+                ],
+                "source": "界面新闻",
+                "time": "8月31日消息"
+              }
+            ]
+          },
+          {
+            "name": "Meta",
+            "news": [
+              {
+                "title": "Instagram 推出全新 AI 个人资料标签，整治 AI 虚假账号",
+                "summary": "8 月 31 日消息，Instagram 推出全新 AI 个人资料标签，用于整治 AI 虚假账号。创作者若不主动披露 AI 虚构身份，平台算法将不再将其内容推荐给非粉丝用户；平台自动标记算法出现偏差时，用户可以联系客服申诉。",
+                "link": "https://tech.ifeng.com/c/8w32cmzTeWE",
+                "tags": [
+                  "平台治理",
+                  "Instagram"
+                ],
+                "source": "凤凰科技",
+                "time": "8月31日消息"
+              }
+            ]
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "news": [
+              {
+                "title": "千问创作上线 Agent Teams，覆盖专业视频制作场景",
+                "summary": "8 月 31 日消息，千问创作推出 Agent Teams 功能，接入 Wan3.0，已面向全部用户开放。该功能将多 Agent 协同机制引入专业视频创作全流程，用户提出创作想法即可召集不同分工的专家 Agent 协作完成视频创作。",
+                "link": "https://tech.ifeng.com/c/8w2SZ5SPVbw",
+                "tags": [
+                  "Agent",
+                  "视频生成"
+                ],
+                "source": "凤凰科技",
+                "time": "8月31日消息"
+              }
+            ]
+          },
+          {
+            "name": "火山引擎",
+            "news": [
+              {
+                "title": "消息称字节上调豆包股价格至 17.02 美元，涨幅约 14.6%",
+                "summary": "8 月 31 日消息，据新浪科技，字节跳动将豆包股价格从 6 月的 14.85 美元/股调整至 17.02 美元/股，涨幅约 14.6%，并增加豆包股发放，部分员工可达总包的 5% 左右；员工可选择把总包现金换成豆包股，满配比例因职级而异。",
+                "link": "https://finance.sina.com.cn/tech/shenji/2026-08-31/doc-iniqetnx9062589.shtml",
+                "tags": [
+                  "字节",
+                  "股权激励"
+                ],
+                "source": "新浪财经",
+                "time": "8月31日消息"
+              },
+              {
+                "title": "豆包辟谣「开水煮拖鞋」传闻：博主故意引导摆拍",
+                "summary": "8 月 31 日消息，针对多平台出现的「豆包建议煮拖鞋」视频，豆包公关负责人辟谣称系博主故意引导模型按错误内容回复并摆拍制作玩梗视频，官方已联系首发博主核实。豆包实际会提醒用户不要用开水烫、蒸煮等偏方修复拖鞋。",
+                "link": "https://tech.ifeng.com/c/8w2Wqb5SARQ",
+                "tags": [
+                  "豆包",
+                  "辟谣"
+                ],
+                "source": "凤凰科技",
+                "time": "8月31日消息"
+              }
+            ]
+          },
+          {
+            "name": "DeepSeek",
+            "news": [
+              {
+                "title": "DeepSeek 开源 V4 家族首个多模态模型，权重与最小推理代码同步放出",
+                "summary": "8 月 31 日消息，DeepSeek 在 Hugging Face 开源 DeepSeek-V4-Flash-Vision-Exp，为 V4 家族首个实验性多模态模型，基于 V4-Flash 加入视觉模块继续训练。仓库采用 MIT 许可证，含 48 个权重分片与最小 PyTorch 推理实现，官方称纯文本 Agent 任务表现与 V4-Flash-0731 大致相当。",
+                "link": "https://www.zhidx.com/p/589405.html",
+                "tags": [
+                  "多模态",
+                  "开源"
+                ],
+                "source": "机器之心",
+                "time": "8月31日消息"
+              }
+            ]
+          },
+          {
+            "name": "腾讯",
+            "news": [
+              {
+                "title": "腾讯混元 Hy4 preview 调用激增，WorkBuddy 已紧急扩容",
+                "summary": "8 月 31 日消息，腾讯混元称，Hy4 preview 自 8 月 28 日在 WorkBuddy 首发接入以来，凭借 Agent 能力显著提升，上线首日任务队列即出现排队。公司已针对 Hy4 preview 推理集群紧急扩容并动态调配资源，但高端算力总量有限，高峰时段仍不排除排队。",
+                "link": "https://www.stcn.com/article/detail/4165032.html",
+                "tags": [
+                  "混元",
+                  "Agent"
+                ],
+                "source": "证券时报",
+                "time": "8月31日消息"
+              },
+              {
+                "title": "微信支付 AI 专属卡接入 DeepSeek Harness 和 OpenClaw",
+                "summary": "8 月 31 日消息，微信支付宣布 AI 专属卡已支持 DeepSeek Harness 和 OpenClaw，用户可在两个 Agent 内完成从对话推荐、下单到支付的全流程，并付费调用 Skillhub 上 700 余个 Pay Skill。支付仍需用户在手机端二次确认，AI 专属卡与微信支付主账户隔离。",
+                "link": "https://finance.sina.cn/tech/2026-08-31/detail-iniqfqsq4919410.d.html",
+                "tags": [
+                  "支付",
+                  "Agent"
+                ],
+                "source": "新浪财经",
+                "time": "8月31日消息"
+              }
+            ]
+          },
+          {
+            "name": "小米",
+            "news": [
+              {
+                "title": "小米平板 9 Pro Max 玄戒 O3 跑分曝光：单核 3474，多核 13229",
+                "summary": "8 月 31 日消息，搭载小米自研玄戒 O3 处理器的小米平板 9 Pro Max 现身 GeekBench，单核 3474、多核 13229，配备 16GB 内存与 Android 17，预计 9 月发布。玄戒 O3 采用 10 核全大核架构，首发 16 核 Mali-G2-Ultra-NX GPU。",
+                "link": "https://finance.sina.com.cn/tech/digi/2026-08-31/doc-iniqfkkp7204851.shtml",
+                "tags": [
+                  "芯片",
+                  "玄戒"
+                ],
+                "source": "新浪财经",
+                "time": "8月31日消息"
+              }
+            ]
+          },
+          {
+            "name": "智谱AI",
+            "news": [
+              {
+                "title": "智谱上半年营收 9.54 亿元，同比增长 399.7%",
+                "summary": "8 月 31 日消息，智谱发布 2026 年半年报，上半年营收 9.54 亿元，同比增长 399.7%；经调整期内净亏损 19.64 亿元。开放平台及 API 业务收入约 8.25 亿元，同比增长 2735.7%；截至 8 月 31 日 MaaS 平台年化收入 ARR 达 16 亿美元（周度口径 20 亿美元）。",
+                "link": "https://finance.sina.com.cn/roll/2026-08-31/doc-iniqfkkm4642139.shtml",
+                "tags": [
+                  "财报",
+                  "MaaS"
+                ],
+                "source": "新浪财经",
+                "time": "8月31日消息"
+              }
+            ]
+          },
+          {
+            "name": "月之暗面",
+            "news": []
+          },
+          {
+            "name": "华为",
+            "news": [
+              {
+                "title": "华为上半年营收 4678.19 亿元，研发费用创历史新高",
+                "summary": "8 月 31 日消息，华为投资控股披露 2026 年半年报，上半年营收 4678.19 亿元，营收保持同比增长；归母净利润 234.28 亿元，较上年同期明显下降。研发费用 1213.82 亿元创历史新高，同比增幅超四分之一，研发支出增长与存储等元器件成本上升共同压低了利润。",
+                "link": "https://www.jiemian.com/article/15036100.html",
+                "tags": [
+                  "财报",
+                  "华为"
+                ],
+                "source": "界面新闻",
+                "time": "8月31日消息"
+              }
+            ]
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "其他厂商",
+            "cards": [
+              {
+                "title": "MiniMax",
+                "news": [
+                  {
+                    "title": "MiniMax H3 Max 上线开放平台，观众开始「导演」24 小时 AI 直播",
+                    "summary": "8 月 31 日消息，MiniMax 宣布将 H3 Max 768P/480P 版本接入开放平台和 MiniMax Design，开发者正把模型接入 Twitch 直播流，由聊天室观众输入 Prompt 持续生成新画面和声音。H3 开源三周多以来下载量超 2400 万次，社区产生超 300 个公开衍生模型。",
+                    "link": "https://finance.jrj.com.cn/2026/08/31143758298879.shtml",
+                    "tags": [
+                      "视频生成",
+                      "开源"
+                    ],
+                    "source": "金融界",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "快手",
+                "news": [
+                  {
+                    "title": "国家人工智能基金向北京可灵注入现金资本 14 亿元",
+                    "summary": "8 月 31 日消息，快手公告称，北京可灵分别与国家人工智能基金及正大机器人订立增资加入协议，国家人工智能基金向北京可灵注入现金资本 14 亿元，正大机器人注资约 1314.5 万美元，分别占扩大后注册资本约 1.14% 和 0.11%。",
+                    "link": "https://finance.sina.com.cn/wm/2026-08-31/doc-iniqfqsm7161463.shtml",
+                    "tags": [
+                      "可灵",
+                      "融资"
+                    ],
+                    "source": "新浪财经",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "海信",
+                "news": [
+                  {
+                    "title": "海信发布 AI 操作系统 JUOS，9 月起覆盖电视与投影终端",
+                    "summary": "8 月 31 日消息，海信发布面向家庭场景的 AI 操作系统 JUOS，以「超级小聚」作为 AI 入口，支持以台词、人物等碎片线索搜片，也可在观看时询问角色、剧情和体育规则。升级将从 9 月起推送给海信 U、E、A 系列电视、激光电视及 Vidda 电视和投影首批机型。",
+                    "link": "https://m.ithome.com/html/996499.htm",
+                    "tags": [
+                      "智能家居",
+                      "海信"
+                    ],
+                    "source": "IT之家",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "长鑫",
+                "news": [
+                  {
+                    "title": "消息称长鑫存储开始试产 HBM3E 内存，有望数周内大规模量产",
+                    "summary": "8 月 31 日消息，据 The Information 报道，长鑫存储已启动 HBM3E 内存风险试产，有望数周内实现大规模量产。",
+                    "link": "https://finance.sina.com.cn/stock/t/2026-08-31/doc-iniqfqsq4997077.shtml",
+                    "tags": [
+                      "存储",
+                      "HBM"
+                    ],
+                    "source": "新浪财经",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "SK海力士",
+                "news": [
+                  {
+                    "title": "SK 海力士考虑将部分 HBM 基础裸片交由英特尔生产",
+                    "summary": "8 月 31 日消息，据财联社，SK 海力士正考虑将部分 HBM 基础裸片交由英特尔生产，借此减少对台积电晶圆代工的依赖，计划从第七代 HBM 芯片 HBM4E 开始。分析指出，HBM4 时代台积电基础裸片价格比 SK 海力士自产高出 3 到 4 倍。",
+                    "link": "https://www.cls.cn/detail/2469243",
+                    "tags": [
+                      "HBM",
+                      "代工"
+                    ],
+                    "source": "财联社",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "OpenClaw",
+                "news": [
+                  {
+                    "title": "OpenClaw 2.0 发布：重做浏览器端，加入多人共享会话",
+                    "summary": "8 月 31 日消息，OpenClaw 2.0 正式发布，重做浏览器端并加入多人共享会话，允许团队成员加入进行中的任务或带上下文完成交接，还新增可固定到仪表盘的交互结果、凭据请求与一次性授权等。升级涉及 OpenProse 插件移除与模型路由迁移两项破坏性变更。",
+                    "link": "https://www.pingwest.com/w/316931",
+                    "tags": [
+                      "开源",
+                      "Agent"
+                    ],
+                    "source": "品玩",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "范式",
+                "news": [
+                  {
+                    "title": "范式与华为达成昇腾 950 算力战略合作，成首批拥抱国产最高端算力的 AI 企业",
+                    "summary": "8 月 31 日消息，范式创始人戴文渊与华为常务董事杨超斌举行高层战略座谈，双方达成基于昇腾 950 芯片的算力战略合作，范式将成为首批拥抱国产最高端算力的 AI 企业，增强其面向金融、政务等重点行业的端到端交付能力。",
+                    "link": "https://www.qbitai.com/2026/08/481919.html",
+                    "tags": [
+                      "算力",
+                      "华为"
+                    ],
+                    "source": "量子位",
+                    "time": "8月31日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "自动驾驶",
+            "cards": [
+              {
+                "title": "L3/L4国标",
+                "news": [
+                  {
+                    "title": "我国 L3/L4 自动驾驶强制国标正式发布，2027 年 7 月 1 日实施",
+                    "summary": "8 月 31 日消息，全国标准信息公共服务平台显示，国家标准《智能网联汽车自动驾驶系统安全要求》（GB 44721-2026）正式文件出炉，为国内首部 L3/L4 智能网联汽车自动驾驶系统安全要求强制性国标，将于 2027 年 7 月 1 日实施。",
+                    "link": "https://tech.ifeng.com/c/8w2Ws6pL4hx",
+                    "tags": [
+                      "自动驾驶",
+                      "政策"
+                    ],
+                    "source": "凤凰科技",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "滴滴",
+                "news": [
+                  {
+                    "title": "滴滴自动驾驶新一代 Robotaxi R2 开启载客测试，性能座舱全面升级",
+                    "summary": "8 月 31 日消息，滴滴自动驾驶新一代 Robotaxi R2 正式开启无人载客测试服务，北京、广州部分示范区域内用户可呼单体验。R2 为滴滴与广汽埃安联合打造的专属车型，采用滴滴 L4 全栈软硬件方案，搭载 33 个传感器，具备全球化适配能力。",
+                    "link": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqexup7815957.shtml",
+                    "tags": [
+                      "Robotaxi",
+                      "滴滴"
+                    ],
+                    "source": "新浪财经",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "Momenta",
+                "news": [
+                  {
+                    "title": "Momenta 上半年营收 16 亿元，同比增长 76%",
+                    "summary": "8 月 31 日消息，Momenta 发布 2026 年上半年财报，营收 16.0 亿元，同比增长 76%；经调整净亏损同比大幅收窄约 97%。搭载 Momenta 系统的量产车辆规模已超 110 万台，交付超 110 款量产车型，累计定点车型超 230 款。",
+                    "link": "https://www.cls.cn/detail/2469682",
+                    "tags": [
+                      "财报",
+                      "智驾"
+                    ],
+                    "source": "财联社",
+                    "time": "8月31日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "具身智能",
+            "cards": [
+              {
+                "title": "宇树",
+                "news": [
+                  {
+                    "title": "宇树科技股价接近腰斩：较上市首日开盘价跌近一半",
+                    "summary": "8 月 31 日消息，宇树科技收报 564.90 元/股，跌幅 3.44%，相较于上市首日开盘价 1100 元/股，股价接近「腰斩」。",
+                    "link": "https://finance.sina.com.cn/jjxw/2026-08-31/doc-iniqexut7376378.shtml",
+                    "tags": [
+                      "股价",
+                      "宇树"
+                    ],
+                    "source": "新浪财经",
+                    "time": "8月31日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "AI出海",
+            "cards": []
+          },
+          {
+            "name": "投资资讯",
+            "cards": [
+              {
+                "title": "燧原科技",
+                "news": [
+                  {
+                    "title": "燧原科技科创板 IPO 发行价定为 142.18 元/股，9 月 2 日申购",
+                    "summary": "8 月 31 日消息，燧原科技披露科创板 IPO 发行价格为 142.18 元/股，发行数量 4303.5173 万股，预计募集资金总额 61.19 亿元，网上网下申购日为 9 月 2 日。（注：昨日已报道其获证监会注册，今日为发行价与申购进展更新）",
+                    "link": "https://www.cnstock.com/commonDetail/783678",
+                    "tags": [
+                      "IPO",
+                      "芯片"
+                    ],
+                    "source": "证券时报网",
+                    "time": "8月31日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "行业趋势&观点",
+            "cards": [
+              {
+                "title": "AI客服新国标",
+                "news": [
+                  {
+                    "title": "AI 客服「转人工」难？新国标今日起实施",
+                    "summary": "9 月 1 日消息，中国首个聚焦人工客服与智能客服协同机制的国家标准《顾客联络服务人工与智能客户服务协同要求》9 月 1 日正式实施。标准要求智能客服与人工切换需提供便捷入口并保障衔接顺畅，涉及价格、折扣、退款、赔偿等事项的最终确认应由人工客服或规范化流程完成。",
+                    "link": "http://sc.people.com.cn/n2/2026/0831/c345167-41682246.html",
+                    "tags": [
+                      "政策",
+                      "客服"
+                    ],
+                    "source": "人民网",
+                    "time": "9月1日消息"
+                  }
+                ]
+              },
+              {
+                "title": "巴克莱",
+                "news": [
+                  {
+                    "title": "巴克莱：AI 公司每赚 100 美元，近 40 美元流向云巨头",
+                    "summary": "8 月 31 日消息，巴克莱分析师测算，AI 公司每赚 100 美元收入，近 40 美元流向亚马逊、微软、谷歌等云巨头。分析师认为实际利润率或高于报告估算，但随着前沿模型竞争加剧与算力供给增加，利润率预计将逐步回落。",
+                    "link": "https://m.jrj.com.cn/madapter/stock/2026/08/30132858291575.shtml",
+                    "tags": [
+                      "行业趋势",
+                      "云计算"
+                    ],
+                    "source": "金融界",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "抖音AI标识",
+                "news": [
+                  {
+                    "title": "抖音公布 AI 内容标识进展，主动声明入口前置到投稿页",
+                    "summary": "8 月 31 日消息，抖音黑板报公布《人工智能生成合成内容标识办法》实施一年以来的治理进展。平台已上线 AI 内容显式标识、元数据标识读写能力和检测模型，并将「自主声明」前置到投稿一级页面，对未声明内容弹窗提醒并新增「未进行 AI 标识」投诉分类。",
+                    "link": "https://finance.sina.com.cn/wm/2026-08-31/doc-iniqfqsp8758781.shtml",
+                    "tags": [
+                      "AI治理",
+                      "抖音"
+                    ],
+                    "source": "新浪财经",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "陈沁",
+                "news": [
+                  {
+                    "title": "陈沁：AI 正在拆散岗位分工，经验者接手更多年轻人原有任务",
+                    "summary": "7月30日消息，据中新社，上海科技大学 CEISD 发布中国版 C-O*NET 数据库与 AI 就业报告，项目首席数据科学家陈沁指出，AI 冲击的对象是任务而非职业：信息录入、标准问答等可被大模型独立完成的任务被拆解重组，客服等岗位招聘规模下降但职责未同步消失；复合型闭环岗位成为就业市场最大新增量（约 2100 万个岗位，占总招聘岗位 18.6%），26.6% 的高暴露岗位面临替代压力，Java 工程师等现场判断型岗位技术含金量反而上升。",
+                    "link": "https://www.sh.chinanews.com.cn/kjjy/2026-07-30/148114.shtml",
+                    "tags": [
+                      "AI就业",
+                      "观点"
+                    ],
+                    "source": "中新社上海",
+                    "time": "7月30日消息"
+                  }
+                ]
+              },
+              {
+                "title": "美国法官AI",
+                "news": [
+                  {
+                    "title": "美国法官用 AI 起草裁决现虚构内容，上诉法院考虑更换承办法官",
+                    "summary": "8 月 31 日消息，据路透社，美国密西西比州总检察长请求第五巡回上诉法院推翻一项涉 DEI 裁决，并在案件发回地区法院时更换承办法官。地区法官 Henry Wingate 承认其助理曾用 Perplexity 协助起草命令，文件中出现不存在的人名、权威依据和陈述，他归因于「人工监督失误」。",
+                    "link": "https://www.courthousenews.com/ai-hallucinations-derail-debate-over-mississippis-dei-ban-in-schools/",
+                    "tags": [
+                      "AI治理",
+                      "司法"
+                    ],
+                    "source": "Courthouse News",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "AIGC后西游记",
+                "news": [
+                  {
+                    "title": "国内首部 AIGC 长剧《后西游记》开播，首部「边审边播」剧集",
+                    "summary": "8 月 31 日消息，国内首部 AIGC 长剧《后西游记》8 月 31 日 18:00 在芒果 TV 开播，20:00 登陆湖南卫视，采取「边审边播」模式，首播「花果山篇」共 5 集、每集 40 分钟，讲述「西游二代」补取真经的新冒险。",
+                    "link": "https://m.jiemian.com/article/15035500.html",
+                    "tags": [
+                      "AIGC",
+                      "内容创作"
+                    ],
+                    "source": "界面新闻",
+                    "time": "8月31日消息"
+                  }
+                ]
+              },
+              {
+                "title": "华为小米荣耀调价",
+                "news": [
+                  {
+                    "title": "华为、小米、荣耀手机 9 月 1 日集体调价，多家旗舰机下调计划量",
+                    "summary": "9 月 1 日消息，华为、小米、荣耀手机今日集体调价。消息称由于涨价情况「非常离谱」，多家手机厂商旗舰机下调 30%-50% 计划量，上游元器件成本压力传导至终端市场。",
+                    "link": "https://k.sina.com.cn/article_1826017320_6cd6d02802001wbl8.html",
+                    "tags": [
+                      "手机",
+                      "市场"
+                    ],
+                    "source": "新浪科技",
+                    "time": "9月1日消息"
+                  }
+                ]
+              },
+              {
+                "title": "晚点",
+                "news": [
+                  {
+                    "title": "晚点：有用户、有收入，AI 应用却不是好生意",
+                    "summary": "9 月 1 日消息，晚点 LatePost 发文指出，独立 AI 应用同时面对三个问题：产品多久会被模型吞掉、增长能否带来利润、用户入口在谁手里。找到需求、获得用户、做出收入都不足以让独立 AI 公司长期成立，独立应用正试图逃离「模型吞噬」。",
+                    "link": "https://news.qq.com/rain/a/20260901A006XY00",
+                    "tags": [
+                      "行业观察",
+                      "AI应用"
+                    ],
+                    "source": "晚点LatePost",
+                    "time": "9月1日消息"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "LMArena",
+            "date": "2026-07-27",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "claude-fable-5",
+                "score": "1508",
+                "change": "+6"
+              },
+              {
+                "model": "claude-opus-4-6-thinking",
+                "score": "1505",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-7-thinking",
+                "score": "1502",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-4-6",
+                "score": "1497",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-5-max",
+                "score": "1495",
+                "change": "+12"
+              },
+              {
+                "model": "claude-opus-4-7",
+                "score": "1493",
+                "change": "+4"
+              },
+              {
+                "model": "claude-opus-5-high",
+                "score": "1493",
+                "change": "+8"
+              },
+              {
+                "model": "muse-spark-1.1",
+                "score": "1491",
+                "change": "+7"
+              },
+              {
+                "model": "muse-spark",
+                "score": "1488",
+                "change": "+6"
+              },
+              {
+                "model": "gemini-3.1-pro-preview",
+                "score": "1486",
+                "change": "+3"
+              },
+              {
+                "model": "kimi-k3-max",
+                "score": "1486",
+                "change": "+10"
+              },
+              {
+                "model": "gemini-3-pro",
+                "score": "1486",
+                "change": "+4"
+              },
+              {
+                "model": "gpt-5.6-sol-xhigh",
+                "score": "1485",
+                "change": "+7"
+              },
+              {
+                "model": "claude-opus-4-8-thinking",
+                "score": "1484",
+                "change": "+5"
+              },
+              {
+                "model": "gemini-3.6-flash",
+                "score": "1482",
+                "change": "+8"
+              },
+              {
+                "model": "gpt-5.5-high",
+                "score": "1482",
+                "change": "+4"
+              },
+              {
+                "model": "gpt-5.4-high",
+                "score": "1477",
+                "change": "+4"
+              },
+              {
+                "model": "gemini-3.5-flash-high",
+                "score": "1476",
+                "change": "+7"
+              },
+              {
+                "model": "gpt-5.2-chat-latest-20260210",
+                "score": "1476",
+                "change": "+4"
+              },
+              {
+                "model": "gpt-5.5",
+                "score": "1476",
+                "change": "+4"
+              }
+            ]
+          },
+          {
+            "name": "OpenRouter",
+            "date": "2026-08-31",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": [
+              {
+                "model": "Ox Alpha",
+                "score": "15.7T tokens",
+                "change": "+36%"
+              },
+              {
+                "model": "DeepSeek V4 Flash 0731",
+                "score": "12.3T tokens",
+                "change": "+6%"
+              },
+              {
+                "model": "MiMo-V2.5",
+                "score": "9.14T tokens",
+                "change": "+8%"
+              },
+              {
+                "model": "GPT-5.6 Luna",
+                "score": "7.79T tokens",
+                "change": "+59%"
+              },
+              {
+                "model": "Hy3",
+                "score": "6.66T tokens",
+                "change": "+19%"
+              },
+              {
+                "model": "GLM 5.3 Flash",
+                "score": "6.16T tokens",
+                "change": "—"
+              },
+              {
+                "model": "Nemotron 3 Ultra (free)",
+                "score": "5.33T tokens",
+                "change": "+12%"
+              },
+              {
+                "model": "DeepSeek V4 Flash 0423",
+                "score": "5.2T tokens",
+                "change": "+5%"
+              },
+              {
+                "model": "Gemini 3.7 Flash",
+                "score": "3.95T tokens",
+                "change": "+120%"
+              },
+              {
+                "model": "Hy4 preview",
+                "score": "3.07T tokens",
+                "change": "—"
+              },
+              {
+                "model": "GLM 5.2",
+                "score": "2.99T tokens",
+                "change": "+12%"
+              },
+              {
+                "model": "MiniMax M3 (free)",
+                "score": "2.57T tokens",
+                "change": "—"
+              },
+              {
+                "model": "DeepSeek V4 Pro 0423",
+                "score": "1.77T tokens",
+                "change": "+4%"
+              },
+              {
+                "model": "GPT-5.6 Sol",
+                "score": "1.7T tokens",
+                "change": "+29%"
+              },
+              {
+                "model": "Kimi K3",
+                "score": "1.57T tokens",
+                "change": "+19%"
+              },
+              {
+                "model": "MiniMax M3",
+                "score": "1.52T tokens",
+                "change": "+11%"
+              },
+              {
+                "model": "Claude Opus 5",
+                "score": "1.46T tokens",
+                "change": "—"
+              },
+              {
+                "model": "Laguna S 2.1 (free)",
+                "score": "1.35T tokens",
+                "change": "+16%"
+              },
+              {
+                "model": "GLM 5.3",
+                "score": "1.33T tokens",
+                "change": "+171%"
+              },
+              {
+                "model": "Claude Sonnet 5",
+                "score": "1.2T tokens",
+                "change": "+11%"
+              }
+            ]
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-07-31",
+            "link": "https://www.producthunt.com/",
+            "rankings": [
+              {
+                "name": "MiniMax H3",
+                "category": "Design Tools",
+                "rank": 1,
+                "link": "https://www.minimax.io"
+              },
+              {
+                "name": "Cleanlist AI",
+                "category": "Sales",
+                "rank": 2,
+                "link": "https://www.cleanlist.ai"
+              },
+              {
+                "name": "metrics",
+                "category": "Mac",
+                "rank": 3,
+                "link": "https://github.com/mxcl/metrics"
+              },
+              {
+                "name": "Poth Labs",
+                "category": "Customer Success",
+                "rank": 4,
+                "link": "https://www.pothlabs.com"
+              },
+              {
+                "name": "DepthData",
+                "category": "Analytics",
+                "rank": 5,
+                "link": "https://www.depthdata.com"
+              },
+              {
+                "name": "Halo by Scam AI",
+                "category": "Meetings",
+                "rank": 6,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "witr",
+                "category": "Linux",
+                "rank": 7,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Customer.io Summer Release",
+                "category": "Email",
+                "rank": 8,
+                "link": "https://customer.io"
+              },
+              {
+                "name": "Screencap",
+                "category": "Productivity",
+                "rank": 9,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Gemini Robotics 2",
+                "category": "Robots",
+                "rank": 10,
+                "link": "https://deepmind.google"
+              },
+              {
+                "name": "TraceLLM",
+                "category": "Open Source",
+                "rank": 11,
+                "link": "https://www.producthunt.com"
+              },
+              {
+                "name": "Mubert API",
+                "category": "Music",
+                "rank": 12,
+                "link": "https://mubert.com"
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 };
 
