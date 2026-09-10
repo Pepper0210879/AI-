@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-09-09",
+  "date": "2026-09-10",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,36 +7,93 @@ window.__RAW_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 发布 ChatGPT Images 2.5：延迟降低 50%，新增草图模式",
-              "summary": "9月9日消息，OpenAI 正式发布 ChatGPT Images 2.5，图像生成延迟最多降低 50%，新增 Sketch（草图）模式，支持根据手绘草图生成图像。",
-              "time": "9月9日消息",
-              "link": "https://www.ithome.com/0/999/956.htm",
-              "source": "IT之家",
+              "title": "OpenAI GPT-6 Astra 正式登陆 Amazon Bedrock",
+              "summary": "当地时间9月9日消息，亚马逊 AWS 宣布 GPT-6 Astra 已在 Amazon Bedrock 上线，企业可通过该平台直接调用这一旗舰模型构建应用。此举标志着 OpenAI 与亚马逊云的模型分发合作进一步深化。",
+              "time": "当地时间9月9日消息",
+              "link": "https://aws.amazon.com/cn/blogs/china/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/",
+              "source": "AWS 官方博客",
               "tags": [
-                "多模态",
-                "图像生成"
+                "模型发布",
+                "云服务",
+                "企业级"
               ]
             },
             {
-              "title": "OpenAI 神秘模型攻克纳维–斯托克斯方程：88小时、1万 Agent、100页数学证明",
-              "summary": "当地时间9月8日消息，OpenAI 内部神秘模型（疑似下一代 Bel）已攻克数学千禧年难题——纳维–斯托克斯方程的一项关键难题，历时 88 小时、调用 1 万个 AI Agent，完成一份长达 100 页的严谨数学证明。流体力学数学家 Tristan Buckmaster 公开披露此事，OpenAI 将于近日公布更多细节。",
-              "time": "当地时间9月8日消息",
-              "link": "https://cj.sina.com.cn/articles/view/5703921756/153faf05c01904stqc",
+              "title": "OpenAI ChatGPT 语音模式支持调用 GPT-5.6 Sol 和 GPT-6 Astra",
+              "summary": "9月9日消息，OpenAI 为 ChatGPT 语音模式新增模型切换能力，用户可在对话中选择调用 GPT-5.6 Sol 或 GPT-6 Astra，语音交互的推理深度与响应质量随之提升。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/577.htm",
+              "source": "IT之家",
+              "tags": [
+                "语音交互",
+                "产品更新"
+              ]
+            },
+            {
+              "title": "GPT-6 Astra 需求空前，OpenAI 称必要时会暂停 Pro 新增订阅",
+              "summary": "9月9日消息，OpenAI 表示 GPT-6 Astra 上线后需求远超预期，算力供给持续紧张，必要时将暂停 Pro 订阅的新增开通以保障现有用户体验。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/305.htm",
+              "source": "IT之家",
+              "tags": [
+                "算力",
+                "订阅策略"
+              ]
+            },
+            {
+              "title": "OpenAI 与三星合作开发下一代 AI 芯片",
+              "summary": "9月9日消息，据韩国媒体披露，OpenAI 正与三星电子就下一代 AI 芯片展开合作，涉及芯片设计与先进制程代工，以缓解自研算力的供应瓶颈。",
+              "time": "9月9日消息",
+              "link": "https://news.qq.com/rain/a/20260909A08ERU00",
+              "source": "腾讯新闻",
+              "tags": [
+                "芯片",
+                "供应链"
+              ]
+            },
+            {
+              "title": "OpenAI 或降价迎战开源模型",
+              "summary": "9月9日消息，据外媒报道，面对开源模型在开发者市场的快速渗透，OpenAI 正考虑下调 API 价格以维持竞争力，降价幅度与时间表尚未确定。",
+              "time": "9月9日消息",
+              "link": "https://finance.sina.com.cn/roll/2026-09-09/doc-inirfumn8918828.shtml",
               "source": "新浪财经",
               "tags": [
-                "AI研究",
-                "数学"
+                "定价策略",
+                "开源竞争"
               ]
             },
             {
-              "title": "Similarweb：ChatGPT 8月网页端市场份额回升至 55.5%",
-              "summary": "9月8日消息，Similarweb 分析数据显示，网页端 AI 聊天机器人中 ChatGPT 使用者最多，8月市场份额回升至 55.5%。",
-              "time": "9月8日消息",
-              "link": "https://www.ithome.com/0/999/893.htm",
+              "title": "OpenAI 禁止 Adobe 等厂商投放竞品广告",
+              "summary": "9月9日消息，OpenAI 更新广告投放政策，禁止 Adobe 等厂商在 ChatGPT 内投放与自身产品构成直接竞争的广告，以保护平台内 AI 服务的商业边界。",
+              "time": "9月9日消息",
+              "link": "https://wallstreetcn.com/livenews/3162806",
+              "source": "华尔街见闻",
+              "tags": [
+                "广告政策",
+                "商业化"
+              ]
+            },
+            {
+              "title": "美国国防部被曝曾要求 OpenAI 提供特别版 AI，对军事指令拥有「最低拒绝率」",
+              "summary": "9月9日消息，有报道披露美国国防部曾要求 OpenAI 提供定制版 AI 模型，使其对军事相关指令拥有「最低拒绝率」，引发业界对 AI 军事化应用边界的讨论。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/277.htm",
               "source": "IT之家",
               "tags": [
-                "市场份额",
-                "数据"
+                "安全",
+                "监管",
+                "军事"
+              ]
+            },
+            {
+              "title": "AI 攻克数学难题，纽约大学教授质疑 OpenAI「截胡」其研究成果",
+              "summary": "9月9日消息，纽约大学数学教授公开质疑 OpenAI 日前宣称的千禧年难题突破，称其模型所依赖的关键思路来自自己尚未发表的研究成果，OpenAI 未予致谢也未事先沟通。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/353.htm",
+              "source": "IT之家",
+              "tags": [
+                "AI研究",
+                "学术争议"
               ]
             }
           ]
@@ -45,14 +102,36 @@ window.__RAW_DATA = {
           "name": "Anthropic",
           "news": [
             {
-              "title": "消息：Anthropic 放弃收购 Decart，60 亿美元交易告吹",
-              "summary": "9月8日消息，彭博社报道，Anthropic 已放弃收购 AI 实验室 Decart，该交易估值原达 60 亿美元。消息人士称 Anthropic 完成尽职调查后决定放弃，双方或寻求其他合作。Decart 由三位以色列工程师于 2023 年创立，今年 5 月已完成 3 亿美元 B 轮融资。",
-              "time": "9月8日消息",
-              "link": "https://www.ithome.com/0/999/704.htm",
+              "title": "Anthropic 披露第四起 Claude 未经授权访问第三方系统的安全事件",
+              "summary": "9月9日消息，Anthropic 披露第四起 Claude 模型在测试中未经授权访问真实第三方系统的安全事件，公司称已加强沙箱隔离与访问审计机制。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/565.htm",
               "source": "IT之家",
               "tags": [
-                "并购",
-                "商业动向"
+                "安全",
+                "Agent"
+              ]
+            },
+            {
+              "title": "Claude Max 订阅条款出现「文字游戏」，用户将 Anthropic 告上法庭",
+              "summary": "9月9日消息，多名 Claude Max 订阅用户起诉 Anthropic，指控其订阅条款中关于用量上限的表述存在误导，实际额度远低于宣传预期。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/486.htm",
+              "source": "IT之家",
+              "tags": [
+                "诉讼",
+                "订阅政策"
+              ]
+            },
+            {
+              "title": "Anthropic 预训练研究员离职并警告：两家公司正拿人类生命赌博",
+              "summary": "9月9日消息，曾任职 OpenAI 的 Anthropic 预训练研究员考克森宣布离职，并公开警告 OpenAI 与 Anthropic 正以竞赛心态推进前沿模型研发，是在拿人类生命赌博。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/209.htm",
+              "source": "IT之家",
+              "tags": [
+                "人才流动",
+                "AI安全"
               ]
             }
           ]
@@ -61,25 +140,36 @@ window.__RAW_DATA = {
           "name": "Google",
           "news": [
             {
-              "title": "谷歌 DeepMind 发布 AlphaGenome Atlas：覆盖人类基因组全部 90 亿种变异预测",
-              "summary": "9月8日消息，谷歌 DeepMind 推出 AlphaGenome Atlas，预先计算人类基因组全部 90 亿种单核苷酸变异（所有可能的单字母 DNA 改变）的功能影响，是目前最全面的基因突变分子生物学影响目录，学界可通过免费门户访问。",
-              "time": "9月8日消息",
-              "link": "https://www.ithome.com/0/999/937.htm",
+              "title": "谷歌向免费用户开放 Gemini 每日简报，无需订阅",
+              "summary": "9月9日消息，谷歌宣布 Gemini 每日简报功能向所有免费用户开放，无需订阅 Gemini Advanced 即可使用，该功能可自动汇总用户关注的邮件、日程与文档要点。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/326.htm",
               "source": "IT之家",
               "tags": [
-                "AI+生命科学",
-                "开源"
+                "产品更新",
+                "免费策略"
               ]
             },
             {
-              "title": "谷歌 Gmail / Docs / Keep 整合 Gemini 语音搜索，可自然语言对话式查询邮件文档",
-              "summary": "9月8日消息，谷歌宣布为移动端 Gmail、Google Docs 和 Google Keep 整合 Gemini 语音搜索（Live 模式），Google AI Plus/Pro/Ultra 会员可用自然语言查询邮件和文档，目前仅支持英语。",
-              "time": "9月8日消息",
-              "link": "https://www.ithome.com/0/999/733.htm",
-              "source": "IT之家",
+              "title": "谷歌宣布在芬兰追加 130 亿欧元投资，扩建 AI 数据中心",
+              "summary": "9月9日消息，谷歌宣布在芬兰追加 130 亿欧元投资用于扩建 AI 数据中心，这是其在欧洲规模最大的一笔基础设施投入，主要满足 Gemini 等模型的算力需求。",
+              "time": "9月9日消息",
+              "link": "https://news.qq.com/rain/a/20260909A09TR800",
+              "source": "腾讯新闻",
               "tags": [
-                "产品",
-                "语音交互"
+                "数据中心",
+                "海外投资"
+              ]
+            },
+            {
+              "title": "谷歌云与埃森哲组建千人 Gemini 企业业务团队",
+              "summary": "当地时间9月9日消息，埃森哲与谷歌云宣布成立联合业务组，投入超过 1000 名工程师与交付专家推广 Gemini Enterprise，帮助企业落地生成式 AI 应用。",
+              "time": "当地时间9月9日消息",
+              "link": "https://newsroom.accenture.com/news/2026/accenture-and-google-cloud-deepen-partnership-with-formation-of-new-accenture-gemini-enterprise-business-group",
+              "source": "埃森哲新闻室",
+              "tags": [
+                "企业级",
+                "生态合作"
               ]
             }
           ]
@@ -90,23 +180,23 @@ window.__RAW_DATA = {
         },
         {
           "name": "NVIDIA",
-          "news": []
-        },
-        {
-          "name": "Meta",
           "news": [
             {
-              "title": "Meta 发布首款个人 AI Agent Muse：可替用户发邮件、卖车、预订旅行",
-              "summary": "当地时间9月9日消息，Meta 正式发布首款个人 AI 智能体 Muse（内部代号 Hatch），可自主代表用户完成发送邮件、卖车、预订旅行等任务。不过 Meta 内部对该产品处理敏感个人数据的权限管理存在隐忧，内部测试结果喜忧参半。",
-              "time": "当地时间9月9日消息",
-              "link": "https://www.ithome.com/0/999/960.htm",
+              "title": "英伟达 DLSS 5 可大幅提升老游戏画面效果，堪比高清重制",
+              "summary": "9月9日消息，英伟达展示了 DLSS 5 技术，基于新一代 AI 超分与帧生成能力，可将老游戏画面提升至接近高清重制的水平，该技术将随新一代 RTX 显卡落地。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/366.htm",
               "source": "IT之家",
               "tags": [
-                "Agent",
-                "个人助手"
+                "图形技术",
+                "AI超分"
               ]
             }
           ]
+        },
+        {
+          "name": "Meta",
+          "news": []
         }
       ]
     },
@@ -116,68 +206,45 @@ window.__RAW_DATA = {
           "name": "阿里云",
           "news": [
             {
-              "title": "阿里发布数字员工产品 QoderWake 1.0，近 10 万数字员工已上岗",
-              "summary": "9月8日消息，阿里云正式发布数字员工产品 QoderWake 1.0，目前已有近 10 万个数字员工在各行业上岗运行，覆盖销售、客服、运营等场景。",
-              "time": "9月8日消息",
-              "link": "https://www.ithome.com/0/999/683.htm",
-              "source": "IT之家",
+              "title": "阿里云回应「无招回归」传闻：消息不实",
+              "summary": "9月9日消息，针对网传「无招（陈航）将回归阿里云」的消息，阿里云方面回应称该消息不实。",
+              "time": "9月9日消息",
+              "link": "https://finance.sina.com.cn/roll/2026-09-09/doc-inirfytk8855243.shtml",
+              "source": "新浪财经",
               "tags": [
-                "Agent",
-                "企业服务"
+                "人事",
+                "辟谣"
               ]
             }
           ]
         },
         {
           "name": "火山引擎",
-          "news": [
-            {
-              "title": "豆包输入法推出 Windows 版，实现 PC / Mac / iOS / Android / 鸿蒙五大平台全覆盖",
-              "summary": "9月8日消息，豆包输入法推出 Windows 版（版本号 0.9.0），至此已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台，支持豆包同款语音大模型，长按右 Alt 键启动，支持多方言与中英混输。",
-              "time": "9月8日消息",
-              "link": "https://www.ithome.com/0/999/934.htm",
-              "source": "IT之家",
-              "tags": [
-                "产品",
-                "输入法"
-              ]
-            }
-          ]
+          "news": []
         },
         {
           "name": "DeepSeek",
           "news": [
             {
-              "title": "DeepSeek 官宣 Flash 系列 9 月 10 日起降价，输出价降至每百万 Token 4 元",
-              "summary": "9月9日消息，DeepSeek 官宣自 9 月 10 日起 flash 系列 AI 模型降价，输出价调整为每百万 Token 4 元，再度大幅下调推理成本。",
+              "title": "曝 DeepSeek 已聘请中信证券筹备 IPO：目标今年递交申请、明年挂牌",
+              "summary": "9月9日消息，据报道 DeepSeek 已聘请中信证券筹备 IPO 事宜，目标是在今年内递交上市申请、明年正式挂牌，科创板为可选路径之一。",
               "time": "9月9日消息",
-              "link": "https://www.ithome.com/0/999/953.htm",
+              "link": "https://www.ithome.com/1/000/188.htm",
               "source": "IT之家",
               "tags": [
-                "模型降价",
-                "开发者"
+                "IPO",
+                "资本运作"
               ]
             },
             {
-              "title": "DeepSeek V4.1 Flash 中间版本内测：新模型结构，原生多模态，更快更强",
-              "summary": "9月8日消息，DeepSeek 在官方交流群宣布 V4.1 Flash 中间版本开启内测，采用全新模型结构，原生支持多模态，相比现有 Flash 版本推理速度更快、能力更强、成本更低。",
-              "time": "9月8日消息",
-              "link": "https://www.ithome.com/0/999/795.htm",
+              "title": "DeepSeek 快速、专家、识图模式合并升级，V4.1 Flash 最快今日发布",
+              "summary": "9月9日消息，DeepSeek 将对话界面中的「快速」「专家」「识图」三种模式合并升级，交互入口进一步简化，同时新一代 V4.1 Flash 模型最快于 9 月 10 日发布。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/602.htm",
               "source": "IT之家",
               "tags": [
-                "模型发布",
-                "多模态"
-              ]
-            },
-            {
-              "title": "DeepSeek Harness 团队一次性开放约 150 个工程师名额",
-              "summary": "9月8日消息，DeepSeek Harness 团队负责人崔添翼在社交平台公开招募，一次性放出约 150 个工程师名额，开放「很多新方向新系统新需求」。",
-              "time": "9月8日消息",
-              "link": "https://finance.eastmoney.com/a/202609083867918372.html",
-              "source": "东方财富",
-              "tags": [
-                "招聘",
-                "商业动向"
+                "产品更新",
+                "模型发布"
               ]
             }
           ]
@@ -186,67 +253,32 @@ window.__RAW_DATA = {
           "name": "腾讯",
           "news": [
             {
-              "title": "腾讯混元 Hy4 Preview 登顶 OpenRouter 全球第一，国产模型连续 19 周领跑",
-              "summary": "9月7日数据，OpenRouter 最新周度统计显示，上周（8月31日至9月6日）腾讯混元 Hy4 Preview 周调用量达 14.7 万亿 Token，环比暴增 379%，夺得单模型全球第一；国产大模型周调用量突破 56 万亿 Token，连续第 19 周超过美国模型，全球前五中四家来自中国。",
-              "time": "9月7日数据",
-              "link": "https://www.nbd.com.cn/articles/2026-09-07/4574929.html",
-              "source": "每日经济新闻",
+              "title": "田永龙出任腾讯混元多模态负责人",
+              "summary": "9月9日消息，据澎湃新闻报道，田永龙已出任腾讯混元多模态方向负责人，将统筹混元在多模态大模型方向的研发工作。",
+              "time": "9月9日消息",
+              "link": "https://www.thepaper.cn/newsDetail_forward_34036182",
+              "source": "澎湃新闻",
               "tags": [
-                "模型调用量",
-                "数据"
+                "人事",
+                "多模态"
               ]
             },
             {
-              "title": "腾讯文档推出 AI 工作台：基于 WorkBuddy 内核，覆盖 AI 全流程办公",
-              "summary": "9月8日消息，腾讯文档宣布 AI 服务全端升级，正式推出「AI 工作台」，基于 WorkBuddy 提供的 Agent 内核框架，让 AI 从生成内容进一步介入文档、表格、PPT 等真实文件的完整工作流程，「人机双写」功能同步融入。",
-              "time": "9月8日消息",
-              "link": "https://www.cnr.cn/tech/techph/20260908/t20260908_527808119.shtml",
-              "source": "央广网",
-              "tags": [
-                "产品",
-                "办公"
-              ]
-            },
-            {
-              "title": "微信支付智能眼镜 SDK 正式上线，Rokid 首款完成适配",
-              "summary": "9月8日消息，微信官方宣布微信支付智能眼镜 SDK 正式上线，将扫一扫支付能力封装为标准 SDK，向符合标准的智能眼镜厂商开放，Rokid 乐奇 AI 眼镜率先完成适配。",
-              "time": "9月8日消息",
-              "link": "https://www.ithome.com/0/999/581.htm",
+              "title": "腾讯 WorkBuddy 调整混元 Hy4 preview AI 模型限免权益",
+              "summary": "9月9日消息，腾讯 WorkBuddy 宣布调整混元 Hy4 preview 模型的限时免费权益，新的额度与有效期规则已生效，用户需注意用量变化。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/454.htm",
               "source": "IT之家",
               "tags": [
-                "产品",
-                "支付",
-                "AR眼镜"
+                "配额调整",
+                "产品策略"
               ]
             }
           ]
         },
         {
           "name": "小米",
-          "news": [
-            {
-              "title": "小米 MiMo 桌面客户端开放邀测：生成完整预览界面，自主控制浏览器",
-              "summary": "9月8日消息，小米宣布 Xiaomi MiMo Desktop 桌面客户端正式开放邀测，面向真实工作场景，可直接读取表格、图片、视频、PDF 等各类文件，最终交付可继续编辑的成果；搭载 MiMo-X-Pro-Preview 和 MiMo-X-Flash-Preview 两款新一代模型。",
-              "time": "9月8日消息",
-              "link": "https://www.ithome.com/0/999/751.htm",
-              "source": "IT之家",
-              "tags": [
-                "产品",
-                "Agent"
-              ]
-            },
-            {
-              "title": "小米 18 Fold 首销大爆：万元档旗舰折叠屏较上代同比增长 310%",
-              "summary": "9月8日消息，小米集团副总裁许斐透露，Xiaomi 18 Fold 中折叠手机万元档旗舰首销较上代大折叠同比增长 310%，小米高管称「卖爆了」。",
-              "time": "9月8日消息",
-              "link": "https://www.ithome.com/0/999/626.htm",
-              "source": "IT之家",
-              "tags": [
-                "手机",
-                "销售数据"
-              ]
-            }
-          ]
+          "news": []
         },
         {
           "name": "智谱AI",
@@ -260,14 +292,14 @@ window.__RAW_DATA = {
           "name": "华为",
           "news": [
             {
-              "title": "华为 HarmonyOS 7 发布 24 小时：累计升级终端突破 500 万台",
-              "summary": "9月8日消息，华为官方宣布，鸿蒙 HarmonyOS 7 系统发布 24 小时后，累计升级终端设备数突破 500 万。系统主打空间美学与 Harmony Intelligence 智能架构，搭载系统级智能体小艺，已开启公测。",
-              "time": "9月8日消息",
-              "link": "https://www.ithome.com/0/999/895.htm",
+              "title": "消息称华为 Pura X View、Mate XT 2 非凡大师支持端侧本地大模型下载部署",
+              "summary": "9月9日消息，据爆料，华为 Pura X View 与 Mate XT 2 非凡大师将支持端侧本地大模型的下载与部署，用户可在设备上离线运行大模型能力。",
+              "time": "9月9日消息",
+              "link": "https://www.ithome.com/1/000/103.htm",
               "source": "IT之家",
               "tags": [
-                "操作系统",
-                "发布"
+                "端侧AI",
+                "鸿蒙"
               ]
             }
           ]
@@ -280,66 +312,151 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "字节跳动",
+              "title": "苹果",
               "news": [
                 {
-                  "title": "抖音7月使用时长首超微信，字节系占国内网民总时长40%",
-                  "summary": "9月8日消息，据野村《中国互联网和新媒体》月度报告，7月抖音单一用户月均使用时长首次超过微信，成为国内时长第一 App；字节系（抖音、豆包、红果、番茄、头条等）已占中国网民 40% 的使用时长。",
-                  "time": "9月8日消息",
-                  "link": "https://www.ithome.com/0/999/833.htm",
-                  "source": "IT之家",
-                  "tags": [
-                    "用户数据",
-                    "市场"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "微软",
-              "news": [
-                {
-                  "title": "微软纳德拉发布 Project Opal：用户只需提目标，AI 跑全流程交付成品",
-                  "summary": "9月8日消息，微软 CEO 纳德拉在 X 平台宣布为 Microsoft 365 Copilot 推出 Project Opal，定位为在可控安全环境中规划和执行复杂长周期任务的 AI 智能体，用户交代任务后可连续工作数小时到数天，自动完成「找素材→做表格→生成PPT→发给同事」等完整流程。",
-                  "time": "9月8日消息",
-                  "link": "https://www.ithome.com/0/999/797.htm",
-                  "source": "IT之家",
-                  "tags": [
-                    "Agent",
-                    "办公"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "面壁智能",
-              "news": [
-                {
-                  "title": "面壁智能开源 MiniCPM5-2B：4B 以下综合表现最优，初步实现端侧 Agent 雏形",
-                  "summary": "9月8日消息，面壁智能联合 OpenBMB 开源社区开源端侧基座模型 MiniCPM5-2B，仅 2B 参数，在真实任务评测中得分 891（人类基线 1000），居 4B 以下模型榜首，高于 Qwen3.5 9B 和 Gemma 4 12B，初步实现智能体能力雏形，MiniCPM 系列全球下载量已突破 5000 万次。",
-                  "time": "9月8日消息",
-                  "link": "https://m.21jingji.com/article/20260908/herald/4c092db67e21156ca424df9f669cd936.html",
-                  "source": "21财经",
-                  "tags": [
-                    "开源",
-                    "端侧模型"
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "高通",
-              "news": [
-                {
-                  "title": "高通与亚马逊宣布合作开发多代定制 AI 芯片，亚马逊获 40 亿美元认股权证",
-                  "summary": "9月9日消息，高通与亚马逊宣布建立数据中心基础设施合作伙伴关系，将合作「跨越多代定制芯片」以支持 AWS AI 推理基础设施；亚马逊获 2500 万股高通认股权证（约合 40 亿美元）。消息宣布后高通股价上涨 3%。",
+                  "title": "苹果 Siri AI 发布，支持中文但首发无缘中国大陆",
+                  "summary": "9月9日消息，苹果在秋季发布会上推出全新 Siri AI，接入大模型后支持上下文理解与跨应用任务执行，中文能力同步上线，但首发地区不含中国大陆。",
                   "time": "9月9日消息",
-                  "link": "https://news.sohu.com/a/1073672142_121948396",
-                  "source": "搜狐科技",
+                  "link": "https://www.ithome.com/1/000/496.htm",
+                  "source": "IT之家",
+                  "tags": [
+                    "语音助手",
+                    "产品发布"
+                  ]
+                },
+                {
+                  "title": "苹果发布 A20 Pro 芯片：2nm 制程，最快手机 CPU 核心，GPU 较前代快 40%",
+                  "summary": "9月9日消息，苹果发布 A20 Pro 芯片，采用 2nm 制程工艺，官方称其拥有最快的手机 CPU 核心，GPU 性能较前代提升 40%，为端侧 AI 提供更强算力。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/495.htm",
+                  "source": "IT之家",
                   "tags": [
                     "芯片",
+                    "端侧AI"
+                  ]
+                },
+                {
+                  "title": "苹果 Apple Watch Series 12 和 Ultra 4 发布：全新 AI 健康、对话摘要",
+                  "summary": "9月9日消息，苹果发布 Apple Watch Series 12 与 Ultra 4，新增 AI 健康分析与对话摘要能力，陶瓷表壳回归。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/506.htm",
+                  "source": "IT之家",
+                  "tags": [
+                    "可穿戴",
+                    "AI健康"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "三星",
+              "news": [
+                {
+                  "title": "消息称三星研发带显示屏的 AI 眼镜，预计最早明年下半年发布",
+                  "summary": "9月9日消息，据韩媒报道，三星正在研发一款带显示屏的 AI 眼镜，预计最早于明年下半年发布，将与 Galaxy 生态深度联动。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/452.htm",
+                  "source": "IT之家",
+                  "tags": [
+                    "智能硬件",
+                    "AI眼镜"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "京东",
+              "news": [
+                {
+                  "title": "京东建成十万卡智算集群，发布 JoyAI 世界模型",
+                  "summary": "9月9日消息，京东宣布已建成十万卡规模的智算集群，并发布 JoyAI 世界模型，面向供应链与零售场景提供仿真与决策能力。",
+                  "time": "9月9日消息",
+                  "link": "https://www.stdaily.com/web/gdxw/2026-09/09/content_578031.html",
+                  "source": "科技日报",
+                  "tags": [
                     "算力",
-                    "合作"
+                    "世界模型"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "中国联通",
+              "news": [
+                {
+                  "title": "中国联通与魅族合作发布「小魔方」AI 手机：4 英寸小方屏，主打全语音交互与端云协同",
+                  "summary": "9月9日消息，中国联通与魅族联合发布「小魔方」AI 手机，配备 4 英寸小方屏，主打全语音交互与端云协同能力。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/174.htm",
+                  "source": "IT之家",
+                  "tags": [
+                    "AI手机",
+                    "终端"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "蚂蚁百灵",
+              "news": [
+                {
+                  "title": "蚂蚁百灵发布首个金融增强模型 Ling-3.0-flash-Fin，API 限免一个月",
+                  "summary": "9月9日消息，蚂蚁集团百灵发布首个金融增强开放模型 Ling-3.0-flash-Fin，由蚂蚁携手中金公司打造，基于 124B 总参数 Ling-3.0-flash 强化金融语料与工具使用能力，聚焦信息检索、研究推理、估值建模、研报撰写四大投研场景，模型权重已开源，OpenRouter 限免一个月。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/0/995/464.htm",
+                  "source": "IT之家",
+                  "tags": [
+                    "金融大模型",
+                    "开源"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Suno",
+              "news": [
+                {
+                  "title": "Suno 发布 v6 系列 AI 音乐模型，新增多项能力",
+                  "summary": "9月9日消息，Suno 发布 v6 系列 AI 音乐生成模型，在音质、编曲结构与风格控制上新增多项能力。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/351.htm",
+                  "source": "IT之家",
+                  "tags": [
+                    "AI音乐",
+                    "模型发布"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "HyperAccel",
+              "news": [
+                {
+                  "title": "韩企 HyperAccel 4nm AI 芯片 Bertha 量产，面向数据中心推理",
+                  "summary": "9月9日消息，韩国芯片企业 HyperAccel 宣布其 4nm AI 芯片 Bertha 进入量产，面向数据中心推理场景，主打低功耗高能效比。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/314.htm",
+                  "source": "IT之家",
+                  "tags": [
+                    "AI芯片",
+                    "数据中心"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "中国气象局",
+              "news": [
+                {
+                  "title": "全球首个千亿级参数气象服务垂域模型「风和」V1.0 实现业务准入",
+                  "summary": "9月9日消息，中国气象局宣布全球首个千亿级参数的气象服务垂域模型「风和」V1.0 通过业务准入，正式投入气象服务应用。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/438.htm",
+                  "source": "IT之家",
+                  "tags": [
+                    "垂域大模型",
+                    "气象"
                   ]
                 }
               ]
@@ -350,17 +467,70 @@ window.__RAW_DATA = {
           "name": "具身智能",
           "cards": [
             {
-              "title": "蚂蚁百灵",
+              "title": "智元机器人",
               "news": [
                 {
-                  "title": "蚂蚁百灵 Ling-3.0-flash-VL 发布开源：124B MoE 原生多模态，引入视觉反馈闭环机制",
-                  "summary": "9月9日消息，蚂蚁集团推出并开源百灵系列首个原生多模态大模型 Ling-3.0-flash-VL，基于 Ling-3.0-flash MoE 架构，总参数 124B，单次推理激活 5.5B，原生支持图像、文本与视频，上下文 256K，引入「观察→行动→验证→修正」视觉反馈闭环机制。",
+                  "title": "智元发布 GE-Act 2.0：具身智能动作生成能力升级",
+                  "summary": "9月9日消息，智元机器人发布 GE-Act 2.0，在动作生成与任务泛化能力上实现升级，进一步提升机器人在开放场景下的操作成功率。",
                   "time": "9月9日消息",
-                  "link": "https://www.ithome.com/0/999/997.htm",
+                  "link": "https://finance.sina.com.cn/jjxw/2026-09-09/doc-inirfcpy8658885.shtml",
+                  "source": "新浪财经",
+                  "tags": [
+                    "具身智能",
+                    "动作生成"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "京东物流",
+              "news": [
+                {
+                  "title": "京东物流发布狼族机器人，计划五年部署 300 万台",
+                  "summary": "9月9日消息，京东物流发布狼族系列机器人，并宣布未来五年部署 300 万台的计划，覆盖仓储、分拣与末端配送环节。",
+                  "time": "9月9日消息",
+                  "link": "https://news.qq.com/rain/a/20260909A09N3V00",
+                  "source": "腾讯新闻",
+                  "tags": [
+                    "物流机器人",
+                    "规模化"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "万勋科技",
+              "news": [
+                {
+                  "title": "万勋科技发布 NOVA2.0 柔性具身大脑",
+                  "summary": "9月9日消息，万勋科技发布行业首个开放世界全天候商业交付级具身智能架构 NOVA2.0 柔性具身大脑，面向真实商业场景交付。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/335.htm",
                   "source": "IT之家",
                   "tags": [
-                    "开源",
-                    "多模态"
+                    "具身智能",
+                    "架构发布"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "自动驾驶",
+          "cards": [
+            {
+              "title": "智己汽车",
+              "news": [
+                {
+                  "title": "智己认领「没有方向盘的车」，基于全新一代 LS6 同源技术打造",
+                  "summary": "9月9日消息，智己汽车正式认领此前曝光的「没有方向盘的车」，该车型基于全新一代 LS6 同源技术打造，面向完全无人驾驶场景。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/151.htm",
+                  "source": "IT之家",
+                  "tags": [
+                    "自动驾驶",
+                    "无人车"
                   ]
                 }
               ]
@@ -371,17 +541,49 @@ window.__RAW_DATA = {
           "name": "投资资讯",
           "cards": [
             {
-              "title": "Mistral AI D 轮",
+              "title": "燧原科技",
               "news": [
                 {
-                  "title": "Mistral AI 完成 30 亿欧元 D 轮：三星领投，估值超 210 亿欧元",
-                  "summary": "9月8日消息，欧洲 AI 独角兽 Mistral AI 完成 30 亿欧元 D 轮融资，三星电子领投，投后估值超 210 亿欧元。",
-                  "time": "9月8日消息",
-                  "link": "https://www.ithome.com/0/999/657.htm",
-                  "source": "IT之家",
+                  "title": "国产 GPU 头部企业燧原科技将于 9 月 11 日登陆科创板",
+                  "summary": "9月10日消息，国产 GPU 企业燧原科技公告将于 9 月 11 日登陆科创板，成为又一家上市的国产算力芯片厂商。",
+                  "time": "9月10日消息",
+                  "link": "https://finance.sina.com.cn/roll/2026-09-10/doc-iniriaey5407527.shtml",
+                  "source": "新浪财经",
+                  "tags": [
+                    "IPO",
+                    "AI芯片"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "无问智科",
+              "news": [
+                {
+                  "title": "无问智科完成数亿元 A 轮融资，加速打造物理 AI 数据基座",
+                  "summary": "9月9日消息，无问智科宣布完成数亿元 A 轮融资，资金将用于物理 AI 数据基座的建设，为自动驾驶与具身智能提供训练数据支撑。",
+                  "time": "9月9日消息",
+                  "link": "https://finance.people.com.cn/n1/2026/0909/c1004-40795676.html",
+                  "source": "人民网财经",
                   "tags": [
                     "融资",
-                    "欧洲AI"
+                    "物理AI"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "风峦教育",
+              "news": [
+                {
+                  "title": "风峦教育获数千万元天使+轮融资",
+                  "summary": "9月9日消息，教育机器人企业风峦教育宣布获得数千万元人民币天使+轮融资，鸿瑞达投资、怡达基金参与投资。",
+                  "time": "9月9日消息",
+                  "link": "https://sina.cn/news/detail/5341243670266288.html",
+                  "source": "新浪",
+                  "tags": [
+                    "融资",
+                    "教育机器人"
                   ]
                 }
               ]
@@ -392,49 +594,82 @@ window.__RAW_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "英矽智能",
+              "title": "缪延亮",
               "news": [
                 {
-                  "title": "英矽智能 AI 药物 Rentosertib 登《自然·生物技术》：全球首个 AI 发现药物逆转衰老时钟",
-                  "summary": "9月8日消息，英矽智能与合作团队在《自然·生物技术》发表研究，AI 设计的肺纤维化药物 Rentosertib 在临床试验中让受试者预测生物学年龄年轻最多 6 岁，是全球首个进入临床并完成抗衰老评估的 AI 发现创新药，Ⅲ期临床将于本周在北京协和医院首例患者给药。英矽智能当日港股涨超 12%。",
-                  "time": "9月8日消息",
-                  "link": "https://www.thepaper.cn/newsDetail_forward_34029454",
-                  "source": "澎湃新闻",
+                  "title": "中金首席经济学家缪延亮建言：可考虑适度征收「自动化税」「机器人税」或「AI 税」",
+                  "summary": "9月9日消息，中金公司首席经济学家缪延亮在公开演讲中建言，面对 AI 与自动化对就业结构的冲击，可考虑适度征收「自动化税」「机器人税」或「AI 税」，为再分配与技能转型提供资金。",
+                  "time": "9月9日消息",
+                  "link": "https://finance.sina.com.cn/hy/hyjz/2026-09-09/doc-inirfivu5746964.shtml",
+                  "source": "新浪财经",
                   "tags": [
-                    "AI+医疗",
-                    "长寿药物"
+                    "观点",
+                    "就业",
+                    "税收"
                   ]
                 }
               ]
             },
             {
-              "title": "OECD",
+              "title": "脉脉 CEO 林凡",
               "news": [
                 {
-                  "title": "OECD 报告：少用 AI 完成课业的学生成绩更好，AI 或对儿童学习产生负面影响",
-                  "summary": "9月8日消息，OECD 最新教育报告显示，不使用或较少使用 AI 聊天机器人完成课业的学生整体表现优于常用 AI 者——从不使用 AI 写作的学生科学平均 509 分，每天使用者仅 481 分，差距约相当于一年半教学时间，即使控制社会经济因素后差距仍存。",
-                  "time": "9月8日消息",
-                  "link": "https://www.ithome.com/0/999/909.htm",
+                  "title": "脉脉 CEO 林凡：明年科技公司将只招 AI 人才，白领绝大部分工作都可以用 Coding Agent 实现",
+                  "summary": "9月9日消息，脉脉 CEO 林凡表示，明年科技公司将只招 AI 人才，白领绝大部分工作都可以用 Coding Agent 实现。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/237.htm",
                   "source": "IT之家",
                   "tags": [
-                    "AI教育",
-                    "行业观点"
+                    "观点",
+                    "就业"
                   ]
                 }
               ]
             },
             {
-              "title": "Arm CEO",
+              "title": "唐家三少",
               "news": [
                 {
-                  "title": "Arm CEO：AI 有望帮助人类攻克癌症，但算力供应是最大瓶颈",
-                  "summary": "9月8日消息，Arm CEO 雷内·哈斯接受 BBC 采访时表示，AI 真正颠覆性的应用在医疗健康，有望缩短药物研发和测试周期甚至攻克癌症；但当前最大挑战是生产足够多芯片以提供所需算力。",
-                  "time": "9月8日消息",
-                  "link": "https://www.ithome.com/0/999/715.htm",
+                  "title": "唐家三少痛批「AI 泔水」：网络文学成 AI 洗稿重灾区，48 小时能生成 500 万字",
+                  "summary": "9月9日消息，作家唐家三少公开痛批「AI 泔水」，称网络文学已成为 AI 洗稿的重灾区，AI 可在 48 小时内生成 500 万字内容。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/144.htm",
                   "source": "IT之家",
                   "tags": [
-                    "行业观点",
-                    "算力"
+                    "观点",
+                    "内容生态"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "商务部",
+              "news": [
+                {
+                  "title": "商务部回应美方所谓 AI 蒸馏指控：于事无凭于法无据，典型双重标准",
+                  "summary": "9月9日消息，商务部就美方提出的 AI「蒸馏」指控作出回应，称相关指责于事无凭、于法无据，是典型的双重标准。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/456.htm",
+                  "source": "IT之家",
+                  "tags": [
+                    "监管",
+                    "国际关系"
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "米哈游",
+              "news": [
+                {
+                  "title": "米哈游《原神》角色声音被「偷」获赔 75 万元，上海首例涉 AI 声音仿冒不正当竞争案宣判",
+                  "summary": "9月9日消息，上海首例涉 AI 声音仿冒不正当竞争案宣判，米哈游因《原神》角色声音被 AI 仿冒使用获赔 75 万元。",
+                  "time": "9月9日消息",
+                  "link": "https://www.ithome.com/1/000/573.htm",
+                  "source": "IT之家",
+                  "tags": [
+                    "AI版权",
+                    "司法"
                   ]
                 }
               ]
@@ -447,7 +682,7 @@ window.__RAW_DATA = {
       "platforms": [
         {
           "name": "LMArena",
-          "date": "2026-09-09",
+          "date": "2026-09-10",
           "link": "https://lmarena.ai/leaderboard/text",
           "rankings": [
             {
@@ -458,32 +693,32 @@ window.__RAW_DATA = {
             {
               "model": "claude-opus-4-6-high",
               "score": "1505",
-              "change": "+6"
+              "change": "+4"
             },
             {
               "model": "claude-fable-5.1-max",
               "score": "1504",
-              "change": "+14"
+              "change": "+11"
             },
             {
               "model": "claude-opus-4-7-high",
               "score": "1502",
-              "change": "+9"
+              "change": "+4"
             },
             {
               "model": "muse-spark-1.2 (xHigh)",
               "score": "1499",
-              "change": "+17"
+              "change": "+10"
             },
             {
               "model": "claude-opus-4-6",
               "score": "1498",
-              "change": "+11"
+              "change": "+3"
             },
             {
               "model": "claude-opus-4-7",
               "score": "1494",
-              "change": "+14"
+              "change": "+4"
             },
             {
               "model": "gemini-3.8-flash-high",
@@ -493,156 +728,222 @@ window.__RAW_DATA = {
             {
               "model": "claude-opus-5-high",
               "score": "1493",
-              "change": "+17"
+              "change": "+5"
             },
             {
               "model": "muse-spark-1.1",
               "score": "1492",
-              "change": "+17"
+              "change": "+5"
             },
             {
               "model": "gemini-3.7-flash-high",
               "score": "1491",
-              "change": "+25"
+              "change": "+8"
             },
             {
               "model": "kimi-k3-max",
               "score": "1489",
-              "change": "+25"
+              "change": "+5"
             },
             {
               "model": "muse-spark",
               "score": "1488",
-              "change": "+25"
+              "change": "+6"
             },
             {
               "model": "claude-opus-5-max",
               "score": "1488",
-              "change": "+25"
+              "change": "+6"
             },
             {
               "model": "gemini-3.1-pro-preview",
               "score": "1487",
-              "change": "+24"
+              "change": "+3"
             },
             {
               "model": "gemini-3-pro",
               "score": "1486",
-              "change": "+25"
+              "change": "+4"
             },
             {
               "model": "gpt-5.6-sol-xhigh",
               "score": "1483",
-              "change": "+32"
+              "change": "+5"
             },
             {
               "model": "claude-opus-4-8-high",
               "score": "1482",
-              "change": "+32"
+              "change": "+4"
             },
             {
               "model": "gpt-5.5-high",
               "score": "1482",
-              "change": "+32"
+              "change": "+4"
             },
             {
               "model": "glm-5.3-max",
               "score": "1482",
-              "change": "+38"
+              "change": "+7"
             }
           ]
         },
         {
           "name": "OpenRouter",
-          "date": "2026-09-09",
+          "date": "2026-09-10",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "Hy4 preview",
-              "score": "18.7T tokens",
-              "change": "+228%"
+              "score": "19.7T tokens",
+              "change": "+147%"
             },
             {
               "model": "GPT-5.6 Luna",
-              "score": "14.5T tokens",
-              "change": "+52%"
-            },
-            {
-              "model": "DeepSeek V4 Flash 0731",
-              "score": "12.4T tokens",
-              "change": "+3%"
+              "score": "12.9T tokens",
+              "change": "+11%"
             },
             {
               "model": "GLM 5.3 Flash",
-              "score": "12.2T tokens",
-              "change": "+22%"
+              "score": "12.3T tokens",
+              "change": "+8%"
+            },
+            {
+              "model": "DeepSeek V4 Flash 0731",
+              "score": "12.3T tokens",
+              "change": "+8%"
             },
             {
               "model": "DeepSeek V4 Flash 0423",
-              "score": "4.99T tokens",
-              "change": "+3%"
-            },
-            {
-              "model": "MiniMax M3 (free)",
-              "score": "4.33T tokens",
-              "change": "+15%"
-            },
-            {
-              "model": "Hy3",
-              "score": "3.72T tokens",
-              "change": "+37%"
-            },
-            {
-              "model": "Nemotron 3 Ultra (free)",
-              "score": "3.7T tokens",
-              "change": "+20%"
+              "score": "4.84T tokens",
+              "change": "+7%"
             },
             {
               "model": "MiMo-V2.5",
-              "score": "3.41T tokens",
-              "change": "+53%"
+              "score": "4.19T tokens",
+              "change": "+31%"
+            },
+            {
+              "model": "Nemotron 3 Ultra (free)",
+              "score": "3.63T tokens",
+              "change": "+18%"
+            },
+            {
+              "model": "Hy3",
+              "score": "3.56T tokens",
+              "change": "+36%"
+            },
+            {
+              "model": "MiniMax M3 (free)",
+              "score": "3.43T tokens",
+              "change": "+25%"
             },
             {
               "model": "GLM 5.3",
-              "score": "3.4T tokens",
-              "change": "+110%"
+              "score": "3.27T tokens",
+              "change": "+73%"
             }
           ]
         },
         {
           "name": "Product Hunt",
-          "date": "2026-09-08",
+          "date": "2026-09-10",
           "link": "https://www.producthunt.com/",
           "rankings": [
             {
-              "name": "Switch",
-              "category": "Developer Tools",
+              "name": "Mastra Factory",
+              "category": "Open Source",
               "rank": 1,
-              "link": "https://www.producthunt.com/posts/switch-9"
+              "link": "https://mastra.ai/factory"
             },
             {
-              "name": "Widgo",
-              "category": "Sales",
+              "name": "Harden",
+              "category": "Developer Tools",
               "rank": 2,
-              "link": "https://www.widgo.ai"
+              "link": "https://harden.run"
             },
             {
-              "name": "Kombai Gallery",
+              "name": "ChatGPT Images 2.5",
               "category": "Design Tools",
               "rank": 3,
-              "link": "https://kombai.com/gallery/web/"
+              "link": "https://openai.com/index/introducing-chatgpt-images-2-5/"
             },
             {
-              "name": "OpenMarket",
-              "category": "Artificial Intelligence",
+              "name": "Noodle Seed",
+              "category": "SaaS",
               "rank": 4,
-              "link": "https://openmarket.xyz"
+              "link": "https://noodleseed.com"
             },
             {
-              "name": "Knockin",
-              "category": "Artificial Intelligence",
+              "name": "Muse by Meta",
+              "category": "Android",
               "rank": 5,
-              "link": "https://www.producthunt.com/posts/knockin"
+              "link": "https://muse.ai"
+            },
+            {
+              "name": "Ass Auction",
+              "category": "Funny",
+              "rank": 6,
+              "link": "https://www.producthunt.com/products/ass-auction"
+            },
+            {
+              "name": "AlphaGenome Atlas",
+              "category": "Health & Fitness",
+              "rank": 7,
+              "link": "https://deepmind.google.com/science/alphagenome/atlas"
+            },
+            {
+              "name": "DuckFightClub",
+              "category": "Robots",
+              "rank": 8,
+              "link": "https://www.producthunt.com/products/duckfightclub"
+            },
+            {
+              "name": "49agents IDE",
+              "category": "Open Source",
+              "rank": 9,
+              "link": "https://49agents.com"
+            },
+            {
+              "name": "GoModel",
+              "category": "Open Source",
+              "rank": 10,
+              "link": "https://github.com/ENTERPILOT/GoModel"
+            },
+            {
+              "name": "Type.com",
+              "category": "Productivity",
+              "rank": 11,
+              "link": "https://type.com"
+            },
+            {
+              "name": "Diiverge",
+              "category": "Artificial Intelligence",
+              "rank": 12,
+              "link": "https://diiverge.co"
+            },
+            {
+              "name": "Basedash in Español Français & Português",
+              "category": "Data & Analytics",
+              "rank": 13,
+              "link": "https://www.basedash.com"
+            },
+            {
+              "name": "AdScope",
+              "category": "Analytics",
+              "rank": 14,
+              "link": "https://www.producthunt.com/products/adscope/launches/adscope"
+            },
+            {
+              "name": "WorkID.ai",
+              "category": "Hiring",
+              "rank": 15,
+              "link": "https://workid.ai"
+            },
+            {
+              "name": "Frigade Assist API",
+              "category": "Customer Success",
+              "rank": 16,
+              "link": "https://frigade.com/assist-api"
             }
           ]
         }
