@@ -107,54 +107,123 @@ const VENDOR_DISPLAY = {
     }
 }
 const NEWS_DATA = {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "sections": {
     "overseas": {
       "vendors": [
         {
           "name": "OpenAI",
-          "news": []
-        },
-        {
-          "name": "Anthropic",
-          "news": []
-        },
-        {
-          "name": "Google",
           "news": [
             {
-              "title": "谷歌将发射试验卫星 MVP，可在太空处理 AI 查询",
-              "summary": "9月24日消息，据《华尔街日报》报道，谷歌计划于当地时间10月1日将实验卫星 MVP 送入轨道。MVP 属于谷歌「Project Suncatcher」计划，搭载4枚 TPU，具备足够算力直接在太空中处理并回答简单的 AI 查询，旨在验证将 AI 数据中心部署到太空、利用太阳能供电的可行性。",
-              "link": "https://baijiahao.baidu.com/s?id=1877219178550988206",
+              "title": "曝 OpenAI 正筹备 ChatGPT Pro Max 订阅层级，月费或达 500-600 美元",
+              "summary": "9月25日消息，开发者 Tibor Blaho 通过 ChatGPT 网页端源代码发现 PROMAX 相关字段，推测 OpenAI 正筹备更高阶的 ChatGPT Pro 订阅方案，月费或达 500-600 美元，有望成为市面最贵的 AI 订阅服务之一。此前 OpenAI 已暂停 200 美元的 ChatGPT Pro 订阅以缓解系统压力，产品名称、功能及最终定价仍存较大不确定性。",
+              "link": "https://www.163.com/dy/article/L7LVPT410511B8LM.html",
               "tags": [
-                "太空算力",
-                "AI芯片"
+                "订阅",
+                "定价"
               ],
-              "source": "新浪财经",
-              "time": "9月24日消息"
+              "source": "网易",
+              "time": "9月25日消息"
+            },
+            {
+              "title": "OpenAI 内部 AI 智能体曾将 53 张用户图片发布到互联网",
+              "summary": "9月26日消息，OpenAI 披露一起此前未公开的安全事件：研究环境中的 AI 智能体曾将用户上传的 53 张图片发布到公开图片托管网站，公司事先并不知情。这些图片虽非以公开索引形式发布，但获得链接即可访问，部分图片目前仍可在互联网上找到，OpenAI 正与托管方合作删除。",
+              "link": "https://www.163.com/dy/article/L7O1UER80511BLFD.html",
+              "tags": [
+                "安全",
+                "AI Agent"
+              ],
+              "source": "网易",
+              "time": "9月26日消息"
             }
           ]
         },
         {
-          "name": "xAI",
+          "name": "Anthropic",
+          "news": [
+            {
+              "title": "Anthropic 与 Akamai 达成 7 年 116 亿美元协议扩充 CPU 算力",
+              "summary": "9月25日消息，Akamai 当地时间24日宣布大幅扩展与 Anthropic 的合作，签署为期 7 年、价值 116 亿美元的合同，以其分布式 AI 基础设施满足 Anthropic 日益增长的 CPU 工作负载需求。Akamai 还向 Anthropic 发行认股权证，允许其购买至多 5% 的普通股，其中 2% 与本次承诺绑定。",
+              "link": "https://fund.eastmoney.com/a/202609253884223713.html",
+              "tags": [
+                "算力",
+                "合作"
+              ],
+              "source": "东方财富",
+              "time": "9月25日消息"
+            },
+            {
+              "title": "Anthropic 为 Claude 上线「限时免费额度重置」功能",
+              "summary": "9月26日消息，Anthropic 宣布为 Claude 上线「限时免费额度重置」功能，允许用户免费手动重置每周使用额度，但每位用户仅可使用一次，功能预计开放至 10 月 22 日。若同时触及 5 小时使用上限，该限制也会一并重置，但重置不会改变原有的额度刷新周期。",
+              "link": "https://www.sohu.com/a/1080981927_114760",
+              "tags": [
+                "额度",
+                "Claude"
+              ],
+              "source": "搜狐",
+              "time": "9月26日消息"
+            }
+          ]
+        },
+        {
+          "name": "Google",
           "news": []
         },
         {
+          "name": "xAI",
+          "news": [
+            {
+              "title": "马斯克押注超大规模 AI 算力，xAI 计划部署逾 120 万颗英伟达 GPU",
+              "summary": "马斯克旗下 xAI 正进一步扩大数据中心规模，计划未来几年部署超过 120 万颗英伟达 AI GPU，用于训练和运行下一代 Grok 模型。不过 120 万颗 GPU 仍是未来目标而非已部署数量，数据中心建设、GPU 供应、电力与资金投入都会影响最终部署速度。",
+              "link": "https://www.163.com/dy/article/L7N8BTGC0511BLFD.html",
+              "tags": [
+                "算力",
+                "Grok"
+              ],
+              "source": "网易",
+              "time": "9月26日消息"
+            }
+          ]
+        },
+        {
           "name": "NVIDIA",
-          "news": []
+          "news": [
+            {
+              "title": "黄仁勋谈「AI 让孩子淡忘基础数学」：这不是问题",
+              "summary": "英伟达 CEO 黄仁勋接受《纽约时报》采访时回应外界对「AI 让孩子淡忘基础数学」的担忧，认为因 AI 而忘记基础数学知识无关紧要，坦言自己甚至记不住家庭地址和电话号码，暗示记忆性知识正逐渐让位于 AI 工具。",
+              "link": "https://finance.sina.com.cn/stock/t/2026-09-25/doc-iniszrua9498752.shtml",
+              "tags": [
+                "观点",
+                "AI教育"
+              ],
+              "source": "新浪财经",
+              "time": "9月25日消息"
+            }
+          ]
         },
         {
           "name": "Meta",
           "news": [
             {
-              "title": "Meta AI 智能体 Muse 被曝可导出虚拟机大量文件",
-              "summary": "9月25日消息，科技媒体 MacObserver 报道，Meta 的 AI 智能体 Muse 被发现在简单提示词下即可打包并返回用户虚拟机中的大量 Linux 文件，包括系统文件、应用模板、内部运行文档、Markdown 与 JSON 文件等。两名开发者已独立复现该问题，导出的文件可能暴露 Muse 的请求处理、记忆保存和服务连接等内部运行机制。",
-              "link": "https://it.sohu.com/a/1080892790_114984",
+              "title": "Muse 大火，扎克伯格跃升为全球第四大富豪",
+              "summary": "据《福布斯》报道，当地时间9月24日，Meta CEO 扎克伯格身家超越戴尔科技董事长迈克尔·戴尔，成为全球第四大富豪，净资产估计达 2664 亿美元。自本月初发布自主 AI 助手 Muse 以来 Meta 股价持续反弹，Muse 累计下载量已超 250 万次。",
+              "link": "https://finance.sina.com.cn/tech/digi/2026-09-25/doc-iniszfec7805733.shtml",
               "tags": [
-                "安全",
-                "AI Agent"
+                "Muse",
+                "股价"
               ],
-              "source": "搜狐",
+              "source": "新浪财经",
+              "time": "当地时间9月24日"
+            },
+            {
+              "title": "上半年全球 AI 眼镜出货量暴涨 263%，Meta 独占 94% 份额",
+              "summary": "Counterpoint Research 数据显示，2026 年上半年全球 AI 眼镜出货量同比大涨 263%，其中无显示屏 AI 眼镜占 96%，持续主导市场。Meta 在无显示屏 AI 眼镜赛道独占约 94% 份额，AR&AI 眼镜细分品类同比增速高达 449%，中国厂商在 AR 细分市场商业化更活跃。",
+              "link": "https://news.qq.com/rain/a/20260925A02WY100",
+              "tags": [
+                "AI眼镜",
+                "出货"
+              ],
+              "source": "腾讯新闻",
               "time": "9月25日消息"
             }
           ]
@@ -173,23 +242,23 @@ const NEWS_DATA = {
         },
         {
           "name": "DeepSeek",
-          "news": []
+          "news": [
+            {
+              "title": "DeepSeek Harness 官方桌面版预览上线",
+              "summary": "DeepSeek Harness 悄然上线官方桌面版，目前为开发者预览版（V0.1.7-rc.2）。桌面版已是一套完整 GUI，登录 DeepSeek 账号或添加 API Key 即可使用，内置智能体团队、语音输入、终端、Agent 循环、Subagent 和网页搜索 6 个官方插件，支持标准、PTC、极简、创造四种工作模式。",
+              "link": "https://www.36kr.com/p/3998199345500040",
+              "tags": [
+                "桌面版",
+                "Agent"
+              ],
+              "source": "36氪",
+              "time": "9月26日消息"
+            }
+          ]
         },
         {
           "name": "腾讯",
-          "news": [
-            {
-              "title": "腾讯 WorkBuddy 上线微信小程序发布能力",
-              "summary": "9月24日消息，腾讯 WorkBuddy 上线微信小程序发布能力，用户只需用自然语言描述需求，即可在 WorkBuddy 内完成小程序的生成、预览和发布全流程，全程无需编写代码，并自带数据库、登录认证和文件存储等云服务，进一步降低个人开发者搭建和上线小程序的门槛。",
-              "link": "https://news.qq.com/rain/a/20260924A0AU2900",
-              "tags": [
-                "小程序",
-                "AI编程"
-              ],
-              "source": "腾讯新闻",
-              "time": "9月24日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "小米",
@@ -201,23 +270,23 @@ const NEWS_DATA = {
         },
         {
           "name": "月之暗面",
-          "news": [
-            {
-              "title": "消息称月之暗面 Kimi K3.1 模型下月登场",
-              "summary": "9月23日消息，据科技媒体 Wccftech 报道，月之暗面正酝酿推出 Kimi K3.1 模型，将提供 Low、High、Max 三档推理强度，预计于 2026 年 10 月登场。作为 Kimi 系列的最新迭代，K3.1 有望在推理能力与可调推理强度方面带来提升，进一步丰富月之暗面的模型产品线。",
-              "link": "https://www.donews.com/news/detail/8/6722840.html",
-              "tags": [
-                "大模型",
-                "推理"
-              ],
-              "source": "DoNews",
-              "time": "9月23日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "华为",
-          "news": []
+          "news": [
+            {
+              "title": "华为麒麟 9035 芯片本月登场，Mate 90 Pro 首发搭载",
+              "summary": "9月25日消息，有博主披露华为 Mate 90 Pro 将首发搭载麒麟 9035 芯片，该机还将采用双层 OLED 屏幕。麒麟 9035 保留麒麟 9030 系列原始规模并提频优化，双层 OLED 屏采用垂直堆叠的双层 RGB 发光单元结构，可使屏幕亮度翻倍并延缓材料老化。",
+              "link": "https://news.mydrivers.com/1/1153/1153963.htm",
+              "tags": [
+                "麒麟",
+                "Mate 90"
+              ],
+              "source": "快科技",
+              "time": "9月25日消息"
+            }
+          ]
         }
       ]
     },
@@ -227,18 +296,18 @@ const NEWS_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "亚马逊",
+              "title": "苹果",
               "news": [
                 {
-                  "title": "亚马逊斥资超 1 亿美元在美国新建机器人工厂",
-                  "summary": "9月24日消息，据《华尔街日报》报道，亚马逊宣布投资超过1亿美元（约合6.72亿元人民币），在美国印第安纳州格林伍德建设一座新的机器人制造工厂，预计2028年投入运营。这是继上月宣布在得州奥斯汀建设机器人制造中心后的又一扩产动作，建成后亚马逊旗下机器人制造工厂数量将从两座增至四座。",
-                  "link": "https://baijiahao.baidu.com/s?id=1877223299404080484",
+                  "title": "苹果公布全产品线端侧 AI 能力矩阵，iPhone 18 Pro 最高跑 140 亿参数",
+                  "summary": "@aaronp613 在 X 平台发布推文称，Jamf 用户大会（JNUC）上苹果公布一张端侧 AI 推理能力对比图表，展示从 iPhone、iPad 到 Mac Studio 集群完整硬件梯队的本地 AI 上限，其中 iPhone 18 Pro 等机型最高可运行 140 亿参数的激活模型。",
+                  "link": "https://www.ithome.com/1/007/155.htm",
                   "tags": [
-                    "机器人",
-                    "自动化"
+                    "端侧AI",
+                    "iPhone 18"
                   ],
-                  "source": "新浪财经",
-                  "time": "9月24日消息"
+                  "source": "IT之家",
+                  "time": "9月25日消息"
                 }
               ]
             }
@@ -252,17 +321,33 @@ const NEWS_DATA = {
           "name": "具身智能",
           "cards": [
             {
-              "title": "四足机器人",
+              "title": "特斯拉",
               "news": [
                 {
-                  "title": "上半年全球四足机器人出货约 3.5 万台",
-                  "summary": "9月24日消息，据 Counterpoint Research 当地时间21日发布的报告，2026 年上半年全球四足机器人出货规模达约 3.5 万台，已达 2025 全年水平的四分之三，其中 40% 面向垂直工业应用。中国厂商继续主导市场，宇树科技、智元酷拓、智身科技、云深处科技四家企业占据多数份额。",
-                  "link": "https://baijiahao.baidu.com/s?id=1876907755963778061",
+                  "title": "曝特斯拉 Optimus 产量扩至原有规模约 10 倍",
+                  "summary": "The Information 报道称，特斯拉近几个月已将 Optimus 人形机器人产量扩大到原来的约 10 倍，上个月每周可生产数百台，但稳定规模化生产难题仍未解决。特斯拉计划年底前建成可连续运行的自动化产线，将每周产能提升至 1000 台以上，初期拟向外部客户出租而非直接销售。",
+                  "link": "https://www.163.com/dy/article/L7S4SP3A0519C6T9.html",
                   "tags": [
-                    "四足机器人",
-                    "出货"
+                    "Optimus",
+                    "量产"
                   ],
-                  "source": "新浪财经",
+                  "source": "网易",
+                  "time": "9月26日消息"
+                }
+              ]
+            },
+            {
+              "title": "宇树科技",
+              "news": [
+                {
+                  "title": "宇树王兴兴：机器人核心瓶颈是能否解决几毫米的工作误差",
+                  "summary": "9月24日，第五届全球数字贸易博览会在杭州举行，宇树科技创始人王兴兴发表主题演讲。他认为具身智能赛道未来必将迎来「ChatGPT 时刻」，目前最大问题是 AI 模型的输入输出与真实物理世界精准匹配度不足，机器人工作会有几毫米误差，谁解决这个问题机器人的问题就完全解决。",
+                  "link": "https://www.sohu.com/a/1080992014_120084481",
+                  "tags": [
+                    "具身智能",
+                    "观点"
+                  ],
+                  "source": "搜狐",
                   "time": "9月24日消息"
                 }
               ]
@@ -275,28 +360,28 @@ const NEWS_DATA = {
         },
         {
           "name": "投资资讯",
-          "cards": []
-        },
-        {
-          "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "李佳琦",
+              "title": "Solidigm",
               "news": [
                 {
-                  "title": "李佳琦称直播电商离不开真人主播，AI 无法取代",
-                  "summary": "9月24日消息，外媒关注中国直播带货行业，李佳琦表示，尽管行业增长放缓、AI 正在重塑直播电商领域，但直播电商未来依然离不开像他这样的真人主播。他的观点反映了行业对 AI 与真人主播关系的判断：AI 可作为辅助工具提升效率，但真人主播的信任感与互动性难以被完全替代。",
-                  "link": "https://news.qq.com/rain/a/20260924A07Z1400",
+                  "title": "SK 海力士旗下 Solidigm 最快明年在美 IPO，估值或高达 1500 亿美元",
+                  "summary": "据路透援引知情人士透露，SK 海力士旗下美国子公司 Solidigm 正在评估上市计划，潜在估值最高达 1500 亿美元，有望成为美国半导体史上规模最大 IPO。Solidigm 本周已与多家投行举行竞标会议，目标募资约 150 亿美元，计划最早明年完成上市。",
+                  "link": "https://www.163.com/dy/article/L7NCON680519QIKK.html",
                   "tags": [
-                    "直播电商",
-                    "AI应用"
+                    "IPO",
+                    "半导体"
                   ],
-                  "source": "腾讯新闻",
-                  "time": "9月24日消息"
+                  "source": "网易",
+                  "time": "9月26日消息"
                 }
               ]
             }
           ]
+        },
+        {
+          "name": "行业趋势&观点",
+          "cards": []
         }
       ]
     },
