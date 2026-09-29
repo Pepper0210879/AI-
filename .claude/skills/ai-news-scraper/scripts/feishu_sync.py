@@ -146,13 +146,24 @@ class FeishuBitable:
         }
 
     def list_tables(self):
-        r = requests.get(
-            f"{self.BASE}/bitable/v1/apps/{self.app_token}/tables",
-            headers=self._headers(), timeout=30)
-        data = r.json()
-        if data.get("code") != 0:
-            raise RuntimeError(f"列出表失败: {data}")
-        return data["data"]["items"]
+        """列出全部表（自动翻页，飞书 API 单页有数量上限）"""
+        items = []
+        page_token = None
+        while True:
+            params = {"page_size": 100}
+            if page_token:
+                params["page_token"] = page_token
+            r = requests.get(
+                f"{self.BASE}/bitable/v1/apps/{self.app_token}/tables",
+                headers=self._headers(), params=params, timeout=30)
+            data = r.json()
+            if data.get("code") != 0:
+                raise RuntimeError(f"列出表失败: {data}")
+            items.extend(data["data"].get("items") or [])
+            if not data["data"].get("has_more"):
+                break
+            page_token = data["data"].get("page_token")
+        return items
 
     def create_table(self, name, fields):
         """创建一张新表，返回 table_id"""
