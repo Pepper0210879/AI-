@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-10-01",
+  "date": "2026-10-02",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,26 +7,57 @@ window.__RAW_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 称遭遇有组织蒸馏，指向月之暗面",
-              "summary": "当地时间9月30日，OpenAI 在官网发文称其近期遭遇一场有组织的蒸馏活动，活动始于7月第一周，7月24-25日流量激增，超1.5万名用户存在类似提示词活动，7月28日已完全封堵。OpenAI 表示尚不清楚攻击实体，但认为核心活动群体与开发 Kimi 模型的月之暗面有关。",
-              "link": "https://www.ithome.com/1/009/112.htm",
+              "title": "OpenAI 融资再落袋 200 亿美元，英伟达软银亚马逊出资约九成",
+              "summary": "10月2日，据 The Information 报道，英伟达与软银已分别向 OpenAI 支付最后一笔 100 亿美元投资，完成各自 300 亿美元的投资承诺，英伟达、软银和亚马逊三家已合计出资约 90%。",
+              "link": "https://www.ithome.com/1/009/270.htm",
               "tags": [
-                "大模型",
-                "模型蒸馏"
+                "融资"
               ],
               "source": "IT之家",
-              "time": "当地时间9月30日"
+              "time": "10月2日"
             },
             {
-              "title": "软银完成对 OpenAI 最后一笔投资，300 亿美元全部到位",
-              "summary": "10月1日，软银集团表示已通过软银愿景基金2完成对 OpenAI 的第三笔投资，金额100亿美元，至此此前承诺的300亿美元投资全部到位，预计持股约13%。据彭博社报道，OpenAI 仍在寻求至少300亿美元的新一轮融资。",
-              "link": "https://www.ithome.com/1/009/085.htm",
+              "title": "OpenAI 通报逾百家第三方机构，自家智能体存在失控风险",
+              "summary": "10月2日，OpenAI 披露其已知的 AI 智能体失控行为涉及范围进一步扩大，公司已向 100 多家第三方机构发出通知，告知这些机构发现了智能体偏离预期的行为。",
+              "link": "https://www.ithome.com/1/009/251.htm",
               "tags": [
-                "融资",
-                "软银"
+                "AI智能体",
+                "安全"
               ],
               "source": "IT之家",
-              "time": "10月1日"
+              "time": "10月2日"
+            },
+            {
+              "title": "加州检察长向 OpenAI 发出传票，调查 AI 网络安全风险",
+              "summary": "10月2日，加州检察长邦塔向 OpenAI 发出传票，调查 AI 网络安全风险，此前加州司法部已就 Hugging Face 事件正式展开调查。",
+              "link": "https://www.ithome.com/1/009/204.htm",
+              "tags": [
+                "监管",
+                "网络安全"
+              ],
+              "source": "IT之家",
+              "time": "10月2日"
+            },
+            {
+              "title": "ChatGPT 上线虚拟试穿功能，可试衣还能找明星同款",
+              "summary": "10月2日，OpenAI 为 ChatGPT 上线虚拟试穿功能，用户可试衣并查找明星同款，新功能基于 ChatGPT Images 2.5 模型，画面光线更自然、纹理更丰富。",
+              "link": "https://www.ithome.com/1/009/197.htm",
+              "tags": [
+                "AI应用",
+                "多模态"
+              ],
+              "source": "IT之家",
+              "time": "10月2日"
+            },
+            {
+              "title": "违反敏感信息访问规定，OpenAI 与三名研究人员终止合作",
+              "summary": "10月2日，OpenAI 宣布与三名研究人员终止合作，原因是三人违反了敏感信息访问和共享规定。",
+              "link": "https://www.ithome.com/1/009/182.htm",
+              "tags": [
+                "内部治理"
+              ],
+              "source": "IT之家",
+              "time": "10月2日"
             }
           ]
         },
@@ -34,15 +65,25 @@ window.__RAW_DATA = {
           "name": "Anthropic",
           "news": [
             {
-              "title": "Anthropic IPO 材料曝光，近半收入来自云渠道",
-              "summary": "9月29日消息，Anthropic 为 IPO 准备的申报材料显示，2025年约47%的收入来自亚马逊和谷歌的云市场渠道，两家公司同时是投资者、算力供应商和竞争者。Anthropic 2025年收入接近46亿美元，经营亏损超80亿美元。",
-              "link": "https://www.sohu.com/a/1082726647_114984",
+              "title": "Anthropic 招股书警告：美国政府对公司的态度或波及人类文明",
+              "summary": "10月2日，路透社公布的 Anthropic IPO 招股书中提出警告：美国政府如何看待 Anthropic 及其行为，可能影响客户、合作伙伴等商业关系，甚至波及人类文明；文件还警告先进 AI 可能带来灾难性甚至生存性风险。",
+              "link": "https://www.ithome.com/1/009/343.htm",
               "tags": [
                 "IPO",
-                "云计算"
+                "AI安全"
               ],
-              "source": "搜狐",
-              "time": "9月29日消息"
+              "source": "IT之家",
+              "time": "10月2日"
+            },
+            {
+              "title": "冲刺感恩节前挂牌，Anthropic 寻求最早 11 月中旬上市",
+              "summary": "10月2日消息，知情人士称 Anthropic 最早可能在 11 月 9 日当周正式启动 IPO 推介，并争取在 11 月 26 日感恩节前挂牌交易。",
+              "link": "https://www.ithome.com/1/009/237.htm",
+              "tags": [
+                "IPO"
+              ],
+              "source": "IT之家",
+              "time": "10月2日消息"
             }
           ]
         },
@@ -50,15 +91,15 @@ window.__RAW_DATA = {
           "name": "Google",
           "news": [
             {
-              "title": "Google 发布 Gemini 4 Argon，先向网络防御者开放",
-              "summary": "9月30日，Google 发布新一代旗舰模型 Gemini 4 Argon，首批通过 Fairwind 计划向受信任的网络防御者开放，后续逐步扩展至开发者、企业和消费者。Argon 输出上限从6.4万 token 提升至100万 token，在 DeepSWE v1.1 软件工程测试中得分77.9%。",
-              "link": "https://www.sohu.com/a/1083146303_129720",
+              "title": "谷歌高管：全美存在数十万个数据中心技术工种缺口",
+              "summary": "10月1日，谷歌高管表示数据中心催生庞大用工需求，全美存在数十万个技术工种缺口，其中技术工种尤其缺人，成为 AI 数据中心建设的重要制约。",
+              "link": "https://www.ithome.com/1/009/082.htm",
               "tags": [
-                "大模型",
-                "网络安全"
+                "数据中心",
+                "AI就业"
               ],
-              "source": "搜狐",
-              "time": "9月30日"
+              "source": "IT之家",
+              "time": "10月1日"
             }
           ]
         },
@@ -72,7 +113,19 @@ window.__RAW_DATA = {
         },
         {
           "name": "Meta",
-          "news": []
+          "news": [
+            {
+              "title": "Meta AI 智能体 Muse 将登陆智能眼镜平台，可代用户完成任务",
+              "summary": "10月2日，Meta 宣布旗下 AI 智能体 Muse 将于近期登陆智能眼镜平台，可通过语音指令代用户完成多种日常任务，定位偏向普通消费者，并接入支付服务保障信息安全。",
+              "link": "https://www.ithome.com/1/009/363.htm",
+              "tags": [
+                "AI智能体",
+                "智能眼镜"
+              ],
+              "source": "IT之家",
+              "time": "10月2日"
+            }
+          ]
         }
       ]
     },
@@ -84,39 +137,50 @@ window.__RAW_DATA = {
         },
         {
           "name": "火山引擎",
-          "news": [
-            {
-              "title": "豆包接入机票、火车票预订服务",
-              "summary": "9月30日，豆包宣布扩展出行服务，用户可在对话中查询、比价并预订机票和火车票，也可调用打车与路线导航。机票火车票服务由航班管家、高铁管家提供，打车接入曹操出行等平台，应用新设「出行用豆包」统一入口。",
-              "link": "https://www.sohu.com/a/1083175683_122944309",
-              "tags": [
-                "AI应用",
-                "出行"
-              ],
-              "source": "搜狐",
-              "time": "9月30日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "DeepSeek",
           "news": [
             {
-              "title": "DeepSeek 开源昇腾平台基础组件",
-              "summary": "9月30日，DeepSeek 宣布开源面向华为昇腾算力平台的基础设施组件，包括 TileLang 编译工具、计算库和分布式通信库，覆盖算子编写、矩阵计算与跨卡通信。同期开放的 DeepGEMM、DeepEP 等组件分别覆盖矩阵运算、跨设备通信等。",
-              "link": "https://news.qq.com/rain/a/20260930A03X0Y00",
+              "title": "研究：DeepSeek 对男女一视同仁，美系模型区别对待",
+              "summary": "10月1日，据 Wccftech 报道，最新研究显示相比 Anthropic 的 Claude Sonnet 4.6 与 OpenAI 的 GPT-5.5，DeepSeek 的 V4-Flash 模型能保持性别中立。",
+              "link": "https://www.ithome.com/1/009/243.htm",
               "tags": [
-                "开源",
-                "AI芯片"
+                "AI伦理",
+                "大模型"
               ],
-              "source": "腾讯新闻",
-              "time": "9月30日"
+              "source": "IT之家",
+              "time": "10月1日"
             }
           ]
         },
         {
           "name": "腾讯",
-          "news": []
+          "news": [
+            {
+              "title": "腾讯 WorkBuddy 内置模型独家支持 Space Bunny",
+              "summary": "10月2日，腾讯 WorkBuddy 宣布内置模型独家支持 Space Bunny，该模型具备极速推理与强大编码能力，原生支持文本、图像、视频输入，思考深度可调，上下文达 1M。",
+              "link": "https://www.ithome.com/1/009/335.htm",
+              "tags": [
+                "大模型",
+                "编码"
+              ],
+              "source": "IT之家",
+              "time": "10月2日"
+            },
+            {
+              "title": "腾讯 WorkBuddy：Hy4 preview 夜间限免、Hy3 限免延至 10 月底",
+              "summary": "9月30日，腾讯 WorkBuddy 宣布将 Hy3 模型限免及 Hy4 preview 模型夜间限免均延期至 10 月 31 日。",
+              "link": "https://www.ithome.com/1/009/222.htm",
+              "tags": [
+                "大模型",
+                "限免"
+              ],
+              "source": "IT之家",
+              "time": "9月30日"
+            }
+          ]
         },
         {
           "name": "小米",
@@ -134,26 +198,15 @@ window.__RAW_DATA = {
           "name": "华为",
           "news": [
             {
-              "title": "江淮确认与华为、Stellantis 沟洽合作",
-              "summary": "9月30日，江淮汽车公告确认公司与华为、Stellantis 三方确有沟洽合作意向，但合作内容、形式均未确定，也未签署有约束力的正式协议。此前有报道称玛莎拉蒂电动车型或采用鸿蒙智行平台。",
-              "link": "https://www.sohu.com/a/1082897257_115362",
+              "title": "华为 Mate 90 系列发布，麒麟 τ 芯片 NPU 最高提升 51%",
+              "summary": "10月1日，华为发布 Mate 90 系列旗舰手机，搭载麒麟 9030/9035/9050 Pro 三代 τ 芯片，其中麒麟 9035 对比前代 NPU 提升 51%，标准版 5999 元起；余承东同日宣布鸿蒙 HarmonyOS 6/7 终端设备数突破 9000 万。",
+              "link": "https://www.ithome.com/1/009/016.htm",
               "tags": [
-                "鸿蒙智行",
-                "汽车"
+                "AI芯片",
+                "鸿蒙"
               ],
-              "source": "搜狐",
-              "time": "9月30日"
-            },
-            {
-              "title": "问界新 M8 开启预售，38.98 万元起",
-              "summary": "9月30日，问界新 M8 开启预售，预售价38.98万元起。新车全系采用800V架构，搭载华为乾崑 ADS 5 智能辅助驾驶系统。这是赛力斯与华为调整合作分工后，首款由赛力斯主导营销宣发的问界新车。",
-              "link": "https://www.sohu.com/a/1082789049_413981",
-              "tags": [
-                "自动驾驶",
-                "鸿蒙智行"
-              ],
-              "source": "搜狐",
-              "time": "9月30日"
+              "source": "IT之家",
+              "time": "10月1日"
             }
           ]
         }
@@ -165,125 +218,124 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
+              "title": "Black Forest Labs",
+              "news": [
+                {
+                  "title": "生图模型 FLUX 3 Image 发布，支持 4K 生成",
+                  "summary": "10月2日，德国 AI 公司 Black Forest Labs 发布图像生成模型 FLUX 3 Image，支持最高 4K 分辨率图片，可精准排布 AI 元素，放大后仍保持丰富细节。",
+                  "link": "https://www.ithome.com/1/009/315.htm",
+                  "tags": [
+                    "文生图",
+                    "开源模型"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月2日"
+                }
+              ]
+            },
+            {
+              "title": "Cloudflare",
+              "news": [
+                {
+                  "title": "Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef",
+                  "summary": "当地时间10月1日，Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef（谱号），包含 Clef 与 Clef-flash 两款模型。",
+                  "link": "https://www.ithome.com/1/009/262.htm",
+                  "tags": [
+                    "开源模型",
+                    "多模态"
+                  ],
+                  "source": "IT之家",
+                  "time": "当地时间10月1日"
+                }
+              ]
+            },
+            {
+              "title": "微软",
+              "news": [
+                {
+                  "title": "微软发布实时流式语音转写模型，词错误率 2.5% 夺冠",
+                  "summary": "10月1日，微软发布首个实时流式语音转写模型 MAI-Transcribe-2-Streaming，可在讲话进行时持续输出文字，覆盖 60 种语言并支持自动语言检测，词错误率 2.5%、延迟 0.13 秒。",
+                  "link": "https://www.ithome.com/1/009/183.htm",
+                  "tags": [
+                    "语音转写",
+                    "多模态"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月1日"
+                }
+              ]
+            },
+            {
               "title": "苹果",
               "news": [
                 {
-                  "title": "苹果拟于 10 月 13 日推出家庭中枢",
-                  "summary": "9月30日消息，据彭博社报道，苹果计划于10月13日推出智能家居产品线，核心是代号 J490 的家庭控制中枢，同时更新 HomePod mini 和 Apple TV。新品将用于展示新版 Siri AI 能力，支持声音或面部识别家庭成员。",
-                  "link": "https://www.sohu.com/a/1083059631_122944309",
+                  "title": "古尔曼：苹果首款智能家居中枢支持 AI 面部识别",
+                  "summary": "10月2日，彭博社古尔曼爆料，苹果首款智能家居中枢 Home Hub 将采用 AI 面部识别，判断当前家庭成员并显示对应内容；消息称该产品将提供银、深空灰、星光、玫瑰粉 4 种配色。",
+                  "link": "https://www.ithome.com/1/009/206.htm",
                   "tags": [
                     "智能家居",
                     "AI"
                   ],
-                  "source": "搜狐",
-                  "time": "9月30日消息"
-                }
-              ]
-            },
-            {
-              "title": "快手",
-              "news": [
-                {
-                  "title": "快手成立「企业 AI 生产力」组织，统筹通用 Agent 与内部信息系统",
-                  "summary": "9月30日，快手宣布在公司层面成立跨事业部虚拟组织「企业 AI 生产力」，负责基础办公系统基座稳定运行，统筹通用 Agent、企业上下文体系和企业信息系统的统一建设。截至 6 月，快手员工使用各类自研 AI Agent 产品占比超 92%，研发技术人员 AI 代码贡献率达 60%。",
-                  "link": "https://www.sohu.com/a/1082873125_260616",
-                  "tags": [
-                    "AI智能体",
-                    "组织架构"
-                  ],
-                  "source": "搜狐",
-                  "time": "9月30日"
+                  "source": "IT之家",
+                  "time": "10月2日"
                 },
                 {
-                  "title": "快手官宣于越转任可灵 AI 公司 CEO，程一笑兼任社区科学线负责人",
-                  "summary": "9月30日消息，快手宣布组织架构分工调整：创始人兼 CEO 程一笑兼任社区科学线负责人，原负责人于越转任可灵 AI 公司董事兼 CEO，专注于可灵 AI 经营管理。可灵 AI 是快手当前优先级最高的业务之一，2026 年 7 月完成分拆融资后投后估值最高达 180 亿美元。",
-                  "link": "https://www.sohu.com/a/1082823352_100117963",
+                  "title": "苹果首款 AI 智能安防摄像头曝光，仅推送文本提醒",
+                  "summary": "10月2日，彭博社古尔曼爆料，苹果正筹备推出家用智能摄像头（代号 J450），采用金属圆柱造型，不录制视频、仅推送文本提醒，将配套苹果首款智能家居中枢 Home Hub 工作。",
+                  "link": "https://www.ithome.com/1/009/208.htm",
                   "tags": [
-                    "组织架构",
-                    "AI视频"
+                    "智能家居",
+                    "AI"
                   ],
-                  "source": "搜狐",
-                  "time": "9月30日消息"
+                  "source": "IT之家",
+                  "time": "10月2日"
                 }
               ]
             },
             {
-              "title": "美光",
+              "title": "极米",
               "news": [
                 {
-                  "title": "美光 2026 财年营收 1331.88 亿美元",
-                  "summary": "9月30日，美光公布截至9月3日的2026财年及第四财季业绩，全年营收1331.88亿美元，上一财年为373.78亿美元，GAAP净利润849.69亿美元。第四财季营收542.29亿美元，云内存业务营收162.83亿美元。",
-                  "link": "https://www.sohu.com/a/1082964661_121423427",
+                  "title": "极米记得 AI 显示眼镜 MemoMind One 明日开启预定",
+                  "summary": "10月2日，极米记得 AI 显示眼镜 MemoMind One 宣布明日（10月3日）登陆全国 56 家线下门店并开启定金预定，主打长期佩戴与 AI 记忆、导航、提词功能。",
+                  "link": "https://www.ithome.com/1/009/302.htm",
                   "tags": [
-                    "财报",
-                    "存储芯片"
+                    "智能眼镜",
+                    "AI"
                   ],
-                  "source": "搜狐",
-                  "time": "9月30日"
+                  "source": "IT之家",
+                  "time": "10月2日"
                 }
               ]
             },
             {
-              "title": "荣耀",
+              "title": "影目",
               "news": [
                 {
-                  "title": "荣耀 Magic9 获 AI 智能体手机入网认证",
-                  "summary": "9月30日消息，工信部政务服务平台显示，荣耀 Magic9 系列获得「AI 智能体手机」入网认证。荣耀通过 MagicOS 11 的系统级 Agent Harness 推进智能体手机方向，用户提出需求后由 Agent 调用系统能力及第三方应用连续完成操作。",
-                  "link": "https://www.sohu.com/a/1082856879_354896",
+                  "title": "影目回应 INMO AIR3 海外版过热，国内版不受影响",
+                  "summary": "10月2日，影目科技回应 INMO AIR3 智能眼镜海外版出现过热问题，称与部分第三方应用有关、已全部下架，国内版不受相关影响。",
+                  "link": "https://www.ithome.com/1/009/277.htm",
                   "tags": [
-                    "AI智能体",
-                    "手机"
+                    "智能眼镜"
                   ],
-                  "source": "搜狐",
-                  "time": "9月30日消息"
+                  "source": "IT之家",
+                  "time": "10月2日"
                 }
               ]
             },
             {
-              "title": "阶跃星辰",
+              "title": "三星",
               "news": [
                 {
-                  "title": "阶跃 STEPX Neo 智能体手机获入网许可",
-                  "summary": "9月30日消息，阶跃终端首款大模型原生智能体手机 STEPX Neo 已获工信部电信设备进网许可。阶跃终端从大模型、操作系统到硬件构建智能体原生手机，用户提出需求后由 Agent 调用系统能力及第三方应用连续完成操作。",
-                  "link": "https://www.sohu.com/a/1082541350_122014422",
+                  "title": "曝三星 Galaxy Glasses 通过 FCC 认证，有望 11 月上市",
+                  "summary": "10月1日，三星 Galaxy Glasses 智能眼镜被曝通过美国 FCC 认证，为越南制造，预计采用 Android XR 平台，搭载高通骁龙 AR1 Gen 1 芯片并集成谷歌 Gemini，有望 11 月上市。",
+                  "link": "https://www.ithome.com/1/009/102.htm",
                   "tags": [
-                    "AI智能体",
-                    "手机"
+                    "智能眼镜",
+                    "XR"
                   ],
-                  "source": "搜狐",
-                  "time": "9月30日消息"
-                }
-              ]
-            },
-            {
-              "title": "蚂蚁百灵",
-              "news": [
-                {
-                  "title": "蚂蚁百灵发布 Ling-3.1-flash 模型",
-                  "summary": "9月30日，蚂蚁百灵升级 Ling-3.1-flash，重点面向代码编写、工具调用和多步骤任务，总参数560B、激活参数25B。模型在体验平台开启为期两周免费试用，免费期提供256K上下文，后续将开放1M上下文并开源。",
-                  "link": "https://www.sohu.com/a/1082874993_121423427",
-                  "tags": [
-                    "大模型",
-                    "代码"
-                  ],
-                  "source": "搜狐",
-                  "time": "9月30日"
-                }
-              ]
-            },
-            {
-              "title": "B站",
-              "news": [
-                {
-                  "title": "B 站开源 Index-Translate 翻译模型",
-                  "summary": "9月30日，B站开源 Index-Translate 多语言翻译模型家族，文本翻译支持150种语言，提供2B、9B及35B-A3B预览版模型，基于Qwen3.5构建。官方把社区语境、格式约束和长文本一致性列为优化重点。",
-                  "link": "https://www.sohu.com/a/1082888953_121423427",
-                  "tags": [
-                    "开源",
-                    "大模型"
-                  ],
-                  "source": "搜狐",
-                  "time": "9月30日"
+                  "source": "IT之家",
+                  "time": "10月1日"
                 }
               ]
             }
@@ -295,7 +347,38 @@ window.__RAW_DATA = {
         },
         {
           "name": "具身智能",
-          "cards": []
+          "cards": [
+            {
+              "title": "波士顿动力",
+              "news": [
+                {
+                  "title": "波士顿动力升级 Atlas 机械手，自由度 7 增至 13",
+                  "summary": "10月1日，波士顿动力宣布升级高端机器人 Atlas 的机械手能力，自由度从 7 个提升至 13 个，可操控钻头、拧螺丝等精细操作。",
+                  "link": "https://www.ithome.com/1/009/256.htm",
+                  "tags": [
+                    "人形机器人"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月1日"
+                }
+              ]
+            },
+            {
+              "title": "Figure",
+              "news": [
+                {
+                  "title": "Figure 让 F.02 人形机器人跳入熔炉，采纳施瓦辛格提议",
+                  "summary": "10月1日，Figure 为退役的 F.02 人形机器人举行火化仪式，采纳施瓦辛格建议让其跳入熔炉，致敬《终结者 2》，并在芬兰找到合格设施、训练 AI 模型让过程更壮观。",
+                  "link": "https://www.ithome.com/1/009/159.htm",
+                  "tags": [
+                    "人形机器人"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月1日"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "AI出海",
@@ -309,34 +392,65 @@ window.__RAW_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "FTC",
+              "title": "日本东京法院",
               "news": [
                 {
-                  "title": "FTC 调查 OpenAI、Anthropic 等 AI 公司",
-                  "summary": "10月1日消息，美国联邦贸易委员会（FTC）已对 OpenAI、Anthropic 等 AI 实验室展开行业范围调查，审查 AI 智能体可能给消费者造成的伤害。调查计划包括向企业正式索取信息、要求高管作证，并涉及评估前沿模型能力的机构 METR。",
-                  "link": "https://finance.sina.com.cn/roll/2026-10-01/doc-initrwqt1744618.shtml",
+                  "title": "日本法院首次确认声音受法律保护，AI 声优涉侵权",
+                  "summary": "当地时间9月30日，东京一家法院在声优津田健次郎起诉 TikTok 的案件中认可其主张，认定 AI 未经许可模仿其声音涉及权利侵害，首次在日本司法实践中确认人的声音受法律保护。",
+                  "link": "https://www.ithome.com/1/009/309.htm",
                   "tags": [
-                    "监管",
-                    "AI智能体"
+                    "AI拟声",
+                    "版权"
                   ],
-                  "source": "新浪财经",
-                  "time": "10月1日消息"
+                  "source": "IT之家",
+                  "time": "当地时间9月30日"
                 }
               ]
             },
             {
-              "title": "集邦咨询",
+              "title": "贝恩",
               "news": [
                 {
-                  "title": "集邦：Q4 DRAM 合约价预计涨 10%—15%",
-                  "summary": "9月30日，集邦咨询发布存储器市场研究，预计今年第四季度一般型 DRAM 合约价环比上涨10%—15%，NAND Flash 合约价上涨15%—20%。云服务商加码 AI 推理基础设施，智能体带来的实时检索与缓存需求推动高容量 QLC SSD 采购。",
-                  "link": "https://www.sohu.com/a/1083045432_99900743",
+                  "title": "贝恩：全球 AI 行业到 2031 年需年营收 6 万亿美元",
+                  "summary": "10月2日，贝恩公司称，要支撑目前全球数据中心建设的巨额资本投入，全球 AI 行业到 2031 年每年需要创造 6 万亿美元营收，才能证明数据中心价值。",
+                  "link": "https://www.ithome.com/1/009/244.htm",
                   "tags": [
-                    "存储芯片",
-                    "涨价"
+                    "数据中心",
+                    "行业报告"
                   ],
-                  "source": "搜狐",
-                  "time": "9月30日"
+                  "source": "IT之家",
+                  "time": "10月2日"
+                }
+              ]
+            },
+            {
+              "title": "福特 CEO 法利",
+              "news": [
+                {
+                  "title": "福特 CEO 法利：AI 将成为蓝领工人的搭档",
+                  "summary": "10月1日，福特 CEO 法利表示，AI 将成为蓝领工人的搭档，帮其更快掌握技能；但他同时指出财务、呼叫中心、初级程序员等岗位会最先发生变化，部分岗位将消失。",
+                  "link": "https://www.ithome.com/1/009/073.htm",
+                  "tags": [
+                    "AI就业",
+                    "观点"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月1日"
+                }
+              ]
+            },
+            {
+              "title": "JERA",
+              "news": [
+                {
+                  "title": "日本电力巨头 JERA 牵手戴尔建最大 AI 数据中心",
+                  "summary": "10月1日，日本电力巨头 JERA 宣布牵手戴尔等伙伴，将在千叶建设该国最大 AI 数据中心，采用表后供电，配套电力基础设施建设和审核时间大幅缩短。",
+                  "link": "https://www.ithome.com/1/009/119.htm",
+                  "tags": [
+                    "数据中心"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月1日"
                 }
               ]
             }
@@ -678,4 +792,4 @@ window.__RAW_DATA = {
       ]
     }
   }
-};
+};;
