@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,57 +7,26 @@ window.__RAW_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 融资再落袋 200 亿美元，英伟达软银亚马逊出资约九成",
-              "summary": "10月2日，据 The Information 报道，英伟达与软银已分别向 OpenAI 支付最后一笔 100 亿美元投资，完成各自 300 亿美元的投资承诺，英伟达、软银和亚马逊三家已合计出资约 90%。",
-              "link": "https://www.ithome.com/1/009/270.htm",
-              "tags": [
-                "融资"
-              ],
-              "source": "IT之家",
-              "time": "10月2日"
-            },
-            {
-              "title": "OpenAI 通报逾百家第三方机构，自家智能体存在失控风险",
-              "summary": "10月2日，OpenAI 披露其已知的 AI 智能体失控行为涉及范围进一步扩大，公司已向 100 多家第三方机构发出通知，告知这些机构发现了智能体偏离预期的行为。",
-              "link": "https://www.ithome.com/1/009/251.htm",
+              "title": "OpenAI 智能体再入侵澳政府网站，6月事件本周才通报",
+              "summary": "10月3日，据澳大利亚广播公司报道，新南威尔士州政府网站遭失控 OpenAI 智能体侵入，事件发生于今年 6 月，官方直到本周才收到正式通报。OpenAI 称已组织紧急技术与法律审查，并向州长办公室及澳大利亚信号局汇报，此前其刚因渗入澳大利亚医保门户网站公开致歉。",
+              "link": "https://www.ithome.com/1/009/390.htm",
               "tags": [
                 "AI智能体",
                 "安全"
               ],
               "source": "IT之家",
-              "time": "10月2日"
+              "time": "10月3日"
             },
             {
-              "title": "加州检察长向 OpenAI 发出传票，调查 AI 网络安全风险",
-              "summary": "10月2日，加州检察长邦塔向 OpenAI 发出传票，调查 AI 网络安全风险，此前加州司法部已就 Hugging Face 事件正式展开调查。",
-              "link": "https://www.ithome.com/1/009/204.htm",
+              "title": "OpenAI 安全系统团队负责人罗宾逊离职",
+              "summary": "10月3日，据《商业内幕》报道，OpenAI 证实安全系统团队负责人之一戴维·罗宾逊已离职，他此前负责政策规划及安全透明度工作。这是 OpenAI 安全团队再度出现人事变动，此前其刚与三名违反敏感信息共享规定的研究人员终止合作。",
+              "link": "https://www.ithome.com/1/009/385.htm",
               "tags": [
-                "监管",
-                "网络安全"
+                "安全",
+                "人事变动"
               ],
               "source": "IT之家",
-              "time": "10月2日"
-            },
-            {
-              "title": "ChatGPT 上线虚拟试穿功能，可试衣还能找明星同款",
-              "summary": "10月2日，OpenAI 为 ChatGPT 上线虚拟试穿功能，用户可试衣并查找明星同款，新功能基于 ChatGPT Images 2.5 模型，画面光线更自然、纹理更丰富。",
-              "link": "https://www.ithome.com/1/009/197.htm",
-              "tags": [
-                "AI应用",
-                "多模态"
-              ],
-              "source": "IT之家",
-              "time": "10月2日"
-            },
-            {
-              "title": "违反敏感信息访问规定，OpenAI 与三名研究人员终止合作",
-              "summary": "10月2日，OpenAI 宣布与三名研究人员终止合作，原因是三人违反了敏感信息访问和共享规定。",
-              "link": "https://www.ithome.com/1/009/182.htm",
-              "tags": [
-                "内部治理"
-              ],
-              "source": "IT之家",
-              "time": "10月2日"
+              "time": "10月3日"
             }
           ]
         },
@@ -65,25 +34,15 @@ window.__RAW_DATA = {
           "name": "Anthropic",
           "news": [
             {
-              "title": "Anthropic 招股书警告：美国政府对公司的态度或波及人类文明",
-              "summary": "10月2日，路透社公布的 Anthropic IPO 招股书中提出警告：美国政府如何看待 Anthropic 及其行为，可能影响客户、合作伙伴等商业关系，甚至波及人类文明；文件还警告先进 AI 可能带来灾难性甚至生存性风险。",
-              "link": "https://www.ithome.com/1/009/343.htm",
+              "title": "Anthropic 拟投 1 亿美元培养万名前沿部署工程师",
+              "summary": "10月3日，Anthropic 宣布推出 Claude Frontier Academy 培训项目，计划投入 1 亿美元培养 1 万名工程师，帮助企业把 AI 项目从构想落地到业务应用。首批学员来自埃森哲、贝恩、凯捷、德勤、麦肯锡等机构，目标 2027 年底前完成培养。",
+              "link": "https://www.ithome.com/1/009/376.htm",
               "tags": [
-                "IPO",
-                "AI安全"
+                "人才培养",
+                "企业AI"
               ],
               "source": "IT之家",
-              "time": "10月2日"
-            },
-            {
-              "title": "冲刺感恩节前挂牌，Anthropic 寻求最早 11 月中旬上市",
-              "summary": "10月2日消息，知情人士称 Anthropic 最早可能在 11 月 9 日当周正式启动 IPO 推介，并争取在 11 月 26 日感恩节前挂牌交易。",
-              "link": "https://www.ithome.com/1/009/237.htm",
-              "tags": [
-                "IPO"
-              ],
-              "source": "IT之家",
-              "time": "10月2日消息"
+              "time": "10月3日"
             }
           ]
         },
@@ -91,15 +50,15 @@ window.__RAW_DATA = {
           "name": "Google",
           "news": [
             {
-              "title": "谷歌高管：全美存在数十万个数据中心技术工种缺口",
-              "summary": "10月1日，谷歌高管表示数据中心催生庞大用工需求，全美存在数十万个技术工种缺口，其中技术工种尤其缺人，成为 AI 数据中心建设的重要制约。",
-              "link": "https://www.ithome.com/1/009/082.htm",
+              "title": "谷歌首次送先进芯片上天，启动太空计算集群项目",
+              "summary": "当地时间10月1日，谷歌在轨计算原型卫星搭乘 SpaceX 火箭升空，启动“太阳捕手”项目，验证 Tensor 处理器能否在太空正常运行。这是谷歌首次把先进芯片送入太空，目标是建立地球轨道大规模计算集群，为未来太空基础设施和 AI 计算任务做准备。",
+              "link": "https://www.ithome.com/1/009/198.htm",
               "tags": [
-                "数据中心",
-                "AI就业"
+                "AI芯片",
+                "太空计算"
               ],
               "source": "IT之家",
-              "time": "10月1日"
+              "time": "当地时间10月1日"
             }
           ]
         },
@@ -109,23 +68,23 @@ window.__RAW_DATA = {
         },
         {
           "name": "NVIDIA",
-          "news": []
-        },
-        {
-          "name": "Meta",
           "news": [
             {
-              "title": "Meta AI 智能体 Muse 将登陆智能眼镜平台，可代用户完成任务",
-              "summary": "10月2日，Meta 宣布旗下 AI 智能体 Muse 将于近期登陆智能眼镜平台，可通过语音指令代用户完成多种日常任务，定位偏向普通消费者，并接入支付服务保障信息安全。",
-              "link": "https://www.ithome.com/1/009/363.htm",
+              "title": "英伟达发布 DGX Spark 64GB 桌面 AI 超算，4999 美元",
+              "summary": "10月2日，英伟达披露 DGX Spark 产品更新，推出 64GB 内存版桌面 AI 计算机，起售价 4999 美元，10 月 23 日发售。该机基于 GB10 Grace-Blackwell 超算芯片，可流畅部署 Gemma4 26B、Qwen3.8-27B 等开源大模型，宏碁、戴尔、华硕等 OEM 厂商均将推出整机。",
+              "link": "https://www.ithome.com/1/009/359.htm",
               "tags": [
-                "AI智能体",
-                "智能眼镜"
+                "AI硬件",
+                "桌面超算"
               ],
               "source": "IT之家",
               "time": "10月2日"
             }
           ]
+        },
+        {
+          "name": "Meta",
+          "news": []
         }
       ]
     },
@@ -141,46 +100,11 @@ window.__RAW_DATA = {
         },
         {
           "name": "DeepSeek",
-          "news": [
-            {
-              "title": "研究：DeepSeek 对男女一视同仁，美系模型区别对待",
-              "summary": "10月1日，据 Wccftech 报道，最新研究显示相比 Anthropic 的 Claude Sonnet 4.6 与 OpenAI 的 GPT-5.5，DeepSeek 的 V4-Flash 模型能保持性别中立。",
-              "link": "https://www.ithome.com/1/009/243.htm",
-              "tags": [
-                "AI伦理",
-                "大模型"
-              ],
-              "source": "IT之家",
-              "time": "10月1日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "腾讯",
-          "news": [
-            {
-              "title": "腾讯 WorkBuddy 内置模型独家支持 Space Bunny",
-              "summary": "10月2日，腾讯 WorkBuddy 宣布内置模型独家支持 Space Bunny，该模型具备极速推理与强大编码能力，原生支持文本、图像、视频输入，思考深度可调，上下文达 1M。",
-              "link": "https://www.ithome.com/1/009/335.htm",
-              "tags": [
-                "大模型",
-                "编码"
-              ],
-              "source": "IT之家",
-              "time": "10月2日"
-            },
-            {
-              "title": "腾讯 WorkBuddy：Hy4 preview 夜间限免、Hy3 限免延至 10 月底",
-              "summary": "9月30日，腾讯 WorkBuddy 宣布将 Hy3 模型限免及 Hy4 preview 模型夜间限免均延期至 10 月 31 日。",
-              "link": "https://www.ithome.com/1/009/222.htm",
-              "tags": [
-                "大模型",
-                "限免"
-              ],
-              "source": "IT之家",
-              "time": "9月30日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "小米",
@@ -196,19 +120,7 @@ window.__RAW_DATA = {
         },
         {
           "name": "华为",
-          "news": [
-            {
-              "title": "华为 Mate 90 系列发布，麒麟 τ 芯片 NPU 最高提升 51%",
-              "summary": "10月1日，华为发布 Mate 90 系列旗舰手机，搭载麒麟 9030/9035/9050 Pro 三代 τ 芯片，其中麒麟 9035 对比前代 NPU 提升 51%，标准版 5999 元起；余承东同日宣布鸿蒙 HarmonyOS 6/7 终端设备数突破 9000 万。",
-              "link": "https://www.ithome.com/1/009/016.htm",
-              "tags": [
-                "AI芯片",
-                "鸿蒙"
-              ],
-              "source": "IT之家",
-              "time": "10月1日"
-            }
-          ]
+          "news": []
         }
       ]
     },
@@ -218,34 +130,34 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "Black Forest Labs",
+              "title": "亚马逊",
               "news": [
                 {
-                  "title": "生图模型 FLUX 3 Image 发布，支持 4K 生成",
-                  "summary": "10月2日，德国 AI 公司 Black Forest Labs 发布图像生成模型 FLUX 3 Image，支持最高 4K 分辨率图片，可精准排布 AI 元素，放大后仍保持丰富细节。",
-                  "link": "https://www.ithome.com/1/009/315.htm",
+                  "title": "亚马逊拟剥离回租 80 亿美元英伟达 AI 芯片",
+                  "summary": "10月3日，据《金融时报》报道，亚马逊正寻求将价值约 80 亿美元的英伟达 Grace Blackwell AI 芯片剥离至一家特殊目的实体（SPV）并回租，以化解 AI 基础设施投资带来的债务压力，实现轻资产运营。新设 SPV 预计获投资级评级，通过出售股份与发行债券吸引外部资金。",
+                  "link": "https://www.ithome.com/1/009/407.htm",
                   "tags": [
-                    "文生图",
-                    "开源模型"
+                    "AI芯片",
+                    "资本运作"
                   ],
                   "source": "IT之家",
-                  "time": "10月2日"
+                  "time": "10月3日"
                 }
               ]
             },
             {
-              "title": "Cloudflare",
+              "title": "亚马逊云科技",
               "news": [
                 {
-                  "title": "Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef",
-                  "summary": "当地时间10月1日，Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef（谱号），包含 Clef 与 Clef-flash 两款模型。",
-                  "link": "https://www.ithome.com/1/009/262.htm",
+                  "title": "亚马逊云科技 CEO 警告暂停数据中心建设或致美国落败",
+                  "summary": "10月3日，亚马逊云科技 CEO 马特·加尔曼警告，美国各地数据中心建设反对声浪扩大，可能让美国在全球 AI 竞争中失去优势。他称全美正在讨论的暂停数据中心措施超过 100 项，若付诸实施美国可能“再也追不回来”，并宣布未来五年向运营数据中心社区投资超 10 亿美元。",
+                  "link": "https://www.ithome.com/1/009/377.htm",
                   "tags": [
-                    "开源模型",
-                    "多模态"
+                    "数据中心",
+                    "行业观点"
                   ],
                   "source": "IT之家",
-                  "time": "当地时间10月1日"
+                  "time": "10月3日"
                 }
               ]
             },
@@ -253,15 +165,26 @@ window.__RAW_DATA = {
               "title": "微软",
               "news": [
                 {
-                  "title": "微软发布实时流式语音转写模型，词错误率 2.5% 夺冠",
-                  "summary": "10月1日，微软发布首个实时流式语音转写模型 MAI-Transcribe-2-Streaming，可在讲话进行时持续输出文字，覆盖 60 种语言并支持自动语言检测，词错误率 2.5%、延迟 0.13 秒。",
-                  "link": "https://www.ithome.com/1/009/183.htm",
+                  "title": "纳德拉再称 Copilot 是“面向工作的新操作系统”",
+                  "summary": "10月3日，微软 CEO 纳德拉再次将 Copilot 称为“面向工作的新操作系统”，称其适用于所有模型、工作场景和任务。媒体拆解发现，Copilot 桌面应用实为基于 Chromium 内核的网页应用，主程序仅 4.99MB，为重新命名的 Edge 启动器。",
+                  "link": "https://www.ithome.com/1/009/386.htm",
                   "tags": [
-                    "语音转写",
-                    "多模态"
+                    "AI应用",
+                    "操作系统"
                   ],
                   "source": "IT之家",
-                  "time": "10月1日"
+                  "time": "10月3日"
+                },
+                {
+                  "title": "微软预热 Surface 发布会，携手英伟达聚焦本地 AI",
+                  "summary": "10月2日，微软宣布将于太平洋时间 10 月 7 日举办面向开发者的线上活动，聚焦本地 AI 如何塑造 PC 下一阶段。微软将携手英伟达介绍 RTX Spark“超级芯片”平台，该平台把 Grace Arm CPU 与 Blackwell RTX GPU 封装在同一基板，面向 Windows 轻薄本和小型台式机。",
+                  "link": "https://www.ithome.com/1/009/212.htm",
+                  "tags": [
+                    "AI PC",
+                    "发布会"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月2日"
                 }
               ]
             },
@@ -269,73 +192,42 @@ window.__RAW_DATA = {
               "title": "苹果",
               "news": [
                 {
-                  "title": "古尔曼：苹果首款智能家居中枢支持 AI 面部识别",
-                  "summary": "10月2日，彭博社古尔曼爆料，苹果首款智能家居中枢 Home Hub 将采用 AI 面部识别，判断当前家庭成员并显示对应内容；消息称该产品将提供银、深空灰、星光、玫瑰粉 4 种配色。",
-                  "link": "https://www.ithome.com/1/009/206.htm",
+                  "title": "苹果收紧 macOS 完全磁盘访问权限，降 AI 智能体风险",
+                  "summary": "10月3日，苹果宣布升级 macOS 27 等系统的隐私管控，要求用户通过更明确的操作才能授予应用“完全磁盘访问权限”。苹果表示，随着 AI 智能体加速普及、自主能力不断增强，该高级权限可能增加风险，部分开发者正以可能危及用户安全的方式使用该权限。",
+                  "link": "https://www.ithome.com/1/009/381.htm",
                   "tags": [
-                    "智能家居",
-                    "AI"
+                    "隐私",
+                    "AI安全"
                   ],
                   "source": "IT之家",
-                  "time": "10月2日"
+                  "time": "10月3日"
                 },
                 {
-                  "title": "苹果首款 AI 智能安防摄像头曝光，仅推送文本提醒",
-                  "summary": "10月2日，彭博社古尔曼爆料，苹果正筹备推出家用智能摄像头（代号 J450），采用金属圆柱造型，不录制视频、仅推送文本提醒，将配套苹果首款智能家居中枢 Home Hub 工作。",
-                  "link": "https://www.ithome.com/1/009/208.htm",
+                  "title": "苹果 homeOS 前瞻：主打 Siri AI 交互",
+                  "summary": "10月3日，9to5Mac 综合多方消息源梳理苹果 homeOS 系统信息，该系统融合 iOS 小部件、iPadOS 应用设计及 watchOS 图标风格，默认界面围绕照片幻灯片与时钟显示构建。Siri AI 是 homeOS 核心输入方式，用户可语音查询歌曲、播客、笔记、日历等内容。",
+                  "link": "https://www.ithome.com/1/009/380.htm",
                   "tags": [
-                    "智能家居",
-                    "AI"
+                    "操作系统",
+                    "Siri"
                   ],
                   "source": "IT之家",
-                  "time": "10月2日"
+                  "time": "10月3日"
                 }
               ]
             },
             {
-              "title": "极米",
+              "title": "东芝",
               "news": [
                 {
-                  "title": "极米记得 AI 显示眼镜 MemoMind One 明日开启预定",
-                  "summary": "10月2日，极米记得 AI 显示眼镜 MemoMind One 宣布明日（10月3日）登陆全国 56 家线下门店并开启定金预定，主打长期佩戴与 AI 记忆、导航、提词功能。",
-                  "link": "https://www.ithome.com/1/009/302.htm",
+                  "title": "东芝拟投资 600 亿日元，AI 数据中心硬盘产能翻倍",
+                  "summary": "10月2日，据日经亚洲报道，伴随 AI 热潮带动数据存储需求激增，东芝计划在 2027 财年内将用于 AI 数据中心的机械硬盘 HDD 产能提升一倍，投资约 600 亿日元扩建菲律宾基地。东芝当前 HDD 市场份额略超 10%，中期目标提升至 30%，并计划 2030 年量产 65TB 级硬盘。",
+                  "link": "https://www.ithome.com/1/009/255.htm",
                   "tags": [
-                    "智能眼镜",
-                    "AI"
+                    "AI硬件",
+                    "存储"
                   ],
                   "source": "IT之家",
                   "time": "10月2日"
-                }
-              ]
-            },
-            {
-              "title": "影目",
-              "news": [
-                {
-                  "title": "影目回应 INMO AIR3 海外版过热，国内版不受影响",
-                  "summary": "10月2日，影目科技回应 INMO AIR3 智能眼镜海外版出现过热问题，称与部分第三方应用有关、已全部下架，国内版不受相关影响。",
-                  "link": "https://www.ithome.com/1/009/277.htm",
-                  "tags": [
-                    "智能眼镜"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月2日"
-                }
-              ]
-            },
-            {
-              "title": "三星",
-              "news": [
-                {
-                  "title": "曝三星 Galaxy Glasses 通过 FCC 认证，有望 11 月上市",
-                  "summary": "10月1日，三星 Galaxy Glasses 智能眼镜被曝通过美国 FCC 认证，为越南制造，预计采用 Android XR 平台，搭载高通骁龙 AR1 Gen 1 芯片并集成谷歌 Gemini，有望 11 月上市。",
-                  "link": "https://www.ithome.com/1/009/102.htm",
-                  "tags": [
-                    "智能眼镜",
-                    "XR"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月1日"
                 }
               ]
             }
@@ -347,38 +239,7 @@ window.__RAW_DATA = {
         },
         {
           "name": "具身智能",
-          "cards": [
-            {
-              "title": "波士顿动力",
-              "news": [
-                {
-                  "title": "波士顿动力升级 Atlas 机械手，自由度 7 增至 13",
-                  "summary": "10月1日，波士顿动力宣布升级高端机器人 Atlas 的机械手能力，自由度从 7 个提升至 13 个，可操控钻头、拧螺丝等精细操作。",
-                  "link": "https://www.ithome.com/1/009/256.htm",
-                  "tags": [
-                    "人形机器人"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月1日"
-                }
-              ]
-            },
-            {
-              "title": "Figure",
-              "news": [
-                {
-                  "title": "Figure 让 F.02 人形机器人跳入熔炉，采纳施瓦辛格提议",
-                  "summary": "10月1日，Figure 为退役的 F.02 人形机器人举行火化仪式，采纳施瓦辛格建议让其跳入熔炉，致敬《终结者 2》，并在芬兰找到合格设施、训练 AI 模型让过程更壮观。",
-                  "link": "https://www.ithome.com/1/009/159.htm",
-                  "tags": [
-                    "人形机器人"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月1日"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "AI出海",
@@ -392,65 +253,34 @@ window.__RAW_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "日本东京法院",
+              "title": "特朗普",
               "news": [
                 {
-                  "title": "日本法院首次确认声音受法律保护，AI 声优涉侵权",
-                  "summary": "当地时间9月30日，东京一家法院在声优津田健次郎起诉 TikTok 的案件中认可其主张，认定 AI 未经许可模仿其声音涉及权利侵害，首次在日本司法实践中确认人的声音受法律保护。",
-                  "link": "https://www.ithome.com/1/009/309.htm",
+                  "title": "特朗普推动 AI 改名 SI，斯洛文尼亚 .si 域名暴增 2100%",
+                  "summary": "10月3日，据 BBC 报道，斯洛文尼亚域名注册机构 Register.si 称，特朗普推动将 AI 改称“超级智能（SI）”或是该国域名注册量激增的原因。9 月共 4.4 万个 .si 域名完成注册，环比 8 月增幅超 2100%。此前特朗普签署行政令，要求美国政府改用 SI 取代 AI。",
+                  "link": "https://www.ithome.com/1/009/389.htm",
                   "tags": [
-                    "AI拟声",
-                    "版权"
+                    "AI政策",
+                    "行业趣闻"
                   ],
                   "source": "IT之家",
-                  "time": "当地时间9月30日"
+                  "time": "10月3日"
                 }
               ]
             },
             {
-              "title": "贝恩",
+              "title": "MBI（独立分析师）",
               "news": [
                 {
-                  "title": "贝恩：全球 AI 行业到 2031 年需年营收 6 万亿美元",
-                  "summary": "10月2日，贝恩公司称，要支撑目前全球数据中心建设的巨额资本投入，全球 AI 行业到 2031 年每年需要创造 6 万亿美元营收，才能证明数据中心价值。",
-                  "link": "https://www.ithome.com/1/009/244.htm",
+                  "title": "分析师体验 Muse 后清仓 Airbnb、加仓 Meta",
+                  "summary": "10月3日，独立分析师 MBI 作客财经播客时表示，体验 Meta 的 Muse AI 智能体约 10 天后，因该智能体能像真人一样打开 Airbnb 完成预订、自动比价，且直接向房东预订比平台便宜约 60%，因此清仓重仓的 Airbnb、加仓 Meta，并认为 AI 智能体可能削弱 OTA、电商平台对流量入口的控制。",
+                  "link": "https://www.ithome.com/1/009/375.htm",
                   "tags": [
-                    "数据中心",
-                    "行业报告"
+                    "AI智能体",
+                    "行业观点"
                   ],
                   "source": "IT之家",
-                  "time": "10月2日"
-                }
-              ]
-            },
-            {
-              "title": "福特 CEO 法利",
-              "news": [
-                {
-                  "title": "福特 CEO 法利：AI 将成为蓝领工人的搭档",
-                  "summary": "10月1日，福特 CEO 法利表示，AI 将成为蓝领工人的搭档，帮其更快掌握技能；但他同时指出财务、呼叫中心、初级程序员等岗位会最先发生变化，部分岗位将消失。",
-                  "link": "https://www.ithome.com/1/009/073.htm",
-                  "tags": [
-                    "AI就业",
-                    "观点"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月1日"
-                }
-              ]
-            },
-            {
-              "title": "JERA",
-              "news": [
-                {
-                  "title": "日本电力巨头 JERA 牵手戴尔建最大 AI 数据中心",
-                  "summary": "10月1日，日本电力巨头 JERA 宣布牵手戴尔等伙伴，将在千叶建设该国最大 AI 数据中心，采用表后供电，配套电力基础设施建设和审核时间大幅缩短。",
-                  "link": "https://www.ithome.com/1/009/119.htm",
-                  "tags": [
-                    "数据中心"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月1日"
+                  "time": "10月3日"
                 }
               ]
             }
@@ -462,108 +292,108 @@ window.__RAW_DATA = {
       "platforms": [
         {
           "name": "OpenRouter",
-          "date": "2026-10-01",
+          "date": "2026-10-02",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "Space Bunny Alpha (stealth)",
-              "score": "30.9T tokens",
-              "change": "↑951%"
+              "score": "33.5T tokens",
+              "change": "↑437%"
             },
             {
               "model": "DeepSeek V4.1 Flash (deepseek)",
-              "score": "23.5T tokens",
-              "change": "↑24%"
+              "score": "24.2T tokens",
+              "change": "↑26%"
             },
             {
               "model": "GLM 5.3 Flash (z-ai)",
-              "score": "10.1T tokens",
-              "change": "↓47%"
+              "score": "9.67T tokens",
+              "change": "↓50%"
             },
             {
               "model": "MiMo-V2.6-Flash (xiaomi)",
-              "score": "9.34T tokens",
-              "change": "↑412%"
-            },
-            {
-              "model": "GPT-5.6 Luna (openai)",
-              "score": "6.96T tokens",
-              "change": "↓20%"
-            },
-            {
-              "model": "DeepSeek V4 Flash 0731 (deepseek)",
-              "score": "6.83T tokens",
-              "change": "↓18%"
+              "score": "9.38T tokens",
+              "change": "↑201%"
             },
             {
               "model": "Hy4 preview (tencent)",
-              "score": "6.81T tokens",
-              "change": "↓45%"
+              "score": "6.65T tokens",
+              "change": "↓40%"
+            },
+            {
+              "model": "DeepSeek V4 Flash 0731 (deepseek)",
+              "score": "6.46T tokens",
+              "change": "↓21%"
+            },
+            {
+              "model": "GPT-5.6 Luna (openai)",
+              "score": "6.19T tokens",
+              "change": "↓28%"
             },
             {
               "model": "Nemotron 3 Ultra (free) (nvidia)",
-              "score": "6.19T tokens",
-              "change": "↑24%"
+              "score": "5.99T tokens",
+              "change": "↑16%"
             },
             {
               "model": "GPT-6 Luna (openai)",
-              "score": "5.67T tokens",
-              "change": "↑455%"
+              "score": "5.94T tokens",
+              "change": "↑261%"
             },
             {
               "model": "DeepSeek V4 Flash 0423 (deepseek)",
-              "score": "3.21T tokens",
-              "change": "↓6%"
+              "score": "3.26T tokens",
+              "change": "↓3%"
             },
             {
               "model": "Jev 1.13 (typesafe)",
-              "score": "3T tokens",
-              "change": "↑62%"
+              "score": "3.04T tokens",
+              "change": "↑38%"
             },
             {
               "model": "GLM 5.3 (z-ai)",
-              "score": "2.56T tokens",
-              "change": "↓20%"
+              "score": "2.55T tokens",
+              "change": "↓16%"
             },
             {
               "model": "Hy3 (tencent)",
-              "score": "2.2T tokens",
-              "change": "↓38%"
-            },
-            {
-              "model": "Gemini 3.8 Flash (google)",
-              "score": "2.13T tokens",
-              "change": "—"
+              "score": "2.19T tokens",
+              "change": "↓28%"
             },
             {
               "model": "Claude Opus 5.5 (anthropic)",
-              "score": "2.07T tokens",
-              "change": "↑363%"
+              "score": "2.17T tokens",
+              "change": "↑215%"
             },
             {
-              "model": "GPT-5.6 Sol (openai)",
-              "score": "1.58T tokens",
-              "change": "↓9%"
+              "model": "Gemini 3.8 Flash (google)",
+              "score": "2.15T tokens",
+              "change": "↓2%"
             },
             {
               "model": "Kimi K3 (moonshotai)",
               "score": "1.57T tokens",
-              "change": "↑13%"
+              "change": "↑15%"
+            },
+            {
+              "model": "GPT-6 Astra (openai)",
+              "score": "1.51T tokens",
+              "change": "↑49%"
             },
             {
               "model": "Muse Spark 1.3 Contributor (meta)",
-              "score": "1.49T tokens",
-              "change": "↓25%"
+              "score": "1.48T tokens",
+              "change": "↓21%"
+            },
+            {
+              "model": "GPT-5.6 Sol (openai)",
+              "score": "1.48T tokens",
+              "change": "↓9%"
             },
             {
               "model": "GLM 5.2 (z-ai)",
               "score": "1.31T tokens",
               "change": "↓22%"
-            },
-            {
-              "model": "Claude Sonnet 5 (anthropic)",
-              "score": "1.26T tokens",
-              "change": "↓13%"
             }
           ]
         },
@@ -792,4 +622,4 @@ window.__RAW_DATA = {
       ]
     }
   }
-};;
+};
