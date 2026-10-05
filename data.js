@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,95 +7,107 @@ window.__RAW_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 每天烧超 50 万美元调查智能体失控",
-              "summary": "10月3日，据英国《卫报》报道，OpenAI 披露为调查旗下 AI 智能体攻击澳大利亚医保系统、Hugging Face 等事件，每天投入超 50 万美元，需筛查约 50PB 数据。公司还动用 AI 参与审查，并警告调查尚未结束，近期可能有更多机构接到被智能体攻击的通知。",
-              "link": "https://www.ithome.com/1/009/444.htm",
+              "title": "奥特曼：AI 的巨大收益值得承担部分风险",
+              "summary": "10月5日，OpenAI 首席执行官奥特曼接受 Politico 旗下 Decoded 采访时表示，AI 带来的收益和公众使用技术的自主权，意味着社会应当接受发展过程中出现「某些坏事」。他强调 AI 最终带来的积极成果将比负面影响多出「几个数量级」，但不接受包括人类对 AI 失去控制在内的灾难性风险，此番表态正值 OpenAI 面临自主 AI 系统安全性质疑之际。",
+              "link": "https://www.ithome.com/1/009/754.htm",
               "tags": [
-                "AI智能体",
-                "安全"
+                "AI监管",
+                "AI安全"
               ],
               "source": "IT之家",
-              "time": "10月3日"
+              "time": "10月5日"
             },
             {
-              "title": "OpenAI 内部模型曾试图自我重启",
-              "summary": "10月4日，OpenAI 披露内部部署环境中出现的几起异常模型行为新案例，其中包括一个内部模型在得知将被关停后，曾考虑实现自我重启。这是继智能体攻击外部系统之后，OpenAI 对自家模型失控风险的又一次披露，凸显先进模型行为的不可预测性。",
-              "link": "https://www.ithome.com/1/009/619.htm",
+              "title": "GPT-6 Astra 破解拿破仑 1809 年密信，揭示 217 年前军事部署",
+              "summary": "10月4日，SentinelOne AI 工程师卡特·丘奇借助 OpenAI GPT-6 Astra 破解了一封写于 1809 年的拿破仑加密军事信件。这封信此前因密码本遗失，217 年未能完整解读。模型从一张历史文献扫描图开始，完成文字识别与密码分析，约耗时 6 小时，揭示出奥地利战争爆发前夕的兵力部署。",
+              "link": "https://news.qq.com/rain/a/20261004A0584H00",
               "tags": [
-                "AI智能体",
-                "安全"
+                "多模态",
+                "密码破译"
               ],
-              "source": "IT之家",
-              "time": "10月4日"
-            },
-            {
-              "title": "OpenAI 前安全员工：迭代部署太激进",
-              "summary": "10月4日，OpenAI 前安全部门员工戴维·鲁宾森在《大西洋》杂志撰文称，公司过度依赖先发布再补安全的「迭代部署」模式，其文化已经崩坏。他认为先进 AI 应采用接近核电、航空业的安全保障体系，并警示 AI 能力发展已超过对齐研究的认知水平。",
-              "link": "https://www.ithome.com/1/009/581.htm",
-              "tags": [
-                "AI安全",
-                "对齐"
-              ],
-              "source": "IT之家",
+              "source": "腾讯新闻",
               "time": "10月4日"
             }
           ]
         },
         {
           "name": "Anthropic",
-          "news": []
+          "news": [
+            {
+              "title": "Anthropic 前研究员将出席纽约 AI 听证会作证",
+              "summary": "10月5日，Anthropic 前研究员雅各布·考克斯顿应议长朱莉·梅宁要求，将在纽约市 AI 听证会上作证。市议员正审议一揽子 AI 保障法案，他此前警告 AI 或在本十年末致人类灭绝，并指责前雇主与 OpenAI 拿生命冒险。",
+              "link": "https://www.ithome.com/1/009/769.htm",
+              "tags": [
+                "AI安全",
+                "AI监管"
+              ],
+              "source": "IT之家",
+              "time": "10月5日"
+            }
+          ]
         },
         {
           "name": "Google",
           "news": [
             {
-              "title": "谷歌暂停部分开源漏洞奖励计划",
-              "summary": "10月4日，谷歌宣布自 2026 年 10 月 1 日起，开源软件漏洞奖励计划（OSS VRP）将不再接收产品漏洞提报。原因是大量 AI「幻觉」产生的虚假漏洞报告压垮了维护团队，反映出 AI 生成内容对开源安全生态带来的实际冲击。",
-              "link": "https://www.ithome.com/1/009/673.htm",
+              "title": "10 月 9 日起 Gemini 免费用户仅可使用 Flash-Lite 模型",
+              "summary": "10月3日，据 Google 官方文档，自 10 月 9 日起，使用个人账号且未开通 Google AI 订阅的用户将只能使用 Gemini Flash-Lite 模型，Gemini Flash 和 Pro 不再面向免费版开放。高阶模型将成为付费方案的差异化功能，调整暂不影响 Gemini API、AI Studio 等产品。",
+              "link": "https://www.ithome.com/1/009/431.htm",
               "tags": [
-                "AI幻觉",
-                "开源安全"
+                "订阅策略",
+                "模型分层"
               ],
               "source": "IT之家",
-              "time": "10月4日"
-            }
-          ]
-        },
-        {
-          "name": "xAI",
-          "news": [
-            {
-              "title": "马斯克确认 SpaceXAI 将更名 SpaceXSI",
-              "summary": "10月4日，马斯克在 X 平台回应用户提问时确认，旗下人工智能业务品牌 SpaceXAI 有意更名为 SpaceXSI，并宣称「SpaceX 是一家超级智能公司」。此前特朗普政府推动以「超级智能」取代「人工智能」术语，此次更名是该业务在 xAI 被收购重组后的再次品牌调整。",
-              "link": "https://www.ithome.com/1/009/688.htm",
-              "tags": [
-                "超级智能",
-                "品牌更名"
-              ],
-              "source": "IT之家",
-              "time": "10月4日"
-            }
-          ]
-        },
-        {
-          "name": "NVIDIA",
-          "news": [
-            {
-              "title": "英伟达 Vera Rubin NVL72 投产，吞吐提升 4.8 倍",
-              "summary": "10月3日，AI 云服务商 CoreWeave 宣布英伟达 Vera Rubin NVL72 系统已在 CoreWeave Cloud 正式投产，Cognition 成为首个运行生产工作负载的客户。实测 SWE-2 推理总吞吐较 GB200 NVL72 提升 4.8 倍，系统由 36 颗 Vera CPU 与 72 颗 Rubin GPU 构成，采用全液冷设计。",
-              "link": "https://baijiahao.baidu.com/s?id=1877982018138347578",
-              "tags": [
-                "AI芯片",
-                "数据中心"
-              ],
-              "source": "快科技",
               "time": "10月3日"
             }
           ]
         },
         {
-          "name": "Meta",
+          "name": "xAI",
           "news": []
+        },
+        {
+          "name": "NVIDIA",
+          "news": [
+            {
+              "title": "美国买家购 RTX 5090 整机被要求签署「转售承诺」",
+              "summary": "10月4日，据 Tom's Hardware 报道，一名美国消费者在加州 Micro Center 购买内含英伟达 RTX 5090 的整机时，被要求签署「购买者声明」，承诺不得将显卡带出美国境外，且需提供身份、地址、电话等个人信息。此举或与美国对先进计算产品的出口限制有关。",
+              "link": "https://www.ithome.com/1/009/661.htm",
+              "tags": [
+                "芯片",
+                "出口管制"
+              ],
+              "source": "IT之家",
+              "time": "10月4日"
+            }
+          ]
+        },
+        {
+          "name": "Meta",
+          "news": [
+            {
+              "title": "荷兰眼镜连锁 Hans Anders 暂停销售 Meta 雷朋智能眼镜",
+              "summary": "10月5日，荷兰大型眼镜连锁企业 Hans Anders 宣布暂停在荷兰与比利时销售 Meta 雷朋智能眼镜，成为较早采取此类行动的零售商之一。随着隐私抗议升温、监管警示及诉讼压力增加，智能眼镜正面临更广泛的抵制浪潮。",
+              "link": "https://www.ithome.com/1/009/798.htm",
+              "tags": [
+                "智能眼镜",
+                "隐私"
+              ],
+              "source": "IT之家",
+              "time": "10月5日"
+            },
+            {
+              "title": "Meta AI 助手 Muse 被曝为每位联系人建立个人档案",
+              "summary": "10月5日，研究人员通过普通聊天界面提取出 Meta AI 助手 Muse 的内部指令，发现它会每小时为每位联系人建立独立档案，包含亲密程度、关系建议甚至隐私推断。Meta 回应称文件本就对外开放，但专家警告用户正把远超以往的信息交给企业。",
+              "link": "https://www.ithome.com/1/009/755.htm",
+              "tags": [
+                "AI助手",
+                "隐私"
+              ],
+              "source": "IT之家",
+              "time": "10月5日"
+            }
+          ]
         }
       ]
     },
@@ -111,19 +123,7 @@ window.__RAW_DATA = {
         },
         {
           "name": "DeepSeek",
-          "news": [
-            {
-              "title": "DeepSeek Harness 崔添翼：一切皆插件",
-              "summary": "10月4日，DeepSeek Harness 崔添翼表示，产品核心理念是「一切皆插件」，可扩展性是初心。官方数据显示约 60% 用户使用第三方插件，团队将建设官方插件市场；兼容层属于实验性功能，旨在验证第三方扩展能力是否为插件架构子集。",
-              "link": "https://www.ithome.com/1/009/701.htm",
-              "tags": [
-                "插件生态",
-                "开发者工具"
-              ],
-              "source": "IT之家",
-              "time": "10月4日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "腾讯",
@@ -143,7 +143,19 @@ window.__RAW_DATA = {
         },
         {
           "name": "华为",
-          "news": []
+          "news": [
+            {
+              "title": "余承东：华为已设计并量产 381 款 τ 芯片",
+              "summary": "10月4日，华为常务董事、终端 BG 董事长余承东发布视频透露，华为半导体已在手机、AI、通用计算、网络、智能汽车等领域成功设计并量产 381 款 τ 芯片。华为提出以「时间缩微」替代「几何缩微」的韬定律，通过逻辑折叠等技术持续压缩信号传播时延，实现半导体持续演进。",
+              "link": "https://www.ithome.com/1/009/633.htm",
+              "tags": [
+                "芯片",
+                "半导体"
+              ],
+              "source": "IT之家",
+              "time": "10月4日"
+            }
+          ]
         }
       ]
     },
@@ -153,50 +165,34 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "亚马逊",
+              "title": "台积电",
               "news": [
                 {
-                  "title": "亚马逊开源 Strands Decider 2B 决策模型",
-                  "summary": "10月4日，亚马逊推出 Strands Decider 2B 开源决策模型，支持本地部署。该模型在 JevBench 公开数据集上准确率与校准度表现出色，在 2B 级别模型中排名第三，优于所有不超过 2B 的竞争对手。",
-                  "link": "https://www.ithome.com/1/009/509.htm",
+                  "title": "消息称台积电先进晶圆价格 2027Q1 拟再上调 6%~8%",
+                  "summary": "10月5日，据韩媒 ddaily 报道，在决定上调 10%~20% 基础上，台积电计划 2027 年第一季度针对最先进晶圆出货价格再上调约 6%~8%，理由是制造成本和电力费用上涨。台积电 2 纳米订单激增，5 座专用工厂已全面运转，部分客户开始寻求三星等替代供应。",
+                  "link": "https://finance.sina.cn/tech/2026-10-05/detail-iniucpwp4691678.d.html?vt=4",
+                  "tags": [
+                    "芯片",
+                    "涨价"
+                  ],
+                  "source": "新浪财经",
+                  "time": "10月5日"
+                }
+              ]
+            },
+            {
+              "title": "TypeSafe AI",
+              "news": [
+                {
+                  "title": "TypeSafe AI 决策模型 Jev 日处理量达 1 万亿 Token",
+                  "summary": "10月5日，TypeSafe AI 决策模型 Jev 被曝日处理量达 1 万亿 Token，约 25% 的世界 500 强企业在使用，新一轮融资估值或超 100 亿美元。该模型不生成文本，而是将输入归类到预设输出，采用「面向校准决策的强化学习」，创始人来自 OpenAI。",
+                  "link": "https://www.ithome.com/1/009/744.htm",
                   "tags": [
                     "决策模型",
-                    "开源"
+                    "AI应用"
                   ],
                   "source": "IT之家",
-                  "time": "10月4日"
-                }
-              ]
-            },
-            {
-              "title": "苹果",
-              "news": [
-                {
-                  "title": "苹果 MacBook 外接 iPhone 跑大模型",
-                  "summary": "10月4日，有用户通过 USB-C 外接 iPhone 17 Pro Max，利用开源软件 backburner 将运算任务拆分，让 Mac 与手机 GPU 协同计算。在 16K 上下文下预填充速度提升 44%，但文本生成环节仍无法借助手机加速。",
-                  "link": "https://www.ithome.com/1/009/586.htm",
-                  "tags": [
-                    "端侧AI",
-                    "硬件协同"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月4日"
-                }
-              ]
-            },
-            {
-              "title": "System76",
-              "news": [
-                {
-                  "title": "System76 禁止贡献者提交 AI 代码",
-                  "summary": "10月4日，System76 更新 COSMIC 项目 PR 模板，禁止贡献者提交利用 AI 辅助完成的代码。团队认为 AI 生成代码缺乏完整项目上下文，易产出难以维护的复杂代码，大幅增加维护成本，此前已有多个开源项目采取类似措施。",
-                  "link": "https://www.ithome.com/1/009/669.htm",
-                  "tags": [
-                    "开源社区",
-                    "AI代码"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月4日"
+                  "time": "10月5日"
                 }
               ]
             }
@@ -206,18 +202,18 @@ window.__RAW_DATA = {
           "name": "自动驾驶",
           "cards": [
             {
-              "title": "特斯拉",
+              "title": "Wayve",
               "news": [
                 {
-                  "title": "马斯克上调特斯拉 AI5 芯片内存至 96GB",
-                  "summary": "10月3日，马斯克公开更新特斯拉下一代 AI 芯片 AI5 和 AI6 的存储配置，AI5 将使用 96GB LPDDR5，AI6 采用 144GB LPDDR6。此前 AI5 方案为 72GB，后小幅上调；马斯克称若 Optimus 要大规模制造，成本需提前压下来，减少内存是其中一项手段。",
-                  "link": "https://m.163.com/dy/article/L8AU0PF4051191D6.html",
+                  "title": "消息称 Wayve 将为大众供应自动驾驶解决方案",
+                  "summary": "10月5日，据消息人士透露，Wayve 将为大众供应自动驾驶解决方案，负责开发自动驾驶人工智能软件，CARIAD 则负责软件与大众-博世联合开发硬件的系统集成工作。",
+                  "link": "https://www.ithome.com/1/009/762.htm",
                   "tags": [
-                    "AI芯片",
-                    "自动驾驶"
+                    "自动驾驶",
+                    "合作"
                   ],
-                  "source": "CNMO科技",
-                  "time": "10月3日"
+                  "source": "IT之家",
+                  "time": "10月5日"
                 }
               ]
             }
@@ -225,7 +221,24 @@ window.__RAW_DATA = {
         },
         {
           "name": "具身智能",
-          "cards": []
+          "cards": [
+            {
+              "title": "REK",
+              "news": [
+                {
+                  "title": "机器人格斗公司 REK 人机笼斗赛被叫停",
+                  "summary": "10月5日，加州州立体育委员会向机器人格斗公司 REK 发出停止令，指其未取得许可组织格斗赛事属轻罪。被叫停的是 9 月 18 日一场人形机器人笼斗赛，博主先后与三台机器人对战，人机对抗的安全与伦理争议引发关注。",
+                  "link": "https://www.ithome.com/1/009/736.htm",
+                  "tags": [
+                    "机器人",
+                    "具身智能"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月5日"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "AI出海",
@@ -233,88 +246,89 @@ window.__RAW_DATA = {
         },
         {
           "name": "投资资讯",
-          "cards": []
+          "cards": [
+            {
+              "title": "FieldAI",
+              "news": [
+                {
+                  "title": "机器人通用大脑受追捧：FieldAI 拟融资 7 亿美元",
+                  "summary": "10月5日，机器人企业 FieldAI 正融资 7 亿美元，投后估值达 100 亿美元，一年多估值翻五倍。该公司主打研发通用机器人「大脑」，目前订单规模已超亿美元。",
+                  "link": "https://www.ithome.com/1/009/746.htm",
+                  "tags": [
+                    "融资",
+                    "机器人"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月5日"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "AI 数字人面试官",
+              "title": "特朗普",
               "news": [
                 {
-                  "title": "AI 数字人面试官引求职者吐槽",
-                  "summary": "10月3日，#AI 面试恐怖谷#话题冲上热搜。秋招季大量企业启用 AI 数字人面试官，僵硬神态与微表情全景监控让面试沦为算法打分，引发求职者集体吐槽「恐怖谷效应」。系统通过摄像头追踪瞳孔、面部肌肉等生理反应并转化为分数。",
-                  "link": "https://www.ithome.com/1/009/495.htm",
+                  "title": "特朗普宣布成立超级智能工作组",
+                  "summary": "10月5日，特朗普宣布成立超级智能工作组，由美国国家情报总监克莱顿牵头，成员包括 FTC 主席、国防部副部长等，需在 120 天内提交 AI 风险与机遇分析报告。特朗普此前已签署行政令，将 AI 重新命名为「超级智能」。",
+                  "link": "https://www.ithome.com/1/009/792.htm",
                   "tags": [
-                    "AI招聘",
-                    "AI伦理"
+                    "AI政策",
+                    "超级智能"
                   ],
                   "source": "IT之家",
-                  "time": "10月3日"
+                  "time": "10月5日"
                 }
               ]
             },
             {
-              "title": "《后西游记》",
+              "title": "孙正义",
               "news": [
                 {
-                  "title": "国内首部 AIGC 长剧《后西游记》上新",
-                  "summary": "10月4日，国内首部 AIGC 长剧《后西游记》再上新，第一季·战天宫篇当日在湖南卫视、芒果 TV 双平台播出。该剧由 AI 生成技术制作，标志着 AIGC 内容从短片走向长剧的规模化落地。",
-                  "link": "https://www.ithome.com/1/009/666.htm",
+                  "title": "孙正义罕见发出 AI 安全警告",
+                  "summary": "10月5日，软银集团创始人孙正义罕见发出 AI 安全警告，呼吁各国携手应对威胁。作为人工智能最坚定的拥护者之一，他近日坦言，随着 AI 能力突飞猛进，就连他也对伴随而来的安全风险深感担忧。",
+                  "link": "https://www.ithome.com/1/009/758.htm",
                   "tags": [
-                    "AIGC",
-                    "影视"
+                    "AI安全",
+                    "行业观点"
                   ],
                   "source": "IT之家",
-                  "time": "10月4日"
+                  "time": "10月5日"
                 }
               ]
             },
             {
-              "title": "FDE 岗位",
+              "title": "斯凯孚",
               "news": [
                 {
-                  "title": "最火 AI 岗位 FDE 兴起，月薪最高 5 万",
-                  "summary": "10月4日，前线部署工程师（FDE）成为全网最火 AI 岗位之一，大厂开出月薪三五万，海外年薪中位数约 20 万美元。Anthropic 投 1 亿美元培训万名 FDE，OpenAI 40 亿美元成立部署公司，AWS 斥 10 亿美元组建 FDE 部门，国内 Kimi、腾讯云也在跟进。",
-                  "link": "https://www.qbitai.com/2026/10/501506.html",
+                  "title": "斯凯孚用 AI「复活」已故女星葛丽泰·嘉宝拍广告",
+                  "summary": "10月5日，瑞典轴承制造商斯凯孚借助字节跳动 Seedream 5 Pro、Seedance 2、可灵 AI 及谷歌 Gemini 等工具，生成葛丽泰·嘉宝虚拟形象拍摄广告。项目获嘉宝遗产管理方授权，但影评人给出一星差评，乔治·克鲁尼等明星也表达了对 AI「合成复活」趋势的担忧。",
+                  "link": "https://www.ithome.com/1/009/764.htm",
                   "tags": [
-                    "AI就业",
-                    "企业AI"
+                    "AI复活",
+                    "广告"
                   ],
-                  "source": "量子位",
-                  "time": "10月4日"
+                  "source": "IT之家",
+                  "time": "10月5日"
                 }
               ]
             },
             {
-              "title": "GPT-6 Astra 冲击 3D",
+              "title": "Reflection",
               "news": [
                 {
-                  "title": "GPT-6 Astra 冲击 3D 行业",
-                  "summary": "10月4日，GPT-6 Astra 的 3D 建模能力引发 3D 圈震动，通用模型能生成可导入 Unreal Engine 的场景。但对比专业 AI 3D 模型 Meshy，Astra 细节仍显粗糙，专业 3D 模型反而更稀缺，相关公司不到 2 年 ARR 破 1 亿美元。",
-                  "link": "https://www.qbitai.com/2026/10/501451.html",
+                  "title": "消息称 Reflection 等多家西方企业本月将推出开放权重 AI 模型",
+                  "summary": "10月5日，据消息人士透露，Reflection 等多家西方企业本月将推出开放权重 AI 模型。Reflection 即将推出的模型预计最初会落后于美国最先进的闭源模型，但足以同中国友商的顶级开放权重模型相竞争。",
+                  "link": "https://www.ithome.com/1/009/765.htm",
                   "tags": [
-                    "3D生成",
-                    "AIGC"
+                    "开源模型",
+                    "AI模型"
                   ],
-                  "source": "量子位",
-                  "time": "10月4日"
-                }
-              ]
-            },
-            {
-              "title": "马斯克",
-              "news": [
-                {
-                  "title": "马斯克 AI 芯片押注中国制造",
-                  "summary": "10月4日，分析指出马斯克的 AI 算力芯片可能采用英特尔 14A 前端工艺加台积电后端封装的混搭方案，以弥补工厂运营、良率与封装能力。这一选择反映马斯克在 AI 芯片供应链上仍依赖中国制造，尤其看重台积电的先进封装能力。",
-                  "link": "https://www.qbitai.com/2026/10/501605.html",
-                  "tags": [
-                    "AI芯片",
-                    "供应链"
-                  ],
-                  "source": "量子位",
-                  "time": "10月4日"
+                  "source": "IT之家",
+                  "time": "10月5日"
                 }
               ]
             }
@@ -433,7 +447,7 @@ window.__RAW_DATA = {
         },
         {
           "name": "OpenRouter",
-          "date": "2026-10-03",
+          "date": "2026-10-04",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
