@@ -342,7 +342,7 @@ def verify_links(data_json_path=None):
     print(f"共找到 {len(items)} 条新闻链接待复核\n")
 
     # 分层：高风险源用 Playwright，低风险源用 HTTP 请求
-    HIGH_RISK_DOMAINS = ["ithome.com", "36kr.com"]
+    HIGH_RISK_DOMAINS = ["ithome.com", "36kr.com", "baijiahao.baidu.com"]
     high_risk = []
     low_risk = []
     for item in items:
