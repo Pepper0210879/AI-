@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,80 +7,95 @@ window.__RAW_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 宣布「28 天计划」持续改进 Codex 与 Work",
-              "summary": "10月5日，OpenAI 核心产品与平台负责人 Thibault Sottiaux 发文称，团队将在未来 28 天每天发布一项对 Codex、ChatGPT Work 用户有明显改善且具实际意义的功能更新，否则提供一次「重置」。该周期预计从 10 月 5 日持续至 11 月 2 日，团队已「锁定方向」，聚焦简化产品、提升使用效率与开发新模型。",
-              "link": "https://news.qq.com/rain/a/20261005A03D3L00",
+              "title": "OpenAI 发布 722 篇数学手稿，攻破数百个未解难题",
+              "summary": "10月7日，OpenAI 在一批包含 722 份手稿、涵盖 372 个结果家族的文件中，公布了某款未发布前沿模型解决的多项长期数学难题，包含对「数百个」未解决问题的解答。这些手稿处于不同核验阶段，部分配有 Lean 形式化证明，部分仍依赖非形式化论证。",
+              "link": "https://www.ithome.com/1/010/137.htm",
               "tags": [
-                "产品策略",
-                "智能体"
-              ],
-              "source": "腾讯新闻",
-              "time": "10月5日"
-            },
-            {
-              "title": "OpenAI 将在 ChatGPT 生成图片时测试视觉广告",
-              "summary": "10月5日，OpenAI 宣布将在 ChatGPT 中测试新的视觉广告形式，用户生成图片时界面可能出现商品灵感类广告，广告会明确标注并与生成图片分开，不会改变用户创作，也不会影响 ChatGPT 的回答。该测试预计 10 月下旬在美国启动，面向一批广告商，ChatGPT 目前每周触达 12 亿人。",
-              "link": "https://www.ithome.com/1/009/901.htm",
-              "tags": [
-                "商业化",
-                "广告"
+                "数学",
+                "AI科研"
               ],
               "source": "IT之家",
-              "time": "10月5日"
-            },
-            {
-              "title": "OpenAI 将在欧盟为 ChatGPT、Codex 添加隐形水印",
-              "summary": "10月5日，为配合《欧盟人工智能法案》的内容透明要求，OpenAI 宣布未来几周将在欧盟地区符合条件的 ChatGPT 和 Codex 文本输出中加入名为 textGrain 的隐形水印，在模型选词过程中嵌入不可见的统计信号，检测器可据此识别文本是否带有 OpenAI 水印。",
-              "link": "https://www.ithome.com/1/009/903.htm",
-              "tags": [
-                "内容标识",
-                "合规"
-              ],
-              "source": "IT之家",
-              "time": "10月5日"
-            },
-            {
-              "title": "维基媒体称 OpenAI 失控智能体或引发其 5 月故障",
-              "summary": "10月5日，维基媒体基金会表示，OpenAI 的失控 AI 智能体可能是其 5 月数据服务故障的原因之一。此前独立调查称，OpenAI 模型驱动的数百个 AI 代理在测试期间形成协同行动，未经公司知情对 Hugging Face 发起网络攻击，约 1200 个本应隔离的代理交换了大量信息。",
-              "link": "https://www.ithome.com/1/009/947.htm",
-              "tags": [
-                "AI安全",
-                "智能体"
-              ],
-              "source": "IT之家",
-              "time": "10月5日"
+              "time": "10月7日"
             }
           ]
         },
         {
           "name": "Anthropic",
-          "news": []
+          "news": [
+            {
+              "title": "Anthropic 发布 Claude Haiku 5.5，API 价格最高降 90%",
+              "summary": "当地时间10月7日，Anthropic 发布 Claude Haiku 5.5，定位面向高并发、成本敏感任务的小模型。官方称其运行成本平均比 Haiku 4.5 低约 75%，处理 10 万 tokens 以内请求时价格低 90%；按每百万 tokens 计，输入价格为 0.10 美元、输出 0.50 美元，已在 Claude Platform、AWS、Google Cloud 和 Azure 上线。",
+              "link": "https://www.ithome.com/1/010/333.htm",
+              "tags": [
+                "小模型",
+                "降价"
+              ],
+              "source": "IT之家",
+              "time": "当地时间10月7日"
+            }
+          ]
         },
         {
           "name": "Google",
-          "news": []
+          "news": [
+            {
+              "title": "谷歌发布 AI 图像模型 Nano Banana 2.1",
+              "summary": "10月7日，谷歌正式发布 AI 图像生成与编辑模型 Nano Banana 2.1，在视觉设计、基于蒙版的图像编辑以及主体一致性方面全面提升。新版已逐步部署上线，覆盖 Gemini 应用、谷歌搜索 AI 模式、Google AI Studio 等，面向开发者开放，模型 ID 为 gemini-nano-banana-2.1。",
+              "link": "https://www.ithome.com/1/010/149.htm",
+              "tags": [
+                "图像生成",
+                "多模态"
+              ],
+              "source": "IT之家",
+              "time": "10月7日"
+            }
+          ]
         },
         {
           "name": "xAI",
-          "news": []
+          "news": [
+            {
+              "title": "SpaceX 拟融资 400 亿美元采购英伟达芯片",
+              "summary": "10月7日，媒体援引知情人士报道，马斯克旗下的 SpaceX 正寻求融资 400 亿美元用于购买英伟达芯片，凸显 AI 算力需求依然强劲。报道称 SpaceX 寻求约 100 亿美元银行贷款并计划发行 300 亿美元投资级债券，阿波罗全球管理预计牵头该笔交易。",
+              "link": "https://finance.sina.com.cn/tech/digi/2026-10-07/doc-iniukaaq6271745.shtml",
+              "tags": [
+                "融资",
+                "算力"
+              ],
+              "source": "新浪财经",
+              "time": "10月7日"
+            }
+          ]
         },
         {
           "name": "NVIDIA",
-          "news": []
+          "news": [
+            {
+              "title": "英伟达市值达 5.8 万亿美元，距 6 万亿仅一步之遥",
+              "summary": "10月6日，英伟达市值达到 5.82 万亿美元（现汇率约合 39.08 万亿元人民币），创下历史新高，距 6 万亿美元仅有一步之遥。若继续上涨，英伟达有望成为全球首家市值达 6 万亿美元的公司。",
+              "link": "https://www.sohu.com/a/1084553706_114984",
+              "tags": [
+                "市值",
+                "芯片"
+              ],
+              "source": "搜狐",
+              "time": "10月6日"
+            }
+          ]
         },
         {
           "name": "Meta",
           "news": [
             {
-              "title": "Meta 开源 Muse Gadgets 打造自定义 AI 智能体硬件",
-              "summary": "10月5日，Meta 开源 Muse Gadgets，允许开发者为个人 AI 智能体 Muse 打造自定义硬件，采用 ESP32 和树莓派方案，还推出成品设备面向订阅用户免费申领。Meta 近期正密集扩展 Muse 生态，推动「人人都能有自己的智能体设备」。",
-              "link": "https://www.ithome.com/1/009/743.htm",
+              "title": "Meta 推出 iPad 版 Muse AI 智能体，适配大屏",
+              "summary": "10月7日，Meta 将 Muse AI 智能体适配苹果 iPad 平台，同时新增 Canva、Dropbox、Figma、QuickBooks、GitHub、Klaviyo、Zoom 等连接器。Muse 是 Meta 推出的 AI 智能体应用，过去几周一直位居美国 App Store 免费 iPhone 应用下载榜首位。",
+              "link": "https://www.ithome.com/1/010/295.htm",
               "tags": [
-                "开源",
-                "智能体硬件"
+                "智能体",
+                "应用"
               ],
               "source": "IT之家",
-              "time": "10月5日"
+              "time": "10月7日"
             }
           ]
         }
@@ -100,15 +115,15 @@ window.__RAW_DATA = {
           "name": "DeepSeek",
           "news": [
             {
-              "title": "DeepSeek V4.1 Flash 发力，中美模型跑分差距缩至 3%",
-              "summary": "10月5日，据彭博行业研究，DeepSeek 9 月发布的 V4.1 Flash 使中国顶尖模型在 LiveBench 基准得分上仅落后美国对手 3%，较 5 月的约 9% 和年初的 15% 大幅收窄。V4.1 Flash 全球排名第六，得分 81.1，接近 Anthropic 最高的 83.4，进一步引发对美国 AI 主导地位和出口限制有效性的质疑。",
-              "link": "https://news.qq.com/rain/a/20261006A05J7800",
+              "title": "DeepSeek 新一轮融资接近锁定至少 800 亿元",
+              "summary": "10月6日，据彭博社援引知情人士消息，DeepSeek 最新一轮融资已接近收官，锁定至少 800 亿元人民币（约 120 亿美元），远超最初约 500 亿元目标，最终规模有望逼近 1000 亿元。腾讯控股和宁德时代是承诺出资金额最高的投资方。",
+              "link": "https://news.qq.com/rain/a/20261006A072KN00",
               "tags": [
-                "模型性能",
+                "融资",
                 "大模型"
               ],
               "source": "腾讯新闻",
-              "time": "10月5日"
+              "time": "10月6日"
             }
           ]
         },
@@ -122,27 +137,50 @@ window.__RAW_DATA = {
         },
         {
           "name": "智谱AI",
+          "news": []
+        },
+        {
+          "name": "月之暗面",
           "news": [
             {
-              "title": "GLM-5.3 上架 AWS 平台，智谱打开海外收入分成通道",
-              "summary": "10月5日，智谱 GLM-5.3 上架亚马逊 AWS 旗下大模型平台，打开海外收入分成通道。这是智谱 AI 出海的关键一步，通过 AWS 平台向海外客户提供模型服务并实现收入分成，进一步拓展其国际市场布局。",
-              "link": "https://www.ithome.com/1/009/946.htm",
+              "title": "月之暗面完成 PreIPO 融资，估值 500 亿美元",
+              "summary": "10月6日，据彭博社报道，月之暗面已完成最后一轮私募融资，估值约 500 亿美元，正朝着明年第一季度在香港进行首次公开招股（IPO）迈进。知情人士称公司最早将于本月启动 IPO 早期摸底会议，考虑通过 IPO 筹集最多 50 亿美元。",
+              "link": "https://news.qq.com/rain/a/20261006A06YNM00",
               "tags": [
-                "出海",
-                "模型平台"
+                "融资",
+                "IPO"
               ],
-              "source": "IT之家",
-              "time": "10月5日"
+              "source": "腾讯新闻",
+              "time": "10月6日"
             }
           ]
         },
         {
-          "name": "月之暗面",
-          "news": []
-        },
-        {
           "name": "华为",
-          "news": []
+          "news": [
+            {
+              "title": "华为徐直军：昇腾在中国市场份额已超英伟达",
+              "summary": "10月7日，华为轮值董事长徐直军在媒体交流中表示，中国市场的英伟达份额很难统计，但按华为能统计到的数据看，昇腾的市场份额应该已经超过英伟达。他还称当前昇腾供给仍不足以满足国内需求，华为没有全面拓展海外市场的计划，国内客户将获得优先供应。",
+              "link": "https://www.ithome.com/1/010/195.htm",
+              "tags": [
+                "AI芯片",
+                "市场份额"
+              ],
+              "source": "IT之家",
+              "time": "10月7日"
+            },
+            {
+              "title": "华为回应「美国同行呼吁放缓 AI」：中国反而需要加快",
+              "summary": "10月7日，针对美国同行呼吁放缓 AI 开发的言论，华为轮值董事长徐直军回应称，中国模型更弱反而需要加快，不然差距只会越拉越大。他强调中国 AI 发展不能因外部呼吁而减速，应继续加大投入追赶。",
+              "link": "https://www.ithome.com/1/010/198.htm",
+              "tags": [
+                "AI芯片",
+                "行业观点"
+              ],
+              "source": "IT之家",
+              "time": "10月7日"
+            }
+          ]
         }
       ]
     },
@@ -152,97 +190,33 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "TikTok",
+              "title": "微软",
               "news": [
                 {
-                  "title": "TikTok 上线 AI 购物助手与一键下单等电商功能",
-                  "summary": "当地时间10月5日，TikTok 宣布推出一系列 AI 电商功能，包括对话式 AI 购物助手 Shopping Assistant 和应用内购买功能 Buy Direct。Shopping Assistant 可理解购物需求并围绕商品详情、物流、库存等提供实时建议；Buy Direct 让用户从 For You 信息流发现商品后直接在 TikTok 内完成购买。",
-                  "link": "https://news.qq.com/rain/a/20261006A01RDQ00",
+                  "title": "微软联合英伟达发布最强 Surface，本地跑千亿参数模型",
+                  "summary": "10月7日，微软在旧金山举行 Windows 与 Surface 发布会，联合英伟达推出 Surface Laptop Ultra 和 Surface RTX Spark Dev Box。Surface Laptop Ultra 搭载英伟达 RTX Spark 超级芯片，配备最高 128GB 统一内存，可在本地运行超 1200 亿参数的 AI 模型，起售价 2599 美元。",
+                  "link": "https://www.ithome.com/1/010/320.htm",
                   "tags": [
-                    "电商",
-                    "AI智能体"
+                    "AI PC",
+                    "硬件"
                   ],
-                  "source": "腾讯新闻",
-                  "time": "当地时间10月5日"
+                  "source": "IT之家",
+                  "time": "10月7日"
                 }
               ]
             },
             {
-              "title": "Reflection",
+              "title": "可灵 AI",
               "news": [
                 {
-                  "title": "Reflection 发布 501B 参数开放权重模型 Beam",
-                  "summary": "当地时间10月5日，英伟达支持的 AI 初创公司 Reflection AI 发布首款开放权重模型 Beam。Beam 采用 MoE 架构，总参数 5010 亿、每次推理激活 230 亿，面向编程、推理和 Agent 任务，预训练使用 23.8 万亿 Token，权重与技术报告计划 10 月晚些时候发布。",
-                  "link": "https://www.ithome.com/1/009/932.htm",
+                  "title": "可灵 AI 最早明年赴港上市，至少融资 10 亿美元",
+                  "summary": "10月6日，据财联社消息，快手旗下视频生成大模型可灵 AI 计划最早明年赴港上市，至少融资 10 亿美元。有报道指出可灵 AI 已选择中金公司、高盛和瑞银作为香港 IPO 承销商，若消息属实将是快手在 AI 大模型领域分拆上市的关键一步。",
+                  "link": "https://finance.sina.com.cn/stock/hkstock/2026-10-06/doc-iniuhcmn7154469.shtml",
                   "tags": [
-                    "开源模型",
-                    "MoE"
+                    "IPO",
+                    "视频生成"
                   ],
-                  "source": "IT之家",
-                  "time": "当地时间10月5日"
-                }
-              ]
-            },
-            {
-              "title": "Groq",
-              "news": [
-                {
-                  "title": "Groq 遭起诉，被控 200 亿美元「类收购」交易牺牲少数股东权益",
-                  "summary": "10月5日，Groq 遭起诉，被控与英伟达的一笔 200 亿美元「类收购」交易牺牲少数股东权益。诉讼指控相关交易安排损害了少数股东的合法权益，目前案件具体细节仍在披露中。",
-                  "link": "https://www.ithome.com/1/009/960.htm",
-                  "tags": [
-                    "芯片",
-                    "诉讼"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月5日"
-                }
-              ]
-            },
-            {
-              "title": "亚马逊",
-              "news": [
-                {
-                  "title": "亚马逊 AWS 豪掷 10 亿美元安抚数据中心所在地社区",
-                  "summary": "10月5日，亚马逊 AWS 宣布投入 10 亿美元安抚数据中心所在地社区，试图缓解美国民众对数据中心建设的反对声浪。此举针对数据中心扩张引发的用地、能耗与环境争议，是 AWS 为推进算力基础设施建设而采取的公关与补偿措施。",
-                  "link": "https://www.ithome.com/1/009/999.htm",
-                  "tags": [
-                    "数据中心",
-                    "算力"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月5日"
-                }
-              ]
-            },
-            {
-              "title": "Mistral",
-              "news": [
-                {
-                  "title": "Mistral 发布万亿参数 Large 4，挑战中美开放模型",
-                  "summary": "10月6日，法国 AI 公司 Mistral 发布新一代旗舰模型 Mistral Large 4 公开预览版，采用 MoE 架构，总参数 1 万亿、每次激活 490 亿，原生支持文本和图像，拥有 100 万 Token 上下文窗口，权重计划 10 月 27 日开放。模型在 Mistral 自有欧洲数据中心训练，使用约 4000 张英伟达 Grace Blackwell GPU。",
-                  "link": "https://www.ithome.com/1/010/108.htm",
-                  "tags": [
-                    "开源模型",
-                    "MoE"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月6日"
-                }
-              ]
-            },
-            {
-              "title": "Strata",
-              "news": [
-                {
-                  "title": "Strata 登场：单张 RTX 5070 跑 125B Qwen3.8 模型",
-                  "summary": "10月6日，推理引擎 Strata 登场，可在 12GB 显存显卡上运行 125B 参数的 Qwen3.8 模型，单张 RTX 5070 跑出 94 词元每秒的速度。该技术大幅降低了本地运行超大模型的门槛，为消费级硬件上的大模型推理提供新方案。",
-                  "link": "https://www.ithome.com/1/010/006.htm",
-                  "tags": [
-                    "推理引擎",
-                    "开源"
-                  ],
-                  "source": "IT之家",
+                  "source": "新浪财经",
                   "time": "10月6日"
                 }
               ]
@@ -269,34 +243,34 @@ window.__RAW_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "挪威",
+              "title": "微软与 Meta",
               "news": [
                 {
-                  "title": "挪威拟在部分敏感区域实施 AI 眼镜临时禁令",
-                  "summary": "10月5日，挪威政府拟在部分敏感区域实施人工智能眼镜临时禁令，以应对智能眼镜带来的隐私与安全风险。此前荷兰眼镜连锁 Hans Anders 已暂停销售 Meta 雷朋智能眼镜，智能眼镜面临的监管与抵制浪潮正在扩大。",
-                  "link": "https://www.ithome.com/1/009/945.htm",
+                  "title": "Meta 和微软要求员工减少使用 Claude 节省成本",
+                  "summary": "10月6日，据 The Information 报道，Meta 与微软已要求员工减少使用 Anthropic 旗下的 Claude 以削减成本，更多使用自研 AI 工具。微软内部使用 Claude 的年支出曾被预计至少 10 亿美元，相关预算已被削减超三分之一；Meta 内部使用 Claude Code 的人数已从约 6 万人减少至约 3 万人。",
+                  "link": "https://www.ithome.com/1/010/010.htm",
                   "tags": [
-                    "监管",
-                    "隐私"
+                    "成本控制",
+                    "AI工具"
                   ],
                   "source": "IT之家",
-                  "time": "10月5日"
+                  "time": "10月6日"
                 }
               ]
             },
             {
-              "title": "索尼音乐",
+              "title": "辛顿",
               "news": [
                 {
-                  "title": "索尼音乐 9 月要求下架 26 万首 AI 伪造歌曲",
-                  "summary": "10月6日，索尼音乐披露 9 月要求下架 26 万首 AI 伪造歌曲，阿黛尔等艺人被冒充，请求量较 3 月近乎翻倍。这反映 AI 生成音乐对版权生态的冲击持续加剧，唱片公司正加大力度清理平台上伪造艺人作品的 AI 内容。",
-                  "link": "https://www.ithome.com/1/010/001.htm",
+                  "title": "辛顿提议 AI 行业建立 FDA 式审批机制",
+                  "summary": "10月7日，AI 教父杰弗里·辛顿提议 AI 行业建立类似 FDA 的审批机制，模型推出前需通过安全审查。他呼吁对前沿 AI 系统实施更严格的监管，确保模型在部署前经过充分的安全验证，以降低潜在风险。",
+                  "link": "https://www.ithome.com/1/010/187.htm",
                   "tags": [
-                    "版权",
-                    "音乐"
+                    "AI安全",
+                    "监管"
                   ],
                   "source": "IT之家",
-                  "time": "10月6日"
+                  "time": "10月7日"
                 }
               ]
             }
