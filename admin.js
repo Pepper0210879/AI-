@@ -3,7 +3,7 @@ const CONFIRMED_KEY = 'ai-news-confirmed';
 
 // 默认数据结构（与 script.js 中的 NEWS_DATA 一致）
 const DEFAULT_DATA = {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "sections": {
     "overseas": {
       "vendors": [
@@ -11,12 +11,23 @@ const DEFAULT_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 发布 722 篇数学手稿，攻破数百个未解难题",
-              "summary": "10月7日，OpenAI 在一批包含 722 份手稿、涵盖 372 个结果家族的文件中，公布了某款未发布前沿模型解决的多项长期数学难题，包含对「数百个」未解决问题的解答。这些手稿处于不同核验阶段，部分配有 Lean 形式化证明，部分仍依赖非形式化论证。",
-              "link": "https://www.ithome.com/1/010/137.htm",
+              "title": "ChatGPT 推出 IUI 界面，GPT-6 可生成交互工具",
+              "summary": "10月7日，OpenAI 宣布将 GPT-6 推向更广泛的 ChatGPT 用户，并推出全新的 Intelligent UI（智能用户界面）。与此前以文字对话为主不同，ChatGPT 现在可根据用户问题自动组合文字、图表、按钮、表单等元素，生成可直接操作的交互界面。新功能从 10 月 7 日起向 Plus、Pro、Business 和 Enterprise 用户逐步开放。",
+              "link": "https://www.ithome.com/1/010/327.htm",
               "tags": [
-                "数学",
-                "AI科研"
+                "产品更新",
+                "交互界面"
+              ],
+              "source": "IT之家",
+              "time": "10月7日"
+            },
+            {
+              "title": "OpenAI 为 ChatGPT 新增自动年龄检测",
+              "summary": "10月7日，OpenAI 更新支持文档，宣布将自动检测年龄在 18 岁以下的用户，并为他们开启青少年版体验模式，包含额外防护措施。系统会使用年龄预测系统检测用户大致年龄段，参考用户常讨论的话题、使用时段、账户使用方式与频次等信号。",
+              "link": "https://www.ithome.com/1/010/204.htm",
+              "tags": [
+                "安全",
+                "未成年人保护"
               ],
               "source": "IT之家",
               "time": "10月7日"
@@ -25,30 +36,40 @@ const DEFAULT_DATA = {
         },
         {
           "name": "Anthropic",
-          "news": [
-            {
-              "title": "Anthropic 发布 Claude Haiku 5.5，API 价格最高降 90%",
-              "summary": "当地时间10月7日，Anthropic 发布 Claude Haiku 5.5，定位面向高并发、成本敏感任务的小模型。官方称其运行成本平均比 Haiku 4.5 低约 75%，处理 10 万 tokens 以内请求时价格低 90%；按每百万 tokens 计，输入价格为 0.10 美元、输出 0.50 美元，已在 Claude Platform、AWS、Google Cloud 和 Azure 上线。",
-              "link": "https://www.ithome.com/1/010/333.htm",
-              "tags": [
-                "小模型",
-                "降价"
-              ],
-              "source": "IT之家",
-              "time": "当地时间10月7日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Google",
           "news": [
             {
-              "title": "谷歌发布 AI 图像模型 Nano Banana 2.1",
-              "summary": "10月7日，谷歌正式发布 AI 图像生成与编辑模型 Nano Banana 2.1，在视觉设计、基于蒙版的图像编辑以及主体一致性方面全面提升。新版已逐步部署上线，覆盖 Gemini 应用、谷歌搜索 AI 模式、Google AI Studio 等，面向开发者开放，模型 ID 为 gemini-nano-banana-2.1。",
-              "link": "https://www.ithome.com/1/010/149.htm",
+              "title": "谷歌推出 AI 游戏平台 Playground，文字生成可玩游戏",
+              "summary": "10月8日，谷歌正式推出实验性 AI 游戏平台 Playground，允许用户通过自然语言描述直接生成、修改和游玩浏览器游戏。用户可指定游戏角色、玩法规则、物理效果和场景，生成的游戏可通过链接分享，支持排行榜和部分多人玩法，首先面向美国 18 岁以上用户开放。",
+              "link": "https://www.ithome.com/1/010/289.htm",
               "tags": [
-                "图像生成",
-                "多模态"
+                "游戏",
+                "生成式AI"
+              ],
+              "source": "IT之家",
+              "time": "10月8日"
+            },
+            {
+              "title": "谷歌 SynthID 面向全球用户开放，可检测 AI 内容",
+              "summary": "10月7日，谷歌宣布 SynthID 面向全球用户开放，可检测 AI 生成内容。SynthID 是谷歌的 AI 内容水印与检测工具，此前已在部分产品中应用，此次面向全球用户开放将进一步帮助识别和标注 AI 生成内容。",
+              "link": "https://www.ithome.com/1/010/293.htm",
+              "tags": [
+                "内容标识",
+                "AI安全"
+              ],
+              "source": "IT之家",
+              "time": "10月7日"
+            },
+            {
+              "title": "谷歌 Gmail 新功能曝光：Gemini 帮你回邮件",
+              "summary": "10月7日，科技媒体 Android Authority 报道称，Gmail 应用最新版 APK 拆解显示，谷歌或正为 Gmail 新增 Gemini 智能体，让用户可通过 AI 自动回复邮件。新功能上线后，AI 收件箱可能在待办事项旁显示「使用 Gemini」按钮，点击即可让 Gemini 查看收件箱并起草回复。",
+              "link": "https://www.ithome.com/1/010/279.htm",
+              "tags": [
+                "AI应用",
+                "邮件"
               ],
               "source": "IT之家",
               "time": "10月7日"
@@ -59,15 +80,15 @@ const DEFAULT_DATA = {
           "name": "xAI",
           "news": [
             {
-              "title": "SpaceX 拟融资 400 亿美元采购英伟达芯片",
-              "summary": "10月7日，媒体援引知情人士报道，马斯克旗下的 SpaceX 正寻求融资 400 亿美元用于购买英伟达芯片，凸显 AI 算力需求依然强劲。报道称 SpaceX 寻求约 100 亿美元银行贷款并计划发行 300 亿美元投资级债券，阿波罗全球管理预计牵头该笔交易。",
-              "link": "https://finance.sina.com.cn/tech/digi/2026-10-07/doc-iniukaaq6271745.shtml",
+              "title": "马斯克：Grok Bot 不再只认自家模型，择优用 Claude",
+              "summary": "10月8日，马斯克表示 Grok Bot 不再只认自家模型，将按用户任务择优调用 Claude 等最合适的模型。此举显示马斯克在 AI 助手策略上的转变，从只使用自家 Grok 模型转向开放调用第三方最优模型。",
+              "link": "https://www.ithome.com/1/010/359.htm",
               "tags": [
-                "融资",
-                "算力"
+                "AI助手",
+                "产品策略"
               ],
-              "source": "新浪财经",
-              "time": "10月7日"
+              "source": "IT之家",
+              "time": "10月8日"
             }
           ]
         },
@@ -75,33 +96,21 @@ const DEFAULT_DATA = {
           "name": "NVIDIA",
           "news": [
             {
-              "title": "英伟达市值达 5.8 万亿美元，距 6 万亿仅一步之遥",
-              "summary": "10月6日，英伟达市值达到 5.82 万亿美元（现汇率约合 39.08 万亿元人民币），创下历史新高，距 6 万亿美元仅有一步之遥。若继续上涨，英伟达有望成为全球首家市值达 6 万亿美元的公司。",
-              "link": "https://www.sohu.com/a/1084553706_114984",
+              "title": "英伟达拟再投 10 亿美元加码人形机器人 Figure",
+              "summary": "10月8日，消息称英伟达拟再投 10 亿美元加码人形机器人企业 Figure，此前英伟达已是 Figure 的重要投资方。此举显示英伟达持续加码具身智能赛道，也透露出其对 AI 算力需求降温的担忧，希望通过对机器人的投资打开新的增长空间。",
+              "link": "https://www.ithome.com/1/010/387.htm",
               "tags": [
-                "市值",
-                "芯片"
+                "具身智能",
+                "机器人"
               ],
-              "source": "搜狐",
-              "time": "10月6日"
+              "source": "IT之家",
+              "time": "10月8日"
             }
           ]
         },
         {
           "name": "Meta",
-          "news": [
-            {
-              "title": "Meta 推出 iPad 版 Muse AI 智能体，适配大屏",
-              "summary": "10月7日，Meta 将 Muse AI 智能体适配苹果 iPad 平台，同时新增 Canva、Dropbox、Figma、QuickBooks、GitHub、Klaviyo、Zoom 等连接器。Muse 是 Meta 推出的 AI 智能体应用，过去几周一直位居美国 App Store 免费 iPhone 应用下载榜首位。",
-              "link": "https://www.ithome.com/1/010/295.htm",
-              "tags": [
-                "智能体",
-                "应用"
-              ],
-              "source": "IT之家",
-              "time": "10月7日"
-            }
-          ]
+          "news": []
         }
       ]
     },
@@ -117,19 +126,7 @@ const DEFAULT_DATA = {
         },
         {
           "name": "DeepSeek",
-          "news": [
-            {
-              "title": "DeepSeek 新一轮融资接近锁定至少 800 亿元",
-              "summary": "10月6日，据彭博社援引知情人士消息，DeepSeek 最新一轮融资已接近收官，锁定至少 800 亿元人民币（约 120 亿美元），远超最初约 500 亿元目标，最终规模有望逼近 1000 亿元。腾讯控股和宁德时代是承诺出资金额最高的投资方。",
-              "link": "https://news.qq.com/rain/a/20261006A072KN00",
-              "tags": [
-                "融资",
-                "大模型"
-              ],
-              "source": "腾讯新闻",
-              "time": "10月6日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "腾讯",
@@ -145,46 +142,11 @@ const DEFAULT_DATA = {
         },
         {
           "name": "月之暗面",
-          "news": [
-            {
-              "title": "月之暗面完成 PreIPO 融资，估值 500 亿美元",
-              "summary": "10月6日，据彭博社报道，月之暗面已完成最后一轮私募融资，估值约 500 亿美元，正朝着明年第一季度在香港进行首次公开招股（IPO）迈进。知情人士称公司最早将于本月启动 IPO 早期摸底会议，考虑通过 IPO 筹集最多 50 亿美元。",
-              "link": "https://news.qq.com/rain/a/20261006A06YNM00",
-              "tags": [
-                "融资",
-                "IPO"
-              ],
-              "source": "腾讯新闻",
-              "time": "10月6日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "华为",
-          "news": [
-            {
-              "title": "华为徐直军：昇腾在中国市场份额已超英伟达",
-              "summary": "10月7日，华为轮值董事长徐直军在媒体交流中表示，中国市场的英伟达份额很难统计，但按华为能统计到的数据看，昇腾的市场份额应该已经超过英伟达。他还称当前昇腾供给仍不足以满足国内需求，华为没有全面拓展海外市场的计划，国内客户将获得优先供应。",
-              "link": "https://www.ithome.com/1/010/195.htm",
-              "tags": [
-                "AI芯片",
-                "市场份额"
-              ],
-              "source": "IT之家",
-              "time": "10月7日"
-            },
-            {
-              "title": "华为回应「美国同行呼吁放缓 AI」：中国反而需要加快",
-              "summary": "10月7日，针对美国同行呼吁放缓 AI 开发的言论，华为轮值董事长徐直军回应称，中国模型更弱反而需要加快，不然差距只会越拉越大。他强调中国 AI 发展不能因外部呼吁而减速，应继续加大投入追赶。",
-              "link": "https://www.ithome.com/1/010/198.htm",
-              "tags": [
-                "AI芯片",
-                "行业观点"
-              ],
-              "source": "IT之家",
-              "time": "10月7日"
-            }
-          ]
+          "news": []
         }
       ]
     },
@@ -194,34 +156,66 @@ const DEFAULT_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "微软",
+              "title": "苹果",
               "news": [
                 {
-                  "title": "微软联合英伟达发布最强 Surface，本地跑千亿参数模型",
-                  "summary": "10月7日，微软在旧金山举行 Windows 与 Surface 发布会，联合英伟达推出 Surface Laptop Ultra 和 Surface RTX Spark Dev Box。Surface Laptop Ultra 搭载英伟达 RTX Spark 超级芯片，配备最高 128GB 统一内存，可在本地运行超 1200 亿参数的 AI 模型，起售价 2599 美元。",
-                  "link": "https://www.ithome.com/1/010/320.htm",
+                  "title": "苹果与 LG 智能家居合作再曝 4 款摄像头新品",
+                  "summary": "10月8日，苹果与 LG 的智能家居合作再曝 4 款摄像头新品，覆盖门铃、室内和户外场景。此前消息称苹果正与 LG 联合开发视频门铃、智能门锁、恒温器等智能家居配件，产品将使用 LG 品牌并适配苹果智能家居中枢。",
+                  "link": "https://www.ithome.com/1/010/355.htm",
                   "tags": [
-                    "AI PC",
+                    "智能家居",
                     "硬件"
                   ],
                   "source": "IT之家",
-                  "time": "10月7日"
+                  "time": "10月8日"
                 }
               ]
             },
             {
-              "title": "可灵 AI",
+              "title": "田柯宇",
               "news": [
                 {
-                  "title": "可灵 AI 最早明年赴港上市，至少融资 10 亿美元",
-                  "summary": "10月6日，据财联社消息，快手旗下视频生成大模型可灵 AI 计划最早明年赴港上市，至少融资 10 亿美元。有报道指出可灵 AI 已选择中金公司、高盛和瑞银作为香港 IPO 承销商，若消息属实将是快手在 AI 大模型领域分拆上市的关键一步。",
-                  "link": "https://finance.sina.com.cn/stock/hkstock/2026-10-06/doc-iniuhcmn7154469.shtml",
+                  "title": "被字节辞退的实习生田柯宇创业，估值达 2 亿美元",
+                  "summary": "10月8日，曾被字节跳动辞退的实习生田柯宇进军世界模型领域创业，其创业公司估值已达 2 亿美元，被外界视为「挑战李飞飞」。田柯宇此前因技术争议被字节辞退，如今转身创业，聚焦世界模型这一具身智能关键方向。",
+                  "link": "https://www.ithome.com/1/010/356.htm",
                   "tags": [
-                    "IPO",
-                    "视频生成"
+                    "世界模型",
+                    "创业"
                   ],
-                  "source": "新浪财经",
-                  "time": "10月6日"
+                  "source": "IT之家",
+                  "time": "10月8日"
+                }
+              ]
+            },
+            {
+              "title": "CoreWeave",
+              "news": [
+                {
+                  "title": "CoreWeave 落子印度，签署 240MW 数据中心租约",
+                  "summary": "10月8日，AI 算力公司 CoreWeave 落子印度，签署 240MW 数据中心容量租约，进一步拓展其在全球的 AI 算力基础设施布局。此举显示 AI 算力需求持续旺盛，CoreWeave 正加速在全球部署数据中心。",
+                  "link": "https://www.ithome.com/1/010/300.htm",
+                  "tags": [
+                    "算力",
+                    "数据中心"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月8日"
+                }
+              ]
+            },
+            {
+              "title": "AMD",
+              "news": [
+                {
+                  "title": "AMD 苏姿丰承诺 2027 年大幅增加 AI 芯片供应",
+                  "summary": "10月8日，AMD CEO 苏姿丰承诺 2027 年大幅增加 AI 数据中心芯片供应。她表示 AI 芯片需求非常旺盛，AMD 将持续大幅扩产，以满足市场对 AI 算力的强劲需求。",
+                  "link": "https://www.ithome.com/1/010/284.htm",
+                  "tags": [
+                    "AI芯片",
+                    "算力"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月8日"
                 }
               ]
             }
@@ -247,34 +241,50 @@ const DEFAULT_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "微软与 Meta",
+              "title": "法德尔",
               "news": [
                 {
-                  "title": "Meta 和微软要求员工减少使用 Claude 节省成本",
-                  "summary": "10月6日，据 The Information 报道，Meta 与微软已要求员工减少使用 Anthropic 旗下的 Claude 以削减成本，更多使用自研 AI 工具。微软内部使用 Claude 的年支出曾被预计至少 10 亿美元，相关预算已被削减超三分之一；Meta 内部使用 Claude Code 的人数已从约 6 万人减少至约 3 万人。",
-                  "link": "https://www.ithome.com/1/010/010.htm",
+                  "title": "「iPod 之父」法德尔分析初代 AI 设备为何失败",
+                  "summary": "10月8日，「iPod 之父」托尼·法德尔分析 Rabbit R1 等初代 AI 设备为何失败，指出这些设备没有解决真正的用户痛点，功能与智能手机重叠却缺乏足够差异化，因而难以在市场中立足。",
+                  "link": "https://www.ithome.com/1/010/299.htm",
                   "tags": [
-                    "成本控制",
-                    "AI工具"
+                    "AI硬件",
+                    "行业观点"
                   ],
                   "source": "IT之家",
-                  "time": "10月6日"
+                  "time": "10月8日"
                 }
               ]
             },
             {
-              "title": "辛顿",
+              "title": "微软与 OpenAI",
               "news": [
                 {
-                  "title": "辛顿提议 AI 行业建立 FDA 式审批机制",
-                  "summary": "10月7日，AI 教父杰弗里·辛顿提议 AI 行业建立类似 FDA 的审批机制，模型推出前需通过安全审查。他呼吁对前沿 AI 系统实施更严格的监管，确保模型在部署前经过充分的安全验证，以降低潜在风险。",
-                  "link": "https://www.ithome.com/1/010/187.htm",
+                  "title": "微软、OpenAI 遭美国多家地方媒体起诉侵犯版权",
+                  "summary": "10月8日，微软、OpenAI 遭美国多家地方媒体起诉，被指侵犯版权。这是继此前多起版权诉讼后，AI 公司再度面临来自新闻媒体机构的集体诉讼，指控其在训练大模型时未经授权使用新闻内容。",
+                  "link": "https://www.ithome.com/1/010/257.htm",
                   "tags": [
-                    "AI安全",
-                    "监管"
+                    "版权",
+                    "诉讼"
                   ],
                   "source": "IT之家",
-                  "time": "10月7日"
+                  "time": "10月8日"
+                }
+              ]
+            },
+            {
+              "title": "诺奖经济学家",
+              "news": [
+                {
+                  "title": "诺奖经济学家背书：AI 不会大规模抢走饭碗",
+                  "summary": "10月8日，有诺奖经济学家背书指出，未来 10 年内预估仅 5% 的工作会被 AI 大规模取代，AI 不会大规模抢走人们的饭碗。这一观点与部分担忧 AI 导致大规模失业的论调相左，为 AI 对就业的影响提供了更温和的评估。",
+                  "link": "https://www.ithome.com/1/010/329.htm",
+                  "tags": [
+                    "就业",
+                    "行业观点"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月8日"
                 }
               ]
             }
