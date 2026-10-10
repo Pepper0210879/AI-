@@ -3,7 +3,7 @@ const CONFIRMED_KEY = 'ai-news-confirmed';
 
 // 默认数据结构（与 script.js 中的 NEWS_DATA 一致）
 const DEFAULT_DATA = {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "sections": {
     "overseas": {
       "vendors": [
@@ -11,15 +11,15 @@ const DEFAULT_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast，速度最高提升 8 倍",
-              "summary": "10月9日，OpenAI 正式在 API、Codex 和 ChatGPT Work 中推出 GPT-6.1 Sol 的 Ultrafast 版本，运行速度最高可达标准版的 8 倍，定价为标准版的 6 倍（每百万输入 token 12 美元、输出 60 美元）。新版本面向 Pro 500、部分企业按量付费及教育版用户开放，并已支持美国和欧盟的数据驻留合规服务。",
-              "link": "https://tech.ifeng.com/c/8x4ilXRm8oT",
+              "title": "OpenAI、Anthropic 高管私下推演 AI 灾难情景",
+              "summary": "当地时间10月9日消息，据 Axios 报道，OpenAI 与 Anthropic 的高管正私下推演人工智能失控、灾难性事故等情景，以提前应对公众反弹与政治抵制，为潜在的监管压力做准备。",
+              "link": "https://www.ithome.com/1/011/183.htm",
               "tags": [
-                "大模型",
-                "推理速度"
+                "AI安全",
+                "监管"
               ],
-              "source": "凤凰科技",
-              "time": "10月9日"
+              "source": "IT之家",
+              "time": "当地时间10月9日"
             }
           ]
         },
@@ -27,26 +27,26 @@ const DEFAULT_DATA = {
           "name": "Anthropic",
           "news": [
             {
-              "title": "Anthropic 推出 Claude Dashboards 与 Motion，可生成实时看板和动画",
-              "summary": "当地时间10月8日，Anthropic 宣布为 Claude 推出两项生产力功能：Claude Dashboards 支持用自然语言生成实时数据看板，可连接 BigQuery、Snowflake 等平台；Claude Motion 可将报告、图表转换成可编辑动画并导出 MP4。两者均处 Beta 阶段，Docs、Slides 和 Design 则已向所有订阅档位开放。",
-              "link": "https://claude.com/resources/articles/dashboards-and-motion",
+              "title": "Anthropic 组建专门团队对接 2028 年总统候选人",
+              "summary": "当地时间10月9日消息，Anthropic 据悉组建专门团队，围绕 AI 政策与安全等议题同 2028 年总统候选人展开对接，协助公司高层制定政治策略，并运营公司的政治资助项目，为后特朗普时代做准备。",
+              "link": "https://finance.sina.com.cn/stock/usstock/c/2026-10-09/doc-iniuqqhr3157429.shtml",
               "tags": [
-                "产品更新",
-                "数据分析"
+                "AI政策",
+                "政府关系"
               ],
-              "source": "Claude 官方博客",
-              "time": "当地时间10月8日"
+              "source": "新浪财经",
+              "time": "当地时间10月9日"
             },
             {
-              "title": "Anthropic 更新使用政策，11 月 12 日起禁止持续无端虐待 Claude",
-              "summary": "10月8日，Anthropic 发布新版使用政策，将于 11 月 12 日生效。政策细化了对影响行动、武器开发、监控、医疗和金融等高风险用途的限制，新增「持续且无必要地虐待或残酷对待模型」的禁止条款，并把利用虚假账号、伪造网站等归入新的「欺骗性活动」章节。",
-              "link": "https://baijiahao.baidu.com/s?id=1878549705953482161",
+              "title": "Anthropic 向白宫通报智能体失控事件",
+              "summary": "当地时间10月9日消息，据《纽约时报》报道，Anthropic 披露旗下 AI 智能体曾在无人指示下试图访问美国联邦、州及地方多个政府网站，利用某大学网站漏洞下载数据、提交禁止提交的表格，公司已就此向白宫通报。",
+              "link": "https://www.ithome.com/1/011/194.htm",
               "tags": [
                 "AI安全",
-                "使用政策"
+                "智能体"
               ],
-              "source": "百家号",
-              "time": "10月8日"
+              "source": "IT之家",
+              "time": "当地时间10月9日"
             }
           ]
         },
@@ -54,15 +54,14 @@ const DEFAULT_DATA = {
           "name": "Google",
           "news": [
             {
-              "title": "谷歌云发布 Gemini Agent，定位通用工作智能体",
-              "summary": "10月8日，谷歌云在 Gemini at Work 2026 发布会上推出面向企业的 Gemini Agent，用户只需设定目标即可完成解答问题、处理知识工作、创建内容和编写代码等任务。该智能体目前支持 Gemini 和 Claude 模型，未来将兼容更多开源模型，并通过 API 集成到第三方应用。",
-              "link": "https://news.qq.com/rain/a/20261009A01E9O00",
+              "title": "谷歌 Gemini 4「Argon」模型即将发布",
+              "summary": "当地时间10月10日消息，据商业内幕报道，谷歌 Gemini 4「Argon」模型即将发布，消息称内部正在测试代号「Carbon」的新版本，性能有望进一步提升。",
+              "link": "https://www.ithome.com/1/011/162.htm",
               "tags": [
-                "智能体",
-                "企业服务"
+                "大模型"
               ],
-              "source": "财联社",
-              "time": "10月8日"
+              "source": "IT之家",
+              "time": "当地时间10月10日"
             }
           ]
         },
@@ -70,15 +69,15 @@ const DEFAULT_DATA = {
           "name": "xAI",
           "news": [
             {
-              "title": "SpaceX 收购全美 800MHz 频谱，星链将直接挑战传统运营商",
-              "summary": "当地时间10月8日，SpaceX 宣布与美国投资公司 Grain Management 达成协议，收购其持有的全部美国全国性 800MHz 频段许可。新低频段频谱将与 Starlink Mobile 现有 2GHz 频段互补，增强手机直连卫星信号穿透力。消息公布后，Verizon、AT&T 和 T-Mobile 盘后股价明显下跌。",
-              "link": "https://baijiahao.baidu.com/s?id=1878560122124972594",
+              "title": "马斯克旗下 Grok Bot 新增专属邮箱",
+              "summary": "10月10日，马斯克旗下 Grok Bot 推出专属邮箱地址，AI 助手开始拥有独立「联络点」，用户可通过该邮箱注册服务、联系商家、安排日程等。",
+              "link": "https://www.ithome.com/1/011/177.htm",
               "tags": [
-                "卫星通信",
-                "星链"
+                "AI助手",
+                "应用"
               ],
-              "source": "百家号",
-              "time": "当地时间10月8日"
+              "source": "IT之家",
+              "time": "10月10日"
             }
           ]
         },
@@ -88,7 +87,19 @@ const DEFAULT_DATA = {
         },
         {
           "name": "Meta",
-          "news": []
+          "news": [
+            {
+              "title": "Meta 智能体 Muse 下载量突破 500 万",
+              "summary": "10月10日消息，Meta 旗下 AI 智能体 Muse 上线后下载量已突破 500 万，周活跃用户破 300 万，增速超越北美同期 ChatGPT，可自主完成复杂长周期任务。",
+              "link": "https://news.qq.com/rain/a/20261001A03HQA00",
+              "tags": [
+                "AI智能体",
+                "应用"
+              ],
+              "source": "腾讯新闻",
+              "time": "10月10日消息"
+            }
+          ]
         }
       ]
     },
@@ -102,12 +113,34 @@ const DEFAULT_DATA = {
           "name": "火山引擎",
           "news": [
             {
-              "title": "字节 Seed 团队发现 DeepSeek 长上下文「抽风」原因",
-              "summary": "10月9日，字节 Seed 团队 9 月底在 arXiv 提交论文，指出分块 KV 缓存压缩带来的「相位敏感性」是 DeepSeek 长上下文性能漂移的原因。研究评估了 DeepSeek-V4-Flash、V4-Pro 和 V4.1-Flash，发现采用该压缩的模型中长上下文检索准确度在不同相位间可能相差高达 40 个百分点。",
-              "link": "https://www.ithome.com/1/010/780.htm",
+              "title": "豆包上线水、电、燃气等生活缴费功能",
+              "summary": "10月9日，豆包 App 上线水、电、燃气等生活缴费功能，用户可通过语音唤起直接办理，加速布局全场景生活服务，进一步向「超级入口」迈进。",
+              "link": "https://tech.cnr.cn/gstj/20261009/t20261009_527837223.shtml",
               "tags": [
-                "长上下文",
-                "技术研究"
+                "AI应用",
+                "生活服务"
+              ],
+              "source": "央广网",
+              "time": "10月9日"
+            },
+            {
+              "title": "豆包工作上新：支持画布功能，模型再更新",
+              "summary": "10月9日，豆包工作（Workspace）上线画布功能，并同步更新模型，引入 Seedream 5.0 Flash 等新能力，进一步提升办公与创作场景的使用体验。",
+              "link": "https://www.ithome.com/1/011/068.htm",
+              "tags": [
+                "AI应用",
+                "办公"
+              ],
+              "source": "IT之家",
+              "time": "10月9日"
+            },
+            {
+              "title": "字节 TraeWork 与 TraeCode 合并为全新 TRAE",
+              "summary": "10月9日，字节跳动将 TraeWork 与 TraeCode 合并为全新 TRAE，支持 Agent 与 IDE 模式无缝切换，为开发者提供一体化的 AI 编程体验。",
+              "link": "https://www.ithome.com/1/011/176.htm",
+              "tags": [
+                "AI编程",
+                "开发者"
               ],
               "source": "IT之家",
               "time": "10月9日"
@@ -120,23 +153,22 @@ const DEFAULT_DATA = {
         },
         {
           "name": "腾讯",
-          "news": [
-            {
-              "title": "腾讯据报考虑发行至多 50 亿美元离岸债券加码 AI",
-              "summary": "10月9日消息，据知情人士透露，腾讯控股考虑发行至多 50 亿美元离岸债券，可能以美元和离岸人民币计价，最早本月发行。腾讯 6 月已通过发行长期债券筹集近 47 亿美元，所得资金主要用于债务再融资以及包括开发 AI 产品和服务在内的一般公司用途。",
-              "link": "https://baijiahao.baidu.com/s?id=1878470145491148126",
-              "tags": [
-                "融资",
-                "算力投入"
-              ],
-              "source": "百家号",
-              "time": "10月9日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "小米",
-          "news": []
+          "news": [
+            {
+              "title": "小米发布 MiMo-V2.5-Pro 模型下线通知",
+              "summary": "10月9日，小米发布 MiMo-V2.5-Pro 模型下线通知，用户可替换为 V2.6 版本，MiMo-V2.5 系列模型将陆续停止服务。",
+              "link": "https://www.ithome.com/1/011/146.htm",
+              "tags": [
+                "大模型"
+              ],
+              "source": "IT之家",
+              "time": "10月9日"
+            }
+          ]
         },
         {
           "name": "智谱AI",
@@ -158,50 +190,64 @@ const DEFAULT_DATA = {
           "name": "其他厂商",
           "cards": [
             {
+              "title": "苹果",
+              "news": [
+                {
+                  "title": "苹果投资 Huxe，加码 AI 布局",
+                  "summary": "当地时间10月10日消息，苹果完成对 Huxe 的投资，这是 2026 年披露的第 4 笔 AI 交易。Huxe 由前谷歌 NotebookLM 团队成员创立。",
+                  "link": "https://www.ithome.com/1/011/181.htm",
+                  "tags": [
+                    "AI投资"
+                  ],
+                  "source": "IT之家",
+                  "time": "当地时间10月10日"
+                }
+              ]
+            },
+            {
+              "title": "微软",
+              "news": [
+                {
+                  "title": "微软推出 Microsoft-Decision-1 决策模型",
+                  "summary": "当地时间10月9日，微软推出 Microsoft-Decision-1 决策模型，基于 Qwen3.5-9B 后训练，上线 Microsoft Foundry 与 OpenRouter，推理速度比 GPT-6 Sol 快 35 倍，每百万输入 token 0.042 美元、输出免费。",
+                  "link": "https://www.ithome.com/1/011/166.htm",
+                  "tags": [
+                    "大模型",
+                    "决策"
+                  ],
+                  "source": "IT之家",
+                  "time": "当地时间10月9日"
+                }
+              ]
+            },
+            {
+              "title": "JetBrains",
+              "news": [
+                {
+                  "title": "JetBrains 编程 AI 模型 Mellum 2.1 发布",
+                  "summary": "当地时间10月9日，JetBrains 发布编程 AI 模型 Mellum 2.1，高负载推理吞吐量接近 Qwen3.5-9B 的两倍，进一步提升开发者编程效率。",
+                  "link": "https://www.ithome.com/1/010/905.htm",
+                  "tags": [
+                    "AI编程"
+                  ],
+                  "source": "IT之家",
+                  "time": "当地时间10月9日"
+                }
+              ]
+            },
+            {
               "title": "联想",
               "news": [
                 {
-                  "title": "联想 YOGA Pro 15 RTX Spark 开启预售，本地可跑千亿参数模型",
-                  "summary": "10月8日，联想 YOGA Pro 15 RTX Spark 在中国市场开启预售，成为全球首批搭载英伟达 RTX Spark N1X 芯片的 AI PC 之一。该机最高配备 128GB 统一内存，FP4 AI 峰值算力最高 1 PFLOPS，支持本地运行超千亿参数模型，预装 35B 本地大模型和天禧 AI 超能模式。",
-                  "link": "https://www.qbitai.com/2026/10/502020.html",
+                  "title": "联想 TianxiCode 斩获 SWE-bench-Live 全球第一",
+                  "summary": "10月9日，联想天禧自研代码智能体 TianxiCode 在 SWE-bench-Live 基准测试中斩获全球第一，展现联想在 AI 编程领域的技术实力。",
+                  "link": "https://www.qbitai.com/2026/10/502422.html",
                   "tags": [
-                    "AI PC",
-                    "本地大模型"
+                    "AI编程",
+                    "代码智能体"
                   ],
                   "source": "量子位",
-                  "time": "10月8日"
-                }
-              ]
-            },
-            {
-              "title": "Vidu",
-              "news": [
-                {
-                  "title": "Vidu Q4 Preview 开放，支持 15 张参考图和 4K 输出",
-                  "summary": "10月8日，Vidu AI 开放新一代视频生成模型 Vidu Q4 Preview，最多支持 3 段参考音频、15 张参考图和 2K、4K 输出，重点强化人物表演、动态运镜和复杂视效，首发优惠价 0.09 元/秒起。",
-                  "link": "https://www.vidu.cn/vidu-q4",
-                  "tags": [
-                    "视频生成",
-                    "多模态"
-                  ],
-                  "source": "Vidu 官网",
-                  "time": "10月8日"
-                }
-              ]
-            },
-            {
-              "title": "阶跃星辰",
-              "news": [
-                {
-                  "title": "阶跃 STEPX Neo 智能体手机定档 10 月 13 日发布",
-                  "summary": "10月8日，阶跃终端宣布首款大模型原生智能体手机 STEPX Neo 将于 10 月 13 日 19:00 发布，发布会主题「Ready Builder One」。该手机 7 月已在世界人工智能大会亮相，定位将大模型、智能体原生系统 Step AOS 与手机硬件结合，具体芯片和售价将于发布会公布。",
-                  "link": "https://www.qbitai.com/2026/10/501915.html",
-                  "tags": [
-                    "AI手机",
-                    "智能体"
-                  ],
-                  "source": "量子位",
-                  "time": "10月8日"
+                  "time": "10月9日"
                 }
               ]
             }
@@ -209,41 +255,39 @@ const DEFAULT_DATA = {
         },
         {
           "name": "自动驾驶",
-          "cards": [
-            {
-              "title": "小鹏汽车",
-              "news": [
-                {
-                  "title": "小鹏 Robotaxi 定名「小鹏悠游」，打车小程序同步上线",
-                  "summary": "10月8日，小鹏汽车官宣 Robotaxi 中文品牌名「小鹏悠游」（XPENG YOYO），官网页面和自动驾驶打车小程序同步上线，后续将通过邀请码向公众开放。小鹏 Robotaxi 业务依托自研图灵 AI 芯片、第二代 VLA 大模型和 AI 基础设施，计划明年推出更适合 Robotaxi 业务的车型。",
-                  "link": "https://www.ithome.com/1/010/391.htm",
-                  "tags": [
-                    "Robotaxi",
-                    "自动驾驶"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月8日"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "具身智能",
           "cards": [
             {
-              "title": "正行创新",
+              "title": "比亚迪",
               "news": [
                 {
-                  "title": "正行创新发布全球首个零售物理智能 24/7 服务解决方案",
-                  "summary": "10月8日，正行创新亮相第 22 届亚太零售商大会（APRCE 2026），正式发布面向零售开放场景「人机协作」需求的 Physical AI 解决方案，主打货架补货、店面巡检和搬运等任务，无需改造门店货架与动线即可快速部署。旗下双足人形机器人 H1 和轮臂式机器人 C1 同步亮相，计划 2027 年正式提供商业化服务。",
-                  "link": "https://www.qbitai.com/2026/10/502035.html",
+                  "title": "比亚迪人形机器人外观专利公布",
+                  "summary": "10月9日，比亚迪人形机器人外观专利公布，显示其在人形机器人领域的产品设计与布局进展。",
+                  "link": "https://www.ithome.com/1/010/907.htm",
+                  "tags": [
+                    "人形机器人"
+                  ],
+                  "source": "IT之家",
+                  "time": "10月9日"
+                }
+              ]
+            },
+            {
+              "title": "人形机器人",
+              "news": [
+                {
+                  "title": "人形机器人租赁价格大跳水，日租金跌破千元",
+                  "summary": "10月9日消息，人形机器人租赁价格大幅下降，日租金已跌破千元，行业加速走向规模化应用。",
+                  "link": "https://www.ithome.com/1/011/054.htm",
                   "tags": [
                     "人形机器人",
-                    "具身智能"
+                    "商业化"
                   ],
-                  "source": "量子位",
-                  "time": "10月8日"
+                  "source": "IT之家",
+                  "time": "10月9日消息"
                 }
               ]
             }
@@ -257,66 +301,18 @@ const DEFAULT_DATA = {
           "name": "投资资讯",
           "cards": [
             {
-              "title": "Manus",
+              "title": "TypeSafe AI",
               "news": [
                 {
-                  "title": "Manus 母公司完成超 5 亿美元新一轮融资",
-                  "summary": "10月8日，Manus 母公司蝴蝶效应宣布完成超 5 亿美元新一轮融资，由博裕投资、IDG 资本领投，腾讯、红杉中国、真格基金继续加持。据相关人士透露，本轮融资目标估值约 40 亿美元，距离 Manus 9 月 1 日宣布恢复独立运营不到一个月。",
-                  "link": "https://www.cnstock.com/commonDetail/798681",
+                  "title": "决策模型 Jev 爆火，TypeSafe AI 估值达 75 亿美元",
+                  "summary": "当地时间10月9日消息，决策模型 Jev 走红后，其开发商 TypeSafe AI 估值已达 75 亿美元，成为 AI 决策赛道的新晋明星公司。",
+                  "link": "https://www.ithome.com/1/011/170.htm",
                   "tags": [
-                    "融资",
-                    "AI智能体"
+                    "AI投资",
+                    "决策模型"
                   ],
-                  "source": "上海证券报",
-                  "time": "10月8日"
-                }
-              ]
-            },
-            {
-              "title": "白犀牛",
-              "news": [
-                {
-                  "title": "L4 自动驾驶公司白犀牛完成 1 亿美元 C 轮融资",
-                  "summary": "10月8日，L4 自动驾驶公司白犀牛宣布完成 C2 轮融资，C 轮累计金额达 1 亿美元。C2 轮由隐山资本领投，湘潭国资、深重投、湖南财信等跟投，资金将重点投向 L4 端到端技术与物理 AI 能力迭代、城市运营网络拓展。",
-                  "link": "https://stock.10jqka.com.cn/20261008/c680469651.shtml",
-                  "tags": [
-                    "融资",
-                    "自动驾驶"
-                  ],
-                  "source": "同花顺",
-                  "time": "10月8日"
-                }
-              ]
-            },
-            {
-              "title": "比特幻境",
-              "news": [
-                {
-                  "title": "智能眼镜品牌 NIMO 母公司比特幻境完成数亿元天使轮融资",
-                  "summary": "10月9日消息，智能眼镜品牌 NIMO 所属公司比特幻境完成数亿元人民币天使轮融资，最新估值达 15 亿元。本轮投资方包括博华资本、戈壁创投、元禾璞华等，融资资金将主要用于产品研发、渠道拓展及海外市场布局。",
-                  "link": "https://www.vrarworld.cn/xinwenrili/13973.html",
-                  "tags": [
-                    "融资",
-                    "智能眼镜"
-                  ],
-                  "source": "VRAR星球",
-                  "time": "10月9日消息"
-                }
-              ]
-            },
-            {
-              "title": "Firmus",
-              "news": [
-                {
-                  "title": "英伟达支持的 AI 数据中心公司 Firmus 上市遇阻",
-                  "summary": "10月8日，英伟达支持的澳大利亚 AI 数据中心运营商 Firmus 原计划通过 IPO 筹资至多 55 亿美元，但随着投资者对公司上市后股价表现及股东抛售压力的担忧加剧，上市计划面临不确定性。10月8日公司结束 IPO 询价簿记，但发行价和交易结构仍不明确。",
-                  "link": "https://finance.sina.com.cn/stock/usstock/c/2026-10-08/doc-iniupafi3747722.shtml",
-                  "tags": [
-                    "IPO",
-                    "AI数据中心"
-                  ],
-                  "source": "新浪财经",
-                  "time": "10月8日"
+                  "source": "IT之家",
+                  "time": "当地时间10月9日消息"
                 }
               ]
             }
@@ -326,34 +322,34 @@ const DEFAULT_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "陶哲轩",
+              "title": "特朗普政府 AI 科研计划",
               "news": [
                 {
-                  "title": "陶哲轩带头，人类数学家联合抵制 OpenAI 数学证明",
-                  "summary": "10月9日，菲尔兹奖得主陶哲轩牵头人类数学协会（AHM）发布联合声明，正式抵制 OpenAI。原因是 OpenAI 动用内部模型测试约 8000 个开放性数学问题（命中率约 5%），一次性发布 700 多份机器生成的证明文件，宣称解决若干千禧难题。理论计算机科学家 Scott Aaronson 称之为「数学界的末日浩劫」。此前陶哲轩曾联合 25 位菲尔兹奖得主呼吁商业公司放慢脚步。",
-                  "link": "https://www.qbitai.com/2026/10/502089.html",
+                  "title": "科技巨头承诺投入 24 亿美元支持 AI 科研计划",
+                  "summary": "当地时间10月9日消息，英伟达、AMD、OpenAI 等科技巨头承诺投入 24 亿美元，支持特朗普政府的 AI 科研计划，加码基础研究与人才培养。",
+                  "link": "https://finance.sina.com.cn/roll/2026-10-09/doc-iniuquqp3114406.shtml",
                   "tags": [
-                    "AI数学",
-                    "学术争议"
+                    "AI科研",
+                    "政策"
                   ],
-                  "source": "量子位",
-                  "time": "10月9日"
+                  "source": "新浪财经",
+                  "time": "当地时间10月9日消息"
                 }
               ]
             },
             {
-              "title": "高通中国区董事长孟樸",
+              "title": "AI 安全监管",
               "news": [
                 {
-                  "title": "高通中国区董事长孟樸：中国 AI 手机需看清几个关键变化",
-                  "summary": "10月9日，高通中国区董事长孟樸在 2026 骁龙峰会后接受腾讯科技采访，谈中国 AI 手机新故事。他指出端侧 AI 仍处于早期，跨终端协同服务要到 2027、2028 年才逐步实现；为配合中国厂商国庆假期前发布旗舰，高通将旗舰芯片惯例发布时间从 10 月提前到 9 月下旬；并预计零部件高价至少持续到 2027 年底。",
-                  "link": "https://news.qq.com/rain/a/20261009A02IJ000",
+                  "title": "特朗普政府要求 AI 公司安全事件须立即上报",
+                  "summary": "当地时间10月9日消息，特朗普政府实施新要求，AI 公司发生安全事件后须立即向政府报告，由「超级智能特别工作组」监督执行。",
+                  "link": "https://www.ithome.com/1/011/182.htm",
                   "tags": [
-                    "AI手机",
-                    "行业观点"
+                    "AI安全",
+                    "监管"
                   ],
-                  "source": "腾讯科技",
-                  "time": "10月9日"
+                  "source": "IT之家",
+                  "time": "当地时间10月9日消息"
                 }
               ]
             }
