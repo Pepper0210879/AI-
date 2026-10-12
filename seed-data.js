@@ -101463,7 +101463,20 @@ window.__SEED_CONFIRMED = {
           },
           {
             "name": "Google",
-            "news": []
+            "news": [
+              {
+                "title": "松下与谷歌合作打造家庭安防解决方案",
+                "summary": "10月12日消息，据IT之家报道，松下当地时间10月6日宣布与谷歌达成合作，结合松下在可视对讲与监控领域的技术和谷歌在生成式AI与云方面的优势，共同开发新一代家庭安防解决方案，通过AI视频分析实现高级异常检测、定制化通知等功能。",
+                "link": "https://www.ithome.com/1/011/840.htm",
+                "tags": [
+                  "松下",
+                  "谷歌",
+                  "智能安防"
+                ],
+                "source": "IT之家",
+                "time": "10月12日消息"
+              }
+            ]
           },
           {
             "name": "xAI",
@@ -101481,7 +101494,7 @@ window.__SEED_CONFIRMED = {
               },
               {
                 "title": "马斯克：Terrafab 工厂将重塑芯片制造",
-                "summary": "当地时间10月10日消息，马斯克表示，凭借旗下公司在定制设备制造上的专长，其芯片工厂 Terrafab 很可能「找到比任何人都更好地制造芯片的方法」。他坦言目前尚不清楚如何制造微芯片，但称会弄明白。",
+                "summary": "当地时间10月10日，马斯克表示，凭借旗下公司在定制设备制造上的专长，其芯片工厂 Terrafab 很可能「找到比任何人都更好地制造芯片的方法」。他坦言目前尚不清楚如何制造微芯片，但称会弄明白。",
                 "link": "https://finance.sina.com.cn/stock/bxjj/2026-10-11/doc-iniuvpap7328938.shtml",
                 "tags": [
                   "芯片制造",
@@ -101532,7 +101545,20 @@ window.__SEED_CONFIRMED = {
           },
           {
             "name": "Meta",
-            "news": []
+            "news": [
+              {
+                "title": "消息称 Meta 搁置向 Anthropic 出租 AI 算力计划",
+                "summary": "10月10日消息，据《华尔街日报》报道，随着Muse系列自研模型逐步发布、自身算力需求增长，Meta已搁置向Anthropic出租AI算力的计划。报道称，Anthropic CEO Dario Amodei今年早些时候曾致电Meta首席AI官汪滔，希望租赁AI计算芯片，Meta内部讨论后决定暂不提供。",
+                "link": "https://www.ithome.com/1/011/431.htm",
+                "tags": [
+                  "Meta",
+                  "Anthropic",
+                  "算力"
+                ],
+                "source": "IT之家",
+                "time": "10月10日消息"
+              }
+            ]
           }
         ]
       },
@@ -101566,14 +101592,15 @@ window.__SEED_CONFIRMED = {
             "name": "腾讯",
             "news": [
               {
-                "title": "腾讯元器宣布 11月9日停止服务",
-                "summary": "10月12日消息，腾讯智能体创作平台「元器」宣布将于 11月9日停止服务，用户在平台上创建的智能体将不再可用。这是继 QClaw 后腾讯近期关停的又一款 Agent 产品。",
-                "link": "https://finance.sina.com.cn/tech/digi/2026-10-10/doc-iniuufia0641857.shtml",
+                "title": "腾讯首席AI科学家姚顺雨随马化腾公开露面",
+                "summary": "10月12日消息，据中国新闻网报道，10月8日广东省委书记黄坤明到深圳腾讯总部调研，座谈中腾讯董事会主席马化腾身旁坐着年仅28岁的首席AI科学家姚顺雨。姚顺雨本科毕业于清华姚班、获普林斯顿博士，曾参与OpenAI operator与deep research开发，提出ReAct方法。",
+                "link": "https://www.ithome.com/1/011/765.htm",
                 "tags": [
-                  "智能体平台",
-                  "停服"
+                  "腾讯",
+                  "姚顺雨",
+                  "AI科学家"
                 ],
-                "source": "新浪科技",
+                "source": "IT之家",
                 "time": "10月12日消息"
               },
               {
@@ -101588,6 +101615,17 @@ window.__SEED_CONFIRMED = {
                 "time": "10月11日消息"
               },
               {
+                "title": "腾讯元器宣布 11月9日停止服务",
+                "summary": "10月10日消息，腾讯智能体创作平台「元器」宣布将于 11月9日停止服务，用户在平台上创建的智能体将不再可用。这是继 QClaw 后腾讯近期关停的又一款 Agent 产品。",
+                "link": "https://finance.sina.com.cn/tech/digi/2026-10-10/doc-iniuufia0641857.shtml",
+                "tags": [
+                  "智能体平台",
+                  "停服"
+                ],
+                "source": "新浪科技",
+                "time": "10月10日消息"
+              },
+              {
                 "title": "腾讯入股墨奇智能",
                 "summary": "10月10日消息，天眼查显示，上海墨奇万象智能技术有限公司发生工商变更，新增腾讯旗下上海启善投资有限公司为股东，注册资本由约 154.2 万元增至约 162.2 万元。",
                 "link": "https://www.36kr.com/newsflashes/4019769731469447",
@@ -101596,6 +101634,18 @@ window.__SEED_CONFIRMED = {
                   "工商变更"
                 ],
                 "source": "36氪",
+                "time": "10月10日消息"
+              },
+              {
+                "title": "腾讯云开源团队AI协作工具TeamAI",
+                "summary": "10月10日消息，腾讯云宣布开源内部自用的TeamAI，这是一款基于Git的团队AI协作工具，支持跨Agent共享Skill，把Skill、工作规范、工具配置和项目知识统一放进Git仓库管理，已适配WorkBuddy、CodeBuddy、Claude Code等16种Agent。",
+                "link": "https://www.ithome.com/1/011/432.htm",
+                "tags": [
+                  "腾讯云",
+                  "开源",
+                  "Agent协作"
+                ],
+                "source": "IT之家",
                 "time": "10月10日消息"
               }
             ]
@@ -101678,7 +101728,7 @@ window.__SEED_CONFIRMED = {
                     "time": "10月11日消息"
                   },
                   {
-                    "title": "苹果研发不「录像」的 AI 摄像头 J450",
+                    "title": "古尔曼：苹果正研发不录像的 AI 摄像头 J450",
                     "summary": "10月11日消息，据古尔曼透露，苹果正在研发代号 J450 的家用安防摄像头，与市面产品不同，它不会录制视频，而是用 AI 分析环境并以文字描述形式推送动态，主打隐私。",
                     "link": "https://news.sina.com.cn/w/2026-10-11/doc-iniuumqz7359379.shtml",
                     "tags": [
@@ -101686,6 +101736,18 @@ window.__SEED_CONFIRMED = {
                       "隐私"
                     ],
                     "source": "新浪新闻",
+                    "time": "10月11日消息"
+                  },
+                  {
+                    "title": "消息称苹果将与ADT合作，智能家居中枢下周发布",
+                    "summary": "10月11日消息，据MacRumors报道，苹果计划与美国最大家庭安防企业ADT建立合作，首款智能家居中枢将于10月13日「欢迎回家」发布会推出。ADT与谷歌的家庭安防合作预计到期后不续签，为苹果合作铺路。",
+                    "link": "https://www.ithome.com/1/011/579.htm",
+                    "tags": [
+                      "苹果",
+                      "ADT",
+                      "智能家居"
+                    ],
+                    "source": "IT之家",
                     "time": "10月11日消息"
                   }
                 ]
@@ -101710,7 +101772,7 @@ window.__SEED_CONFIRMED = {
                 "title": "酷派",
                 "news": [
                   {
-                    "title": "酷派阔直板智能体手机曝光，预装 DroiClaw 诸葛3 AI OS",
+                    "title": "酷派阔直板智能体手机背部外观曝光",
                     "summary": "10月11日消息，酷派 6.3 英寸阔直板新机背部外观曝光，消息称搭载联发科 Helio G99 处理器，配备 720p LCD 屏，预装 DroiClaw 诸葛3 AI OS，主打智能体体验。",
                     "link": "https://www.163.com/dy/article/L90LNINL0553TDTR.html",
                     "tags": [
@@ -101718,6 +101780,40 @@ window.__SEED_CONFIRMED = {
                       "AI OS"
                     ],
                     "source": "网易",
+                    "time": "10月11日消息"
+                  }
+                ]
+              },
+              {
+                "title": "阶跃星辰",
+                "news": [
+                  {
+                    "title": "阶跃Step 5 Preview上线腾讯WorkBuddy",
+                    "summary": "10月12日消息，阶跃StepFun宣布阶跃Step 5 Preview模型上线腾讯WorkBuddy，10月12日至25日开启独家限免。该模型采用稀疏MoE架构，总参数600B、激活27B，支持100万Token上下文，并将于10月15日开源完整权重。",
+                    "link": "https://www.ithome.com/1/011/852.htm",
+                    "tags": [
+                      "阶跃星辰",
+                      "Step 5",
+                      "WorkBuddy"
+                    ],
+                    "source": "IT之家",
+                    "time": "10月12日消息"
+                  }
+                ]
+              },
+              {
+                "title": "努比亚",
+                "news": [
+                  {
+                    "title": "努比亚NaviX Ultra「内测实验室」即将开启",
+                    "summary": "10月11日消息，努比亚宣布NaviX Ultra「内测实验室」计划即将开启，面向尝鲜用户开放内测资格。该机号称全球首款AI智能体手机，搭载行业首个集成指纹识别的独立AI按键、Seed全双工语音大模型，售价5999元起。",
+                    "link": "https://www.ithome.com/1/011/617.htm",
+                    "tags": [
+                      "努比亚",
+                      "AI手机",
+                      "智能体"
+                    ],
+                    "source": "IT之家",
                     "time": "10月11日消息"
                   }
                 ]
@@ -101819,6 +101915,23 @@ window.__SEED_CONFIRMED = {
                     "time": "10月12日消息"
                   }
                 ]
+              },
+              {
+                "title": "无问芯穹",
+                "news": [
+                  {
+                    "title": "无问芯穹完成23亿元C轮融资，创AI Infra赛道纪录",
+                    "summary": "10月12日消息，据证券时报报道，AI基础设施企业无问芯穹完成23亿元C轮融资，累计融资额达43亿元，单轮及累计融资额均创中国AI原生基础设施赛道最高纪录。该公司成立于2023年，是清华与上海交大的科技成果转化企业，专注异构算力调度等中间层路径。",
+                    "link": "https://www.ithome.com/1/011/849.htm",
+                    "tags": [
+                      "无问芯穹",
+                      "AI Infra",
+                      "融资"
+                    ],
+                    "source": "IT之家",
+                    "time": "10月12日消息"
+                  }
+                ]
               }
             ]
           },
@@ -101902,6 +102015,40 @@ window.__SEED_CONFIRMED = {
                     ],
                     "source": "量子位",
                     "time": "10月11日消息"
+                  }
+                ]
+              },
+              {
+                "title": "王兴兴（宇树科技创始人）",
+                "news": [
+                  {
+                    "title": "王兴兴：过去十几年最大错误是对AI还不够相信",
+                    "summary": "10月12日消息，宇树科技创始人王兴兴在工博会开幕式上表示，GPT-6发布对具身智能行业认知影响很大，团队已将其部署至机器人测试。他称过去十几年犯的最大错误就是对AI还不够相信，如今对AI的信仰与日俱增，认为具身智能行业临界点最快一两年内到来。",
+                    "link": "https://www.ithome.com/1/011/850.htm",
+                    "tags": [
+                      "王兴兴",
+                      "宇树科技",
+                      "具身智能"
+                    ],
+                    "source": "IT之家",
+                    "time": "10月12日消息"
+                  }
+                ]
+              },
+              {
+                "title": "丘成桐",
+                "news": [
+                  {
+                    "title": "丘成桐数学与人工智能实验室联盟在清华成立",
+                    "summary": "10月12日消息，据北京日报报道，丘成桐数学与人工智能实验室联盟于10月11日在清华大学成立，将向数学专用大模型研发、AI辅助数学形式化证明与猜想发现等方向攻关。丘成桐表示，这倒逼我们重新思考数学的本质价值，必须在AI浪潮中冲浪。",
+                    "link": "https://www.ithome.com/1/011/814.htm",
+                    "tags": [
+                      "丘成桐",
+                      "清华",
+                      "AI数学"
+                    ],
+                    "source": "IT之家",
+                    "time": "10月12日消息"
                   }
                 ]
               }
