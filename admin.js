@@ -3,7 +3,7 @@ const CONFIRMED_KEY = 'ai-news-confirmed';
 
 // 默认数据结构（与 script.js 中的 NEWS_DATA 一致）
 const DEFAULT_DATA = {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "sections": {
     "overseas": {
       "vendors": [
@@ -11,37 +11,16 @@ const DEFAULT_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 拟融资 300 亿美元，估值或超 1.4 万亿美元",
-              "summary": "OpenAI 正加快推进一轮约 300 亿美元的融资，目标估值可能超过 1.4 万亿美元，并希望赶在 Anthropic 预计 11 月中旬上市前获得投资者承诺。软银、MGX 等现有投资者正洽谈参与，OpenAI 年化营收已达 500 亿美元，预计年底升至 700 亿美元。",
-              "link": "https://finance.eastmoney.com/a/202610203900470711.html",
+              "title": "ChatGPT上线对话锁，支持PIN与生物识别",
+              "summary": "OpenAI为ChatGPT推出Locked Chats对话锁功能，用户可用四位PIN或Face ID、Touch ID等生物识别方式锁定私密对话，锁定内容从常规历史、置顶与搜索中隐藏但仍会保留。该功能覆盖Free至Enterprise及Edu用户，医疗版暂不支持，忘记PIN后重置将永久删除锁定对话。",
+              "link": "https://news.qq.com/rain/a/20261021A0C7IO00",
               "tags": [
-                "融资",
-                "估值"
+                "隐私保护",
+                "对话锁定",
+                "生物识别"
               ],
-              "source": "东方财富",
-              "time": "10月19日"
-            },
-            {
-              "title": "OpenAI 加码机器人研发，发布 19 个 Robotics 岗位",
-              "summary": "OpenAI 从「用大模型给机器人当大脑」进一步延伸到机器人硬件、控制系统和制造环节。截至 10 月 19 日，官网已发布 19 个 Robotics 相关岗位，涵盖控制系统、电机设计、制造、数据系统等方向，同时推进机器人软硬件研发与现实世界数据采集训练体系。",
-              "link": "https://www.bianews.com/news/details?id=247424",
-              "tags": [
-                "机器人",
-                "招聘"
-              ],
-              "source": "鞭牛士",
-              "time": "10月19日"
-            },
-            {
-              "title": "OpenAI 上线 ChatGPT Slides 幻灯片工具",
-              "summary": "OpenAI 上线 ChatGPT Slides，支持生成演示文稿、协同编辑并导出多种格式，目前仅对 Pro、Business 和 Enterprise 套餐用户开放，Plus 用户暂不可用。",
-              "link": "https://news.qq.com/rain/a/20261020A08FEQ00",
-              "tags": [
-                "办公",
-                "幻灯片"
-              ],
-              "source": "腾讯新闻",
-              "time": "10月20日"
+              "source": "三易生活",
+              "time": "10月21日消息"
             }
           ]
         },
@@ -49,58 +28,61 @@ const DEFAULT_DATA = {
           "name": "Anthropic",
           "news": [
             {
-              "title": "Nscale 与 Anthropic 洽谈 450 亿美元新算力交易",
-              "summary": "据路透社报道，Nscale 正与 Anthropic 商谈一笔约 450 亿美元的 AI 算力交易，拟由美国西弗吉尼亚州 Monarch 数据中心园区的第二座设施提供服务，采用英伟达 Vera Rubin AI 芯片提供 460 兆瓦算力。",
-              "link": "https://finance.jrj.com.cn/2026/10/20063558777786.shtml",
+              "title": "Anthropic上半年净亏807亿美元",
+              "summary": "招股书草案显示，Anthropic今年上半财年净亏损807亿美元，其中约720亿美元来自可转换票据等工具价值变动的会计计提；同期算力与基础设施支出近90亿美元，约为上年同期的四倍。公司未来数年用于购买算力的潜在支出可能达7500亿美元。",
+              "link": "https://stock.jrj.com.cn/2026/10/21135058805382.shtml",
               "tags": [
+                "财报",
                 "算力",
-                "数据中心"
+                "IPO"
               ],
               "source": "金融界",
-              "time": "10月19日"
+              "time": "10月21日消息"
+            },
+            {
+              "title": "施密特被曝持有Anthropic约1%股份",
+              "summary": "据知情人士透露，谷歌前首席执行官埃里克·施密特持有AI初创公司Anthropic约1%的股份，其曾在A轮融资中投入数千万美元。若Anthropic成功IPO，施密特有望获得可观回报，此前有投资者讨论的估值约1.5万亿美元，低于此前约2万亿美元的预期。",
+              "link": "https://news.qq.com/rain/a/20261020A04HKM00",
+              "tags": [
+                "股权",
+                "IPO",
+                "估值"
+              ],
+              "source": "腾讯新闻",
+              "time": "10月20日消息"
             }
           ]
         },
         {
           "name": "Google",
-          "news": [
-            {
-              "title": "谷歌 Gemini 4 Argon 智能体通关《我的世界》",
-              "summary": "谷歌研究人员用四个 Gemini 4 Argon 智能体在无人类辅助、无种子地图条件下，仅用 27 小时通关《我的世界》。它们通过聊天框自主分工协作，运行 2783 个程序，消耗 13.5 亿 Token，成本约 1620 美元。",
-              "link": "https://www.ithome.com/1/015/048.htm",
-              "tags": [
-                "智能体",
-                "游戏"
-              ],
-              "source": "IT之家",
-              "time": "10月20日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "xAI",
           "news": [
             {
-              "title": "马斯克承诺赠美国每个孩子 1 股 SpaceX 股份",
-              "summary": "马斯克表示明年将把自己持有的 SpaceX 股份赠予美国每个孩子一股，称「这将是众多行动中的第一个」。按约 7200 万儿童、每股约 146 美元计算，总价值约 105 亿美元。",
-              "link": "https://finance.eastmoney.com/a/202610193900097394.html",
+              "title": "马斯克称SpaceX与特斯拉研究合并",
+              "summary": "当地时间10月20日，马斯克在SpaceX财报电话会上透露，SpaceX与特斯拉均已成立由独立董事组成的特别委员会，评估两家公司合并的可能性。他称合并有诸多好处，在开发超级智能软件方面合作将大有裨益；若落地将成为史上规模最大的企业合并交易。",
+              "link": "https://finance.eastmoney.com/a/202610213902826024.html",
               "tags": [
-                "SpaceX",
-                "赠股"
+                "合并",
+                "超级智能",
+                "企业并购"
               ],
               "source": "东方财富",
-              "time": "10月19日"
+              "time": "当地时间10月20日"
             },
             {
-              "title": "马斯克称 Optimus 与 Cybercab 将构成特斯拉绝大部分价值",
-              "summary": "马斯克称公司 Optimus 人形机器人与 Cybercab 自动驾驶汽车将构成特斯拉价值的绝大部分，重申重心放在机器人与 AI 领域，并提出超级智能、机器人、太阳能和大规模太空运输是仅有的高经济扩张潜力方向。",
-              "link": "https://news.qq.com/rain/a/20261019A02UKM00",
+              "title": "SpaceX三季度净利44亿美元，AI成最大收入",
+              "summary": "SpaceX公布上市后首次季度盈利：三季度营收146亿美元，同比增长161%，净利润44亿美元，上年同期为亏损11亿美元。其中AI业务营收增至75.6亿美元，接近上年同期的10倍，成为最大收入来源，主要来自向Anthropic、谷歌等出租算力。",
+              "link": "https://news.qq.com/rain/a/20261021A067CO00",
               "tags": [
-                "人形机器人",
-                "自动驾驶"
+                "财报",
+                "AI算力",
+                "盈利"
               ],
               "source": "腾讯新闻",
-              "time": "10月19日"
+              "time": "当地时间10月20日"
             }
           ]
         },
@@ -108,15 +90,15 @@ const DEFAULT_DATA = {
           "name": "NVIDIA",
           "news": [
             {
-              "title": "Modal 将采用英伟达 Vera CPU 支撑 AI 智能体",
-              "summary": "云计算初创公司 Modal 计划首次采用英伟达 Vera 中央处理器，为可长期执行任务的 AI 智能体提供算力。早期测试中 Vera 让智能体完成的工作量翻倍，Modal 将把 Vera 与现有 Intel、AMD 产品组合成混合机群。",
-              "link": "https://news.qq.com/rain/a/20261020A073RZ00",
+              "title": "黄仁勋：AI发展不能急刹车但要装安全带",
+              "summary": "英伟达首席执行官黄仁勋在伦敦表示，反对以「急刹车」或严厉监管来限制AI发展，主张建立「安全带」，通过更智能的安全标准、监测机制和事故防范措施约束AI。其表态为当前AI监管之争提供了松紧结合的立场。",
+              "link": "https://news.qq.com/rain/a/20261020A05G2H00",
               "tags": [
-                "芯片",
-                "智能体"
+                "AI监管",
+                "行业观点"
               ],
               "source": "腾讯新闻",
-              "time": "10月19日"
+              "time": "10月20日消息"
             }
           ]
         },
@@ -124,26 +106,16 @@ const DEFAULT_DATA = {
           "name": "Meta",
           "news": [
             {
-              "title": "杨立昆质疑特斯拉飞车，马斯克回「放屁」",
-              "summary": "杨立昆质疑马斯克「会飞的汽车」演示依赖压缩空气推进，难以成为真正飞行汽车的技术路径；马斯克以「放屁」回应。杨立昆称不反对马斯克真实成就，但会质疑那些「表面很酷、实际并非宣传所称成就」的营销演示。",
-              "link": "https://news.qq.com/rain/a/20261019V0C1VW00",
+              "title": "Meta助手Muse下载量突破1000万",
+              "summary": "据Sensor Tower数据，Meta旗下AI助手Muse自9月推出以来累计下载量达1090万次，其中美国地区约1020万次，上线40天即达成里程碑。此前达成该成绩的应用仅11款，数据显示Muse的用户留存表现优于ChatGPT、Claude、Grok等AI竞品。",
+              "link": "https://finance.eastmoney.com/a/202610223903324480.html",
               "tags": [
-                "飞行汽车",
-                "论战"
+                "AI助手",
+                "下载量",
+                "用户增长"
               ],
-              "source": "腾讯新闻",
-              "time": "10月19日"
-            },
-            {
-              "title": "美国银行、摩根大通等金融平台屏蔽 Muse 智能体",
-              "summary": "嘉信理财、摩根大通、美国银行等相继限制第三方 AI 智能体访问，允许查询但禁止转账；达美航空、Yelp、亚马逊也收紧规则，核心争议在于责任由谁承担。",
-              "link": "https://finance.jrj.com.cn/2026/10/19162558772956.shtml",
-              "tags": [
-                "智能体",
-                "金融"
-              ],
-              "source": "金融界",
-              "time": "10月19日"
+              "source": "东方财富",
+              "time": "10月22日消息"
             }
           ]
         }
@@ -157,71 +129,50 @@ const DEFAULT_DATA = {
         },
         {
           "name": "火山引擎",
-          "news": [
-            {
-              "title": "豆包回应「国内过半算力造爽剧」不实",
-              "summary": "针对「国内超一半算力在造爽剧」的话题，豆包公关负责人刘星回应称相关算力数据「不靠谱」，字节跳动总算力中只有约 10% 用于视频生成模型的训练和推理。",
-              "link": "https://view.inews.qq.com/a/20261019A07M0600",
-              "tags": [
-                "算力",
-                "辟谣"
-              ],
-              "source": "腾讯新闻",
-              "time": "10月19日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "DeepSeek",
-          "news": [
-            {
-              "title": "DeepSeek V4.1 Flash 登顶 Code Arena 开源榜首",
-              "summary": "DeepSeek-V4.1-Flash-1017（Max）超过 Kimi K3，成为 Code Arena WebDev 榜单排名最高的开源模型，得分 1670 分，进入性能成本帕累托前沿，综合成本约为 Kimi K3 的十分之一。",
-              "link": "https://news.qq.com/rain/a/20261019A0CEH400",
-              "tags": [
-                "开源模型",
-                "编程"
-              ],
-              "source": "腾讯新闻",
-              "time": "10月19日"
-            },
-            {
-              "title": "DeepSeek 宣布 DeepInfer 推理框架全面开源",
-              "summary": "DeepSeek 官宣，在此前开源一系列大模型、TileLang 编译工具及推理算子库的基础上，进一步将内部推理框架 DeepInfer 全面开源，目标实现大模型普惠。",
-              "link": "https://www.yicai.com/brief/103401025.html",
-              "tags": [
-                "推理框架",
-                "开源"
-              ],
-              "source": "第一财经",
-              "time": "10月20日"
-            },
-            {
-              "title": "外交部回应美政府要求机构停用 DeepSeek",
-              "summary": "针对美国政府要求机构停止使用 DeepSeek 等中国 AI 工具，外交部发言人毛宁在例行记者会上回应：中方一贯反对泛化国家安全概念、将科技经贸问题政治化，将坚决维护中国企业的合法权益。",
-              "link": "https://view.inews.qq.com/a/20261020A099G300",
-              "tags": [
-                "出海",
-                "政策"
-              ],
-              "source": "腾讯新闻",
-              "time": "10月20日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "腾讯",
           "news": [
             {
-              "title": "腾讯 WorkBuddy 教育公益版上线",
-              "summary": "腾讯 SSV 宣布 WorkBuddy 教育公益版正式上线，面向全国教师开放，每位教师每月可领 2000 积分，连续支持 12 个月。团队围绕教师工作制作 AI 教学助理，联合北大、北师大等高校将研究成果转为可调用的教育专家模块。",
-              "link": "https://news.qq.com/rain/a/20261019V0AVQY00",
+              "title": "姚顺雨立下硬核Flag：腾讯混元要做世界第一",
+              "summary": "据晚点LatePost报道，姚顺雨加入腾讯一年后，混元团队已扩张至近2000人。姚顺雨曾提出在成为第一之前不发技术报告、目标直指世界第一；有成员回忆其称可通过竞争把DeepSeek「卷到加班」，Hy 4 Preview发布后还曾给研究员放一周假。",
+              "link": "https://news.qq.com/rain/a/20261021A04HDF00",
               "tags": [
-                "教育",
-                "公益"
+                "团队扩张",
+                "人才",
+                "大模型"
+              ],
+              "source": "快科技",
+              "time": "10月21日消息"
+            },
+            {
+              "title": "腾讯内测AI学习社区「懂了鸭」",
+              "summary": "腾讯正在内测AI趣味学习社区「懂了鸭」，用户可用AI将想法制作成绘本、动画、动态课件和知识游戏并分享。内容覆盖学前至K12阶段，输入主题后Agent会拆解创作步骤并支持实时预览，提供网页与小程序两种形态。",
+              "link": "https://news.qq.com/rain/a/20261019A05MBW00",
+              "tags": [
+                "AI教育",
+                "内容创作",
+                "Agent"
               ],
               "source": "腾讯新闻",
-              "time": "10月19日"
+              "time": "10月19日消息"
+            },
+            {
+              "title": "腾讯元宝AI搜索通过腾讯云对外开放",
+              "summary": "腾讯宣布元宝搜索正式通过腾讯云对外开放，面向大模型和Agent提供联网搜索能力，开发者可通过API、MCP和Skill三种方式接入。该服务已形成千亿级索引，日均调用量达数亿次，支撑WorkBuddy、ima等50多个腾讯业务。",
+              "link": "https://news.qq.com/rain/a/20261021A0C58300",
+              "tags": [
+                "搜索",
+                "API",
+                "Agent"
+              ],
+              "source": "腾讯新闻",
+              "time": "10月20日"
             }
           ]
         },
@@ -239,7 +190,20 @@ const DEFAULT_DATA = {
         },
         {
           "name": "华为",
-          "news": []
+          "news": [
+            {
+              "title": "华为引望宁德时代换电车型2027年上市",
+              "summary": "据媒体报道，华为引望与宁德时代、时代电服的换电合作进入车型开发阶段，首批涉及五款新车，计划2027年上市，首款巧克力换电车型为东风与华为合作的奕境品牌。三方计划让华为乾崑智驾与巧克力换电网络协同，打通车辆、换电站与云端数据服务。",
+              "link": "https://news.qq.com/rain/a/20261021V0738S00",
+              "tags": [
+                "换电",
+                "智能驾驶",
+                "新能源"
+              ],
+              "source": "腾讯新闻",
+              "time": "10月20日"
+            }
+          ]
         }
       ]
     },
@@ -249,82 +213,104 @@ const DEFAULT_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "MiniMax",
+              "title": "三星",
               "news": [
                 {
-                  "title": "MiniMax M3.1 Flash 上线，推理提速 3 倍价格降 70%",
-                  "summary": "MiniMax 正式上线 M3.1 Flash，并确认此前匿名运行、累计处理超 200T Token 的 Space Bunny 是其早期版本。新模型在 Agentic 任务、编程等能力上代际提升，线上推理速度提升近 3 倍，使用成本降低 70%。",
-                  "link": "https://news.qq.com/rain/a/20261020A08XDO00",
+                  "title": "三星研发24小时工作的机器人",
+                  "summary": "三星电子机器人业务RX业务推进室正在首尔R&D园区验证可在产业现场24小时运转的机器人，用于搬运货物等制造、物流重复作业，同时学习周边环境和作业方式。三星正以多个候选产品为对象，研究是否参展CES。",
+                  "link": "https://news.qq.com/rain/a/20261020A0BP1S00",
                   "tags": [
-                    "开源模型",
-                    "定价"
+                    "机器人",
+                    "制造业",
+                    "具身智能"
+                  ],
+                  "source": "鞭牛士",
+                  "time": "10月20日消息"
+                }
+              ]
+            },
+            {
+              "title": "甲骨文",
+              "news": [
+                {
+                  "title": "甲骨文与阿斯利康合作探索AI医疗",
+                  "summary": "甲骨文与阿斯利康宣布达成非约束性协议，计划利用AI和真实世界数据识别符合临床试验条件的患者、加快医学证据生成，并融入日常诊疗流程。双方初步考虑在肿瘤、心血管、肾脏及代谢疾病、呼吸免疫和罕见病等领域探索应用。",
+                  "link": "https://news.qq.com/rain/a/20261020A073W200",
+                  "tags": [
+                    "AI医疗",
+                    "临床试验",
+                    "合作"
                   ],
                   "source": "腾讯新闻",
-                  "time": "10月19日"
+                  "time": "10月20日消息"
                 }
               ]
             },
             {
-              "title": "微软",
+              "title": "高通",
               "news": [
                 {
-                  "title": "微软推出 Guardian Agents 防护方案",
-                  "summary": "微软发布守护智能体等新功能，用于监控企业内部 AI 智能体行为。纳德拉警告不应信任 AI 模型供应商，需将智能能力的供给与管控权限分离。",
-                  "link": "https://www.ithome.com/1/015/069.htm",
+                  "title": "外媒曝高通启动全球绩效裁员",
+                  "summary": "据路透社报道，高通CEO安蒙在内部备忘录中表示，公司将在年度员工评估后开展以绩效为重点的全球裁员，相关通知11月起发出。随着业务向AI数据中心等非手机市场拓展，高通预计2027财年芯片销售大部分将来自智能手机以外业务。",
+                  "link": "https://news.qq.com/rain/a/20261020A0EO0L00",
                   "tags": [
-                    "智能体安全",
-                    "企业"
+                    "裁员",
+                    "AI芯片",
+                    "组织调整"
                   ],
-                  "source": "IT之家",
-                  "time": "10月20日"
+                  "source": "腾讯新闻",
+                  "time": "10月20日消息"
                 }
               ]
             },
             {
-              "title": "蚂蚁",
+              "title": "记忆张量",
               "news": [
                 {
-                  "title": "蚂蚁百灵开源 Ming-3.0 语音系列模型",
-                  "summary": "蚂蚁百灵宣布开源 Ming-3.0 语音系列，分别提供语音合成、音频理解与对话、语音识别三个系列，共五款模型。",
-                  "link": "https://www.ithome.com/1/015/117.htm",
+                  "title": "记忆张量开源记忆原生模型MemT 1.0",
+                  "summary": "记忆张量发布并开源记忆原生基础模型MemT 1.0系列，含Flash（288B）与Nano（36B）两款。模型在Transformer中加入原生记忆模块，让记忆注意力与原有注意力并行运行，在11项记忆基准上平均得分分别为50.6和47.0。",
+                  "link": "https://news.qq.com/rain/a/20261020A09TVL00",
                   "tags": [
-                    "语音",
-                    "开源"
+                    "开源",
+                    "记忆模型",
+                    "大模型"
                   ],
-                  "source": "IT之家",
-                  "time": "10月20日"
+                  "source": "腾讯新闻",
+                  "time": "10月20日消息"
                 }
               ]
             },
             {
-              "title": "奇瑞",
+              "title": "今日宜休",
               "news": [
                 {
-                  "title": "奇瑞将发布首个汽车行业垂域大模型",
-                  "summary": "奇瑞 10 月 20 日举办全球创新大会，发布首个汽车行业垂域大模型，并将首发 V2G 技术、人形机器人「墨宝」等多款新品，展示向智能科技公司转型路线。",
-                  "link": "https://www.ithome.com/1/014/887.htm",
+                  "title": "王腾旗下ISHO Ring智能戒指亮相",
+                  "summary": "王腾创立的今日宜休公布首款硬件ISHO Ring智能戒指外观，提供金、黑、银三款配色，采用航空级钛合金与蓝宝石玻璃。品牌首场AI睡眠科技生态产品发布会定于10月29日举行，产品将把感知、分析、行动建议与设备联动串联。",
+                  "link": "https://news.qq.com/rain/a/20261021A06FVL00",
                   "tags": [
-                    "大模型",
-                    "汽车"
+                    "智能戒指",
+                    "睡眠健康",
+                    "可穿戴"
                   ],
-                  "source": "IT之家",
-                  "time": "10月19日"
+                  "source": "腾讯新闻",
+                  "time": "10月21日消息"
                 }
               ]
             },
             {
-              "title": "王腾",
+              "title": "Elice",
               "news": [
                 {
-                  "title": "王腾宣布今日宜休 10 月 29 日举办首场发布会",
-                  "summary": "王腾宣布 ISHO 今日宜休将于 10 月 29 日举办 AI 睡眠科技生态产品发布会，这是公司成立后的首场发布会。王腾曾任小米 REDMI 品牌总经理，今年年初成立「今日宜休」研发睡眠健康产品。",
-                  "link": "https://finance.eastmoney.com/a/202610193899281236.html",
+                  "title": "韩国数据中心公司Elice上市首日大跌32%",
+                  "summary": "韩国数据中心基础设施公司Elice上市首日股价暴跌，盘中一度跌38%，收盘跌幅收窄至32%，为韩国大型IPO史上最差首日表现。该公司此前通过IPO融资2010亿韩元，散户认购倍数达400倍，凸显投资者对AI巨额投资的担忧。",
+                  "link": "https://news.qq.com/rain/a/20261020A09G3X00",
                   "tags": [
-                    "AI硬件",
-                    "睡眠"
+                    "数据中心",
+                    "IPO",
+                    "股价"
                   ],
-                  "source": "东方财富",
-                  "time": "10月19日"
+                  "source": "腾讯新闻",
+                  "time": "10月20日消息"
                 }
               ]
             }
@@ -332,71 +318,97 @@ const DEFAULT_DATA = {
         },
         {
           "name": "自动驾驶",
-          "cards": []
-        },
-        {
-          "name": "具身智能",
           "cards": [
             {
-              "title": "宇树科技",
+              "title": "工信部车灯新规",
               "news": [
                 {
-                  "title": "宇树科技市值重回 2000 亿，人形机器人股批量涨停",
-                  "summary": "10 月 19 日午后人形机器人概念持续走高，兆威机电、福莱新材等多股涨停。宇树科技午后涨超 16%，总市值重返 2000 亿上方，报 495.92 元/股，创下上市后除 IPO 首日外最大单日涨幅。",
-                  "link": "https://finance.eastmoney.com/a/202610193899833832.html",
+                  "title": "工信部拟规定：未达L3级禁装智驾小蓝灯",
+                  "summary": "10月20日，工信部就《汽车及挂车外部照明和光信号装置的安装要求》公开征求意见，明确不具备L3级及以上自动驾驶系统的车辆禁止安装ADS标志灯，标志灯专用光色为蓝绿色，L2组合驾驶辅助与L3有条件自动驾驶由此作出区分。",
+                  "link": "https://ep.ycwb.com/epaper/ycwb/html/2026-10/21/content_2977_769531.htm",
                   "tags": [
-                    "人形机器人",
-                    "股价"
+                    "自动驾驶",
+                    "政策",
+                    "标准"
                   ],
-                  "source": "东方财富",
-                  "time": "10月19日"
-                },
+                  "source": "羊城晚报",
+                  "time": "10月20日"
+                }
+              ]
+            },
+            {
+              "title": "Waymo",
+              "news": [
                 {
-                  "title": "宇树科技合作伙伴生态大会 10 月 22 日召开",
-                  "summary": "宇树科技将于 10 月 22 日举办 2026 世界物理 AI 大会暨宇树合作伙伴生态大会，预计迎来 3000 余名嘉宾、40 余个展示专区，并设具身智能创投分论坛开展项目路演。",
-                  "link": "https://news.qq.com/rain/a/20261019A093CW00",
+                  "title": "Waymo将在马德里测试自动驾驶",
+                  "summary": "Waymo宣布进入西班牙，首先在马德里自治区开展自动驾驶出行服务前期准备，目标2027年接待首批乘客。未来几天其捷豹I-PACE电动车将上街，初期由驾驶员手动驾驶，随后由本地自动驾驶专家驾驶开展技术验证。",
+                  "link": "https://news.qq.com/rain/a/20261021A08TVH00",
                   "tags": [
-                    "物理AI",
-                    "大会"
+                    "自动驾驶",
+                    "出海",
+                    "Robotaxi"
                   ],
                   "source": "腾讯新闻",
-                  "time": "10月19日"
-                }
-              ]
-            },
-            {
-              "title": "人形机器人产量",
-              "news": [
-                {
-                  "title": "今年上半年我国人形机器人产量超 4 万台",
-                  "summary": "工信部数据显示，今年上半年我国人形机器人产量超 4 万台，预计全年将突破 10 万台。人形机器人已在仓储物流、餐饮零售等 300 多个场景加快部署。",
-                  "link": "https://www.ithome.com/1/015/002.htm",
-                  "tags": [
-                    "人形机器人",
-                    "工信部"
-                  ],
-                  "source": "IT之家",
-                  "time": "10月19日"
-                }
-              ]
-            },
-            {
-              "title": "荣耀",
-              "news": [
-                {
-                  "title": "荣耀闪电与萨维、赵家驹首次同框",
-                  "summary": "荣耀自研人形机器人闪电与两位顶级马拉松跑者萨维、赵家驹同台竞速。作为全球首家入局消费级人形机器人的手机品牌，荣耀迁移手机技术沉淀，探索终端厂商做具身智能的新路径。",
-                  "link": "https://www.ithome.com/1/015/423.htm",
-                  "tags": [
-                    "人形机器人",
-                    "消费级"
-                  ],
-                  "source": "IT之家",
                   "time": "10月20日"
+                }
+              ]
+            },
+            {
+              "title": "Momenta",
+              "news": [
+                {
+                  "title": "Momenta曹旭东：2028年迎L4规模化拐点",
+                  "summary": "在2026物理AI与世界模型大会上，Momenta CEO曹旭东指出世界模型正加速智驾摩尔定律，预判2028年成为L4规模化落地的重要拐点。他概括智驾安全性与性能每两年提升十倍，并认为世界模型、Data Scaling与Model Scaling是提速关键。",
+                  "link": "https://news.qq.com/rain/a/20261020A0BJLU00",
+                  "tags": [
+                    "世界模型",
+                    "L4",
+                    "智能驾驶"
+                  ],
+                  "source": "腾讯新闻",
+                  "time": "10月20日消息"
+                }
+              ]
+            },
+            {
+              "title": "特斯拉",
+              "news": [
+                {
+                  "title": "特斯拉与支付宝合作车载助手智慧停车",
+                  "summary": "10月20日，特斯拉与支付宝正式签署车载助手项目合作协议，特斯拉中国车机系统计划上线支付宝车载助手智慧停车服务，车主可通过后续软件升级在车机屏幕上完成停车费快捷安全支付，更多车载生活场景便利化功能正在开发。",
+                  "link": "https://news.qq.com/rain/a/20261021V056R300",
+                  "tags": [
+                    "车载助手",
+                    "支付",
+                    "智慧停车"
+                  ],
+                  "source": "腾讯新闻",
+                  "time": "10月20日"
+                }
+              ]
+            },
+            {
+              "title": "新石器",
+              "news": [
+                {
+                  "title": "无人配送车新石器完成近4亿美元E轮融资",
+                  "summary": "自动驾驶科技公司新石器完成近4亿美元E轮融资，由博裕投资与某国家级基金联合领投，阿里巴巴、纪源资本、淡马锡等机构参与，创造今年国内自动驾驶领域最大单笔融资纪录。新石器累计融资额已突破百亿元，居无人配送车行业第一。",
+                  "link": "https://finance.eastmoney.com/a/202610213902769687.html",
+                  "tags": [
+                    "无人配送",
+                    "融资",
+                    "自动驾驶"
+                  ],
+                  "source": "东方财富",
+                  "time": "10月21日消息"
                 }
               ]
             }
           ]
+        },
+        {
+          "name": "具身智能",
+          "cards": []
         },
         {
           "name": "AI出海",
@@ -406,34 +418,19 @@ const DEFAULT_DATA = {
           "name": "投资资讯",
           "cards": [
             {
-              "title": "Tenstorrent E轮",
+              "title": "Today AI",
               "news": [
                 {
-                  "title": "Tenstorrent 完成 15 亿美元 E 轮融资",
-                  "summary": "由 Jim Keller 领导的 AI 计算公司 Tenstorrent 完成 15 亿美元 E 轮融资，投后估值达 62 亿美元，由 Trace Capital 与 Innovation X 领投，ARK Invest、Fidelity 等参投，资金用于大规模部署 Galaxy 服务器。",
-                  "link": "https://usstock.jrj.com.cn/2026/10/20073458777799.shtml",
+                  "title": "Personal AI公司Today AI完成超2亿美元融资",
+                  "summary": "Personal AI公司Today AI完成超2亿美元融资，投资方包括IDG资本、腾讯、五源资本、蚂蚁集团、红杉中国、传音控股等。Today AI致力于打造个性化的AI系统，提供「更懂你」的AI助理，公司目前持续招募各方向人才。",
+                  "link": "https://www.stcn.com/article/detail/4233960.html",
                   "tags": [
-                    "AI芯片",
-                    "融资"
+                    "融资",
+                    "AI助理",
+                    "个人AI"
                   ],
-                  "source": "金融界",
-                  "time": "10月19日"
-                }
-              ]
-            },
-            {
-              "title": "铭芯启睿 A轮",
-              "news": [
-                {
-                  "title": "铭芯启睿完成超 4 亿元 A 轮融资",
-                  "summary": "铭芯启睿（MemSilicon）完成超 4 亿元 A 轮融资，由博原资本领投，博世创投、米哈游、中关村科学城公司、兆易创新等跟投，资金主要用于 RRAM 的产业化与商业化，以及新产品 LPU 的研发。",
-                  "link": "https://finance.eastmoney.com/a/202610193900166664.html",
-                  "tags": [
-                    "RRAM",
-                    "融资"
-                  ],
-                  "source": "东方财富",
-                  "time": "10月19日"
+                  "source": "证券时报",
+                  "time": "10月22日消息"
                 }
               ]
             }
@@ -443,50 +440,19 @@ const DEFAULT_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "AI虚假信息",
+              "title": "CleanYourTV",
               "news": [
                 {
-                  "title": "山姆回应「品质暴跌」：有账号用 AI 编造虚假信息引流",
-                  "summary": "10 月 19 日，山姆会员商店发布声明称，近期多个社交媒体平台集中出现数千条针对山姆的恶意攻击及虚假营销信息，部分账号通过 AI 生成、拼接素材、伪造采访等方式，将从未上架的洗衣凝珠等商品编造成「山姆下架好物」进行欺骗性营销引流牟利，公司已投诉举报并将依法追责。",
-                  "link": "https://finance.eastmoney.com/a/202610193899912953.html",
+                  "title": "用户借助Claude Code清除智能电视广告",
+                  "summary": "部分开发者与普通用户开始借助Claude Code等AI工具清理智能电视中的广告和预装软件、禁用追踪功能。开发者Gathin T.发起的CleanYourTV项目通过Wi-Fi连接电视禁用了25个原生软件包并生成新启动器，数千用户尝试类似改造。",
+                  "link": "https://news.qq.com/rain/a/20261020A0FC3I00",
                   "tags": [
-                    "AI虚假信息",
-                    "营销"
+                    "Claude Code",
+                    "AI编程",
+                    "智能电视"
                   ],
-                  "source": "东方财富",
-                  "time": "10月19日"
-                }
-              ]
-            },
-            {
-              "title": "商务部",
-              "news": [
-                {
-                  "title": "商务部：前 9 月重点平台智能眼镜销售额增长 1.1 倍",
-                  "summary": "商务部数据显示，今年 1-9 月重点平台智能眼镜销售额增长 1.1 倍。商务部等 9 部门发布《关于加快推进科技兴商的意见》，丰富智能穿戴等智能商品供给，并推动家电等领域建立人工智能终端智能化分级国家标准。",
-                  "link": "https://finance.eastmoney.com/a/202610203900737171.html",
-                  "tags": [
-                    "智能眼镜",
-                    "政策"
-                  ],
-                  "source": "东方财富",
-                  "time": "10月19日"
-                }
-              ]
-            },
-            {
-              "title": "深度伪造",
-              "news": [
-                {
-                  "title": "OpenAI 与 Meta 齐发声：深度伪造威胁法律证据",
-                  "summary": "OpenAI 与 Meta 齐声警告，深度伪造将严重威胁法律诉讼中的证据可靠性，法院抵御 AI 生成虚假证据的难度与日俱增，缺少统一水印也加大了识别难度。",
-                  "link": "https://usstock.jrj.com.cn/2026/10/20173258791868.shtml",
-                  "tags": [
-                    "深度伪造",
-                    "法律"
-                  ],
-                  "source": "金融界",
-                  "time": "10月20日"
+                  "source": "腾讯新闻",
+                  "time": "10月20日消息"
                 }
               ]
             }
@@ -605,13 +571,23 @@ const DEFAULT_DATA = {
         },
         {
           "name": "OpenRouter",
-          "date": "2026-10-20",
+          "date": "2026-10-21",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
+              "model": "DeepSeek V4.1 Flash 1017 (deepseek)",
+              "score": "26.7T tokens",
+              "change": "—"
+            },
+            {
               "model": "DeepSeek V4.1 Flash (deepseek)",
-              "score": "29.6T tokens",
-              "change": "↓27%"
+              "score": "20.5T tokens",
+              "change": "↓44%"
+            },
+            {
+              "model": "MiniMax M3.1 Flash (free) (minimax)",
+              "score": "13.7T tokens",
+              "change": "—"
             },
             {
               "model": "GLM 5.3 Flash (z-ai)",
@@ -619,94 +595,84 @@ const DEFAULT_DATA = {
               "change": "↓6%"
             },
             {
-              "model": "MiMo-V2.6-Flash (xiaomi)",
-              "score": "9.57T tokens",
-              "change": "↓17%"
-            },
-            {
-              "model": "Step 5 Preview (stepfun)",
-              "score": "8.22T tokens",
-              "change": "↓32%"
-            },
-            {
               "model": "Hy4 preview (tencent)",
-              "score": "7.82T tokens",
-              "change": "↓6%"
-            },
-            {
-              "model": "DeepSeek V4.1 Flash 1017 (deepseek)",
-              "score": "7.34T tokens",
-              "change": "—"
-            },
-            {
-              "model": "Claude Opus 5.5 (anthropic)",
-              "score": "6.47T tokens",
-              "change": "↑21%"
-            },
-            {
-              "model": "GPT-6 Luna (openai)",
-              "score": "6.23T tokens",
-              "change": "↓12%"
-            },
-            {
-              "model": "GLM 5.3 (z-ai)",
-              "score": "5.29T tokens",
-              "change": "↑33%"
-            },
-            {
-              "model": "DeepSeek V4 Flash 0731 (deepseek)",
-              "score": "4.73T tokens",
-              "change": "↑1%"
-            },
-            {
-              "model": "Nemotron 3 Ultra (free) (nvidia)",
-              "score": "4.63T tokens",
-              "change": "↓35%"
-            },
-            {
-              "model": "Muse Spark 1.3 Contributor (meta)",
-              "score": "3.27T tokens",
-              "change": "↑29%"
-            },
-            {
-              "model": "Hy3 (tencent)",
-              "score": "3.13T tokens",
+              "score": "8.77T tokens",
               "change": "↑12%"
             },
             {
+              "model": "Claude Opus 5.5 (anthropic)",
+              "score": "8.04T tokens",
+              "change": "↑35%"
+            },
+            {
+              "model": "MiMo-V2.6-Flash (xiaomi)",
+              "score": "7.41T tokens",
+              "change": "↓32%"
+            },
+            {
+              "model": "GPT-6 Luna (openai)",
+              "score": "6.74T tokens",
+              "change": "↑4%"
+            },
+            {
+              "model": "Nemotron 3 Ultra (free) (nvidia)",
+              "score": "5.43T tokens",
+              "change": "↓14%"
+            },
+            {
+              "model": "GLM 5.3 (z-ai)",
+              "score": "5.02T tokens",
+              "change": "↓4%"
+            },
+            {
+              "model": "DeepSeek V4 Flash 0731 (deepseek)",
+              "score": "4.17T tokens",
+              "change": "↓11%"
+            },
+            {
+              "model": "Muse Spark 1.3 Contributor (meta)",
+              "score": "3T tokens",
+              "change": "↓4%"
+            },
+            {
+              "model": "Hy3 (tencent)",
+              "score": "2.99T tokens",
+              "change": "↓8%"
+            },
+            {
               "model": "Jev 1.13 (typesafe)",
-              "score": "2.98T tokens",
+              "score": "2.92T tokens",
               "change": "↓10%"
             },
             {
               "model": "DeepSeek V4 Flash 0423 (deepseek)",
-              "score": "2.91T tokens",
-              "change": "↓6%"
-            },
-            {
-              "model": "Claude Sonnet 5.5 (anthropic)",
-              "score": "2.43T tokens",
-              "change": "↓8%"
-            },
-            {
-              "model": "Claude Haiku 5.5 (anthropic)",
-              "score": "2.07T tokens",
-              "change": "↑54%"
-            },
-            {
-              "model": "Kimi K3 (moonshotai)",
-              "score": "2.04T tokens",
+              "score": "2.77T tokens",
               "change": "↓11%"
             },
             {
-              "model": "GPT-6.1 Sol (openai)",
-              "score": "1.9T tokens",
-              "change": "↓15%"
+              "model": "Claude Haiku 5.5 (anthropic)",
+              "score": "2.67T tokens",
+              "change": "↑33%"
             },
             {
-              "model": "MiMo-V2.6-Pro (xiaomi)",
-              "score": "1.71T tokens",
-              "change": "↑25%"
+              "model": "Claude Sonnet 5.5 (anthropic)",
+              "score": "2.58T tokens",
+              "change": "↓8%"
+            },
+            {
+              "model": "GPT-6.1 Sol (openai)",
+              "score": "2.41T tokens",
+              "change": "↑13%"
+            },
+            {
+              "model": "Step 5 Preview (stepfun)",
+              "score": "2.04T tokens",
+              "change": "↓88%"
+            },
+            {
+              "model": "Kimi K3 (moonshotai)",
+              "score": "2.03T tokens",
+              "change": "↓15%"
             }
           ]
         },
