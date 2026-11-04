@@ -116604,6 +116604,550 @@ window.__SEED_CONFIRMED = {
         ]
       }
     }
+  },
+  "2026-11-01": {
+    "date": "2026-11-01",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "news": []
+          },
+          {
+            "name": "Anthropic",
+            "news": [
+              {
+                "title": "Anthropic 限制 Claude Code 复刻现有游戏，仅支持原创",
+                "summary": "10月31日消息，据游戏媒体 gamedeveloper 报道，Anthropic 已在 AI 编程工具 Claude Code 中，限制 Opus 5.5 模型帮助用户复刻特定现有游戏。开发者 10 月 30 日在 X 平台发现，Claude Code 在 10 月 27 日前后为 Opus 5.5 新增一条无法关闭的规则，规定可构建原创游戏、某一类型下的游戏以及基于用户自身素材的游戏，但不要构建对特定现有游戏的复刻。此举被外界解读为防止版权侵权、规避法律风险。",
+                "link": "https://news.qq.com/rain/a/20261031A081KC00",
+                "tags": [
+                  "AI编程",
+                  "合规"
+                ],
+                "source": "IT之家",
+                "time": "10月31日消息"
+              }
+            ]
+          },
+          {
+            "name": "Google",
+            "news": []
+          },
+          {
+            "name": "xAI",
+            "news": [
+              {
+                "title": "马斯克预言：2029 年太空 AI 算力将远超地面算力",
+                "summary": "当地时间10月31日，马斯克在 X 平台发布推文，预言 2029 年部署到近地轨道的 AI 与云计算处理能力将远远超过地面算力。他预测到 2028 年轨道算力每月新增部署量将超过地面，到 2029 年「远超」地面。轨道算力指部署在卫星或太空数据中心里的 AI/GPU 等计算能力，潜在优势包括太空太阳能供电、散热条件以及可大规模发射部署，从而摆脱地面数据中心的电力与土地约束。",
+                "link": "https://news.qq.com/rain/a/20261031A08WJB00",
+                "tags": [
+                  "算力",
+                  "太空AI"
+                ],
+                "source": "IT之家",
+                "time": "当地时间10月31日"
+              }
+            ]
+          },
+          {
+            "name": "NVIDIA",
+            "news": []
+          },
+          {
+            "name": "Meta",
+            "news": [
+              {
+                "title": "Meta 联手傅利叶打造人形机器人 Max，为 Muse 物理化身",
+                "summary": "11月1日消息，据 The Information 援引知情人士报道，Meta 已与中国机器人公司傅利叶合作，打造出一款名为「Max」的人形机器人原型，目前已开始开发第二代产品。这款机器人研发用时 3 个月，重约 106 磅（约 48 千克），搭载英伟达 Thor 芯片。Meta 首席执行官扎克伯格将其视为 Muse 人工智能模型的「物理化身」，认为它能够承担日常家务，产品后续有可能正式推出，目前尚未确定上市时间。",
+                "link": "https://news.qq.com/rain/a/20261101A0BXJX00",
+                "tags": [
+                  "人形机器人",
+                  "具身智能"
+                ],
+                "source": "智东西",
+                "time": "11月1日消息"
+              }
+            ]
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "news": []
+          },
+          {
+            "name": "火山引擎",
+            "news": []
+          },
+          {
+            "name": "DeepSeek",
+            "news": [
+              {
+                "title": "DeepSeek 发布 Super-agent 架构，迈向更自主的 Agent 系统",
+                "summary": "10月31日，DeepSeek Harness 官方团队发布技术文章《Super-agent 设计探索：迈向更自主的 Agent 系统》，介绍其面向工程实践的 Super-agent 架构设计。团队认为现有主流 Agent 设计以单一会话为基本单位，多任务上限取决于人的注意力，需打破 Agent 与单次手动会话的绑定。通过双层架构、事件驱动、异步多信道交互、存算分离与外部 Watchdog 等思路，让 Agent 成为跨会话保持上下文、并行推进多项任务的连续实体。目前基于该思路的内部 Super-agent 实例已持续运行。",
+                "link": "https://news.qq.com/rain/a/20261031A0DMXE00",
+                "tags": [
+                  "Agent",
+                  "架构"
+                ],
+                "source": "IT时代网",
+                "time": "10月31日"
+              }
+            ]
+          },
+          {
+            "name": "腾讯",
+            "news": []
+          },
+          {
+            "name": "小米",
+            "news": []
+          },
+          {
+            "name": "智谱AI",
+            "news": []
+          },
+          {
+            "name": "月之暗面",
+            "news": []
+          },
+          {
+            "name": "华为",
+            "news": []
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "其他厂商",
+            "cards": [
+              {
+                "title": "苹果",
+                "news": [
+                  {
+                    "title": "苹果市值 5.03 万亿美元，反超英伟达重回全球第一",
+                    "summary": "当地时间10月30日，苹果公司收盘市值达 5.03 万亿美元，超越英伟达收盘市值 4.93 万亿美元，重新成为全球市值最高的企业，这是苹果自 7 月底短暂反超以来首次再次登顶。近期多家科技巨头财报不及预期，进一步放大市场对 AI 资本开支前景的担忧，而苹果在 AI 基建投入上保持克制，凭借严控资本开支成为今年美股科技股的「避风港」。",
+                    "link": "https://news.qq.com/rain/a/20261101A04YO200",
+                    "tags": [
+                      "市值",
+                      "AI资本开支"
+                    ],
+                    "source": "九派财经",
+                    "time": "当地时间10月30日"
+                  }
+                ]
+              },
+              {
+                "title": "长鑫存储",
+                "news": [
+                  {
+                    "title": "长鑫科技已与多家头部客户协商长期供货协议",
+                    "summary": "10月30日，长鑫科技在第三季度业绩说明会上表示，公司已与多家头部客户协商长期供货协议，以锁定中长期确定性需求；在供求延续紧缺与精益制造的双重支撑下，预计第四季度毛利率将继续保持稳定。长鑫科技此前披露的三季报显示，第三季度营收 1187.14 亿元、净利润 889.83 亿元，均环比增长约 19%。",
+                    "link": "https://news.qq.com/rain/a/20261031A0ANIS00",
+                    "tags": [
+                      "存储芯片",
+                      "业绩"
+                    ],
+                    "source": "科创板日报",
+                    "time": "10月30日"
+                  }
+                ]
+              },
+              {
+                "title": "Neuralink",
+                "news": [
+                  {
+                    "title": "马斯克称 Neuralink「盲视」产品已就绪，只待监管批准",
+                    "summary": "当地时间10月30日，马斯克在 X 平台重点介绍 Neuralink 两款脑机接口产品。首款产品「心灵感应」（Telepathy）让人仅凭意念与计算机或他人高速交流；第二款产品「盲视」（Blindsight）旨在让完全失明甚至从未拥有过视力的人重见光明。马斯克表示，从工程角度来看「盲视」已经准备就绪，目前只等监管部门批准。与首款读取大脑信号的产品不同，「盲视」反向向大脑视觉皮层输入信息，绕过受损的眼睛和视神经。",
+                    "link": "https://news.qq.com/rain/a/20261030A08SLU00",
+                    "tags": [
+                      "脑机接口",
+                      "医疗"
+                    ],
+                    "source": "新浪财经",
+                    "time": "当地时间10月30日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "自动驾驶",
+            "cards": []
+          },
+          {
+            "name": "具身智能",
+            "cards": []
+          },
+          {
+            "name": "AI出海",
+            "cards": []
+          },
+          {
+            "name": "投资资讯",
+            "cards": []
+          },
+          {
+            "name": "行业趋势&观点",
+            "cards": [
+              {
+                "title": "AI基建",
+                "news": [
+                  {
+                    "title": "五大科技巨头 AI 基建承诺超 3 万亿美元",
+                    "summary": "10月31日，彭博社披露的数据显示，Alphabet、Meta、微软、亚马逊和甲骨文五家科技巨头，未来数年及更长周期内围绕数据中心、设备、能源和租赁等作出的合同承诺合计超过 3 万亿美元。其中租赁付款承诺合计 1.3 万亿美元，其他采购承诺合计 1.9 万亿美元。分析认为，AI 竞争的重心正从模型和参数，转向芯片采购、数据中心交付、网络互联和电力接入等硬约束，但「承诺」与「到账」之间仍有明显距离。",
+                    "link": "https://news.qq.com/rain/a/20261101A010F400",
+                    "tags": [
+                      "AI基建",
+                      "资本开支"
+                    ],
+                    "source": "通信世界",
+                    "time": "10月31日"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "LMArena",
+            "date": "2026-09-13",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "claude-fable-5",
+                "score": "1506",
+                "change": "±5"
+              },
+              {
+                "model": "claude-opus-4-6-high",
+                "score": "1505",
+                "change": "±4"
+              },
+              {
+                "model": "claude-opus-4-7-high",
+                "score": "1502",
+                "change": "±4"
+              },
+              {
+                "model": "muse-spark-1.2 (xHigh)",
+                "score": "1500",
+                "change": "±11"
+              },
+              {
+                "model": "claude-fable-5.1-max",
+                "score": "1498",
+                "change": "±8"
+              },
+              {
+                "model": "claude-opus-4-6",
+                "score": "1497",
+                "change": "±3"
+              },
+              {
+                "model": "claude-opus-4-7",
+                "score": "1494",
+                "change": "±4"
+              },
+              {
+                "model": "muse-spark-1.3-max",
+                "score": "1493",
+                "change": "±9"
+              },
+              {
+                "model": "gemini-3.8-flash-high (Preliminary)",
+                "score": "1493",
+                "change": "±9"
+              },
+              {
+                "model": "claude-opus-5-high",
+                "score": "1493",
+                "change": "±4"
+              },
+              {
+                "model": "muse-spark-1.1",
+                "score": "1493",
+                "change": "±5"
+              },
+              {
+                "model": "gemini-3.7-flash-high (Preliminary)",
+                "score": "1490",
+                "change": "±8"
+              },
+              {
+                "model": "muse-spark",
+                "score": "1488",
+                "change": "±6"
+              },
+              {
+                "model": "claude-opus-5-max",
+                "score": "1487",
+                "change": "±5"
+              },
+              {
+                "model": "gemini-3.1-pro-preview",
+                "score": "1487",
+                "change": "±3"
+              },
+              {
+                "model": "gemini-3-pro",
+                "score": "1485",
+                "change": "±4"
+              },
+              {
+                "model": "kimi-k3-max",
+                "score": "1485",
+                "change": "±5"
+              },
+              {
+                "model": "gpt-5.6-sol-xhigh",
+                "score": "1483",
+                "change": "±5"
+              },
+              {
+                "model": "glm-5.3-max",
+                "score": "1483",
+                "change": "±6"
+              },
+              {
+                "model": "gpt-5.5-high",
+                "score": "1482",
+                "change": "±4"
+              }
+            ]
+          },
+          {
+            "name": "OpenRouter",
+            "date": "2026-10-26",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": [
+              {
+                "model": "DeepSeek V4.1 Flash 1017 (deepseek)",
+                "score": "33.6T tokens",
+                "change": "↑801%"
+              },
+              {
+                "model": "DeepSeek V4.1 Flash (deepseek)",
+                "score": "18T tokens",
+                "change": "↓45%"
+              },
+              {
+                "model": "MiniMax M3.1 Flash (free) (minimax)",
+                "score": "13.7T tokens",
+                "change": "—"
+              },
+              {
+                "model": "GLM 5.3 Flash (z-ai)",
+                "score": "13.2T tokens",
+                "change": "↑8%"
+              },
+              {
+                "model": "Hy4 preview (tencent)",
+                "score": "8.97T tokens",
+                "change": "↑19%"
+              },
+              {
+                "model": "GPT-6 Luna (openai)",
+                "score": "8.35T tokens",
+                "change": "↑35%"
+              },
+              {
+                "model": "Claude Opus 5.5 (anthropic)",
+                "score": "8.27T tokens",
+                "change": "↑34%"
+              },
+              {
+                "model": "MiMo-V2.6-Flash (xiaomi)",
+                "score": "6.07T tokens",
+                "change": "↓39%"
+              },
+              {
+                "model": "Nemotron 3 Ultra (free) (nvidia)",
+                "score": "5.85T tokens",
+                "change": "↑18%"
+              },
+              {
+                "model": "GLM 5.3 (z-ai)",
+                "score": "5.05T tokens",
+                "change": "↓3%"
+              },
+              {
+                "model": "DeepSeek V4 Flash 0731 (deepseek)",
+                "score": "3.99T tokens",
+                "change": "↓15%"
+              },
+              {
+                "model": "Step 5 Preview (stepfun)",
+                "score": "3.63T tokens",
+                "change": "↓68%"
+              },
+              {
+                "model": "Hy3 (tencent)",
+                "score": "3.05T tokens",
+                "change": "↓2%"
+              },
+              {
+                "model": "Jev 1.13 (typesafe)",
+                "score": "2.98T tokens",
+                "change": "↓2%"
+              },
+              {
+                "model": "GPT-6.1 Sol (openai)",
+                "score": "2.81T tokens",
+                "change": "↑45%"
+              },
+              {
+                "model": "DeepSeek V4 Flash 0423 (deepseek)",
+                "score": "2.81T tokens",
+                "change": "↓7%"
+              },
+              {
+                "model": "Muse Spark 1.3 Contributor (meta)",
+                "score": "2.77T tokens",
+                "change": "↓16%"
+              },
+              {
+                "model": "Claude Haiku 5.5 (anthropic)",
+                "score": "2.68T tokens",
+                "change": "↑29%"
+              },
+              {
+                "model": "Claude Sonnet 5.5 (anthropic)",
+                "score": "2.46T tokens",
+                "change": "—"
+              },
+              {
+                "model": "Kimi K3 (moonshotai)",
+                "score": "1.99T tokens",
+                "change": "↓10%"
+              }
+            ]
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-09-16",
+            "link": "https://www.producthunt.com/",
+            "rankings": [
+              {
+                "name": "Viktor.com",
+                "category": "Productivity",
+                "rank": 0,
+                "link": "https://viktor.com"
+              },
+              {
+                "name": "Weave Router 2.0",
+                "category": "Open Source",
+                "rank": 1,
+                "link": "https://weaverouter.com"
+              },
+              {
+                "name": "Appwrite 2.0",
+                "category": "Open Source",
+                "rank": 2,
+                "link": "https://appwrite.io"
+              },
+              {
+                "name": "Gemini 3.8 & 3.8 Live Extended Thinking",
+                "category": "Bots",
+                "rank": 3,
+                "link": "https://gemini.google.com"
+              },
+              {
+                "name": "Toki Coordination",
+                "category": "Productivity",
+                "rank": 4,
+                "link": "https://toki.com"
+              },
+              {
+                "name": "CAT ME app",
+                "category": "Photography",
+                "rank": 5,
+                "link": "https://apps.apple.com/us/app/cat-me-ai/id6803704105"
+              },
+              {
+                "name": "Expand Board for macOS",
+                "category": "Mac",
+                "rank": 6,
+                "link": "https://www.producthunt.com/products/expand-board-for-macos"
+              },
+              {
+                "name": "Thread",
+                "category": "Productivity",
+                "rank": 7,
+                "link": "https://threadapp.io"
+              },
+              {
+                "name": "Fide Island",
+                "category": "Mac",
+                "rank": 8,
+                "link": "https://www.producthunt.com/products/fide-island"
+              },
+              {
+                "name": "Twigg",
+                "category": "Developer Tools",
+                "rank": 9,
+                "link": "https://twigg.ai"
+              },
+              {
+                "name": "ZeroClick",
+                "category": "Payments",
+                "rank": 10,
+                "link": "https://zeroclick.ai"
+              },
+              {
+                "name": "Jottoo",
+                "category": "Productivity",
+                "rank": 11,
+                "link": "https://jottoo.com"
+              },
+              {
+                "name": "flat.social",
+                "category": "Events",
+                "rank": 12,
+                "link": "https://flat.social"
+              },
+              {
+                "name": "Project Feed",
+                "category": "Design Tools",
+                "rank": 13,
+                "link": "https://www.producthunt.com/products/project-feed"
+              },
+              {
+                "name": "Convo",
+                "category": "Sales",
+                "rank": 14,
+                "link": "https://www.toolfinder.co/go/convo"
+              },
+              {
+                "name": "PeakHour 6",
+                "category": "Mac",
+                "rank": 15,
+                "link": "https://peakhour.app"
+              },
+              {
+                "name": "CreatorHat",
+                "category": "Safari Extensions",
+                "rank": 16,
+                "link": "https://creatorhat.com"
+              },
+              {
+                "name": "PhraseVault 3.0",
+                "category": "Mac",
+                "rank": 17,
+                "link": "https://phrasevault.app"
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 };
 
