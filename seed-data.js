@@ -114003,6 +114003,645 @@ window.__SEED_CONFIRMED = {
         ]
       }
     }
+  },
+  "2026-10-28": {
+    "date": "2026-10-28",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "news": []
+          },
+          {
+            "name": "Anthropic",
+            "news": []
+          },
+          {
+            "name": "Google",
+            "news": [
+              {
+                "title": "谷歌发布世界模型 Genie 4，原生音频+实时操控",
+                "summary": "当地时间10月27日，Google DeepMind 以研究预览形式发布新一代世界模型 Genie 4，可生成迄今最逼真、最具互动性的虚拟世界，用户能在模拟过程中输入提示实时改变场景。Genie 4 首次支持原生音频生成，可同步生成音乐、环境音和互动对话，单次交互模拟时长约两分钟，较上一代翻倍。发布数月前，AI 视频初创公司 Runway 刚发布其第二款世界模型 GWM Worlds 2。",
+                "link": "https://news.qq.com/rain/a/20261028A07N6Y00",
+                "tags": [
+                  "世界模型",
+                  "多模态"
+                ],
+                "source": "腾讯新闻",
+                "time": "当地时间10月27日"
+              },
+              {
+                "title": "甲骨文将于 2027 年在云平台提供谷歌 TPU",
+                "summary": "当地时间10月27日，甲骨文与谷歌宣布，谷歌张量处理单元（TPU）将接入甲骨文云基础设施（OCI），甲骨文将成为谷歌以外首家提供谷歌 TPU 的超大规模云服务商。该服务预计 2027 年推出，并在多年内逐步扩大规模，支持大模型训练、推理及智能体应用。谷歌第八代 TPU 包括面向训练的 TPU 8t 和面向推理的 TPU 8i。",
+                "link": "https://news.qq.com/rain/a/20261028A02QQC00",
+                "tags": [
+                  "AI芯片",
+                  "云计算"
+                ],
+                "source": "腾讯新闻",
+                "time": "当地时间10月27日"
+              }
+            ]
+          },
+          {
+            "name": "xAI",
+            "news": []
+          },
+          {
+            "name": "NVIDIA",
+            "news": [
+              {
+                "title": "英伟达与 Meta 扩大 Muse 系列模型合作",
+                "summary": "当地时间10月27日，英伟达与 Meta 宣布将扩大在 Muse 系列模型上的合作，以响应市场对 AI 智能体的爆发式需求。双方还将探索更多技术协同，包括依托英伟达 OpenShell 参考架构强化智能体安全体系，借助英伟达 Sentry 实现智能体行为全链路监控。Meta 将进一步扩大英伟达 Vera Rubin AI 算力集群与 Vera CPU 的部署规模。",
+                "link": "https://news.qq.com/rain/a/20261027A083DQ00",
+                "tags": [
+                  "AI智能体",
+                  "大模型"
+                ],
+                "source": "腾讯新闻",
+                "time": "当地时间10月27日"
+              },
+              {
+                "title": "英伟达与甲骨文扩大 AI 基础设施合作",
+                "summary": "当地时间10月27日，英伟达与甲骨文宣布，将把搭载英伟达 Vera Rubin NVL72 系统的甲骨文云基础设施（OCI）超级集群扩展至数吉瓦级，并正式提供 Vera Rubin NVL72 系统及 Vera CPU 云服务。甲骨文还计划推出搭载 8 颗 Rubin GPU 的 HGX Rubin NVL8 系统。双方称此次合作旨在提高 GPU 利用率，为 AI 工作负载提供可扩展的计算能力。",
+                "link": "https://news.qq.com/rain/a/20261028A02QR100",
+                "tags": [
+                  "算力",
+                  "AI基建"
+                ],
+                "source": "腾讯新闻",
+                "time": "当地时间10月27日"
+              }
+            ]
+          },
+          {
+            "name": "Meta",
+            "news": [
+              {
+                "title": "AMD 向 Meta 投资 10 亿美元，Helios 机架已开始测试",
+                "summary": "当地时间10月27日，AMD 宣布将参与 Meta 的股权发行，投资 10 亿美元，双方同时披露算力合作进展：首批 Helios 机架级系统已在 Meta 安装并进行测试。AMD 的 EPYC 处理器为 Meta 的 Muse 个人 AI 智能体提供专用计算环境，Meta 已部署数百万颗 EPYC，并成为第六代 EPYC 首批重要客户，双方还在合作开发后续平台。",
+                "link": "https://news.qq.com/rain/a/20261028A08IO300",
+                "tags": [
+                  "算力",
+                  "融资"
+                ],
+                "source": "腾讯新闻",
+                "time": "当地时间10月27日"
+              }
+            ]
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "news": []
+          },
+          {
+            "name": "火山引擎",
+            "news": []
+          },
+          {
+            "name": "DeepSeek",
+            "news": [
+              {
+                "title": "知情人士：DeepSeek 大举扩充团队",
+                "summary": "10月27日，据知情人士透露，DeepSeek 正大举扩充团队，办公地主要位于北京和杭州。创始人梁文锋长期在北京租房居住，房间布置比较简单。随着新一轮融资受到关注，DeepSeek 的团队扩张引发行业关注。同日发布的《2026 胡润百富榜》显示，梁文锋以 2800 亿元财富首次上榜，位列第七。",
+                "link": "https://news.qq.com/rain/a/20261027A07BOL00",
+                "tags": [
+                  "团队",
+                  "大模型"
+                ],
+                "source": "腾讯新闻",
+                "time": "10月27日"
+              }
+            ]
+          },
+          {
+            "name": "腾讯",
+            "news": [
+              {
+                "title": "微信输入法上线「AI 录音笔」功能",
+                "summary": "10月27日，微信派介绍，微信输入法新增「AI 录音笔」能力，可将录音实时转写为结构化网页，并按上下文整理重点和逻辑。功能除转成文字外，还能修正错别字、删去冗余口头表达，并根据内容生成图表、图示和交互原型。手机端可从键盘工具栏进入，电脑端可通过快捷键或菜单栏打开，支持多端同步历史录音总结。",
+                "link": "https://news.qq.com/rain/a/20261028A05ZHD00",
+                "tags": [
+                  "AI应用",
+                  "语音转写"
+                ],
+                "source": "腾讯新闻",
+                "time": "10月27日"
+              }
+            ]
+          },
+          {
+            "name": "小米",
+            "news": [
+              {
+                "title": "小米披露 21 自由度仿生灵巧手技术成果",
+                "summary": "10月27日，小米技术披露仿生灵巧手技术探索成果。小米机器人团队基于汽车工厂 1827 个标准作业程序（SOP）进行完整数据采集与分析验证，设计了全新 21 自由度仿生灵巧手，采用混合驱动与腱绳张力控制方案，实现精准抓握力控、提升可靠性与可维护性，同时对散热体系和全掌触觉进行了系统性优化。",
+                "link": "https://news.qq.com/rain/a/20261027A07X7600",
+                "tags": [
+                  "具身智能",
+                  "灵巧手"
+                ],
+                "source": "腾讯新闻",
+                "time": "10月27日"
+              }
+            ]
+          },
+          {
+            "name": "智谱AI",
+            "news": []
+          },
+          {
+            "name": "月之暗面",
+            "news": []
+          },
+          {
+            "name": "华为",
+            "news": []
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "其他厂商",
+            "cards": [
+              {
+                "title": "苹果",
+                "news": [
+                  {
+                    "title": "苹果发布 M6 芯片 MacBook Pro 和 iMac",
+                    "summary": "当地时间10月27日，苹果发布搭载 M6 芯片的 MacBook Pro 和 iMac，国行起售价分别为 15999 元、12499 元。M6 配备 12 核 CPU 和 12 核 GPU，GPU 每个核心均带神经网络加速器，并配备双 16 核神经网络引擎，相比 M5 图形性能最高提升 30%，端侧 AI 工作负载性能最高提升 25%。",
+                    "link": "https://news.qq.com/rain/a/20261027A0E0HX00",
+                    "tags": [
+                      "芯片",
+                      "端侧AI"
+                    ],
+                    "source": "腾讯新闻",
+                    "time": "当地时间10月27日"
+                  }
+                ]
+              },
+              {
+                "title": "蚂蚁",
+                "news": [
+                  {
+                    "title": "蚂蚁灵光 2.0 发布，主打「能管事的 AI 助理」",
+                    "summary": "10月27日，蚂蚁集团发布灵光 2.0，将其定位为「能管事的 AI 助理」，从单轮对话扩展到持续跟进的个人 Agent。用户关掉 App 后，任务仍可在独立云主机及浏览器中运行，并在有结果或需决策时提醒。灵光可读取合同整理报销条件、比较同平台价格并持续盯价，支持授权接入支付宝账单、钉钉、飞书等工具。",
+                    "link": "https://news.qq.com/rain/a/20261027A05HCA00",
+                    "tags": [
+                      "AI助理",
+                      "Agent"
+                    ],
+                    "source": "腾讯新闻",
+                    "time": "10月27日"
+                  }
+                ]
+              },
+              {
+                "title": "Liquid AI",
+                "news": [
+                  {
+                    "title": "Liquid AI 发布 LFM3 小模型家族",
+                    "summary": "10月28日消息，Liquid AI 发布 LFM3 系列，首批 6 款模型均处于约 20 亿参数规模，覆盖文本、视觉、音频、全模态及决策任务，共用 LFM3-1.7B 基础骨干，权重已在 Hugging Face 上线。文本模型支持 256K Token 上下文，4-bit 精度下约占 1GB 内存，可在手机和笔记本本地运行。新架构结合门控短卷积、滑动窗口注意力和全局注意力，预训练使用 22 万亿 Token。",
+                    "link": "https://news.qq.com/rain/a/20261028A0CJGJ00",
+                    "tags": [
+                      "小模型",
+                      "开源"
+                    ],
+                    "source": "腾讯新闻",
+                    "time": "10月28日消息"
+                  }
+                ]
+              },
+              {
+                "title": "台积电",
+                "news": [
+                  {
+                    "title": "台积电拟将先进封装价格最高上调 20%",
+                    "summary": "10月27日消息，据 TrendForce 援引媒体报道，受 AI 需求爆发、半导体供应链产能全面紧张影响，台积电计划上调先进芯片封装服务价格，最高涨幅可达 20%。台积电等晶圆代工及封测从业者正酝酿新一轮提价，准备将 CoWoS 封装报价上调 10% 至 20%。当前 CoWoS 需求已从 GPU 延伸至服务器 CPU 及定制 ASIC。",
+                    "link": "https://news.qq.com/rain/a/20261027A0BXS700",
+                    "tags": [
+                      "芯片",
+                      "涨价"
+                    ],
+                    "source": "腾讯新闻",
+                    "time": "10月27日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "自动驾驶",
+            "cards": []
+          },
+          {
+            "name": "具身智能",
+            "cards": [
+              {
+                "title": "智元",
+                "news": [
+                  {
+                    "title": "智元 GO-3 Nano Preview 登顶 RoboDojo",
+                    "summary": "10月27日，具身智能领域评测基准 RoboDojo 披露的最新榜单显示，来自智元（AGIBOT）的 GO-3 Nano Preview 以 61.90 分的平均成绩、56.42% 的平均成功率登顶，超越 GPT-6 Astra。在精细操作、长程执行及开放语义理解三个细分维度上，得分分别为 78.65 分、68.21 分和 61.71 分，均位列第一。",
+                    "link": "https://news.qq.com/rain/a/20261027A08JR600",
+                    "tags": [
+                      "具身智能",
+                      "评测"
+                    ],
+                    "source": "腾讯新闻",
+                    "time": "10月27日"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "AI出海",
+            "cards": []
+          },
+          {
+            "name": "投资资讯",
+            "cards": []
+          },
+          {
+            "name": "行业趋势&观点",
+            "cards": [
+              {
+                "title": "邓煜（菲尔兹奖得主）",
+                "news": [
+                  {
+                    "title": "菲尔兹奖得主邓煜：AI 公司应公开思维链",
+                    "summary": "10月25日，菲尔兹奖得主、数学家邓煜在《知识分子》《赛先生》联合举办的论坛演讲中谈到，如果把 AI 当作发表研究成果的研究者，就应解释重大证明是如何得到的。他认为 AI 公司不应仅以防止蒸馏为由拒绝公开思维链，是否允许输入数据参与训练应由用户自行选择，并主张建立思路和贡献的追溯机制。",
+                    "link": "https://news.qq.com/rain/a/20261027A04ZK600",
+                    "tags": [
+                      "AI观点",
+                      "学术规范"
+                    ],
+                    "source": "腾讯新闻",
+                    "time": "10月25日"
+                  }
+                ]
+              },
+              {
+                "title": "胡润百富榜",
+                "news": [
+                  {
+                    "title": "胡润百富榜发布，梁文锋首次上榜位列第七",
+                    "summary": "10月27日，胡润研究院发布《2026 胡润百富榜》，字节跳动创始人张一鸣以 6700 亿元财富第二次成为中国首富，刷新榜单纪录。DeepSeek 创始人梁文锋首次上榜，以 2800 亿元位列第七；宇树科技创始人王兴兴也首次上榜，财富 695 亿元。胡润称，半导体、人工智能、机器人等行业是今年财富增长较突出的领域。",
+                    "link": "https://news.qq.com/rain/a/20261028A05YH500",
+                    "tags": [
+                      "财富榜",
+                      "AI行业"
+                    ],
+                    "source": "腾讯新闻",
+                    "time": "10月27日"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "LMArena",
+            "date": "2026-09-13",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "claude-fable-5",
+                "score": "1506",
+                "change": "±5"
+              },
+              {
+                "model": "claude-opus-4-6-high",
+                "score": "1505",
+                "change": "±4"
+              },
+              {
+                "model": "claude-opus-4-7-high",
+                "score": "1502",
+                "change": "±4"
+              },
+              {
+                "model": "muse-spark-1.2 (xHigh)",
+                "score": "1500",
+                "change": "±11"
+              },
+              {
+                "model": "claude-fable-5.1-max",
+                "score": "1498",
+                "change": "±8"
+              },
+              {
+                "model": "claude-opus-4-6",
+                "score": "1497",
+                "change": "±3"
+              },
+              {
+                "model": "claude-opus-4-7",
+                "score": "1494",
+                "change": "±4"
+              },
+              {
+                "model": "muse-spark-1.3-max",
+                "score": "1493",
+                "change": "±9"
+              },
+              {
+                "model": "gemini-3.8-flash-high (Preliminary)",
+                "score": "1493",
+                "change": "±9"
+              },
+              {
+                "model": "claude-opus-5-high",
+                "score": "1493",
+                "change": "±4"
+              },
+              {
+                "model": "muse-spark-1.1",
+                "score": "1493",
+                "change": "±5"
+              },
+              {
+                "model": "gemini-3.7-flash-high (Preliminary)",
+                "score": "1490",
+                "change": "±8"
+              },
+              {
+                "model": "muse-spark",
+                "score": "1488",
+                "change": "±6"
+              },
+              {
+                "model": "claude-opus-5-max",
+                "score": "1487",
+                "change": "±5"
+              },
+              {
+                "model": "gemini-3.1-pro-preview",
+                "score": "1487",
+                "change": "±3"
+              },
+              {
+                "model": "gemini-3-pro",
+                "score": "1485",
+                "change": "±4"
+              },
+              {
+                "model": "kimi-k3-max",
+                "score": "1485",
+                "change": "±5"
+              },
+              {
+                "model": "gpt-5.6-sol-xhigh",
+                "score": "1483",
+                "change": "±5"
+              },
+              {
+                "model": "glm-5.3-max",
+                "score": "1483",
+                "change": "±6"
+              },
+              {
+                "model": "gpt-5.5-high",
+                "score": "1482",
+                "change": "±4"
+              }
+            ]
+          },
+          {
+            "name": "OpenRouter",
+            "date": "2026-10-26",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": [
+              {
+                "model": "DeepSeek V4.1 Flash 1017 (deepseek)",
+                "score": "33.6T tokens",
+                "change": "↑801%"
+              },
+              {
+                "model": "DeepSeek V4.1 Flash (deepseek)",
+                "score": "18T tokens",
+                "change": "↓45%"
+              },
+              {
+                "model": "MiniMax M3.1 Flash (free) (minimax)",
+                "score": "13.7T tokens",
+                "change": "—"
+              },
+              {
+                "model": "GLM 5.3 Flash (z-ai)",
+                "score": "13.2T tokens",
+                "change": "↑8%"
+              },
+              {
+                "model": "Hy4 preview (tencent)",
+                "score": "8.97T tokens",
+                "change": "↑19%"
+              },
+              {
+                "model": "GPT-6 Luna (openai)",
+                "score": "8.35T tokens",
+                "change": "↑35%"
+              },
+              {
+                "model": "Claude Opus 5.5 (anthropic)",
+                "score": "8.27T tokens",
+                "change": "↑34%"
+              },
+              {
+                "model": "MiMo-V2.6-Flash (xiaomi)",
+                "score": "6.07T tokens",
+                "change": "↓39%"
+              },
+              {
+                "model": "Nemotron 3 Ultra (free) (nvidia)",
+                "score": "5.85T tokens",
+                "change": "↑18%"
+              },
+              {
+                "model": "GLM 5.3 (z-ai)",
+                "score": "5.05T tokens",
+                "change": "↓3%"
+              },
+              {
+                "model": "DeepSeek V4 Flash 0731 (deepseek)",
+                "score": "3.99T tokens",
+                "change": "↓15%"
+              },
+              {
+                "model": "Step 5 Preview (stepfun)",
+                "score": "3.63T tokens",
+                "change": "↓68%"
+              },
+              {
+                "model": "Hy3 (tencent)",
+                "score": "3.05T tokens",
+                "change": "↓2%"
+              },
+              {
+                "model": "Jev 1.13 (typesafe)",
+                "score": "2.98T tokens",
+                "change": "↓2%"
+              },
+              {
+                "model": "GPT-6.1 Sol (openai)",
+                "score": "2.81T tokens",
+                "change": "↑45%"
+              },
+              {
+                "model": "DeepSeek V4 Flash 0423 (deepseek)",
+                "score": "2.81T tokens",
+                "change": "↓7%"
+              },
+              {
+                "model": "Muse Spark 1.3 Contributor (meta)",
+                "score": "2.77T tokens",
+                "change": "↓16%"
+              },
+              {
+                "model": "Claude Haiku 5.5 (anthropic)",
+                "score": "2.68T tokens",
+                "change": "↑29%"
+              },
+              {
+                "model": "Claude Sonnet 5.5 (anthropic)",
+                "score": "2.46T tokens",
+                "change": "—"
+              },
+              {
+                "model": "Kimi K3 (moonshotai)",
+                "score": "1.99T tokens",
+                "change": "↓10%"
+              }
+            ]
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-09-16",
+            "link": "https://www.producthunt.com/",
+            "rankings": [
+              {
+                "name": "Viktor.com",
+                "category": "Productivity",
+                "rank": 0,
+                "link": "https://viktor.com"
+              },
+              {
+                "name": "Weave Router 2.0",
+                "category": "Open Source",
+                "rank": 1,
+                "link": "https://weaverouter.com"
+              },
+              {
+                "name": "Appwrite 2.0",
+                "category": "Open Source",
+                "rank": 2,
+                "link": "https://appwrite.io"
+              },
+              {
+                "name": "Gemini 3.8 & 3.8 Live Extended Thinking",
+                "category": "Bots",
+                "rank": 3,
+                "link": "https://gemini.google.com"
+              },
+              {
+                "name": "Toki Coordination",
+                "category": "Productivity",
+                "rank": 4,
+                "link": "https://toki.com"
+              },
+              {
+                "name": "CAT ME app",
+                "category": "Photography",
+                "rank": 5,
+                "link": "https://apps.apple.com/us/app/cat-me-ai/id6803704105"
+              },
+              {
+                "name": "Expand Board for macOS",
+                "category": "Mac",
+                "rank": 6,
+                "link": "https://www.producthunt.com/products/expand-board-for-macos"
+              },
+              {
+                "name": "Thread",
+                "category": "Productivity",
+                "rank": 7,
+                "link": "https://threadapp.io"
+              },
+              {
+                "name": "Fide Island",
+                "category": "Mac",
+                "rank": 8,
+                "link": "https://www.producthunt.com/products/fide-island"
+              },
+              {
+                "name": "Twigg",
+                "category": "Developer Tools",
+                "rank": 9,
+                "link": "https://twigg.ai"
+              },
+              {
+                "name": "ZeroClick",
+                "category": "Payments",
+                "rank": 10,
+                "link": "https://zeroclick.ai"
+              },
+              {
+                "name": "Jottoo",
+                "category": "Productivity",
+                "rank": 11,
+                "link": "https://jottoo.com"
+              },
+              {
+                "name": "flat.social",
+                "category": "Events",
+                "rank": 12,
+                "link": "https://flat.social"
+              },
+              {
+                "name": "Project Feed",
+                "category": "Design Tools",
+                "rank": 13,
+                "link": "https://www.producthunt.com/products/project-feed"
+              },
+              {
+                "name": "Convo",
+                "category": "Sales",
+                "rank": 14,
+                "link": "https://www.toolfinder.co/go/convo"
+              },
+              {
+                "name": "PeakHour 6",
+                "category": "Mac",
+                "rank": 15,
+                "link": "https://peakhour.app"
+              },
+              {
+                "name": "CreatorHat",
+                "category": "Safari Extensions",
+                "rank": 16,
+                "link": "https://creatorhat.com"
+              },
+              {
+                "name": "PhraseVault 3.0",
+                "category": "Mac",
+                "rank": 17,
+                "link": "https://phrasevault.app"
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 };
 
