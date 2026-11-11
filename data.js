@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-11-06",
+  "date": "2026-11-05",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,101 +7,69 @@ window.__RAW_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "前 Claude Code 产品负责人 Cat Wu 加入 OpenAI",
-              "summary": "11月5日，前 Anthropic Claude Code 产品负责人 Cat Wu 在社交平台发文宣布加入 OpenAI，担任核心产品（Core Products）产品管理负责人。她在 Anthropic 工作两年，曾参与 Claude Code、Cowork 和 Tag 等产品开发。OpenAI 总裁格雷格·布罗克曼转发帖文表示欢迎。",
-              "link": "https://www.ithome.com/1/022/604.htm",
+              "title": "OpenAI 称印度成 ChatGPT 最大消费者市场",
+              "summary": "11月4日，OpenAI 印度区董事总经理普拉布吉特·辛格表示，印度目前的 ChatGPT 周活跃用户数已超过包括美国在内的任何国家，成为全球最大消费者市场，且自 1 月以来用户数量翻番。为满足需求，OpenAI 正与 TCS 旗下数据中心 HyperVault 合作扩充算力，起步容量 100 兆瓦。",
+              "link": "https://news.qq.com/rain/a/20261104A0A8AU00",
               "tags": [
-                "人事变动",
-                "智能体"
-              ],
-              "source": "IT之家",
-              "time": "11月5日"
-            },
-            {
-              "title": "OpenAI 发布 Images 2.6，生图提速 50% 并新增 GIF 功能",
-              "summary": "当地时间11月4日，OpenAI 发布图像生成模型 Images 2.6，现已面向全球用户开放，支持在 ChatGPT、Codex 及 API 中使用。新模型图像生成速度较上一版本提升 50%，并增强了多轮编辑中的细节控制和角色、产品及品牌元素一致性，新增 GIF 生成功能可将静态图像转化为循环动画。",
-              "link": "https://news.qq.com/rain/a/20261105A06KDV00",
-              "tags": [
-                "图像生成",
-                "新模型"
+                "AI出海",
+                "用户增长"
               ],
               "source": "腾讯新闻",
-              "time": "当地时间11月4日"
-            },
-            {
-              "title": "OpenAI 总裁称大部分收入来自企业，预计 2027 年上市",
-              "summary": "当地时间11月4日，OpenAI 总裁格雷格·布罗克曼在一场科技会议上表示，公司目前大部分收入已来自企业客户，预计 OpenAI 将在 2027 年具备上市条件。布罗克曼称 OpenAI 正加快企业业务拓展，与 Anthropic 争夺企业客户，并积极推广 Codex 智能体产品。",
-              "link": "https://news.qq.com/rain/a/20261105A08TYN00",
-              "tags": [
-                "上市",
-                "企业业务"
-              ],
-              "source": "腾讯新闻",
-              "time": "当地时间11月4日"
-            },
-            {
-              "title": "OpenAI 推出 GPT-6 Cyber，越权操作比例降至 1% 以下",
-              "summary": "OpenAI 正式推出新一代网络安全 AI 模型 GPT-6 Cyber，重点提升软件漏洞发现、网络安全防御及自主执行安全测试能力。新模型在内部测试中未经授权越界执行操作的比例已降至 1% 以下，此前 GPT-5.6 Cyber 约为 5%，超过 99% 的情况下能按用户要求执行任务。",
-              "link": "https://www.ithome.com/1/023/038.htm",
-              "tags": [
-                "网络安全",
-                "新模型"
-              ],
-              "source": "IT之家",
-              "time": "11月6日消息"
-            },
-            {
-              "title": "OpenAI 收购 Pierre，扩充 Codex 代码编写与审查工具",
-              "summary": "当地时间11月4日，OpenAI 宣布收购企业 Pierre。该公司开发了 Code Storage 大规模分布式存储系统，以及 Trees、Diffs 功能库和 Highlights 实时更新高亮工具，其中 Trees 让开发者快速浏览定位项目文件，Diffs 让代码变更一目了然，助力 Codex 第一方代码编写、理解与审查。",
-              "link": "https://news.pedaily.cn/202611/571367.shtml",
-              "tags": [
-                "收购",
-                "开发工具"
-              ],
-              "source": "投资界",
-              "time": "当地时间11月4日"
+              "time": "11月4日"
             }
           ]
         },
         {
           "name": "Anthropic",
-          "news": []
+          "news": [
+            {
+              "title": "Anthropic 组建 15 人团队，用 Claude 设计自研 AI 芯片",
+              "summary": "据报道，Anthropic 已组建一支 15 人的芯片设计团队，利用自家的 Claude 模型开展定制芯片的工程与设计工作。工程师发现，与英伟达、AMD 等大型设计企业的传统工作流程相比，Claude 能显著缩短芯片设计所需时间。Anthropic 正准备本月晚些时候启动 IPO，估值可能达 1.5 万亿美元。",
+              "link": "https://finance.sina.com.cn/stock/usstock/c/2026-11-04/doc-inixqnsv7970783.shtml",
+              "tags": [
+                "自研芯片",
+                "IPO"
+              ],
+              "source": "新浪财经",
+              "time": "11月4日消息"
+            }
+          ]
         },
         {
           "name": "Google",
           "news": [
             {
-              "title": "谷歌发布 Gemini Omni 1.2 Flash 视频模型，支持对话编辑",
-              "summary": "11月6日，谷歌正式推出视频生成模型 Gemini Omni 1.2 Flash，支持原生 15 秒视频生成和「对话式编辑」，用户可通过多轮对话逐步调整视频而无需重新生成。720p 视频生成价格下调 30% 至每秒 0.07 美元，每个视频带有 SynthID 水印。该模型正通过 Gemini API、AI Studio 等陆续推出。",
-              "link": "https://original.ifeng.com/c/8xp6esIqQlm",
+              "title": "Alphabet 豪掷 150 亿美元扩建马来西亚 AI 数据中心",
+              "summary": "谷歌母公司 Alphabet 表示，计划投资 150 亿美元扩大位于马来西亚的 AI 数据中心和传统云计算相关业务。马来西亚已成为东南亚主要数据中心枢纽，此前已吸引甲骨文、亚马逊、阿里巴巴和字节跳动等公司。此举凸显 AI 应用热潮正加速推动算力资源与数字化基础设施需求增长。",
+              "link": "https://www.cls.cn/detail/2525364",
               "tags": [
-                "视频生成",
-                "新模型"
+                "数据中心",
+                "算力"
               ],
-              "source": "凤凰网",
-              "time": "11月6日"
+              "source": "财联社",
+              "time": "11月4日消息"
             }
           ]
         },
         {
           "name": "xAI",
-          "news": [
-            {
-              "title": "高盛阿波罗寻求接盘 400 亿美元 SpaceX 芯片交易",
-              "summary": "据报道，高盛和阿波罗全球管理公司正在与投资者磋商，计划出售 SpaceX 人工智能芯片约 400 亿美元融资方案中的一部分，已开始接触潜在买家，并要求部分投资者在正式银团贷款流程启动前购入最高达 5 亿美元份额。该交易旨在避免债务计入 SpaceX 资产负债表，是迄今针对 GPU 规模最大的同类交易。",
-              "link": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqen6345747.shtml",
-              "tags": [
-                "AI芯片",
-                "融资"
-              ],
-              "source": "新浪财经",
-              "time": "11月5日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "NVIDIA",
-          "news": []
+          "news": [
+            {
+              "title": "英伟达 RTX Pro 5500 中国订单只能满足约 1%",
+              "summary": "据外媒报道，阿里、腾讯、字节等中国科技巨头累计订购约 600 万张英伟达 RTX PRO 5500 显卡，总价值约 700 亿美元。但受产能限制，未来四个月预计只能拿到数万张，约占订单量的 1%。在美国出口管制下，中国企业只能退而求其次大量订购这款工作站显卡。",
+              "link": "https://finance.china.com/TMT/13004688/20261105/49843530.html",
+              "tags": [
+                "AI芯片",
+                "出口管制"
+              ],
+              "source": "中华网",
+              "time": "11月4日"
+            }
+          ]
         },
         {
           "name": "Meta",
@@ -121,23 +89,23 @@ window.__RAW_DATA = {
         },
         {
           "name": "DeepSeek",
-          "news": [
-            {
-              "title": "DeepSeek Harness 日活达 154 万，日耗 Token 92 万亿",
-              "summary": "DeepSeek 披露最新数据，截至11月4日，以使用官方 API 的用户为统计范围，DeepSeek Harness 日活跃用户已达 154 万，日消耗 Token 约 92 万亿，第三方插件数量增至约 3.5 万个，约 60% 的活跃用户制作或安装了至少一款第三方插件。",
-              "link": "https://www.yicai.com/news/103428332.html",
-              "tags": [
-                "智能体",
-                "开发者生态"
-              ],
-              "source": "第一财经",
-              "time": "11月6日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "腾讯",
-          "news": []
+          "news": [
+            {
+              "title": "腾讯混元发布 Hy4，称跻身最强开源模型队列",
+              "summary": "11月4日，腾讯混元发布最新一代大语言模型 Hy4，参数量 770B，提升指令遵循、长文理解、长程智能体能力，将于近期开源模型权重。混元团队称 Hy4 是目前最强的开源模型之一，在多项基准测试中得分超过 DeepSeek-V4.1-Flash-1017，但与顶尖闭源模型仍存在差距。",
+              "link": "https://www.yicai.com/news/103425087.html",
+              "tags": [
+                "开源模型",
+                "大模型"
+              ],
+              "source": "第一财经",
+              "time": "11月4日"
+            }
+          ]
         },
         {
           "name": "小米",
@@ -149,19 +117,7 @@ window.__RAW_DATA = {
         },
         {
           "name": "月之暗面",
-          "news": [
-            {
-              "title": "月之暗面发布 Kimi Hosted Agents，托管智能体上云",
-              "summary": "月之暗面宣布发布 Kimi Hosted Agents（托管智能体），将支撑 Agent 运行的 Harness 作为云端服务提供给企业和开发者，企业无需自行搭建和维护运行框架，即可获得 7×24 小时的托管环境，支持长程任务执行与多智能体高效协作。",
-              "link": "https://www.yicai.com/news/103427135.html",
-              "tags": [
-                "智能体",
-                "托管服务"
-              ],
-              "source": "第一财经",
-              "time": "11月6日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "华为",
@@ -175,18 +131,66 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "苹果",
+              "title": "字节跳动",
               "news": [
                 {
-                  "title": "苹果下调员工 AI 使用预算，工程团队日额度或降至 100 美元",
-                  "summary": "据报道，苹果公司正收紧员工使用人工智能模型的预算以控制成本，上月已将部分工程师使用 AI 模型的每日支出上限从 300 美元下调至 200 美元，目前计划进一步削减部分工程团队额度，最低可能降至 100 美元，部分团队或改用成本更低的模型或本地运行的 AI 模型。",
-                  "link": "https://finance.sina.com.cn/tech/roll/2026-11-05/doc-inixsfaa9541896.shtml",
+                  "title": "字节限制员工使用外部 AI，技术副总裁内网回应",
+                  "summary": "字节跳动计划从 11 月起大范围限制 Claude、Codex 等外部 AI 工具访问内部数据，全公司 L4 级代码仓库和飞书文档将禁止外部 AI 访问。字节技术副总裁洪定坤回应称 L3 及以上内容一旦泄露后果严重，但强调推广自家产品不需要靠禁止其他选择。",
+                  "link": "https://news.qq.com/rain/a/20261105A0AMX100",
                   "tags": [
-                    "成本控制",
+                    "数据安全",
+                    "内部政策"
+                  ],
+                  "source": "腾讯新闻",
+                  "time": "11月3日"
+                }
+              ]
+            },
+            {
+              "title": "豆包",
+              "news": [
+                {
+                  "title": "豆包工作接入抖音生活服务等官方插件",
+                  "summary": "11月4日，豆包工作宣布接入抖音生活服务经营、巨量本地推、TikTok for Business 三款官方插件。完成账户授权后，用户可用自然语言查询门店数据、做经营复盘、拿建议，减少报表搬运和重复整理，无需在多个后台间反复切换。",
+                  "link": "https://news.qq.com/rain/a/20261105A06ABA00",
+                  "tags": [
+                    "智能体",
+                    "插件"
+                  ],
+                  "source": "腾讯新闻",
+                  "time": "11月4日"
+                }
+              ]
+            },
+            {
+              "title": "游族网络",
+              "news": [
+                {
+                  "title": "游族网络拟 42 亿买 GPU，推进转型升级",
+                  "summary": "11月3日晚间，游族网络发布公告，全资子公司拟采购金额为 42.25 亿元的 GPU，约相当于公司去年营收的 3 倍。公告显示，游族信息向 A 公司采购型号为 PRO5500（PCIe）的 GPU 产品，用于推进公司转型升级，引发市场关注。",
+                  "link": "https://finance.sina.com.cn/wm/2026-11-04/doc-inixqaaz8078031.shtml",
+                  "tags": [
+                    "算力",
+                    "GPU"
+                  ],
+                  "source": "新浪财经",
+                  "time": "11月3日"
+                }
+              ]
+            },
+            {
+              "title": "Netflix",
+              "news": [
+                {
+                  "title": "Netflix 测试 AI Discover，按心情推荐影视",
+                  "summary": "11月4日，Netflix 开始在电视端测试 AI Discover 标签页，用户可从「来点轻松的」「吓吓我」「家庭电影之夜」等主题入手查看推荐结果，还可通过「调整推荐」按钮保留感兴趣的内容或要求不再推荐某部作品。目前仅向美国部分英语版 Netflix 电视用户开放。",
+                  "link": "https://news.qq.com/rain/a/20261104A0AMKM00",
+                  "tags": [
+                    "推荐系统",
                     "AI应用"
                   ],
-                  "source": "新浪科技",
-                  "time": "11月5日消息"
+                  "source": "腾讯新闻",
+                  "time": "11月4日"
                 }
               ]
             }
@@ -200,18 +204,18 @@ window.__RAW_DATA = {
           "name": "具身智能",
           "cards": [
             {
-              "title": "丰田",
+              "title": "王兴兴（宇树科技创始人）",
               "news": [
                 {
-                  "title": "丰田设立机器人事业部，志贺武文挂帅",
-                  "summary": "11月5日，丰田官宣组织架构调整，新设独立机器人事业部，定位为未来核心支柱，由首席生产官志贺武文主管，整合分散研发团队，布局工业、人形、护理服务三类机器人，兼顾工厂自动化升级与对外商业化落地。这是丰田首次将机器人业务升级至与电动化、软件业务并列的战略板块。",
-                  "link": "https://www.jiemian.com/article/15299571.html",
+                  "title": "王兴兴：明年或是机器人行业临界点",
+                  "summary": "11月4日，宇树科技创始人王兴兴在世界互联网大会乌镇峰会上表示，2027 年大概率会成为机器人行业或机器人模型发展的「临界点」。他指出当前机器人采集的数据尚未充分利用，精细操作如拆装手机、穿针引线成功率仍较低，关键在于模型对接触和触觉信息的理解。",
+                  "link": "https://news.qq.com/rain/a/20261104A05UT500",
                   "tags": [
                     "人形机器人",
-                    "组织架构"
+                    "行业观点"
                   ],
-                  "source": "界面新闻",
-                  "time": "11月5日"
+                  "source": "腾讯新闻",
+                  "time": "11月4日"
                 }
               ]
             }
@@ -225,18 +229,18 @@ window.__RAW_DATA = {
           "name": "投资资讯",
           "cards": [
             {
-              "title": "易博图",
+              "title": "凌川科技",
               "news": [
                 {
-                  "title": "无人重卡公司易博图连续完成两轮近 4 亿元融资",
-                  "summary": "成立不到一年的无人重卡公司易博图近日连续完成两轮近 4 亿元融资，投资方包括葛卫东、辰韬资本、弘毅投资、零一汽车、兴富资本、猎鹰投资旗下星奇基金等。",
-                  "link": "https://finance.eastmoney.com/a/202611053923843924.html",
+                  "title": "AI 芯片公司凌川科技完成 10 亿元 B 轮融资",
+                  "summary": "人工智能芯片公司凌川科技近日完成 10 亿元 B 轮融资，资金将主要用于下一代芯片研发与量产及全球市场拓展。本轮由亦庄国投屹唐盛和基金、启明创投、朝晖资本联合领投，石溪资本、龙芯创投等产业投资方参与，老股东顺禧基金、水木投资集团等持续追加。",
+                  "link": "https://www.bbtnews.com.cn/2026/1104/610342.shtml",
                   "tags": [
-                    "自动驾驶",
+                    "AI芯片",
                     "融资"
                   ],
-                  "source": "东方财富",
-                  "time": "11月5日消息"
+                  "source": "北京商报",
+                  "time": "11月4日消息"
                 }
               ]
             }
@@ -246,34 +250,18 @@ window.__RAW_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "美国中期选举",
+              "title": "智能体自律公约",
               "news": [
                 {
-                  "title": "美国中期选举后 AI 芯片股重挫，纳指单日暴跌 5.52%",
-                  "summary": "美国民主党在国会中期选举中大胜，引发投资者对 AI 监管加强、数据中心建设放缓的担忧。当地时间周四，美股科技股遭遇大规模抛售，华尔街市值单日蒸发约 3.2 万亿美元，纳指暴跌 5.52% 进入技术性回调，费城半导体指数暴跌约 12.3%，英伟达下跌约 9.3%，AI 芯片、存储及数据中心股票成重灾区。",
-                  "link": "https://original.ifeng.com/c/8xp9KtgRr05",
+                  "title": "20 家单位联合发布《智能体发展自律公约》",
+                  "summary": "11月4日，中国信通院、华为、阿里、腾讯、小米、百度、火山引擎等 20 家单位联合发布《智能体发展自律公约》，提出建设智能体互联基础设施，发展智能体注册与解析、能力描述与发现、意图理解与转换等技术与标准，降低智能体跨域发现连接成本，加速智能体赋能千行百业。",
+                  "link": "https://www.thepaper.cn/newsDetail_forward_34405097",
                   "tags": [
-                    "芯片股",
-                    "AI监管"
+                    "智能体",
+                    "行业标准"
                   ],
-                  "source": "凤凰网",
-                  "time": "11月5日消息"
-                }
-              ]
-            },
-            {
-              "title": "美国民主党",
-              "news": [
-                {
-                  "title": "美国民主党提出超级 AI 禁令，个人违规最高 20 年监禁",
-                  "summary": "美国民主党宣布推动《禁止人工超级智能法案》，全面封杀超级 AI 研发，明文禁止任何个人或企业研发及部署人工超级智能（ASI）。法案要求全面暂停先进 AI 研发直至联邦专属监管机构正式运作，并拟设立内阁级人工智能部。违规企业将面临强制解散，违规个人最高可判 20 年联邦监禁，并将「全球禁止超级智能」列为外交政策目标。",
-                  "link": "https://finance.sina.com.cn/tech/roll/2026-11-05/doc-inixsmis8877267.shtml",
-                  "tags": [
-                    "AI监管",
-                    "立法"
-                  ],
-                  "source": "新浪科技",
-                  "time": "11月5日消息"
+                  "source": "澎湃新闻",
+                  "time": "11月4日"
                 }
               ]
             }
