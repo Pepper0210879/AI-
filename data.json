@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-09",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,85 +7,39 @@
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 突发大规模封号，200 美元 Pro 用户集体失联",
-              "summary": "11月8日，OpenAI 突发大规模账号封禁事件，大量 ChatGPT 账号无预警停用，其中包括每月订阅 200 美元的 Pro 用户。OpenAI Support 回应称无法在社区处理申诉，用户需通过邮件链接申诉，但未解释封号具体原因。业内推测与其限制单设备账号上限、防止薅羊毛有关。",
-              "link": "https://www.thepaper.cn/newsDetail_forward_34436792",
+              "title": "伯恩斯坦：OpenAI 至 2030 年算力支出或达 6140 亿美元",
+              "summary": "伯恩斯坦分析师 Mark Moerdler 估算，OpenAI 已披露的算力合作协议对应的基础设施支出到 2030 年累计可能达 6140 亿美元，明显低于《华尔街日报》此前传出的 7500 亿美元。其中与甲骨文、微软、亚马逊的协议规模分别约为 3000 亿、2500 亿和 1380 亿美元。",
+              "link": "https://www.tmtpost.com/agent/ai-article/22355",
               "tags": [
-                "账号封禁",
-                "账号治理"
+                "算力",
+                "投资"
               ],
-              "source": "澎湃新闻",
-              "time": "11月8日"
-            },
-            {
-              "title": "ChatGPT 占全球 AI 聊天机器人流量超 81%，断层领跑",
-              "summary": "研究与增长营销公司 Graphite 的研究显示，目前 ChatGPT 占全球主要 AI 聊天机器人工具总流量的比例已超过 81%，没有任何一家竞争对手的市场份额达到 10%。谷歌 Gemini 和 Anthropic Claude 虽被视为越来越强的竞争威胁，但 ChatGPT 的领先优势仍在扩大。",
-              "link": "https://news.qq.com/rain/a/20261109A0E5N500",
-              "tags": [
-                "市场份额",
-                "聊天机器人"
-              ],
-              "source": "腾讯新闻",
-              "time": "11月9日消息"
+              "source": "钛媒体",
+              "time": "11月8日消息"
             }
           ]
         },
         {
           "name": "Anthropic",
-          "news": [
-            {
-              "title": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2，API 降价 20%",
-              "summary": "当地时间11月9日，Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两款模型共用同一底层模型。Fable 5.2 面向普通用户并内置网络安全与生物安全防护，Mythos 5.2 面向通过审核的网络安全和生命科学机构。相比 5.1 版，API 价格下调 20%，生成速度最高提升 30%。",
-              "link": "https://original.ifeng.com/c/8xviqDaxyxj",
-              "tags": [
-                "大模型",
-                "API降价"
-              ],
-              "source": "凤凰网",
-              "time": "当地时间11月9日"
-            },
-            {
-              "title": "Anthropic 上市估值预期骤降 40%，至 1.2 万亿至 1.3 万亿美元",
-              "summary": "据彭博社报道，部分潜在投资者准备给予 Anthropic 1.2 万亿至 1.3 万亿美元的 IPO 估值，较此前预期的 2 万亿美元下降至多 40%。英国《金融时报》最新报道则预计其估值可能接近 1.5 万亿美元。美股科技股遭抛售、AI 投资回报受审视是其估值承压的背景。",
-              "link": "https://www.cls.cn/detail/2527867",
-              "tags": [
-                "IPO",
-                "估值下调"
-              ],
-              "source": "财联社",
-              "time": "11月9日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "Google",
-          "news": [
-            {
-              "title": "谷歌发布 TPU 8tx 与 TPU 8i Max，扩充第八代 TPU 阵容",
-              "summary": "11月9日，谷歌公布 TPU 8i Max 和 TPU 8tx 两套第八代 TPU 系统。TPU 8i Max 把两枚 TPU 8i 芯片封装在一起，算力、片上 SRAM 和高带宽内存带宽均翻倍，面向长上下文任务；TPU 8tx 搭配定制 AMD 主机处理器，支持硬件级机密计算与保密推理。",
-              "link": "https://www.ithome.com/1/024/525.htm",
-              "tags": [
-                "AI芯片",
-                "TPU"
-              ],
-              "source": "IT之家",
-              "time": "11月9日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "xAI",
           "news": [
             {
-              "title": "SpaceX 拟在得州建 240 亿美元 AI 超算设施，自建天然气发电厂",
-              "summary": "SpaceX 计划在得克萨斯州建设一座配备独立天然气发电厂的 AI 超级计算设施，项目总投资达 240 亿美元，约为其比特币持仓价值的 17 倍。此前 SpaceX 已于今年 6 月完成史上规模最大的 IPO，并持有比特币。",
-              "link": "https://original.ifeng.com/c/8xvhNgGBc0R",
+              "title": "马斯克：SpaceX 有望在 12 月实现 1000 亿美元年化营收",
+              "summary": "11月7日，马斯克表示，SpaceX 有望在 12 月实现 1000 亿美元年化营收。SpaceX 业务涵盖发射、星链及面向 AI 的算力服务，此前马斯克多次透露其营收预期持续上调。",
+              "link": "https://news.qq.com/rain/a/20261107A0D7MD00",
               "tags": [
-                "AI基础设施",
-                "超算"
+                "营收",
+                "商业航天"
               ],
-              "source": "凤凰网",
-              "time": "11月10日消息"
+              "source": "腾讯新闻",
+              "time": "11月7日消息"
             }
           ]
         },
@@ -93,37 +47,15 @@
           "name": "NVIDIA",
           "news": [
             {
-              "title": "外媒：黄仁勋承认婚外情或遭免职，英伟达尚未指定接班人",
-              "summary": "当地时间11月8日，英伟达创始人兼CEO黄仁勋向员工发道歉信承认婚外情，董事会宣布由独立董事和外部律师启动独立调查。彭博社等外媒报道称其或被免去CEO职务，公司尚未指定接班人。11月9日英伟达股价开盘一度跌近9%、收跌4.27%，单日市值蒸发约1921亿美元。",
-              "link": "https://feng.ifeng.com/c/8xvaRXi6DA1",
+              "title": "黄仁勋发全员信承认婚外情，英伟达董事会启动独立调查",
+              "summary": "当地时间11月8日，英伟达创始人兼CEO黄仁勋在致员工信中承认对妻子不忠并致歉，表示愿意承担全部责任、接受批评。英伟达董事会已启动一项独立调查，黄仁勋表态将全力配合。目前董事会仍公开支持黄仁勋，发言人称其将继续担任CEO、不会中断履职。",
+              "link": "https://www.thepaper.cn/newsDetail_forward_34436634",
               "tags": [
                 "公司治理",
-                "股价波动"
+                "人事风波"
               ],
-              "source": "凤凰网",
+              "source": "澎湃新闻",
               "time": "当地时间11月8日"
-            },
-            {
-              "title": "英伟达发布 GR00T 2 机器人模型，可从人类示范中学习",
-              "summary": "11月9日，英伟达在机器人学习大会 CoRL 上公布 GR00T 2、训练框架 Isaac Lab 3.0 及两套工业操作开放评测。新模型基于 NVIDIA Cosmos，能从人类示范中学习精细操作并跨本体迁移技能，五次示范后平均成功率 95%。",
-              "link": "https://news.qq.com/rain/a/20261109A0ELJM00",
-              "tags": [
-                "具身智能",
-                "机器人模型"
-              ],
-              "source": "腾讯新闻",
-              "time": "11月9日"
-            },
-            {
-              "title": "英伟达宣布投资多家韩国 AI 创企，加码互连与物理 AI",
-              "summary": "11月9日，英伟达发布声明称，公司高管与韩国科学技术信息通信部副部长共同会见超 20 家韩国初创企业，涵盖基础模型、物理 AI、AI 基础设施及 AI 半导体等领域。英伟达宣布投资韩国 AI 互连技术创企 Point2，并计划进一步投资 Motif Technologies、RLWRLD 和 Upstage。",
-              "link": "https://www.tmtpost.com/nictation/8198440.html",
-              "tags": [
-                "投资",
-                "AI创企"
-              ],
-              "source": "钛媒体",
-              "time": "11月9日"
             }
           ]
         },
@@ -131,15 +63,15 @@
           "name": "Meta",
           "news": [
             {
-              "title": "Meta 推出轻量级模型 Muse Ember，跑分媲美 Claude Haiku",
-              "summary": "Meta 发布多模态小模型 Muse Ember，面向编程小步骤、工具调用、文档摘要和字段提取等重复任务。它支持 100 万 token 上下文，提示不超过 20 万 token 时输入 0.10 美元/百万 token，成本约为竞品三分之一，已在 Muse Code 和 Meta Model API 上线。",
-              "link": "https://www.ithome.com/1/024/604.htm",
+              "title": "Meta 首席战略官离职，转投 AI 推理初创 Fireworks 任 CFO",
+              "summary": "11月7日，据外媒报道，Meta 首席战略官戴夫·韦纳离职，转投 AI 推理初创公司 Fireworks 出任首席财务官。韦纳在 Meta 任职多年，负责公司战略事务，其离职引发外界对 Meta AI 战略调整的关注。",
+              "link": "https://news.qq.com/rain/a/20261107A0BQ8Y00",
               "tags": [
-                "小模型",
-                "多模态"
+                "人事变动",
+                "AI推理"
               ],
-              "source": "IT之家",
-              "time": "11月10日消息"
+              "source": "腾讯新闻",
+              "time": "11月7日消息"
             }
           ]
         }
@@ -149,46 +81,11 @@
       "vendors": [
         {
           "name": "阿里云",
-          "news": [
-            {
-              "title": "千问办公 2.0 发布，推出首个支持多人与 Agent 协作的 Team Agent",
-              "summary": "11月9日，千问办公发布 2.0 版本，推出行业首个支持多人与 Agent 协作的「协作」功能，并上线「人机共创」「资料空间」「自动任务」「三端互联」等核心能力，让 Agent 从服务个人走向服务团队和组织，已在客户端全量上线。",
-              "link": "https://www.qbitai.com/2026/11/508694.html",
-              "tags": [
-                "AI Agent",
-                "办公协作"
-              ],
-              "source": "量子位",
-              "time": "11月9日"
-            },
-            {
-              "title": "阿里云 Token Plan 个人版额度上调 74% 至 78%",
-              "summary": "11月9日，阿里云上调 Token Plan 个人版订阅额度，Lite、Essential、Standard 三档套餐月费不变，月度额度提升约 74% 至 78%，进一步降低个人开发者使用大模型的成本。",
-              "link": "https://news.qq.com/rain/a/20261109A0A4DE00",
-              "tags": [
-                "API额度",
-                "订阅优惠"
-              ],
-              "source": "腾讯新闻",
-              "time": "11月9日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "火山引擎",
-          "news": [
-            {
-              "title": "字节跳动发布 Seedream 5.5 图像模型，可直接生成透明背景",
-              "summary": "11月9日，字节跳动 Seed 团队发布图像模型 Seedream 5.5。新模型可直接生成带 Alpha 通道的图片，透明与半透明部分可保留，生成元素可直接用作独立设计素材。新版针对局部编辑专项训练，减少反复生成中的偏色，已在即梦、豆包、火山方舟上线。",
-              "link": "https://seed.bytedance.com/zh/seedream5_5",
-              "tags": [
-                "图像生成",
-                "模型发布"
-              ],
-              "source": "字节跳动",
-              "time": "11月9日"
-            }
-          ]
+          "news": []
         },
         {
           "name": "DeepSeek",
@@ -198,15 +95,26 @@
           "name": "腾讯",
           "news": [
             {
-              "title": "WorkBuddy 就折扣调整致歉，将返还 50% 积分差额",
-              "summary": "11月8日晚，腾讯旗下 AI 工具 WorkBuddy 就 DeepSeek-V4.1 Flash 折扣活动调整未及时公告致歉，并公布补偿方案：11月5日至8日使用过该模型的账号，积分消耗按原价 5 折结算，差额部分（总额的 50%）系统自动返还，预计 7 个工作日内到账。",
-              "link": "https://news.qq.com/rain/a/20261109A058IP00",
+              "title": "腾讯姚顺雨：AI 模型公司的护城河在产品层而非模型层",
+              "summary": "11月9日，据第一财经报道，在 2026 未来科学大奖的一场对话中，腾讯姚顺雨谈到 AI 公司护城河时表示，竞争壁垒更多存在于产品层而非模型层。他认为模型能力会逐渐趋同，真正的护城河在于产品体验与用户生态。",
+              "link": "https://original.ifeng.com/c/8xu1xEOyhBq",
               "tags": [
-                "补偿方案",
-                "折扣"
+                "护城河",
+                "行业观点"
+              ],
+              "source": "凤凰网",
+              "time": "11月9日"
+            },
+            {
+              "title": "腾讯元宝搜索上线独立网页端，支持 AI 问答与普通搜索",
+              "summary": "腾讯元宝搜索上线独立网页端，用户可直接通过浏览器访问，支持 AI 问答和普通搜索两种模式。此举将元宝搜索从元宝 App 中独立出来，进一步拓展其 AI 搜索入口。",
+              "link": "https://news.qq.com/rain/a/20261109A09PWO00",
+              "tags": [
+                "AI搜索",
+                "产品"
               ],
               "source": "腾讯新闻",
-              "time": "11月8日"
+              "time": "11月9日消息"
             }
           ]
         },
@@ -237,57 +145,41 @@
               "title": "苹果",
               "news": [
                 {
-                  "title": "苹果 iOS 27.3 代码曝光 Siri「个人记忆系统」",
-                  "summary": "代码研究人员在 iOS 27.3 测试版发现，苹果正开发一套 Siri「个人记忆系统」，包含「记忆图谱」和「记忆原子」组件，可整理用户人际关系、常去地点、日常习惯、健康状况等，并借助设备端 AI 模型或私有云计算提取信息。",
-                  "link": "https://cj.sina.com.cn/articles/view/1826017320/6cd6d02804001yzso",
+                  "title": "苹果新 CEO 特努斯施压软件团队：加快 AI 研发，不能只修补 Siri",
+                  "summary": "据彭博社记者古尔曼披露，苹果新任 CEO 特努斯在闭门会议上向软件团队发出严厉提醒，称苹果在 AI 上已远落后于竞争对手，必须加速推进路线图，超越「仅仅对 Siri 进行必要修补」的阶段。这是特努斯掌舵两个月来对 AI 战略最明确的一次施压。",
+                  "link": "https://www.ifanr.com/1688570",
                   "tags": [
                     "Siri",
-                    "个人记忆"
+                    "战略调整"
                   ],
-                  "source": "新浪财经",
+                  "source": "爱范儿",
                   "time": "11月9日消息"
                 },
                 {
-                  "title": "Apple 智能备案新增 iPad 和笔记本，国行覆盖范围扩大",
-                  "summary": "11月9日，网信上海发布公告，Apple 智能生成式人工智能服务新增苹果平板和笔记本电脑两类适用场景并完成备案，变更后适用范围包括苹果手机、平板和笔记本电脑。备案主体为苹果技术开发（上海）有限公司。",
-                  "link": "https://original.ifeng.com/c/8xviqDaxz11",
+                  "title": "古尔曼：苹果 Siri 负责人罗克韦尔考虑 2027 年卸任",
+                  "summary": "11月9日，据彭博社记者古尔曼报道，苹果 Siri 工程副总裁、AI 团队负责人罗克韦尔考虑在 2027 年卸任或离职。古尔曼称苹果 Siri AI 团队或迎来大调整，罗克韦尔的去留引发外界对苹果 AI 团队稳定性的关注。",
+                  "link": "https://original.ifeng.com/c/8xu1xEOyh30",
                   "tags": [
-                    "AI备案",
-                    "生成式AI"
+                    "人事变动",
+                    "Siri"
                   ],
                   "source": "凤凰网",
-                  "time": "11月9日"
+                  "time": "11月9日消息"
                 }
               ]
             },
             {
-              "title": "LG",
+              "title": "蚂蚁",
               "news": [
                 {
-                  "title": "LG 免费开放 K-EXAONE 2.5 模型 API，支持 512K 上下文",
-                  "summary": "11月9日，LG AI 研究院在 EXAONE API Platform 开放 K-EXAONE 2.5，开发者、初创公司、企业及研究机构可申请 API 密钥免费调用。该模型面向代码编写、网页检索和工作流自动化，SWE-Bench Pro 得分 59.2。",
-                  "link": "https://www.ithome.com/1/024/069.htm",
+                  "title": "蚂蚁集团 AI 助手灵光用户突破 2000 万，2.0 版本上线一周",
+                  "summary": "蚂蚁集团旗下 AI 助手灵光用户数量已突破 2000 万，2.0 版本上线一周已帮助用户管理超 116 万项事务。灵光主打任务执行能力，可帮用户处理订票、点餐等长链条事务。",
+                  "link": "https://www.ithome.com/1/024/010.htm",
                   "tags": [
-                    "开源模型",
-                    "免费API"
+                    "AI助手",
+                    "用户增长"
                   ],
                   "source": "IT之家",
-                  "time": "11月9日"
-                }
-              ]
-            },
-            {
-              "title": "软银",
-              "news": [
-                {
-                  "title": "美国 AI 数据中心反对声浪高涨，软银考虑转向其他国家",
-                  "summary": "11月9日，据彭博社报道，面对美国 AI 数据中心需求放缓及民主党中期选举大胜、反对声浪高涨，软银公司 CEO 宫川润一考虑转向其他国家寻找增长机会，重新评估其美国 NeoCloud 业务前景。",
-                  "link": "https://www.163.com/dy/article/LBAHBSJI0511B8LM.html",
-                  "tags": [
-                    "数据中心",
-                    "AI出海"
-                  ],
-                  "source": "网易",
                   "time": "11月9日消息"
                 }
               ]
@@ -296,24 +188,73 @@
         },
         {
           "name": "自动驾驶",
-          "cards": []
+          "cards": [
+            {
+              "title": "特斯拉",
+              "news": [
+                {
+                  "title": "特斯拉更新 AI 加速器路线图：SI6 算力达 HW4 的 80 倍",
+                  "summary": "11月8日，特斯拉公布更新后的 AI 加速器路线图，进一步揭示未来几年的芯片研发方向。其中 SI6 算力达 HW4 的 80 倍，Dojo D3 弃晶圆级改芯粒方案，并将面向太空部署。",
+                  "link": "https://news.qq.com/rain/a/20261108A06PHM00",
+                  "tags": [
+                    "智驾芯片",
+                    "路线图"
+                  ],
+                  "source": "腾讯新闻",
+                  "time": "11月8日消息"
+                }
+              ]
+            },
+            {
+              "title": "文远知行",
+              "news": [
+                {
+                  "title": "文远知行韩旭：希望四五年内 Robotaxi 从广州直达香港",
+                  "summary": "文远知行创始人兼 CEO 韩旭接受 CNBC 专访时表示，Robotaxi 规模化的条件已基本具备，期待四五年内实现从广州直达香港的无人驾驶出行。随着技术成熟和成本下降，Robotaxi 的商业化落地正在加速。",
+                  "link": "https://cj.sina.com.cn/articles/view/1826017320/6cd6d02804001ytmw",
+                  "tags": [
+                    "Robotaxi",
+                    "自动驾驶"
+                  ],
+                  "source": "新浪财经",
+                  "time": "11月7日消息"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "具身智能",
           "cards": [
             {
-              "title": "苹果",
+              "title": "亚马逊",
               "news": [
                 {
-                  "title": "苹果开源 HALO 人形机器人控制系统",
-                  "summary": "苹果研究团队在 arXiv 披露人形机器人自主控制系统 HALO 并开源代码，通过大规模仿真环境训练实现语义层零样本迁移，实机测试成功率 91%。该成果被视为补齐触觉感知短板、推进具身智能的重要开源工作。",
-                  "link": "https://www.airobotnews.com/posts/apple-halo-humanoid-autonomy/",
+                  "title": "亚马逊成立新团队专攻家用机器人，剑指「前所未有」新产品",
+                  "summary": "亚马逊成立新的家用机器人团队，正在开发一款被内部称为「世界首创」的机器人产品。该团队招聘涉及机械、软件、AI 等多个方向，标志着亚马逊进一步加码具身智能赛道。",
+                  "link": "https://www.ithome.com/1/024/012.htm",
                   "tags": [
-                    "具身智能",
-                    "开源"
+                    "家用机器人",
+                    "具身智能"
                   ],
-                  "source": "人工智能机器人技术网",
+                  "source": "IT之家",
                   "time": "11月9日消息"
+                }
+              ]
+            },
+            {
+              "title": "上纬新材",
+              "news": [
+                {
+                  "title": "上纬新材消费级机器人「启元 Q1/T1」累计下线 1 万台",
+                  "summary": "11月8日，上纬新材公告称，消费级具身智能机器人产品「启元Q1」和「启元T1」累计下线 1 万台。上纬新材以新材料业务起家，近年来切入消费级机器人赛道，其量产进度引发市场关注。",
+                  "link": "https://www.cls.cn/detail/2528251",
+                  "tags": [
+                    "消费机器人",
+                    "量产"
+                  ],
+                  "source": "财联社",
+                  "time": "11月8日消息"
                 }
               ]
             }
@@ -325,41 +266,40 @@
         },
         {
           "name": "投资资讯",
-          "cards": [
-            {
-              "title": "Sakana AI",
-              "news": [
-                {
-                  "title": "Sakana AI 计划最早 2027 年秋季 IPO，已聘请高盛",
-                  "summary": "据报道，日本 AI 公司 Sakana AI 准备进行首次公开募股，最早可能于 2027 年秋季在日本或美国上市，已聘请高盛担任 IPO 顾问，有望成为日本首家 GenAI 上市实验室。",
-                  "link": "https://www.cls.cn/detail/2529049",
-                  "tags": [
-                    "IPO",
-                    "日本AI"
-                  ],
-                  "source": "财联社",
-                  "time": "11月9日消息"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "瑞银CEO",
+              "title": "AI 冒充诈骗",
               "news": [
                 {
-                  "title": "瑞银 CEO：AI 股回调是市场修正过高预期",
-                  "summary": "11月9日，瑞银首席执行官埃尔莫蒂在悉尼表示，过去数周 AI 股票的明显回调，反映出投资者此前对行业的预期过高。他仍看好 AI 带来的经济收益，但认为市场高估了这些收益兑现的速度，美国中期选举结果等可能拖慢行业进展。",
-                  "link": "https://www.cls.cn/detail/2529033",
+                  "title": "三名男子用 AI 冒充企业高管行骗，涉案金额超 1 亿美元",
+                  "summary": "三名男子涉嫌利用 AI 技术冒充企业高管和律师实施诈骗，涉案金额超 1 亿美元。三人利用 AI 生成语音和视频伪造身份，向企业员工发出转账指令，引发对 AI 深度伪造诈骗风险的关注。",
+                  "link": "https://finance.sina.com.cn/tech/digi/2026-11-08/doc-inixzhva4085957.shtml",
                   "tags": [
-                    "行业观点",
-                    "AI股"
+                    "AI诈骗",
+                    "深度伪造"
                   ],
-                  "source": "财联社",
-                  "time": "11月9日"
+                  "source": "新浪财经",
+                  "time": "11月8日消息"
+                }
+              ]
+            },
+            {
+              "title": "Suno",
+              "news": [
+                {
+                  "title": "猫王、埃米纳姆版权方起诉 Suno，AI 音乐再陷版权纠纷",
+                  "summary": "AI 音乐生成平台 Suno 再次因版权侵权被告上法庭，原告为猫王音乐版权实体及埃米纳姆歌曲出版公司 Eight Mile Style，指控 Suno 未经授权使用知名艺人形象与作品生成歌曲。Suno 回应称已引入第三方工具筛查滥用行为。",
+                  "link": "https://www.sohu.com/a/1099110465_122094388",
+                  "tags": [
+                    "AI音乐",
+                    "版权"
+                  ],
+                  "source": "搜狐",
+                  "time": "11月9日消息"
                 }
               ]
             }
