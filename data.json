@@ -61,19 +61,7 @@
         },
         {
           "name": "Meta",
-          "news": [
-            {
-              "title": "Meta 首席战略官离职，转投 AI 推理初创 Fireworks 任 CFO",
-              "summary": "11月7日，据外媒报道，Meta 首席战略官戴夫·韦纳离职，转投 AI 推理初创公司 Fireworks 出任首席财务官。韦纳在 Meta 任职多年，负责公司战略事务，其离职引发外界对 Meta AI 战略调整的关注。",
-              "link": "https://news.qq.com/rain/a/20261107A0BQ8Y00",
-              "tags": [
-                "人事变动",
-                "AI推理"
-              ],
-              "source": "腾讯新闻",
-              "time": "11月7日消息"
-            }
-          ]
+          "news": []
         }
       ]
     },
