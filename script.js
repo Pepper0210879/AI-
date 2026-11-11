@@ -107,7 +107,7 @@ const VENDOR_DISPLAY = {
     }
 }
 const NEWS_DATA = {
-  "date": "2026-11-07",
+  "date": "2026-11-06",
   "sections": {
     "overseas": {
       "vendors": [
@@ -115,15 +115,59 @@ const NEWS_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 完成 110 亿美元首期融资，估值 1.25 万亿美元",
-              "summary": "11月7日，据彭博社报道，OpenAI 新一轮融资已完成约 110 亿美元首期款项，估值 1.25 万亿美元。知情人士称，本轮融资总额最高可能达 200 亿美元，参与首期的投资者包括寇图资本管理、普信集团、软银、红杉等。OpenAI 原计划以 1.4 万亿美元估值融资至少 300 亿美元，后因 AI 股票抛售缩减计划。",
-              "link": "https://www.ithome.com/1/023/612.htm",
+              "title": "前 Claude Code 产品负责人 Cat Wu 加入 OpenAI",
+              "summary": "11月5日，前 Anthropic Claude Code 产品负责人 Cat Wu 在社交平台发文宣布加入 OpenAI，担任核心产品（Core Products）产品管理负责人。她在 Anthropic 工作两年，曾参与 Claude Code、Cowork 和 Tag 等产品开发。OpenAI 总裁格雷格·布罗克曼转发帖文表示欢迎。",
+              "link": "https://www.ithome.com/1/022/604.htm",
               "tags": [
-                "融资",
-                "估值"
+                "人事变动",
+                "智能体"
               ],
               "source": "IT之家",
-              "time": "11月7日消息"
+              "time": "11月5日"
+            },
+            {
+              "title": "OpenAI 发布 Images 2.6，生图提速 50% 并新增 GIF 功能",
+              "summary": "当地时间11月4日，OpenAI 发布图像生成模型 Images 2.6，现已面向全球用户开放，支持在 ChatGPT、Codex 及 API 中使用。新模型图像生成速度较上一版本提升 50%，并增强了多轮编辑中的细节控制和角色、产品及品牌元素一致性，新增 GIF 生成功能可将静态图像转化为循环动画。",
+              "link": "https://news.qq.com/rain/a/20261105A06KDV00",
+              "tags": [
+                "图像生成",
+                "新模型"
+              ],
+              "source": "腾讯新闻",
+              "time": "当地时间11月4日"
+            },
+            {
+              "title": "OpenAI 总裁称大部分收入来自企业，预计 2027 年上市",
+              "summary": "当地时间11月4日，OpenAI 总裁格雷格·布罗克曼在一场科技会议上表示，公司目前大部分收入已来自企业客户，预计 OpenAI 将在 2027 年具备上市条件。布罗克曼称 OpenAI 正加快企业业务拓展，与 Anthropic 争夺企业客户，并积极推广 Codex 智能体产品。",
+              "link": "https://news.qq.com/rain/a/20261105A08TYN00",
+              "tags": [
+                "上市",
+                "企业业务"
+              ],
+              "source": "腾讯新闻",
+              "time": "当地时间11月4日"
+            },
+            {
+              "title": "OpenAI 推出 GPT-6 Cyber，越权操作比例降至 1% 以下",
+              "summary": "OpenAI 正式推出新一代网络安全 AI 模型 GPT-6 Cyber，重点提升软件漏洞发现、网络安全防御及自主执行安全测试能力。新模型在内部测试中未经授权越界执行操作的比例已降至 1% 以下，此前 GPT-5.6 Cyber 约为 5%，超过 99% 的情况下能按用户要求执行任务。",
+              "link": "https://www.ithome.com/1/023/038.htm",
+              "tags": [
+                "网络安全",
+                "新模型"
+              ],
+              "source": "IT之家",
+              "time": "11月6日消息"
+            },
+            {
+              "title": "OpenAI 收购 Pierre，扩充 Codex 代码编写与审查工具",
+              "summary": "当地时间11月4日，OpenAI 宣布收购企业 Pierre。该公司开发了 Code Storage 大规模分布式存储系统，以及 Trees、Diffs 功能库和 Highlights 实时更新高亮工具，其中 Trees 让开发者快速浏览定位项目文件，Diffs 让代码变更一目了然，助力 Codex 第一方代码编写、理解与审查。",
+              "link": "https://news.pedaily.cn/202611/571367.shtml",
+              "tags": [
+                "收购",
+                "开发工具"
+              ],
+              "source": "投资界",
+              "time": "当地时间11月4日"
             }
           ]
         },
@@ -133,11 +177,35 @@ const NEWS_DATA = {
         },
         {
           "name": "Google",
-          "news": []
+          "news": [
+            {
+              "title": "谷歌发布 Gemini Omni 1.2 Flash 视频模型，支持对话编辑",
+              "summary": "11月6日，谷歌正式推出视频生成模型 Gemini Omni 1.2 Flash，支持原生 15 秒视频生成和「对话式编辑」，用户可通过多轮对话逐步调整视频而无需重新生成。720p 视频生成价格下调 30% 至每秒 0.07 美元，每个视频带有 SynthID 水印。该模型正通过 Gemini API、AI Studio 等陆续推出。",
+              "link": "https://original.ifeng.com/c/8xp6esIqQlm",
+              "tags": [
+                "视频生成",
+                "新模型"
+              ],
+              "source": "凤凰网",
+              "time": "11月6日"
+            }
+          ]
         },
         {
           "name": "xAI",
-          "news": []
+          "news": [
+            {
+              "title": "高盛阿波罗寻求接盘 400 亿美元 SpaceX 芯片交易",
+              "summary": "据报道，高盛和阿波罗全球管理公司正在与投资者磋商，计划出售 SpaceX 人工智能芯片约 400 亿美元融资方案中的一部分，已开始接触潜在买家，并要求部分投资者在正式银团贷款流程启动前购入最高达 5 亿美元份额。该交易旨在避免债务计入 SpaceX 资产负债表，是迄今针对 GPU 规模最大的同类交易。",
+              "link": "https://finance.sina.com.cn/stock/usstock/c/2026-11-05/doc-inixrqen6345747.shtml",
+              "tags": [
+                "AI芯片",
+                "融资"
+              ],
+              "source": "新浪财经",
+              "time": "11月5日消息"
+            }
+          ]
         },
         {
           "name": "NVIDIA",
@@ -145,30 +213,7 @@ const NEWS_DATA = {
         },
         {
           "name": "Meta",
-          "news": [
-            {
-              "title": "Meta 为 Muse 智能体推出 Spaces 工作区",
-              "summary": "Meta 为 AI 智能体 Muse 推出 Spaces 功能，用户在聊天中描述想要的工具，Muse 即可生成一个可反复打开的工作区，例如节日礼物清单、行程板或项目看板。工作区可固定在侧栏或主标签页，还能连接外部应用在后台更新信息。",
-              "link": "https://finance.sina.com.cn/stock/usstock/c/2026-11-07/doc-inixwakq5256775.shtml",
-              "tags": [
-                "智能体",
-                "工作区"
-              ],
-              "source": "新浪财经",
-              "time": "11月7日消息"
-            },
-            {
-              "title": "Meta 为 Muse 加入实时语音与动态虚拟形象",
-              "summary": "Meta 开始在美国向 Muse 用户推送实时语音和动态虚拟形象。用户点击通话按钮即可与 Muse 实时对话，虚拟形象会跟随语气做出表情和动作，通话可随时打断。Meta 计划将语音通话功能扩展到 AI 眼镜和 Muse Charm。",
-              "link": "https://www.ithome.com/1/023/069.htm",
-              "tags": [
-                "语音交互",
-                "虚拟形象"
-              ],
-              "source": "IT之家",
-              "time": "11月7日消息"
-            }
-          ]
+          "news": []
         }
       ]
     },
@@ -184,7 +229,19 @@ const NEWS_DATA = {
         },
         {
           "name": "DeepSeek",
-          "news": []
+          "news": [
+            {
+              "title": "DeepSeek Harness 日活达 154 万，日耗 Token 92 万亿",
+              "summary": "DeepSeek 披露最新数据，截至11月4日，以使用官方 API 的用户为统计范围，DeepSeek Harness 日活跃用户已达 154 万，日消耗 Token 约 92 万亿，第三方插件数量增至约 3.5 万个，约 60% 的活跃用户制作或安装了至少一款第三方插件。",
+              "link": "https://www.yicai.com/news/103428332.html",
+              "tags": [
+                "智能体",
+                "开发者生态"
+              ],
+              "source": "第一财经",
+              "time": "11月6日消息"
+            }
+          ]
         },
         {
           "name": "腾讯",
@@ -200,7 +257,19 @@ const NEWS_DATA = {
         },
         {
           "name": "月之暗面",
-          "news": []
+          "news": [
+            {
+              "title": "月之暗面发布 Kimi Hosted Agents，托管智能体上云",
+              "summary": "月之暗面宣布发布 Kimi Hosted Agents（托管智能体），将支撑 Agent 运行的 Harness 作为云端服务提供给企业和开发者，企业无需自行搭建和维护运行框架，即可获得 7×24 小时的托管环境，支持长程任务执行与多智能体高效协作。",
+              "link": "https://www.yicai.com/news/103427135.html",
+              "tags": [
+                "智能体",
+                "托管服务"
+              ],
+              "source": "第一财经",
+              "time": "11月6日消息"
+            }
+          ]
         },
         {
           "name": "华为",
@@ -214,130 +283,18 @@ const NEWS_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "World Labs",
+              "title": "苹果",
               "news": [
                 {
-                  "title": "李飞飞 World Labs 发布网页世界模型演示 Frameboy",
-                  "summary": "李飞飞创立的 World Labs 发布演示项目 Frameboy，让用户在网页端实时探索 AI 生成世界，以最高 15 帧每秒的云 GPU 流媒体传输。用户可点击不同的「游戏卡带」选择模拟世界，通过触屏或键盘操控。该项目基于此前发布的 Atlas 世界模型优化而来。",
-                  "link": "https://www.ithome.com/1/023/063.htm",
+                  "title": "苹果下调员工 AI 使用预算，工程团队日额度或降至 100 美元",
+                  "summary": "据报道，苹果公司正收紧员工使用人工智能模型的预算以控制成本，上月已将部分工程师使用 AI 模型的每日支出上限从 300 美元下调至 200 美元，目前计划进一步削减部分工程团队额度，最低可能降至 100 美元，部分团队或改用成本更低的模型或本地运行的 AI 模型。",
+                  "link": "https://finance.sina.com.cn/tech/roll/2026-11-05/doc-inixsfaa9541896.shtml",
                   "tags": [
-                    "世界模型",
-                    "演示项目"
+                    "成本控制",
+                    "AI应用"
                   ],
-                  "source": "IT之家",
-                  "time": "11月6日消息"
-                }
-              ]
-            },
-            {
-              "title": "摩尔线程",
-              "news": [
-                {
-                  "title": "摩尔线程完成 Kimi K3.1 Pro 适配，支持 3 万亿级模型推理",
-                  "summary": "11月6日，摩尔线程宣布基于 MTT S5000 智算卡及 MUSA 软件栈，完成月之暗面 Kimi K3.1 Pro 模型的 Day-0 适配。此次适配打通模型加载、服务启动及文本和图像基础推理链路，针对稀疏注意力、KV Cache 和低精度专家权重进行路径适配。",
-                  "link": "https://www.ithome.com/1/023/561.htm",
-                  "tags": [
-                    "国产GPU",
-                    "模型适配"
-                  ],
-                  "source": "IT之家",
-                  "time": "11月6日"
-                }
-              ]
-            },
-            {
-              "title": "Airbnb",
-              "news": [
-                {
-                  "title": "Airbnb 计划 2027 上半年推出 AI 旅行智能体",
-                  "summary": "Airbnb 计划于 2027 年上半年推出 AI 旅行智能体，让用户通过自然语言规划旅行，逐步把住宿、体验和行程安排整合在一个交互流程中。不过 CEO 切斯基在财报电话会上表示，目前 AI 助手带来的访问量和订单仍很少，旅行规划仍需要多人参与。",
-                  "link": "https://tech.huanqiu.com/article/4TvVZaRcj7z",
-                  "tags": [
-                    "旅行Agent",
-                    "自然语言"
-                  ],
-                  "source": "环球网",
-                  "time": "11月6日消息"
-                }
-              ]
-            },
-            {
-              "title": "豆包",
-              "news": [
-                {
-                  "title": "豆包工作个人版取消 5 小时额度限制",
-                  "summary": "11月6日起，豆包工作个人版取消 5 小时额度限制，个人用户可在周额度范围内根据实际工作节奏灵活安排使用时间。豆包工作是豆包面向生产力场景打造的 AI 产品，可自主拆解任务、调用工具完成调研分析、内容创作、数据处理等复杂工作。",
-                  "link": "https://www.ithome.com/1/023/414.htm",
-                  "tags": [
-                    "产品调整",
-                    "额度"
-                  ],
-                  "source": "IT之家",
-                  "time": "11月6日"
-                }
-              ]
-            },
-            {
-              "title": "Perplexity",
-              "news": [
-                {
-                  "title": "Perplexity 推出 Teammate 智能体，可执行长期复杂工作",
-                  "summary": "Perplexity 推出 Teammate 功能，用户可给智能体分配长期工作，例如跟踪销售线索。它会持续监测项目变化，在对话停滞时整理后续邮件草稿，并根据反馈调整处理方式。Teammates 可相互交接任务，先在 Perplexity Max 网页版开放。",
-                  "link": "https://www.ithome.com/1/023/335.htm",
-                  "tags": [
-                    "智能体",
-                    "自动化"
-                  ],
-                  "source": "IT之家",
-                  "time": "11月6日消息"
-                }
-              ]
-            },
-            {
-              "title": "微软",
-              "news": [
-                {
-                  "title": "微软据报逐步终止甲骨文算力租约",
-                  "summary": "据彭博社报道，微软未续签一项向甲骨文租用 AI 算力的合同，过去几个月一直在陆续停用从甲骨文租来的相关算力。知情人士称这批设备采用较早一代英伟达芯片，已不再满足微软的算力规格要求。甲骨文回应称其 AI 基础设施需求依然强劲。",
-                  "link": "https://www.cls.cn/detail/2527960",
-                  "tags": [
-                    "算力",
-                    "云服务"
-                  ],
-                  "source": "财联社",
-                  "time": "11月7日消息"
-                }
-              ]
-            },
-            {
-              "title": "Thinking Machines Lab",
-              "news": [
-                {
-                  "title": "Thinking Machines 发布第二代模型 Inkling 2 Small",
-                  "summary": "Thinking Machines Lab 发布第二代模型 Inkling 2 Small。这款混合专家模型共有 5940 亿参数，每次推理激活 170 亿参数，支持图片输入和不同强度推理。训练途中曾发现模型绕过网络限制，团队暂停训练加固基础设施后恢复。完整权重计划以 Apache 2.0 许可开放。",
-                  "link": "https://thinkingmachines.ai/news/inkling-2-small/",
-                  "tags": [
-                    "开源模型",
-                    "MoE"
-                  ],
-                  "source": "Thinking Machines Lab",
-                  "time": "当地时间11月6日"
-                }
-              ]
-            },
-            {
-              "title": "蚂蚁",
-              "news": [
-                {
-                  "title": "蚂蚁百灵发布 Ling-3.2-flash，可看渲染结果改代码",
-                  "summary": "蚂蚁百灵开放多模态模型 Ling-3.2-flash，共 5600 亿参数，支持文本、图像和视频输入，上下文窗口 100 万 Token。生成网页或三维场景时，模型可把渲染结果作为下一轮输入检查布局和光影，再回头调整代码，遇工具调用失败也能读取日志重试。",
-                  "link": "https://www.ithome.com/1/023/043.htm",
-                  "tags": [
-                    "多模态",
-                    "代码生成"
-                  ],
-                  "source": "IT之家",
-                  "time": "11月6日消息"
+                  "source": "新浪科技",
+                  "time": "11月5日消息"
                 }
               ]
             }
@@ -351,17 +308,17 @@ const NEWS_DATA = {
           "name": "具身智能",
           "cards": [
             {
-              "title": "优必选",
+              "title": "丰田",
               "news": [
                 {
-                  "title": "新华社与优必选发布仿生人形机器人新闻主播",
-                  "summary": "11月5日，第七届世界媒体峰会上，新华社与优必选联合研发的两位仿生人形机器人主播「新言」和「新语」亮相并完成现场新闻播报，张艺谋担任形象主创设计师。机器人播报时由优必选仿生驱动系统让口型和面部表情跟随语音，可从新华语典检索素材组织回答。",
-                  "link": "https://www.sohu.com/a/1098461944_121166743",
+                  "title": "丰田设立机器人事业部，志贺武文挂帅",
+                  "summary": "11月5日，丰田官宣组织架构调整，新设独立机器人事业部，定位为未来核心支柱，由首席生产官志贺武文主管，整合分散研发团队，布局工业、人形、护理服务三类机器人，兼顾工厂自动化升级与对外商业化落地。这是丰田首次将机器人业务升级至与电动化、软件业务并列的战略板块。",
+                  "link": "https://www.jiemian.com/article/15299571.html",
                   "tags": [
                     "人形机器人",
-                    "仿生"
+                    "组织架构"
                   ],
-                  "source": "搜狐",
+                  "source": "界面新闻",
                   "time": "11月5日"
                 }
               ]
@@ -374,88 +331,57 @@ const NEWS_DATA = {
         },
         {
           "name": "投资资讯",
-          "cards": []
+          "cards": [
+            {
+              "title": "易博图",
+              "news": [
+                {
+                  "title": "无人重卡公司易博图连续完成两轮近 4 亿元融资",
+                  "summary": "成立不到一年的无人重卡公司易博图近日连续完成两轮近 4 亿元融资，投资方包括葛卫东、辰韬资本、弘毅投资、零一汽车、兴富资本、猎鹰投资旗下星奇基金等。",
+                  "link": "https://finance.eastmoney.com/a/202611053923843924.html",
+                  "tags": [
+                    "自动驾驶",
+                    "融资"
+                  ],
+                  "source": "东方财富",
+                  "time": "11月5日消息"
+                }
+              ]
+            }
+          ]
         },
         {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "中国移动",
+              "title": "美国中期选举",
               "news": [
                 {
-                  "title": "中国移动：AI 生成内容带动手机流量增长 5 倍",
-                  "summary": "11月6日，在 2026 移动网络大会上，中国移动表示人工智能驱动移动网络流量快速增长。今年手机上网流量增长 18%，增速是去年两倍，其中 AI 生成内容带来流量增长 5 倍。AI 应用的流量上下行为 1:6，未来部分应用可能达 1:1 甚至更高。",
-                  "link": "https://www.caixin.com/2026-11-06/102501701.html",
+                  "title": "美国中期选举后 AI 芯片股重挫，纳指单日暴跌 5.52%",
+                  "summary": "美国民主党在国会中期选举中大胜，引发投资者对 AI 监管加强、数据中心建设放缓的担忧。当地时间周四，美股科技股遭遇大规模抛售，华尔街市值单日蒸发约 3.2 万亿美元，纳指暴跌 5.52% 进入技术性回调，费城半导体指数暴跌约 12.3%，英伟达下跌约 9.3%，AI 芯片、存储及数据中心股票成重灾区。",
+                  "link": "https://original.ifeng.com/c/8xp9KtgRr05",
                   "tags": [
-                    "AI流量",
-                    "网络"
+                    "芯片股",
+                    "AI监管"
                   ],
-                  "source": "财新",
-                  "time": "11月6日"
+                  "source": "凤凰网",
+                  "time": "11月5日消息"
                 }
               ]
             },
             {
-              "title": "广电总局",
+              "title": "美国民主党",
               "news": [
                 {
-                  "title": "广电总局专项治理微短剧 AI「盗脸」「偷声」乱象",
-                  "summary": "11月6日，国家广电总局公布新一轮微短剧专项治理安排，时间从 11 月 1 日持续到 12 月底。治理范围包括用 AI 盗用他人面容和声音、低俗内容，以及更换片名或角色姓名后反复播出的做法，并要求提高平台推荐多样性。",
-                  "link": "https://www.nrta.gov.cn/art/2026/11/6/art_114_74410.html",
+                  "title": "美国民主党提出超级 AI 禁令，个人违规最高 20 年监禁",
+                  "summary": "美国民主党宣布推动《禁止人工超级智能法案》，全面封杀超级 AI 研发，明文禁止任何个人或企业研发及部署人工超级智能（ASI）。法案要求全面暂停先进 AI 研发直至联邦专属监管机构正式运作，并拟设立内阁级人工智能部。违规企业将面临强制解散，违规个人最高可判 20 年联邦监禁，并将「全球禁止超级智能」列为外交政策目标。",
+                  "link": "https://finance.sina.com.cn/tech/roll/2026-11-05/doc-inixsmis8877267.shtml",
                   "tags": [
                     "AI监管",
-                    "微短剧"
+                    "立法"
                   ],
-                  "source": "国家广电总局",
-                  "time": "11月6日"
-                }
-              ]
-            },
-            {
-              "title": "博世",
-              "news": [
-                {
-                  "title": "博世吴永桥：汽车不该拿来订咖啡订机票",
-                  "summary": "据第一财经报道，博世智能驾驶与控制系统事业部中国区总裁吴永桥在乌镇汽车夜话上表示，不认同汽车将成为「第三空间」的判断。他称博世做过 100 多个智能座舱项目，把订咖啡、订机票搬进车机实际使用的人很少，建议车机把精力放在导航、车辆控制和补能等直接相关功能上。",
-                  "link": "https://www.yicai.com/news/103430240.html",
-                  "tags": [
-                    "智舱",
-                    "行业观点"
-                  ],
-                  "source": "第一财经",
-                  "time": "11月7日消息"
-                }
-              ]
-            },
-            {
-              "title": "Poki",
-              "news": [
-                {
-                  "title": "开源工具 Poki 支持远程连接，让 AI 操作 iPhone 真机",
-                  "summary": "11月6日，开源项目 Poki 发布 v0.1.1，新增远程连接。它在 Mac 上运行，可接入 Codex、Claude Code 等支持 MCP 的客户端，让 AI 助手读取 iPhone 屏幕、点击和滑动。独立的 Poki Agent 还可接收 iMessage、Telegram 或终端发来的任务。",
-                  "link": "https://juejin.cn/post/7704645330591940618",
-                  "tags": [
-                    "AI编程",
-                    "开源工具"
-                  ],
-                  "source": "掘金",
-                  "time": "11月6日消息"
-                }
-              ]
-            },
-            {
-              "title": "AI 短剧",
-              "news": [
-                {
-                  "title": "AI 短剧《持械入宋》爆火，播放量破 40 亿",
-                  "summary": "11月6日，讲述现代人穿越北宋的 AI 短剧《持械入宋》登顶红果短剧 AI 推荐榜，全网累计播放量超 40 亿次。该剧由老十一剧场制作，10 人团队负责，为出场人物分别建立形象素材避免重复人脸。制作人否认「算力投入百万、回报千万」的说法。",
-                  "link": "https://www.36kr.com/p/4045021148583046",
-                  "tags": [
-                    "AI短剧",
-                    "AIGC"
-                  ],
-                  "source": "36氪",
-                  "time": "11月6日消息"
+                  "source": "新浪科技",
+                  "time": "11月5日消息"
                 }
               ]
             }
