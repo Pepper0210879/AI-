@@ -119049,6 +119049,711 @@ window.__SEED_CONFIRMED = {
         ]
       }
     }
+  },
+  "2026-11-11": {
+    "date": "2026-11-11",
+    "sections": {
+      "overseas": {
+        "vendors": [
+          {
+            "name": "OpenAI",
+            "news": [
+              {
+                "title": "OpenAI 收购旅行智能体公司 Odessia",
+                "summary": "11月11日消息，Odessia 创始人弗朗西斯·戴维森宣布，OpenAI 已收购 AI 旅行智能体公司 Odessia，他本人也已加入 OpenAI，帮助探索旅游业务方向。Odessia 成立仅一年便获红杉资本领投的 600 万美元种子前融资，约 5 个月前推出 AI 旅游智能体服务，帮助用户规划数百万美元的旅行行程。OpenAI 尚未公布旅游领域的新产品计划。",
+                "link": "https://news.qq.com/rain/a/20261111A03G8900",
+                "tags": [
+                  "收购",
+                  "旅行智能体"
+                ],
+                "source": "腾讯新闻",
+                "time": "11月11日消息"
+              },
+              {
+                "title": "OpenAI 推出 Businesses in ChatGPT，商家可上线客服智能体",
+                "summary": "11月11日消息，OpenAI 推出 Businesses in ChatGPT 测试版，允许商家通过 Business Hub 认领并验证企业身份，更新商家资料、商品价格和库存信息。认领后，美国合资格电商和在线服务企业可创建、测试并上线 Business Agent，当商家出现在 ChatGPT 回答中时，用户可进入其资料页继续咨询产品和服务。OpenAI 表示不会向商家分享用户的对话内容。",
+                "link": "https://tech.ifeng.com/c/8xxRCkc2d5y",
+                "tags": [
+                  "商业功能",
+                  "智能体"
+                ],
+                "source": "凤凰网",
+                "time": "11月11日消息"
+              }
+            ]
+          },
+          {
+            "name": "Anthropic",
+            "news": [
+              {
+                "title": "Anthropic 启动 IPO 路演，估值最高 1.4 万亿美元",
+                "summary": "11月10日，Anthropic 正式启动首次公开募股路演，计划发行 8.25 亿股 A 类普通股，发行价区间每股 70 至 78 美元，基础发行规模最高约 643.5 亿美元，按上限定价完全稀释估值接近 1.4 万亿美元。谷歌、英伟达、AMD、博通、美光、微软及台积电伙伴公司已同意通过私募方式合计认购 260 亿美元无投票权普通股，其中谷歌与英伟达各出资 100 亿美元领投。",
+                "link": "https://tech.ifeng.com/c/8xwB8ugsWDI",
+                "tags": [
+                  "IPO",
+                  "估值"
+                ],
+                "source": "凤凰网",
+                "time": "11月10日"
+              },
+              {
+                "title": "Claude 推出白板与表格，升级 AI 办公套件",
+                "summary": "11月11日消息，Anthropic 推出 Claude Whiteboards（白板）、Claude Sheets（表格）和 Claude Data（原 Dashboards）三项产品，把 AI 助手从聊天问答推向团队协作工作台。用户可在白板上梳理计划、在表格中搭建追踪器，并把业务数据变成可共享的仪表盘。三项产品面向所有付费计划，支持网页、桌面和移动端。",
+                "link": "https://www.ithome.com/1/025/204.htm",
+                "tags": [
+                  "办公套件",
+                  "团队协作"
+                ],
+                "source": "IT之家",
+                "time": "11月11日消息"
+              }
+            ]
+          },
+          {
+            "name": "Google",
+            "news": [
+              {
+                "title": "谷歌正式开放最强推理模型 Gemini 4 Carbon",
+                "summary": "当地时间11月10日，谷歌宣布正式开放 Gemini 4 Carbon 模型，面向开发者、企业、科研人员和消费者提供服务。该模型是谷歌目前能力最强的推理模型，重点面向复杂软件工程、多步骤智能体任务、科学研究和网络安全等场景。此前该模型通过 Fairwind 计划向部分网络安全防御人员开放，此次扩大使用范围，已在 Gemini API 和 Google AI Studio 向付费开发者开放。",
+                "link": "https://www.ifanr.com/1688883",
+                "tags": [
+                  "大模型",
+                  "推理"
+                ],
+                "source": "爱范儿",
+                "time": "当地时间11月10日"
+              },
+              {
+                "title": "谷歌发布 Gemini Robotics 2.5，机器人在奔驰产线上岗",
+                "summary": "11月10日消息，谷歌推出迄今能力最强的视觉-语言-动作机器人模型 Gemini Robotics 2.5，大幅提升机器人可学习的技能广度与速度。评估显示，该模型在任务精度、鲁棒性与速度上均有显著提升，按任务类型成功率高出 30% 至 100%。谷歌与 Apptronik、奔驰合作，在匈牙利和德国的在用汽车生产线上部署 Apollo 2 人形机器人，自主完成汽车物料拣配工作。",
+                "link": "https://original.ifeng.com/c/8xxR3hXbEiE",
+                "tags": [
+                  "机器人",
+                  "VLA模型"
+                ],
+                "source": "凤凰网",
+                "time": "11月10日消息"
+              },
+              {
+                "title": "谷歌宣布 Pathways 在云端正式全面开放",
+                "summary": "11月9日消息，谷歌宣布 Pathways 已在 Google Cloud Platform 正式全面开放。Pathways 是谷歌自主研发的大规模分布式机器学习运行系统，曾用于训练 Gemini 等大型模型，目前向谷歌云客户开放，助力企业在云端训练和部署大规模 AI 模型。",
+                "link": "https://www.cls.cn/detail/2529427",
+                "tags": [
+                  "云服务",
+                  "机器学习"
+                ],
+                "source": "财联社",
+                "time": "11月9日消息"
+              }
+            ]
+          },
+          {
+            "name": "xAI",
+            "news": []
+          },
+          {
+            "name": "NVIDIA",
+            "news": [
+              {
+                "title": "英伟达及黄仁勋遭股东集体诉讼，两日市值蒸发 2.85 万亿",
+                "summary": "当地时间11月9日，美股收盘五分钟后，英伟达及黄仁勋遭股东集体诉讼，被指控涉嫌欺诈股东。受相关事件持续发酵影响，公司股价周二继续下跌超 5%，本周前两天市值累计蒸发超 4200 亿美元、约合 2.85 万亿元。分析师认为，63 岁的黄仁勋是英伟达核心支柱，公司目前没有成熟的接班计划，一旦其离任将面临大规模领导层更替。",
+                "link": "https://www.cls.cn/detail/2529873",
+                "tags": [
+                  "集体诉讼",
+                  "市值蒸发"
+                ],
+                "source": "财联社",
+                "time": "当地时间11月9日"
+              },
+              {
+                "title": "英伟达聘请前联邦检察官，独立调查黄仁勋相关事件",
+                "summary": "11月11日消息，英伟达发布公告，宣布聘请美国前联邦检察官金正贤（Joon H. Kim）及其所在律所，开展一项全面、独立的调查。此前英伟达董事会表示，鉴于近期有关黄仁勋可能成为外国情报机构目标的报道，决定启动独立调查，并由独立董事组成的委员会监督。黄仁勋支持此次调查并承诺配合，董事会表示对其及领导团队保持信心。",
+                "link": "https://tech.ifeng.com/c/8xugZ5rMQHS",
+                "tags": [
+                  "公司治理",
+                  "独立调查"
+                ],
+                "source": "凤凰网科技",
+                "time": "11月11日消息"
+              }
+            ]
+          },
+          {
+            "name": "Meta",
+            "news": [
+              {
+                "title": "Meta 组建销售团队，拓展 AI 企业客户市场",
+                "summary": "11月9日消息，据报道，Meta Platforms 正采取进一步措施推动 AI 产品面向企业市场销售。公司已开始组建销售组织，计划向中小型企业销售 AI 产品，并与咨询公司及系统集成商建立合作关系，以争取大型企业客户。这标志着 Meta 在消费级 AI 之外，加快布局企业级 AI 商业化。",
+                "link": "https://www.cls.cn/detail/2529462",
+                "tags": [
+                  "企业市场",
+                  "商业化"
+                ],
+                "source": "财联社",
+                "time": "11月9日消息"
+              }
+            ]
+          }
+        ]
+      },
+      "domestic": {
+        "vendors": [
+          {
+            "name": "阿里云",
+            "news": [
+              {
+                "title": "阿里拟分拆平头哥赴港独立上市",
+                "summary": "11月10日晚，阿里巴巴集团发布公告称，已向香港联交所交表，申请旗下子公司平头哥独立上市。平头哥已于 2026 年 9 月 11 日以保密形式向港交所递交上市申请，拟通过全球发售 H 股在港交所主板上市。分拆完成后，平头哥仍将为阿里巴巴子公司。截至 2026 年 4 月，平头哥真武系列 AI 芯片累计出货量达 56 万片。",
+                "link": "https://finance.ifeng.com/c/8xwhSNryqWT",
+                "tags": [
+                  "芯片",
+                  "分拆上市"
+                ],
+                "source": "凤凰网",
+                "time": "11月10日"
+              }
+            ]
+          },
+          {
+            "name": "火山引擎",
+            "news": []
+          },
+          {
+            "name": "DeepSeek",
+            "news": []
+          },
+          {
+            "name": "腾讯",
+            "news": []
+          },
+          {
+            "name": "小米",
+            "news": []
+          },
+          {
+            "name": "智谱AI",
+            "news": []
+          },
+          {
+            "name": "月之暗面",
+            "news": []
+          },
+          {
+            "name": "华为",
+            "news": []
+          }
+        ]
+      },
+      "other": {
+        "categories": [
+          {
+            "name": "其他厂商",
+            "cards": [
+              {
+                "title": "MiniMax",
+                "news": [
+                  {
+                    "title": "MiniMax 开源图像模型 H3-Image 权重",
+                    "summary": "11月10日，MiniMax 发布图像模型 H3-Image，并在 Hugging Face 开放权重。模型支持根据文字生成图像，也能用一张或多张参考图做编辑。MiniMax 称，在其公布的测试条件下，模型约 10 秒可生成一张 4096×4096 像素的图像，并给出了 SGLang、vLLM、Diffusers 和 ComfyUI 等推理框架的本地部署文档。",
+                    "link": "https://www.ifanr.com/1688790",
+                    "tags": [
+                      "图像生成",
+                      "开源"
+                    ],
+                    "source": "爱范儿",
+                    "time": "11月10日"
+                  }
+                ]
+              },
+              {
+                "title": "京东科技",
+                "news": [
+                  {
+                    "title": "京东科技拆分云科技与金融科技两大板块",
+                    "summary": "11月10日消息，据市场消息，京东科技内部官宣重大架构调整，正式拆分为云科技与金融科技两大板块，均与京东零售平级。云科技一号位为徐丰。京东探索研究院也被拆分，JoyAI、AI 算法等核心部门整体并入云科技。对于上述消息，京东官方截至发稿暂无回应。",
+                    "link": "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfzhy9285294.shtml",
+                    "tags": [
+                      "架构调整",
+                      "云科技"
+                    ],
+                    "source": "新浪财经",
+                    "time": "11月10日消息"
+                  }
+                ]
+              },
+              {
+                "title": "苹果",
+                "news": [
+                  {
+                    "title": "苹果测试 Harbor，将多台 Mac 组成本地 AI 集群",
+                    "summary": "11月11日消息，开发者发现苹果正在开发名为 Harbor 的 Mac 应用，目前以 Claris 品牌进行私人预览。Harbor 可在应用内浏览、下载和加载开放权重模型，两台或更多支持 Thunderbolt 5 的 Mac 连接后可自动组建集群，将统一内存汇集为推理资源，用于运行超出单机容量的模型。该应用定位是降低搭建私人 AI 推理服务器的门槛。",
+                    "link": "https://k.sina.cn/article_5953466437_162dab0450670bhids.html",
+                    "tags": [
+                      "本地AI",
+                      "集群"
+                    ],
+                    "source": "新浪",
+                    "time": "11月11日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "自动驾驶",
+            "cards": []
+          },
+          {
+            "name": "具身智能",
+            "cards": [
+              {
+                "title": "特斯拉",
+                "news": [
+                  {
+                    "title": "马斯克：擎天柱 2027 年底交付，或租不卖",
+                    "summary": "11月10日消息，特斯拉 CEO 马斯克表示，人形机器人擎天柱将在 2027 年底左右开始交付，但交付形式可能是租而非卖。马斯克称，擎天柱初期成本可能与电动汽车差不多，每台约 3 万美元，之后降至 2 万美元左右，且至少需要一年才能达到全面量产。业内人士透露，特斯拉可能在 12 月初开放擎天柱预订。",
+                    "link": "https://www.guandian.cn/article/20261110/625487.html",
+                    "tags": [
+                      "人形机器人",
+                      "量产"
+                    ],
+                    "source": "观点网",
+                    "time": "11月10日消息"
+                  }
+                ]
+              },
+              {
+                "title": "蚂蚁灵波",
+                "news": [
+                  {
+                    "title": "蚂蚁灵波开源触觉基础模型 LingBot-Touch",
+                    "summary": "11月10日消息，蚂蚁灵波开源面向机器人灵巧操作的触觉基础模型 LingBot-Touch，同步发布模型权重、代码和技术报告。模型覆盖压阻、磁触觉和视触觉三类传感器，把不同硬件采集的接触信号转换成统一触觉表征。团队用 4983 小时触觉记录预训练，数据约 13.3 亿帧，在两款灵巧手的 26 项真实任务上验证了跨硬件复用的触觉能力。",
+                    "link": "https://www.ithome.com/1/024/701.htm",
+                    "tags": [
+                      "触觉模型",
+                      "开源"
+                    ],
+                    "source": "IT之家",
+                    "time": "11月10日消息"
+                  }
+                ]
+              },
+              {
+                "title": "波士顿动力",
+                "news": [
+                  {
+                    "title": "波士顿动力给 Atlas 装上滑板车轮完成 360 度跳转",
+                    "summary": "11月11日消息，波士顿动力公布人形机器人 Atlas 的轮式实验。工程师用定制转接件把滑板车轮装到 Atlas 原有踝关节执行器上，测试电机与全身控制策略的配合。视频中的 360 度跳转来自真人动作捕捉，控制策略在模拟中学习追踪后首次上实机即完成。波士顿动力称，实验所得已开始用于标准配置的 Atlas。",
+                    "link": "https://ai.cnmo.com/news/822164.html",
+                    "tags": [
+                      "人形机器人",
+                      "轮式"
+                    ],
+                    "source": "CNMO",
+                    "time": "11月11日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "AI出海",
+            "cards": []
+          },
+          {
+            "name": "投资资讯",
+            "cards": [
+              {
+                "title": "软银",
+                "news": [
+                  {
+                    "title": "软银对 OpenAI 投资总额达 546 亿美元",
+                    "summary": "11月10日消息，软银表示，截至第二季度末对 OpenAI 的投资总额为 546 亿美元。这一数据体现了软银在 AI 领域持续加码的战略布局。此前软银多次领投 OpenAI 的融资轮次，是其重要投资方之一。",
+                    "link": "https://www.cls.cn/detail/2530097",
+                    "tags": [
+                      "投资",
+                      "融资"
+                    ],
+                    "source": "财联社",
+                    "time": "11月10日消息"
+                  }
+                ]
+              },
+              {
+                "title": "泛函数",
+                "news": [
+                  {
+                    "title": "AI 芯片设计公司泛函数完成近亿元天使轮融资",
+                    "summary": "11月10日消息，AI 原生芯片设计公司泛函数完成近亿元天使轮融资，由上海未来产业基金领投，上海信投、上海科创集团等联合投资。本轮融资将用于 AI 原生芯片设计垂类模型训练、全流程工具链迭代、芯片工程与 AI 算法核心团队扩充等。自 2026 年 3 月成立以来，泛函数已完成多轮融资。",
+                    "link": "https://news.qq.com/rain/a/20261110A08VBI00",
+                    "tags": [
+                      "芯片设计",
+                      "天使轮"
+                    ],
+                    "source": "腾讯新闻",
+                    "time": "11月10日消息"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "行业趋势&观点",
+            "cards": [
+              {
+                "title": "派拉蒙天舞",
+                "news": [
+                  {
+                    "title": "派拉蒙天舞 CEO：AI 工具或让片商敢为新人下注",
+                    "summary": "11月10日消息，在派拉蒙天舞财报电话会上，CEO 大卫·埃里森表示，AI 工具可帮助降低电影制作成本，让片商更愿意为新人导演和原创故事承担风险。他以卡梅隆早期《终结者》为例，认为 AI 若能让预算降到更容易接受的水平，类似项目就更容易开拍。他还将 AI 比作上世纪 90 年代初的电脑特效和数字合成。",
+                    "link": "https://finance.sina.com.cn/tech/digi/2026-11-10/doc-iniyfuyy2652197.shtml",
+                    "tags": [
+                      "AI电影",
+                      "行业观点"
+                    ],
+                    "source": "新浪财经",
+                    "time": "11月10日消息"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "ranking": {
+        "platforms": [
+          {
+            "name": "LMArena",
+            "date": "2026-09-13",
+            "link": "https://lmarena.ai/leaderboard/text",
+            "rankings": [
+              {
+                "model": "claude-fable-5",
+                "score": "1506",
+                "change": "±5"
+              },
+              {
+                "model": "claude-opus-4-6-high",
+                "score": "1505",
+                "change": "±4"
+              },
+              {
+                "model": "claude-opus-4-7-high",
+                "score": "1502",
+                "change": "±4"
+              },
+              {
+                "model": "muse-spark-1.2 (xHigh)",
+                "score": "1500",
+                "change": "±11"
+              },
+              {
+                "model": "claude-fable-5.1-max",
+                "score": "1498",
+                "change": "±8"
+              },
+              {
+                "model": "claude-opus-4-6",
+                "score": "1497",
+                "change": "±3"
+              },
+              {
+                "model": "claude-opus-4-7",
+                "score": "1494",
+                "change": "±4"
+              },
+              {
+                "model": "muse-spark-1.3-max",
+                "score": "1493",
+                "change": "±9"
+              },
+              {
+                "model": "gemini-3.8-flash-high (Preliminary)",
+                "score": "1493",
+                "change": "±9"
+              },
+              {
+                "model": "claude-opus-5-high",
+                "score": "1493",
+                "change": "±4"
+              },
+              {
+                "model": "muse-spark-1.1",
+                "score": "1493",
+                "change": "±5"
+              },
+              {
+                "model": "gemini-3.7-flash-high (Preliminary)",
+                "score": "1490",
+                "change": "±8"
+              },
+              {
+                "model": "muse-spark",
+                "score": "1488",
+                "change": "±6"
+              },
+              {
+                "model": "claude-opus-5-max",
+                "score": "1487",
+                "change": "±5"
+              },
+              {
+                "model": "gemini-3.1-pro-preview",
+                "score": "1487",
+                "change": "±3"
+              },
+              {
+                "model": "gemini-3-pro",
+                "score": "1485",
+                "change": "±4"
+              },
+              {
+                "model": "kimi-k3-max",
+                "score": "1485",
+                "change": "±5"
+              },
+              {
+                "model": "gpt-5.6-sol-xhigh",
+                "score": "1483",
+                "change": "±5"
+              },
+              {
+                "model": "glm-5.3-max",
+                "score": "1483",
+                "change": "±6"
+              },
+              {
+                "model": "gpt-5.5-high",
+                "score": "1482",
+                "change": "±4"
+              }
+            ]
+          },
+          {
+            "name": "OpenRouter",
+            "date": "2026-10-26",
+            "link": "https://openrouter.ai/rankings",
+            "rankings": [
+              {
+                "model": "DeepSeek V4.1 Flash 1017 (deepseek)",
+                "score": "33.6T tokens",
+                "change": "↑801%"
+              },
+              {
+                "model": "DeepSeek V4.1 Flash (deepseek)",
+                "score": "18T tokens",
+                "change": "↓45%"
+              },
+              {
+                "model": "MiniMax M3.1 Flash (free) (minimax)",
+                "score": "13.7T tokens",
+                "change": "—"
+              },
+              {
+                "model": "GLM 5.3 Flash (z-ai)",
+                "score": "13.2T tokens",
+                "change": "↑8%"
+              },
+              {
+                "model": "Hy4 preview (tencent)",
+                "score": "8.97T tokens",
+                "change": "↑19%"
+              },
+              {
+                "model": "GPT-6 Luna (openai)",
+                "score": "8.35T tokens",
+                "change": "↑35%"
+              },
+              {
+                "model": "Claude Opus 5.5 (anthropic)",
+                "score": "8.27T tokens",
+                "change": "↑34%"
+              },
+              {
+                "model": "MiMo-V2.6-Flash (xiaomi)",
+                "score": "6.07T tokens",
+                "change": "↓39%"
+              },
+              {
+                "model": "Nemotron 3 Ultra (free) (nvidia)",
+                "score": "5.85T tokens",
+                "change": "↑18%"
+              },
+              {
+                "model": "GLM 5.3 (z-ai)",
+                "score": "5.05T tokens",
+                "change": "↓3%"
+              },
+              {
+                "model": "DeepSeek V4 Flash 0731 (deepseek)",
+                "score": "3.99T tokens",
+                "change": "↓15%"
+              },
+              {
+                "model": "Step 5 Preview (stepfun)",
+                "score": "3.63T tokens",
+                "change": "↓68%"
+              },
+              {
+                "model": "Hy3 (tencent)",
+                "score": "3.05T tokens",
+                "change": "↓2%"
+              },
+              {
+                "model": "Jev 1.13 (typesafe)",
+                "score": "2.98T tokens",
+                "change": "↓2%"
+              },
+              {
+                "model": "GPT-6.1 Sol (openai)",
+                "score": "2.81T tokens",
+                "change": "↑45%"
+              },
+              {
+                "model": "DeepSeek V4 Flash 0423 (deepseek)",
+                "score": "2.81T tokens",
+                "change": "↓7%"
+              },
+              {
+                "model": "Muse Spark 1.3 Contributor (meta)",
+                "score": "2.77T tokens",
+                "change": "↓16%"
+              },
+              {
+                "model": "Claude Haiku 5.5 (anthropic)",
+                "score": "2.68T tokens",
+                "change": "↑29%"
+              },
+              {
+                "model": "Claude Sonnet 5.5 (anthropic)",
+                "score": "2.46T tokens",
+                "change": "—"
+              },
+              {
+                "model": "Kimi K3 (moonshotai)",
+                "score": "1.99T tokens",
+                "change": "↓10%"
+              }
+            ]
+          },
+          {
+            "name": "Product Hunt",
+            "date": "2026-09-16",
+            "link": "https://www.producthunt.com/",
+            "rankings": [
+              {
+                "name": "Viktor.com",
+                "category": "Productivity",
+                "rank": 0,
+                "link": "https://viktor.com"
+              },
+              {
+                "name": "Weave Router 2.0",
+                "category": "Open Source",
+                "rank": 1,
+                "link": "https://weaverouter.com"
+              },
+              {
+                "name": "Appwrite 2.0",
+                "category": "Open Source",
+                "rank": 2,
+                "link": "https://appwrite.io"
+              },
+              {
+                "name": "Gemini 3.8 & 3.8 Live Extended Thinking",
+                "category": "Bots",
+                "rank": 3,
+                "link": "https://gemini.google.com"
+              },
+              {
+                "name": "Toki Coordination",
+                "category": "Productivity",
+                "rank": 4,
+                "link": "https://toki.com"
+              },
+              {
+                "name": "CAT ME app",
+                "category": "Photography",
+                "rank": 5,
+                "link": "https://apps.apple.com/us/app/cat-me-ai/id6803704105"
+              },
+              {
+                "name": "Expand Board for macOS",
+                "category": "Mac",
+                "rank": 6,
+                "link": "https://www.producthunt.com/products/expand-board-for-macos"
+              },
+              {
+                "name": "Thread",
+                "category": "Productivity",
+                "rank": 7,
+                "link": "https://threadapp.io"
+              },
+              {
+                "name": "Fide Island",
+                "category": "Mac",
+                "rank": 8,
+                "link": "https://www.producthunt.com/products/fide-island"
+              },
+              {
+                "name": "Twigg",
+                "category": "Developer Tools",
+                "rank": 9,
+                "link": "https://twigg.ai"
+              },
+              {
+                "name": "ZeroClick",
+                "category": "Payments",
+                "rank": 10,
+                "link": "https://zeroclick.ai"
+              },
+              {
+                "name": "Jottoo",
+                "category": "Productivity",
+                "rank": 11,
+                "link": "https://jottoo.com"
+              },
+              {
+                "name": "flat.social",
+                "category": "Events",
+                "rank": 12,
+                "link": "https://flat.social"
+              },
+              {
+                "name": "Project Feed",
+                "category": "Design Tools",
+                "rank": 13,
+                "link": "https://www.producthunt.com/products/project-feed"
+              },
+              {
+                "name": "Convo",
+                "category": "Sales",
+                "rank": 14,
+                "link": "https://www.toolfinder.co/go/convo"
+              },
+              {
+                "name": "PeakHour 6",
+                "category": "Mac",
+                "rank": 15,
+                "link": "https://peakhour.app"
+              },
+              {
+                "name": "CreatorHat",
+                "category": "Safari Extensions",
+                "rank": 16,
+                "link": "https://creatorhat.com"
+              },
+              {
+                "name": "PhraseVault 3.0",
+                "category": "Mac",
+                "rank": 17,
+                "link": "https://phrasevault.app"
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 };
 
