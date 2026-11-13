@@ -1,5 +1,5 @@
 window.__RAW_DATA = {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "sections": {
     "overseas": {
       "vendors": [
@@ -7,26 +7,26 @@ window.__RAW_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 第三季度营收升至 100 亿美元",
-              "summary": "美东时间周二，OpenAI 首席财务官萨拉·弗莱尔（Sarah Friar）接受采访时表示，公司第三季度营收环比增长近 50%，达到 100 亿美元，年化营收约 500 亿美元。企业业务营收环比翻番，与消费者业务各占一半；订阅用户突破 1 亿，周活跃用户达 12 亿。增长主要由前沿模型研发与企业业务拉动。",
-              "link": "https://news.sohu.com/a/1100001144_313170",
+              "title": "OpenAI 以 1.25 万亿美元估值融资 150 亿美元",
+              "summary": "11月12日消息，据报道，OpenAI 以 1.25 万亿美元的估值完成新一轮 150 亿美元融资。这是 OpenAI 在估值持续攀升后的又一次大规模融资，体现出资本市场对其前沿模型研发与商业化前景的持续看好，也为其后续算力与人才投入提供弹药。",
+              "link": "https://36kr.com/newsflashes/4067372022305664",
               "tags": [
-                "财报",
-                "营收"
+                "融资",
+                "估值"
               ],
-              "source": "搜狐新闻",
-              "time": "11月11日消息"
+              "source": "36氪",
+              "time": "11月12日消息"
             },
             {
-              "title": "OpenAI 宣布 12 月 11 日停用 ChatGPT 旧版语音模式",
-              "summary": "OpenAI 宣布将于 2026 年 12 月 11 日正式停用 ChatGPT 的 Advanced Voice Mode 和 Standard Voice Mode，全面转向全双工的 GPT-Live。自今年 7 月 GPT-Live 发布以来，ChatGPT 语音功能使用量已接近翻倍，多数语音用户已转向 GPT-Live。此举在 X 和 Reddit 上引发部分用户不满。",
-              "link": "https://news.qq.com/rain/a/20261111A0CKUM00",
+              "title": "ChatGPT Finances 财务功能扩展至 Mac 桌面",
+              "summary": "OpenAI 宣布 ChatGPT Finances 个人财务管理功能扩展至 Mac 桌面端，用户更新应用后即可在侧边栏财务入口连接银行、信用卡及投资账户，在 macOS 上查看余额、分析消费、管理订阅并跟踪投资组合。",
+              "link": "https://cloud.tencent.com/developer/news/3927655",
               "tags": [
-                "语音",
-                "GPT-Live"
+                "财务管理",
+                "桌面端"
               ],
-              "source": "腾讯新闻",
-              "time": "11月11日消息"
+              "source": "腾讯云",
+              "time": "11月12日消息"
             }
           ]
         },
@@ -34,59 +34,15 @@ window.__RAW_DATA = {
           "name": "Anthropic",
           "news": [
             {
-              "title": "Anthropic IPO 认购需求超额数倍",
-              "summary": "11月11日，据报道，Anthropic 首次公开募股认购需求已达到可供发行股份数量的数倍，主要由大型基石投资者认购意向推动。公司及联合创始人计划通过 IPO 和私募合计融资最高 904 亿美元，若完成将超过 SpaceX IPO 成为史上规模最大的上市交易，目标完全稀释估值约 1.4 万亿美元。",
-              "link": "https://www.cls.cn/detail/2531917",
+              "title": "Claude 10 月访问量环比增长近 24%",
+              "summary": "Similarweb 数据显示，Claude 网站在 10 月访问量环比增长 23.78%，增幅超过 ChatGPT 的 2.15% 和 Gemini 的负增长。Claude 官网当月获得约 12.53 亿次访问，创自身纪录并升至全球网站第 25 位，正冲刺 IPO 的 Anthropic 用户增长动能强劲。",
+              "link": "https://www.aibase.com/zh/news/32283",
               "tags": [
-                "IPO",
-                "融资"
+                "访问量",
+                "增长"
               ],
-              "source": "财联社",
-              "time": "11月11日消息"
-            },
-            {
-              "title": "Claude 最严封号机制 11 月 12 日生效",
-              "summary": "Anthropic 推出新版风控政策，明令封杀非支持地区用户，并于 11 月 12 日正式生效。新规覆盖三类情形：物理位置处于不受支持地区、在不受支持地区注册或设立总部的实体、以及被不受支持地区个人或实体控股的实体的使用，并明确禁止利用消费级订阅转发请求，封杀转卖和代理服务。",
-              "link": "https://www.36kr.com/p/4065245506917251",
-              "tags": [
-                "风控",
-                "政策"
-              ],
-              "source": "36氪",
-              "time": "11月11日消息"
-            },
-            {
-              "title": "Claude 模型 3 天完成 AMD GPU 适配",
-              "summary": "Anthropic IPO 路演材料显示，其 Claude Mythos Preview 模型仅用 3 天就让另一模型在 AMD MI355X GPU 上运行，较传统 6-12 个月适配周期大幅缩短。这一进展被视为可能动摇英伟达 CUDA 生态优势的信号，凸显 AI 模型对 GPU 平台的适配正在加速。",
-              "link": "https://www.ithome.com/1/025/736.htm",
-              "tags": [
-                "GPU",
-                "CUDA"
-              ],
-              "source": "IT之家",
-              "time": "11月11日消息"
-            },
-            {
-              "title": "阿莫迪：AI 十年内攻克癌症引医学界质疑",
-              "summary": "Anthropic CEO 阿莫迪预测 AI 十年内将把癌症等重大疾病变为历史，马斯克、哈萨比斯持类似观点。但医学界人士指出，AI 无法绕过临床试验等核心环节，该预测过于乐观，引发关于 AI 在医疗领域真实进展与局限的讨论。",
-              "link": "https://www.ithome.com/1/025/617.htm",
-              "tags": [
-                "AI医疗",
-                "观点"
-              ],
-              "source": "IT之家",
-              "time": "11月11日消息"
-            },
-            {
-              "title": "Claude API 新增调节 effort 能力",
-              "summary": "Claude API 新增调节 effort（努力程度）的能力，让开发者按任务需求动态调整模型的推理投入，可在闲聊与复杂分析等不同场景间中途“换挡”。这一能力旨在帮助用户在成本与效果之间灵活权衡，提升 API 的使用效率。",
-              "link": "https://www.ithome.com/1/025/894.htm",
-              "tags": [
-                "API",
-                "推理"
-              ],
-              "source": "IT之家",
-              "time": "11月11日消息"
+              "source": "AIbase",
+              "time": "11月12日消息"
             }
           ]
         },
@@ -94,48 +50,15 @@ window.__RAW_DATA = {
           "name": "Google",
           "news": [
             {
-              "title": "谷歌推出 Gemini Decisions API",
-              "summary": "谷歌推出 Gemini Decisions API，由 Gemini Decision 1 模型驱动，可帮助 AI 智能体快速做出预设决策而无需生成冗长文本回复。该接口支持文本、图像、音频、视频和 PDF 的多模态输入，可在单次前向传递中对预设选项评分并返回概率与置信度，端到端延迟 150-250 毫秒，每百万输入 token 收费 0.10 美元。",
-              "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+              "title": "谷歌发布 Gemini 4 Hydrogen 模型",
+              "summary": "谷歌发布 Gemini 4 Hydrogen，主打日常编程与多步智能体任务。在默认高思考等级下，Hydrogen 完成任务速度约为 Gemini 3.8 Flash 的 2.5 倍；在 Terminal-Bench 4.1 中得分 57%，高于后者的 18.2%。模型支持约 100 万 token 上下文，输入与输出每百万 token 分别收费 1.50 美元和 7.50 美元，已开始面向 Gemini 应用、Google 搜索、AI Studio 等推出。",
+              "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
               "tags": [
-                "API",
-                "智能体"
+                "大模型",
+                "编程"
               ],
               "source": "Google Blog",
-              "time": "当地时间11月11日"
-            },
-            {
-              "title": "Gemini 上线 CarPlay 车机",
-              "summary": "Google 开始在全球向 iOS 用户推送 Gemini 的 CarPlay 版本，覆盖 Gemini Live 已支持的语言。用户在车机上即可发起语音对话，也可继续手机上的话题，支持查看日程、口头总结 Gmail 邮件以及查询沿途餐厅和地标等。首次使用前需将 iPhone 上的 Gemini 更新至最新版。",
-              "link": "https://original.ifeng.com/c/8xz1dEtL01s",
-              "tags": [
-                "CarPlay",
-                "语音"
-              ],
-              "source": "凤凰网",
-              "time": "11月11日消息"
-            },
-            {
-              "title": "谷歌开源跨平台协议 A2UI 1.0",
-              "summary": "谷歌开源跨平台协议 A2UI 1.0 版本上线，让 AI 可直接回复用户 UI 界面，字节跳动已用上。A2UI 旨在为 AI 与用户界面交互提供标准化协议，降低跨平台 UI 生成与交互的复杂度，推动 AI 智能体在界面操作场景的落地。",
-              "link": "https://www.ithome.com/1/025/862.htm",
-              "tags": [
-                "开源",
-                "协议"
-              ],
-              "source": "IT之家",
-              "time": "11月11日消息"
-            },
-            {
-              "title": "DeepMind 发布基因模型 AlphaGenome 2",
-              "summary": "谷歌 DeepMind 发布基因序列模型 AlphaGenome 2，识别致病变异能力较此前版本提升近一倍。该模型面向基因组学与医学研究，通过 AI 分析基因序列以辅助识别与疾病相关的致病变异，被视为 AI for Science 领域的重要进展。",
-              "link": "https://www.ithome.com/1/025/822.htm",
-              "tags": [
-                "AI科学",
-                "基因组"
-              ],
-              "source": "IT之家",
-              "time": "11月11日消息"
+              "time": "当地时间11月12日"
             }
           ]
         },
@@ -143,26 +66,48 @@ window.__RAW_DATA = {
           "name": "xAI",
           "news": [
             {
-              "title": "SpaceX 研发 Kessel 机柜去英伟达化",
-              "summary": "据 SemiAnalysis 披露，SpaceX 正尝试机架层“去英伟达化”：保留英伟达芯片但自研机架，内部代号 Kessel，计划直接向英伟达采购芯片封装、其余部件自行采购，从而绕过英伟达的 L6 计算板。跳过 L6 意味着 SpaceX 拿到板卡层的设计权与采购权，在供应商选择与零部件采购上获得更多控制权。",
-              "link": "https://cj.sina.com.cn/articles/view/2868676035/aafc85c302001zkym",
+              "title": "SpaceX 与特斯拉合并谈判取得进展",
+              "summary": "据彭博社报道，马斯克旗下 SpaceX 与特斯拉的合并谈判正取得进展，双方最早可能于今年 12 月宣布交易，有望创下全球企业并购规模纪录，也有讨论把公告时间推迟至 2027 年初。此前 SpaceX 已在季报中披露设立特别委员会评估合并可能。",
+              "link": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniypksr1495342.shtml",
               "tags": [
-                "算力",
-                "自研"
+                "并购",
+                "谈判"
               ],
               "source": "新浪财经",
-              "time": "11月11日消息"
+              "time": "11月12日消息"
             },
             {
-              "title": "Grok 被指生成违规内容，xAI 面临诉讼",
-              "summary": "据媒体报道，马斯克旗下 AI 模型 Grok 被指生成儿童色情图像，xAI 正面临多起集体诉讼。此事引发对生成式 AI 内容审核与安全机制的关注，也暴露出模型在内容生成合规方面的风险，xAI 尚未公开回应相关指控。",
-              "link": "https://www.ithome.com/1/025/809.htm",
+              "title": "马斯克：SpaceX 乐意收回 Anthropic 租用的算力",
+              "summary": "针对 Anthropic 可能在 2027 年年中后停止租用 SpaceX 算力的消息，马斯克回应称 SpaceX 乐意收回相关算力，但他认为实际情况可能恰恰相反。Anthropic 招股文件披露，两份算力协议初始不可取消期分别于 2027 年 1 月和 3 月结束。",
+              "link": "https://baijiahao.baidu.com/s?id=1881628534821740113",
               "tags": [
-                "AI安全",
-                "诉讼"
+                "算力",
+                "租约"
               ],
-              "source": "IT之家",
-              "time": "11月11日消息"
+              "source": "百家号",
+              "time": "当地时间11月11日"
+            },
+            {
+              "title": "SpaceX 拟投 740 亿美元建 AI 算力园区",
+              "summary": "SpaceX 宣布计划在得克萨斯州和亚利桑那州投入超过 740 亿美元，建设两座面向人工智能的超级计算数据中心园区，标志着这家火箭公司正加速向 AI 算力基础设施扩张，其中亚利桑那项目约占 500 亿美元。",
+              "link": "https://baijiahao.baidu.com/s?id=1881678305900105426",
+              "tags": [
+                "算力",
+                "数据中心"
+              ],
+              "source": "百家号",
+              "time": "11月12日消息"
+            },
+            {
+              "title": "xAI 发布 Grok Bot 1.0 智能体",
+              "summary": "马斯克旗下 xAI 正式发布 Grok Bot 1.0，让 AI 智能体进入群聊接活、替用户开会，并能指挥其他 AI 完成多步任务，将 AI 从对话助手推向可与团队协同工作的执行层。",
+              "link": "https://zhuanlan.zhihu.com/p/2104288395677774060",
+              "tags": [
+                "智能体",
+                "发布"
+              ],
+              "source": "知乎",
+              "time": "11月12日消息"
             }
           ]
         },
@@ -170,26 +115,81 @@ window.__RAW_DATA = {
           "name": "NVIDIA",
           "news": [
             {
-              "title": "曝英伟达董事会准备罢免黄仁勋",
-              "summary": "据《华尔街日报》报道，英伟达董事会正准备讨论 CEO 黄仁勋的去留问题，最早可能于当地时间 11 日召开会议决定其去留。另据《纽约时报》援引前员工指控，黄仁勋存在婚外情，离职几率大幅上升。消息传出后英伟达股价盘后一度下跌约 8%。",
-              "link": "https://www.ithome.com/1/025/829.htm",
+              "title": "英伟达宣布黄仁勋辞去 CEO 职务即刻生效",
+              "summary": "11月12日，英伟达宣布，公司董事会已批准黄仁勋辞去公司总裁、首席执行官及董事职务，即刻生效。现任 CFO 科莱特·克雷斯出任临时 CEO 并继续兼任 CFO，哈维·琼斯出任首任董事会主席，董事会已启动正式 CEO 遴选。黄仁勋自 1993 年参与创立英伟达以来掌舵 33 年，仍是公司最大个人股东。",
+              "link": "https://baijiahao.baidu.com/s?id=1881661371188606118",
               "tags": [
-                "治理",
-                "股价"
+                "人事",
+                "辞职"
               ],
-              "source": "IT之家",
-              "time": "11月11日消息"
+              "source": "百家号",
+              "time": "11月12日"
             },
             {
-              "title": "黄仁勋已回英伟达上班并致歉",
-              "summary": "据 CNBC 报道，英伟达 CEO 黄仁勋当地时间周一走进加州圣克拉拉总部，照常主持高层晨会，并在闭门会议开始时为近期风波向员工致歉，随后将话题转向业务和议程。周二他也到办公室开会，试图表现得“一切照常”，但公司内部氛围仍被形容为“令人难过”。",
-              "link": "https://www.ithome.com/1/025/249.htm",
+              "title": "特朗普：库克是唯一能接替黄仁勋的人选",
+              "summary": "黄仁勋辞职后，美国总统特朗普表示，唯一能接替黄仁勋的人选只有苹果执行董事长蒂姆·库克，并称「让一位传奇人物接替另一位传奇」。此番表态引发外界对英伟达下一任 CEO 人选的广泛关注。",
+              "link": "https://baijiahao.baidu.com/s?id=1881703326020297819",
               "tags": [
-                "治理",
-                "人事"
+                "人事",
+                "接任"
               ],
-              "source": "IT之家",
-              "time": "11月11日消息"
+              "source": "百家号",
+              "time": "11月12日"
+            },
+            {
+              "title": "马斯克：聘用黄仁勋将是我的荣幸",
+              "summary": "黄仁勋辞去英伟达 CEO 后，有网友喊话马斯克聘请黄仁勋，马斯克在社交媒体回应称「那将会是我的荣幸」。此前黄仁勋因婚外情风波面临离职压力，其去向成为科技圈关注焦点。",
+              "link": "https://c.m.163.com/news/a/LBI0FC4L0511D6RL.html",
+              "tags": [
+                "人事",
+                "回应"
+              ],
+              "source": "网易",
+              "time": "11月12日消息"
+            },
+            {
+              "title": "美国拟扩大英伟达 AI 芯片出口管制",
+              "summary": "据 The Information 报道，美国商务部正制定新的出口管制规则，拟对新加坡、马来西亚、泰国、印度尼西亚、巴西、挪威及南非等国实施更严格的 AI 芯片出口许可要求，以限制中国企业通过当地数据中心租用英伟达 Blackwell 及更新一代芯片的算力。",
+              "link": "https://baijiahao.baidu.com/s?id=1881637514425618750",
+              "tags": [
+                "出口管制",
+                "政策"
+              ],
+              "source": "百家号",
+              "time": "11月12日"
+            },
+            {
+              "title": "美国司法部对英伟达启动反垄断等多项调查",
+              "summary": "黄仁勋辞去英伟达 CEO 职务后，美国司法部正推进针对英伟达的反垄断调查，同时涉及 Megaspeed、超微电脑的另外两项调查也在进行中，目前暂无刑事起诉迹象。",
+              "link": "https://baijiahao.baidu.com/s?id=1881706161517133890",
+              "tags": [
+                "反垄断",
+                "调查"
+              ],
+              "source": "百家号",
+              "time": "11月13日消息"
+            },
+            {
+              "title": "英伟达市值一度跌破 4 万亿美元",
+              "summary": "黄仁勋辞职消息公布后，英伟达股价盘前下跌约 10%，盘中市值一度跌破 4 万亿美元，两天蒸发约 4700 亿美元。竞争对手 AMD 和博通逆势上涨，投资者预期英伟达动荡或为竞争对手创造机会。",
+              "link": "https://sina.cn/news/detail/5364070054101199.html",
+              "tags": [
+                "股价",
+                "市值"
+              ],
+              "source": "新浪新闻",
+              "time": "11月12日消息"
+            },
+            {
+              "title": "花旗等投行密集下调英伟达目标价",
+              "summary": "花旗将英伟达目标价从 285 美元下调至 225 美元，此前已于 11 月 10 日从 315 美元下调至 285 美元。花旗、富国银行等多家投行因领导层不确定性密集下调英伟达目标价，认为黄仁勋若离开将带来短期悬顶。",
+              "link": "https://finance.eastmoney.com/a/202611123929791291.html",
+              "tags": [
+                "股价",
+                "评级"
+              ],
+              "source": "东方财富",
+              "time": "11月12日消息"
             }
           ]
         },
@@ -203,55 +203,43 @@ window.__RAW_DATA = {
       "vendors": [
         {
           "name": "阿里云",
-          "news": [
-            {
-              "title": "阿里开放千问 Qwen4 预览版",
-              "summary": "阿里巴巴 11 月 11 日官宣，全新一代千问大模型 Qwen4 即将发布，预览版已首发上线千问 AI 平台的 Token Plan。官方称新模型知识理解更深入、世界感知更立体，Coding 与 Agentic 能力持续进阶，面向复杂编程、前端设计、专业办公和软件操作等任务。",
-              "link": "https://www.ithome.com/1/025/301.htm",
-              "tags": [
-                "大模型",
-                "开源"
-              ],
-              "source": "IT之家",
-              "time": "11月11日"
-            },
-            {
-              "title": "阿里开源 Qwen Code 1.0 预览版",
-              "summary": "阿里发布并开源 Qwen Code 1.0 预览版，将 Qoder 和 Qwen Code 的智能体框架能力整合到开源项目中，覆盖代码理解、实现、调试和测试。预览版支持 Qwen 与 Qoder 账号、多家模型供应商及自定义兼容接口，macOS、Linux 和 Windows 均有原生安装包。",
-              "link": "https://news.qq.com/rain/a/20261111A085MT00",
-              "tags": [
-                "编程",
-                "开源"
-              ],
-              "source": "腾讯新闻",
-              "time": "11月11日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "火山引擎",
           "news": [
             {
-              "title": "字节计划推出「中国版 Muse」AI 助手",
-              "summary": "据彭博社报道，字节跳动计划在未来几周推出一款类似 Meta Muse 的 AI 助手，巩固其在 AI 视频生成领域的领先优势。字节联合创始人张一鸣在 AI 团队全员会上介绍该计划，并将训练数据列为优先事项，同时判断字节最快到 2029 年或 2030 年才能在最前沿模型上赶上 OpenAI、Anthropic。",
-              "link": "https://news.qq.com/rain/a/20261112A033U700",
+              "title": "火山引擎发布 Seedance 2.5 flash 视频模型",
+              "summary": "11月12日，字节跳动推出视频生成模型 Seedance 2.5 flash。官方称生成速度较 Seedance 2.5 提升一倍，以 720P 文生视频、图生视频为例，生成价格约为每秒 0.99 元，降低约 34%。模型单次最长可生成 30 秒视频，输出 480P 或 720P，将陆续登陆即梦等平台，API 计划 11 月 15 日开放。",
+              "link": "https://baijiahao.baidu.com/s?id=1881633127007485979",
               "tags": [
-                "智能体",
-                "语音"
+                "视频生成",
+                "大模型"
               ],
-              "source": "腾讯新闻",
-              "time": "11月11日消息"
+              "source": "百家号",
+              "time": "11月12日"
             },
             {
-              "title": "字节 AI 芯片负责人施云峰离职",
-              "summary": "据《晚点 LatePost》报道，字节跳动 AI 芯片与 DPU 团队负责人施云峰已提交离职申请，目前正在交接。字节自研 AI 芯片走类似谷歌 TPU 的专用路线，今年已有芯片完成流片但性能未达预期，团队正推进下一代芯片研发。他于 2018 年加入字节，向火山引擎负责人杨震原汇报。",
-              "link": "https://news.qq.com/rain/a/20261111A0ELTU00",
+              "title": "豆包工作接入 Kimi、GLM、DeepSeek 模型",
+              "summary": "豆包工作宣布接入 Kimi K3.1 Pro、GLM 5.3 和 DeepSeek V4.1 Flash 等第三方模型，并在模型选择页标注额度消耗倍率，用户可在同一界面切换自研与第三方模型并查看相对额度消耗。",
+              "link": "https://news.qq.com/rain/a/20261112A07NYP00",
               "tags": [
-                "芯片",
-                "人事"
+                "智能体",
+                "多模型"
               ],
               "source": "腾讯新闻",
-              "time": "11月11日消息"
+              "time": "11月12日消息"
+            },
+            {
+              "title": "张一鸣：字节追平前沿技术最早要到 2029 年",
+              "summary": "11月12日，从多方知情人士处获悉，字节跳动创始人张一鸣近期在面向 AI 团队的全员会议上表示，字节有能力与 OpenAI 和 Anthropic 展开竞争，但真正追平前沿技术最早也要到 2029 年或 2030 年。张一鸣坦言，与海外顶尖 AI 公司相比，字节 Seed 系列模型的预训练数据集规模仍然偏少，这是字节 AI 当下最需要关注的问题。",
+              "link": "https://baijiahao.baidu.com/s?id=1881638928370686565",
+              "tags": [
+                "大模型",
+                "观点"
+              ],
+              "source": "百家号",
+              "time": "11月12日消息"
             }
           ]
         },
@@ -263,15 +251,15 @@ window.__RAW_DATA = {
           "name": "腾讯",
           "news": [
             {
-              "title": "腾讯元宝搜索正式上线",
-              "summary": "11月11日，腾讯全新搜索产品元宝搜索正式上线，用户可直接访问 so.qq.com 或在 QQ 浏览器引擎设置中切换。元宝搜索基于腾讯元宝大模型重建搜索链路，范围覆盖网页、微信公众号、视频号及学术文献，优先展示权威信源，并将广告与答案明确区分，接入 157 个权威信源。",
-              "link": "https://www.ithome.com/1/025/471.htm",
+              "title": "腾讯张军回应裁员 50% 传闻：纯属谣言",
+              "summary": "针对网传腾讯裁员 50% 的说法，腾讯公关负责人张军回应称这是「纯纯的误会和谣言」，系对公司面向 AI 时代组织变革策略的误读。管理层用「陆军」「海军」比喻资源重新调度：约一半人守业提效，另一半探索 AI 原生业务，并非实际裁员比例。",
+              "link": "https://baijiahao.baidu.com/s?id=1881640948016109076",
               "tags": [
-                "搜索",
-                "大模型"
+                "组织变革",
+                "辟谣"
               ],
-              "source": "IT之家",
-              "time": "11月11日"
+              "source": "百家号",
+              "time": "11月12日消息"
             }
           ]
         },
@@ -289,19 +277,7 @@ window.__RAW_DATA = {
         },
         {
           "name": "华为",
-          "news": [
-            {
-              "title": "麒麟 9050 搭载达芬奇架构 NPU",
-              "summary": "华为麒麟官方公众号 11 月 11 日介绍麒麟 9050 系列芯片的新一代达芬奇架构 NPU，为业界首个 30B MoE 大模型入端方案，支持端侧运行大模型而无需联网。麒麟 9050 系列采用首款“逻辑折叠”技术 τ 芯片，强化端侧 AI 推理能力。",
-              "link": "https://www.ithome.com/1/025/331.htm",
-              "tags": [
-                "芯片",
-                "端侧AI"
-              ],
-              "source": "IT之家",
-              "time": "11月11日"
-            }
-          ]
+          "news": []
         }
       ]
     },
@@ -311,65 +287,129 @@ window.__RAW_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "蚂蚁集团",
+              "title": "长鑫",
               "news": [
                 {
-                  "title": "蚂蚁灵光 2.0 托管事务突破 300 万",
-                  "summary": "11月11日，蚂蚁集团旗下个人 AI 助理灵光公布最新数据：自 10 月 27 日灵光 2.0 上线以来，累计托管事务量突破 300 万项，累计执行任务超 1100 万次。此前 11 月 5 日灵光曾公布上线一周已托管超 116 万项事务，用户规模突破 2000 万。",
-                  "link": "https://www.jiemian.com/article/15320458.html",
+                  "title": "长鑫 DDR5 32Gb 颗粒落地，MRDIMM 达 12800Mbps",
+                  "summary": "长鑫科技副总裁骆晓东 11月12日披露 DDR5 产品线进展：颗粒完成 24Gb 至 32Gb 迭代，RDIMM 覆盖 32GB-128GB、5600-8000Mbps，MRDIMM 最高速率达 12800Mbps。受 AI 应用需求驱动，服务器市场需求占比超 50%，四季度 DRAM 供不应求态势延续。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881641327147537830",
                   "tags": [
-                    "AI助理",
-                    "托管"
+                    "存储",
+                    "DDR5"
                   ],
-                  "source": "界面新闻",
-                  "time": "11月11日"
+                  "source": "百家号",
+                  "time": "11月12日"
                 }
               ]
             },
             {
-              "title": "DeepL",
+              "title": "SK海力士",
               "news": [
                 {
-                  "title": "DeepL 推出语音翻译模型 Aure",
-                  "summary": "DeepL 11 月 11 日推出语音翻译模型 Aure，并接入 DeepL Voice。翻译播放时会跟随说话者的语调、情绪、重音和语速变化，实时复现停顿与语气。Aure 首批支持英语、德语、西班牙语、法语、意大利语、日语、葡萄牙语和韩语 8 种语言。",
-                  "link": "https://www.ithome.com/1/025/810.htm",
+                  "title": "消息称 SK 海力士 HBM4 良率突破 70%",
+                  "summary": "据报道，SK 海力士的 HBM4 良率近期已突破 70%，不过公司尚未正式公布具体数据。业界高度重视这一进展，若良率从 60% 提升至 70%，同等生产投入下合格品产量约增加 16.7%。",
+                  "link": "https://www.cls.cn/detail/2532546",
                   "tags": [
-                    "语音翻译",
-                    "多模态"
+                    "存储",
+                    "HBM4"
                   ],
-                  "source": "IT之家",
-                  "time": "11月11日消息"
+                  "source": "财联社",
+                  "time": "11月12日消息"
                 }
               ]
             },
             {
-              "title": "Adobe",
+              "title": "三星",
               "news": [
                 {
-                  "title": "Adobe 公布单图取景实验 Sight Span",
-                  "summary": "Adobe 在 MAX Sneaks 公布多个实验项目，其中 Project Sight Span 可将单张图像转换为可探索场景，创作者能移动视点从原图取景框之外寻找新角度。此外 Project Screen Test 可设定虚拟角色并通过对话试探反应，Project Scene Sweep 则面向视频剪辑同步多机位修改。",
-                  "link": "https://labs.adobe.com/sneaks/sight-span",
+                  "title": "三星谷歌 Gemini 智能眼镜开启预订",
+                  "summary": "三星与 Google 合作开发的智能眼镜已开放预订，12 月 10 日上市。Warby Parker 系列 395 美元起，Gentle Monster 系列 449-489 美元。眼镜搭载 1200 万像素摄像头、开放式扬声器和四颗麦克风，可通过 Gemini 询问眼前物体、听取导航指令或回复消息。",
+                  "link": "https://36kr.com/newsflashes/4067374695601285",
                   "tags": [
-                    "图像生成",
-                    "实验"
+                    "智能眼镜",
+                    "Gemini"
                   ],
-                  "source": "Adobe Labs",
-                  "time": "当地时间11月11日"
+                  "source": "36氪",
+                  "time": "11月12日消息"
                 }
               ]
             },
             {
-              "title": "李飞飞（World Labs 创始人）",
+              "title": "思科",
               "news": [
                 {
-                  "title": "李飞飞对话苏姿丰详解 Atlas 世界模型",
-                  "summary": "在 AMD 以 547 亿元收购 World Labs 后，李飞飞与苏姿丰首次同台，详解统一世界模型 Atlas。Atlas 旨在构建统一的物理世界模型，被视为具身智能与世界模型路线的重要进展，两人的同台也释放出收购整合持续推进的信号。",
-                  "link": "https://news.qq.com/rain/a/20261112A053EK00",
+                  "title": "思科第一财季营收增长 24%，上调 AI 预期",
+                  "summary": "思科当地时间 11 月 12 日公布 2027 财年第一季度财报：营收 185.17 亿美元，同比增长 24%；GAAP 净利润 45.52 亿美元，同比增长 59%。网络业务营收增长 43%，公司将面向大型云服务商的 AI 基础设施收入预期上调至 90 亿美元，预计较上财年增长一倍以上。",
+                  "link": "https://t.cj.sina.com.cn/articles/view/5999834179/1659e344302003t8em",
                   "tags": [
-                    "世界模型",
-                    "具身智能"
+                    "财报",
+                    "AI基础设施"
                   ],
-                  "source": "腾讯新闻",
+                  "source": "新浪财经",
+                  "time": "当地时间11月12日"
+                }
+              ]
+            },
+            {
+              "title": "应用材料",
+              "news": [
+                {
+                  "title": "应用材料第四财季营收增长 53%",
+                  "summary": "半导体设备厂商应用材料公布 2026 财年业绩：全年营收 344.46 亿美元，同比增长 21%；第四财季营收 104.1 亿美元，同比增长 53%。当季 DRAM 和先进封装收入均创纪录，沉积、刻蚀、抛光及制程控制业务也达收入新高。",
+                  "link": "https://m.21jingji.com/timeline/1599ca43fb12e95132ec4b9c0d13620d.html",
+                  "tags": [
+                    "财报",
+                    "半导体设备"
+                  ],
+                  "source": "21世纪经济报道",
+                  "time": "当地时间11月12日"
+                }
+              ]
+            },
+            {
+              "title": "鸿海",
+              "news": [
+                {
+                  "title": "鸿海第三季度净利润 775 亿新台币创新高",
+                  "summary": "11月12日，鸿海公布第三季度净利润 775.2 亿元新台币，创单季新高，季增 29%、年增 34%。公司预计 2027 年 AI 机柜出货量将实现高双位数增长、市占率提升，并上修全年展望。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881634261760854050",
+                  "tags": [
+                    "财报",
+                    "AI机柜"
+                  ],
+                  "source": "百家号",
+                  "time": "11月12日"
+                }
+              ]
+            },
+            {
+              "title": "MiniMax",
+              "news": [
+                {
+                  "title": "MiniMax 开源 H3-Image 生图模型",
+                  "summary": "MiniMax 开源新一代生图模型 H3-Image，原生支持 4096×4096 分辨率输出，10 秒级生成 4K 图像，被称为当前最强开源生图模型之一，成本进一步下探。",
+                  "link": "https://cloud.tencent.com/developer/article/2781311",
+                  "tags": [
+                    "生图",
+                    "开源"
+                  ],
+                  "source": "腾讯云",
+                  "time": "11月12日消息"
+                }
+              ]
+            },
+            {
+              "title": "科大讯飞",
+              "news": [
+                {
+                  "title": "科大讯飞星火语音基座 SparkAudio 1.0 上线",
+                  "summary": "科大讯飞宣布，讯飞星火语音基座大模型 SparkAudio 1.0 已在讯飞开放平台上线 API 服务，支持 99 种语言、202 种方言，开发者可直接接入调用。",
+                  "link": "https://c.m.163.com/news/a/LBIJLIF00511B8LM.html",
+                  "tags": [
+                    "语音",
+                    "大模型"
+                  ],
+                  "source": "网易",
                   "time": "11月12日消息"
                 }
               ]
@@ -378,61 +418,11 @@ window.__RAW_DATA = {
         },
         {
           "name": "自动驾驶",
-          "cards": [
-            {
-              "title": "特斯拉",
-              "news": [
-                {
-                  "title": "庞义成回应特斯拉 FSD 破解版测试",
-                  "summary": "特斯拉法务部指第一电动网 CEO 庞义成的车辆 FSD V14 遭未经授权破解并用于公开直播测评，要求 48 小时内提供 VIN 码、恢复原厂配置并出具承诺函。庞义成以视频回应称不会撤稿，也不认为相关行动违法违规。",
-                  "link": "https://www.ithome.com/1/025/394.htm",
-                  "tags": [
-                    "FSD",
-                    "智驾"
-                  ],
-                  "source": "IT之家",
-                  "time": "11月11日消息"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "具身智能",
-          "cards": [
-            {
-              "title": "智元",
-              "news": [
-                {
-                  "title": "智元发布终身具身智能框架 LIFE",
-                  "summary": "智元发布终身具身智能框架 LIFE（Learning to Live），将持续感知、长期记忆与能力复用结合，支持机器人在任务执行期间及间隔期获取环境信息并将历史观察用于后续决策。相关论文、RoboBeats 系列模型（0.8B/2B/4B）推理代码与权重及 SSS-Bench 评测资源已开放。",
-                  "link": "https://finance.sina.com.cn/jjxw/2026-11-11/doc-iniykqvy9009367.shtml",
-                  "tags": [
-                    "具身智能",
-                    "框架"
-                  ],
-                  "source": "新浪财经",
-                  "time": "11月11日消息"
-                }
-              ]
-            },
-            {
-              "title": "北京市经信局",
-              "news": [
-                {
-                  "title": "北京印发具身智能机器人三年行动方案",
-                  "summary": "北京市经济和信息化局印发《北京市具身智能机器人产业高质量发展行动方案（2026—2028年）》，提出建立面向具身智能机器人企业的上市一对一服务机制，目标到 2028 年培育不少于 5 家国际一流、10 家国内领先的人形机器人整机企业，并新增建设超 50000 PFLOPS 的具身智能专用算力集群。",
-                  "link": "https://news.qq.com/rain/a/20261112A042FP00",
-                  "tags": [
-                    "政策",
-                    "人形机器人"
-                  ],
-                  "source": "腾讯新闻",
-                  "time": "11月11日"
-                }
-              ]
-            }
-          ]
+          "cards": []
         },
         {
           "name": "AI出海",
@@ -442,66 +432,82 @@ window.__RAW_DATA = {
           "name": "投资资讯",
           "cards": [
             {
-              "title": "Stripe",
+              "title": "Agile Robots",
               "news": [
                 {
-                  "title": "Stripe 完成收购 OpenRouter",
-                  "summary": "支付公司 Stripe 确认，AI 模型网关 OpenRouter 已正式并入 Stripe，两家公司于 8 月宣布收购协议。OpenRouter 提供统一接口调用不同供应商模型，其数据显示 10 月处理 790 万亿 Token，环比增长 37%，智能体类 API 密钥占当月 Token 用量的 76%。",
-                  "link": "https://finance.sina.com.cn/tech/digi/2026-11-12/doc-iniymmzi1343683.shtml",
-                  "tags": [
-                    "并购",
-                    "网关"
-                  ],
-                  "source": "新浪财经",
-                  "time": "11月11日消息"
-                }
-              ]
-            },
-            {
-              "title": "利普思",
-              "news": [
-                {
-                  "title": "利普思获近亿元 B 轮融资",
-                  "summary": "国产半导体模块厂商利普思获近亿元 B 轮融资，新投资方为上海新微资本。本轮资金将主要用于加大 AIDC 相关产品研发和全球市场推广。利普思聚焦 SiC 功率模块等半导体产品。",
-                  "link": "https://news.qq.com/rain/a/20261111A0BJ4R00",
+                  "title": "Agile Robots 完成 5 亿美元融资",
+                  "summary": "11月12日，总部位于德国的机器人制造商 Agile Robots 宣布完成 5 亿美元融资，累计融资总额增至近 20 亿美元，公司估值达 85 亿美元。本轮由软银集团领投，英伟达、日立等参投，公司计划扩大美国市场业务，慕尼黑人形机器人工厂预计 2026 年生产约 2000 台。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881635432999847850",
                   "tags": [
                     "融资",
-                    "半导体"
+                    "人形机器人"
                   ],
-                  "source": "腾讯新闻",
-                  "time": "11月11日消息"
+                  "source": "百家号",
+                  "time": "11月12日"
                 }
               ]
             },
             {
-              "title": "泉智博科技",
+              "title": "曦选创智",
               "news": [
                 {
-                  "title": "智元机器人入股泉智博科技",
-                  "summary": "天眼查显示，无锡泉智博科技近日发生工商变更，新增智元创新（上海）科技股份有限公司、广东东方精工等为股东，注册资本增至约 1250.35 万元。该公司成立于 2023 年 6 月，经营范围包括智能机器人研发、人工智能理论与算法软件开发等。",
-                  "link": "https://www.cls.cn/detail/2528801",
-                  "tags": [
-                    "投资",
-                    "机器人"
-                  ],
-                  "source": "财联社",
-                  "time": "11月11日消息"
-                }
-              ]
-            },
-            {
-              "title": "TensorWorld",
-              "news": [
-                {
-                  "title": "TensorWorld 物原科技融资过亿美金",
-                  "summary": "成立仅四个月的 TensorWorld 物原科技完成过亿美金融资，公司定位要跑通“物理真实”路线，聚焦具身智能与物理世界建模。此轮融资体现了资本对物理真实方向具身智能公司的持续看好。",
-                  "link": "https://www.qbitai.com/2026/11/508991.html",
+                  "title": "曦选创智完成 5 亿元天使轮融资",
+                  "summary": "由优必选、沐曦股份、锋龙股份共同出资设立的具身智能端侧芯片企业曦选创智完成 5 亿元天使轮融资，投后估值 40 亿元。本轮由纪源资本、经纬创投联合领投，首颗自研芯片定位面向机器人的「大小脑一体」SoC，计划 2028 年推出首款 SoC 产品。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881647580580148079",
                   "tags": [
                     "融资",
-                    "具身智能"
+                    "端侧芯片"
                   ],
-                  "source": "量子位",
-                  "time": "11月11日消息"
+                  "source": "百家号",
+                  "time": "11月12日消息"
+                }
+              ]
+            },
+            {
+              "title": "纬钛机器人",
+              "news": [
+                {
+                  "title": "纬钛机器人完成数亿元 A 轮融资",
+                  "summary": "视触觉传感器研发商纬钛机器人近期完成数亿元 A 轮融资，由中车资本、永鑫方舟联合领投，银杏谷资本、木棉花基金、华仓资本、鲁信创投等机构参与投资，资金将用于推动视触觉传感器从技术引领走向规模化交付。",
+                  "link": "https://caifuhao.eastmoney.com/news/20261113065104088927610",
+                  "tags": [
+                    "融资",
+                    "视触觉"
+                  ],
+                  "source": "东方财富",
+                  "time": "11月12日消息"
+                }
+              ]
+            },
+            {
+              "title": "Torus",
+              "news": [
+                {
+                  "title": "Torus 完成 5 亿美元 C 轮融资",
+                  "summary": "11月11日，美国能源存储初创公司 Torus 宣布完成 5 亿美元 C 轮融资，由 Magnetar 领投，Iconiq Capital、Origin Ventures 和 Trinity Capital 等机构参与。资金将用于生产模块化 AI 数据中心产品 Foundry，将电池储能系统与 AI 计算设备集成在集装箱大小的模块中。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881572036999873335",
+                  "tags": [
+                    "融资",
+                    "数据中心"
+                  ],
+                  "source": "百家号",
+                  "time": "11月11日"
+                }
+              ]
+            },
+            {
+              "title": "通芯智能",
+              "news": [
+                {
+                  "title": "通芯智能完成数亿元融资，AGI 芯片将原型验证",
+                  "summary": "由朱松纯发起孵化的 AGI 芯片公司通芯智能完成数亿元种子及天使轮融资，首款 AGI 推理芯片计划 12 月初启动 FPGA 原型验证，云端产品对标英伟达 B300 系列。",
+                  "link": "https://m.jrj.com.cn/madapter/finance/2026/11/12130459116243.shtml",
+                  "tags": [
+                    "融资",
+                    "AGI芯片"
+                  ],
+                  "source": "金融界",
+                  "time": "11月12日消息"
                 }
               ]
             }
@@ -511,18 +517,82 @@ window.__RAW_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "国家数据局",
+              "title": "日本政府",
               "news": [
                 {
-                  "title": "我国算力总规模达 310 万 PFLOPS",
-                  "summary": "国家数据局披露，我国算力总规模已达到 310 万 PFLOPS，位居世界第二。该数据在全国数据标准化技术委员会第二次“标准周”期间披露，11 月 10 日开幕式上，全国数标委成立具身智能数据标准起草工作组及气象、卫生健康、电力、商务四个行业应用标准起草工作组。",
-                  "link": "https://www.yicai.com/news/103435015.html",
+                  "title": "日本拟对前沿 AI 企业设置处罚措施",
+                  "summary": "知情人士透露，日本政府正考虑要求人工智能相关企业落实安全保障措施，并对违规行为设置处罚，以应对先进 AI 带来的风险。该提案在一场围绕 AI 法律体系的闭门工作组会议上提出，主要针对前沿 AI 失控攻击风险，计划年底前公布改革方案。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881638879403547192",
                   "tags": [
-                    "算力",
-                    "标准"
+                    "AI监管",
+                    "政策"
                   ],
-                  "source": "第一财经",
-                  "time": "11月10日消息"
+                  "source": "百家号",
+                  "time": "11月12日消息"
+                }
+              ]
+            },
+            {
+              "title": "美国科技监督项目",
+              "news": [
+                {
+                  "title": "美科技监督项目呼吁收紧 AI 与数据中心监管",
+                  "summary": "美国科技监督项目为新国会的民主党人提供行动蓝图，呼吁持续对大型科技企业施压，出台社交媒体、人工智能、数据中心相关立法，并将本次中期选举称为「首届 AI 与科技问责选举」。",
+                  "link": "https://36kr.com/newsflashes/4066531710555011",
+                  "tags": [
+                    "AI监管",
+                    "政策"
+                  ],
+                  "source": "36氪",
+                  "time": "11月12日消息"
+                }
+              ]
+            },
+            {
+              "title": "魏小康",
+              "news": [
+                {
+                  "title": "魏小康谈大模型人才泡沫",
+                  "summary": "前字节、美团招聘负责人魏小康在《晚点 LatePost》访谈中表示，衡量大模型人才薪酬应先看能解决什么问题。他认为早期「百模大战」推高研究员薪酬却无法完成大模型研发，才是人才泡沫；随着竞争收敛，毕业生更难获面试机会。",
+                  "link": "https://original.ifeng.com/c/8xzvuedZ67x",
+                  "tags": [
+                    "人才",
+                    "观点"
+                  ],
+                  "source": "凤凰网",
+                  "time": "11月12日消息"
+                }
+              ]
+            },
+            {
+              "title": "美联航",
+              "news": [
+                {
+                  "title": "美联航禁止第三方 AI 助手代订机票",
+                  "summary": "美国联合航空宣布将限制未经授权的第三方个人 AI 助手访问订票系统，措施覆盖自有平台、旅行社和聚合平台。航司称向 AI 助手提供账户凭据可能暴露敏感信息，且值机等操作交由 AI 自动完成可能带来监管合规问题。",
+                  "link": "https://c.m.163.com/news/a/LBHARKCO0519U3I5.html",
+                  "tags": [
+                    "AI智能体",
+                    "限制"
+                  ],
+                  "source": "网易",
+                  "time": "当地时间11月11日"
+                }
+              ]
+            },
+            {
+              "title": "红果短剧",
+              "news": [
+                {
+                  "title": "红果短剧上线 AI 虚拟角色权属登记",
+                  "summary": "红果短剧创作者中心上线 AI 剧虚拟形象创编与确权功能，创作者可在发布前为虚拟角色提交真人肖像授权、上游 IP 授权或著作权登记证书，通过审核后生成权属记录，供后续使用角色或处理纠纷时查阅。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881623050249972482",
+                  "tags": [
+                    "确权",
+                    "AI应用"
+                  ],
+                  "source": "百家号",
+                  "time": "11月12日消息"
                 }
               ]
             }
@@ -641,108 +711,108 @@ window.__RAW_DATA = {
         },
         {
           "name": "OpenRouter",
-          "date": "2026-11-11",
+          "date": "2026-11-13",
           "link": "https://openrouter.ai/rankings",
           "rankings": [
             {
               "model": "DeepSeek V4.1 Flash 1017 (deepseek)",
-              "score": "53.2T tokens",
-              "change": "↓8%"
+              "score": "55.8T tokens",
+              "change": "↓1%"
             },
             {
               "model": "Hy4 (tencent)",
-              "score": "20.2T tokens",
-              "change": "↑>999%"
+              "score": "20.3T tokens",
+              "change": "↑405%"
             },
             {
               "model": "DeepSeek V4.1 Flash (deepseek)",
-              "score": "16.3T tokens",
-              "change": "↑1%"
+              "score": "16T tokens",
+              "change": "↓3%"
             },
             {
               "model": "GLM 5.3 Flash (z-ai)",
               "score": "12T tokens",
-              "change": "↓25%"
-            },
-            {
-              "model": "GPT-6 Luna (openai)",
-              "score": "7.16T tokens",
               "change": "↓20%"
             },
             {
-              "model": "Step 5 Preview (stepfun)",
-              "score": "6.88T tokens",
+              "model": "GPT-6 Luna (openai)",
+              "score": "7.43T tokens",
               "change": "↑2%"
             },
             {
               "model": "Claude Opus 5.5 (anthropic)",
-              "score": "6.65T tokens",
-              "change": "↓2%"
+              "score": "6.79T tokens",
+              "change": "↑4%"
             },
             {
-              "model": "Crouton Alpha (stealth)",
-              "score": "4.5T tokens",
-              "change": "↑657%"
-            },
-            {
-              "model": "Kimi K3.1 Pro (moonshotai)",
-              "score": "4.42T tokens",
-              "change": "↑32%"
-            },
-            {
-              "model": "GPT-6.1 Sol (openai)",
-              "score": "4.14T tokens",
+              "model": "Step 5 Preview (stepfun)",
+              "score": "6.73T tokens",
               "change": "↑1%"
             },
             {
+              "model": "Kimi K3.1 Pro (moonshotai)",
+              "score": "4.38T tokens",
+              "change": "↑24%"
+            },
+            {
+              "model": "GPT-6.1 Sol (openai)",
+              "score": "4.23T tokens",
+              "change": "↑17%"
+            },
+            {
               "model": "GLM 5.3 (z-ai)",
-              "score": "3.9T tokens",
+              "score": "3.88T tokens",
               "change": "↑9%"
             },
             {
+              "model": "MiMo-V2.6-Flash (xiaomi)",
+              "score": "3.62T tokens",
+              "change": "↑51%"
+            },
+            {
               "model": "MiniMax M3.1 Flash (minimax)",
-              "score": "3.83T tokens",
+              "score": "3.6T tokens",
               "change": "↓40%"
             },
             {
-              "model": "MiMo-V2.6-Flash (xiaomi)",
-              "score": "3.24T tokens",
-              "change": "↑26%"
+              "model": "Crouton Alpha (stealth)",
+              "score": "3.53T tokens",
+              "change": "↑125%"
             },
             {
               "model": "DeepSeek V4 Flash 0731 (deepseek)",
-              "score": "3.21T tokens",
-              "change": "↓14%"
+              "score": "3.24T tokens",
+              "change": "↓12%"
             },
             {
               "model": "Nemotron 3 Ultra (free) (nvidia)",
-              "score": "3.14T tokens",
-              "change": "↑7%"
+              "score": "3.19T tokens",
+              "change": "↑10%"
             },
             {
               "model": "Muse Spark 1.3 Contributor (meta)",
-              "score": "2.94T tokens",
-              "change": "↑12%"
+              "score": "2.99T tokens",
+              "change": "↑15%"
             },
             {
               "model": "Nemotron 3.5 Super VL (free) (nvidia)",
-              "score": "2.87T tokens",
-              "change": "↑2%"
+              "score": "2.91T tokens",
+              "change": "↑3%"
             },
             {
               "model": "Jev 1.13 (typesafe)",
-              "score": "2.82T tokens",
+              "score": "2.8T tokens",
               "change": "↓7%"
             },
             {
               "model": "Claude Haiku 5.5 (anthropic)",
-              "score": "2.78T tokens",
-              "change": "↓3%"
+              "score": "2.79T tokens",
+              "change": "—"
             },
             {
               "model": "Claude Sonnet 5.5 (anthropic)",
-              "score": "2.39T tokens",
-              "change": "↓4%"
+              "score": "2.44T tokens",
+              "change": "↑6%"
             }
           ]
         },
