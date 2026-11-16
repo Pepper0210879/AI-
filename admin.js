@@ -3,7 +3,7 @@ const CONFIRMED_KEY = 'ai-news-confirmed';
 
 // 默认数据结构（与 script.js 中的 NEWS_DATA 一致）
 const DEFAULT_DATA = {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "sections": {
     "overseas": {
       "vendors": [
@@ -11,26 +11,26 @@ const DEFAULT_DATA = {
           "name": "OpenAI",
           "news": [
             {
-              "title": "OpenAI 以 1.25 万亿美元估值融资 150 亿美元",
-              "summary": "11月12日消息，据报道，OpenAI 以 1.25 万亿美元的估值完成新一轮 150 亿美元融资。这是 OpenAI 在估值持续攀升后的又一次大规模融资，体现出资本市场对其前沿模型研发与商业化前景的持续看好，也为其后续算力与人才投入提供弹药。",
-              "link": "https://36kr.com/newsflashes/4067372022305664",
+              "title": "OpenAI 撤销独立机器人团队，并入通用模型研究",
+              "summary": "11月14日消息，OpenAI 向《财富》证实已撤销独立机器人团队，机器人研究人员并入首席研究官 Mark Chen 领导的核心研究团队，机器人应用与硬件团队转入总裁 Greg Brockman 负责的应用部门。OpenAI 表示研究人员原计划沿 Sora 路线推进机器人研究，后发现 GPT-6 Astra 等通用模型可直接执行部分机器人任务，故将机器人研究并入更广泛的模型研发工作。",
+              "link": "https://news.china.com/socialgd/10000169/20261114/49871513_all.html",
               "tags": [
-                "融资",
-                "估值"
+                "机器人",
+                "组织架构"
               ],
-              "source": "36氪",
-              "time": "11月12日消息"
+              "source": "中华网",
+              "time": "11月14日消息"
             },
             {
-              "title": "ChatGPT Finances 财务功能扩展至 Mac 桌面",
-              "summary": "OpenAI 宣布 ChatGPT Finances 个人财务管理功能扩展至 Mac 桌面端，用户更新应用后即可在侧边栏财务入口连接银行、信用卡及投资账户，在 macOS 上查看余额、分析消费、管理订阅并跟踪投资组合。",
-              "link": "https://cloud.tencent.com/developer/news/3927655",
+              "title": "Flinn AI 起诉 OpenAI、Anthropic 侵犯神经网络专利",
+              "summary": "11月13日消息，人工智能公司 Flinn AI 向美国特拉华州地区法院提起诉讼，指控 OpenAI 与 Anthropic 侵犯其联合发明人 Steven Flinn 和 Naomi Mannipeni 获得的五项专利。这些发明可追溯至 2015 年末至 2016 年初，诉状称其旨在保护基于注意力机制的神经网络技术，而该技术构成现代生成式 AI 系统的重要功能基础。",
+              "link": "https://baijiahao.baidu.com/s?id=1881701528297281361",
               "tags": [
-                "财务管理",
-                "桌面端"
+                "专利诉讼",
+                "注意力机制"
               ],
-              "source": "腾讯云",
-              "time": "11月12日消息"
+              "source": "百家号",
+              "time": "11月13日消息"
             }
           ]
         },
@@ -38,15 +38,25 @@ const DEFAULT_DATA = {
           "name": "Anthropic",
           "news": [
             {
-              "title": "Claude 10 月访问量环比增长近 24%",
-              "summary": "Similarweb 数据显示，Claude 网站在 10 月访问量环比增长 23.78%，增幅超过 ChatGPT 的 2.15% 和 Gemini 的负增长。Claude 官网当月获得约 12.53 亿次访问，创自身纪录并升至全球网站第 25 位，正冲刺 IPO 的 Anthropic 用户增长动能强劲。",
-              "link": "https://www.aibase.com/zh/news/32283",
+              "title": "Anthropic「史上最严」Claude 封号机制正式生效",
+              "summary": "11月12日消息，Anthropic 被称为「Claude 史上最严封号机制」正式生效，明确地区准入的穿透式审查标准，封堵壳公司、代理中转等绕开地区限制的方式。新规覆盖 Claude.ai、Claude Code、API 及云服务商渠道，划分三类准入限制：使用者物理位置、经营主体注册地及受受限地区主体持股控制的企业均受限。",
+              "link": "https://www.sina.cn/news/detail/5364827666514244.html",
               "tags": [
-                "访问量",
-                "增长"
+                "封号",
+                "地区准入"
               ],
-              "source": "AIbase",
+              "source": "新浪",
               "time": "11月12日消息"
+            },
+            {
+              "title": "Claude 出现大量报错，Anthropic 官方称正在调查",
+              "summary": "11月14日消息，Claude.ai 与 Claude Code 出现大量身份验证报错，Anthropic 官方发布公告称「正在调查用户在 Claude.ai 和 Claude Code 上进行身份验证时遇到的问题」，并表示将尽快提供最新进展。",
+              "link": "https://i.ifeng.com/c/8y1XGNpJd2q",
+              "tags": [
+                "服务故障"
+              ],
+              "source": "凤凰网",
+              "time": "11月14日消息"
             }
           ]
         },
@@ -54,15 +64,26 @@ const DEFAULT_DATA = {
           "name": "Google",
           "news": [
             {
-              "title": "谷歌发布 Gemini 4 Hydrogen 模型",
-              "summary": "谷歌发布 Gemini 4 Hydrogen，主打日常编程与多步智能体任务。在默认高思考等级下，Hydrogen 完成任务速度约为 Gemini 3.8 Flash 的 2.5 倍；在 Terminal-Bench 4.1 中得分 57%，高于后者的 18.2%。模型支持约 100 万 token 上下文，输入与输出每百万 token 分别收费 1.50 美元和 7.50 美元，已开始面向 Gemini 应用、Google 搜索、AI Studio 等推出。",
-              "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+              "title": "Gemini 接入 Google 钱包，可整理账单与订阅扣款",
+              "summary": "当地时间11月13日消息，谷歌开始向美国 Gemini 用户推送 Google 钱包连接功能，覆盖网页版与移动应用。用户可在聊天中通过 @Google Wallet 查询消费记录，或经 Plaid 接入银行账户。Gemini 可生成支出图表、找出跨账户定期扣款并标注涨价项目，采用只读访问机制，不涉及资金转移。",
+              "link": "https://baijiahao.baidu.com/s?id=1881831154954135794",
               "tags": [
-                "大模型",
-                "编程"
+                "个人财务",
+                "钱包"
               ],
-              "source": "Google Blog",
-              "time": "当地时间11月12日"
+              "source": "百家号",
+              "time": "当地时间11月13日消息"
+            },
+            {
+              "title": "谷歌发布 Antigravity Teamwork 多智能体系统",
+              "summary": "11月13日消息，谷歌扩展 Antigravity 平台发布 Teamwork 多智能体系统，利用多个专业 AI 智能体协同工作，成功验证多项复杂数学证明。系统让不同专长的智能体分工协作，为复杂推理任务提供新的解决范式。",
+              "link": "https://baijiahao.baidu.com/s?id=1881815607519244841",
+              "tags": [
+                "多智能体",
+                "数学推理"
+              ],
+              "source": "百家号",
+              "time": "11月13日消息"
             }
           ]
         },
@@ -70,48 +91,15 @@ const DEFAULT_DATA = {
           "name": "xAI",
           "news": [
             {
-              "title": "SpaceX 与特斯拉合并谈判取得进展",
-              "summary": "据彭博社报道，马斯克旗下 SpaceX 与特斯拉的合并谈判正取得进展，双方最早可能于今年 12 月宣布交易，有望创下全球企业并购规模纪录，也有讨论把公告时间推迟至 2027 年初。此前 SpaceX 已在季报中披露设立特别委员会评估合并可能。",
-              "link": "https://finance.sina.com.cn/stock/usstock/c/2026-11-13/doc-iniypksr1495342.shtml",
+              "title": "马斯克：将签名支持黄仁勋复职英伟达 CEO 的请愿",
+              "summary": "11月14日消息，马斯克在 X 平台回复一则讨论英伟达员工如何争取黄仁勋复职的帖子时表示「目前正在进行要求黄仁勋复职的请愿活动，我也会签名」。此前英伟达员工通过内网发帖呼吁董事会请回黄仁勋，帖子已获逾 1600 条评论。",
+              "link": "https://finance.sina.com.cn/tech/csj/2026-11-14/doc-iniysvma7300079.shtml",
               "tags": [
-                "并购",
-                "谈判"
+                "英伟达",
+                "请愿"
               ],
               "source": "新浪财经",
-              "time": "11月12日消息"
-            },
-            {
-              "title": "马斯克：SpaceX 乐意收回 Anthropic 租用的算力",
-              "summary": "针对 Anthropic 可能在 2027 年年中后停止租用 SpaceX 算力的消息，马斯克回应称 SpaceX 乐意收回相关算力，但他认为实际情况可能恰恰相反。Anthropic 招股文件披露，两份算力协议初始不可取消期分别于 2027 年 1 月和 3 月结束。",
-              "link": "https://baijiahao.baidu.com/s?id=1881628534821740113",
-              "tags": [
-                "算力",
-                "租约"
-              ],
-              "source": "百家号",
-              "time": "当地时间11月11日"
-            },
-            {
-              "title": "SpaceX 拟投 740 亿美元建 AI 算力园区",
-              "summary": "SpaceX 宣布计划在得克萨斯州和亚利桑那州投入超过 740 亿美元，建设两座面向人工智能的超级计算数据中心园区，标志着这家火箭公司正加速向 AI 算力基础设施扩张，其中亚利桑那项目约占 500 亿美元。",
-              "link": "https://baijiahao.baidu.com/s?id=1881678305900105426",
-              "tags": [
-                "算力",
-                "数据中心"
-              ],
-              "source": "百家号",
-              "time": "11月12日消息"
-            },
-            {
-              "title": "xAI 发布 Grok Bot 1.0 智能体",
-              "summary": "马斯克旗下 xAI 正式发布 Grok Bot 1.0，让 AI 智能体进入群聊接活、替用户开会，并能指挥其他 AI 完成多步任务，将 AI 从对话助手推向可与团队协同工作的执行层。",
-              "link": "https://zhuanlan.zhihu.com/p/2104288395677774060",
-              "tags": [
-                "智能体",
-                "发布"
-              ],
-              "source": "知乎",
-              "time": "11月12日消息"
+              "time": "11月14日消息"
             }
           ]
         },
@@ -119,87 +107,55 @@ const DEFAULT_DATA = {
           "name": "NVIDIA",
           "news": [
             {
-              "title": "英伟达宣布黄仁勋辞去 CEO 职务即刻生效",
-              "summary": "11月12日，英伟达宣布，公司董事会已批准黄仁勋辞去公司总裁、首席执行官及董事职务，即刻生效。现任 CFO 科莱特·克雷斯出任临时 CEO 并继续兼任 CFO，哈维·琼斯出任首任董事会主席，董事会已启动正式 CEO 遴选。黄仁勋自 1993 年参与创立英伟达以来掌舵 33 年，仍是公司最大个人股东。",
-              "link": "https://baijiahao.baidu.com/s?id=1881661371188606118",
+              "title": "英伟达员工请愿黄仁勋回归，市值重返美股第二",
+              "summary": "11月13日消息，据《连线》报道，英伟达资深工程师通过内网「建议箱」发帖要求董事会先听取员工意见，帖子获逾 1600 条评论，内部投票超 97% 员工支持黄仁勋复职。美东时间 11 月 13 日英伟达收报 162.85 美元，市值约 3.92 万亿美元，重返美股第二；本周累计下跌 12.7%，市值蒸发超 5730 亿美元。",
+              "link": "https://c.m.163.com/news/a/LBKMLTB70511D6RL.html",
               "tags": [
-                "人事",
-                "辞职"
-              ],
-              "source": "百家号",
-              "time": "11月12日"
-            },
-            {
-              "title": "特朗普：库克是唯一能接替黄仁勋的人选",
-              "summary": "黄仁勋辞职后，美国总统特朗普表示，唯一能接替黄仁勋的人选只有苹果执行董事长蒂姆·库克，并称「让一位传奇人物接替另一位传奇」。此番表态引发外界对英伟达下一任 CEO 人选的广泛关注。",
-              "link": "https://baijiahao.baidu.com/s?id=1881703326020297819",
-              "tags": [
-                "人事",
-                "接任"
-              ],
-              "source": "百家号",
-              "time": "11月12日"
-            },
-            {
-              "title": "马斯克：聘用黄仁勋将是我的荣幸",
-              "summary": "黄仁勋辞去英伟达 CEO 后，有网友喊话马斯克聘请黄仁勋，马斯克在社交媒体回应称「那将会是我的荣幸」。此前黄仁勋因婚外情风波面临离职压力，其去向成为科技圈关注焦点。",
-              "link": "https://c.m.163.com/news/a/LBI0FC4L0511D6RL.html",
-              "tags": [
-                "人事",
-                "回应"
+                "CEO更替",
+                "股价"
               ],
               "source": "网易",
-              "time": "11月12日消息"
-            },
-            {
-              "title": "美国拟扩大英伟达 AI 芯片出口管制",
-              "summary": "据 The Information 报道，美国商务部正制定新的出口管制规则，拟对新加坡、马来西亚、泰国、印度尼西亚、巴西、挪威及南非等国实施更严格的 AI 芯片出口许可要求，以限制中国企业通过当地数据中心租用英伟达 Blackwell 及更新一代芯片的算力。",
-              "link": "https://baijiahao.baidu.com/s?id=1881637514425618750",
-              "tags": [
-                "出口管制",
-                "政策"
-              ],
-              "source": "百家号",
-              "time": "11月12日"
-            },
-            {
-              "title": "美国司法部对英伟达启动反垄断等多项调查",
-              "summary": "黄仁勋辞去英伟达 CEO 职务后，美国司法部正推进针对英伟达的反垄断调查，同时涉及 Megaspeed、超微电脑的另外两项调查也在进行中，目前暂无刑事起诉迹象。",
-              "link": "https://baijiahao.baidu.com/s?id=1881706161517133890",
-              "tags": [
-                "反垄断",
-                "调查"
-              ],
-              "source": "百家号",
               "time": "11月13日消息"
             },
             {
-              "title": "英伟达市值一度跌破 4 万亿美元",
-              "summary": "黄仁勋辞职消息公布后，英伟达股价盘前下跌约 10%，盘中市值一度跌破 4 万亿美元，两天蒸发约 4700 亿美元。竞争对手 AMD 和博通逆势上涨，投资者预期英伟达动荡或为竞争对手创造机会。",
-              "link": "https://sina.cn/news/detail/5364070054101199.html",
+              "title": "段永平：目前不会卖出英伟达，当天卖出不少看跌期权",
+              "summary": "11月13日消息，知名投资人段永平在回复网友提问时表示，目前不会卖出英伟达，实际上当天还卖出了不少看跌期权。此前他已清空英伟达正股，此番表态被市场解读为其对英伟达长期价值仍持信心。",
+              "link": "https://t.cj.sina.com.cn/articles/view/1659643027/62ec249302001uswu",
               "tags": [
-                "股价",
-                "市值"
+                "投资观点",
+                "期权"
               ],
-              "source": "新浪新闻",
-              "time": "11月12日消息"
+              "source": "新浪财经",
+              "time": "11月13日消息"
             },
             {
-              "title": "花旗等投行密集下调英伟达目标价",
-              "summary": "花旗将英伟达目标价从 285 美元下调至 225 美元，此前已于 11 月 10 日从 315 美元下调至 285 美元。花旗、富国银行等多家投行因领导层不确定性密集下调英伟达目标价，认为黄仁勋若离开将带来短期悬顶。",
-              "link": "https://finance.eastmoney.com/a/202611123929791291.html",
+              "title": "散户逆势抄底英伟达，开盘半小时买入 1.11 亿美元",
+              "summary": "11月13日消息，据 Vanda Analytics 数据，散户在开盘后半小时内买入约 1.11 亿美元的英伟达股票，创下该股有记录以来开盘阶段的最大散户买入规模。英伟达当日盘中一度跌至 158.39 美元，最终收跌 2.01%。",
+              "link": "https://www.techweb.com.cn/ucweb/news/id/2980521",
               "tags": [
-                "股价",
-                "评级"
+                "散户",
+                "抄底"
               ],
-              "source": "东方财富",
-              "time": "11月12日消息"
+              "source": "TechWeb",
+              "time": "11月13日消息"
             }
           ]
         },
         {
           "name": "Meta",
-          "news": []
+          "news": [
+            {
+              "title": "Meta 旗下 Muse 上线代打电话功能",
+              "summary": "11月14日消息，Meta 旗下 AI 智能体 Muse 上线代打电话功能，面向所有付费用户推出。用户可授权 Muse 帮助联络商家或保险公司等机构，由 AI 智能体代替自己完成电话沟通，标志着 AI 智能体从信息助手向实际代办事务迈进一步。",
+              "link": "https://i.ifeng.com/c/8y3R9ly8xnl",
+              "tags": [
+                "AI智能体",
+                "电话代办"
+              ],
+              "source": "凤凰网",
+              "time": "11月14日消息"
+            }
+          ]
         }
       ]
     },
@@ -211,59 +167,37 @@ const DEFAULT_DATA = {
         },
         {
           "name": "火山引擎",
-          "news": [
-            {
-              "title": "火山引擎发布 Seedance 2.5 flash 视频模型",
-              "summary": "11月12日，字节跳动推出视频生成模型 Seedance 2.5 flash。官方称生成速度较 Seedance 2.5 提升一倍，以 720P 文生视频、图生视频为例，生成价格约为每秒 0.99 元，降低约 34%。模型单次最长可生成 30 秒视频，输出 480P 或 720P，将陆续登陆即梦等平台，API 计划 11 月 15 日开放。",
-              "link": "https://baijiahao.baidu.com/s?id=1881633127007485979",
-              "tags": [
-                "视频生成",
-                "大模型"
-              ],
-              "source": "百家号",
-              "time": "11月12日"
-            },
-            {
-              "title": "豆包工作接入 Kimi、GLM、DeepSeek 模型",
-              "summary": "豆包工作宣布接入 Kimi K3.1 Pro、GLM 5.3 和 DeepSeek V4.1 Flash 等第三方模型，并在模型选择页标注额度消耗倍率，用户可在同一界面切换自研与第三方模型并查看相对额度消耗。",
-              "link": "https://news.qq.com/rain/a/20261112A07NYP00",
-              "tags": [
-                "智能体",
-                "多模型"
-              ],
-              "source": "腾讯新闻",
-              "time": "11月12日消息"
-            },
-            {
-              "title": "张一鸣：字节追平前沿技术最早要到 2029 年",
-              "summary": "11月12日，从多方知情人士处获悉，字节跳动创始人张一鸣近期在面向 AI 团队的全员会议上表示，字节有能力与 OpenAI 和 Anthropic 展开竞争，但真正追平前沿技术最早也要到 2029 年或 2030 年。张一鸣坦言，与海外顶尖 AI 公司相比，字节 Seed 系列模型的预训练数据集规模仍然偏少，这是字节 AI 当下最需要关注的问题。",
-              "link": "https://baijiahao.baidu.com/s?id=1881638928370686565",
-              "tags": [
-                "大模型",
-                "观点"
-              ],
-              "source": "百家号",
-              "time": "11月12日消息"
-            }
-          ]
+          "news": []
         },
         {
           "name": "DeepSeek",
-          "news": []
+          "news": [
+            {
+              "title": "DeepSeek 开放全家桶应用 API，可复刻官方 App",
+              "summary": "11月13日消息，DeepSeek 开放一组应用 API，把官方 App 与网页端使用的联网搜索、文件输入、链接阅读等工具接入现有对话接口。普通模式可按问题搜索网页并附引用，思考模式可在多步推理中继续搜索；语音、OCR、ASR、TTS 等底层能力也开放独立接口，可单独或组合调用。",
+              "link": "https://baijiahao.baidu.com/s?id=1881789490873220768",
+              "tags": [
+                "API",
+                "工具调用"
+              ],
+              "source": "百家号",
+              "time": "11月13日消息"
+            }
+          ]
         },
         {
           "name": "腾讯",
           "news": [
             {
-              "title": "腾讯张军回应裁员 50% 传闻：纯属谣言",
-              "summary": "针对网传腾讯裁员 50% 的说法，腾讯公关负责人张军回应称这是「纯纯的误会和谣言」，系对公司面向 AI 时代组织变革策略的误读。管理层用「陆军」「海军」比喻资源重新调度：约一半人守业提效，另一半探索 AI 原生业务，并非实际裁员比例。",
-              "link": "https://baijiahao.baidu.com/s?id=1881640948016109076",
+              "title": "腾讯混元发布实时语音模型 Hy Realtime",
+              "summary": "11月13日消息，腾讯混元发布全新实时语音模型 Hy Realtime，新增 Agentic 工具调用与唱歌能力，已在元宝语音通话、腾讯客服等产品上线，近期将上线腾讯云对外提供 API。模型能根据上下文判断是否联网搜索，演唱能力由混元与腾讯音乐 TME 灵音 AI 团队联合开发。",
+              "link": "https://baijiahao.baidu.com/s?id=1881733628518714554",
               "tags": [
-                "组织变革",
-                "辟谣"
+                "语音模型",
+                "Agentic"
               ],
               "source": "百家号",
-              "time": "11月12日消息"
+              "time": "11月13日消息"
             }
           ]
         },
@@ -291,130 +225,125 @@ const DEFAULT_DATA = {
           "name": "其他厂商",
           "cards": [
             {
-              "title": "长鑫",
+              "title": "微软",
               "news": [
                 {
-                  "title": "长鑫 DDR5 32Gb 颗粒落地，MRDIMM 达 12800Mbps",
-                  "summary": "长鑫科技副总裁骆晓东 11月12日披露 DDR5 产品线进展：颗粒完成 24Gb 至 32Gb 迭代，RDIMM 覆盖 32GB-128GB、5600-8000Mbps，MRDIMM 最高速率达 12800Mbps。受 AI 应用需求驱动，服务器市场需求占比超 50%，四季度 DRAM 供不应求态势延续。",
-                  "link": "https://baijiahao.baidu.com/s?id=1881641327147537830",
+                  "title": "微软 365 全球宕机，Outlook、Teams、Copilot 集体受影响",
+                  "summary": "11月13日消息，微软 Microsoft 365 出现全球性服务中断，Outlook、Teams 及 Copilot 等产品在至少 70 个国家无法使用，追踪平台 Downdetector 收到约 20 万份问题报告。微软初步认定故障源于此前一次网络容量升级留下的问题，与网络攻击或 AI agents 无关。",
+                  "link": "https://cloud.tencent.com/developer/article/2783498",
                   "tags": [
-                    "存储",
-                    "DDR5"
-                  ],
-                  "source": "百家号",
-                  "time": "11月12日"
-                }
-              ]
-            },
-            {
-              "title": "SK海力士",
-              "news": [
-                {
-                  "title": "消息称 SK 海力士 HBM4 良率突破 70%",
-                  "summary": "据报道，SK 海力士的 HBM4 良率近期已突破 70%，不过公司尚未正式公布具体数据。业界高度重视这一进展，若良率从 60% 提升至 70%，同等生产投入下合格品产量约增加 16.7%。",
-                  "link": "https://www.cls.cn/detail/2532546",
-                  "tags": [
-                    "存储",
-                    "HBM4"
-                  ],
-                  "source": "财联社",
-                  "time": "11月12日消息"
-                }
-              ]
-            },
-            {
-              "title": "三星",
-              "news": [
-                {
-                  "title": "三星谷歌 Gemini 智能眼镜开启预订",
-                  "summary": "三星与 Google 合作开发的智能眼镜已开放预订，12 月 10 日上市。Warby Parker 系列 395 美元起，Gentle Monster 系列 449-489 美元。眼镜搭载 1200 万像素摄像头、开放式扬声器和四颗麦克风，可通过 Gemini 询问眼前物体、听取导航指令或回复消息。",
-                  "link": "https://36kr.com/newsflashes/4067374695601285",
-                  "tags": [
-                    "智能眼镜",
-                    "Gemini"
-                  ],
-                  "source": "36氪",
-                  "time": "11月12日消息"
-                }
-              ]
-            },
-            {
-              "title": "思科",
-              "news": [
-                {
-                  "title": "思科第一财季营收增长 24%，上调 AI 预期",
-                  "summary": "思科当地时间 11 月 12 日公布 2027 财年第一季度财报：营收 185.17 亿美元，同比增长 24%；GAAP 净利润 45.52 亿美元，同比增长 59%。网络业务营收增长 43%，公司将面向大型云服务商的 AI 基础设施收入预期上调至 90 亿美元，预计较上财年增长一倍以上。",
-                  "link": "https://t.cj.sina.com.cn/articles/view/5999834179/1659e344302003t8em",
-                  "tags": [
-                    "财报",
-                    "AI基础设施"
-                  ],
-                  "source": "新浪财经",
-                  "time": "当地时间11月12日"
-                }
-              ]
-            },
-            {
-              "title": "应用材料",
-              "news": [
-                {
-                  "title": "应用材料第四财季营收增长 53%",
-                  "summary": "半导体设备厂商应用材料公布 2026 财年业绩：全年营收 344.46 亿美元，同比增长 21%；第四财季营收 104.1 亿美元，同比增长 53%。当季 DRAM 和先进封装收入均创纪录，沉积、刻蚀、抛光及制程控制业务也达收入新高。",
-                  "link": "https://m.21jingji.com/timeline/1599ca43fb12e95132ec4b9c0d13620d.html",
-                  "tags": [
-                    "财报",
-                    "半导体设备"
-                  ],
-                  "source": "21世纪经济报道",
-                  "time": "当地时间11月12日"
-                }
-              ]
-            },
-            {
-              "title": "鸿海",
-              "news": [
-                {
-                  "title": "鸿海第三季度净利润 775 亿新台币创新高",
-                  "summary": "11月12日，鸿海公布第三季度净利润 775.2 亿元新台币，创单季新高，季增 29%、年增 34%。公司预计 2027 年 AI 机柜出货量将实现高双位数增长、市占率提升，并上修全年展望。",
-                  "link": "https://baijiahao.baidu.com/s?id=1881634261760854050",
-                  "tags": [
-                    "财报",
-                    "AI机柜"
-                  ],
-                  "source": "百家号",
-                  "time": "11月12日"
-                }
-              ]
-            },
-            {
-              "title": "MiniMax",
-              "news": [
-                {
-                  "title": "MiniMax 开源 H3-Image 生图模型",
-                  "summary": "MiniMax 开源新一代生图模型 H3-Image，原生支持 4096×4096 分辨率输出，10 秒级生成 4K 图像，被称为当前最强开源生图模型之一，成本进一步下探。",
-                  "link": "https://cloud.tencent.com/developer/article/2781311",
-                  "tags": [
-                    "生图",
-                    "开源"
+                    "服务中断",
+                    "Copilot"
                   ],
                   "source": "腾讯云",
-                  "time": "11月12日消息"
+                  "time": "11月13日消息"
+                },
+                {
+                  "title": "微软资深 AI 科学家 John Langford 离职",
+                  "summary": "11月14日消息，微软资深人工智能科学家约翰·兰福德（John Langford）离职，结束其在微软逾 14 年的职业生涯。兰福德曾领导微软 AI Frontiers 实验室，其离职被外界视为微软在 AI 领域降本调整、技术创新难以落地背景下的又一信号。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881802258546073245",
+                  "tags": [
+                    "人事变动",
+                    "AI Frontiers"
+                  ],
+                  "source": "百家号",
+                  "time": "11月14日消息"
                 }
               ]
             },
             {
-              "title": "科大讯飞",
+              "title": "阿里",
               "news": [
                 {
-                  "title": "科大讯飞星火语音基座 SparkAudio 1.0 上线",
-                  "summary": "科大讯飞宣布，讯飞星火语音基座大模型 SparkAudio 1.0 已在讯飞开放平台上线 API 服务，支持 99 种语言、202 种方言，开发者可直接接入调用。",
-                  "link": "https://c.m.163.com/news/a/LBIJLIF00511B8LM.html",
+                  "title": "阿里上线 AI 写歌应用「快乐虾米」",
+                  "summary": "11月13日消息，阿里旗下「快乐虾米」登录 iOS 与安卓应用商店，输入故事、情绪或曲风即可生成带歌词和演唱的完整歌曲。应用由阿里 ATH 团队开发，今年 8 月先推网页测试版，原虾米音乐于 2021 年停止服务后，该应用让虾米品牌重回大众视野。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881726451546350197",
                   "tags": [
-                    "语音",
-                    "大模型"
+                    "AI音乐",
+                    "AIGC"
                   ],
-                  "source": "网易",
-                  "time": "11月12日消息"
+                  "source": "百家号",
+                  "time": "11月13日消息"
+                }
+              ]
+            },
+            {
+              "title": "Thinking Machines",
+              "news": [
+                {
+                  "title": "Thinking Machines 开放 Inkling 2 Small 模型权重",
+                  "summary": "11月14日消息，Thinking Machines Lab 将 Inkling 2 Small 模型权重上传至 Hugging Face，采用 Apache 2.0 许可。该模型为支持图像输入的混合专家模型，总参数 5940 亿、每次推理激活 170 亿，支持调节推理投入，已接入 vLLM、SGLang 等推理框架。",
+                  "link": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+                  "tags": [
+                    "开源",
+                    "MoE"
+                  ],
+                  "source": "Hugging Face",
+                  "time": "11月14日消息"
+                }
+              ]
+            },
+            {
+              "title": "可达智灵",
+              "news": [
+                {
+                  "title": "可达智灵发布织灵 2.5，从 AI 编程走向 AI 研发",
+                  "summary": "11月13日消息，可达智灵发布织灵 Coda Loom 2.5，以 ADF 数智研发工厂为核心，为企业提供 7×24 小时的 ADE 数字研发团队。本次升级围绕自主推进、组织沉淀、持续进化、跨越多端四个方向，核心变化是 AI 研发从个人提效走向组织能力沉淀。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881712223953944869",
+                  "tags": [
+                    "AI研发",
+                    "智能体"
+                  ],
+                  "source": "百家号",
+                  "time": "11月13日消息"
+                }
+              ]
+            },
+            {
+              "title": "Cloudflare",
+              "news": [
+                {
+                  "title": "Cloudflare 开源 AI 智能体专用浏览器 Kitesurf",
+                  "summary": "11月14日消息，Cloudflare 开源为 AI 智能体打造的专用浏览器 Kitesurf，让 AI 智能体摆脱传统 Chromium 进程的束缚，以更轻量高效的方式浏览网页。该项目面向开发者开放，旨在降低智能体执行网页操作的门槛。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881828902637307011",
+                  "tags": [
+                    "开源",
+                    "智能体浏览器"
+                  ],
+                  "source": "百家号",
+                  "time": "11月14日消息"
+                }
+              ]
+            },
+            {
+              "title": "Perplexity",
+              "news": [
+                {
+                  "title": "Perplexity Teammates 登陆 Mac 版应用",
+                  "summary": "11月13日消息，Perplexity 向 Mac 用户推出 Teammates「AI 队友」功能，Max 订阅用户可通过三步设置开启，让 AI 智能体协助完成搜索、信息整合等办公任务，实现所谓「躺平式办公」。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881797046315530918",
+                  "tags": [
+                    "AI智能体",
+                    "办公"
+                  ],
+                  "source": "百家号",
+                  "time": "11月13日消息"
+                }
+              ]
+            },
+            {
+              "title": "摩尔线程",
+              "news": [
+                {
+                  "title": "摩尔线程 S5000 复现清华大学 ProtCell 预训练",
+                  "summary": "11月14日消息，清华大学发布单细胞蛋白组基础模型 ProtCell，利用摩尔线程 MTT S5000 智算卡成功完成「虚拟细胞」预训练，训练规模达 3.8 亿细胞，复现误差仅 0.2%，展示了国产 GPU 在大规模生命科学计算中的能力。",
+                  "link": "https://www.elecfans.com/d/8945127.html",
+                  "tags": [
+                    "AI4Science",
+                    "国产GPU"
+                  ],
+                  "source": "电子发烧友",
+                  "time": "11月14日消息"
                 }
               ]
             }
@@ -436,82 +365,50 @@ const DEFAULT_DATA = {
           "name": "投资资讯",
           "cards": [
             {
-              "title": "Agile Robots",
+              "title": "LangChain",
               "news": [
                 {
-                  "title": "Agile Robots 完成 5 亿美元融资",
-                  "summary": "11月12日，总部位于德国的机器人制造商 Agile Robots 宣布完成 5 亿美元融资，累计融资总额增至近 20 亿美元，公司估值达 85 亿美元。本轮由软银集团领投，英伟达、日立等参投，公司计划扩大美国市场业务，慕尼黑人形机器人工厂预计 2026 年生产约 2000 台。",
-                  "link": "https://baijiahao.baidu.com/s?id=1881635432999847850",
+                  "title": "LangChain 完成 3 亿美元 C 轮融资，估值 30 亿美元",
+                  "summary": "11月14日消息，AI 智能体开发平台 LangChain 宣布完成 3 亿美元 C 轮融资，估值 30 亿美元，老股东 CapitalG 领投，GIC、DFJ Growth 首次参投。LangChain 表示已有逾 7000 家机构使用其 LangSmith 平台，公司计划于 11 月 20 日公布 LangSmith 新功能。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881795655684025457",
                   "tags": [
                     "融资",
-                    "人形机器人"
+                    "智能体平台"
                   ],
                   "source": "百家号",
-                  "time": "11月12日"
+                  "time": "11月14日消息"
                 }
               ]
             },
             {
-              "title": "曦选创智",
+              "title": "青葵智造",
               "news": [
                 {
-                  "title": "曦选创智完成 5 亿元天使轮融资",
-                  "summary": "由优必选、沐曦股份、锋龙股份共同出资设立的具身智能端侧芯片企业曦选创智完成 5 亿元天使轮融资，投后估值 40 亿元。本轮由纪源资本、经纬创投联合领投，首颗自研芯片定位面向机器人的「大小脑一体」SoC，计划 2028 年推出首款 SoC 产品。",
-                  "link": "https://baijiahao.baidu.com/s?id=1881647580580148079",
+                  "title": "青葵智造完成亿元 A 轮融资，聚焦 Physical AI",
+                  "summary": "11月14日消息，面向科学研发的 Physical AI 公司「青葵智造」完成亿元 A 轮融资，由创东方投资、飞荣达股份及金辉大数据共同参与。资金将用于核心技术研发、重点行业拓展及云实验室建设，加速自驱动实验室的产业化落地。",
+                  "link": "https://36kr.com/newsflashes/4067555949319041",
                   "tags": [
                     "融资",
-                    "端侧芯片"
+                    "Physical AI"
                   ],
-                  "source": "百家号",
-                  "time": "11月12日消息"
+                  "source": "36氪",
+                  "time": "11月14日消息"
                 }
               ]
             },
             {
-              "title": "纬钛机器人",
+              "title": "字节跳动",
               "news": [
                 {
-                  "title": "纬钛机器人完成数亿元 A 轮融资",
-                  "summary": "视触觉传感器研发商纬钛机器人近期完成数亿元 A 轮融资，由中车资本、永鑫方舟联合领投，银杏谷资本、木棉花基金、华仓资本、鲁信创投等机构参与投资，资金将用于推动视触觉传感器从技术引领走向规模化交付。",
-                  "link": "https://caifuhao.eastmoney.com/news/20261113065104088927610",
+                  "title": "字节跳动拟以 4000 亿美元估值回购至多 60 亿美元股份",
+                  "summary": "11月13日消息，字节跳动计划以约 4000 亿美元估值从现有投资者回购不超过 60 亿美元股份，回购价每股 241.35 美元，高于上轮。字节还计划向从事 AI 业务的员工提供合计 3 亿股与 AI 业务价值挂钩的股份，以奖励并留住 AI 人才。",
+                  "link": "https://www.techweb.com.cn/ucweb/news/id/2980543",
                   "tags": [
-                    "融资",
-                    "视触觉"
+                    "回购",
+                    "AI人才"
                   ],
-                  "source": "东方财富",
-                  "time": "11月12日消息"
-                }
-              ]
-            },
-            {
-              "title": "Torus",
-              "news": [
-                {
-                  "title": "Torus 完成 5 亿美元 C 轮融资",
-                  "summary": "11月11日，美国能源存储初创公司 Torus 宣布完成 5 亿美元 C 轮融资，由 Magnetar 领投，Iconiq Capital、Origin Ventures 和 Trinity Capital 等机构参与。资金将用于生产模块化 AI 数据中心产品 Foundry，将电池储能系统与 AI 计算设备集成在集装箱大小的模块中。",
-                  "link": "https://baijiahao.baidu.com/s?id=1881572036999873335",
-                  "tags": [
-                    "融资",
-                    "数据中心"
-                  ],
-                  "source": "百家号",
-                  "time": "11月11日"
-                }
-              ]
-            },
-            {
-              "title": "通芯智能",
-              "news": [
-                {
-                  "title": "通芯智能完成数亿元融资，AGI 芯片将原型验证",
-                  "summary": "由朱松纯发起孵化的 AGI 芯片公司通芯智能完成数亿元种子及天使轮融资，首款 AGI 推理芯片计划 12 月初启动 FPGA 原型验证，云端产品对标英伟达 B300 系列。",
-                  "link": "https://m.jrj.com.cn/madapter/finance/2026/11/12130459116243.shtml",
-                  "tags": [
-                    "融资",
-                    "AGI芯片"
-                  ],
-                  "source": "金融界",
-                  "time": "11月12日消息"
+                  "source": "TechWeb",
+                  "time": "11月13日消息"
                 }
               ]
             }
@@ -521,82 +418,34 @@ const DEFAULT_DATA = {
           "name": "行业趋势&观点",
           "cards": [
             {
-              "title": "日本政府",
+              "title": "Omdia",
               "news": [
                 {
-                  "title": "日本拟对前沿 AI 企业设置处罚措施",
-                  "summary": "知情人士透露，日本政府正考虑要求人工智能相关企业落实安全保障措施，并对违规行为设置处罚，以应对先进 AI 带来的风险。该提案在一场围绕 AI 法律体系的闭门工作组会议上提出，主要针对前沿 AI 失控攻击风险，计划年底前公布改革方案。",
-                  "link": "https://baijiahao.baidu.com/s?id=1881638879403547192",
+                  "title": "Omdia：2026 年全球 AI 软件收入将突破 2000 亿美元",
+                  "summary": "11月14日消息，据 Omdia《AI 软件市场预测》报告，2026 年全球 AI 软件收入将超过 2000 亿美元，达到 2024 年水平的两倍。Omdia 预测显示，生成式 AI 与代理式 AI 的需求均呈加速增长态势。",
+                  "link": "https://baijiahao.baidu.com/s?id=1881716164186070287",
                   "tags": [
-                    "AI监管",
-                    "政策"
+                    "市场预测",
+                    "生成式AI"
                   ],
                   "source": "百家号",
-                  "time": "11月12日消息"
+                  "time": "11月14日消息"
                 }
               ]
             },
             {
-              "title": "美国科技监督项目",
+              "title": "灵光（蚂蚁）",
               "news": [
                 {
-                  "title": "美科技监督项目呼吁收紧 AI 与数据中心监管",
-                  "summary": "美国科技监督项目为新国会的民主党人提供行动蓝图，呼吁持续对大型科技企业施压，出台社交媒体、人工智能、数据中心相关立法，并将本次中期选举称为「首届 AI 与科技问责选举」。",
-                  "link": "https://36kr.com/newsflashes/4066531710555011",
+                  "title": "灵光产品经理：为什么选择「托管量」评价个人 AI 助手",
+                  "summary": "11月14日消息，蚂蚁集团旗下 AI 应用灵光产品经理寺二近日接受《晚点》采访时表示，团队把「托管量」作为衡量个人 AI 助手的核心指标，统计用户交给应用持续跟进的事项。目前托管更多集中在监测和提醒，要进一步完成实际操作还需打通不同互联网平台的数据与接口。",
+                  "link": "https://t.cj.sina.com.cn/articles/view/7294209083/1b2c4cc3b00101xpxc",
                   "tags": [
-                    "AI监管",
-                    "政策"
-                  ],
-                  "source": "36氪",
-                  "time": "11月12日消息"
-                }
-              ]
-            },
-            {
-              "title": "魏小康",
-              "news": [
-                {
-                  "title": "魏小康谈大模型人才泡沫",
-                  "summary": "前字节、美团招聘负责人魏小康在《晚点 LatePost》访谈中表示，衡量大模型人才薪酬应先看能解决什么问题。他认为早期「百模大战」推高研究员薪酬却无法完成大模型研发，才是人才泡沫；随着竞争收敛，毕业生更难获面试机会。",
-                  "link": "https://original.ifeng.com/c/8xzvuedZ67x",
-                  "tags": [
-                    "人才",
+                    "个人AI助手",
                     "观点"
                   ],
-                  "source": "凤凰网",
-                  "time": "11月12日消息"
-                }
-              ]
-            },
-            {
-              "title": "美联航",
-              "news": [
-                {
-                  "title": "美联航禁止第三方 AI 助手代订机票",
-                  "summary": "美国联合航空宣布将限制未经授权的第三方个人 AI 助手访问订票系统，措施覆盖自有平台、旅行社和聚合平台。航司称向 AI 助手提供账户凭据可能暴露敏感信息，且值机等操作交由 AI 自动完成可能带来监管合规问题。",
-                  "link": "https://c.m.163.com/news/a/LBHARKCO0519U3I5.html",
-                  "tags": [
-                    "AI智能体",
-                    "限制"
-                  ],
-                  "source": "网易",
-                  "time": "当地时间11月11日"
-                }
-              ]
-            },
-            {
-              "title": "红果短剧",
-              "news": [
-                {
-                  "title": "红果短剧上线 AI 虚拟角色权属登记",
-                  "summary": "红果短剧创作者中心上线 AI 剧虚拟形象创编与确权功能，创作者可在发布前为虚拟角色提交真人肖像授权、上游 IP 授权或著作权登记证书，通过审核后生成权属记录，供后续使用角色或处理纠纷时查阅。",
-                  "link": "https://baijiahao.baidu.com/s?id=1881623050249972482",
-                  "tags": [
-                    "确权",
-                    "AI应用"
-                  ],
-                  "source": "百家号",
-                  "time": "11月12日消息"
+                  "source": "新浪财经",
+                  "time": "11月14日消息"
                 }
               ]
             }
