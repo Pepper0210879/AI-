@@ -129295,12 +129295,12 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "豆包工作 DAU 破 800 万，企业 ARR 超 20 亿",
                 "summary": "11月18日，字节跳动旗下 AI 办公产品豆包工作公布数据：上线仅三个月，日活跃用户数（DAU）突破 800 万，企业客户年度经常性收入（ARR）突破 20 亿元。豆包工作于今年 8 月 25 日正式发布，近期还接入 Kimi、GLM、DeepSeek 等第三方模型，并标注不同模型的额度消耗倍率。",
-                "link": "https://tech.hexun.com/2026-11-18/225294326.html",
+                "link": "https://k.sina.com.cn/article_5953740931_162dee083067045z6u.html",
                 "tags": [
                   "AI办公",
                   "企业服务"
                 ],
-                "source": "和讯网",
+                "source": "新浪新闻",
                 "time": "11月18日"
               },
               {
@@ -129349,12 +129349,12 @@ window.__SEED_CONFIRMED = {
               {
                 "title": "腾讯开源 Hy4 flash，支持百万 Token 上下文",
                 "summary": "11月18日，腾讯混元开源 Hy4 flash、Hy4 flash-FP8 和 Hy4 flash Base，开发者可通过 Hugging Face、ModelScope 和 GitCode 获取权重。模型原生支持文本、图像输入和文本输出，上下文窗口最高 100 万 Token，总参数 2200 亿，每 Token 激活约 120 亿参数，定位面向日常任务的低成本模型。",
-                "link": "https://tech.hexun.com/2026-11-18/225291983.html",
+                "link": "https://www.ithome.com/1/028/701.htm",
                 "tags": [
                   "开源",
                   "大模型"
                 ],
-                "source": "和讯网",
+                "source": "IT之家",
                 "time": "11月18日"
               },
               {
